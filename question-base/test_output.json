@@ -1,0 +1,286 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-EE-UN-001",
+    "name": "20251105_checklist_gestao_agil",
+    "block": "Organização",
+    "pilar": "Estrutura e Gestão",
+    "dimension": "",
+    "description": "Dimensão: Competência de Liderança Resumo Descritivo Prontidão do núcleo de liderança para alavancar os conceitos e tecnologias mais recentes de gestão ágil para a relevância e competitividade contínua da organização. A gestão ágil representa uma técnica moderna de gerenciamento que permite às organizações reagir de forma flexível e rápida a mercados turbulentos. Sob a Indústria 4.0, as organizações podem adotar estruturas organizacionais mais horizontais e permitir tomada de decisão descentralizada, tornando-se mais responsivas às mudanças. Esta capacidade avalia a familiaridade e aplicação da liderança com práticas ágeis modernas como Scrum, Kanban, SAFe, Lean, e princípios ágeis (iterações curtas, feedback contínuo, adaptação, autonomia de times). Nos níveis mais baixos, examina-se a familiaridade da equipe de gestão com os conceitos mais recentes de gestão ágil. À medida que a empresa progride, a dimensão mede a habilidade da equipe de liderança de desenhar, executar e adaptar estratégias de transformação ágil de forma independente para garantir a relevância da empresa no longo prazo.",
+    "related_capacities": [
+      "Estrutura organizacional flexível",
+      "Tomada de decisão descentralizada",
+      "Colaboração inter e intra-empresarial",
+      "Abertura à inovação",
+      "Tolerância a erros",
+      "Aprendizado contínuo",
+      "Empoderamento de equipes"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Ewerton",
+      "version": "1.0",
+      "last_updated": "2025-11-29",
+      "source_docx": "20251105_checklist_gestao_agil.docx",
+      "status": "draft",
+      "co_authors": null
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-EE-UN-001-001",
+      "question_number": 1,
+      "title": "Prontidão para Aplicação de Técnicas de Gestão Ágil",
+      "text": "Qual é a prontidão da liderança para alavancar conceitos e técnicas de gestão ágil (Scrum, Kanban, Lean, SAFe, etc.) para a transformação organizacional?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Não familiarizada",
+          "description": "A liderança não está familiarizada com os conceitos e práticas mais recentes de gestão ágil. A gestão desconhece os conceitos mais recentes que podem viabilizar a próxima fase de avanço da organização."
+        },
+        {
+          "level": 1,
+          "label": "Conhecimento Limitado",
+          "description": "A liderança tem alguma consciência, através de canais ad hoc, dos conceitos e práticas mais recentes de gestão ágil. A gestão está parcialmente familiarizada com os conceitos mais recentes que podem viabilizar a próxima fase de avanço."
+        },
+        {
+          "level": 2,
+          "label": "Informada",
+          "description": "A liderança está bem informada, através de canais e vias formais, sobre os conceitos e práticas mais recentes de gestão ágil. A gestão está totalmente familiarizada com os conceitos mais recentes que podem viabilizar a próxima fase de avanço."
+        },
+        {
+          "level": 3,
+          "label": "Semi-dependente",
+          "description": "A liderança depende de parceiros externos para desenvolver iniciativas que alavancam os conceitos mais recentes de gestão ágil para melhorar pelo menos uma área da organização. Com assistência externa, a gestão é capaz de aplicar os conceitos mais recentes para viabilizar melhorias em pelo menos uma área."
+        },
+        {
+          "level": 4,
+          "label": "Independente",
+          "description": "A liderança é capaz, com relativa independência, de desenvolver iniciativas que alavancam os conceitos e técnicas mais recentes de gestão ágil para melhorar mais de uma área da organização. A gestão é capaz de aplicar os conceitos mais recentes para viabilizar melhorias em múltiplas áreas."
+        },
+        {
+          "level": 5,
+          "label": "Adaptativa",
+          "description": "A liderança é capaz de adaptar independentemente seu framework de transformação organizacional baseado em gestão ágil conforme os conceitos e tecnologias mudam. A gestão é capaz de incrementar suas iniciativas de melhoria conforme os conceitos mais recentes de gestão ágil mudam ou evoluem ao longo do tempo."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-UN-001-002",
+      "question_number": 2,
+      "title": "Suporte e Comprometimento da Alta Gestão",
+      "text": "Qual é o nível de patrocínio executivo, investimento de recursos e envolvimento ativo da liderança sênior na transformação ágil?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A alta gestão não tem conhecimento ou envolvimento com iniciativas de gestão ágil."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A alta gestão tem conhecimento superficial sobre gestão ágil, mas não demonstra apoio ativo ou compromisso."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A alta gestão aprova iniciativas ágeis pontualmente, mas com recursos limitados e baixo envolvimento direto."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A alta gestão patrocina formalmente iniciativas ágeis, aloca recursos específicos, mas o envolvimento é esporádico."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A alta gestão está ativamente envolvida, participa de cerimônias-chave, remove impedimentos e monitora progresso regularmente."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A alta gestão lidera a transformação ágil, investe significativamente, participa de treinamentos e modela comportamentos ágeis."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A alta gestão incorporou completamente mindset ágil, promove cultura de experimentação, e a agilidade é parte da estratégia corporativa."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-UN-001-003",
+      "question_number": 3,
+      "title": "Envolvimento e Colaboração com Cliente/Stakeholder",
+      "text": "Qual é a frequência, qualidade e intensidade da participação de clientes/stakeholders no processo de desenvolvimento e tomada de decisão?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Clientes/stakeholders não participam do processo; requisitos são coletados uma vez no início."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Contato mínimo com clientes/stakeholders; feedback solicitado apenas em gates formais (trimestral/anual)."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Clientes/stakeholders são consultados mensalmente; feedback é coletado mas nem sempre incorporado."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Clientes/stakeholders participam de revisões a cada sprint/iteração; feedback influencia backlog."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Clientes/stakeholders são membros ativos do processo; validam incrementos, participam de refinamentos e priorizam backlog."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Clientes/stakeholders trabalham de forma integrada com o time; disponíveis para esclarecimentos contínuos; co-criam soluções."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Clientes/stakeholders são parte do time estendido; tomam decisões de produto em tempo real; relacionamento de parceria estratégica."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-UN-001-004",
+      "question_number": 4,
+      "title": "Prontidão e Adequação da Cultura Organizacional",
+      "text": "Qual é o grau de alinhamento entre os valores culturais existentes (confiança, abertura, tolerância a erros, colaboração) e os requisitos da cultura ágil?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Cultura organizacional é rigidamente hierárquica, avessa a riscos, com baixa tolerância a erros e comunicação top-down."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Cultura predominantemente tradicional com silos; tentativas de colaboração encontram resistência; erros são punidos."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Cultura em transição; alguns bolsões de colaboração; erros começam a ser vistos como aprendizado, mas inconsistentemente."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Cultura parcialmente alinhada; colaboração é valorizada; erros são tratados de forma mais construtiva; ainda há hierarquia significativa."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Cultura favorável à agilidade; alta confiança entre áreas; erros são oportunidades de aprendizado; transparência é norma."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Cultura fortemente ágil; experimentação é incentivada; feedback aberto é prática comum; autonomia e responsabilidade equilibradas."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Cultura totalmente ágil; segurança psicológica plena; celebração de aprendizado; auto-organização natural; mindset de crescimento."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-UN-001-005",
+      "question_number": 5,
+      "title": "Treinamento, Coaching e Desenvolvimento Contínuo",
+      "text": "Qual é a qualidade, abrangência e continuidade dos programas de capacitação em práticas ágeis, incluindo coaching e mentoring?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existe nenhum programa de treinamento ou capacitação em práticas ágeis."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Treinamentos pontuais e esporádicos são oferecidos, sem continuidade ou acompanhamento."
+        },
+        {
+          "level": 2,
+          "label": "Existe um programa básico de treinamento inicial (ex",
+          "description": "Scrum Foundation), mas sem coaching ou follow-up."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Programa de treinamento estruturado com múltiplos níveis; coaching disponível sob demanda; sem plano de desenvolvimento contínuo."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Programa abrangente de capacitação (básico a avançado); coaches/Scrum Masters dedicados; trilhas de desenvolvimento definidas."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Programa maduro e integrado ao plano de carreira; coaching contínuo; comunidades de prática ativas; orçamento dedicado para certificações."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Cultura de aprendizado contínuo institucionalizada; coaching peer-to-peer; times são ambientes de aprendizagem; investimento estratégico em desenvolvimento."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-UN-001-006",
+      "question_number": 6,
+      "title": "Gestão da Mudança e Transformação Organizacional",
+      "text": "Qual é o nível de estruturação do processo de transformação ágil, incluindo assessment de prontidão, plano de mudança, gestão de resistências e sustentabilidade?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existe processo estruturado; mudanças acontecem de forma ad hoc sem planejamento ou acompanhamento."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Iniciativas isoladas sem coordenação; falta assessment de prontidão; resistências não são gerenciadas sistematicamente."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existe um plano básico de transformação, mas sem assessment formal de prontidão; gestão de mudança reativa."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Plano de transformação estruturado com fases definidas; assessment de prontidão realizado; gestão de mudança presente mas não integrada."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Programa abrangente de transformação com governance clara; change management integrado; métricas de acompanhamento; gestão ativa de resistências."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Transformação estruturada em múltiplas ondas/fases; assessment contínuo; change management profissional; adaptação baseada em lições aprendidas."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Transformação é contínua e adaptativa; capacidade organizacional de mudança institucionalizada; experimentação e evolução constantes; sustentabilidade garantida."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "capacity": {
+    "id": "CAP-TEC-AU-SF-001",
+    "name": "Design de interfaces orientado à tarefa",
+    "block": "Tecnologia",
+    "pilar": "Automação",
+    "dimension": "Shop Floor (Chão de Fábrica) (D4)",
+    "description": "Shop Floor (Chão de Fábrica) (D4) Resumo Descritivo Esta dimensão avalia o grau e a flexibilidade da automação e sua integração em múltiplos sistemas no local onde a produção e gestão de bens são realizadas. O foco é otimizar os níveis gerais de automação dos processos de produção e, em estágios mais altos, permitir a reconfiguração flexível de máquinas para fabricar maior variedade de produtos com prazos curtos.",
+    "related_capacities": [
+      "Design de interfaces orientado à tarefa Interface de usuário específica"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Wilson Melo Jr",
+      "version": "1.0",
+      "last_updated": "2025-11-29",
+      "source_docx": "Shop Floor (D4).docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-TEC-AU-SF-001-001",
+      "question_number": 1,
+      "title": "Adequabilidade das interfaces ao operador",
+      "text": "A informação digital se adapta dinamicamente (em conteúdo e formato) à necessidade específica do operador para a tarefa em questão?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A informação para execução de tarefas é exclusivamente analógica (e.g., impressa em papel ou transmitida verbalmente)."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A informação é digital (e.g., em PDFs ou planilhas estáticas), mas é genérica, não filtrada e não se adapta à tarefa."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "As interfaces são digitais e conseguem filtrar dados (usando apps ou sistemas de TI/OT), mostrando informações relevantes para a área de trabalho ou a máquina, mas não se ajustam dinamicamente à progressão da tarefa."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "O conteúdo da interface é continuamente ajustado à tarefa que está sendo realizada, assegurando que apenas a informação relevante seja entregue no momento oportuno (princípio push)."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O conteúdo e a apresentação da interface são adaptados não só à tarefa, mas também ao nível de habilidade e competência do funcionário que está utilizando o sistema."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "O sistema de assistência é capaz de diagnosticar e prever desvios (erros potenciais) antes que ocorram, ajustando proativamente a interface para guiar o operador à otimização da tarefa em tempo real."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema de informação é auto-aprendiz e entrega conhecimento continuamente contextualizado, permitindo que os operadores participem ativamente no desenho e aprimoramento da interface, focando em autocontrole e melhoria contínua."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-AU-SF-001-002",
+      "question_number": 2,
+      "title": "Design de Interfaces Homem/Máquina (HMI) sensível a contexto",
+      "text": "O design de HMI dos sistemas de assistência no Chão de Fábrica utiliza tecnologias de visualização e informação sensível ao contexto para orientar o operador na execução de tarefas?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "As interfaces são inexistentes ou predominantemente manuais/analógicas."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "As interfaces HMI digitais executam tarefas pré-programadas e são genéricas."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existem interfaces digitais HMI conectadas que fornecem informações básicas, mas não são totalmente orientadas à tarefa."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "O design das interfaces é orientado à tarefa e fornece informação contexto-sensível em tempo real."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "As interfaces integram sistemas de assistência que não só identificam desvios, mas também diagnosticam as potenciais causas."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "As interfaces e sistemas de assistência integram análise preditiva para prever futuros estados de ativos e sistemas (manutenção preditiva, qualidade)."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "As interfaces facilitam a operação reconfigurável e autônoma, minimizando a intervenção humana."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-AU-SF-001-003",
+      "question_number": 3,
+      "title": "Impacto das interfaces de Chão de Fábrica",
+      "text": "Qual o impacto do formato (e.g., AR, tabelas, voz) e tempo de entrega das interfaces no Chão de Fábrica na otimização das atividades do operador?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "As interfaces específicas de usuário são inexistentes ou não digitais, não é possível avaliar seu impacto em termos de otimização de atividades."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "As interfaces HMI são genéricas e não contextuais, os níveis de otimização são mínimos."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Há interfaces digitais conectadas, mas o fornecimento de informação é baseado no princípio pull (o operador busca a informação), logo os níveis de otimização dependem exclusivamente do agente humano."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "As interfaces fornecem informação contexto-sensível em tempo real e o conteúdo é ajustado à tarefa em execução, habilitando processos automáticos de otimização."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "As interfaces integram sistemas de assistência que, além de mostrar o estado atual, diagnosticam as causas prováveis dos desvios, ajudando o operador a \"entender\" (understanding) por que algo está acontecendo."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "As interfaces exibem informação preditiva, permitindo que o operador \"esteja preparado\" (being prepared) para cenários futuros (e.g., manutenção preditiva) e tome decisões baseadas em simulações."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "As interfaces suportam a operação reconfigurável e autônoma (plug-and-play), reduzindo latências de reação e minimizando erros induzidos por informação."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}
