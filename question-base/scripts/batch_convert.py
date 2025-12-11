@@ -256,6 +256,81 @@ class BatchConverter:
 
         print(f"\n✅ Hierarchy saved to: {hierarchy_path}")
 
+    def generate_hierarchy_markdown(self) -> str:
+        """Generate markdown table showing hierarchical structure down to questions."""
+        lines = []
+
+        # Add header
+        lines.append("# Industry 4.0 Maturity Model - Question Hierarchy")
+        lines.append("")
+        lines.append("Complete hierarchical view from blocks to individual questions.")
+        lines.append("")
+        lines.append(f"**Total Questions:** {self.stats['total_questions']}")
+        lines.append(f"**Total Capacities:** {self.stats['total_capacities']}")
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+
+        # Add table header
+        lines.append("| Block | Pilar | Dimension | Capacity | Question Code | Question Title |")
+        lines.append("|-------|-------|-----------|----------|---------------|----------------|")
+
+        # Process each result to extract questions
+        for result in sorted(self.results, key=lambda r: (r['capacity']['block'],
+                                                          r['capacity']['pilar'],
+                                                          r['capacity']['dimension'],
+                                                          r['capacity']['name'])):
+            if result['status'] != 'success':
+                continue
+
+            capacity = result['capacity']
+            block = capacity['block']
+            pilar = capacity['pilar']
+            dimension = capacity['dimension']
+            capacity_name = capacity['name']
+
+            # Load the JSON file to get questions
+            output_path = Path(result['output'])
+            if output_path.exists():
+                with open(output_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+
+                questions = data.get('questions', [])
+
+                if questions:
+                    # Add a row for each question
+                    for question in questions:
+                        q_id = question.get('id', 'N/A')
+                        q_title = question.get('title', 'N/A')
+
+                        # Escape pipe characters in text
+                        q_title = q_title.replace('|', '\\|')
+
+                        lines.append(f"| {block} | {pilar} | {dimension} | {capacity_name} | `{q_id}` | {q_title} |")
+                else:
+                    # Add row for capacity without questions
+                    lines.append(f"| {block} | {pilar} | {dimension} | {capacity_name} | - | *No questions* |")
+
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+        lines.append("*Generated automatically from Industry 4.0 maturity assessment documents*")
+        lines.append("")
+
+        return '\n'.join(lines)
+
+    def save_hierarchy_markdown(self):
+        """Save hierarchy as markdown table."""
+        markdown = self.generate_hierarchy_markdown()
+
+        md_path = self.output_dir / 'metadata' / 'hierarchy_table.md'
+        md_path.parent.mkdir(parents=True, exist_ok=True)
+
+        with open(md_path, 'w', encoding='utf-8') as f:
+            f.write(markdown)
+
+        print(f"✅ Hierarchy table saved to: {md_path}")
+
     def print_summary(self):
         """Print conversion summary."""
         print("\n" + "="*60)
@@ -346,6 +421,7 @@ def main():
     # Generate hierarchy
     if not args.no_hierarchy:
         converter.save_hierarchy()
+        converter.save_hierarchy_markdown()
 
     # Print summary
     converter.print_summary()
