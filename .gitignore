@@ -1,3 +1,3 @@
-./question-base/JSON
-./question-base/data*
-./question-base/scripts/__pycache__
+question-base/JSON
+question-base/data*
+question-base/scripts/__pycache__
