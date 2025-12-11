@@ -214,7 +214,12 @@ class DOCXToJSONConverter:
             capacity_name = re.sub(r'^\d{8}_checklist_', '', capacity_name)
             capacity_name = capacity_name.replace('_', ' ').title()
 
-        # Generate capacity ID (after all metadata extracted)
+        # Normalize names before creating Capacity
+        normalized_block = self._normalize_block_name(capacity_data['block'])
+        normalized_pilar = self._normalize_pilar_name(capacity_data['pilar'])
+        normalized_dimension = self._normalize_dimension_name(capacity_data['dimension'])
+
+        # Generate capacity ID (after normalization)
         block_code = self._get_block_code(capacity_data['block'])
         pilar_code = self._get_pilar_code(capacity_data['pilar'])
         dim_code = self._get_dimension_code(capacity_data['dimension'])
@@ -232,39 +237,225 @@ class DOCXToJSONConverter:
         return Capacity(
             id=capacity_id,
             name=capacity_name,
-            block=capacity_data['block'],
-            pilar=capacity_data['pilar'],
-            dimension=capacity_data['dimension'],
+            block=normalized_block,
+            pilar=normalized_pilar,
+            dimension=normalized_dimension,
             description=capacity_data['description'],
             related_capacities=capacity_data['related_capacities'],
             metadata=metadata
         )
 
+    def _normalize_block_name(self, block: str) -> str:
+        """Normalize block name to standard Portuguese form."""
+        block_clean = block.strip()
+        # Mapping from various forms (English/Portuguese with accents) to canonical Portuguese
+        normalization = {
+            # Technology variations
+            'Technology': 'Tecnologia',
+            'Tecnologia': 'Tecnologia',
+
+            # Organization variations
+            'Organization': 'Organização',
+            'Organização': 'Organização',
+            'Organizacao': 'Organização',
+            'Organization (Organização)': 'Organização',
+
+            # Process variations
+            'Process': 'Processo',
+            'Processo': 'Processo',
+
+            # Talent Readiness variations
+            'Prontidão/Preparação de Talentos': 'Organização',
+            'Talent Readiness': 'Organização',
+        }
+        return normalization.get(block_clean, block_clean)
+
     def _get_block_code(self, block: str) -> str:
         """Get short code for block."""
+        normalized = self._normalize_block_name(block)
         mapping = {
+            'Tecnologia': 'TEC',
             'Organização': 'ORG',
-            'Organizacao': 'ORG',
-            'Processo': 'PROC',
-            'Tecnologia': 'TEC'
+            'Processo': 'PROC'
         }
-        return mapping.get(block, 'UNK')
+        return mapping.get(normalized, 'UNK')
+
+    def _normalize_pilar_name(self, pilar: str) -> str:
+        """Normalize pilar name to standard Portuguese form."""
+        pilar_clean = pilar.strip()
+        normalization = {
+            # Intelligence variations
+            'Intelligence': 'Inteligência',
+            'Inteligência': 'Inteligência',
+            'Inteligencia': 'Inteligência',
+
+            # Automation variations
+            'Automation': 'Automação',
+            'Automação': 'Automação',
+            'Automacao': 'Automação',
+
+            # Connectivity variations
+            'Connectivity': 'Conectividade',
+            'Conectividade': 'Conectividade',
+
+            # Structure & Management variations
+            'Structure & Management': 'Estrutura e Gestão',
+            'Structure & Management (Estrutura e Gestão)': 'Estrutura e Gestão',
+            'Estrutura & Gestão': 'Estrutura e Gestão',
+            'Estrutura e Gestão': 'Estrutura e Gestão',
+            'Estrutura e Gestao': 'Estrutura e Gestão',
+
+            # Talent Readiness variations
+            'Talent Readiness': 'Prontidão de Talentos',
+            'Talent readiness': 'Prontidão de Talentos',
+            'Prontidão de Talentos': 'Prontidão de Talentos',
+            'Prontidao de Talentos': 'Prontidão de Talentos',
+
+            # Operations/Supply Chain variations
+            'Operations/Supply Chain': 'Operações/Cadeia de Suprimentos',
+            'Operações/Cadeia de Suprimentos': 'Operações/Cadeia de Suprimentos',
+
+            # Organization (as pilar in some docs - map to Structure & Management)
+            'Organização': 'Estrutura e Gestão',
+            'Organizacao': 'Estrutura e Gestão',
+        }
+        return normalization.get(pilar_clean, pilar_clean)
 
     def _get_pilar_code(self, pilar: str) -> str:
-        """Get short code for pilar."""
-        # Extract initials from pilar name
-        words = pilar.split()
-        if len(words) >= 2:
-            return ''.join([w[0].upper() for w in words[:2]])
-        return pilar[:2].upper() if pilar else 'UN'
+        """Get short code for pilar, ignoring '(' and other non-alphabetic chars."""
+        normalized = self._normalize_pilar_name(pilar)
+        # Extract initials from pilar name, filtering out non-alphabetic characters
+        words = normalized.split()
+
+        # Get valid characters from first letters of words
+        code_chars = []
+        for word in words[:4]:  # Check up to 4 words to get 2 valid chars
+            # Skip empty words and find first alphabetic character
+            for char in word:
+                if char.isalpha():  # Only use alphabetic characters
+                    code_chars.append(char.upper())
+                    break
+            if len(code_chars) >= 2:
+                break
+
+        if len(code_chars) >= 2:
+            return ''.join(code_chars[:2])
+
+        # If we don't have 2 chars yet, get from first word with valid letters
+        if len(code_chars) < 2:
+            for word in words:
+                clean_word = ''.join([c for c in word if c.isalpha()])
+                if len(clean_word) >= 2:
+                    # Use the first 2 letters from this clean word
+                    return clean_word[:2].upper()
+                elif len(clean_word) == 1 and len(code_chars) == 0:
+                    code_chars.append(clean_word[0].upper())
+
+        # Final fallback: get first 2 alphabetic characters from entire normalized string
+        alpha_chars = [c.upper() for c in normalized if c.isalpha()]
+        if len(alpha_chars) >= 2:
+            return ''.join(alpha_chars[:2])
+
+        return 'PI'  # Default if nothing works
+
+    def _normalize_dimension_name(self, dimension: str) -> str:
+        """Normalize dimension name to standard Portuguese form."""
+        dimension_clean = dimension.strip()
+        normalization = {
+            # Shopfloor variations
+            'Shopfloor (D10)': 'Chão de Fábrica (D10)',
+            'Shop Floor (D10)': 'Chão de Fábrica (D10)',
+            'Shopfloor': 'Chão de Fábrica',
+            'Shop Floor': 'Chão de Fábrica',
+
+            # Enterprise variations
+            'Enterprise (D11)': 'Corporativo (D11)',
+            'Enterprise (D8)': 'Corporativo (D8)',
+            'Enterprise': 'Corporativo',
+
+            # Facility variations
+            'Facility (D9)': 'Instalação (D9)',
+            'Facility (Instalação) (D9)': 'Instalação (D9)',
+            'Facility': 'Instalação',
+
+            # Shop Floor D4 and D7 variations
+            'Shop Floor (Chão de Fábrica) (D4)': 'Chão de Fábrica (D4)',
+            'Shop Floor (Chão de Fábrica) (D7)': 'Chão de Fábrica (D7)',
+            'Shop Floor (D4)': 'Chão de Fábrica (D4)',
+            'Shop Floor (D7)': 'Chão de Fábrica (D7)',
+
+            # Integrated Product Life Cycle variations
+            'Ciclo de Vida de Produto Integrado (D3)': 'Ciclo de Vida de Produto Integrado (D3)',
+
+            # Leadership Competency variations
+            'Leadership Competency (D14)': 'Competência de Liderança (D14)',
+            'Leadership Competency (Competência de Liderança)': 'Competência de Liderança',
+            'Leadership Competency': 'Competência de Liderança',
+            'Competência de Liderança': 'Competência de Liderança',
+            'Competencia de Liderança': 'Competência de Liderança',
+            'Competencia de Lideranca': 'Competência de Liderança',
+
+            # Workforce Learning & Development variations
+            'Workforce Learning & Development (D13)': 'Aprendizado e Desenvolvimento da Força de Trabalho (D13)',
+            'Workforce Learning & Development': 'Aprendizado e Desenvolvimento da Força de Trabalho',
+
+            # Strategy & Governance variations
+            'Strategy & Governance (D16)': 'Estratégia e Governança (D16)',
+            'Strategy & Governance': 'Estratégia e Governança',
+            'Estratégia e Governança': 'Estratégia e Governança',
+
+            # Inter and Intra-Company Collaboration variations
+            'Inter- and Intra-Company Collaboration (D15)': 'Colaboração Inter e Intraempresarial (D15)',
+            'Inter- and Intra-Company Collaboration': 'Colaboração Inter e Intraempresarial',
+            'Colaboração Inter e Intraempresarial': 'Colaboração Inter e Intraempresarial',
+
+            # Cooperation variations
+            'Cooperação dentro da Rede': 'Cooperação dentro da Rede',
+
+            # Vertical/Horizontal variations
+            'Vertical (D1) - primário': 'Vertical (D1)',
+            'Vertical (D1)': 'Vertical (D1)',
+            'Horizontal (D2) - Mapeamento secundário': 'Horizontal (D2)',
+            'Horizontal (D2)': 'Horizontal (D2)',
+        }
+        return normalization.get(dimension_clean, dimension_clean)
 
     def _get_dimension_code(self, dimension: str) -> str:
-        """Get short code for dimension."""
-        # Extract initials from dimension name
-        words = dimension.split()
-        if len(words) >= 2:
-            return ''.join([w[0].upper() for w in words[:2]])
-        return dimension[:2].upper() if dimension else 'UN'
+        """Get short code for dimension, ignoring '(' and other non-alphabetic chars."""
+        normalized = self._normalize_dimension_name(dimension)
+        # Extract initials from dimension name, filtering out non-alphabetic characters
+        words = normalized.split()
+
+        # Get valid characters from first letters of words
+        code_chars = []
+        for word in words[:4]:  # Check up to 4 words to get 2 valid chars
+            # Skip empty words and find first alphabetic character
+            for char in word:
+                if char.isalpha():  # Only use alphabetic characters
+                    code_chars.append(char.upper())
+                    break
+            if len(code_chars) >= 2:
+                break
+
+        if len(code_chars) >= 2:
+            return ''.join(code_chars[:2])
+
+        # If we don't have 2 chars yet, get from first word with valid letters
+        if len(code_chars) < 2:
+            for word in words:
+                clean_word = ''.join([c for c in word if c.isalpha()])
+                if len(clean_word) >= 2:
+                    # Use the first 2 letters from this clean word
+                    return clean_word[:2].upper()
+                elif len(clean_word) == 1 and len(code_chars) == 0:
+                    code_chars.append(clean_word[0].upper())
+
+        # Final fallback: get first 2 alphabetic characters from entire normalized string
+        alpha_chars = [c.upper() for c in normalized if c.isalpha()]
+        if len(alpha_chars) >= 2:
+            return ''.join(alpha_chars[:2])
+
+        return 'DM'  # Default if nothing works
 
     def _extract_questions(self, capacity: Capacity) -> List[Question]:
         """Extract all questions from the document."""

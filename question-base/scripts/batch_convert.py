@@ -289,11 +289,39 @@ class BatchConverter:
         return mapping.get(block, 'UNK')
 
     def _get_code(self, name: str) -> str:
-        """Generate a short code from a name."""
+        """Generate a short code from a name, ignoring '(' and other non-alphabetic chars."""
         words = name.split()
-        if len(words) >= 2:
-            return ''.join([w[0].upper() for w in words[:2]])
-        return name[:2].upper() if name else 'UN'
+
+        # Get valid characters from first letters of words
+        code_chars = []
+        for word in words[:4]:  # Check up to 4 words to get 2 valid chars
+            # Skip empty words and find first alphabetic character
+            for char in word:
+                if char.isalpha():  # Only use alphabetic characters
+                    code_chars.append(char.upper())
+                    break
+            if len(code_chars) >= 2:
+                break
+
+        if len(code_chars) >= 2:
+            return ''.join(code_chars[:2])
+
+        # If we don't have 2 chars yet, get from first word with valid letters
+        if len(code_chars) < 2:
+            for word in words:
+                clean_word = ''.join([c for c in word if c.isalpha()])
+                if len(clean_word) >= 2:
+                    # Use the first 2 letters from this clean word
+                    return clean_word[:2].upper()
+                elif len(clean_word) == 1 and len(code_chars) == 0:
+                    code_chars.append(clean_word[0].upper())
+
+        # Final fallback: get first 2 alphabetic characters from entire name
+        alpha_chars = [c.upper() for c in name if c.isalpha()]
+        if len(alpha_chars) >= 2:
+            return ''.join(alpha_chars[:2])
+
+        return 'UN'  # Default if nothing works
 
 
 def main():
