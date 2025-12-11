@@ -98,7 +98,8 @@ class DOCXToJSONConverter:
         self.doc = Document(str(self.docx_path))
 
         # Patterns for parsing
-        self.question_pattern = re.compile(r'^[Qq]uest[ãa]o\s+(\d+)', re.IGNORECASE)
+        # Match both "Questão 1" and "Questão XX" (placeholder pattern)
+        self.question_pattern = re.compile(r'^[Qq]uest[ãa]o\s+(\d+|XX|xx)', re.IGNORECASE)
         self.maturity_level_pattern = re.compile(r'^(\d+)\s*$')
 
         # Initialize extraction modules
@@ -290,10 +291,17 @@ class DOCXToJSONConverter:
 
                     # Start new question
                     question_counter += 1
-                    question_num = int(question_match.group(1))
 
-                    # Extract title (usually after the question number)
-                    title = re.sub(r'^[Qq]uest[ãa]o\s+\d+\s*[-–—]\s*', '', text)
+                    # Handle both numeric and placeholder patterns (XX)
+                    matched_num = question_match.group(1)
+                    if matched_num.upper() == 'XX':
+                        # Use auto-incremented counter when XX is used
+                        question_num = question_counter
+                    else:
+                        question_num = int(matched_num)
+
+                    # Extract title (match both patterns: "Questão 1" and "Questão XX")
+                    title = re.sub(r'^[Qq]uest[ãa]o\s+(\d+|XX|xx)\s*[-–—]\s*', '', text, flags=re.IGNORECASE)
 
                     question_id = f"Q-{capacity.id.split('-', 1)[1]}-{question_num:03d}"
 
