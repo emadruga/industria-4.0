@@ -1,0 +1,281 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-EE-CD-001",
+    "name": "Confiança em processos e sistemas de informação",
+    "block": "Organização",
+    "pilar": "Estrutura e Gestão",
+    "dimension": "Competência de Liderança",
+    "description": "Competência de Liderança Resumo Descritivo Capacidade da liderança e das equipes de confiar em processos estruturados e sistemas de informação digitais para apoiar decisões, monitorar operações e garantir transparência. Inclui a adoção progressiva de ferramentas digitais, a transição de práticas manuais para automatizadas, o uso de dados confiáveis e em tempo real, e a cultura de dependência em sistemas integrados para gestão eficaz da operação e redução de incertezas.",
+    "related_capacities": [
+      "Estilo de liderança democrático Sistemas de metas motivacionais Gestão ágil Abertura à inovação"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Ewerton Madruga",
+      "version": "1.0",
+      "last_updated": "2025-12-11",
+      "source_docx": "20251110_Confianca_Processos_Sistemas_Informacao_ESTENDIDO.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-EE-CD-001-001",
+      "question_number": 1,
+      "title": "Confiança em processos e sistemas de informação",
+      "text": "Como a liderança e as equipes utilizam e confiam em processos estruturados e sistemas de informação para apoiar suas decisões e operações diárias?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há processos estruturados nem sistemas de informação digitais; decisões e operações baseiam-se exclusivamente em experiência pessoal e intuição."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem processos básicos documentados, mas as informações são gerenciadas manualmente (planilhas locais, registros em papel); há baixa confiança nos dados disponíveis."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Sistemas digitais básicos estão implementados para coleta de dados, mas são subutilizados; equipes ainda dependem parcialmente de métodos manuais e há desconfiança ocasional na precisão dos sistemas."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Processos e sistemas digitais são utilizados regularmente para monitoramento operacional; a maioria das decisões rotineiras é apoiada por dados dos sistemas, com confiança crescente na qualidade das informações."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Processos estão plenamente integrados com sistemas de informação; dados são usados de forma sistemática e confiável para análise de causas, tomada de decisões e identificação de melhorias; há alta transparência e rastreabilidade."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Sistemas de informação são preditivos e integrados; liderança e equipes confiam plenamente em análises avançadas, simulações e alertas automatizados para antecipar problemas e otimizar processos."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Processos e sistemas são totalmente autônomos e adaptativos; decisões operacionais são tomadas automaticamente com base em dados em tempo real; liderança atua como facilitadora e supervisora estratégica."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-002",
+      "question_number": 2,
+      "title": "Segurança da informação e consciência de riscos cibernéticos",
+      "text": "Como a organização desenvolve e mantém a consciência de segurança cibernética e a cultura de proteção de informações entre todos os colaboradores?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há programa de conscientização sobre segurança; colaboradores desconhecem riscos cibernéticos e políticas de segurança da informação."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existe programa básico de segurança para atender requisitos mínimos de compliance; treinamento pontual e reativo focado apenas em cumprir auditoria."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Programa de conscientização limitado com treinamento anual básico; colaboradores têm conhecimento superficial sobre segurança mas não aplicam consistentemente na prática."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Programa estruturado de conscientização com treinamentos regulares; equipes compreendem principais riscos e seguem políticas de segurança nas operações rotineiras."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Programa proativo de segurança com múltiplas ações de reforço ao longo do ano; colaboradores demonstram comportamentos seguros consistentes e reportam incidentes; há medição de mudança comportamental."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Cultura de segurança consolidada como parte do dia a dia organizacional; colaboradores são vigilantes, compartilham conhecimento sobre ameaças e participam ativamente da melhoria contínua; programa baseado em métricas e evolução contínua."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Segurança é valor cultural profundamente enraizado; colaboradores são embaixadores da segurança; organização utiliza tecnologias avançadas (IA, machine learning) para detecção e resposta automatizada; melhoria contínua com métricas sofisticadas de impacto."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-003",
+      "question_number": 3,
+      "title": "Interoperabilidade e integração de sistemas",
+      "text": "Qual o grau de integração e interoperabilidade entre os diversos sistemas de informação utilizados pela organização (internos e com parceiros externos)?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Sistemas operam completamente isolados (silos); não há compartilhamento de dados entre sistemas; integração inexistente."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Integração mínima e manual entre sistemas críticos através de transferência manual de arquivos ou reentrada de dados; processos lentos e sujeitos a erros."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Algumas integrações pontuais automatizadas entre sistemas principais; dados fluem parcialmente mas ainda há necessidade de intervenção manual frequente e reconciliação."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Sistemas principais integrados através de interfaces e APIs; dados fluem entre sistemas de forma estruturada mas ainda existem gaps e integrações que requerem desenvolvimento customizado."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Integração abrangente horizontal (entre áreas) e vertical (do chão de fábrica ao ERP); arquitetura de integração bem definida; dados fluem consistentemente com rastreabilidade; integrações com principais parceiros externos."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Plataforma de integração empresarial consolidada; arquitetura orientada a serviços (SOA) ou microserviços; integração em tempo real; ecossistema digital integrado incluindo parceiros, fornecedores e clientes."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Arquitetura totalmente interoperável e adaptativa; integração nativa e automática de novos sistemas; uso de padrões abertos; ecossistema digital dinâmico com IoT, edge computing e cloud integrados; sincronização em tempo real com toda cadeia de valor."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-004",
+      "question_number": 4,
+      "title": "Disponibilidade e confiabilidade de sistemas críticos",
+      "text": "Qual o nível de disponibilidade, confiabilidade e resiliência dos sistemas de informação críticos para as operações da organização?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Sistemas críticos frequentemente indisponíveis; falhas recorrentes sem planos de contingência; operação severamente impactada por instabilidade tecnológica."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Sistemas apresentam disponibilidade irregular; incidentes frequentes com resolução reativa e demorada; ausência de acordos de nível de serviço (SLAs) ou monitoramento estruturado."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Disponibilidade básica com interrupções ocasionais; existe monitoramento mas resposta ainda é reativa; SLAs definidos mas nem sempre cumpridos; backups básicos implementados."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Sistemas críticos com boa disponibilidade (>95%); monitoramento proativo; SLAs estabelecidos e geralmente cumpridos; planos de recuperação de desastres documentados e testados ocasionalmente."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Alta disponibilidade (>99%); infraestrutura redundante para sistemas críticos; monitoramento em tempo real com alertas automatizados; SLAs rigorosos cumpridos consistentemente; testes regulares de DR."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Disponibilidade muito alta (>99,5%); arquitetura resiliente com failover automático; self-healing capabilities; monitoramento preditivo que antecipa falhas; recuperação rápida (RTO/RPO baixos)."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Disponibilidade próxima a 100%; arquitetura distribuída e altamente resiliente; sistemas adaptativos que se auto-otimizam; zero downtime para manutenções; recuperação instantânea; capacidade de operar em modo degradado mantendo funções essenciais."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    },
+    {
+      "citation": "SCHUH, G. et al. Industrie 4.0 Maturity Index: Managing the Digital Transformation of Companies. acatech STUDY, 2017."
+    },
+    {
+      "citation": "LICHTBLAU, K. et al. Industrie 4.0 Readiness. Impuls-Stiftung des VDMA, 2015."
+    },
+    {
+      "citation": "SCHUMACHER, A.; EROL, S.; SIHN, W. A maturity model for assessing Industry 4.0 readiness and maturity of manufacturing enterprises. Procedia CIRP, v. 52, p. 161-166, 2016."
+    },
+    {
+      "citation": "SANS. Security Awareness Maturity Model. SANS Security Awareness Training, 2011-2025. Disponível em: https://www.sans.org/security-awareness-training/resources/maturity-model/. Acesso em: 10 nov. 2025.",
+      "url": "https://www.sans.org/security-awareness-training/resources/maturity-model/"
+    },
+    {
+      "citation": "KEEPNET. Security Culture Maturity Model (SCMM): Benchmark & Strengthen Security Culture. Keepnet Blog, março 2025. Disponível em: https://keepnetlabs.com/blog/what-is-the-security-culture-maturity-model. Acesso em: 10 nov. 2025.",
+      "url": "https://keepnetlabs.com/blog/what-is-the-security-culture-maturity-model"
+    },
+    {
+      "citation": "INFOSEC. Understanding maturity models in cybersecurity: definition and types. Infosec Resources, 2024. Disponível em: https://www.infosecinstitute.com/resources/cmmc/understanding-maturity-models-in-cybersecurity-definition-and-types/. Acesso em: 10 nov. 2025.",
+      "url": "https://www.infosecinstitute.com/resources/cmmc/understanding-maturity-models-in-cybersecurity-definition-and-types/"
+    },
+    {
+      "citation": "CYBERSIERRA. NIST CSF Maturity Levels Explained (Model, Stages, Importance). CyberSierra Blog, outubro 2024. Disponível em: https://cybersierra.co/blog/nist-csf-maturity-levels-everything-you-need-to-know/. Acesso em: 10 nov. 2025.",
+      "url": "https://cybersierra.co/blog/nist-csf-maturity-levels-everything-you-need-to-know/"
+    },
+    {
+      "citation": "TREND MICRO. How to Improve Cybersecurity Awareness and Training: Capability Maturity Model. Trend Micro CISO, setembro 2023. Disponível em: https://trendmicro.com/en_us/ciso/23/i/improve-cybersecurity-awareness-training.html. Acesso em: 10 nov. 2025.",
+      "url": "https://trendmicro.com/en_us/ciso/23/i/improve-cybersecurity-awareness-training.html"
+    },
+    {
+      "citation": "VERIZON. 2024 Data Breach Investigations Report. Verizon Business, 2024."
+    },
+    {
+      "citation": "NIST. Cybersecurity Framework Version 2.0. National Institute of Standards and Technology, 2024. Disponível em: https://www.nist.gov/cyberframework. Acesso em: 10 nov. 2025.",
+      "url": "https://www.nist.gov/cyberframework"
+    },
+    {
+      "citation": "DELOITTE. Organizational Trust: The foundation of meaningful relationships. Deloitte Insights, 2025. Disponível em: https://www.deloitte.com/us/en/insights/topics/trust.html. Acesso em: 10 nov. 2025.",
+      "url": "https://www.deloitte.com/us/en/insights/topics/trust.html"
+    },
+    {
+      "citation": "BDO. The Importance of Trust in Digital Transformation. BDO Insights, dezembro 2023. Disponível em: https://www.bdo.com/insights/assurance/it-s-always-been-a-matter-of-trust. Acesso em: 10 nov. 2025.",
+      "url": "https://www.bdo.com/insights/assurance/it-s-always-been-a-matter-of-trust"
+    },
+    {
+      "citation": "ITIL. ITIL 4: Service Design and Service Operation. AXELOS, 2019."
+    },
+    {
+      "citation": "ISO/IEC. ISO/IEC 27001:2022 - Information security management systems. International Organization for Standardization, 2022."
+    },
+    {
+      "citation": "ISO/IEC. ISO/IEC 20000:2018 - IT Service Management. International Organization for Standardization, 2018."
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-EE-CD-001",
+    "name": "Estilo de liderança democrático",
+    "block": "Organização",
+    "pilar": "Estrutura e Gestão",
+    "dimension": "Competência de Liderança",
+    "description": "Competência de Liderança Resumo Descritivo Capacidade dos líderes de definir e comunicar uma visão clara para Indústria 4.0, patrocinar a transformação (recursos, priorização e governança), tomar decisões baseadas em dados, e fomentar uma cultura de aprendizado contínuo. Inclui incentivar colaboração multifuncional, gerir mudanças (metas, KPIs e rituais), e garantir planos de capacitação e requalificação alinhados ao roadmap digital.",
+    "related_capacities": [
+      "Estilo de liderança democrático Sistemas de metas motivacionais Gestão ágil Abertura à inovação Confiança em processos e sistemas de informação"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Flavia Agostini",
+      "version": "1.0",
+      "last_updated": "2025-12-11",
+      "source_docx": "Competência de Liderança.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-EE-CD-001-001",
+      "question_number": 1,
+      "title": "Tomada de decisão sobre novas tecnologias",
+      "text": "Quando a sua equipe precisa decidir sobre a adoção de uma nova tecnologia digital (ex.: IoT, automação, análise de dados), como normalmente ocorre o processo de decisão?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Liderança decide sozinha, baseada em necessidades imediatas de forma reativa."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existe uma forma estruturada e explícita de avaliar e adotar a adoção de novas tecnologias, sem ou com pouco envolvimento da equipe."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Equipe contribui com sugestões; decisões ainda dependem da liderança."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Decisões são analisadas entre equipe e liderança coletivamente com base em dados históricos e relatórios."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Decisões são discutidas coletivamente com base em estimativas quantitativas do impacto esperado com a adoção da nova tecnologia."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Decisões são tomadas democraticamente com apoio de análises preditivas."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A equipe decide de forma autônoma e adaptativa, usando dados em tempo real; a liderança facilita."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-002",
+      "question_number": 2,
+      "title": "Uso de dados no dia a dia",
+      "text": "Como os dados de produção e operação são utilizados para apoiar as decisões?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Dados não são coletados."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Coletados manualmente, pouco utilizados."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Coletados digitalmente, mas analisados apenas pela liderança."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Equipe acessa dashboards simples para acompanhar indicadores."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Dados explicam causas dos problemas e são compartilhados para decisões conjuntas."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados permitem prever falhas e antecipar demandas, usados de forma colaborativa."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Dados em tempo real orientam decisões autônomas e adaptativas."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-003",
+      "question_number": 3,
+      "title": "Colaboração entre áreas",
+      "text": "Quando surge a necessidade de integração entre diferentes áreas (ex.: produção, manutenção, TI), como a colaboração acontece?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Cada área atua isoladamente, sem troca de informações."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existe um procedimento que permite a colaboração quando autorizadas ou solicitadas pela liderança."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "As áreas compartilham informações através de instrumentos formais visíveis que permitem a colaboração, com a mediação da liderança."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "As áreas envolvidas analisam e discutem problemas em reuniões pontuais, sem a mediação da liderança."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Planejam ações conjuntas antecipando problemas ou demandas futuras com base em informações quantificáveis."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Ações conjuntas são planejadas baseadas em análises preditivas (planos preventivos e prognósticos)."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Funcionam em redes multidisciplinares autônomas, ajustando-se dinamicamente."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-004",
+      "question_number": 4,
+      "title": "Inovação e sugestões de melhoria",
+      "text": "Como a sua equipe contribui com ideias de inovação ou melhoria contínua?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existe espaço formal para sugestões."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existe espaço formal para sugestões."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Sugestões são ouvidas e formalizadas, mas nem todas são avaliadas."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Ideias são formalizadas, avaliadas e aplicadas pela liderança."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Sugestões são discutidas coletivamente e validadas com base em dados."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Ideias são testadas por meio de simulações e predições colaborativas."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Equipe conduz ciclos rápidos de inovação adaptativa e autônoma."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-005",
+      "question_number": 5,
+      "title": "Capacitação da equipe",
+      "text": "Como é definido o desenvolvimento de novas competências (habilidades digitais, treinamentos)?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existe um plano de desenvolvimento de competências."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Definido apenas pela liderança."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Equipe pode sugerir, mas é parcialmente atendida."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Liderança consulta a equipe para definir prioridades conjuntamente."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Plano de capacitação é co-criado, baseado em lacunas identificadas nos dados."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Competências futuras são preditas e planejadas em conjunto."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A equipe identifica autonomamente necessidades e ajusta continuamente o aprendizado."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-006",
+      "question_number": 6,
+      "title": "Resolução de problemas operacionais",
+      "text": "Quando ocorre um problema inesperado (falha de máquina, atraso de produção), como a solução é construída?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Liderança decide sozinha, de forma reativa, sem procedimento a seguir."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Liderança atua de modo reativo, conforme procedimento estabelecido."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Equipe informa, mas não participa da solução."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Equipe contribui com sugestões; decisão final da liderança."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Equipe participa da análise de causa-raiz para decidir coletivamente."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Equipe utiliza ferramentas preditivas para antecipar e evitar problemas."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A resolução é autônoma, com ajustes dinâmicos em tempo real."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-007",
+      "question_number": 7,
+      "title": "Adaptação às mudanças externas",
+      "text": "Como a organização reage a mudanças externas (novas demandas, tecnologias, regulações, etc.)?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Mudanças são realizadas, mas tratadas de forma reativa pela liderança."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Liderança responde às mudanças de forma estruturada e limitada, sem equipe envolvida."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Equipe é parcialmente envolvida para discutir impactos."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Mudanças são analisadas coletivamente com base em dados explicativos."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os desvios são identificados e causas que motivaram as mudanças podem ser diagnosticadas."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Mudanças são preditas com uso de cenários simulados e discutidas em conjunto."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização é altamente adaptável, atuando de forma autônoma e colaborativa em tempo real."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-008",
+      "question_number": 8,
+      "title": "TEMA",
+      "text": "",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": ""
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": ""
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": ""
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": ""
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": ""
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": ""
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

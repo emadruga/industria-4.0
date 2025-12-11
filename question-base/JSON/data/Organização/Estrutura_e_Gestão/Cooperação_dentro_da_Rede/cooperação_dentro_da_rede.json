@@ -1,0 +1,368 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-EE-CD-001",
+    "name": "Cooperação dentro da rede",
+    "block": "Organização",
+    "pilar": "Estrutura e Gestão",
+    "dimension": "Cooperação dentro da Rede",
+    "description": "Cooperação dentro da Rede Resumo Descritivo Capacidade de trabalhar colaborativamente através de equipes multifuncionais e com parceiros externos para alcançar uma visão e propósito compartilhados. A Indústria 4.0 criou uma rede conectada de sistemas e tecnologias que reduzem o custo da colaboração e redefinem a base da competição. Neste contexto, empresas precisam colaborar efetivamente tanto internamente quanto com parceiros externos (fornecedores, clientes, institutos de pesquisa, universidades) dentro de ecossistemas de negócios digitais. Estruturas organizacionais mais horizontais permitem tomada de decisão mais rápida, e o alinhamento de incentivos pode empoderar a força de trabalho para colaborar mais efetivamente.",
+    "related_capacities": [
+      "Cooperação dentro da rede (Acatech) Colaboração intra e inter-empresa (SIRI D15) Integração da cadeia de suprimentos (SIRI D2) Integração da cadeia de valor e ecossistemas"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Ewerton Madruga",
+      "version": "1.0",
+      "last_updated": "2025-12-11",
+      "source_docx": "20251106_checklist_cooperacao_rede.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-EE-CD-001-001",
+      "question_number": 1,
+      "title": "Comunicação e compartilhamento de informações",
+      "text": "Como acontece a comunicação e o compartilhamento de informações entre equipes internas e com parceiros externos?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Comunicação e compartilhamento de informações acontecem de forma informal e ad hoc. Equipes trabalham em silos."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem canais formais estabelecidos para comunicação e troca de informações entre equipes."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Canais formais permitem que equipes trabalhem juntas em tarefas e projetos discretos/pontuais."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Equipes são empoderadas pela organização para fazer ajustes que facilitem a cooperação em tarefas e projetos discretos."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Equipes são empoderadas a compartilhar recursos em tarefas e projetos tanto discretos quanto de longo prazo."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Canais formais permitem formar dinamicamente equipes multifuncionais com metas, recursos e KPIs compartilhados."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Times multidisciplinares autônomos se formam dinamicamente, incluindo parceiros e clientes, com total compartilhamento de riscos e recompensas."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-002",
+      "question_number": 2,
+      "title": "Colaboração na cadeia de valor",
+      "text": "Sua empresa coopera com parceiros na cadeia de valor (fornecedores, clientes, distribuidores) para aumentar a competitividade?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há cooperação formal; cada organização atua de forma isolada na cadeia de valor."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existe comunicação básica com parceiros, mas sem colaboração estruturada."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Cooperação pontual em projetos específicos através de canais formais estabelecidos."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Coordenação com parceiros para reduzir barreiras e facilitar cooperação em iniciativas conjuntas."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Colaboração estabelecida com compartilhamento parcial de recursos, riscos e responsabilidades em projetos de médio prazo."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Integração dinâmica com parceiros através de tecnologias digitais, com metas e KPIs compartilhados."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Ecossistema de negócios totalmente integrado com fluxo dinâmico de informações, decisões colaborativas e inovação conjunta."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-003",
+      "question_number": 3,
+      "title": "Participação em redes de inovação",
+      "text": "Sua empresa participa de redes e ecossistemas que colaboram em inovação?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não participa de nenhuma rede de inovação; desenvolvimento interno isolado."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Participa de forma limitada através de canais informais (eventos, feiras, contatos ad hoc)."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Participa formalmente de redes, mas com colaboração pontual e limitada."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Engajamento ativo em redes com ajustes organizacionais para facilitar participação em projetos específicos."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Colaboração estabelecida em redes de inovação com compartilhamento de recursos e riscos em projetos de P&D."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Integração em ecossistemas de inovação com universidades, institutos de pesquisa e parceiros, compartilhando metas e KPIs."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Protagonismo em ecossistemas digitais de inovação com fluxo contínuo de conhecimento, co-criação e inovação aberta."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-004",
+      "question_number": 4,
+      "title": "Desenvolvimento de produtos/serviços em colaboração",
+      "text": "Projetos de novos produtos e serviços requerem inputs/componentes desenvolvidos em colaboração com outras empresas da rede?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Desenvolvimento totalmente interno sem colaboração externa."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Fornecimento básico de componentes/serviços sem co-desenvolvimento."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Colaboração pontual em componentes específicos através de projetos discretos."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Co-desenvolvimento coordenado de componentes com ajustes mútuos para facilitar integração."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Desenvolvimento colaborativo com compartilhamento de riscos, recursos e propriedade intelectual."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Integração de desenvolvimento com parceiros através de plataformas digitais e processos compartilhados."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Ecossistema de co-criação contínua com modularidade, interoperabilidade e inovação distribuída."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-005",
+      "question_number": 5,
+      "title": "Uso de tecnologias digitais para colaboração",
+      "text": "Como as tecnologias digitais são utilizadas para melhorar a colaboração interna e com parceiros externos?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há uso de tecnologias digitais específicas para colaboração; processos manuais ou isolados."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Uso básico de ferramentas de comunicação digital (e-mail, mensagens)."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Plataformas digitais para compartilhamento de documentos e colaboração em projetos específicos."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Sistemas integrados que permitem coordenação e ajustes para facilitar colaboração em tempo real."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Infraestrutura digital robusta com integração de dados, processos e ferramentas colaborativas avançadas."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Plataformas digitais permitem formar dinamicamente equipes virtuais com visibilidade completa e tomada de decisão compartilhada."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Ecossistema digital integrado com IoT, IA e analytics que permitem colaboração autônoma, adaptativa e preditiva."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-006",
+      "question_number": 6,
+      "title": "Gestão de relacionamentos no ecossistema",
+      "text": "Como sua empresa gerencia relacionamentos e confiança com parceiros na rede/ecossistema de negócios?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há gestão formal de relacionamentos; interações transacionais e isoladas."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Gestão básica através de contratos e comunicação formal mínima."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Processos formais de gestão de relacionamentos para projetos e iniciativas específicas."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Gestão ativa com mecanismos para ajustar responsabilidades e reduzir barreiras à cooperação."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Gestão estruturada com governança compartilhada, métricas de relacionamento e resolução de conflitos."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Gestão integrada com alinhamento de incentivos, metas compartilhadas e cultura de confiança estabelecida."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Ecossistema auto-organizado com reputação digital, contratos inteligentes e governança distribuída."
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Ecossistema de negócios",
+      "definition": "Rede de organizações (fornecedores, clientes, parceiros, universidades, institutos) que colaboram e competem, criando e capturando valor coletivamente através de plataformas e complementaridades."
+    },
+    {
+      "term": "Colaboração intra-empresa",
+      "definition": "Trabalho conjunto entre diferentes áreas e equipes dentro da mesma organização."
+    },
+    {
+      "term": "Colaboração inter-empresa",
+      "definition": "Trabalho conjunto com organizações externas, incluindo fornecedores, clientes, parceiros tecnológicos e outros stakeholders."
+    },
+    {
+      "term": "Cadeia de valor",
+      "definition": "Conjunto de atividades que uma empresa realiza para criar e entregar valor, incluindo fornecedores a montante e clientes a jusante."
+    },
+    {
+      "term": "Co-desenvolvimento",
+      "definition": "Desenvolvimento colaborativo de produtos, serviços ou tecnologias com parceiros externos, compartilhando responsabilidades, riscos e propriedade intelectual."
+    },
+    {
+      "term": "Inovação aberta",
+      "definition": "Paradigma que assume que empresas podem e devem usar ideias externas e internas, assim como caminhos internos e externos para o mercado, para avançar sua tecnologia."
+    },
+    {
+      "term": "Plataformas digitais",
+      "definition": "Infraestruturas tecnológicas que facilitam interações e transações entre múltiplos participantes de um ecossistema."
+    },
+    {
+      "term": "Governança compartilhada",
+      "definition": "Modelo de tomada de decisão e gestão onde responsabilidades, riscos e benefícios são distribuídos entre múltiplos stakeholders."
+    },
+    {
+      "term": "KPIs compartilhados",
+      "definition": "Indicadores-chave de desempenho definidos e monitorados conjuntamente por múltiplas organizações para medir sucesso de iniciativas colaborativas."
+    },
+    {
+      "term": "Interoperabilidade",
+      "definition": "Capacidade de sistemas, dispositivos ou organizações trabalharem juntos através de troca e uso de informações."
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "AUTIO, E. et al. Digital affordances, spatial affordances, and the genesis of entrepreneurial ecosystems. Strategic Entrepreneurship Journal, v. 12, n. 1, p. 72-95, 2018."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. Disponível em: https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "FLEURY, A. et al. Digital maturity, multinationality, and value chain and ecosystem integration. International Business Review, v. 33, 2024."
+    },
+    {
+      "citation": "HULT, G. T. M. et al. The theoretical evolution and use of the Uppsala Model of internationalization in the international business ecosystem. Journal of International Business Studies, v. 51, p. 38-49, 2020."
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. Disponível em: https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "JACOBIDES, M. G.; CENNAMO, C.; GAWER, A. Towards a theory of ecosystems. Strategic Management Journal, v. 39, n. 8, p. 2255-2276, 2018."
+    },
+    {
+      "citation": "KACHE, F.; SEURING, S. Challenges and opportunities of digital information at the intersection of Big Data Analytics and supply chain management. International Journal of Operations & Production Management, v. 37, n. 1, p. 10-36, 2017."
+    },
+    {
+      "citation": "LI, J. et al. Ecosystem-specific advantages in international digital commerce. Journal of International Business Studies, v. 50, p. 1448-1463, 2019."
+    },
+    {
+      "citation": "NAMBISAN, S. et al. Global platforms and ecosystems: Implications for international business theories. Journal of International Business Studies, v. 50, n. 9, p. 1464-1486, 2019."
+    },
+    {
+      "citation": "SCHAEFER, K. J. Entrepreneurs’ social relationships and their resource mobilization under different levels of uncertainty. International Entrepreneurship and Management Journal, v. 16, p. 1-31, 2020."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022. Disponível em: https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

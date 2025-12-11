@@ -1,0 +1,433 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-PD-AE-001",
+    "name": "Workforce Learning & Development (D13)",
+    "block": "Organização",
+    "pilar": "Prontidão de Talentos",
+    "dimension": "Aprendizado e Desenvolvimento da Força de Trabalho (D13)",
+    "description": "Workforce Learning & Development (D13) Resumo Descritivo A capacidade de reconhecer o valor dos erros (Recognise the value of mistakes) reflete o grau de maturidade cultural e de aprendizado organizacional frente à inovação, experimentação e transformação digital. Uma cultura que reconhece o valor dos erros não os encara como falhas individuais, mas como fontes de aprendizado coletivo e oportunidades de inovação. Isso é especialmente relevante em contextos digitais e industriais complexos, onde a experimentação e a adaptação são constantes. À medida que a maturidade aumenta, a organização passa de uma postura punitiva e avessa ao risco para um ambiente seguro psicologicamente, transparente e orientado por dados, no qual os erros são analisados, documentados e convertidos em conhecimento útil. Nos níveis mais altos, a organização torna-se auto, com processos sistematizados de reflexão, análise e compartilhamento das lições aprendidas, fomentando inovação contínua e resiliência frente à mudança.",
+    "related_capacities": [
+      "Aprendizagem organizacional orientada à reflexão",
+      "Cultura de segurança psicológica",
+      "Mecanismos formais de captura e disseminação do aprendizado",
+      "Gestão de riscos e inovação responsável",
+      "Liderança orientada ao aprendizado",
+      "Feedback contínuo e melhoria adaptativa",
+      "Integração do aprendizado com os sistemas digitais",
+      "Cultura de inovação e experimentação contínua."
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Flavia Agostini",
+      "version": "1.0",
+      "last_updated": "2025-12-11",
+      "source_docx": "Organizacao - Reconhecer o valor dos erros.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-PD-AE-001-001",
+      "question_number": 1,
+      "title": "Cultura de aprendizado a partir de erros",
+      "text": "Em que medida os erros e falhas são analisados e utilizados como oportunidades de aprendizado dentro da organização?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Os erros são ignorados ou tratados apenas como falhas individuais."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Há reconhecimento informal dos erros, mas sem processos estruturados de análise ou aprendizado."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Alguns registros digitais de erros ou incidentes são mantidos, porém sem aplicação prática sistemática."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os erros são analisados periodicamente e geram planos de ação ou revisões de processo."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Há mecanismos formais de coleta, análise e disseminação de lições aprendidas a partir de erros."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados históricos e análises de erros são utilizados para prever falhas e antecipar melhorias."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema de aprendizado é contínuo e automatizado, com feedback em tempo real e atualização dinâmica de processos a partir dos erros detectados."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-002",
+      "question_number": 2,
+      "title": "Segurança psicológica e transparência",
+      "text": "Até que ponto os colaboradores se sentem seguros para relatar erros, propor melhorias e compartilhar experiências sem receio de punição?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Há medo de punição e pouca abertura para diálogo sobre erros ou melhorias."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A liderança comunica abertura, mas na prática prevalece a aversão a erros e críticas."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existem canais digitais de comunicação interna, mas pouco utilizados para feedback transparente."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os colaboradores são encorajados a compartilhar experiências e aprendizados sem retaliação."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A organização mede o nível de segurança psicológica e adota planos de melhoria baseados em dados de clima e engajamento."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Análises de engajamento e clima organizacional são usadas para prever riscos de desconfiança e desmotivação."
+        },
+        {
+          "level": 6,
+          "label": "A cultura é autorregulada",
+          "description": "existe feedback contínuo, confiança mútua e transparência apoiada por sistemas digitais de comunicação e análise de sentimento em tempo real."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-003",
+      "question_number": 3,
+      "title": "Estruturas formais de captura de aprendizado",
+      "text": "Existem processos ou ferramentas digitais que registram, organizam e disseminam lições aprendidas a partir de erros ou incidentes?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O aprendizado ocorre de forma informal e não é registrado."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem tentativas pontuais de registrar lições aprendidas, sem padronização."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Algumas lições são documentadas em arquivos digitais, mas sem centralização ou controle de qualidade."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Há uma plataforma ou processo padronizado de registro e consulta de aprendizados."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O sistema de aprendizado possui métricas de uso, atualização e relevância."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados de aprendizado são analisados para identificar lacunas de conhecimento e direcionar capacitações."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema de aprendizado é automatizado e integrado aos processos corporativos, atualizando-se continuamente com base em dados e feedbacks em tempo real."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-004",
+      "question_number": 4,
+      "title": "Liderança e comportamento de aprendizado",
+      "text": "Como os líderes e gestores demonstram, na prática, comportamentos que valorizam o aprendizado a partir de erros?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A liderança não reconhece erros nem promove aprendizado aberto nas equipes."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Alguns líderes valorizam o aprendizado, mas sem práticas estruturadas de estímulo."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existem treinamentos sobre liderança e aprendizado, mas sem integração à rotina de gestão."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os líderes promovem reuniões de aprendizado e feedback regulares nas equipes."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O comportamento de aprendizado da liderança é monitorado e avaliado por indicadores de engajamento e desenvolvimento."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados analíticos e avaliações de clima são usados para necessidades de desenvolvimento de líderes."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A liderança é digitalmente empoderada, utiliza ferramentas de feedback contínuo e aprendizado personalizado, e sustenta uma cultura de aprendizado autônoma e colaborativa."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-005",
+      "question_number": 5,
+      "title": "Equilíbrio entre risco e inovação",
+      "text": "De que forma a organização incentiva a experimentação e a inovação, ao mesmo tempo em que gerencia riscos decorrentes de possíveis falhas?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A organização evita riscos e desencoraja a experimentação."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Há espaço limitado para inovação, sem mecanismos de controle de risco."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Alguns processos de inovação são documentados digitalmente, mas sem acompanhamento sistemático de riscos."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Existem políticas de inovação e procedimentos básicos de análise de risco."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O gerenciamento de riscos é parte integrante dos processos de inovação e é monitorado com métricas específicas."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados analíticos e simulações são usados para prever impactos e orientar decisões de inovação."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O ambiente de inovação é autorregulado, com sistemas de aprendizado e mitigação de risco em tempo real, sustentado por inteligência analítica e governança digital."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-006",
+      "question_number": 6,
+      "title": "Feedback e melhoria contínua",
+      "text": "O feedback sobre erros e resultados inesperados é utilizado sistematicamente para ajustar processos, produtos e práticas organizacionais?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O feedback é esporádico e não gera ações de melhoria."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "O feedback é aplicado informalmente e sem acompanhamento."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existem registros digitais de feedback, mas sem integração com planos de ação."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "O feedback é estruturado e utilizado para aprimorar processos e resultados."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O ciclo de feedback é monitorado por indicadores de desempenho e melhoria contínua."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Análises preditivas são usadas para falhas e orientar ações de melhoria."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O feedback é contínuo, automatizado e integrado aos sistemas de gestão, permitindo ajustes em tempo real com base em dados analíticos."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-007",
+      "question_number": 7,
+      "title": "Integração digital do aprendizado",
+      "text": "A organização utiliza ferramentas digitais e analíticas para monitorar, registrar e gerar insights sobre erros, incidentes e melhorias?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O aprendizado e a análise de desempenho não utilizam sistemas digitais."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Algumas ferramentas digitais são usadas isoladamente, sem integração."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os dados de aprendizado são coletados digitalmente, mas sem análise sistemática."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Sistemas de aprendizado e gestão do conhecimento estão conectados a ferramentas corporativas."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Dados digitais são usados para avaliar desempenho, identificar lacunas e propor melhorias."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Algoritmos e análises preditivas orientam decisões sobre capacitação e desenvolvimento de talentos."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O aprendizado é digitalmente integrado e automatizado, com sistemas que se ajustam em tempo real às necessidades individuais e organizacionais."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-008",
+      "question_number": 8,
+      "title": "Cultura de inovação e experimentação",
+      "text": "De que forma a organização estimula os colaboradores a experimentar novas ideias, aceitando erros como parte do processo de inovação?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A organização não incentiva a experimentação; erros são penalizados."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Há tolerância informal a erros, mas sem práticas de aprendizado estruturadas."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Algumas iniciativas de inovação e experimentação são registradas digitalmente, mas sem aprendizado sistemático."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A organização estimula a experimentação e reconhece o valor do erro como parte do aprendizado."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Existem processos formais para analisar e compartilhar aprendizados oriundos de erros e experimentos."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados e analytics são usados para prever riscos, avaliar hipóteses e ajustar experimentos com base em resultados."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A cultura de inovação é contínua e auto, com ciclos ágeis e feedback em tempo real que transformam erros em aprendizado estratégico."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-009",
+      "question_number": 9,
+      "title": "Disseminação e compartilhamento do aprendizado",
+      "text": "",
+      "maturity_levels": []
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-010",
+      "question_number": 10,
+      "title": "Aprendizado adaptativo e cultura evolutiva",
+      "text": "",
+      "maturity_levels": []
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

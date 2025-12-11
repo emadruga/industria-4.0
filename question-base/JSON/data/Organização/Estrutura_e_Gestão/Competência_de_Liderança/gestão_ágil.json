@@ -1,0 +1,415 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-EE-CD-001",
+    "name": "Gestão ágil",
+    "block": "Organização",
+    "pilar": "Estrutura e Gestão",
+    "dimension": "Competência de Liderança",
+    "description": "Competência de Liderança Resumo Descritivo Prontidão do núcleo de liderança para alavancar os conceitos e tecnologias mais recentes de gestão ágil para a relevância e competitividade contínua da organização. A gestão ágil representa uma técnica moderna de gerenciamento que permite às organizações reagir de forma flexível e rápida a mercados turbulentos. Sob a Indústria 4.0, as organizações podem adotar estruturas organizacionais mais horizontais e permitir tomada de decisão descentralizada, tornando-se mais responsivas às mudanças. Esta capacidade avalia a familiaridade e aplicação da liderança com práticas ágeis modernas como Scrum, Kanban, SAFe, Lean, e princípios ágeis (iterações curtas, feedback contínuo, adaptação, autonomia de times). Nos níveis mais baixos, examina-se a familiaridade da equipe de gestão com os conceitos mais recentes de gestão ágil. À medida que a empresa progride, a dimensão mede a habilidade da equipe de liderança de desenhar, executar e adaptar estratégias de transformação ágil de forma independente para garantir a relevância da empresa no longo prazo.",
+    "related_capacities": [
+      "Estrutura organizacional flexível",
+      "Tomada de decisão descentralizada",
+      "Colaboração inter e intra-empresarial",
+      "Abertura à inovação",
+      "Tolerância a erros",
+      "Aprendizado contínuo",
+      "Empoderamento de equipes"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Ewerton Madruga",
+      "version": "1.0",
+      "last_updated": "2025-12-11",
+      "source_docx": "20251105_checklist_gestao_agil.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-EE-CD-001-001",
+      "question_number": 1,
+      "title": "Prontidão para Aplicação de Técnicas de Gestão Ágil",
+      "text": "Qual é a prontidão da liderança para alavancar conceitos e técnicas de gestão ágil (Scrum, Kanban, Lean, SAFe, etc.) para a transformação organizacional?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Não familiarizada",
+          "description": "A liderança não está familiarizada com os conceitos e práticas mais recentes de gestão ágil. A gestão desconhece os conceitos mais recentes que podem viabilizar a próxima fase de avanço da organização."
+        },
+        {
+          "level": 1,
+          "label": "Conhecimento Limitado",
+          "description": "A liderança tem alguma consciência, através de canais ad hoc, dos conceitos e práticas mais recentes de gestão ágil. A gestão está parcialmente familiarizada com os conceitos mais recentes que podem viabilizar a próxima fase de avanço."
+        },
+        {
+          "level": 2,
+          "label": "Informada",
+          "description": "A liderança está bem informada, através de canais e vias formais, sobre os conceitos e práticas mais recentes de gestão ágil. A gestão está totalmente familiarizada com os conceitos mais recentes que podem viabilizar a próxima fase de avanço."
+        },
+        {
+          "level": 3,
+          "label": "Semi-dependente",
+          "description": "A liderança depende de parceiros externos para desenvolver iniciativas que alavancam os conceitos mais recentes de gestão ágil para melhorar pelo menos uma área da organização. Com assistência externa, a gestão é capaz de aplicar os conceitos mais recentes para viabilizar melhorias em pelo menos uma área."
+        },
+        {
+          "level": 4,
+          "label": "Independente",
+          "description": "A liderança é capaz, com relativa independência, de desenvolver iniciativas que alavancam os conceitos e técnicas mais recentes de gestão ágil para melhorar mais de uma área da organização. A gestão é capaz de aplicar os conceitos mais recentes para viabilizar melhorias em múltiplas áreas."
+        },
+        {
+          "level": 5,
+          "label": "Adaptativa",
+          "description": "A liderança é capaz de adaptar independentemente seu framework de transformação organizacional baseado em gestão ágil conforme os conceitos e tecnologias mudam. A gestão é capaz de incrementar suas iniciativas de melhoria conforme os conceitos mais recentes de gestão ágil mudam ou evoluem ao longo do tempo."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-002",
+      "question_number": 2,
+      "title": "Suporte e Comprometimento da Alta Gestão",
+      "text": "Qual é o nível de patrocínio executivo, investimento de recursos e envolvimento ativo da liderança sênior na transformação ágil?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A alta gestão não tem conhecimento ou envolvimento com iniciativas de gestão ágil."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A alta gestão tem conhecimento superficial sobre gestão ágil, mas não demonstra apoio ativo ou compromisso."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A alta gestão aprova iniciativas ágeis pontualmente, mas com recursos limitados e baixo envolvimento direto."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A alta gestão patrocina formalmente iniciativas ágeis, aloca recursos específicos, mas o envolvimento é esporádico."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A alta gestão está ativamente envolvida, participa de cerimônias-chave, remove impedimentos e monitora progresso regularmente."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A alta gestão lidera a transformação ágil, investe significativamente, participa de treinamentos e modela comportamentos ágeis."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A alta gestão incorporou completamente mindset ágil, promove cultura de experimentação, e a agilidade é parte da estratégia corporativa."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-003",
+      "question_number": 3,
+      "title": "Envolvimento e Colaboração com Cliente/Stakeholder",
+      "text": "Qual é a frequência, qualidade e intensidade da participação de clientes/stakeholders no processo de desenvolvimento e tomada de decisão?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Clientes/stakeholders não participam do processo; requisitos são coletados uma vez no início."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Contato mínimo com clientes/stakeholders; feedback solicitado apenas em gates formais (trimestral/anual)."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Clientes/stakeholders são consultados mensalmente; feedback é coletado mas nem sempre incorporado."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Clientes/stakeholders participam de revisões a cada sprint/iteração; feedback influencia backlog."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Clientes/stakeholders são membros ativos do processo; validam incrementos, participam de refinamentos e priorizam backlog."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Clientes/stakeholders trabalham de forma integrada com o time; disponíveis para esclarecimentos contínuos; co-criam soluções."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Clientes/stakeholders são parte do time estendido; tomam decisões de produto em tempo real; relacionamento de parceria estratégica."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-004",
+      "question_number": 4,
+      "title": "Prontidão e Adequação da Cultura Organizacional",
+      "text": "Qual é o grau de alinhamento entre os valores culturais existentes (confiança, abertura, tolerância a erros, colaboração) e os requisitos da cultura ágil?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Cultura organizacional é rigidamente hierárquica, avessa a riscos, com baixa tolerância a erros e comunicação top-down."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Cultura predominantemente tradicional com silos; tentativas de colaboração encontram resistência; erros são punidos."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Cultura em transição; alguns bolsões de colaboração; erros começam a ser vistos como aprendizado, mas inconsistentemente."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Cultura parcialmente alinhada; colaboração é valorizada; erros são tratados de forma mais construtiva; ainda há hierarquia significativa."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Cultura favorável à agilidade; alta confiança entre áreas; erros são oportunidades de aprendizado; transparência é norma."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Cultura fortemente ágil; experimentação é incentivada; feedback aberto é prática comum; autonomia e responsabilidade equilibradas."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Cultura totalmente ágil; segurança psicológica plena; celebração de aprendizado; auto-organização natural; mindset de crescimento."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-005",
+      "question_number": 5,
+      "title": "Treinamento, Coaching e Desenvolvimento Contínuo",
+      "text": "Qual é a qualidade, abrangência e continuidade dos programas de capacitação em práticas ágeis, incluindo coaching e mentoring?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existe nenhum programa de treinamento ou capacitação em práticas ágeis."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Treinamentos pontuais e esporádicos são oferecidos, sem continuidade ou acompanhamento."
+        },
+        {
+          "level": 2,
+          "label": "Existe um programa básico de treinamento inicial (ex",
+          "description": "Scrum Foundation), mas sem coaching ou follow-up."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Programa de treinamento estruturado com múltiplos níveis; coaching disponível sob demanda; sem plano de desenvolvimento contínuo."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Programa abrangente de capacitação (básico a avançado); coaches/Scrum Masters dedicados; trilhas de desenvolvimento definidas."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Programa maduro e integrado ao plano de carreira; coaching contínuo; comunidades de prática ativas; orçamento dedicado para certificações."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Cultura de aprendizado contínuo institucionalizada; coaching peer-to-peer; times são ambientes de aprendizagem; investimento estratégico em desenvolvimento."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-006",
+      "question_number": 6,
+      "title": "Gestão da Mudança e Transformação Organizacional",
+      "text": "Qual é o nível de estruturação do processo de transformação ágil, incluindo assessment de prontidão, plano de mudança, gestão de resistências e sustentabilidade?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existe processo estruturado; mudanças acontecem de forma ad hoc sem planejamento ou acompanhamento."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Iniciativas isoladas sem coordenação; falta assessment de prontidão; resistências não são gerenciadas sistematicamente."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existe um plano básico de transformação, mas sem assessment formal de prontidão; gestão de mudança reativa."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Plano de transformação estruturado com fases definidas; assessment de prontidão realizado; gestão de mudança presente mas não integrada."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Programa abrangente de transformação com governance clara; change management integrado; métricas de acompanhamento; gestão ativa de resistências."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Transformação estruturada em múltiplas ondas/fases; assessment contínuo; change management profissional; adaptação baseada em lições aprendidas."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Transformação é contínua e adaptativa; capacidade organizacional de mudança institucionalizada; experimentação e evolução constantes; sustentabilidade garantida."
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Gestão Ágil (Agile Management)",
+      "definition": "Abordagem de gestão que enfatiza flexibilidade, iteração rápida, feedback contínuo e adaptação, em contraste com modelos tradicionais de comando-e-controle."
+    },
+    {
+      "term": "Scrum",
+      "definition": "Framework ágil estruturado em sprints (iterações de 1-4 semanas) com papéis definidos (Scrum Master, Product Owner, Dev Team) e cerimônias regulares."
+    },
+    {
+      "term": "Kanban",
+      "definition": "Método visual de gestão de fluxo que usa quadros para visualizar trabalho, limitar WIP (work in progress) e otimizar fluxo contínuo."
+    },
+    {
+      "term": "SAFe (Scaled Agile Framework)",
+      "definition": "Framework para escalar práticas ágeis em grandes organizações, com múltiplos níveis (Team, Program, Large Solution, Portfolio)."
+    },
+    {
+      "term": "Lean",
+      "definition": "Filosofia de gestão focada em eliminar desperdício, criar valor para o cliente e melhoria contínua (kaizen)."
+    },
+    {
+      "term": "Sprint",
+      "definition": "Período de tempo fixo (geralmente 1-4 semanas) no qual um incremento de produto é desenvolvido no Scrum."
+    },
+    {
+      "term": "OKR (Objectives and Key Results)",
+      "definition": "Sistema de definição de metas onde objetivos qualitativos são ligados a resultados-chave mensuráveis, revisados frequentemente (trimestral)."
+    },
+    {
+      "term": "MVP (Minimum Viable Product)",
+      "definition": "Versão mais simples de um produto que permite validar hipóteses com usuários reais com mínimo esforço/investimento."
+    },
+    {
+      "term": "Iterativo e Incremental",
+      "definition": "Abordagem de desenvolvimento onde trabalho é feito em ciclos curtos (iterativo) com entregas parciais de valor (incremental)."
+    },
+    {
+      "term": "Retrospectiva",
+      "definition": "Cerimônia onde time reflete sobre o processo de trabalho e identifica melhorias; aplicável também ao nível de liderança."
+    },
+    {
+      "term": "Estrutura Organizacional Horizontal",
+      "definition": "Modelo com menos níveis hierárquicos, mais autonomia distribuída e comunicação lateral facilitada."
+    },
+    {
+      "term": "Tomada de Decisão Descentralizada",
+      "definition": "Autoridade de decisão distribuída para níveis mais baixos da organização, permitindo respostas mais rápidas."
+    },
+    {
+      "term": "Empoderamento (Empowerment)",
+      "definition": "Delegação de autoridade e autonomia para que equipes tomem decisões sem aprovação constante da liderança."
+    },
+    {
+      "term": "Framework",
+      "definition": "Estrutura conceitual que define papéis, processos, artefatos e práticas para abordar um tipo específico de problema."
+    },
+    {
+      "term": "Waterfall",
+      "definition": "Modelo tradicional de gestão de projetos em fases sequenciais (requisitos → design → implementação → teste → entrega)."
+    },
+    {
+      "term": "Benchmarking",
+      "definition": "Prática de comparar processos e métricas com outras organizações para identificar melhores práticas."
+    },
+    {
+      "term": "Coaching",
+      "definition": "Processo de desenvolver capacidades através de orientação, questionamento e feedback, em vez de dar ordens diretas."
+    },
+    {
+      "term": "LeSS (Large-Scale Scrum)",
+      "definition": "Framework para aplicar Scrum em grande escala, mantendo simplicidade e evitando burocracia do SAFe."
+    },
+    {
+      "term": "VUCA",
+      "definition": "Acrônimo para Volatility, Uncertainty, Complexity, Ambiguity - características do ambiente de negócios moderno."
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALNUAIMI, B. K. et al. Mastering digital transformation: The nexus between leadership, agility, and digital strategy. Journal of Business Research, v. 145, p. 636–648, 2022."
+    },
+    {
+      "citation": "BENNETT, N.; LEMOINE, G. J. What a difference a word makes: Understanding threats to performance in a VUCA world. Business Horizons, v. 57, n. 3, p. 311–317, 2014."
+    },
+    {
+      "citation": "BUER, S.-V.; STRANDHAGEN, J. O.; CHAN, F. T. S. The link between Industry 4.0 and lean manufacturing: mapping current research and establishing a research agenda. International Journal of Production Research, v. 56, n. 8, p. 2924–2940, 2018."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "FLEURY, A. et al. Going digital in emerging market multinational enterprises: A focus on resources, organizational capabilities and digital maturity. International Business Review, v. 33, 2024."
+    },
+    {
+      "citation": "GIACOSA, E.; CULASSO, F.; CROCCO, E. Customer agility in the modern automotive sector: How lead management shapes agile digital companies. Technological Forecasting and Social Change, v. 175, 2022."
+    },
+    {
+      "citation": "GUINAN, P. J.; PARISE, S.; LANGOWITZ, N. Creating an innovative digital project team: Levers to enable digital transformation. Business Horizons, v. 62, n. 6, p. 717–727, 2019."
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KNASTER, R.; LEFFINGWELL, D. SAFe 5.0 Distilled: Achieving Business Agility with the Scaled Agile Framework. Boston: Addison-Wesley, 2020."
+    },
+    {
+      "citation": "PEREIRA, V. et al. A longitudinal investigation into multilevel agile & ambidextrous strategic dualities in an information technology high performing EMNE. Technological Forecasting and Social Change, v. 169, 2021."
+    },
+    {
+      "citation": "RIGBY, D. K.; SUTHERLAND, J.; TAKEUCHI, H. Embracing Agile. Harvard Business Review, p. 40–50, mai. 2016."
+    },
+    {
+      "citation": "SCHWABER, K.; SUTHERLAND, J. The Scrum Guide™. The Definitive Guide to Scrum: The Rules of the Game. Disponível em: https://scrumguides.org/. Acesso em: 16 out. 2025.",
+      "url": "https://scrumguides.org/"
+    },
+    {
+      "citation": "TEECE, D. J. A dynamic capabilities-based entrepreneurial theory of the multinational enterprise. Journal of International Business Studies, v. 45, n. 1, p. 8–37, 2014."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022. [s.l: s.n.]. Disponível em: https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

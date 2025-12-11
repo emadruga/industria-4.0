@@ -1,0 +1,240 @@
+{
+  "capacity": {
+    "id": "CAP-TEC-CO-CD-001",
+    "name": "Aquisição de dados por sensores e atuadores",
+    "block": "Tecnologia",
+    "pilar": "Conectividade",
+    "dimension": "Chão de Fábrica (D7)",
+    "description": "Shop Floor (Chão de Fábrica) (D7) Resumo Descritivo Esta dimensão avalia a interconexão de equipamentos, máquinas e sistemas de produção de modo a permitir a comunicação e a troca de dados entre ativos. O objetivo principal é a digitalização do chão de fábrica, usando protocolos padronizados e redes IoT para alcançar interoperabilidade, segurança e comunicação em tempo real e, assim, otimizar as atividades de manufatura.",
+    "related_capacities": [
+      "Aquisição de dados por sensores e atuadores"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Wilson Melo Jr",
+      "version": "1.0",
+      "last_updated": "2025-12-11",
+      "source_docx": "Shop Floor (D7).docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-TEC-CO-CD-001-001",
+      "question_number": 1,
+      "title": "Habilitação Tecnológica e Criação de CPS",
+      "text": "Os equipamentos e máquinas do chão de fábrica foram aprimorados com sistemas embarcados, sensores e atuadores para criar Sistemas Ciberfísicos (CPS) e estabelecer uma interface entre o mundo físico e digital?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Processos não são definidos e são executados com métodos informais ou ad-hoc."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Equipamentos, máquinas e sistemas baseados em computador podem interagir e trocar informações de forma básica."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Componentes mecatrônicos foram aprimorados para criar Sistemas Ciberfísicos (CPS)."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Sensores inteligentes são usados para capturar dados de máquinas e equipamentos."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os dados reais do chão de fábrica são capturados por diferentes redes de sensores e utilizados para tomar decisões."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Os dados são integrados em sistemas inteligentes para a criação de uma Sombra Digital (Digital Shadow) dos processos."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Os sistemas de informação são dotados de mecanismos de auto-aprendizado baseados em dados do CPS e operam de forma autônoma."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-CO-CD-001-002",
+      "question_number": 2,
+      "title": "Pré-processamento e Descentralização dos Dados",
+      "text": "O pré-processamento dos dados brutos dos sensores diretamente nos sistemas embarcados e ativos do chão de fábrica é eficiente e descentralizado?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há pré-processamento de dados digitais ou o fluxo de dados é inexistente."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "O processamento de dados é centralizado e os ativos de produção funcionam com lógica pré-programada."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os dados dos sensores são coletados, mas o pré-processamento é limitado e ainda dependente de processos centralizados."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "O pré-processamento dos dados dos sensores é descentralizado, no ponto de geração de dados, com baixa latência."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O pré-processamento descentralizado é otimizado (com uso de balanceamento de carga e confiabilidade)."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Os sistemas de informação utilizam análise de dados avançada e desempenho para prever falhas e vulnerabilidades que possam gerar interrupções no processamento de dados."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O processamento e a análise de dados envolvem mecanismos de auto-aprendizado e operam de forma autônoma."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-CO-CD-001-003",
+      "question_number": 3,
+      "title": "Interoperabilidade e Integração de Ativos Legados",
+      "text": "A aquisição de dados é facilitada pela conectividade dos sistemas de controle e sensores, incluindo interfaces abertas e soluções para ativos legados?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Os ativos e sistemas são gerenciados de forma independente, sem comunicação formal."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem sistemas isolados ou proprietários em chão de fábrica, com capacidades limitadas de integração de dados."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os ativos são interoperáveis com múltiplas tecnologias e protocolos de comunicação."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Ativos legados (e.g., máquinas antigas) são conectados através de novas tecnologias de sensores para fornecer dados de produção."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os sistemas de controle e sensoriamento são integrados, e a infraestrutura utiliza interfaces abertas e comunicação em tempo real."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Os sistemas de controle e sensoriamento utilizam os dados integrados em modelos preditivos para otimização das interfaces."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A infraestrutura é capaz de reorganização dinâmica e adaptação automática à integração de novos ativos. Uso de modelos preditivos para otimizar rotas de dados e cargas de comunicação."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-CO-CD-001-004",
+      "question_number": 4,
+      "title": "Utilização dos Dados para \"Sombra Digital\" e Tomada de Decisão",
+      "text": "Os dados coletados por sensores e atuadores são utilizados de forma contínua para manter uma Sombra Digital (Digital Shadow) precisa do chão de fábrica e apoiar a tomada de decisão em tempo real?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há dados digitais capturados ou utilizados."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Dados básicos de produção são usados para relatórios elementares, sem integração da cadeia de valor."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os dados dos sensores são processados e convertidos em informação útil para tomada de decisão."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Existe uma Sombra Digital criada a partir dos dados de sensores e demais ativos de chão de fábrica. O modelo digital é atualizado dinamicamente."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O sistema utiliza os dados da Sombra Digital para executar análises de dados, entender os efeitos e otimizar processos."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Os dados da Sombra Digital são usados para simular possíveis cenários futuros e permitir o suporte à decisão."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema utiliza os dados da Sombra Digital para tomar decisões de forma autônoma."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

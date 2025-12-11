@@ -1,0 +1,197 @@
+{
+  "capacity": {
+    "id": "CAP-TEC-IN-CD-001",
+    "name": "Pré-processamento descentralizado de dados de sensores",
+    "block": "Tecnologia",
+    "pilar": "Inteligência",
+    "dimension": "Chão de Fábrica (D10)",
+    "description": "Shopfloor (D10) Resumo Descritivo A dimensão Shop Floor Intelligence (D10) avalia o processamento e a análise de dados no ambiente de produção com o objetivo de otimizar processos existentes e, em estágios avançados, criar novas aplicações, produtos e serviços.",
+    "related_capacities": [
+      "Controle de Processo em Tempo Real Filtragem e Agregação de Dados na Borda Detecção de Anomalias e Predição Local Tomada de Decisão Autônoma do Equipamento"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Cristiano Gurgel Castro",
+      "version": "1.0",
+      "last_updated": "2025-12-11",
+      "source_docx": "0890_Dimensão Shopfloor_cgcastro.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-TEC-IN-CD-001-001",
+      "question_number": 1,
+      "title": "Tema",
+      "text": "Em que medida a sua organização utiliza sistemas embarcados ou dispositivos de borda (Edge Computing) para realizar o pré-processamento e a análise dos dados de sensores, viabilizando cálculos críticos e ações em tempo real?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Sistemas de Tecnologia da Operação (OT) e de Tecnologia da Informação (TI) não são utilizados para monitorar ou processar os dados dos sensores."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "O processamento de dados de sensores é feito manualmente ou totalmente em sistemas centrais, resultando em significativa latência para a tomada de decisão."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os sistemas de controle e sensores capturam dados, mas o processamento é isolado, sem o uso de sistemas embarcados avançados para pré-processamento, e a latência de dados é alta."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Sistemas embarcados são utilizados para monitoramento local e loops de controle fechado de processos técnicos, mas esses dados pré-processados não são rotineiramente integrados ou acessíveis à rede corporativa para otimizações amplas."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O pré-processamento descentralizado de dados ocorre em dispositivos de borda, o que garante a redução da latência e permite a entrega de informações contextuais em tempo quase real para apoiar a tomada de decisão humana imediata."
+        },
+        {
+          "level": 5,
+          "label": "Os sistemas de processamento descentralizado são robustos o suficiente para executar análises complexas (ex",
+          "description": "manutenção preditiva, detecção de anomalias) localmente, e as previsões resultantes são integradas ao planejamento para antecipar desvios."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Os sistemas embarcados executam o processamento complexo em tempo real e são capazes de tomar decisões de forma autônoma no nível do recurso (máquina/equipamento) para otimizar o desempenho e adaptar-se às mudanças."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-IN-CD-001-002",
+      "question_number": 2,
+      "title": "Tema",
+      "text": "Em que medida a sua organização utiliza o pré-processamento descentralizado (Edge Computing) para filtrar, agregar e tratar \"ruído\" dos dados de sensores diretamente no equipamento, reduzindo o volume de dados transmitidos para sistemas centrais?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Sistemas de Tecnologia da Operação (OT) e de Tecnologia da Informação (TI) não são utilizados para monitorar ou processar os dados dos sensores."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Todo o fluxo de dados brutos dos sensores é enviado para processamento em sistemas centrais (sem pré-processamento local), resultando em alta latência e alto tráfego de rede."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os sensores capturam dados, mas o processamento é isolado no equipamento e não há uma estratégia para filtrar ou enviar dados relevantes para outros sistemas; a latência de dados é alta."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Sistemas embarcados são usados para monitoramento local, mas apenas dados de controle de processo (loops fechados) são usados localmente, sem envio de dados pré-processados para a rede corporativa."
+        },
+        {
+          "level": 4,
+          "label": "O pré-processamento descentralizado (ex",
+          "description": "em dispositivos de borda) é usado para filtrar e agregar dados brutos, garantindo a redução da latência e enviando apenas informações contextuais em tempo quase real para sistemas centrais (ex: dashboards)."
+        },
+        {
+          "level": 5,
+          "label": "Os sistemas descentralizados executam análises complexas (ex",
+          "description": "detecção de anomalias, manutenção preditiva) localmente, enviando apenas os insights e previsões para integração com o planejamento, não o fluxo de dados brutos."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Os sistemas embarcados executam o processamento complexo em tempo real, tomando decisões autônomas e enviando aos sistemas centrais apenas os registros das ações tomadas e os resultados de desempenho, otimizando o tráfego de rede."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-IN-CD-001-003",
+      "question_number": 3,
+      "title": "Tema",
+      "text": "Em que medida a sua organização utiliza o processamento descentralizado (Edge/embarcado) para executar cálculos e lógicas de controle em tempo real (ex: loops de controle, intertravamentos de segurança) que não podem depender da latência da rede central?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Sistemas de Tecnologia da Operação (OT) e de Tecnologia da Informação (TI) não são utilizados para monitorar ou processar os dados dos sensores."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "O processamento de dados de sensores é feito manualmente ou totalmente em sistemas centrais, resultando em latência significativa que impede o controle em tempo real."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os sistemas de controle (CLPs) executam lógicas simples, mas qualquer cálculo complexo ou análise é feito em sistemas centrais, com alta latência, inviabilizando o controle em tempo real."
+        },
+        {
+          "level": 3,
+          "label": "Sistemas embarcados são utilizados para monitoramento local e loops de controle fechado de processos técnicos (ex",
+          "description": "controle PID básico em um CLP), mas esses dados não são integrados à rede corporativa."
+        },
+        {
+          "level": 4,
+          "label": "O pré-processamento descentralizado em dispositivos de borda é usado para executar cálculos mais complexos (ex",
+          "description": "fusão de múltiplos sensores) para otimizar um processo localmente, garantindo a redução da latência de decisão."
+        },
+        {
+          "level": 5,
+          "label": "O processamento descentralizado executa cálculos complexos e modelos de otimização (ex",
+          "description": "Controle de Processo Avançado - APC) em tempo real no dispositivo de borda, ajustando ativamente o processo sem depender da rede central."
+        },
+        {
+          "level": 6,
+          "label": "Os sistemas embarcados executam processamento complexo em tempo real (ex",
+          "description": "modelos de IA, fusão de sensores) para tomar decisões de controle e segurança de forma autônoma (ex: parada de emergência preditiva, otimização de trajetória), garantindo a operação mesmo com falha na rede central."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}
