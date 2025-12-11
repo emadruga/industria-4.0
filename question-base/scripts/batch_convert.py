@@ -44,12 +44,19 @@ class BatchConverter:
         path_str = str(docx_path)
 
         author_mapping = {
-            'Ewerton': 'Ewerton',
-            'cgcastro': 'Carlos Castro',
-            'Castro': 'Carlos Castro',
+            'EwertonMadruga': 'Ewerton Madruga',
+            'Ewerton': 'Ewerton Madruga',
+            'CristianoGurgelCastro': 'Cristiano Gurgel Castro',
+            'cgcastro': 'Cristiano Gurgel Castro',
+            'Castro': 'Cristiano Gurgel Castro',
+            'FlaviaAgostini': 'Flavia Agostini',
+            'Flavia': 'Flavia Agostini',
+            'WilsonMeloJr': 'Wilson Melo Jr',
+            'Wilson': 'Wilson Melo Jr',
         }
 
-        for key, author in author_mapping.items():
+        # Check for author folder names (more specific matches first)
+        for key, author in sorted(author_mapping.items(), key=lambda x: len(x[0]), reverse=True):
             if key in path_str:
                 return author
 
