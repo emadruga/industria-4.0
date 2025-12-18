@@ -4,8 +4,8 @@
     "name": "Governança de dados",
     "block": "Organização",
     "pilar": "Estrutura e Gestão",
-    "dimension": "Estratégia e Governança (D16)",
-    "description": "Strategy & Governance (D16) Resumo Descritivo A governança de dados refere-se às políticas e orientações para o processamento, armazenamento, gerenciamento e apresentação de dados de alta qualidade em toda a empresa. A implementação de uma governança de dados eficaz é fundamental para melhorar a qualidade dos dados, o que, por sua vez, sustenta a confiança nos sistemas de informação e viabiliza a tomada de decisões baseada em dados. Para que uma empresa se beneficie das mudanças, ela deve ser capaz de fornecer respostas rápidas a eventos externos. As mudanças necessárias devem ser iniciadas, implementadas e concluídas o mais rápido possível. A iniciativa para a mudança deve partir dos funcionários que possuem o conhecimento adequado para interpretar o evento, que são frequentemente aqueles que trabalham mais próximos do sistema ou máquina em questão. Isso requer a transferência de poderes de decisão e a criação de oportunidades para que os especialistas técnicos compartilhem seu conhecimento. O fator crítico é que os funcionários entendam que também são responsáveis por moldar a mudança; eles devem estar dispostos a iniciá-la por conta própria e preparados para dar o primeiro passo para que ela aconteça.",
+    "dimension": "Estratégia e Governança",
+    "description": "A governança de dados refere-se às políticas e orientações para o processamento, armazenamento, gerenciamento e apresentação de dados de alta qualidade em toda a empresa. A implementação de uma governança de dados eficaz é fundamental para melhorar a qualidade dos dados, o que, por sua vez, sustenta a confiança nos sistemas de informação e viabiliza a tomada de decisões baseada em dados. Para que uma empresa se beneficie das mudanças, ela deve ser capaz de fornecer respostas rápidas a eventos externos. As mudanças necessárias devem ser iniciadas, implementadas e concluídas o mais rápido possível. A iniciativa para a mudança deve partir dos funcionários que possuem o conhecimento adequado para interpretar o evento, que são frequentemente aqueles que trabalham mais próximos do sistema ou máquina em questão. Isso requer a transferência de poderes de decisão e a criação de oportunidades para que os especialistas técnicos compartilhem seu conhecimento. O fator crítico é que os funcionários entendam que também são responsáveis por moldar a mudança; eles devem estar dispostos a iniciá-la por conta própria e preparados para dar o primeiro passo para que ela aconteça.",
     "related_capacities": [
       "Integração horizontal e vertical Interface de dados padrão Segurança de TI Comunidades flexíveis Sistemas de metas motivacionais Gestão ágil Competência de Liderança Colaboração Inter e Intra-Empresas Estratégia e Governança Reconhecer o valor dos erros Abertura à inovação Aprendizagem e tomada de decisão baseadas em dados Desenvolvimento profissional contínuo"
     ],
@@ -25,7 +25,7 @@
     {
       "id": "Q-ORG-EE-EE-001-001",
       "question_number": 1,
-      "title": "Tema",
+      "title": "Qual o nível atual da 'Governança de Dados' na sua organizaç",
       "text": "Qual o nível atual da 'Governança de Dados' na sua organização?",
       "maturity_levels": [
         {
@@ -68,7 +68,7 @@
     {
       "id": "Q-ORG-EE-EE-001-002",
       "question_number": 2,
-      "title": "Tema",
+      "title": "Como se dá a Gestão de Dados Mestres (MDM)?",
       "text": "Como se dá a Gestão de Dados Mestres (MDM)?",
       "maturity_levels": [
         {
@@ -111,7 +111,7 @@
     {
       "id": "Q-ORG-EE-EE-001-003",
       "question_number": 3,
-      "title": "Tema",
+      "title": "Como se dá a Gestão da Qualidade de Dados (DQM)?",
       "text": "Como se dá a Gestão da Qualidade de Dados (DQM)?",
       "maturity_levels": [
         {
@@ -154,7 +154,7 @@
     {
       "id": "Q-ORG-EE-EE-001-004",
       "question_number": 4,
-      "title": "Tema",
+      "title": "Há Padronização de Interfaces de Dados?",
       "text": "Há Padronização de Interfaces de Dados?",
       "maturity_levels": [
         {
@@ -197,7 +197,7 @@
     {
       "id": "Q-ORG-EE-EE-001-005",
       "question_number": 5,
-      "title": "Tema",
+      "title": "Como a sua empresa gerencia os direitos de decisão, equilibr",
       "text": "Como a sua empresa gerencia os direitos de decisão, equilibrando a autoridade centralizada e a descentralizada para maximizar a eficácia e a eficiência da tomada de decisão?",
       "maturity_levels": [
         {
@@ -240,7 +240,7 @@
     {
       "id": "Q-ORG-EE-EE-001-006",
       "question_number": 6,
-      "title": "Tema",
+      "title": "Em que medida a empresa delega a autoridade de decisão de pr",
       "text": "Em que medida a empresa delega a autoridade de decisão de processos operacionais, movendo-a de operadores humanos para sistemas de TI (automação)?",
       "maturity_levels": [
         {
@@ -283,7 +283,7 @@
     {
       "id": "Q-ORG-EE-EE-001-007",
       "question_number": 7,
-      "title": "Tema",
+      "title": "Em que medida os tomadores de decisão (em todos os níveis) t",
       "text": "Em que medida os tomadores de decisão (em todos os níveis) têm acesso à informação relevante, integrada e contextualizada para fundamentar suas decisões?",
       "maturity_levels": [
         {
@@ -326,7 +326,7 @@
     {
       "id": "Q-ORG-EE-EE-001-008",
       "question_number": 8,
-      "title": "Tema",
+      "title": "Qual é a atitude e o nível de autonomia dos funcionários par",
       "text": "Qual é a atitude e o nível de autonomia dos funcionários para iniciar e implementar mudanças?",
       "maturity_levels": [
         {
@@ -369,7 +369,7 @@
     {
       "id": "Q-ORG-EE-EE-001-009",
       "question_number": 9,
-      "title": "Tema",
+      "title": "Como a estrutura de gestão reage (apoia, bloqueia, ignora) q",
       "text": "Como a estrutura de gestão reage (apoia, bloqueia, ignora) quando um funcionário da linha de frente propõe ou tenta implementar uma mudança?",
       "maturity_levels": [
         {
@@ -412,7 +412,7 @@
     {
       "id": "Q-ORG-EE-EE-001-010",
       "question_number": 10,
-      "title": "Tema",
+      "title": "Qual é a postura do funcionário em relação à sua responsabil",
       "text": "Qual é a postura do funcionário em relação à sua responsabilidade pessoal de iniciar mudanças, mesmo que não seja explicitamente solicitado?",
       "maturity_levels": [
         {
@@ -455,7 +455,7 @@
     {
       "id": "Q-ORG-EE-EE-001-011",
       "question_number": 11,
-      "title": "Tema",
+      "title": "Qual é a abordagem predominante da organização para implemen",
       "text": "Qual é a abordagem predominante da organização para implementar mudanças?",
       "maturity_levels": [
         {

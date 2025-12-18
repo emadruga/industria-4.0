@@ -4,8 +4,8 @@
     "name": "Design de interfaces orientado à tarefa",
     "block": "Tecnologia",
     "pilar": "Automação",
-    "dimension": "Chão de Fábrica (D4)",
-    "description": "Shop Floor (Chão de Fábrica) (D4) Resumo Descritivo Esta dimensão avalia o grau e a flexibilidade da automação e sua integração em múltiplos sistemas no local onde a produção e gestão de bens são realizadas. O foco é otimizar os níveis gerais de automação dos processos de produção e, em estágios mais altos, permitir a reconfiguração flexível de máquinas para fabricar maior variedade de produtos com prazos curtos.",
+    "dimension": "Chão de Fábrica",
+    "description": "Shop Floor (Esta dimensão avalia o grau e a flexibilidade da automação e sua integração em múltiplos sistemas no local onde a produção e gestão de bens são realizadas. O foco é otimizar os níveis gerais de automação dos processos de produção e, em estágios mais altos, permitir a reconfiguração flexível de máquinas para fabricar maior variedade de produtos com prazos curtos.",
     "related_capacities": [
       "Design de interfaces orientado à tarefa Interface de usuário específica"
     ],

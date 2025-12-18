@@ -4,8 +4,8 @@
     "name": "Análise de dados automatizada",
     "block": "Tecnologia",
     "pilar": "Inteligência",
-    "dimension": "Corporativo (D11)",
-    "description": "Enterprise (D11) Resumo Descritivo Refere-se à capacidade dos sistemas de informação de agregar dados continuamente para gerar informações, extrair conhecimento e fornecer suporte às decisões dos usuários. Isso requer a habilidade de identificar automaticamente relações de causa e efeito a partir de diversas fontes de dados e prever eventos futuros por meio de simulações e outros métodos. A análise não se limita a correlações conhecidas, mas também busca identificar novos padrões nos dados para promover um aprendizado contínuo. Em estágios avançados, algoritmos de otimização integram os impactos de eventos previstos (como uma falha) para gerar recomendações e ações de forma autônoma.",
+    "dimension": "Empresa",
+    "description": "Refere-se à capacidade dos sistemas de informação de agregar dados continuamente para gerar informações, extrair conhecimento e fornecer suporte às decisões dos usuários. Isso requer a habilidade de identificar automaticamente relações de causa e efeito a partir de diversas fontes de dados e prever eventos futuros por meio de simulações e outros métodos. A análise não se limita a correlações conhecidas, mas também busca identificar novos padrões nos dados para promover um aprendizado contínuo. Em estágios avançados, algoritmos de otimização integram os impactos de eventos previstos (como uma falha) para gerar recomendações e ações de forma autônoma.",
     "related_capacities": [
       "Entrega de dados contextualizada Interface de usuário específica da aplicação Infraestrutura de TI resiliente Integração horizontal e vertical Governança de dados Interface de dados padrão Segurança de TI"
     ],
@@ -25,7 +25,7 @@
     {
       "id": "Q-TEC-IN-CD-001-001",
       "question_number": 1,
-      "title": "Tema",
+      "title": "Como a empresa utiliza a análise automatizada de dados para",
       "text": "Como a empresa utiliza a análise automatizada de dados para gerar insights e dar suporte à tomada de decisão?",
       "maturity_levels": [
         {
@@ -68,7 +68,7 @@
     {
       "id": "Q-TEC-IN-CD-001-002",
       "question_number": 2,
-      "title": "Tema",
+      "title": "Qual é a abrangência da análise automatizada de dados?",
       "text": "Qual é a abrangência da análise automatizada de dados?",
       "maturity_levels": [
         {
@@ -111,7 +111,7 @@
     {
       "id": "Q-TEC-IN-CD-001-003",
       "question_number": 3,
-      "title": "Tema",
+      "title": "Qual é a natureza dos sistemas de análise de dados?",
       "text": "Qual é a natureza dos sistemas de análise de dados?",
       "maturity_levels": [
         {
@@ -154,7 +154,7 @@
     {
       "id": "Q-TEC-IN-CD-001-004",
       "question_number": 4,
-      "title": "Tema",
+      "title": "Com que frequência e velocidade a análise de dados é executa",
       "text": "Com que frequência e velocidade a análise de dados é executada e os resultados são disponibilizados para a tomada de decisão?",
       "maturity_levels": [
         {

@@ -4,8 +4,8 @@
     "name": "Comunicação eficiente",
     "block": "Organização",
     "pilar": "Estrutura e Gestão",
-    "dimension": "Colaboração Inter e Intraempresarial (D15)",
-    "description": "Inter- and Intra-Company Collaboration (D15) Resumo Descritivo A comunicação entre colaboradores deve ser rastreável, livre de redundâncias e atender às necessidades dos grupos de stakeholders, garantindo que a informação correta chegue à pessoa certa, no momento certo e no formato adequado. O objetivo é reduzir o tempo que os funcionários despendem procurando e esperando por informações, utilizando armazenamento centralizado de dados (fonte única da verdade), assinaturas digitais para aprovações e sistemas de groupware para suportar a comunicação contextualizada e eficiente.",
+    "dimension": "Colaboração Inter e Intra-Empresarial",
+    "description": "A comunicação entre colaboradores deve ser rastreável, livre de redundâncias e atender às necessidades dos grupos de stakeholders, garantindo que a informação correta chegue à pessoa certa, no momento certo e no formato adequado. O objetivo é reduzir o tempo que os funcionários despendem procurando e esperando por informações, utilizando armazenamento centralizado de dados (fonte única da verdade), assinaturas digitais para aprovações e sistemas de groupware para suportar a comunicação contextualizada e eficiente.",
     "related_capacities": [
       "Design de interface baseado em tarefas Colaboração Inter e Intra-Empresas Conectividade (Shop Floor",
       "Enterprise",
@@ -27,7 +27,7 @@
     {
       "id": "Q-ORG-EE-CI-001-001",
       "question_number": 1,
-      "title": "Tema",
+      "title": "Como a comunicação e a troca de informações são estruturadas",
       "text": "Como a comunicação e a troca de informações são estruturadas e gerenciadas na empresa?",
       "maturity_levels": [
         {
@@ -70,7 +70,7 @@
     {
       "id": "Q-ORG-EE-CI-001-002",
       "question_number": 2,
-      "title": "Tema",
+      "title": "Como se dá a comunicação com Parceiros?",
       "text": "Como se dá a comunicação com Parceiros?",
       "maturity_levels": [
         {
@@ -113,7 +113,7 @@
     {
       "id": "Q-ORG-EE-CI-001-003",
       "question_number": 3,
-      "title": "Tema",
+      "title": "Como se dá normalmente a comunicação entre os funcionários?",
       "text": "Como se dá normalmente a comunicação entre os funcionários?",
       "maturity_levels": [
         {
@@ -156,7 +156,7 @@
     {
       "id": "Q-ORG-EE-CI-001-004",
       "question_number": 4,
-      "title": "Tema",
+      "title": "Como a estrutura organizacional da empresa apoia a colaboraç",
       "text": "Como a estrutura organizacional da empresa apoia a colaboração e a formação dinâmica de equipes?",
       "maturity_levels": [
         {
@@ -199,7 +199,7 @@
     {
       "id": "Q-ORG-EE-CI-001-005",
       "question_number": 5,
-      "title": "Tema",
+      "title": "De que forma as ferramentas de TI e plataformas de colaboraç",
       "text": "De que forma as ferramentas de TI e plataformas de colaboração dão transparência às competências dos funcionários para apoiar a formação de equipes flexíveis?",
       "maturity_levels": [
         {
@@ -242,7 +242,7 @@
     {
       "id": "Q-ORG-EE-CI-001-006",
       "question_number": 6,
-      "title": "Tema",
+      "title": "Como a gestão de desempenho e os sistemas de metas estão ada",
       "text": "Como a gestão de desempenho e os sistemas de metas estão adaptados para apoiar o trabalho em equipes flexíveis e multifuncionais?",
       "maturity_levels": [
         {
@@ -285,7 +285,7 @@
     {
       "id": "Q-ORG-EE-CI-001-007",
       "question_number": 7,
-      "title": "Tema",
+      "title": "Como a gestão ágil e a distribuição de autoridade são aplica",
       "text": "Como a gestão ágil e a distribuição de autoridade são aplicadas para garantir que as comunidades flexíveis possam tomar decisões rapidamente?",
       "maturity_levels": [
         {

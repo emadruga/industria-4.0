@@ -4,8 +4,8 @@
     "name": "Infraestrutura de TI resiliente",
     "block": "Tecnologia",
     "pilar": "Conectividade",
-    "dimension": "Instalação (D9)",
-    "description": "Facility (Instalação) (D9) Resumo Descritivo Esta dimensão avalia a interconexão de equipamentos e sistemas dentro do ambiente industrial, incluindo cibersegurança de instalações críticas e controle de condições ambientais (do inglês Heating, Ventilation, and Air Conditioning, ou HVAC). Visa medir a interoperabilidade e segurança da rede para permitir a troca contínua de dados e a automação eficiente da instalação, gerando redução de custos e maior eficiência.",
+    "dimension": "Instalações",
+    "description": "Facility (Esta dimensão avalia a interconexão de equipamentos e sistemas dentro do ambiente industrial, incluindo cibersegurança de instalações críticas e controle de condições ambientais (do inglês Heating, Ventilation, and Air Conditioning, ou HVAC). Visa medir a interoperabilidade e segurança da rede para permitir a troca contínua de dados e a automação eficiente da instalação, gerando redução de custos e maior eficiência.",
     "related_capacities": [
       "Infraestrutura de TI resiliente Segurança de TI"
     ],

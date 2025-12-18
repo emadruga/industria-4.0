@@ -4,8 +4,8 @@
     "name": "Interface de dados padronizada",
     "block": "Tecnologia",
     "pilar": "Conectividade",
-    "dimension": "Corporativo (D8)",
-    "description": "Enterprise (D8) Resumo Descritivo Esta dimensão avalia a interconexão dos sistemas de TI onde o trabalho administrativo é realizado. O principal objetivo é permitir a comunicação e a troca contínua de dados entre sistemas, visando a interoperabilidade, segurança, velocidade e agilidade da rede para que os sistemas interajam sem restrições significativas.",
+    "dimension": "Empresa",
+    "description": "Esta dimensão avalia a interconexão dos sistemas de TI onde o trabalho administrativo é realizado. O principal objetivo é permitir a comunicação e a troca contínua de dados entre sistemas, visando a interoperabilidade, segurança, velocidade e agilidade da rede para que os sistemas interajam sem restrições significativas.",
     "related_capacities": [
       "Interface de dados padronizada"
     ],

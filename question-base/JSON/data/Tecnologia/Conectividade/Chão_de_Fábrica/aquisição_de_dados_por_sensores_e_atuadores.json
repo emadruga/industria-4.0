@@ -1,13 +1,13 @@
 {
   "capacity": {
-    "id": "CAP-TEC-AU-CD-001",
-    "name": "Foco em benefícios ao cliente",
+    "id": "CAP-TEC-CO-CD-001",
+    "name": "Aquisição de dados por sensores e atuadores",
     "block": "Tecnologia",
-    "pilar": "Automação",
-    "dimension": "Ciclo de Vida de Produto Integrado (D3)",
-    "description": "Ciclo de Vida de Produto Integrado (D3) Resumo Descritivo Esta dimensão avalia a integração de pessoas, processos e sistemas ao longo do ciclo de vida do produto (desde design até o descarte). O objetivo é encurtar os ciclos de desenvolvimento, usando Gêmeos Digitais (Digital Twins) e sistemas PLM para criar uma Sombra Digital do produto. Isso permite agilidade e novos modelos de negócio, como o Product-as-a-Service.",
+    "pilar": "Conectividade",
+    "dimension": "Chão de Fábrica",
+    "description": "Shop Floor (Esta dimensão avalia a interconexão de equipamentos, máquinas e sistemas de produção de modo a permitir a comunicação e a troca de dados entre ativos. O objetivo principal é a digitalização do chão de fábrica, usando protocolos padronizados e redes IoT para alcançar interoperabilidade, segurança e comunicação em tempo real e, assim, otimizar as atividades de manufatura.",
     "related_capacities": [
-      "Foco em benefícios ao cliente"
+      "Aquisição de dados por sensores e atuadores"
     ],
     "metadata": {
       "source_frameworks": [
@@ -17,223 +17,180 @@
       "author": "Wilson Melo Jr",
       "version": "1.0",
       "last_updated": "2025-12-11",
-      "source_docx": "Ciclo de Vida de Produto Integrado (D3).docx",
+      "source_docx": "Shop Floor (D7).docx",
       "status": "draft"
     }
   },
   "questions": [
     {
-      "id": "Q-TEC-AU-CD-001-001",
+      "id": "Q-TEC-CO-CD-001-001",
       "question_number": 1,
-      "title": "Integração das Informações ao longo do Ciclo de Vida do Produto",
-      "text": "Como a informação do produto é gerenciada e compartilhada entre as diferentes fases do seu ciclo de vida (design, engenharia, produção, uso e serviço)?",
+      "title": "Habilitação Tecnológica e Criação de CPS",
+      "text": "Os equipamentos e máquinas do chão de fábrica foram aprimorados com sistemas embarcados, sensores e atuadores para criar Sistemas Ciberfísicos (CPS) e estabelecer uma interface entre o mundo físico e digital?",
       "maturity_levels": [
         {
           "level": 0,
           "label": "Nível 0",
-          "description": "Não há processos ou sistemas definidos para gerenciar informações do produto."
+          "description": "Processos não são definidos e são executados com métodos informais ou ad-hoc."
         },
         {
           "level": 1,
           "label": "Nível 1",
-          "description": "As informações são gerenciadas informalmente por departamentos isolados."
+          "description": "Equipamentos, máquinas e sistemas baseados em computador podem interagir e trocar informações de forma básica."
         },
         {
           "level": 2,
           "label": "Nível 2",
-          "description": "Existem procedimentos formais para troca de informações, mas ainda manuais."
+          "description": "Componentes mecatrônicos foram aprimorados para criar Sistemas Ciberfísicos (CPS)."
         },
         {
           "level": 3,
           "label": "Nível 3",
-          "description": "As informações são digitalizadas, porém a integração entre sistemas é manual."
+          "description": "Sensores inteligentes são usados para capturar dados de máquinas e equipamentos."
         },
         {
           "level": 4,
           "label": "Nível 4",
-          "description": "Sistemas digitais estão integrados, mas o fluxo ainda depende de controle humano."
+          "description": "Os dados reais do chão de fábrica são capturados por diferentes redes de sensores e utilizados para tomar decisões."
         },
         {
           "level": 5,
           "label": "Nível 5",
-          "description": "fluxo de informações é automatizado com mínima intervenção humana."
+          "description": "Os dados são integrados em sistemas inteligentes para a criação de uma Sombra Digital (Digital Shadow) dos processos."
         },
         {
           "level": 6,
           "label": "Nível 6",
-          "description": "O sistema aprende e adapta-se com base em dados reais do produto."
+          "description": "Os sistemas de informação são dotados de mecanismos de auto-aprendizado baseados em dados do CPS e operam de forma autônoma."
         }
       ]
     },
     {
-      "id": "Q-TEC-AU-CD-001-002",
+      "id": "Q-TEC-CO-CD-001-002",
       "question_number": 2,
-      "title": "Uso de Representações Digitais e Gêmeos Digitais",
-      "text": "Em que medida a empresa utiliza representações digitais (como modelos 3D, simulações ou gêmeos digitais) para o design, engenharia e otimização de produtos e processos?",
+      "title": "Pré-processamento e Descentralização dos Dados",
+      "text": "O pré-processamento dos dados brutos dos sensores diretamente nos sistemas embarcados e ativos do chão de fábrica é eficiente e descentralizado?",
       "maturity_levels": [
         {
           "level": 0,
           "label": "Nível 0",
-          "description": "Não há uso de ferramentas digitais para modelagem ou simulação."
+          "description": "Não há pré-processamento de dados digitais ou o fluxo de dados é inexistente."
         },
         {
           "level": 1,
           "label": "Nível 1",
-          "description": "Representações digitais são inexistentes ou ocasionais."
+          "description": "O processamento de dados é centralizado e os ativos de produção funcionam com lógica pré-programada."
         },
         {
           "level": 2,
           "label": "Nível 2",
-          "description": "CAD é utilizado apenas para desenhos ou modelos estáticos."
+          "description": "Os dados dos sensores são coletados, mas o pré-processamento é limitado e ainda dependente de processos centralizados."
         },
         {
           "level": 3,
           "label": "Nível 3",
-          "description": "Modelos digitais são usados em etapas específicas, de forma isolada."
+          "description": "O pré-processamento dos dados dos sensores é descentralizado, no ponto de geração de dados, com baixa latência."
         },
         {
           "level": 4,
           "label": "Nível 4",
-          "description": "Modelos digitais abrangentes são integrados via PLM."
+          "description": "O pré-processamento descentralizado é otimizado (com uso de balanceamento de carga e confiabilidade)."
         },
         {
           "level": 5,
           "label": "Nível 5",
-          "description": "A empresa usa gêmeos digitais para simulação e otimização."
+          "description": "Os sistemas de informação utilizam análise de dados avançada e desempenho para prever falhas e vulnerabilidades que possam gerar interrupções no processamento de dados."
         },
         {
           "level": 6,
           "label": "Nível 6",
-          "description": "Gêmeos digitais totalmente integrados reagem e otimizam-se em tempo real."
+          "description": "O processamento e a análise de dados envolvem mecanismos de auto-aprendizado e operam de forma autônoma."
         }
       ]
     },
     {
-      "id": "Q-TEC-AU-CD-001-003",
+      "id": "Q-TEC-CO-CD-001-003",
       "question_number": 3,
-      "title": "Integração e Uso de Dados para Decisão e Inovação",
-      "text": "Como a empresa integra e utiliza dados de diversas fontes (design, produção, uso do cliente, serviço) para impulsionar a tomada de decisões e a inovação em produtos e processos?",
+      "title": "Interoperabilidade e Integração de Ativos Legados",
+      "text": "A aquisição de dados é facilitada pela conectividade dos sistemas de controle e sensores, incluindo interfaces abertas e soluções para ativos legados?",
       "maturity_levels": [
         {
           "level": 0,
           "label": "Nível 0",
-          "description": "Dados não são coletados nem usados de forma sistemática."
+          "description": "Os ativos e sistemas são gerenciados de forma independente, sem comunicação formal."
         },
         {
           "level": 1,
           "label": "Nível 1",
-          "description": "Dados são coletados pontualmente, sem integração entre áreas."
+          "description": "Existem sistemas isolados ou proprietários em chão de fábrica, com capacidades limitadas de integração de dados."
         },
         {
           "level": 2,
           "label": "Nível 2",
-          "description": "Dados são coletados em algumas fases, mas sem consolidação."
+          "description": "Os ativos são interoperáveis com múltiplas tecnologias e protocolos de comunicação."
         },
         {
           "level": 3,
           "label": "Nível 3",
-          "description": "Dados digitais são coletados, porém analisados de forma isolada."
+          "description": "Ativos legados (e.g., máquinas antigas) são conectados através de novas tecnologias de sensores para fornecer dados de produção."
         },
         {
           "level": 4,
           "label": "Nível 4",
-          "description": "Dados de múltiplas fontes são conectados em sistemas integrados."
+          "description": "Os sistemas de controle e sensoriamento são integrados, e a infraestrutura utiliza interfaces abertas e comunicação em tempo real."
         },
         {
           "level": 5,
           "label": "Nível 5",
-          "description": "Integração e análise de dados são amplamente automatizadas."
+          "description": "Os sistemas de controle e sensoriamento utilizam os dados integrados em modelos preditivos para otimização das interfaces."
         },
         {
           "level": 6,
           "label": "Nível 6",
-          "description": "A empresa usa IA e análise avançada para otimização contínua."
+          "description": "A infraestrutura é capaz de reorganização dinâmica e adaptação automática à integração de novos ativos. Uso de modelos preditivos para otimizar rotas de dados e cargas de comunicação."
         }
       ]
     },
     {
-      "id": "Q-TEC-AU-CD-001-004",
+      "id": "Q-TEC-CO-CD-001-004",
       "question_number": 4,
-      "title": "Colaboração e Integração com Parceiros Externos no Design e Desenvolvimento de Produtos",
-      "text": "Como a empresa lida com a colaboração e a integração de parceiros externos (fornecedores, clientes, centros de pesquisa) no design e desenvolvimento de produtos?",
+      "title": "Utilização dos Dados para \"Sombra Digital\" e Tomada de Decisão",
+      "text": "Os dados coletados por sensores e atuadores são utilizados de forma contínua para manter uma Sombra Digital (Digital Shadow) precisa do chão de fábrica e apoiar a tomada de decisão em tempo real?",
       "maturity_levels": [
         {
           "level": 0,
           "label": "Nível 0",
-          "description": "A empresa opera isoladamente, sem envolvimento de parceiros externos."
+          "description": "Não há dados digitais capturados ou utilizados."
         },
         {
           "level": 1,
           "label": "Nível 1",
-          "description": "A interação com parceiros é pontual e sem estrutura formal."
+          "description": "Dados básicos de produção são usados para relatórios elementares, sem integração da cadeia de valor."
         },
         {
           "level": 2,
           "label": "Nível 2",
-          "description": "A colaboração ocorre de forma reativa, sem integração digital."
+          "description": "Os dados dos sensores são processados e convertidos em informação útil para tomada de decisão."
         },
         {
           "level": 3,
           "label": "Nível 3",
-          "description": "Ferramentas digitais são usadas apenas para troca de informações."
+          "description": "Existe uma Sombra Digital criada a partir dos dados de sensores e demais ativos de chão de fábrica. O modelo digital é atualizado dinamicamente."
         },
         {
           "level": 4,
           "label": "Nível 4",
-          "description": "Plataformas digitais suportam colaboração em fases específicas do ciclo de vida."
+          "description": "O sistema utiliza os dados da Sombra Digital para executar análises de dados, entender os efeitos e otimizar processos."
         },
         {
           "level": 5,
           "label": "Nível 5",
-          "description": "Os sistemas da empresa e dos parceiros estão conectados digitalmente."
+          "description": "Os dados da Sombra Digital são usados para simular possíveis cenários futuros e permitir o suporte à decisão."
         },
         {
           "level": 6,
           "label": "Nível 6",
-          "description": "A empresa integra um ecossistema digital de inovação com parceiros."
-        }
-      ]
-    },
-    {
-      "id": "Q-TEC-AU-CD-001-005",
-      "question_number": 5,
-      "title": "Gestão de Feedback e Dados de Uso do Produto",
-      "text": "Como a empresa gerencia e incorpora feedback do uso do produto e requisitos do cliente para refinar o design e otimizar o desempenho ao longo do ciclo de vida?",
-      "maturity_levels": [
-        {
-          "level": 0,
-          "label": "Nível 0",
-          "description": "A empresa não coleta nem utiliza feedback ou dados de uso."
-        },
-        {
-          "level": 1,
-          "label": "Nível 1",
-          "description": "Feedback é coletado esporadicamente e usado de forma não sistemática."
-        },
-        {
-          "level": 2,
-          "label": "Nível 2",
-          "description": "Feedback é obtido por meios simples e usado ocasionalmente."
-        },
-        {
-          "level": 3,
-          "label": "Nível 3",
-          "description": "Ferramentas digitais coletam dados e feedback, mas sem integração."
-        },
-        {
-          "level": 4,
-          "label": "Nível 4",
-          "description": "Sistemas conectados integram dados de uso e feedback de clientes."
-        },
-        {
-          "level": 5,
-          "label": "Nível 5",
-          "description": "Feedback e dados de uso são analisados automaticamente."
-        },
-        {
-          "level": 6,
-          "label": "Nível 6",
-          "description": "Feedback e uso do produto são analisados por IA em tempo real."
+          "description": "O sistema utiliza os dados da Sombra Digital para tomar decisões de forma autônoma."
         }
       ]
     }

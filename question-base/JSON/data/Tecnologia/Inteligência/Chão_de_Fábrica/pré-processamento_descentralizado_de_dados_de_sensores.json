@@ -4,8 +4,8 @@
     "name": "Pré-processamento descentralizado de dados de sensores",
     "block": "Tecnologia",
     "pilar": "Inteligência",
-    "dimension": "Chão de Fábrica (D10)",
-    "description": "Shopfloor (D10) Resumo Descritivo A dimensão Shop Floor Intelligence (D10) avalia o processamento e a análise de dados no ambiente de produção com o objetivo de otimizar processos existentes e, em estágios avançados, criar novas aplicações, produtos e serviços.",
+    "dimension": "Chão de Fábrica",
+    "description": "A dimensão avalia o processamento e a análise de dados no ambiente de produção com o objetivo de otimizar processos existentes e, em estágios avançados, criar novas aplicações, produtos e serviços.",
     "related_capacities": [
       "Controle de Processo em Tempo Real Filtragem e Agregação de Dados na Borda Detecção de Anomalias e Predição Local Tomada de Decisão Autônoma do Equipamento"
     ],
@@ -25,7 +25,7 @@
     {
       "id": "Q-TEC-IN-CD-001-001",
       "question_number": 1,
-      "title": "Tema",
+      "title": "Em que medida a sua organização utiliza sistemas embarcados",
       "text": "Em que medida a sua organização utiliza sistemas embarcados ou dispositivos de borda (Edge Computing) para realizar o pré-processamento e a análise dos dados de sensores, viabilizando cálculos críticos e ações em tempo real?",
       "maturity_levels": [
         {
@@ -68,7 +68,7 @@
     {
       "id": "Q-TEC-IN-CD-001-002",
       "question_number": 2,
-      "title": "Tema",
+      "title": "Em que medida a sua organização utiliza o pré-processamento",
       "text": "Em que medida a sua organização utiliza o pré-processamento descentralizado (Edge Computing) para filtrar, agregar e tratar \"ruído\" dos dados de sensores diretamente no equipamento, reduzindo o volume de dados transmitidos para sistemas centrais?",
       "maturity_levels": [
         {
@@ -111,7 +111,7 @@
     {
       "id": "Q-TEC-IN-CD-001-003",
       "question_number": 3,
-      "title": "Tema",
+      "title": "Em que medida a sua organização utiliza o processamento desc",
       "text": "Em que medida a sua organização utiliza o processamento descentralizado (Edge/embarcado) para executar cálculos e lógicas de controle em tempo real (ex: loops de controle, intertravamentos de segurança) que não podem depender da latência da rede central?",
       "maturity_levels": [
         {
