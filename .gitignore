@@ -1,6 +1,5 @@
-question-base/JSON
 question-base/data*
-question-base/scripts/__pycache__
+question-base/scripts/__pycache__/*
 .DS_Store
 NOTES
 
