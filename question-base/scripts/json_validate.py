@@ -407,28 +407,127 @@ class JSONValidator:
 
     def fix_file(self, json_path: Path, data: Dict, issues: List[ValidationIssue],
                  catalog_entry: Dict):
-        """Fix issues in a JSON file."""
+        """Fix issues in a JSON file and move if needed."""
+        import re
+
         modified = False
+        needs_move = False
+        fixed_count = 0
 
         for issue in issues:
+            # Fix hierarchy issues
             if issue.field == "capacity.block":
                 data['capacity']['block'] = catalog_entry['block']
                 modified = True
-                self.stats['fixed_issues'] += 1
+                needs_move = True
+                fixed_count += 1
             elif issue.field == "capacity.pilar":
                 data['capacity']['pilar'] = catalog_entry['pilar']
                 modified = True
-                self.stats['fixed_issues'] += 1
+                needs_move = True
+                fixed_count += 1
             elif issue.field == "capacity.dimension":
                 data['capacity']['dimension'] = catalog_entry['dimension']
                 modified = True
-                self.stats['fixed_issues'] += 1
+                needs_move = True
+                fixed_count += 1
 
+            # Fix capacity description issues
+            elif issue.field == "capacity.description":
+                desc = data['capacity']['description']
+
+                # Remove "Descrição da Capacidade" header
+                if desc.lower().startswith('descrição da capacidade'):
+                    desc = re.sub(r'^descrição da capacidade\s*', '', desc, flags=re.IGNORECASE)
+
+                # Remove "Resumo Descritivo"
+                desc = re.sub(r'resumo descritivo\s*', '', desc, flags=re.IGNORECASE)
+
+                # Remove English dimension names with codes like "Leadership Competency (D14)"
+                desc = re.sub(r'\b[A-Z][a-z]+[^(]*\([Dd]\d+\)\s*', '', desc)
+
+                # Clean up extra whitespace
+                desc = ' '.join(desc.split())
+
+                data['capacity']['description'] = desc
+                modified = True
+                fixed_count += 1
+
+            # Fix question title issues
+            elif issue.field.startswith("questions[") and issue.field.endswith("].title"):
+                # Extract question index from field like "questions[0].title"
+                match = re.match(r'questions\[(\d+)\]\.title', issue.field)
+                if match:
+                    q_idx = int(match.group(1))
+                    questions = data.get('questions', [])
+                    if q_idx < len(questions):
+                        q_text = questions[q_idx].get('text', '').strip()
+                        # Create a meaningful title from question text (first 60 chars)
+                        if q_text:
+                            new_title = q_text[:60].strip()
+                            # Remove trailing punctuation if cut mid-sentence
+                            if len(q_text) > 60:
+                                new_title = new_title.rstrip('.,;:?!')
+
+                            questions[q_idx]['title'] = new_title
+                            modified = True
+                            fixed_count += 1
+                        else:
+                            # Question has empty text - can't auto-fix, skip
+                            print(f"⚠️  Cannot auto-fix question {q_idx+1} in {json_path.name}: empty question text")
+
+        # Save the modified JSON file
         if modified:
-            # Write back to file
             with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
-            print(f"✅ Fixed {len(issues)} issue(s) in {json_path.name}")
+
+            self.stats['fixed_issues'] += fixed_count
+
+            # Move file if hierarchy changed
+            if needs_move:
+                self._move_file(json_path, catalog_entry)
+                print(f"✅ Fixed {fixed_count} issue(s) and moved {json_path.name}")
+            else:
+                print(f"✅ Fixed {fixed_count} issue(s) in {json_path.name}")
+
+    def _move_file(self, json_path: Path, catalog_entry: Dict):
+        """Move file to correct directory based on hierarchy."""
+        # Calculate new path
+        block = catalog_entry['block'].replace(' ', '_')
+        pilar = catalog_entry['pilar'].replace(' ', '_')
+        dimension = catalog_entry['dimension'].replace(' ', '_')
+
+        # Get the base data directory from current path
+        # Assuming structure: .../data/Block/Pilar/Dimension/file.json
+        parts = json_path.parts
+        if 'data' in parts:
+            data_idx = parts.index('data')
+            base_dir = Path(*parts[:data_idx+1])
+        else:
+            # Fallback: use parent's parent's parent
+            base_dir = json_path.parent.parent.parent.parent / 'data'
+
+        new_dir = base_dir / block / pilar / dimension
+        new_path = new_dir / json_path.name
+
+        # Create directory if it doesn't exist
+        new_dir.mkdir(parents=True, exist_ok=True)
+
+        # Move the file
+        import shutil
+        shutil.move(str(json_path), str(new_path))
+
+        # Try to remove empty directories (optional cleanup)
+        try:
+            old_dir = json_path.parent
+            if old_dir.exists() and not any(old_dir.iterdir()):
+                old_dir.rmdir()
+                # Try parent too
+                old_parent = old_dir.parent
+                if old_parent.exists() and not any(old_parent.iterdir()):
+                    old_parent.rmdir()
+        except:
+            pass  # Ignore errors in cleanup
 
     def validate_directory(self, base_dir: Path, pattern: str = "**/*.json") -> List[ValidationIssue]:
         """Validate all JSON files in a directory."""
