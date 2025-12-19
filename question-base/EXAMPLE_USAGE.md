@@ -175,7 +175,47 @@ df.to_excel("questions_summary.xlsx", index=False)
 print(f"Exported {len(df)} questions to Excel")
 ```
 
-## Scenario 10: Find Missing Evidence Sources
+## Scenario 10: Regenerate Hierarchy Files
+
+After adding, removing, or editing JSON files, regenerate the hierarchy metadata:
+
+```bash
+conda activate INDUSTRIA4
+cd /Users/emadruga/proj/industria-4.0
+
+# Regenerate hierarchy.json and hierarchy_table.md
+python question-base/scripts/regenerate_hierarchy_table.py \
+  question-base/JSON/data \
+  -o question-base/JSON/metadata
+```
+
+**What it generates:**
+- `hierarchy.json`: Complete hierarchical structure (Block → Pilar → Dimension → Capacity)
+- `hierarchy_table.md`: Markdown table showing all questions for easy browsing
+
+**When to use:**
+- After batch conversion of new DOCX files
+- After running json_validate.py with --fix (files may have moved)
+- After manual edits to JSON files
+- Before generating sunburst HTML visualizations
+
+**Example output:**
+```
+============================================================
+REGENERATION SUMMARY
+============================================================
+Total JSON files processed: 19
+Total blocks: 3
+Total pilares: 7
+Total dimensions: 13
+Total capacities: 19
+Total questions: 107
+Average questions per capacity: 5.6
+
+✅ Hierarchy files regenerated successfully!
+```
+
+## Scenario 11: Find Missing Evidence Sources
 
 ```python
 # Check which questions lack evidence sources
