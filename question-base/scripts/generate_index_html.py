@@ -138,7 +138,7 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explorador de Questões - Modelo de Maturidade Indústria 4.0</title>
+    <title>Mapa da Maturidade da Indústria 4.0</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
@@ -470,7 +470,7 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
                     <h3>Níveis de Maturidade</h3>
                     ${{levels.map(level => `
                         <div class="level-card">
-                            <div class="level-header">Nível ${{level.level}}: ${{level.label}}</div>
+                            <div class="level-header">Nível ${{level.level}}</div>
                             <div class="level-description">${{level.description}}</div>
                         </div>
                     `).join('')}}
