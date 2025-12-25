@@ -44,12 +44,19 @@ class BatchConverter:
         path_str = str(docx_path)
 
         author_mapping = {
-            'Ewerton': 'Ewerton',
-            'cgcastro': 'Carlos Castro',
-            'Castro': 'Carlos Castro',
+            'EwertonMadruga': 'Ewerton Madruga',
+            'Ewerton': 'Ewerton Madruga',
+            'CristianoGurgelCastro': 'Cristiano Gurgel Castro',
+            'cgcastro': 'Cristiano Gurgel Castro',
+            'Castro': 'Cristiano Gurgel Castro',
+            'FlaviaAgostini': 'Flavia Agostini',
+            'Flavia': 'Flavia Agostini',
+            'WilsonMeloJr': 'Wilson Melo Jr',
+            'Wilson': 'Wilson Melo Jr',
         }
 
-        for key, author in author_mapping.items():
+        # Check for author folder names (more specific matches first)
+        for key, author in sorted(author_mapping.items(), key=lambda x: len(x[0]), reverse=True):
             if key in path_str:
                 return author
 
@@ -249,6 +256,81 @@ class BatchConverter:
 
         print(f"\n✅ Hierarchy saved to: {hierarchy_path}")
 
+    def generate_hierarchy_markdown(self) -> str:
+        """Generate markdown table showing hierarchical structure down to questions."""
+        lines = []
+
+        # Add header
+        lines.append("# Industry 4.0 Maturity Model - Question Hierarchy")
+        lines.append("")
+        lines.append("Complete hierarchical view from blocks to individual questions.")
+        lines.append("")
+        lines.append(f"**Total Questions:** {self.stats['total_questions']}")
+        lines.append(f"**Total Capacities:** {self.stats['total_capacities']}")
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+
+        # Add table header
+        lines.append("| Block | Pilar | Dimension | Capacity | Question Code | Question Title |")
+        lines.append("|-------|-------|-----------|----------|---------------|----------------|")
+
+        # Process each result to extract questions
+        for result in sorted(self.results, key=lambda r: (r['capacity']['block'],
+                                                          r['capacity']['pilar'],
+                                                          r['capacity']['dimension'],
+                                                          r['capacity']['name'])):
+            if result['status'] != 'success':
+                continue
+
+            capacity = result['capacity']
+            block = capacity['block']
+            pilar = capacity['pilar']
+            dimension = capacity['dimension']
+            capacity_name = capacity['name']
+
+            # Load the JSON file to get questions
+            output_path = Path(result['output'])
+            if output_path.exists():
+                with open(output_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+
+                questions = data.get('questions', [])
+
+                if questions:
+                    # Add a row for each question
+                    for question in questions:
+                        q_id = question.get('id', 'N/A')
+                        q_title = question.get('title', 'N/A')
+
+                        # Escape pipe characters in text
+                        q_title = q_title.replace('|', '\\|')
+
+                        lines.append(f"| {block} | {pilar} | {dimension} | {capacity_name} | `{q_id}` | {q_title} |")
+                else:
+                    # Add row for capacity without questions
+                    lines.append(f"| {block} | {pilar} | {dimension} | {capacity_name} | - | *No questions* |")
+
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+        lines.append("*Generated automatically from Industry 4.0 maturity assessment documents*")
+        lines.append("")
+
+        return '\n'.join(lines)
+
+    def save_hierarchy_markdown(self):
+        """Save hierarchy as markdown table."""
+        markdown = self.generate_hierarchy_markdown()
+
+        md_path = self.output_dir / 'metadata' / 'hierarchy_table.md'
+        md_path.parent.mkdir(parents=True, exist_ok=True)
+
+        with open(md_path, 'w', encoding='utf-8') as f:
+            f.write(markdown)
+
+        print(f"✅ Hierarchy table saved to: {md_path}")
+
     def print_summary(self):
         """Print conversion summary."""
         print("\n" + "="*60)
@@ -282,11 +364,39 @@ class BatchConverter:
         return mapping.get(block, 'UNK')
 
     def _get_code(self, name: str) -> str:
-        """Generate a short code from a name."""
+        """Generate a short code from a name, ignoring '(' and other non-alphabetic chars."""
         words = name.split()
-        if len(words) >= 2:
-            return ''.join([w[0].upper() for w in words[:2]])
-        return name[:2].upper() if name else 'UN'
+
+        # Get valid characters from first letters of words
+        code_chars = []
+        for word in words[:4]:  # Check up to 4 words to get 2 valid chars
+            # Skip empty words and find first alphabetic character
+            for char in word:
+                if char.isalpha():  # Only use alphabetic characters
+                    code_chars.append(char.upper())
+                    break
+            if len(code_chars) >= 2:
+                break
+
+        if len(code_chars) >= 2:
+            return ''.join(code_chars[:2])
+
+        # If we don't have 2 chars yet, get from first word with valid letters
+        if len(code_chars) < 2:
+            for word in words:
+                clean_word = ''.join([c for c in word if c.isalpha()])
+                if len(clean_word) >= 2:
+                    # Use the first 2 letters from this clean word
+                    return clean_word[:2].upper()
+                elif len(clean_word) == 1 and len(code_chars) == 0:
+                    code_chars.append(clean_word[0].upper())
+
+        # Final fallback: get first 2 alphabetic characters from entire name
+        alpha_chars = [c.upper() for c in name if c.isalpha()]
+        if len(alpha_chars) >= 2:
+            return ''.join(alpha_chars[:2])
+
+        return 'UN'  # Default if nothing works
 
 
 def main():
@@ -311,6 +421,7 @@ def main():
     # Generate hierarchy
     if not args.no_hierarchy:
         converter.save_hierarchy()
+        converter.save_hierarchy_markdown()
 
     # Print summary
     converter.print_summary()

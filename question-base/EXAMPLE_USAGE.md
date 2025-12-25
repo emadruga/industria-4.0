@@ -16,11 +16,70 @@ python batch_convert.py \
 ## Scenario 2: Validate All Converted Files
 
 ```bash
-# Validate entire directory
+# Validate entire directory (schema validation)
 python validate_questions.py \
   ../data/ \
   -r \
   -v
+```
+
+## Scenario 2b: Validate Hierarchy Consistency Against Catalog
+
+After running `batch_convert.py`, validate that all JSON files have consistent Block, Pilar, and Dimension names matching the official catalog:
+
+```bash
+conda activate INDUSTRIA4
+cd /Users/emadruga/proj/industria-4.0
+
+# Validate all JSON files against the Excel catalog
+python question-base/scripts/json_validate.py \
+  question-base/JSON/data \
+  -e mdic-suframa/templates/acatech_siri_comparacao.xlsx
+
+# Fix issues automatically
+python question-base/scripts/json_validate.py \
+  question-base/JSON/data \
+  -e mdic-suframa/templates/acatech_siri_comparacao.xlsx \
+  --fix
+```
+
+**What it validates:**
+- Block names (Organização, Processo, Tecnologia)
+- Pilar names (e.g., "Estrutura e Gestão", "Automação", etc.)
+- Dimension names (e.g., "Competência de Liderança", "Chão de Fábrica", etc.)
+
+**Features:**
+- Loads capacity catalog from Excel with English→Portuguese translation
+- Removes dimension codes like (D4), (D10), etc.
+- Reports issues organized by category (Block/Pilar/Dimension mismatches)
+- `--fix` flag automatically corrects all issues
+
+**Example output:**
+```
+ISSUES BY CATEGORY
+============================================================
+
+BLOCK MISMATCH (1 issues)
+------------------------------------------------------------
+  • foco_em_benefícios_ao_cliente.json
+    Current:  'Tecnologia'
+    Expected: 'Processo'
+
+DIMENSION MISMATCH (12 issues)
+------------------------------------------------------------
+  • comunicação_aberta.json
+    Current:  'Colaboração Inter e Intraempresarial'
+    Expected: 'Colaboração Inter e Intra-Empresarial'
+  ...
+
+VALIDATION SUMMARY
+============================================================
+Total files validated: 19
+Valid files: 4 ✅
+Files with issues: 12 ⚠️
+Total issues found: 14
+
+💡 Run with --fix flag to automatically fix these issues
 ```
 
 ## Scenario 3: Generate Statistics Report
@@ -116,7 +175,47 @@ df.to_excel("questions_summary.xlsx", index=False)
 print(f"Exported {len(df)} questions to Excel")
 ```
 
-## Scenario 10: Find Missing Evidence Sources
+## Scenario 10: Regenerate Hierarchy Files
+
+After adding, removing, or editing JSON files, regenerate the hierarchy metadata:
+
+```bash
+conda activate INDUSTRIA4
+cd /Users/emadruga/proj/industria-4.0
+
+# Regenerate hierarchy.json and hierarchy_table.md
+python question-base/scripts/regenerate_hierarchy_table.py \
+  question-base/JSON/data \
+  -o question-base/JSON/metadata
+```
+
+**What it generates:**
+- `hierarchy.json`: Complete hierarchical structure (Block → Pilar → Dimension → Capacity)
+- `hierarchy_table.md`: Markdown table showing all questions for easy browsing
+
+**When to use:**
+- After batch conversion of new DOCX files
+- After running json_validate.py with --fix (files may have moved)
+- After manual edits to JSON files
+- Before generating sunburst HTML visualizations
+
+**Example output:**
+```
+============================================================
+REGENERATION SUMMARY
+============================================================
+Total JSON files processed: 19
+Total blocks: 3
+Total pilares: 7
+Total dimensions: 13
+Total capacities: 19
+Total questions: 107
+Average questions per capacity: 5.6
+
+✅ Hierarchy files regenerated successfully!
+```
+
+## Scenario 11: Find Missing Evidence Sources
 
 ```python
 # Check which questions lack evidence sources
