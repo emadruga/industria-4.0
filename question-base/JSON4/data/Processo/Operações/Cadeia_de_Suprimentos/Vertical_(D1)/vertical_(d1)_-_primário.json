@@ -1,0 +1,292 @@
+{
+  "capacity": {
+    "id": "CAP-PROC-OD-VD-001",
+    "name": "Vertical (D1) - primário",
+    "block": "Processo",
+    "pilar": "Operações/Cadeia de Suprimentos",
+    "dimension": "Vertical (D1)",
+    "description": "A integração vertical de sistemas de informação é um componente central para a maturidade digital industrial, conectando todos os níveis da organização — desde o chão de fábrica (nível de controle e automação) até a gestão corporativa e estratégica. Nos modelos ACATECH e SIRI, esse princípio de integração de sistemas de informação (ACATECH) dentro do bloco Process e do pilar Operations/Supply Chain (SIRI) reflete a capacidade da empresa de garantir fluxo contínuo, coerente e bidirecional de dados entre os diferentes níveis hierárquicos (sensor, máquina, célula, linha, planta e empresa). Essa integração permite sincronizar a execução operacional com o planejamento e o controle de negócios, eliminando silos de informação, reduzindo atrasos e ampliando a eficiência produtiva. À medida que a maturidade evolui, a organização migra de conexões pontuais e manuais para arquiteturas integradas e inteligentes, com e visibilidade em tempo real. Em seu estágio mais avançado, a integração vertical possibilita a tomada de decisão autônoma e adaptativa, na qual os sistemas corporativos (ERP, MES, SCADA e IoT) operam de forma coordenada e preditiva, otimizando a performance de toda a cadeia de valor.",
+    "related_capacities": [
+      "Conectividade e interoperabilidade entre níveis hierárquicos",
+      "Integração de dados entre sistemas de controle",
+      "operação e gestão",
+      "Sincronização em tempo quase real entre produção e gestão",
+      "Visibilidade e rastreabilidade end-to-end (rastreabilidade de eventos e indicadores em tempo real)",
+      "Governança de dados e padronização de informações",
+      "Integração inteligente e preditiva",
+      "Tomada de decisão adaptativa e autônoma",
+      "Colaboração digital entre áreas e níveis",
+      "Segurança e confiabilidade na integração."
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Flavia Agostini",
+      "version": "1.0",
+      "last_updated": "2025-12-26",
+      "source_docx": "Processo - Integração vertical.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-PROC-OD-VD-001-001",
+      "question_number": 1,
+      "title": "Integração entre sistemas de chão de fábrica e sistemas corporativos",
+      "text": "Em que medida os sistemas de controle e operação (como PLC, SCADA e MES) estão integrados aos sistemas corporativos (como ERP, CRM, ou sistemas de gestão de ativos), permitindo fluxo contínuo de informações entre o nível de produção e o nível de gestão?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há integração entre os sistemas; as trocas de informações são manuais e pontuais."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem interfaces simples e manuais entre alguns sistemas, com dependência de arquivos ou planilhas."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A troca de informações é digital, porém limitada a integrações locais e unidirecionais."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os sistemas MES e ERP trocam dados de forma automatizada, possibilitando visibilidade parcial entre operação e gestão."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Há integração transversal entre sistemas de diferentes níveis, com dashboards consolidados e indicadores unificados."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": ""
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "Q-PROC-OD-VD-001-002",
+      "question_number": 2,
+      "title": "Sincronização em tempo real entre operação e planejamento",
+      "text": "Até que ponto os dados de produção, manutenção e suprimentos são atualizados em tempo quase real entre o chão de fábrica e o planejamento corporativo, permitindo reações rápidas a mudanças e imprevistos?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A atualização de dados entre operação e planejamento é manual e ocorre de forma esporádica, com alto risco de inconsistência."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem rotinas formais de atualização, porém sem integração automática; os dados são enviados por planilhas ou relatórios."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Parte dos dados operacionais é registrada digitalmente, mas as atualizações são periódicas e unidirecionais."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os sistemas operacionais e corporativos estão conectados, permitindo atualizações automatizadas em intervalos regulares."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A sincronização é quase em tempo real; dashboards corporativos exibem dados atualizados de produção e manutenção."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": ""
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "Q-PROC-OD-VD-001-003",
+      "question_number": 3,
+      "title": "Visibilidade e rastreabilidade da cadeia produtiva",
+      "text": "Em que grau a organização dispõe de rastreabilidade e visibilidade integrada dos fluxos de materiais, informações e processos ao longo de toda a cadeia produtiva?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A organização não possui rastreabilidade formal; o acompanhamento é manual e sem padronização."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem registros básicos de produção e materiais, porém sem integração entre sistemas."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os dados de produção são registrados digitalmente, mas a visibilidade é local e limitada."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os sistemas de controle e execução (MES/SCADA) estão interligados, oferecendo visibilidade parcial em painéis de processo."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Há rastreabilidade completa dos processos e produtos; dashboards consolidados permitem diagnóstico e análise de desvios."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A visibilidade inclui análises preditivas, identificando potenciais falhas e gargalos antes que ocorram"
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema opera de forma autônoma, ajustando processos com base em dados de rastreabilidade em tempo real"
+        }
+      ]
+    },
+    {
+      "id": "Q-PROC-OD-VD-001-004",
+      "question_number": 4,
+      "title": "Governança e padronização de dados entre sistemas",
+      "text": "Como a organização assegura que os dados trocados entre diferentes sistemas e níveis hierárquicos sejam padronizados, coerentes e de alta qualidade?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há padronização ou controle de qualidade de dados; cada sistema adota modelos próprios."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem padrões básicos de nomenclatura e documentação de dados, mas sem política formal de governança."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A padronização é parcialmente digitalizada e aplicada a alguns sistemas de forma isolada."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Há um modelo de dados corporativo aplicado de forma consistente entre sistemas-chave (ERP, MES, SCADA)."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A governança de dados é formalizada, com indicadores de qualidade, catálogos e monitoramento de consistência."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Sistemas utilizam validações automáticas e algoritmos para detectar"
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A padronização é dinâmica e autoajustável; os sistemas garantem coerência e integridade em tempo real de forma autônoma"
+        }
+      ]
+    },
+    {
+      "id": "Q-PROC-OD-VD-001-005",
+      "question_number": 5,
+      "title": "Inteligência analítica e integração preditiva",
+      "text": "Em que medida a organização utiliza análises preditivas, algoritmos ou IA para integrar automaticamente os fluxos de informação e ajustar os processos produtivos em tempo real?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A organização não utiliza análises preditivas; decisões são baseadas em relatórios manuais e históricos."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem iniciativas isoladas de análise de dados, realizadas de forma manual ou experimental."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Ferramentas digitais registram dados, mas as análises são reativas e voltadas apenas a eventos passados."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Há uso de relatórios analíticos automatizados e dashboards integrados entre os sistemas de operação e gestão."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A empresa realiza análises de diagnóstico , utilizando dados integrados para tomada de decisão."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Modelos analíticos e algoritmos de IA permitem prever falhas e propor ajustes processos."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização opera de forma autônoma e auto, ajustando parâmetros em tempo real com base em análises preditivas contínuas."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

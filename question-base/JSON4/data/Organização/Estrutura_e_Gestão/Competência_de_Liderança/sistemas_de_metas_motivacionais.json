@@ -1,0 +1,462 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-EE-CD-001",
+    "name": "Sistemas de metas motivacionais",
+    "block": "Organização",
+    "pilar": "Estrutura e Gestão",
+    "dimension": "Competência de Liderança",
+    "description": "Capacidade dos líderes de estabelecer, comunicar e gerenciar sistemas de metas que motivam e engajam os colaboradores na transformação para Indústria 4.0. Inclui a habilidade de alinhar objetivos individuais, de equipe e organizacionais; definir metas baseadas em dados; promover autonomia e ownership; fornecer feedback contínuo; e adaptar metas dinamicamente ao contexto de negócios. Esta capacidade mede o quanto a liderança é capaz de criar um ambiente onde metas claras, desafiadoras e motivacionais impulsionam a transformação digital. Estilo de liderança democrático, Gestão ágil, Estratégia & Governança, Colaboração Inter e Intraempresarial, Workforce Learning & Development, Abertura à inovação",
+    "related_capacities": [
+      "Estilo de liderança democrático",
+      "Gestão ágil",
+      "Estratégia & Governança",
+      "Colaboração Inter e Intraempresarial",
+      "Workforce Learning & Development",
+      "Abertura à inovação"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Ewerton Madruga",
+      "version": "1.0",
+      "last_updated": "2025-12-26",
+      "source_docx": "20251105_Checklist_Maturidade_Metas_Motivacionais_ESTENDIDO.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-EE-CD-001-001",
+      "question_number": 1,
+      "title": "Sistemas de Metas Motivacionais",
+      "text": "Como a liderança estabelece e gerencia sistemas de metas para motivar e engajar a equipe na transformação para Indústria 4.0?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existem metas formais relacionadas à Indústria 4.0. Liderança não estabelece objetivos claros para a transformação digital."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Liderança define metas de forma unilateral e top-down, comunicadas informalmente. Sem mecanismos de acompanhamento ou feedback."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Liderança define metas formais e as comunica através de canais oficiais, mas sem envolvimento da equipe na definição. Acompanhamento anual ou semestral."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Liderança define metas em consulta com as equipes, com alinhamento parcial entre objetivos individuais e organizacionais. Feedback periódico (trimestral) e sistema básico de reconhecimento."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Liderança co-cria metas com as equipes baseadas em dados, promovendo alinhamento claro entre objetivos individuais, de equipe e organizacionais. Feedback contínuo (mensal) e reconhecimento estruturado."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Liderança estabelece sistema ágil de metas com ciclos curtos, alta autonomia das equipes, dashboards com dados em tempo real, análises preditivas e reconhecimento personalizado. Metas adaptam-se dinamicamente ao contexto."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Liderança atua como facilitadora de sistema totalmente integrado onde equipes autogerenciáveis definem e ajustam metas continuamente com base em dados em tempo real, transparência total, feedback automatizado e celebração de conquistas. Motivação intrínseca sustentável."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-002",
+      "question_number": 2,
+      "title": "Clareza e Especificidade das Metas (SMART)",
+      "text": "Como as metas são formuladas em termos de clareza, especificidade e mensurabilidade?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Metas vagas e genéricas (“melhorar”, “aumentar”) sem especificações concretas ou critérios de sucesso."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Alguma especificidade nas metas, mas sem métricas claras ou mensuráveis definidas."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Metas específicas com métricas definidas, mas sem prazos estabelecidos ou relevância clara."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Metas SMART básicas (específicas, mensuráveis, alcançáveis, relevantes e com prazo definido)."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Metas SMART bem definidas, desafiadoras mas alcançáveis, com critérios de sucesso claros e documentados."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Metas SMART com múltiplas dimensões e interdependências mapeadas entre diferentes áreas e níveis organizacionais."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Sistema dinâmico de metas SMART que se auto-ajustam baseado em dados em tempo real e contexto de negócio, mantendo relevância e desafio apropriado."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-003",
+      "question_number": 3,
+      "title": "Transparência e Visibilidade das Metas",
+      "text": "Qual o nível de transparência e visibilidade das metas individuais, de equipe e organizacionais?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Metas confidenciais, conhecidas apenas pela liderança sênior. Não há compartilhamento estruturado."
+        },
+        {
+          "level": 1,
+          "label": "Metas individuais privadas, compartilhadas apenas entre líder e liderado em conversas 1",
+          "description": "1."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Metas de equipe compartilhadas dentro do time, mas não há visibilidade entre diferentes áreas ou departamentos."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Metas organizacionais públicas e acessíveis, metas individuais parcialmente visíveis dentro da organização."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Alta transparência - todas as metas (individuais, equipe, organizacionais) visíveis para toda a organização através de sistemas integrados."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Transparência total com dashboards públicos e acessíveis em tempo real por todos os colaboradores, incluindo progresso e status."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Transparência radical com visualização em tempo real de contribuições individuais para metas coletivas, impacto organizacional e interdependências visíveis."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-004",
+      "question_number": 4,
+      "title": "Frequência e Ciclos de Revisão de Metas",
+      "text": "Qual a frequência dos ciclos de definição, revisão e ajuste de metas?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Sem ciclos definidos ou metas permanentes sem revisão estruturada. Ajustes apenas reativos."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Ciclos anuais rígidos com pouca ou nenhuma flexibilidade para ajustes durante o ano."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Ciclos anuais com revisão mid-year (semestral) para ajustes pontuais baseados em mudanças significativas."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Ciclos trimestrais ou semestrais com revisões estruturadas e documentadas, permitindo ajustes planejados."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Ciclos bimestrais ou mensais com acompanhamento contínuo, rituais regulares e ajustes frequentes baseados em dados."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Ciclos curtos tipo sprint (2-4 semanas) com rituais ágeis de planejamento, revisão e retrospectiva; alta cadência de ajustes."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Metas adaptativas com revisão contínua baseada em dados em tempo real, ajustes automáticos e dinâmicos conforme contexto."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-005",
+      "question_number": 5,
+      "title": "Conexão entre Metas e Propósito Organizacional",
+      "text": "Como as metas individuais e de equipe conectam-se ao propósito e visão de longo prazo da organização?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Sem propósito organizacional claro ou conexão explícita com metas estabelecidas. Metas puramente operacionais."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Propósito organizacional existe e é comunicado, mas desconectado das metas operacionais e individuais diárias."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Metas estratégicas de alto nível conectadas ao propósito, mas metas operacionais e individuais ainda desalinhadas."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Conexão explícita entre a maioria das metas e o propósito organizacional, documentada formalmente na definição de metas."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Todas as metas articulam claramente sua contribuição ao propósito e impacto organizacional esperado. Narrativa presente."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Sistema robusto de narrativas que conecta cada meta individual ao impacto organizacional e social de forma tangível e inspiradora."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Cultura onde propósito é vivenciado diariamente, com visualização em tempo real do impacto individual no propósito coletivo; celebração de contribuições."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-006",
+      "question_number": 6,
+      "title": "Uso de Dados e Analytics na Definição de Metas",
+      "text": "Como dados, métricas e analytics são utilizados no processo de definição e acompanhamento de metas?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Metas definidas sem base em dados, apenas intuição ou experiência da liderança. Decisões puramente qualitativas."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Uso básico de dados históricos para contextualizar metas, mas sem análise estruturada ou sistemática."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Análise de dados históricos estruturada para definir metas (baselines, trends), mas sem ferramentas dedicadas ou processos formais."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Uso de dashboards e relatórios periódicos para acompanhar progresso e ajustar metas. Analytics descritivos consolidados."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Analytics avançados com indicadores preditivos e benchmarking externo para definição de metas. Análise de causas e correlações."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Sistema integrado de business intelligence com análises preditivas e prescritivas em tempo real. Simulações e cenários."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Inteligência artificial e machine learning para otimização contínua e automática de metas baseada em múltiplas variáveis e contexto dinâmico."
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Capacidade em medição:",
+      "definition": "Clareza e especificidade das metas"
+    },
+    {
+      "term": "Capacidade em medição:",
+      "definition": "Ciclos de revisão de metas"
+    },
+    {
+      "term": "Capacidade em medição:",
+      "definition": "Uso de dados e analytics"
+    },
+    {
+      "term": "OKR",
+      "definition": "Objectives and Key Results - metodologia de definição e acompanhamento de metas onde cada objetivo tem resultados-chave mensuráveis."
+    },
+    {
+      "term": "KPI",
+      "definition": "Key Performance Indicator - indicador chave de desempenho que mede o progresso em relação a um objetivo."
+    },
+    {
+      "term": "SMART",
+      "definition": "Specific, Measurable, Achievable, Relevant, Time-bound - critérios para formulação eficaz de metas que aumentam clareza e probabilidade de sucesso."
+    },
+    {
+      "term": "Balanced Scorecard",
+      "definition": "Ferramenta de gestão estratégica que traduz a visão e estratégia em objetivos e medidas em quatro perspectivas: financeira, clientes, processos internos e aprendizado/crescimento."
+    },
+    {
+      "term": "Cascading",
+      "definition": "Processo de desdobramento de metas organizacionais em metas de equipe e individuais, garantindo alinhamento vertical e horizontal."
+    },
+    {
+      "term": "PDI",
+      "definition": "Plano de Desenvolvimento Individual - documento que estabelece objetivos de desenvolvimento e aprendizado do colaborador alinhados às necessidades organizacionais."
+    },
+    {
+      "term": "1:1",
+      "definition": "Reunião individual entre líder e liderado para feedback, acompanhamento de metas e desenvolvimento profissional."
+    },
+    {
+      "term": "eNPS",
+      "definition": "Employee Net Promoter Score - métrica de lealdade, satisfação e engajamento dos colaboradores baseada na probabilidade de recomendação."
+    },
+    {
+      "term": "Motivação intrínseca",
+      "definition": "Motivação que vem de dentro do indivíduo, baseada em propósito, autonomia e maestria (Teoria da Autodeterminação - Deci & Ryan)."
+    },
+    {
+      "term": "Motivação extrínseca",
+      "definition": "Motivação baseada em recompensas externas como bônus, promoções, reconhecimento público e outros incentivos."
+    },
+    {
+      "term": "Ownership",
+      "definition": "Senso de propriedade e responsabilidade que o colaborador tem sobre suas metas e resultados, agindo como dono do processo."
+    },
+    {
+      "term": "Sprint",
+      "definition": "Ciclo curto de trabalho (geralmente 1-4 semanas) comum em metodologias ágeis, com metas específicas e revisão ao final."
+    },
+    {
+      "term": "Autogestão",
+      "definition": "Capacidade de indivíduos ou times gerenciarem suas próprias atividades, metas e decisões com autonomia e mínima supervisão hierárquica."
+    },
+    {
+      "term": "Dashboard",
+      "definition": "Painel visual que consolida e exibe métricas e KPIs relevantes para acompanhamento de performance em tempo real ou quase real."
+    },
+    {
+      "term": "Analytics preditivos",
+      "definition": "Uso de dados históricos, algoritmos estatísticos e machine learning para identificar padrões e prever resultados futuros."
+    },
+    {
+      "term": "Business Intelligence",
+      "definition": "Conjunto de tecnologias, aplicações e práticas para coleta, integração, análise e apresentação de informações de negócio."
+    },
+    {
+      "term": "Baseline",
+      "definition": "Linha de base ou ponto de partida usado como referência para medir progresso e mudanças em relação a uma meta."
+    },
+    {
+      "term": "Benchmarking",
+      "definition": "Processo de comparação de métricas e práticas da organização com as melhores do mercado ou setor para identificar gaps e oportunidades."
+    },
+    {
+      "term": "Transparência radical",
+      "definition": "Prática de compartilhar todas as informações organizacionais de forma aberta e acessível, promovendo accountability e confiança."
+    },
+    {
+      "term": "All-hands",
+      "definition": "Reunião com todos os colaboradores da organização para comunicações importantes, alinhamento de metas e celebrações."
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "BERNSTEIN, E. S. The transparency trap. Harvard Business Review, v. 92, n. 10, p. 58–66, 2014."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "BUCKINGHAM, M.; GOODALL, A. Reinventing performance management. Harvard Business Review, v. 93, n. 4, p. 40–50, 2015."
+    },
+    {
+      "citation": "CAPPELLI, P.; TAVIS, A. The performance management revolution. Harvard Business Review, v. 94, n. 10, p. 58–67, 2016."
+    },
+    {
+      "citation": "DAVENPORT, T. H. Competing on Analytics: The New Science of Winning. Boston: Harvard Business School Press, 2007."
+    },
+    {
+      "citation": "DECI, E. L.; RYAN, R. M. Self-determination theory: A macrotheory of human motivation, development, and health. Canadian Psychology, v. 49, n. 3, p. 182–185, 2008."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "DOERR, J. Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs. New York: Portfolio/Penguin, 2018."
+    },
+    {
+      "citation": "DORAN, G. T. There’s a S.M.A.R.T. way to write management’s goals and objectives. Management Review, v. 70, n. 11, p. 35–36, 1981."
+    },
+    {
+      "citation": "DWECK, C. S. Mindset: The New Psychology of Success. New York: Random House, 2006."
+    },
+    {
+      "citation": "GARTENBERG, C.; PRAT, A.; SERAFEIM, G. Corporate purpose and financial performance. Organization Science, v. 30, n. 1, p. 1–18, 2019."
+    },
+    {
+      "citation": "KAPLAN, R. S.; NORTON, D. P. The Balanced Scorecard: Translating Strategy into Action. Boston: Harvard Business School Press, 1996."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LOCKE, E. A.; LATHAM, G. P. Building a practically useful theory of goal setting and task motivation: A 35-year odyssey. American Psychologist, v. 57, n. 9, p. 705–717, 2002."
+    },
+    {
+      "citation": "LOCKE, E. A.; LATHAM, G. P. New directions in goal-setting theory. Current Directions in Psychological Science, v. 15, n. 5, p. 265–268, 2006."
+    },
+    {
+      "citation": "MEYER, J. P.; ALLEN, N. J. A three-component conceptualization of organizational commitment. Human Resource Management Review, v. 1, n. 1, p. 61–89, 1991."
+    },
+    {
+      "citation": "PINK, D. H. Drive: The Surprising Truth About What Motivates Us. New York: Riverhead Books, 2009."
+    },
+    {
+      "citation": "QUINN, R. E.; THAKOR, A. V. Creating a purpose-driven organization. Harvard Business Review, v. 96, n. 4, p. 78–85, 2018."
+    },
+    {
+      "citation": "SCHAUFELI, W. B.; BAKKER, A. B. Job demands, job resources, and their relationship with burnout and engagement: A multi-sample study. Journal of Organizational Behavior, v. 25, n. 3, p. 293–315, 2004."
+    },
+    {
+      "citation": "SINEK, S. Start with Why: How Great Leaders Inspire Everyone to Take Action. New York: Portfolio, 2009."
+    },
+    {
+      "citation": "SUTHERLAND, J.; SUTHERLAND, J. J. Scrum: The Art of Doing Twice the Work in Half the Time. New York: Crown Business, 2014."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "TURBAN, D. B.; GREENING, D. W. Corporate social performance and organizational attractiveness to prospective employees. Academy of Management Journal, v. 40, n. 3, p. 658–672, 1997."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022. [s.l: s.n.]. Disponível em: https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

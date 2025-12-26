@@ -1,0 +1,283 @@
+{
+  "capacity": {
+    "id": "CAP-TEC-AU-CD-001",
+    "name": "Foco em benefícios ao cliente",
+    "block": "Processo",
+    "pilar": "Ciclo de Vida do Produto",
+    "dimension": "Ciclo de Vida Integrado do Produto",
+    "description": "Esta dimensão avalia a integração de pessoas, processos e sistemas ao longo do ciclo de vida do produto (desde design até o descarte). O objetivo é encurtar os ciclos de desenvolvimento, usando Gêmeos Digitais (Digital Twins) e sistemas PLM para criar uma Sombra Digital do produto. Isso permite agilidade e novos modelos de negócio, como o Product-as-a-Service.",
+    "related_capacities": [
+      "Foco em benefícios ao cliente"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Wilson Melo Jr",
+      "version": "1.0",
+      "last_updated": "2025-12-26",
+      "source_docx": "Ciclo de Vida de Produto Integrado (D3).docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-TEC-AU-CD-001-001",
+      "question_number": 1,
+      "title": "Integração das Informações ao longo do Ciclo de Vida do Produto",
+      "text": "Como a informação do produto é gerenciada e compartilhada entre as diferentes fases do seu ciclo de vida (design, engenharia, produção, uso e serviço)?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há processos ou sistemas definidos para gerenciar informações do produto."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "As informações são gerenciadas informalmente por departamentos isolados."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existem procedimentos formais para troca de informações, mas ainda manuais."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "As informações são digitalizadas, porém a integração entre sistemas é manual."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Sistemas digitais estão integrados, mas o fluxo ainda depende de controle humano."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "fluxo de informações é automatizado com mínima intervenção humana."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema aprende e adapta-se com base em dados reais do produto."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-AU-CD-001-002",
+      "question_number": 2,
+      "title": "Uso de Representações Digitais e Gêmeos Digitais",
+      "text": "Em que medida a empresa utiliza representações digitais (como modelos 3D, simulações ou gêmeos digitais) para o design, engenharia e otimização de produtos e processos?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há uso de ferramentas digitais para modelagem ou simulação."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Representações digitais são inexistentes ou ocasionais."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "CAD é utilizado apenas para desenhos ou modelos estáticos."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Modelos digitais são usados em etapas específicas, de forma isolada."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Modelos digitais abrangentes são integrados via PLM."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A empresa usa gêmeos digitais para simulação e otimização."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Gêmeos digitais totalmente integrados reagem e otimizam-se em tempo real."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-AU-CD-001-003",
+      "question_number": 3,
+      "title": "Integração e Uso de Dados para Decisão e Inovação",
+      "text": "Como a empresa integra e utiliza dados de diversas fontes (design, produção, uso do cliente, serviço) para impulsionar a tomada de decisões e a inovação em produtos e processos?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Dados não são coletados nem usados de forma sistemática."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Dados são coletados pontualmente, sem integração entre áreas."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Dados são coletados em algumas fases, mas sem consolidação."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Dados digitais são coletados, porém analisados de forma isolada."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Dados de múltiplas fontes são conectados em sistemas integrados."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Integração e análise de dados são amplamente automatizadas."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A empresa usa IA e análise avançada para otimização contínua."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-AU-CD-001-004",
+      "question_number": 4,
+      "title": "Colaboração e Integração com Parceiros Externos no Design e Desenvolvimento de Produtos",
+      "text": "Como a empresa lida com a colaboração e a integração de parceiros externos (fornecedores, clientes, centros de pesquisa) no design e desenvolvimento de produtos?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A empresa opera isoladamente, sem envolvimento de parceiros externos."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A interação com parceiros é pontual e sem estrutura formal."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A colaboração ocorre de forma reativa, sem integração digital."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Ferramentas digitais são usadas apenas para troca de informações."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Plataformas digitais suportam colaboração em fases específicas do ciclo de vida."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Os sistemas da empresa e dos parceiros estão conectados digitalmente."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A empresa integra um ecossistema digital de inovação com parceiros."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-AU-CD-001-005",
+      "question_number": 5,
+      "title": "Gestão de Feedback e Dados de Uso do Produto",
+      "text": "Como a empresa gerencia e incorpora feedback do uso do produto e requisitos do cliente para refinar o design e otimizar o desempenho ao longo do ciclo de vida?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A empresa não coleta nem utiliza feedback ou dados de uso."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Feedback é coletado esporadicamente e usado de forma não sistemática."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Feedback é obtido por meios simples e usado ocasionalmente."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Ferramentas digitais coletam dados e feedback, mas sem integração."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Sistemas conectados integram dados de uso e feedback de clientes."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Feedback e dados de uso são analisados automaticamente."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Feedback e uso do produto são analisados por IA em tempo real."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

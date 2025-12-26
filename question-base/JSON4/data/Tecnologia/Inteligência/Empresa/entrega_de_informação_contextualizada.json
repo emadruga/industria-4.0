@@ -1,0 +1,184 @@
+{
+  "capacity": {
+    "id": "CAP-TEC-IN-CD-001",
+    "name": "Entrega de informação contextualizada",
+    "block": "Tecnologia",
+    "pilar": "Inteligência",
+    "dimension": "Empresa",
+    "description": "A integração entre sistemas corporativos (Enterprise) e operacionais (Facility) é um elemento essencial para alcançar inteligência organizacional distribuída. No contexto dos modelos catech e SIRI, essa integração permite que dados fluam de forma contínua e contextualizada entre níveis estratégicos e operacionais, viabilizando decisões mais rápidas e alinhadas. Sistemas interoperáveis garantem coerência entre processos, eliminam redundâncias e possibilitam aprendizado organizacional. À medida que a maturidade evolui, a comunicação entre plataformas deixa de ser manual e passa a ocorrer de forma automatizada, inteligente, transformando dados isolados em conhecimento compartilhado em tempo quase real.",
+    "related_capacities": [
+      "Coleta e integração inteligente de dados",
+      "Qualidade e governança da informação",
+      "Análise e interpretação de dados",
+      "Aprendizado de máquina e automação cognitiva",
+      "Visualização e contextualização da informação",
+      "Capacidade de tomada de decisão baseada em dados integrados",
+      "Integração entre níveis corporativo e operacional",
+      "Automação de fluxos informacionais entre níveis hierárquicos",
+      "Padronização semântica e interoperabilidade de dados",
+      "Ciclos de aprendizado organizacional e melhoria contínua."
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Flavia Agostini",
+      "version": "1.0",
+      "last_updated": "2025-12-26",
+      "source_docx": "Tecnologia - Entrega de informação contextualizada.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-TEC-IN-CD-001-001",
+      "question_number": 1,
+      "title": "Entrega de informação contextualizada em sistemas de informação auto",
+      "text": "Os sistemas de informação da organização conseguem disponibilizar automaticamente informações relevantes e contextualizadas para apoiar decisões em diferentes níveis (operacional e corporativo)?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existe processo formal para entrega de informação; dados permanecem fragmentados, reativos e implícitos."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Há processos estruturados e formalizados para coleta e registro de dados, mas a contextualização ainda depende de esforço manual."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Dados são registrados em sistemas digitais; relatórios e dashboards fornecem visibilidade básica e transparência operacional."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Sistemas permitem integração local entre áreas; equipes autônomas utilizam métricas contextualizadas para análise e decisão em tempo quasi-real."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Informações são consolidadas e comparadas de forma transversal entre unidades (enterprise e facility), permitindo diagnósticos quantificáveis."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Algoritmos analisam dados e entregam insights preditivos de forma semiautomática, suportando decisões estratégicas."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema opera de forma autodidata, fornecendo informações contextualizadas em tempo real, ajustando recomendações e ações de maneira autônoma."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-IN-CD-001-002",
+      "question_number": 2,
+      "title": "Integração e interoperabilidade entre sistemas corporativos e operacionais",
+      "text": "Em que medida os sistemas de informação corporativos (Enterprise) e operacionais (Facility) estão integrados, permitindo o fluxo contínuo e contextualizado de dados entre diferentes níveis da organização?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Os sistemas corporativos e operacionais são isolados, sem integração formal; trocas de dados são manuais e pontuais."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem interfaces básicas entre alguns sistemas, porém com dependência de processos manuais e falta de padronização."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Fluxos de dados digitalizados, com integração parcial entre alguns sistemas e visibilidade limitada."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Integração local e automatizada entre sistemas operacionais e corporativos; dados consolidados para análise departamental."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Integração transversal entre unidades; dados corporativos e de produção consolidados em bases unificadas e analisáveis."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Integração com inteligência analítica, permitindo previsões baseadas em dados combinados de diferentes níveis."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Interoperabilidade total entre sistemas Enterprise e Facility, com fluxo de dados em tempo real e adaptação automática às mudanças operacionais."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-IN-CD-001-003",
+      "question_number": 3,
+      "title": "Qualidade, confiabilidade e rastreabilidade da informação",
+      "text": "",
+      "maturity_levels": []
+    },
+    {
+      "id": "Q-TEC-IN-CD-001-004",
+      "question_number": 4,
+      "title": "Capacidade analítica e preditiva dos sistemas de informação",
+      "text": "",
+      "maturity_levels": []
+    },
+    {
+      "id": "Q-TEC-IN-CD-001-005",
+      "question_number": 5,
+      "title": "Autonomia e empoderamento das equipes na utilização da informação contextualizada",
+      "text": "",
+      "maturity_levels": []
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

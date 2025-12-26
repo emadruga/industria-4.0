@@ -1,0 +1,339 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-EE-CI-001",
+    "name": "Comunicação eficiente",
+    "block": "Organização",
+    "pilar": "Estrutura e Gestão",
+    "dimension": "Colaboração Inter e Intra-Empresarial",
+    "description": "A comunicação entre colaboradores deve ser rastreável, livre de redundâncias e atender às necessidades dos grupos de stakeholders, garantindo que a informação correta chegue à pessoa certa, no momento certo e no formato adequado. O objetivo é reduzir o tempo que os funcionários despendem procurando e esperando por informações, utilizando armazenamento centralizado de dados (fonte única da verdade), assinaturas digitais para aprovações e sistemas de groupware para suportar a comunicação contextualizada e eficiente.",
+    "related_capacities": [
+      "Design de interface baseado em tarefas Colaboração Inter e Intra-Empresas Conectividade (Shop Floor",
+      "Enterprise",
+      "Facility) Governança de Dados Gestão de direitos de decisão Sistemas de metas motivacionais Gestão ágil"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Cristiano Gurgel Castro",
+      "version": "1.0",
+      "last_updated": "2025-12-26",
+      "source_docx": "0892_Dimensão Inter- and Intra-Company Collaboration_cgcastro.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-EE-CI-001-001",
+      "question_number": 1,
+      "title": "Como a comunicação e a troca de informações são estruturadas",
+      "text": "Como a comunicação e a troca de informações são estruturadas e gerenciadas na empresa?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A comunicação é predominantemente informal, baseada em conversas e trocas de e-mails não estruturados. Não há rastreabilidade e as informações são frequentemente duplicadas ou perdidas."
+        },
+        {
+          "level": 1,
+          "label": "Existem canais de comunicação formais (ex",
+          "description": "e-mail, pastas compartilhadas), mas o uso é inconsistente. O compartilhamento de arquivos como anexos é uma prática comum, levando a múltiplas versões e redundância."
+        },
+        {
+          "level": 2,
+          "label": "A organização utiliza ferramentas digitais básicas para comunicação (ex",
+          "description": "aplicativos de mensagens), mas elas não são integradas aos processos de negócio. As aprovações ainda são tratadas de forma manual ou via e-mail."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Uma plataforma centralizada (groupware) é utilizada para armazenamento de documentos, estabelecendo uma \"fonte única da verdade\" para arquivos. A comunicação começa a ser contextualizada em canais ou grupos específicos."
+        },
+        {
+          "level": 4,
+          "label": "A comunicação é rastreável e contextualizada, vinculada a processos de negócio (ex",
+          "description": "ordens de produção, projetos). Aprovações são gerenciadas por meio de assinaturas digitais e fluxos de trabalho transparentes."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A comunicação é totalmente integrada aos sistemas de negócio (ERP, MES, PLM). Perfis de função e credenciais são usados para incluir colaboradores em processos de comunicação de forma contextual e automática."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Os sistemas de comunicação são proativos e inteligentes, analisando fluxos de trabalho para sugerir melhorias, automatizar a disseminação de informações e garantir que todos os stakeholders sejam informados em tempo real sobre o status dos processos."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CI-001-002",
+      "question_number": 2,
+      "title": "Como se dá a comunicação com Parceiros?",
+      "text": "Como se dá a comunicação com Parceiros?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "A comunicação com fornecedores e clientes é totalmente manual (ex",
+          "description": "telefone, e-mails individuais, fax). Não há rastreabilidade e os dados precisam ser redigitados manualmente nos sistemas internos."
+        },
+        {
+          "level": 1,
+          "label": "São utilizados métodos digitais básicos, mas não padronizados (ex",
+          "description": "ordens de compra enviadas como PDF por e-mail). A comunicação é reativa e os dados ainda são inseridos manualmente."
+        },
+        {
+          "level": 2,
+          "label": "A empresa utiliza um canal digital unidirecional, como um portal simples onde disponibiliza informações (ex",
+          "description": "previsões de compra) para os parceiros baixarem, mas a interação (confirmação, NF-e) volta por e-mail."
+        },
+        {
+          "level": 3,
+          "label": "Existe um portal de colaboração (ex",
+          "description": "Portal de Fornecedores) onde os parceiros podem interagir (ex: confirmar pedidos, enviar faturas, atualizar status). A comunicação é bidirecional, mas contida no portal (silo)."
+        },
+        {
+          "level": 4,
+          "label": "A comunicação é automatizada via integração de sistemas (ex",
+          "description": "EDI, APIs) para transações-chave (ex: pedidos, faturas). A troca de dados é estruturada e elimina a redigitação, mas é limitada a processos específicos."
+        },
+        {
+          "level": 5,
+          "label": "A integração de sistemas é ampla e ocorre em tempo real, permitindo o compartilhamento de dados operacionais (ex",
+          "description": "status de produção do fornecedor, níveis de estoque do cliente). A comunicação é contextualizada e proativa."
+        },
+        {
+          "level": 6,
+          "label": "Existe uma rede de valor dinâmica e conectada. Os sistemas da empresa e dos parceiros comunicam-se de forma autônoma para otimizar a cadeia (ex",
+          "description": "reabastecimento automático, ajuste dinâmico de planos de entrega)."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CI-001-003",
+      "question_number": 3,
+      "title": "Como se dá normalmente a comunicação entre os funcionários?",
+      "text": "Como se dá normalmente a comunicação entre os funcionários?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "As instruções de trabalho são predominantemente verbais (ex",
+          "description": "\"o supervisor explica o que fazer\") e baseadas na experiência do colaborador. Não há suporte de sistemas."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "As instruções de trabalho são documentos físicos (papel) estáticos, como folhas de processo ou especificações impressas, que ficam disponíveis no posto de trabalho."
+        },
+        {
+          "level": 2,
+          "label": "As instruções são digitais (ex",
+          "description": "PDFs, arquivos de texto) e armazenadas em pastas de rede. O colaborador precisa localizar e abrir ativamente o documento correto para a tarefa."
+        },
+        {
+          "level": 3,
+          "label": "Os sistemas (ex",
+          "description": "terminal MES) exibem a instrução de trabalho correta associada à ordem de produção ativa. A informação é contextual, mas apresentada de forma básica (texto, tabelas)."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os sistemas fornecem informações de forma visual e sensível ao contexto. Por exemplo, escanear um produto exibe seu modelo 3D, vídeos curtos de montagem ou seus pontos de verificação de qualidade."
+        },
+        {
+          "level": 5,
+          "label": "A empresa utiliza sistemas de assistência avançados (ex",
+          "description": "Realidade Aumentada - AR) que fornecem orientação passo a passo, sobrepondo digitalmente a informação ao ambiente de trabalho real."
+        },
+        {
+          "level": 6,
+          "label": "Os sistemas de assistência são adaptativos e proativos. Eles não apenas guiam o operador (ex",
+          "description": "AR), mas também validam a execução da tarefa em tempo real (ex: usando visão computacional) e documentam o processo automaticamente."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CI-001-004",
+      "question_number": 4,
+      "title": "Como a estrutura organizacional da empresa apoia a colaboraç",
+      "text": "Como a estrutura organizacional da empresa apoia a colaboração e a formação dinâmica de equipes?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Estrutura organizacional tradicional e rígida, voltada para a operação eficiente de departamentos individuais (silos)"
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A empresa possui uma estrutura organizacional tradicional focada na eficiência departamental"
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Métodos tradicionais de gerenciamento de projetos são empregados; a abordagem é estruturada, mas pesada e carece de agilidade, dificultando ajustes rápidos"
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Estruturas operacionais tradicionais começam a ser quebradas; plataformas de colaboração são usadas para fortalecer a cooperação entre diferentes partes do negócio"
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Ocorre colaboração entre especialistas de diferentes departamentos; técnicas de gerenciamento ágil são usadas para processos de mudança"
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A estrutura organizacional é modificada para que a capacidade possa ser rapidamente ajustada a novas situações"
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Comunidades flexíveis e gerenciamento ágil de projetos criam uma organização orgânica; o trabalho é executado pelos funcionários com as habilidades corretas, independentemente da hierarquia ou departamento"
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CI-001-005",
+      "question_number": 5,
+      "title": "De que forma as ferramentas de TI e plataformas de colaboraç",
+      "text": "De que forma as ferramentas de TI e plataformas de colaboração dão transparência às competências dos funcionários para apoiar a formação de equipes flexíveis?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Nenhuma ferramenta de TI é usada para isso. A alocação de pessoas para tarefas ou equipes é baseada puramente no conhecimento pessoal e na memória dos gestores."
+        },
+        {
+          "level": 1,
+          "label": "Listas básicas (ex",
+          "description": "planilhas, documentos de texto) de funcionários e suas funções existem, mas não há perfis de competências detalhados ou pesquisáveis."
+        },
+        {
+          "level": 2,
+          "label": "Existem sistemas de TI (ex",
+          "description": "sistema de RH) que armazenam competências, mas esses dados são estáticos, raramente atualizados e não estão integrados às ferramentas de trabalho diário."
+        },
+        {
+          "level": 3,
+          "label": "Ferramentas de colaboração (ex",
+          "description": "chats, intranets) são usadas, mas a identificação de competências ainda depende muito da rede de contatos pessoal; não há um sistema formal de \"busca por especialistas\"."
+        },
+        {
+          "level": 4,
+          "label": "Plataformas de TI (ex",
+          "description": "intranet avançada, perfis em ferramentas de colaboração) começam a fornecer transparência sobre os perfis de competências dos funcionários e seu envolvimento atual em projetos ou comunidades"
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Existem plataformas de TI integradas que facilitam ativamente a comunicação e dão suporte ao \"assignment management\" (gestão de alocação), permitindo pesquisar e encontrar especialistas de forma eficiente"
+        },
+        {
+          "level": 6,
+          "label": "As plataformas de TI não apenas dão transparência às competências existentes, mas também se integram a novas tecnologias de treinamento (ex",
+          "description": "Realidade Aumentada) para capacitar rapidamente os funcionários para novas tarefas, permitindo a formação de comunidades de forma ainda mais ágil"
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CI-001-006",
+      "question_number": 6,
+      "title": "Como a gestão de desempenho e os sistemas de metas estão ada",
+      "text": "Como a gestão de desempenho e os sistemas de metas estão adaptados para apoiar o trabalho em equipes flexíveis e multifuncionais?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A avaliação de desempenho e as metas são 100% individuais e definidas estritamente dentro dos silos departamentais. Não há reconhecimento formal do trabalho interdepartamental."
+        },
+        {
+          "level": 1,
+          "label": "As metas são puramente departamentais e muitas vezes unidimensionais (ex",
+          "description": "\"número de peças produzidas\"). O trabalho em projetos fora do departamento não é formalmente reconhecido."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A avaliação de desempenho é tradicional e totalmente controlada pelo gerente departamental. O trabalho em equipes multifuncionais pode ser mencionado informalmente, mas não tem peso estruturado na avaliação."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A organização reconhece a colaboração. A avaliação de desempenho inclui um item genérico sobre \"trabalho em equipe\", mas as metas principais ainda são departamentais. O feedback de outros líderes é esporádico."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A empresa começa a introduzir metas multidimensionais. O feedback de líderes de projeto ou comunidade é solicitado formalmente durante a avaliação de desempenho, embora o gerente departamental ainda tenha a decisão final."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "São implementados sistemas de metas motivacionais que equilibram objetivos departamentais (funcionais) e objetivos de equipe (projeto/comunidade). A avaliação de desempenho considera formalmente o feedback de múltiplos líderes (matricial)."
+        },
+        {
+          "level": 6,
+          "label": "O sucesso da equipe de especialistas/comunidade é formalmente medido (ex",
+          "description": "controladoria financeira de comunidades). Os sistemas de metas e incentivos (monetários e não monetários) estão diretamente alinhados aos resultados da equipe, e não apenas aos silos departamentais."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CI-001-007",
+      "question_number": 7,
+      "title": "Como a gestão ágil e a distribuição de autoridade são aplica",
+      "text": "Como a gestão ágil e a distribuição de autoridade são aplicadas para garantir que as comunidades flexíveis possam tomar decisões rapidamente?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Estrutura rígida de comando e controle. Todas as decisões, mesmo as operacionais, são escaladas para a gerência departamental. As equipes não têm autonomia."
+        },
+        {
+          "level": 1,
+          "label": "A gestão de projetos é tradicional (ex",
+          "description": "cascata, waterfall). As equipes apenas executam tarefas pré-definidas e não têm autoridade para alterar o plano."
+        },
+        {
+          "level": 2,
+          "label": "A empresa experimenta métodos ágeis (ex",
+          "description": "Scrum), mas apenas em \"ilhas\" (como TI). As \"comunidades\" em outras áreas não têm autoridade real para mudar escopo ou alocar recursos."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Métodos ágeis (como Sprints ou Daily Scrums) são usados em algumas equipes. No entanto, as decisões importantes (orçamento, priorização) ainda são centralizadas nos gerentes de departamento."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os direitos de decisão são gerenciados ativamente. As equipes têm autonomia definida para tomar decisões operacionais (o \"como fazer\"), enquanto a gerência define os objetivos estratégicos (o \"o que fazer\")."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A gestão ágil é a norma para a maioria dos projetos. As equipes são capacitadas pela organização para fazer ajustes que facilitem a cooperação e podem compartilhar recursos em projetos de longo prazo."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização opera com gestão ágil em larga escala. As comunidades flexíveis têm alto grau de responsabilidade individual e autoridade para tomar decisões descentralizadas rapidamente, alinhadas aos objetivos estratégicos."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    }
+  ]
+}

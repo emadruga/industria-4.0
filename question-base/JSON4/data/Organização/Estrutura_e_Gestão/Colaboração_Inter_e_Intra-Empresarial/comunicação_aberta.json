@@ -1,0 +1,385 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-EE-CI-001",
+    "name": "Comunicação aberta",
+    "block": "Organização",
+    "pilar": "Estrutura e Gestão",
+    "dimension": "Colaboração Inter e Intra-Empresarial",
+    "description": "A Colaboração Inter e Intraempresarial refere-se ao processo de trabalhar em conjunto, por meio de equipes multifuncionais e com parceiros externos, para alcançar uma visão e propósito compartilhados. A comunicação aberta estabelece canais formais e transparentes que permitem o compartilhamento efetivo de informações, ideias e conhecimento entre diferentes áreas, níveis hierárquicos e organizações, promovendo a cooperação, coordenação e integração necessárias para a transformação digital.",
+    "related_capacities": [
+      "Estilo de liderança democrático Cultura de confiança Compartilhamento de conhecimento Transparência organizacional Trabalho em equipe multifuncional"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Ewerton Madruga",
+      "version": "1.0",
+      "last_updated": "2025-12-26",
+      "source_docx": "20251110_Comunicacao_Aberta_Checklist_Estendido.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-EE-CI-001-001",
+      "question_number": 1,
+      "title": "Comunicação aberta",
+      "text": "Como a comunicação e o compartilhamento de informações acontecem entre diferentes equipes, áreas e parceiros externos na sua organização?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A comunicação acontece de forma informal e ad hoc. Equipes trabalham em silos, e o compartilhamento de informações ocorre apenas casualmente, sem estrutura ou registro."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Canais formais são estabelecidos para comunicação e compartilhamento de informações entre equipes. Existem procedimentos definidos, mas a comunicação ainda é limitada e reativa."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Canais formais permitem que equipes cooperem em tarefas e projetos pontuais. Há instrumentos visíveis para compartilhamento de informações, mas a colaboração depende de mediação da liderança."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Equipes têm autonomia para fazer ajustes que facilitam a cooperação. A comunicação é mais proativa, com reuniões regulares e compartilhamento estruturado de informações entre áreas."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Equipes compartilham recursos, responsabilidades e riscos em projetos discretos e de longo prazo. A comunicação é bidirecional, transparente e baseada em dados quantificáveis."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Canais formais permitem a formação dinâmica de equipes para trabalhar em projetos multifuncionais com metas, recursos e KPIs compartilhados. A comunicação é totalmente transparente e integrada."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização opera como uma rede altamente adaptável com comunicação em tempo real. Equipes se formam e se ajustam dinamicamente, com total transparência de informações e decisões distribuídas."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CI-001-002",
+      "question_number": 2,
+      "title": "Transparência organizacional",
+      "text": "Como a organização compartilha informações estratégicas, decisões e mudanças com todos os níveis hierárquicos?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Informações estratégicas são mantidas apenas na alta liderança, sem comunicação formal. Decisões não são compartilhadas ou justificadas."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Comunicação top-down básica apenas quando estritamente necessário. Informações compartilhadas de forma seletiva e tardia."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Informações são compartilhadas formalmente através de canais oficiais, mas de forma seletiva e com atraso significativo. Pouca justificativa das decisões."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Comunicação regular de informações estratégicas através de múltiplos canais formais. Decisões importantes são comunicadas com contexto básico."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Transparência estruturada com dashboards acessíveis, comunicação frequente e bidirecional. Decisões são explicadas com dados e contexto."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Transparência total com acesso em tempo real a informações estratégicas, métricas de desempenho e processos decisórios. Comunicação proativa e bidirectional."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Cultura de transparência radical com governança distribuída, comunicação contínua em tempo real e acesso universal a todas as informações relevantes."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CI-001-003",
+      "question_number": 3,
+      "title": "Cultura de feedback contínuo",
+      "text": "Como a organização pratica e incentiva o feedback contínuo entre líderes, equipes e colaboradores?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existe prática formal de feedback. Feedback acontece raramente e de forma ad hoc, geralmente apenas negativo ou em situações de crise."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Feedback anual via avaliação de desempenho formal. Processo burocrático e unidirecional (líder → colaborador)."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Feedback trimestral ou semestral estruturado, mas ainda limitado ao fluxo top-down. Pouca abertura para feedback upward ou lateral."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Feedback mensal com canais formais estabelecidos. Início de feedback bidirecional (upward e downward), mas ainda irregular."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Feedback contínuo e multidirecional (upward, downward, lateral) com ferramentas digitais. Cultura que valoriza feedback construtivo."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Cultura forte de feedback em tempo real com feedback 360°, ferramentas automatizadas e alta segurança psicológica."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Feedback contínuo totalmente integrado ao fluxo de trabalho, com IA para análise de padrões, reconhecimento automatizado e coaching contínuo."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CI-001-004",
+      "question_number": 4,
+      "title": "Comunicação em crises e mudanças",
+      "text": "Como a organização comunica durante crises, mudanças significativas ou situações de incerteza?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Silêncio ou comunicação muito inconsistente durante crises. Rumores e desinformação proliferam. Alta ansiedade organizacional."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Comunicação mínima e tardia, apenas quando pressionado. Mensagens vagas e pouco esclarecedoras."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Comunicação formal mas limitada e altamente controlada. Informações parciais, causando especulação e ansiedade."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Comunicação regular durante crises mas ainda predominantemente top-down. Atualizações periódicas com informações relevantes."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Comunicação transparente e frequente com espaço para dúvidas e preocupações. Liderança visível e acessível."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Comunicação em tempo real através de múltiplos canais bidirecionais. Alta transparência, empatia e responsividade a questões."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Comunicação radical e contínua com transparência total, canais bidirecionais ativos, co-criação de soluções e governança participativa."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CI-001-005",
+      "question_number": 5,
+      "title": "Escuta ativa organizacional",
+      "text": "Como a organização pratica a escuta ativa, capturando e respondendo às preocupações, ideias e sentimentos dos colaboradores?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Sem mecanismos de escuta. Comunicação totalmente unidirecional (top-down). Colaboradores não têm voz."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Mecanismos básicos de escuta (caixa de sugestões física/digital) existem mas são raramente utilizados e sem resposta."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Canais de escuta existem mas respostas são lentas, genéricas ou inexistentes. Colaboradores sentem que não são ouvidos."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Escuta estruturada com processos de captura e resposta estabelecidos. Fechamento do loop de feedback acontece mas ainda lento."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Escuta ativa com análise sistemática de inputs, respostas tempestivas e fechamento consistente do loop de feedback."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Plataformas de escuta multicanal com análise de sentimento, categorização automática e resposta ágil. Alta responsividade."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Escuta contínua em tempo real com IA, análise preditiva de sentimentos, identificação proativa de problemas e ação preventiva."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "ALBU, O. B.; FLYVERBOM, M. Organizational transparency: Conceptualizations, conditions, and consequences. Business & Society, v. 58, n. 2, p. 268-297, 2019."
+    },
+    {
+      "citation": "ALAVI, M.; LEIDNER, D. E. Review: Knowledge management and knowledge management systems: Conceptual foundations and research issues. MIS Quarterly, v. 25, n. 1, p. 107-136, 2001."
+    },
+    {
+      "citation": "ARGOTE, L.; MIRON-SPEKTOR, E. Organizational learning: From experience to knowledge. Organization Science, v. 22, n. 5, p. 1123-1137, 2011."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "BROWNELL, J. Listening: Attitudes, principles, and skills. Routledge, 2015."
+    },
+    {
+      "citation": "COOMBS, W. T. Ongoing crisis communication: Planning, managing, and responding. 5th ed. Sage Publications, 2019."
+    },
+    {
+      "citation": "CROSS, R.; PARKER, A. The hidden power of social networks: Understanding how work really gets done in organizations. Harvard Business Press, 2004."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "DUHIGG, C. What Google learned from its quest to build the perfect team. The New York Times Magazine, v. 26, n. 2016, p. 20, 2016."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "EDMONDSON, A. C. Psychological safety and learning behavior in work teams. Administrative Science Quarterly, v. 44, n. 2, p. 350-383, 1999."
+    },
+    {
+      "citation": "EDMONDSON, A. C. The fearless organization: Creating psychological safety in the workplace for learning, innovation, and growth. Wiley, 2018."
+    },
+    {
+      "citation": "ELVING, W. J. The role of communication in organisational change. Corporate Communications: An International Journal, v. 10, n. 2, p. 129-138, 2005."
+    },
+    {
+      "citation": "FRAZIER, M. L. et al. Psychological safety: A meta-analytic review and extension. Personnel Psychology, v. 70, n. 1, p. 113-165, 2017."
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "JIANG, H.; LUO, Y. Crafting employee trust: From authentic leadership to transparent organizational communication. Corporate Communications: An International Journal, v. 23, n. 2, p. 138-160, 2018."
+    },
+    {
+      "citation": "JIANG, H.; MEN, L. R. Creating an engaged workforce: The impact of authentic leadership, transparent organizational communication, and work-life enrichment. Communication Research, v. 44, n. 2, p. 225-243, 2017."
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LEONARDI, P. M.; HUYSMAN, M.; STEINFIELD, C. Enterprise social media: Definition, history, and prospects for the study of social technologies in organizations. Journal of Computer-Mediated Communication, v. 19, n. 1, p. 1-19, 2013."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "MACNAMARA, J. Evaluating public communication: Exploring models and metrics. Routledge, 2018."
+    },
+    {
+      "citation": "MACNAMARA, J. Organizational listening: The missing essential in public communication. Peter Lang, 2016."
+    },
+    {
+      "citation": "MEN, L. R. Measuring the impact of leadership style and employee empowerment on perceived organizational reputation. Institute for Public Relations, 2012."
+    },
+    {
+      "citation": "MEN, L. R.; STACKS, D. W. The effects of authentic leadership on strategic internal communication and employee-organization relationships. Journal of Public Relations Research, v. 26, n. 4, p. 301-324, 2014."
+    },
+    {
+      "citation": "MEN, L. R.; YOON, H. J. Organizational crisis communication and new technologies: Building a public relations capability. Public Relations Review, v. 47, n. 1, 2021."
+    },
+    {
+      "citation": "MOR BARAK, M. E. Managing diversity: Toward a globally inclusive workplace. Sage Publications, 2016."
+    },
+    {
+      "citation": "NEWMAN, A.; DONOHUE, R.; EVA, N. Psychological safety: A systematic review of the literature. Human Resource Management Review, v. 27, n. 3, p. 521-535, 2017."
+    },
+    {
+      "citation": "NISHII, L. H. The benefits of climate for inclusion for gender-diverse groups. Academy of Management Journal, v. 56, n. 6, p. 1754-1774, 2013."
+    },
+    {
+      "citation": "NONAKA, I.; TAKEUCHI, H. The knowledge-creating company: How Japanese companies create the dynamics of innovation. Oxford University Press, 1995."
+    },
+    {
+      "citation": "PORATH, C. An antidote to incivility. Harvard Business Review, v. 94, n. 4, p. 108-111, 2016."
+    },
+    {
+      "citation": "RAWLINS, B. Give the emperor a mirror: Toward developing a stakeholder measurement of organizational transparency. Journal of Public Relations Research, v. 21, n. 1, p. 71-99, 2008."
+    },
+    {
+      "citation": "REAGANS, R.; ZUCKERMAN, E. W. Networks, diversity, and productivity: The social capital of corporate R&D teams. Organization Science, v. 12, n. 4, p. 502-517, 2001."
+    },
+    {
+      "citation": "ROBERSON, Q. M. Disentangling the meanings of diversity and inclusion in organizations. Group & Organization Management, v. 31, n. 2, p. 212-236, 2006."
+    },
+    {
+      "citation": "ROGITO, J.; MAKABE, M. The role of continuous feedback in performance improvement. International Journal of Human Resource Management, v. 31, n. 15, p. 1942-1965, 2020."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "SHORE, L. M. et al. Inclusion and diversity in work groups: A review and model for future research. Journal of Management, v. 37, n. 4, p. 1262-1289, 2011."
+    },
+    {
+      "citation": "SMITHER, J. W.; LONDON, M.; REILLY, R. R. Does performance improve following multisource feedback? A theoretical model, meta-analysis, and review of empirical findings. Personnel Psychology, v. 58, n. 1, p. 33-66, 2005."
+    },
+    {
+      "citation": "STOHL, C.; STOHL, M.; LEONARDI, P. M. Managing opacity: Information visibility and the paradox of transparency in the digital age. International Journal of Communication, v. 10, p. 123-137, 2016."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "TREEM, J. W.; LEONARDI, P. M. Social media use in organizations: Exploring the affordances of visibility, editability, persistence, and association. Communication Yearbook, v. 36, p. 143-189, 2013."
+    },
+    {
+      "citation": "WATSON, T.; NOBLE, P. Evaluating public relations: A best practice guide to public relations planning, research and evaluation. Kogan Page, 2014."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022. [s.l: s.n.]. Disponível em: https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    },
+    {
+      "citation": "YANG, A.; LIM, J. S. The rise and fall of public trust: Examining the role of ethical organizational communication during COVID-19. Journal of Public Relations Research, v. 32, n. 3-4, p. 139-160, 2020."
+    }
+  ]
+}

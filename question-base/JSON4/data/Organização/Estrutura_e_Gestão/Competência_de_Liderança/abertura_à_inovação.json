@@ -1,0 +1,254 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-EE-CD-001",
+    "name": "Abertura à inovação",
+    "block": "Organização",
+    "pilar": "Estrutura e Gestão",
+    "dimension": "Competência de Liderança",
+    "description": "Capacidade de liderança de demonstrar abertura à inovação, envolvendo a disposição para explorar, testar e adotar novas tecnologias digitais, processos inovadores e modelos de negócio emergentes. Inclui estabelecer uma cultura organizacional que valoriza experimentação sistemática, tolera erros como aprendizado, investe em parcerias estratégicas para co-inovação (startups, universidades, centros de pesquisa), e adapta continuamente a estratégia de inovação em resposta a mudanças tecnológicas e de mercado.",
+    "related_capacities": [
+      "Competência de liderança • Cultura de experimentação • Tolerância a erros • Parcerias para inovação • Adaptação estratégica • Gestão da mudança • Autonomia e empoderamento • Gestão de erros e aprendizado organizacional"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Ewerton Madruga",
+      "version": "1.0",
+      "last_updated": "2025-12-26",
+      "source_docx": "20251106_checklist_abertura_inovacao.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-EE-CD-001-001",
+      "question_number": 1,
+      "title": "Abertura à inovação",
+      "text": "Como a liderança e a organização demonstram abertura à inovação através da exploração, teste e adoção de novas tecnologias digitais e processos inovadores?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A organização não demonstra abertura para explorar novas tecnologias ou processos inovadores. Não há mecanismos formais para identificar tendências tecnológicas."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A liderança possui alguma consciência sobre tecnologias emergentes através de canais informais (eventos esporádicos, contatos pessoais), mas sem avaliação estruturada ou investimento dedicado."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A organização acompanha sistematicamente tendências tecnológicas através de canais formais (relatórios, benchmarks, associações), mas com limitada aplicação prática e raras experimentações."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A liderança desenvolve iniciativas pontuais de inovação com apoio de parceiros externos (consultores, fornecedores) para aplicações específicas. Há algum investimento em experimentação, mas ainda de forma dependente."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A organização realiza provas de conceito (POCs) e pilotos de forma independente em múltiplas áreas, com parcerias formalizadas (universidades, startups, centros de pesquisa) e orçamento dedicado. Cultura de experimentação estabelecida com processos de captura de aprendizados."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A organização testa continuamente novas tecnologias de forma sistemática, possui ecossistema ativo de co-inovação (corporate venture, aceleração), adapta seu framework de inovação às mudanças tecnológicas, e utiliza análises preditivas para antecipar tendências. Erros são tratados como oportunidades de aprendizado."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização possui processo adaptativo e autônomo de experimentação tecnológica com ciclos curtos, portfólio estrategicamente gerenciado de inovações, ecossistema amplo e dinâmico de parcerias, investimento contínuo em P&D digital, e cultura disseminada de “testar rápido, falhar rápido, aprender rápido” em todos os níveis organizacionais."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-002",
+      "question_number": 2,
+      "title": "Gestão de erros e aprendizado organizacional",
+      "text": "Como a organização lida com erros em iniciativas de inovação e os transforma em oportunidades de aprendizado?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Erros são punidos ou severamente criticados. Não há análise formal ou discussão sobre erros. Clima de medo inibe experimentação."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Erros são tolerados minimamente, mas geram desconforto significativo. Análises informais e superficiais. Foco em culpar indivíduos ao invés de entender causas sistêmicas."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Alguns erros são aceitos como inevitáveis, mas há pouca análise estruturada. Discussões pontuais sem documentação formal ou compartilhamento amplo de lições aprendidas."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A organização reconhece erros como parte do processo de inovação. Análises de causa-raiz são realizadas pela liderança para erros significativos, com algum registro de aprendizados."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Cultura estabelecida de análise colaborativa de erros com métodos estruturados (RCA, post-mortems, retrospectivas). Lições aprendidas são documentadas, compartilhadas entre equipes e utilizadas para melhorar processos. Erros são vistos como oportunidades de aprendizado sem blame individual."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Gestão proativa de erros com comunicação aberta e sistemática. Repositório acessível de lições aprendidas alimenta decisões futuras. Mecanismos de detecção rápida de erros e correção ágil. Celebração de “falhas inteligentes” que geraram aprendizado valioso. Análise preditiva para antecipar potenciais erros."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Cultura de “error management” plenamente estabelecida em todos os níveis. Erros são comunicados imediatamente sem medo de retaliação. Processos automatizados de captura, análise e disseminação de aprendizados. Inovações frequentemente originam-se de insights de erros anteriores. Métricas de aprendizado organizacional acompanhadas regularmente."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-003",
+      "question_number": 3,
+      "title": "Autonomia e empoderamento para inovação",
+      "text": "Qual o nível de autonomia e empoderamento que colaboradores possuem para propor, testar e implementar ideias inovadoras sem necessidade de múltiplas aprovações hierárquicas?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Todas as decisões sobre inovação são centralizadas na alta liderança. Colaboradores não têm autonomia para propor ou testar ideias sem aprovação prévia de múltiplos níveis hierárquicos."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Colaboradores podem sugerir ideias, mas todas as decisões e experimentações dependem de aprovação da alta liderança. Processo burocrático e demorado com múltiplas camadas de aprovação."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Autonomia limitada para propor ideias através de canais formais. Experimentações pequenas podem ser autorizadas pela liderança intermediária, mas com processo ainda burocrático e criterioso."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Colaboradores têm autonomia para propor e experimentar ideias de baixo risco ou baixo investimento com aprovação da liderança imediata. Ideias maiores ainda requerem aprovações hierárquicas múltiplas."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Times têm autonomia clara para experimentar e tomar decisões sobre inovações dentro de orçamento e escopo definidos. Processo de aprovação simplificado com critérios transparentes. Colaboradores entendem que são co-responsáveis pela inovação organizacional."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Ampla autonomia para times e indivíduos testarem ideias com recursos pré-alocados (tempo, orçamento). Processo de aprovação mínimo baseado em alinhamento estratégico e viabilidade. Decisões descentralizadas com liderança atuando como facilitadora e removedora de impedimentos."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Autonomia plena com estrutura organizacional adaptada (squads, células, times autônomos). Colaboradores decidem independentemente sobre experimentação e implementação dentro de guardrails estratégicos claros. Orçamento e tempo dedicados à inovação. Decisões rápidas com revisões post-facto ao invés de aprovações prévias. Cultura de “empowered to fail” disseminada."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-CD-001-004",
+      "question_number": 4,
+      "title": "Velocidade de validação e experimentação",
+      "text": "Quanto tempo a organização leva para validar hipóteses e testar novas ideias/tecnologias desde a concepção até obter resultados em condições reais de mercado ou operação?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A organização não possui processo definido para validação rápida. Ideias levam mais de 12 meses para serem testadas ou nunca são testadas."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Validação é extremamente lenta e burocrática. Leva de 6 a 12 meses para executar um teste piloto simples devido a processos de aprovação, alocação de recursos e priorização."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Há processo definido mas ainda lento. Validações levam de 3 a 6 meses. Dependência de disponibilidade de recursos compartilhados e múltiplas aprovações atrasa experimentação."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Processo de validação moderadamente ágil. Experimentos podem ser executados em 1 a 3 meses. Recursos começam a ser alocados de forma mais dedicada, mas ainda há dependências significativas."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Processo ágil estabelecido. Validações ocorrem em 2-8 semanas com metodologias estruturadas (Design Sprint, Lean Startup, MVPs). Recursos dedicados para experimentação. Ciclos iterativos claros."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Processo altamente ágil. Validações em 1-4 semanas com infraestrutura e ferramentas que permitem prototipagem rápida. Feature flags, A/B testing e ambientes de sandbox disponíveis. Cultura de “build-measure-learn” estabelecida."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Validação ultrarrápida. Experimentos executados em dias (3-10 dias) com infraestrutura de experimentação madura. Continuous delivery, automação de testes, ambientes on-demand. Ciclos múltiplos e paralelos de experimentação. Aprendizado em tempo quase real."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALNUAIMI, B. K.; SINGH, S. K.; REN, S.; BUDHWAR, P.; VOROBYEV, D. Mastering digital transformation: The nexus between leadership, agility, and digital strategy. Journal of Business Research, v. 145, p. 636-648, 2022."
+    },
+    {
+      "citation": "DREMEL, C.; HERTERICH, M. M.; WULF, J.; WAIZMANN, J.-C.; BRENNER, W. How AUDI AG established big data analytics in its digital transformation. MIS Quarterly Executive, v. 16, n. 2, p. 81-100, 2017."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. Disponível em: https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf. Acesso em: 3 out. 2025.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "FLEURY, A. et al. Digital Maturity Capability and Internationalization of Brazilian Multinationals. International Business Review, v. 33, 2024."
+    },
+    {
+      "citation": "GUINAN, P. J.; PARISE, S.; LANGOWITZ, N. Creating an innovative digital project team: Levers to enable digital transformation. Business Horizons, v. 62, n. 6, p. 717-727, 2019."
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. Disponível em: https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KARIMI, J.; WALTER, Z. The role of dynamic capabilities in responding to digital disruption: A factor-based study of the newspaper industry. Journal of Management Information Systems, v. 32, n. 1, p. 39-81, 2015."
+    },
+    {
+      "citation": "KEITH, N.; FRESE, M. Enhancing firm performance and innovativeness through error management culture. In: Handbook of Organizational Culture and Climate, p. 137-157, 2011."
+    },
+    {
+      "citation": "LAURSEN, K.; SALTER, A. Open for innovation: The role of openness in explaining innovation performance among UK manufacturing firms. Strategic Management Journal, v. 27, n. 2, p. 131-150, 2006."
+    },
+    {
+      "citation": "LEONARD-BARTON, D. Core capabilities and core rigidities: A paradox in managing new product development. Strategic Management Journal, v. 13, n. S1, p. 111-125, 1992."
+    },
+    {
+      "citation": "NEWMAN, A.; HERMAN, H. M.; SCHWARZ, G.; NIELSEN, I. The effects of employees’ creative self-efficacy on innovative behavior: The role of entrepreneurial leadership. Journal of Business Research, v. 89, p. 1-9, 2020."
+    },
+    {
+      "citation": "SCHUH, G. et al. Industrie 4.0 Maturity Index: Managing the Digital Transformation of Companies. Munich: Herbert Utz Verlag, 2017."
+    },
+    {
+      "citation": "TEECE, D. J. Explicating dynamic capabilities: The nature and microfoundations of (sustainable) enterprise performance. Strategic Management Journal, v. 28, n. 13, p. 1319-1350, 2007."
+    },
+    {
+      "citation": "TRIPSAS, M.; GAVETTI, G. Capabilities, cognition, and inertia: Evidence from digital imaging. Strategic Management Journal, v. 21, n. 10-11, p. 1147-1161, 2000."
+    },
+    {
+      "citation": "VAN DYCK, C.; FRESE, M.; BAER, M.; SONNENTAG, S. Organizational error management culture and its impact on performance: A two-study replication. Journal of Applied Psychology, v. 90, n. 6, p. 1228-1240, 2005."
+    },
+    {
+      "citation": "WANG, S. L.; LUO, Y.; LU, X.; SUN, J.; MAKSIMOV, V. Autonomy delegation to foreign subsidiaries: An enabling mechanism for emerging-market multinationals. Journal of International Business Studies, v. 45, n. 2, p. 111-130, 2014."
+    }
+  ]
+}

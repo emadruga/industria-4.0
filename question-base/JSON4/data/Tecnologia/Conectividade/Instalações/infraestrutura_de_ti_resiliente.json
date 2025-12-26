@@ -1,0 +1,369 @@
+{
+  "capacity": {
+    "id": "CAP-TEC-CO-ID-001",
+    "name": "Infraestrutura de TI resiliente",
+    "block": "Tecnologia",
+    "pilar": "Conectividade",
+    "dimension": "Instalações",
+    "description": "Facility (Esta dimensão avalia a interconexão de equipamentos e sistemas dentro do ambiente industrial, incluindo cibersegurança de instalações críticas e controle de condições ambientais (do inglês Heating, Ventilation, and Air Conditioning, ou HVAC). Visa medir a interoperabilidade e segurança da rede para permitir a troca contínua de dados e a automação eficiente da instalação, gerando redução de custos e maior eficiência.",
+    "related_capacities": [
+      "Infraestrutura de TI resiliente Segurança de TI"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Wilson Melo Jr",
+      "version": "1.0",
+      "last_updated": "2025-12-26",
+      "source_docx": "Facility (D9).docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-TEC-CO-ID-001-001",
+      "question_number": 1,
+      "title": "Robustez e Eficiência da Infraestrutura de Rede da Instalação",
+      "text": "Quão eficiente é a infraestrutura de rede (cabeada e sem fio) que interliga os sistemas da instalação de fábrica (inclusive HVAC) para garantir a conectividade?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A infraestrutura de rede digital é inexistente ou não está em uso."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A infraestrutura digital básica foi introduzida mas é limitada."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os sistemas e ativos da instalação conectados são interoperáveis e conseguem interagir e trocar informações sem restrições significativas."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os links de rede são capazes de trocar informações assim que geradas."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A infraestrutura suporta a coleta de dados abrangentes em tempo real para criar uma representação digital (sombra digital) do estado da instalação."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A infraestrutura de rede é escalável, permitindo que as redes existentes sejam configuradas de forma rápida e fácil para acomodar modificações na composição dos sistemas da instalação"
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A infraestrutura suporta a convergência completa das redes e plataformas de automação da instalação com o chão de fábrica e a gerência."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-CO-ID-001-002",
+      "question_number": 2,
+      "title": "Integração entre Infraestrutura e Sistemas Críticos da Instalação",
+      "text": "Qual é o grau de integração entre equipamentos da infraestrutura de conectividade com elementos críticos da instalação e controle do ambiente (e.g., HVAC, iluminação) de fábrica?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Os ativos e sistemas críticos da instalação não estão conectados à infraestrutura de rede, ou a automação é inexistente."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Os sistemas críticos da instalação são introduzidos ou parcialmente automatizados, mas gerenciados por intervenção humana."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A infraestrutura de rede interliga os ativos da instalação, permitindo que os sistemas críticos da instalação sejam interoperáveis."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A infraestrutura permite a comunicação em tempo real para controle dos ativos."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A integração suporta a coleta de dados abrangente em tempo real dos sistemas de controle (e.g., sensores de HVAC), criando uma Sombra Digital precisa do estado da instalação."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A infraestrutura em tempo real é escalável, podendo ser reconfigurada de forma rápida e fácil para acomodar novos ativos de controle."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Os sistemas de controle e a infraestrutura de conectividade estão convergentes com as plataformas de automação do Chão de Fábrica e da Empresa (Enterprise) para formar redes altamente autônomas."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-CO-ID-001-003",
+      "question_number": 3,
+      "title": "Escalabilidade da Infraestrutura da Instalação",
+      "text": "A infraestrutura de rede (cabeada e sem fio) que interliga os sistemas da instalação (incluindo controles HVAC, iluminação, etc) permite que as redes existentes sejam facilmente adaptadas para acomodar novas composições de equipamentos, máquinas e sistemas de computador?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A expansão da infraestrutura é impossível digitalmente."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A adaptação ou adição de novos ativos requer intervenção humana significativa e configuração manual extensa."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os sistemas conectados são interoperáveis, facilitando a adaptação/adição de novos equipamentos críticos da instalação."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A infraestrutura é totalmente interoperável, e existe um framework definido para inclusão de novos ativos e sistemas de controle."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A infraestrutura é capaz de se adaptar de forma contínua aos requisitos vigentes de configuração e escalabilidade."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A infraestrutura de rede é altamente escalável."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A escalabilidade atinge a autonomia."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-CO-ID-001-004",
+      "question_number": 4,
+      "title": "Administração Segura dos Ativos da Instalação",
+      "text": "O framework de segurança de TI e as políticas de governança cobrem a administração de ativos, incluindo equipamentos e sistemas de controle da Instalação?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existe um framework de segurança de TI, e a administração de ativos é feita com base em métodos ad-hoc ou manuais."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A segurança de TI está focada em funcionalidades básicas dos sistemas, sem um foco explícito na administração de ativos digitais ou identificação formal."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A segurança de TI é tratada de forma reativa ou ad-hoc; não há um framework de segurança vigilante e resiliente estabelecido."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Existe um framework de segurança vigilante e resiliente."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A segurança é proativa e adaptada continuamente."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A infraestrutura é altamente escalável e redundante, e o framework de segurança suporta o crescimento contínuo de ativos."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A administração de ativos está integrada em uma arquitetura de segurança ciberfísica segura e resiliente."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-CO-ID-001-005",
+      "question_number": 5,
+      "title": "Controle de Acesso aos Ativos da Instalação",
+      "text": "A infraestrutura de Segurança de TI garante a identificação e autenticação de usuários (incluindo funcionários e colaboradores externos) de forma a controlar o acesso a equipamentos e sistemas críticos da instalação?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O acesso aos equipamentos e sistemas críticos da instalação é manual ou físico, sem requisitos de identificação ou autenticação de usuários digitais."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "O acesso é isolado por sistema, com base em mecanismos simples de identificação e autenticação, sem rastreabilidade centralizada."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os sistemas estão conectados, e existe alguma forma de identificação/autenticação de usuários. No entanto, a gestão desses mecanismos é frágil ou executada em modo ad-hoc."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Existe um framework de segurança para proteger a rede contra acesso ou disrupção indesejados."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A identificação/autenticação de usuários é realizada em tempo real e de maneira contextualizada para o acesso aos ativos da instalação."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A infraestrutura é escalável e o framework de segurança suporta o crescimento contínuo de usuários."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Os sistemas de controle de acesso são autônomos, adaptativos, e totalmente automatizados."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-CO-ID-001-006",
+      "question_number": 6,
+      "title": "Validação de Saúde do Sistema",
+      "text": "Como a infraestrutura de Segurança de TI implementa a validação de saúde do sistema (do inglês, system health validation) para os ativos e sistemas de controle da instalação, permitindo a identificação e registro de desvios, falhas de segurança ou mau funcionamento?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A validação da saúde do sistema não é realizada."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Os sistemas OT e IT da instalação executam tarefas e processos baseados em lógica pré-programada."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os sistemas OT e IT são capazes de identificar desvios dos parâmetros predefinidos."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os sistemas OT e IT são capazes de identificar desvios e diagnosticar as causas potenciais."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os sistemas OT e IT utilizam dados em tempo real para identificar desvios e diagnosticar as causas potenciais."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Os sistemas OT e IT são capazes de prever desvios e executar decisões independentemente, para otimizar o desempenho"
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A validação da saúde do sistema inclui processos de auto-aprendizagem e o sistema de informação continuamente se adapta às circunstâncias."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-CO-ID-001-007",
+      "question_number": 7,
+      "title": "Controle de Fluxo de Dados",
+      "text": "A infraestrutura de Segurança de TI implementa o controle de fluxo de dados para os ativos e sistemas de controle da instalação?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O fluxo de dados digital é inexistente."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "O controle do fluxo de dados é manual e ad-hoc."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os sistemas e ativos da instalação são capazes de interagir e trocar informação sem restrições significativas, mas não existem políticas de segurança definidas para esses processos."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "As políticas de segurança de TI cobrem formalmente o controle de fluxo de dados."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os sistemas e ativos da instalação são capazes de estabelecer fluxos de dados em tempo real, de forma segura."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "O controle do fluxo de dados é suportado por análise avançada e sistemas redundantes."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O controle do fluxo de dados implementa mecanismos de auto-aprendizado e adapta-se continuamente às circunstâncias."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

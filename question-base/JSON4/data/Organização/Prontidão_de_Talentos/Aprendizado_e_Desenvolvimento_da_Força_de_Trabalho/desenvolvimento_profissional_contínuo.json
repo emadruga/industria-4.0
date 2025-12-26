@@ -1,0 +1,507 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-PD-AE-001",
+    "name": "Desenvolvimento profissional contínuo",
+    "block": "Organização",
+    "pilar": "Prontidão de Talentos",
+    "dimension": "Aprendizado e Desenvolvimento da Força de Trabalho",
+    "description": "O desenvolvimento profissional contínuo representa a capacidade da organização de promover a aprendizagem permanente e o aprimoramento constante das competências de seus colaboradores, alinhando o crescimento individual às demandas estratégicas e tecnológicas da empresa. Nos níveis iniciais de maturidade, o aprendizado ocorre de forma reativa, baseado em treinamentos pontuais ou obrigatórios. Com o avanço da maturidade, o aprendizado se torna estruturado, digitalizado e mensurável, apoiado por plataformas tecnológicas, planos de desenvolvimento personalizados e indicadores de evolução de competências. Nos estágios mais avançados, o desenvolvimento profissional contínuo é integrado estrategicamente à cultura. Ele é sustentado por sistemas inteligentes de aprendizado adaptativo, que permitem requalificação em tempo real, mobilidade interna de talentos e tomada de decisão baseada em dados sobre o desenvolvimento da força de trabalho. Com isso , o desenvolvimento contínuo se torna um motor de inovação e resiliência organizacional, fortalecendo tanto o engajamento dos colaboradores quanto a capacidade da empresa de se adaptar às constantes mudanças tecnológicas e de mercado .",
+    "related_capacities": [
+      "Planejamento estratégico do aprendizado",
+      "Aprendizado contínuo e personalizado",
+      "Cultura de aprendizado e autodesenvolvimento",
+      "Integração digital do aprendizado",
+      "Avaliação e mensuração de competências",
+      "Requalificação (reskilling) e aperfeiçoamento (upskilling)",
+      "Liderança de aprendizado",
+      "Governança e sustentabilidade do aprendizado",
+      "Parcerias e ecossistema de aprendizado",
+      "Cultura de aprendizado baseada em dados."
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Flavia Agostini",
+      "version": "1.0",
+      "last_updated": "2025-12-26",
+      "source_docx": "Organizacao - Desenvolvimento profissional continuo.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-PD-AE-001-001",
+      "question_number": 1,
+      "title": "Estratégia e planejamento do aprendizado",
+      "text": "A organização possui um plano estratégico de desenvolvimento profissional alinhado aos objetivos de negócio e às competências futuras requeridas?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O aprendizado ocorre de forma reativa, sem planejamento estruturado."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem planos de treinamento pontuais, sem alinhamento à estratégia organizacional."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "O plano de aprendizado é registrado digitalmente, mas sem integração com objetivos estratégicos."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "O planejamento do aprendizado é formalizado e alinhado aos objetivos corporativos e tecnológicos."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O desempenho dos programas de aprendizado é medido e ajustado com base em indicadores definidos."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Análises preditivas são utilizadas para antecipar necessidades de capacitação e adequar o plano de desenvolvimento."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O planejamento é dinâmico, automatizado e continuamente ajustado por meio de sistemas inteligentes integrados à estratégia empresarial."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-002",
+      "question_number": 2,
+      "title": "Personalização e acessibilidade do aprendizado",
+      "text": "O aprendizado é estruturado de forma personalizada e acessível a todos os colaboradores ?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O aprendizado é padronizado e restrito; não há diferenciação por perfil."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem programas de treinamento, mas sem adaptação individual."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Há trilhas digitais básicas, mas sem personalização ou acompanhamento."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "O aprendizado é acessível e oferece conteúdos personalizados conforme cargo e necessidade."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Dados de desempenho e engajamento são usados para ajustar trilhas de aprendizado."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Modelos analíticos e IA recomendam conteúdos com base em necessidades e desempenho futuros."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O aprendizado é totalmente personalizado e ativamente adaptativo em tempo real, promovendo inclusão e eficiência contínua."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-003",
+      "question_number": 3,
+      "title": "Cultura e engajamento para o autodesenvolvimento",
+      "text": "A organização estimula a cultura de aprendizado contínuo, reconhecendo e valorizando colaboradores que buscam se desenvolver de forma proativa?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há incentivo ou reconhecimento ao aprendizado individual."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A cultura valoriza o aprendizado, mas sem práticas formais de estímulo."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existem canais digitais de aprendizado, porém com baixa adesão e engajamento."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "O aprendizado contínuo é incentivado e apoiado por políticas e programas institucionais."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Há acompanhamento de engajamento e reconhecimento de práticas de autodesenvolvimento."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados e analytics são usados para prever níveis de engajamento e ajustar ações de incentivo."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A cultura é autossustentada, com aprendizado digital integrado e engajamento contínuo baseado em dados e feedbacks em tempo real."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-004",
+      "question_number": 4,
+      "title": "Integração digital do aprendizado",
+      "text": "Os sistemas de aprendizado (LMS, LXP, HRIS) estão integrados a outros sistemas corporativos ?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Os processos de aprendizado são manuais, sem uso de sistemas digitais."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem ferramentas digitais isoladas, sem integração entre si."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "O aprendizado é registrado em plataformas digitais, mas sem integração com sistemas corporativos."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os sistemas de aprendizado e RH estão parcialmente integrados, permitindo acompanhamento básico de competências."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O aprendizado é monitorado digitalmente por indicadores e relatórios integrados."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Análises preditivas e IA são utilizadas para prever lacunas de competências e recomendar ações de capacitação."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O aprendizado é autônomo e em tempo real, com integração vertical (operacional) e horizontal (corporativa) total entre sistemas corporativos e plataformas de aprendizado, suportado por inteligência analítica."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-005",
+      "question_number": 5,
+      "title": "Avaliação e mensuração de competências",
+      "text": "O progresso e o impacto do aprendizado são medidos sistematicamente por indicadores, dashboards e relatórios de desempenho?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há mensuração formal de competências ou resultados de aprendizado."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A avaliação de aprendizado ocorre de forma esporádica e qualitativa."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Alguns dados de desempenho são registrados digitalmente, mas sem integração com planos de aprendizado."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A mensuração de competências é estruturada e conectada aos programas de desenvolvimento."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Indicadores e dashboards são utilizados para monitorar o impacto do aprendizado."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados analíticos e IA são aplicados para prever lacunas de competências e otimizar proativamente investimentos em capacitação."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema de mensuração é automatizado, inteligente e em tempo real, permitindo ajustes dinâmicos e aprendizado adaptativo."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-006",
+      "question_number": 6,
+      "title": "Requalificação (reskilling) e atualização (upskilling)",
+      "text": "A organização possui programas estruturados de requalificação e aperfeiçoamento contínuo ?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existem programas formais de requalificação ou atualização profissional."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem iniciativas de capacitação pontuais e reativas, sem estrutura definida."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A organização possui registros digitais de treinamentos, mas sem plano de requalificação contínuo."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Há programas estruturados de requalificação e aperfeiçoamento alinhados à estratégia organizacional."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os programas são acompanhados por indicadores e revisados com base em resultados e demandas de negócio."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados e analytics são utilizados para prever lacunas de competências e antecipar ações de requalificação."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A requalificação é dinâmica, personalizada e automatizada, com atualização contínua em tempo real e integração plena à estratégia digital da organização."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-007",
+      "question_number": 7,
+      "title": "Liderança voltada ao aprendizado",
+      "text": "Os líderes incentivam, acompanham e servem de modelo no processo de aprendizado contínuo de suas equipes?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Os líderes não incentivam nem acompanham o aprendizado das equipes."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "O incentivo ao aprendizado é eventual e depende da iniciativa individual do líder."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Há registros de atividades de aprendizado, mas a liderança tem envolvimento limitado."
+        },
+        {
+          "level": 3,
+          "label": "Os líderes são formalmente cobrados por (ex",
+          "description": "em suas metas) participar e incentivar ativamente o aprendizado contínuo das equipes."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O comportamento dos líderes é avaliado e monitorado com base em indicadores de aprendizado e engajamento."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados de desempenho e aprendizado são utilizados para ajustar práticas de liderança e identificar necessidades de desenvolvimento."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A liderança atua como mentora e catalisadora do aprendizado contínuo, utilizando feedbacks e análises em tempo real para fortalecer a cultura de desenvolvimento."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-008",
+      "question_number": 8,
+      "title": "Governança e políticas de aprendizado contínuo",
+      "text": "Existem políticas, papéis e processos definidos para governar o aprendizado contínuo e o desenvolvimento de competências na organização?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existem políticas ou estruturas de governança para aprendizado."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Há iniciativas pontuais de aprendizado, mas sem diretrizes formais."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Políticas e papéis estão documentados digitalmente, mas sem integração ou revisão periódica."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A governança de aprendizado é formalizada e integrada à gestão de pessoas."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Indicadores e revisões periódicas avaliam a eficácia das políticas de aprendizado."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Modelos analíticos são utilizados para prever demandas e ajustar a governança."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A governança é adaptativa, inteligente e responsiva, com processos ajustados em tempo real e baseados em dados de aprendizado e desempenho."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-009",
+      "question_number": 9,
+      "title": "Parcerias e ecossistema de aprendizado",
+      "text": "A organização mantém parcerias com instituições de ensino, centros de pesquisa ou outras empresas para promover aprendizado colaborativo e inovação?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A organização não possui parcerias voltadas a aprendizado ou inovação."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem contatos informais ou pontuais com instituições externas."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Parcerias estão registradas digitalmente, mas sem integração com o plano estratégico."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Há parcerias formais e estruturadas com foco em capacitação e desenvolvimento conjunto."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os resultados das parcerias são acompanhados e avaliados por indicadores de impacto."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados e analytics são usados para identificar e antecipar novas oportunidades de parceria."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização lidera ou participa ativamente de ecossistemas globais de aprendizado, com colaboração digital contínua e inovação em tempo real."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-PD-AE-001-010",
+      "question_number": 10,
+      "title": "Aprendizado baseado em dados e inteligência analítica",
+      "text": "A organização utiliza dados e inteligência artificial para identificar lacunas de competências, recomendar trilhas de aprendizado e prever necessidades futuras?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O aprendizado não é orientado por dados ou análises sistemáticas."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "São realizadas avaliações pontuais e qualitativas de desempenho e aprendizado."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Dados de aprendizado são registrados digitalmente, mas sem análise automatizada."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os dados de desempenho e aprendizado são analisados para orientar decisões de capacitação."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Dashboards e relatórios analíticos são usados para medir lacunas e apoiar o planejamento de aprendizado."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "IA e algoritmos analíticos são utilizados para prever necessidades futuras e recomendar trilhas personalizadas."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O aprendizado é autônomo e adaptativo, com IA ajustando conteúdos e planos de desenvolvimento em tempo real com base em dados comportamentais e organizacionais."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

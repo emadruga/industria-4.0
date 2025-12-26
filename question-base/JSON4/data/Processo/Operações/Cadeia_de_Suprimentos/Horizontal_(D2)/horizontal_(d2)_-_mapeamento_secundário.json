@@ -1,0 +1,297 @@
+{
+  "capacity": {
+    "id": "CAP-PROC-OD-HD-001",
+    "name": "Horizontal (D2) - Mapeamento secundário",
+    "block": "Processo",
+    "pilar": "Operações/Cadeia de Suprimentos",
+    "dimension": "Horizontal (D2)",
+    "description": "A integração horizontal de sistemas de informação representa a capacidade de uma organização de conectar e sincronizar processos, dados e fluxos de trabalho entre diferentes unidades e parceiros da cadeia de valor — como fornecedores, produção, logística e clientes. Nos modelos ACATECH e SIRI, essa integração é um eixo essencial da maturidade digital, complementando a integração vertical. Enquanto a integração vertical conecta os níveis hierárquicos internos (do chão de fábrica à gestão corporativa), a integração horizontal conecta funções e organizações distintas, garantindo continuidade e transparência nas operações de ponta a ponta. Essa capacidade permite o compartilhamento automatizado e seguro de informações entre sistemas internos e externos (ERP, SCM, CRM, MES, plataformas de IoT, etc.), possibilitando coordenação ágil da cadeia de suprimentos, rastreabilidade global e resposta rápida a variações de demanda. À medida que a maturidade evolui, a organização avança de trocas manuais e isoladas para ecossistemas digitais colaborativos, baseados em dados padronizados, interoperabilidade e inteligência analítica. Nos níveis mais altos, essa integração torna-se preditiva e adaptativa, permitindo que redes de valor inteiras reajam em tempo real a mudanças no mercado, na produção ou na logística.",
+    "related_capacities": [
+      "Interoperabilidade entre sistemas e parceiros da cadeia de valor",
+      "Integração ponta a ponta (end-to-end) dos processos operacionais",
+      "Rastreabilidade e transparência interorganizacional",
+      "Colaboração digital e gestão de ecossistemas",
+      "Automação dos fluxos de informação e decisão entre parceiros",
+      "Inteligência analítica da cadeia de suprimentos",
+      "Adaptação em tempo real e resiliência colaborativa",
+      "Governança e segurança de dados compartilhados."
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Flavia Agostini",
+      "version": "1.0",
+      "last_updated": "2025-12-26",
+      "source_docx": "Processo - Integração horizontal.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-PROC-OD-HD-001-001",
+      "question_number": 1,
+      "title": "Conectividade e interoperabilidade entre sistemas e parceiros",
+      "text": "Em que medida os sistemas internos da organização (ERP, MES, SCM, CRM) estão integrados aos sistemas de fornecedores, distribuidores e clientes, permitindo troca automatizada e segura de informações?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há integração entre sistemas internos e externos; trocas de dados são manuais e ocasionais."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Há procedimentos formais de comunicação com parceiros, mas as trocas são feitas por e-mail, planilhas ou portais manuais."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existem trocas digitais pontuais via arquivos ou interfaces simples, com baixa automação."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os sistemas corporativos (ERP, MES, SCM) estão conectados a parceiros principais, com atualizações automatizadas e regulares."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A integração cobre a maioria dos parceiros; há monitoramento da qualidade dos dados e dashboards compartilhados."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A conectividade é suportada por análises preditivas e automação inteligente, antecipando falhas e sincronizando processos."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A interoperabilidade é total e autônoma; os sistemas interagem em tempo real com parceiros, ajustando fluxos de forma auto."
+        }
+      ]
+    },
+    {
+      "id": "Q-PROC-OD-HD-001-002",
+      "question_number": 2,
+      "title": "Sincronização ponta a ponta de processos operacionais",
+      "text": "Até que ponto os processos de suprimento, produção, logística e entrega estão sincronizados digitalmente entre diferentes unidades e parceiros da cadeia?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Os processos entre unidades e parceiros não são coordenados; as trocas de informação são manuais e reativas."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem procedimentos formais de comunicação e controle, mas sem integração digital entre sistemas."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "| Alguns processos são digitalizados, porém as trocas entre parceiros ainda dependem de intervenções manuais."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os principais processos (suprimento, produção, entrega) estão conectados e atualizados digitalmente em intervalos regulares."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A sincronização é quase em tempo real; os fluxos são monitorados por dashboards compartilhados entre parceiros."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "O sistema utiliza análises preditivas para antecipar gargalos, ajustar prazos e otimizar a coordenação entre elos da cadeia."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A sincronização é total e autônoma; os processos se ajustam dinamicamente em tempo real, com base em aprendizado contínuo."
+        }
+      ]
+    },
+    {
+      "id": "Q-PROC-OD-HD-001-003",
+      "question_number": 3,
+      "title": "Rastreabilidade e transparência interorganizacional",
+      "text": "Em que grau a organização e seus parceiros mantêm rastreabilidade digital e visibilidade compartilhada sobre materiais, produtos e fluxos de informação?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há mecanismos formais de rastreabilidade; as informações de fluxo são registradas manualmente e localmente."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem registros internos de rastreamento, mas não há compartilhamento estruturado entre parceiros."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A rastreabilidade é digital, porém restrita a etapas internas do processo produtivo."
+        },
+        {
+          "level": 3,
+          "label": "A rastreabilidade é digital e parcial entre parceiros diretos (ex.",
+          "description": "fornecedor principal e cliente imediato)."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Há rastreabilidade ponta a ponta, com dados compartilhados em painéis comuns e validações automáticas."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A rastreabilidade inclui análises preditivas para detectar anomalias, falhas ou riscos na cadeia."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A rede é totalmente transparente e autônoma; a rastreabilidade é dinâmica, em tempo real e autoajustável."
+        }
+      ]
+    },
+    {
+      "id": "Q-PROC-OD-HD-001-004",
+      "question_number": 4,
+      "title": "Colaboração digital e tomada de decisão compartilhada",
+      "text": "Em que medida a organização utiliza plataformas digitais ou sistemas colaborativos para troca de informações, planejamento conjunto e coordenação com fornecedores e clientes?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A colaboração entre parceiros ocorre de forma informal, sem sistemas digitais estruturados."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem reuniões e trocas de informações regulares, mas sem integração digital entre plataformas."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A comunicação é realizada por ferramentas digitais isoladas (e-mail, planilhas, portais)."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Há uso de plataformas digitais colaborativas para planejamento e execução conjunta de processos."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A colaboração digital inclui compartilhamento de dados em dashboards e mecanismos de validação conjunta de decisões."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "O processo de co-decisão é suportado por análises preditivas e automação parcial de fluxos de aprovação."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A colaboração é autônoma e contínua; sistemas e parceiros tomam decisões coordenadas em tempo real com base em dados inteligentes."
+        }
+      ]
+    },
+    {
+      "id": "Q-PROC-OD-HD-001-005",
+      "question_number": 5,
+      "title": "Automação e inteligência analítica da cadeia de valor",
+      "text": "Até que ponto a empresa aplica análise de dados e algoritmos preditivos para automatizar a coordenação entre unidades internas e parceiros externos, antecipando demandas e riscos?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "As decisões da cadeia de suprimentos são manuais e baseadas em relatórios históricos."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem relatórios e análises básicas de dados, sem integração entre áreas ou parceiros."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "As análises são realizadas em sistemas digitais, mas os dados permanecem isolados e a automação é limitada."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os sistemas de planejamento e execução (ERP, SCM, MES) compartilham dados analíticos básicos entre as principais unidades."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A empresa utiliza ferramentas analíticas integradas para diagnóstico e otimização dos processos logísticos e produtivos."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Modelos preditivos e algoritmos de IA antecipam demandas e riscos, ajustando automaticamente processos operacionais."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A cadeia de valor opera de forma autônoma e cognitiva, com aprendizado contínuo e decisões automáticas em tempo real."
+        }
+      ]
+    },
+    {
+      "id": "Q-PROC-OD-HD-001-006",
+      "question_number": 6,
+      "title": "Resiliência e adaptação colaborativa em tempo real",
+      "text": "",
+      "maturity_levels": []
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

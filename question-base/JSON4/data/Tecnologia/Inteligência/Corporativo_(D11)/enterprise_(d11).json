@@ -1,0 +1,290 @@
+{
+  "capacity": {
+    "id": "CAP-TEC-IN-CD-001",
+    "name": "Enterprise (D11)",
+    "block": "Tecnologia",
+    "pilar": "Inteligência",
+    "dimension": "Corporativo (D11)",
+    "description": "A cultura organizacional constitui a base humana e comportamental da transformação digital. No contexto dos modelos ACATECH e SIRI, a disposição à mudança representa a capacidade da organização de adaptar-se continuamente a novas tecnologias, processos e formas de trabalho. Essa abertura cultural é essencial para que a empresa evolua de práticas tradicionais para um modelo orientado por dados e inteligência digital. A aprendizagem e a tomada de decisão baseada em dados traduzem o amadurecimento dessa cultura: as decisões deixam de depender apenas da experiência individual e passam a se fundamentar em evidências extraídas de análises inteligentes. Isso exige tanto o desenvolvimento de competências digitais quanto a criação de um ambiente que valorize a experimentação, o aprendizado contínuo e a confiança nos dados. No bloco Tecnologia, pilar Inteligência, e na dimensão Enterprise (D11) do modelo SIRI, essa capacidade reflete o ponto em que as pessoas e os sistemas aprendem juntas — promovendo uma cultura organizacional que utiliza informações analíticas para guiar decisões estratégicas e operacionais. À medida que a maturidade cresce, a organização passa a incorporar inteligência coletiva e adaptativa, transformando dados em conhecimento e conhecimento em ação.",
+    "related_capacities": [
+      "Cultura de dados e mentalidade orientada por evidências",
+      "Alfabetização digital e analítica (data literacy)",
+      "Aprendizagem organizacional contínua",
+      "Colaboração e compartilhamento de conhecimento",
+      "Confiança e ética no uso de dados",
+      "Autonomia e empoderamento digital",
+      "Adaptação e resiliência digital",
+      "Integração entre aprendizado humano e inteligência artificial."
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Flavia Agostini",
+      "version": "1.0",
+      "last_updated": "2025-12-26",
+      "source_docx": "Tecnologia - Aprendizagem e tomada de decisão.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-TEC-IN-CD-001-001",
+      "question_number": 1,
+      "title": "Cultura de aprendizagem orientada por dados",
+      "text": "Em que medida a organização promove uma cultura de aprendizagem em que decisões e melhorias são fundamentadas em dados e evidências, e não apenas em experiência ou hierarquia?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Decisões são tomadas com base em intuição ou autoridade; inexistem práticas formais de uso de dados para aprendizado."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Há reconhecimento da importância dos dados, mas a aprendizagem e as decisões ainda dependem de percepções individuais."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Dados são utilizados para registrar resultados, porém sem análise estruturada ou aprendizado coletivo."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "As equipes utilizam dados de forma integrada para refletir sobre desempenho e propor melhorias."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A organização adota práticas sistemáticas de análise de dados e aprendizagem, compartilhando lições entre áreas."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "O aprendizado é suportado por análises preditivas, permitindo decisões proativas baseadas em padrões de dados."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização aprende continuamente com dados em tempo real, ajustando comportamentos e decisões de forma autônoma e colaborativa."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-IN-CD-001-002",
+      "question_number": 2,
+      "title": "Alfabetização e competência analítica das equipes",
+      "text": "Até que ponto os colaboradores possuem habilidades e conhecimentos para interpretar, analisar e aplicar informações provenientes de dados em suas rotinas de trabalho?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Os colaboradores não possuem habilidades para interpretar dados; as decisões são tomadas de forma empírica."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A organização reconhece a importância das competências analíticas, mas o aprendizado ainda é informal e individual."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Ferramentas digitais estão disponíveis, mas poucos colaboradores sabem utilizá-las de forma analítica."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Parte das equipes utiliza dados e ferramentas de BI para apoiar suas decisões locais."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A competência analítica é desenvolvida de forma estruturada e transversal; dados são interpretados e discutidos coletivamente."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "As equipes aplicam modelos analíticos e algoritmos preditivos em suas decisões, com suporte de especialistas em dados."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A alfabetização analítica é disseminada em toda a organização; as equipes utilizam e aprimoram modelos de decisão baseados em aprendizado contínuo."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-IN-CD-001-003",
+      "question_number": 3,
+      "title": "Mecanismos de feedback e aprendizagem organizacional",
+      "text": "Em que grau a organização possui mecanismos estruturados para aprender com seus próprios dados e experiências (feedbacks, lições aprendidas, análises pós-ação)?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A organização não possui práticas formais de feedback; aprendizado são informa e não documentado."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Há iniciativas pontuais de coleta de feedback, mas sem estrutura de registro ou análise sistemática."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Feedbacks são registrados digitalmente, porém não são utilizados para aprendizado organizacional."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "As equipes realizam revisões estruturadas e compartilham feedbacks para ajustes locais de processos."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A organização analisa dados de desempenho e dissemina lições aprendidas entre áreas e níveis."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Os ciclos de feedback são baseados em análises preditivas, permitindo antecipar falhas e oportunidades."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização aprende continuamente com feedbacks automatizados e análises em tempo real, promovendo melhoria autônoma e colaborativa."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-IN-CD-001-004",
+      "question_number": 4,
+      "title": "Confiança e ética no uso de dados",
+      "text": "Como a organização assegura a transparência, a ética e a confiança no uso de dados para apoiar decisões e orientar comportamentos?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há práticas formais de gestão ética de dados; inexistem políticas de privacidade ou transparência."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem políticas básicas de confidencialidade, mas sem mecanismos efetivos de auditoria ou monitoramento."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "As políticas de ética e privacidade são documentadas e registradas em sistemas digitais, mas pouco aplicadas."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A conformidade ética e de segurança de dados é integrada aos processos e sistemas organizacionais."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Auditorias regulares e indicadores de conformidade garantem rastreabilidade e confiança no uso dos dados."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Mecanismos de monitoramento automatizado identificam riscos éticos e de privacidade antes que causem impacto."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Sistemas e equipes atuam de forma colaborativa e autônoma para manter a integridade, transparência e confiança contínua no uso de dados."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-IN-CD-001-005",
+      "question_number": 5,
+      "title": "Adaptação e agilidade baseadas em aprendizado digital",
+      "text": "Em que medida a organização é capaz de adaptar processos, estratégias e decisões com base em aprendizados gerados por análises e insights de dados?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A organização reage de forma lenta às mudanças e não utiliza dados para adaptar seus processos."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem iniciativas isoladas de análise de dados, mas sem mecanismos estruturados de adaptação."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Sistemas digitais registram dados operacionais, porém a resposta organizacional é predominantemente reativa."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Dados e análises são usados para ajustar processos locais e otimizar a execução de atividades."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A organização utiliza análises e feedbacks para revisar estratégias e implementar melhorias contínuas."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Processos são ajustados de forma proativa com base em previsões e simulações apoiadas por IA."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A empresa opera com inteligência adaptativa, ajustando-se automaticamente a variações internas e externas em tempo real."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

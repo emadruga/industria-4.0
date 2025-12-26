@@ -1,0 +1,240 @@
+{
+  "capacity": {
+    "id": "CAP-TEC-IN-CD-001",
+    "name": "Análise de dados automatizada",
+    "block": "Tecnologia",
+    "pilar": "Inteligência",
+    "dimension": "Empresa",
+    "description": "Refere-se à capacidade dos sistemas de informação de agregar dados continuamente para gerar informações, extrair conhecimento e fornecer suporte às decisões dos usuários. Isso requer a habilidade de identificar automaticamente relações de causa e efeito a partir de diversas fontes de dados e prever eventos futuros por meio de simulações e outros métodos. A análise não se limita a correlações conhecidas, mas também busca identificar novos padrões nos dados para promover um aprendizado contínuo. Em estágios avançados, algoritmos de otimização integram os impactos de eventos previstos (como uma falha) para gerar recomendações e ações de forma autônoma.",
+    "related_capacities": [
+      "Entrega de dados contextualizada Interface de usuário específica da aplicação Infraestrutura de TI resiliente Integração horizontal e vertical Governança de dados Interface de dados padrão Segurança de TI"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Cristiano Gurgel Castro",
+      "version": "1.0",
+      "last_updated": "2025-12-26",
+      "source_docx": "0891_Dimensão Enterprise_cgcastro.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-TEC-IN-CD-001-001",
+      "question_number": 1,
+      "title": "Como a empresa utiliza a análise automatizada de dados para",
+      "text": "Como a empresa utiliza a análise automatizada de dados para gerar insights e dar suporte à tomada de decisão?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "As decisões são baseadas puramente na experiência e intuição dos colaboradores, sem qualquer uso de dados de processo ou operacionais para análise."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Os dados são coletados e armazenados em sistemas isolados, sendo utilizados para a criação de relatórios simples e pré-programados, sem capacidade de análise aprofundada."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os dados de diferentes sistemas de TI e TO são consolidados, mas a análise ainda é realizada manualmente pelos colaboradores para identificar desvios e tendências."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A empresa utiliza painéis e dashboards que monitoram os processos em tempo real, permitindo a visualização do status atual (o que está acontecendo) e a identificação de desvios em relação a parâmetros predefinidos."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "São utilizadas ferramentas de análise de dados para realizar diagnósticos e análises de causa raiz, permitindo à empresa compreender por que os eventos ocorrem (por que está acontecendo) e identificar correlações entre diferentes variáveis."
+        },
+        {
+          "level": 5,
+          "label": "A empresa emprega modelos e algoritmos (ex",
+          "description": "machine learning) para analisar dados históricos e em tempo real, prevendo eventos futuros como falhas de equipamentos, problemas de qualidade ou variações na demanda (o que vai acontecer)."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Os sistemas de TI são capazes não apenas de prever eventos futuros, mas também de executar decisões de forma autônoma ou fornecer recomendações otimizadas para adaptar os processos em tempo real, visando a auto-otimização."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-IN-CD-001-002",
+      "question_number": 2,
+      "title": "Qual é a abrangência da análise automatizada de dados?",
+      "text": "Qual é a abrangência da análise automatizada de dados?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Nenhuma análise de dados automatizada é realizada na empresa."
+        },
+        {
+          "level": 1,
+          "label": "A análise automatizada é usada de forma isolada, focada em um único ativo, parâmetro ou processo (ex",
+          "description": "monitorar a vibração de um motor específico ou a contagem de peças de uma máquina)."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A análise é usada para otimizar múltiplos processos ou áreas de forma independente (em silos), sem integração entre eles"
+        },
+        {
+          "level": 3,
+          "label": "A análise integra dados de múltiplos processos e sistemas dentro de um mesmo domínio funcional (ex",
+          "description": "integração de dados de todas as máquinas do shop floor para otimizar o fluxo de produção e identificar gargalos)."
+        },
+        {
+          "level": 4,
+          "label": "A análise integra dados de forma vertical, conectando o shop floor (TI/TO) com sistemas de gestão corporativa (Enterprise), como ERP ou SCM (ex",
+          "description": "analisar como o OEE da produção impacta o custo financeiro do produto no ERP)."
+        },
+        {
+          "level": 5,
+          "label": "A análise integra dados verticalmente (fábrica + gestão) e horizontalmente, incluindo dados de parceiros externos (ex",
+          "description": "fornecedores ou clientes) para otimizar processos (ex: prever como um atraso de matéria-prima impactará o OEE)."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A análise de dados é holística e dinâmica, abrangendo todo o ecossistema (fornecedores, logística, produção, clientes, dados de mercado) para permitir a otimização e adaptação autônoma da cadeia de valor em tempo real."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-IN-CD-001-003",
+      "question_number": 3,
+      "title": "Qual é a natureza dos sistemas de análise de dados?",
+      "text": "Qual é a natureza dos sistemas de análise de dados?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Nenhuma análise é realizada; os processos são executados com base na intuição e experiência."
+        },
+        {
+          "level": 1,
+          "label": "A análise é 100% manual. Os dados são exportados (ex",
+          "description": "CSV) e analisados manualmente em ferramentas de planilha (ex: Excel)."
+        },
+        {
+          "level": 2,
+          "label": "A análise é automatizada, mas limitada a regras fixas e pré-programadas (ex",
+          "description": "scripts SQL, relatórios de BI) para exibir dados históricos ou em tempo real (ex: \"mostrar todas as paradas > 5 min\")."
+        },
+        {
+          "level": 3,
+          "label": "Os sistemas aplicam regras de diagnóstico complexas (árvores de decisão, expert systems) que foram definidas manualmente por especialistas para identificar causas conhecidas (ex",
+          "description": "\"Se Temp > 80 E Vibração > 5, ENTÃO Causa Provável = Falha no Rolamento\")."
+        },
+        {
+          "level": 4,
+          "label": "A empresa utiliza modelos preditivos (ex",
+          "description": "regressão, forecasting) que são treinados por especialistas (ex: Cientistas de Dados) e depois implantados no sistema. O modelo é estático até ser manualmente retreinado."
+        },
+        {
+          "level": 5,
+          "label": "A empresa utiliza ativamente técnicas de Machine Learning (ex",
+          "description": "clustering, redes neurais) para descobrir novas correlações, anomalias e padrões nos dados que não eram previamente conhecidos pelos especialistas."
+        },
+        {
+          "level": 6,
+          "label": "Os sistemas são adaptativos e utilizam autoaprendizado (ex",
+          "description": "online learning, reinforcement learning), ajustando seus próprios modelos e algoritmos continuamente à medida que novos dados chegam, sem a necessidade de intervenção humana."
+        }
+      ]
+    },
+    {
+      "id": "Q-TEC-IN-CD-001-004",
+      "question_number": 4,
+      "title": "Com que frequência e velocidade a análise de dados é executa",
+      "text": "Com que frequência e velocidade a análise de dados é executada e os resultados são disponibilizados para a tomada de decisão?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A análise de dados não é realizada; as decisões são tomadas com base na percepção imediata do evento."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A análise é puramente manual e ad-hoc (sob demanda). A geração de um relatório ou insight pode levar dias ou semanas após a coleta dos dados."
+        },
+        {
+          "level": 2,
+          "label": "A análise é automatizada, mas executada em lotes (batch) com baixa frequência (ex",
+          "description": "diária, semanal ou mensal). As decisões são sempre baseadas em dados históricos (ex: D-1 ou S-1)."
+        },
+        {
+          "level": 3,
+          "label": "A análise é executada em intervalos frequentes (ex",
+          "description": "a cada hora), permitindo uma visão \"quase em tempo real\" (near real-time) e a tomada de decisões táticas dentro de um mesmo turno ou dia de trabalho."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A análise é executada em tempo real (real-time). Os dados são processados e os insights (diagnósticos, alertas) são gerados em segundos após o evento, permitindo uma resposta humana imediata."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A análise em tempo real é usada para simular cenários futuros imediatos ou fornecer recomendações preditivas, permitindo que a equipe tome decisões proativas antes que um problema se agrave."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A análise em tempo real aciona diretamente ações corretivas ou adaptativas de forma autônoma (ciclo fechado ou closed-loop), muitas vezes sem necessidade de intervenção humana, eliminando a latência de decisão."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

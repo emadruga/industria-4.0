@@ -1,0 +1,505 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-EE-EE-001",
+    "name": "Governança de dados",
+    "block": "Organização",
+    "pilar": "Estrutura e Gestão",
+    "dimension": "Estratégia e Governança",
+    "description": "A governança de dados refere-se às políticas e orientações para o processamento, armazenamento, gerenciamento e apresentação de dados de alta qualidade em toda a empresa. A implementação de uma governança de dados eficaz é fundamental para melhorar a qualidade dos dados, o que, por sua vez, sustenta a confiança nos sistemas de informação e viabiliza a tomada de decisões baseada em dados. Para que uma empresa se beneficie das mudanças, ela deve ser capaz de fornecer respostas rápidas a eventos externos. As mudanças necessárias devem ser iniciadas, implementadas e concluídas o mais rápido possível. A iniciativa para a mudança deve partir dos funcionários que possuem o conhecimento adequado para interpretar o evento, que são frequentemente aqueles que trabalham mais próximos do sistema ou máquina em questão. Isso requer a transferência de poderes de decisão e a criação de oportunidades para que os especialistas técnicos compartilhem seu conhecimento. O fator crítico é que os funcionários entendam que também são responsáveis por moldar a mudança; eles devem estar dispostos a iniciá-la por conta própria e preparados para dar o primeiro passo para que ela aconteça.",
+    "related_capacities": [
+      "Integração horizontal e vertical Interface de dados padrão Segurança de TI Comunidades flexíveis Sistemas de metas motivacionais Gestão ágil Competência de Liderança Colaboração Inter e Intra-Empresas Estratégia e Governança Reconhecer o valor dos erros Abertura à inovação Aprendizagem e tomada de decisão baseadas em dados Desenvolvimento profissional contínuo"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Cristiano Gurgel Castro",
+      "version": "1.0",
+      "last_updated": "2025-12-26",
+      "source_docx": "0893_Dimensão Strategy & Governance_cgcastro.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-EE-EE-001-001",
+      "question_number": 1,
+      "title": "Qual o nível atual da 'Governança de Dados' na sua organizaç",
+      "text": "Qual o nível atual da 'Governança de Dados' na sua organização?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existem políticas ou processos formais para a gestão de dados. A qualidade e o gerenciamento dos dados são tratados de maneira ad-hoc e reativa."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Políticas básicas de dados existem de forma isolada em alguns departamentos. Não há uma abordagem unificada ou responsabilidades claras sobre os dados em toda a organização."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A empresa possui políticas formais de governança de dados documentadas, mas sua implementação é inconsistente entre os departamentos. As responsabilidades sobre os dados começam a ser definidas."
+        },
+        {
+          "level": 3,
+          "label": "Políticas de governança de dados são implementadas em toda a empresa, com papéis e responsabilidades definidos (ex",
+          "description": "Data Stewards). A qualidade dos dados é monitorada, proporcionando visibilidade sobre os principais problemas."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A empresa utiliza ferramentas para o gerenciamento de metadados e dados mestres, além de processos automatizados para a limpeza e padronização dos dados. A governança é uma prática estabelecida e proativa."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A estrutura de governança de dados é usada para prever e mitigar riscos relacionados à qualidade dos dados, garantindo que as informações sejam adequadas para análises preditivas e tomada de decisão automatizada."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A governança de dados é totalmente integrada e dinâmica, adaptando-se continuamente a novas fontes de dados e necessidades de negócio. A cultura da empresa é orientada por dados, com processos ágeis e decisões automatizadas baseadas em dados confiáveis."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-EE-001-002",
+      "question_number": 2,
+      "title": "Como se dá a Gestão de Dados Mestres (MDM)?",
+      "text": "Como se dá a Gestão de Dados Mestres (MDM)?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Não há gestão de dados mestres. Dados críticos (ex",
+          "description": "clientes, produtos) são cadastrados de forma independente em cada sistema (ERP, CRM, etc.), resultando em alta duplicidade e inconsistência."
+        },
+        {
+          "level": 1,
+          "label": "A empresa reconhece os problemas de inconsistência de dados, mas as correções são feitas manualmente, de forma reativa e pontual (ex",
+          "description": "\"limpando\" planilhas) quando um erro é descoberto."
+        },
+        {
+          "level": 2,
+          "label": "Existem processos departamentais para tentar padronizar a entrada de dados mestres (ex",
+          "description": "um departamento \"possui\" o cadastro de produtos), mas não há integração entre os sistemas."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A empresa definiu formalmente seus dados mestres e utiliza ferramentas ou processos de data quality para identificar duplicatas e inconsistências de forma sistemática, embora a correção ainda seja largamente manual."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Um sistema ou plataforma de MDM está implementado. Dados mestres são consolidados, padronizados e limpos automaticamente. Há uma \"fonte única da verdade\" (SSOT) lógica ou física para os dados críticos."
+        },
+        {
+          "level": 5,
+          "label": "O sistema MDM é usado proativamente para gerenciar o ciclo de vida completo dos dados mestres e para simular o impacto de mudanças (ex",
+          "description": "fusão de cadastros de clientes) antes que elas afetem os sistemas de produção."
+        },
+        {
+          "level": 6,
+          "label": "Os dados mestres são gerenciados de forma dinâmica e federada, permitindo a integração ágil de novos parceiros ou fontes de dados (ex",
+          "description": "IoT, e-commerce) na \"fonte da verdade\", suportando a adaptabilidade do negócio."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-EE-001-003",
+      "question_number": 3,
+      "title": "Como se dá a Gestão da Qualidade de Dados (DQM)?",
+      "text": "Como se dá a Gestão da Qualidade de Dados (DQM)?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A qualidade dos dados não é uma preocupação. Os dados são usados \"como estão\" (as is). Erros em relatórios são comuns e geralmente ignorados ou contornados manualmente."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A qualidade dos dados é tratada de forma reativa. Os erros são corrigidos manualmente em planilhas ou relatórios finais apenas quando um usuário de negócio os identifica e reclama."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existem processos manuais ou checklists para validar a entrada de dados em alguns sistemas-chave, na tentativa de prevenir dados ruins, mas não há monitoramento ativo dos dados já existentes."
+        },
+        {
+          "level": 3,
+          "label": "A empresa começa a medir ativamente a qualidade dos dados. Existem painéis (dashboards) e KPIs de qualidade (ex",
+          "description": "% de completude, % de duplicatas) que dão visibilidade aos problemas."
+        },
+        {
+          "level": 4,
+          "label": "A empresa analisa a causa-raiz dos problemas de qualidade de dados. Existem processos formais de remediação para corrigir os dados na fonte (ex",
+          "description": "no ERP), e não apenas no relatório."
+        },
+        {
+          "level": 5,
+          "label": "A qualidade de dados é gerenciada de forma proativa e preditiva. Regras de qualidade são automatizadas e integradas aos processos de negócio (ex",
+          "description": "impedindo que um pedido sem CEP válido seja salvo)."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A gestão da qualidade de dados é um processo adaptativo e de ciclo fechado (closed-loop). O sistema pode identificar e, em alguns casos, autocorrigir anomalias em tempo real, aprendendo e se adaptando a novos padrões de dados."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-EE-001-004",
+      "question_number": 4,
+      "title": "Há Padronização de Interfaces de Dados?",
+      "text": "Há Padronização de Interfaces de Dados?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "A troca de dados entre sistemas é quase inexistente ou totalmente manual (ex",
+          "description": "exportação/importação de planilhas e arquivos .csv)."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A integração é feita caso a caso, através de conexões \"ponto a ponto\" personalizadas e frágeis. Cada nova conexão é um projeto de desenvolvimento separado, e os dados são frequentemente duplicados."
+        },
+        {
+          "level": 2,
+          "label": "A empresa utiliza um barramento de serviço (ESB) ou ferramenta de EAI (Enterprise Application Integration) para gerenciar algumas integrações centrais, mas a maioria ainda é ponto a ponto. Os formatos de dados (ex",
+          "description": "XML) começam a ser padronizados."
+        },
+        {
+          "level": 3,
+          "label": "A empresa adota padrões de indústria (ex",
+          "description": "OPC-UA para o chão de fábrica) e possui diretrizes internas para a criação de APIs, mas seu uso ainda não é universal."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A empresa possui uma plataforma de gerenciamento de APIs (API Management) ou uma arquitetura de microsserviços. A troca de dados é tratada como um serviço gerenciado, seguro e monitorado."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "As interfaces são usadas para habilitar fluxos de dados em tempo real (arquitetura orientada a eventos). O catálogo de APIs é usado para acelerar a inovação, permitindo que novas aplicações consumam dados de forma ágil e governada."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A empresa opera com interfaces abertas e padronizadas que permitem a integração \"plug-and-play\" não apenas de sistemas internos, mas também de parceiros externos, clientes e fornecedores, criando um ecossistema digital dinâmico."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-EE-001-005",
+      "question_number": 5,
+      "title": "Como a sua empresa gerencia os direitos de decisão, equilibr",
+      "text": "Como a sua empresa gerencia os direitos de decisão, equilibrando a autoridade centralizada e a descentralizada para maximizar a eficácia e a eficiência da tomada de decisão?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "As decisões são tomadas de forma ad-hoc, reativa, e baseadas primariamente na intuição da gestão. A autoridade é totalmente centralizada."
+        },
+        {
+          "level": 1,
+          "label": "As decisões são centralizadas e baseadas em procedimentos formais. A TI é usada de forma isolada (ex",
+          "description": "planilhas locais) para coletar dados, mas não suporta a tomada de decisão descentralizada"
+        },
+        {
+          "level": 2,
+          "label": "Os sistemas de TI estão conectados (ex",
+          "description": "ERP, MES), permitindo a partilha de informação. No entanto, a autoridade de decisão permanece rigidamente centralizada na gestão."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A empresa possui um \"digital shadow\" e tem visibilidade do estado atual dos processos. A informação está disponível, mas a autoridade para agir sobre ela ainda é predominantemente centralizada e requer aprovação manual."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A empresa entende por que os eventos ocorrem (causa e efeito). Esta transparência sobre as consequências permite que a gestão comece a delegar formalmente direitos de decisão para níveis mais baixos, permitindo ações descentralizadas mais rápidas."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A capacidade preditiva permite a simulação de cenários futuros. Poderes de decisão ajustados são formalmente delegados a níveis operacionais (descentralizados) com base nessas previsões. As equipes podem tomar decisões antes que os problemas ocorrem."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A empresa atinge o equilíbrio ideal entre centralização e descentralização. Decisões de rotina complexas são automatizadas (delegadas a sistemas de TI), e as equipes operacionais são totalmente capacitadas para tomar decisões táticas descentralizadas de forma rápida."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-EE-001-006",
+      "question_number": 6,
+      "title": "Em que medida a empresa delega a autoridade de decisão de pr",
+      "text": "Em que medida a empresa delega a autoridade de decisão de processos operacionais, movendo-a de operadores humanos para sistemas de TI (automação)?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Não há delegação para sistemas. Todas as decisões de processo (ex",
+          "description": "parar uma máquina, ajustar parâmetros, mudar fila) são 100% manuais e reativas."
+        },
+        {
+          "level": 1,
+          "label": "Os sistemas de TI são usados apenas para registrar dados (ex",
+          "description": "planilhas, terminais de CNC). A decisão ainda é 100% humana e manual."
+        },
+        {
+          "level": 2,
+          "label": "Os sistemas de TI (ex",
+          "description": "ERP, MES) estão conectados e apresentam relatórios consolidados, mas a decisão ainda é 100% humana (ex: um gerente aprova uma ordem no sistema)."
+        },
+        {
+          "level": 3,
+          "label": "Os sistemas (Digital Shadow) alertam ativamente sobre desvios em tempo real (ex",
+          "description": "\"Alerta: Máquina X está fora da especificação\"). A decisão sobre o que fazer ainda é totalmente humana."
+        },
+        {
+          "level": 4,
+          "label": "Os sistemas analisam os dados (transparência) e diagnosticam a causa raiz de um problema (ex",
+          "description": "\"Alerta: Máquina X parou porque o sensor Y falhou\"). A decisão de como corrigir ainda é humana."
+        },
+        {
+          "level": 5,
+          "label": "Os sistemas (capacidade preditiva) antecipam eventos e recomendam ações corretivas (ex",
+          "description": "\"Sugerir parada de máquina X para manutenção em 2 horas\"). Um humano ainda precisa aprovar a recomendação."
+        },
+        {
+          "level": 6,
+          "label": "Os sistemas de TI (adaptabilidade) têm autonomia para tomar e executar decisões táticas complexas automaticamente (ex",
+          "description": "reordenar fila de produção, ajustar parâmetros de máquina) para otimizar o processo sem intervenção humana."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-EE-001-007",
+      "question_number": 7,
+      "title": "Em que medida os tomadores de decisão (em todos os níveis) t",
+      "text": "Em que medida os tomadores de decisão (em todos os níveis) têm acesso à informação relevante, integrada e contextualizada para fundamentar suas decisões?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "As decisões são tomadas com base em intuição, relatórios de papel atrasados ou informação verbal não estruturada."
+        },
+        {
+          "level": 1,
+          "label": "As decisões são baseadas em dados de sistemas isolados (ex",
+          "description": "uma planilha de produção, um relatório de inventário separado). Os dados não são integrados, estão frequentemente desatualizados e podem ser conflitantes."
+        },
+        {
+          "level": 2,
+          "label": "Os sistemas estão minimamente conectados. O tomador de decisão pode buscar ativamente os dados em diferentes sistemas (ex",
+          "description": "consultar o ERP, depois o MES), mas precisa compilar e analisar tudo manualmente."
+        },
+        {
+          "level": 3,
+          "label": "Os tomadores de decisão têm acesso a um \"Digital Shadow\" (ex",
+          "description": "um dashboard centralizado) que mostra o que está acontecendo em tempo real (Visibilidade). As decisões são baseadas no estado atual real."
+        },
+        {
+          "level": 4,
+          "label": "O sistema não apenas mostra o estado atual, mas também fornece análises de causa-raiz (Transparência), explicando por que algo está acontecendo (ex",
+          "description": "\"Máquina 5 parada por falta de material\"). As decisões são mais precisas e assertivas."
+        },
+        {
+          "level": 5,
+          "label": "O sistema fornece informações preditivas e simulações de impacto (Capacidade Preditiva) aos tomadores de decisão (ex",
+          "description": "\"Se a Ordem X for priorizada, a Ordem Y atrasará 2 dias\"). As decisões consideram o impacto futuro."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A informação certa (preditiva, diagnóstica e de estado) é entregue de forma proativa, autônoma e contextualizada ao tomador de decisão correto (seja humano ou sistema) no momento exato em que a decisão é necessária (Adaptabilidade)."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-EE-001-008",
+      "question_number": 8,
+      "title": "Qual é a atitude e o nível de autonomia dos funcionários par",
+      "text": "Qual é a atitude e o nível de autonomia dos funcionários para iniciar e implementar mudanças?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "As mudanças são impostas pela gestão e geralmente recebidas com resistência. Os funcionários não têm voz nem iniciativa no processo de mudança."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Os funcionários executam mudanças apenas quando instruídos. A iniciativa de mudança não é esperada nem incentivada no nível operacional."
+        },
+        {
+          "level": 2,
+          "label": "Os funcionários são incentivados a sugerir melhorias (ex",
+          "description": "caixas de sugestão), mas não têm autoridade para iniciar ou implementar mudanças. A gestão centraliza todas as decisões de mudança."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os funcionários mais próximos dos processos são consultados sobre mudanças, mas a autoridade de decisão permanece centralizada. A iniciativa de mudança ainda é vista como uma responsabilidade primária da gestão."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os funcionários têm autonomia para iniciar e implementar pequenas mudanças dentro de suas áreas imediatas. Eles entendem que são parcialmente responsáveis por moldar a mudança."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Os funcionários com o conhecimento técnico relevante têm autoridade para iniciar e implementar mudanças significativas. Eles são proativos e dão o primeiro passo por conta própria para que a mudança aconteça."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização depende da iniciativa da linha de frente para impulsionar a adaptação. Os funcionários têm autonomia total para iniciar, implementar e concluir mudanças rapidamente, e são avaliados pela sua capacidade de fazê-lo."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-EE-001-009",
+      "question_number": 9,
+      "title": "Como a estrutura de gestão reage (apoia, bloqueia, ignora) q",
+      "text": "Como a estrutura de gestão reage (apoia, bloqueia, ignora) quando um funcionário da linha de frente propõe ou tenta implementar uma mudança?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A gestão desencoraja ativamente as sugestões ou iniciativas de mudança dos funcionários, considerando-as \"fora de função\" ou \"indisciplina\"."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A gestão ignora sistematicamente as iniciativas de mudança. Funcionários que tentam são vistos como \"problemáticos\" ou \"perda de tempo\"."
+        },
+        {
+          "level": 2,
+          "label": "A gestão ouve as propostas, mas a iniciativa é bloqueada por burocracia excessiva (ex",
+          "description": "múltiplos formulários, longos tempos de espera por aprovação) que desencoraja a ação."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A gestão apoia verbalmente a iniciativa, mas raramente fornece os recursos (tempo, orçamento, pessoal) ou a autoridade necessários para a implementação. A mudança não avança."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A gestão apoia ativamente iniciativas de baixo risco. Para mudanças maiores, a gestão assume o controle do projeto, retirando a liderança do funcionário que a iniciou."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A gestão atua como facilitadora, fornecendo ativamente os recursos e o \"leeway\" (espaço de manobra) necessários para que o funcionário ou a equipe teste e implemente a mudança que iniciou."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A gestão espera que os funcionários iniciem e liderem mudanças. O papel principal da gestão é remover barreiras, garantir recursos rapidamente e proteger a equipe durante a experimentação (mesmo que falhe)."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-EE-001-010",
+      "question_number": 10,
+      "title": "Qual é a postura do funcionário em relação à sua responsabil",
+      "text": "Qual é a postura do funcionário em relação à sua responsabilidade pessoal de iniciar mudanças, mesmo que não seja explicitamente solicitado?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Os funcionários veem a mudança como uma ameaça ou um fardo. Eles ativamente evitam ou se opõem a ela."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Os funcionários acreditam que \"mudar\" não é parte do seu trabalho. Eles esperam passivamente por instruções e executam apenas o que é mandado."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os funcionários reconhecem problemas, mas acreditam que é responsabilidade exclusiva da gestão (supervisores, engenharia) identificá-los e resolvê-los."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os funcionários tomam a iniciativa de relatar problemas, mas não se sentem responsáveis por propor ou desenvolver a solução. A responsabilidade termina na comunicação do problema."
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os funcionários sentem-se responsáveis por identificar problemas e propor soluções. Eles preparam e apresentam suas ideias à gestão para aprovação."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Os funcionários sentem responsabilidade pessoal não apenas por propor, mas por liderar a implementação da mudança. Eles tomam a iniciativa e estão preparados para dar o primeiro passo por conta própria."
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A responsabilidade pela melhoria é totalmente internalizada. Os funcionários veem o ato de \"mudar\" como parte central do seu trabalho diário, tomam a iniciativa de forma autônoma e ajudam os colegas a fazer o mesmo."
+        }
+      ]
+    },
+    {
+      "id": "Q-ORG-EE-EE-001-011",
+      "question_number": 11,
+      "title": "Qual é a abordagem predominante da organização para implemen",
+      "text": "Qual é a abordagem predominante da organização para implementar mudanças?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A implementação de mudanças pela equipe não é uma prática; qualquer desvio do padrão é ativamente corrigido."
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Mudanças, se aprovadas, seguem um processo de implementação rígido, linear (cascata) e lento, que leva meses. O plano não pode ser alterado após o início."
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A implementação é caótica e ad-hoc. As mudanças são feitas, mas não há um processo estruturado para medir o impacto, aprender ou adaptar a solução."
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A mudança requer um plano de projeto detalhado e completo antes da implementação. O foco está em seguir o plano original, e adaptações são vistas como falhas de planejamento."
+        },
+        {
+          "level": 4,
+          "label": "A implementação segue ciclos formais de melhoria (ex",
+          "description": "PDCA). A equipe coleta dados após a implementação e planeja ajustes em ciclos subsequentes (ex: mensalmente)."
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A equipe é incentivada a usar abordagens de \"teste rápido\" (prototipagem). As mudanças são implementadas em pequena escala para coletar dados e o aprendizado é usado para \"moldar\" a solução final."
+        },
+        {
+          "level": 6,
+          "label": "A implementação é ativamente ágil, usando ciclos curtos (ex",
+          "description": "diários/semanais). A equipe tem autonomia para adaptar a solução em tempo real com base em dados, focando em \"falhar rápido\" e aprender iterativamente."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    }
+  ]
+}
