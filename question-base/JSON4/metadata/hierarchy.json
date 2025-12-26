@@ -1,0 +1,338 @@
+{
+  "version": "1.0",
+  "last_updated": null,
+  "description": "Industry 4.0 Maturity Model Hierarchy",
+  "source_frameworks": [
+    {
+      "name": "ACATECH",
+      "version": "2020",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/",
+      "year": 2020
+    },
+    {
+      "name": "SIRI",
+      "version": "2025",
+      "url": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/the-smart-industry-readiness-index.html",
+      "year": 2021
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Organização",
+      "code": "ORG",
+      "pilares": [
+        {
+          "name": "Estrutura e Gestão",
+          "code": "ES",
+          "dimensions": [
+            {
+              "name": "Colaboração Inter e Intra-Empresarial",
+              "code": "CO",
+              "capacities": [
+                {
+                  "id": "CAP-ORG-EE-CI-001",
+                  "name": "Comunicação aberta",
+                  "file_path": "data/Organização/Estrutura_e_Gestão/Colaboração_Inter_e_Intra-Empresarial/comunicação_aberta.json",
+                  "question_count": 5,
+                  "status": "draft"
+                },
+                {
+                  "id": "CAP-ORG-EE-CI-001",
+                  "name": "Comunicação eficiente",
+                  "file_path": "data/Organização/Estrutura_e_Gestão/Colaboração_Inter_e_Intra-Empresarial/comunicação_eficiente.json",
+                  "question_count": 7,
+                  "status": "draft"
+                },
+                {
+                  "id": "CAP-ORG-EE-CD-001",
+                  "name": "Cooperação dentro da rede",
+                  "file_path": "data/Organização/Estrutura_e_Gestão/Colaboração_Inter_e_Intra-Empresarial/cooperação_dentro_da_rede.json",
+                  "question_count": 6,
+                  "status": "draft"
+                }
+              ]
+            },
+            {
+              "name": "Competência de Liderança",
+              "code": "CO",
+              "capacities": [
+                {
+                  "id": "CAP-ORG-EE-CD-001",
+                  "name": "Abertura à inovação",
+                  "file_path": "data/Organização/Estrutura_e_Gestão/Competência_de_Liderança/abertura_à_inovação.json",
+                  "question_count": 4,
+                  "status": "draft"
+                },
+                {
+                  "id": "CAP-ORG-EE-CD-001",
+                  "name": "Confiança em processos e sistemas de informação",
+                  "file_path": "data/Organização/Estrutura_e_Gestão/Competência_de_Liderança/confiança_em_processos_e_sistemas_de_informação.json",
+                  "question_count": 4,
+                  "status": "draft"
+                },
+                {
+                  "id": "CAP-ORG-EE-CD-001",
+                  "name": "Estilo de liderança democrático",
+                  "file_path": "data/Organização/Estrutura_e_Gestão/Competência_de_Liderança/estilo_de_liderança_democrático.json",
+                  "question_count": 8,
+                  "status": "draft"
+                },
+                {
+                  "id": "CAP-ORG-EE-CD-001",
+                  "name": "Gestão ágil",
+                  "file_path": "data/Organização/Estrutura_e_Gestão/Competência_de_Liderança/gestão_ágil.json",
+                  "question_count": 6,
+                  "status": "draft"
+                },
+                {
+                  "id": "CAP-ORG-EE-CD-001",
+                  "name": "Sistemas de metas motivacionais",
+                  "file_path": "data/Organização/Estrutura_e_Gestão/Competência_de_Liderança/sistemas_de_metas_motivacionais.json",
+                  "question_count": 6,
+                  "status": "draft"
+                }
+              ]
+            },
+            {
+              "name": "Estratégia e Governança",
+              "code": "ES",
+              "capacities": [
+                {
+                  "id": "CAP-ORG-EE-EE-001",
+                  "name": "Governança de dados",
+                  "file_path": "data/Organização/Estrutura_e_Gestão/Estratégia_e_Governança/governança_de_dados.json",
+                  "question_count": 11,
+                  "status": "draft"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Prontidão de Talentos",
+          "code": "PR",
+          "dimensions": [
+            {
+              "name": "Aprendizado e Desenvolvimento da Força de Trabalho",
+              "code": "AP",
+              "capacities": [
+                {
+                  "id": "CAP-ORG-PD-AE-001",
+                  "name": "Desenvolvimento profissional contínuo",
+                  "file_path": "data/Organização/Prontidão_de_Talentos/Aprendizado_e_Desenvolvimento_da_Força_de_Trabalho/desenvolvimento_profissional_contínuo.json",
+                  "question_count": 10,
+                  "status": "draft"
+                },
+                {
+                  "id": "CAP-ORG-PD-AE-001",
+                  "name": "Reconhecer o valor dos erros",
+                  "file_path": "data/Organização/Prontidão_de_Talentos/Aprendizado_e_Desenvolvimento_da_Força_de_Trabalho/reconhecer_o_valor_dos_erros.json",
+                  "question_count": 10,
+                  "status": "draft"
+                }
+              ]
+            },
+            {
+              "name": "Aprendizado e Desenvolvimento da Força de Trabalho (D13)",
+              "code": "AP",
+              "capacities": [
+                {
+                  "id": "CAP-ORG-PD-AE-001",
+                  "name": "Prover competencias digitais",
+                  "file_path": "data/Organização/Prontidão_de_Talentos/Aprendizado_e_Desenvolvimento_da_Força_de_Trabalho_(D13)/prover_competencias_digitais.json",
+                  "question_count": 10,
+                  "status": "draft"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Processo",
+      "code": "PRO",
+      "pilares": [
+        {
+          "name": "Ciclo de Vida do Produto",
+          "code": "CI",
+          "dimensions": [
+            {
+              "name": "Ciclo de Vida Integrado do Produto",
+              "code": "CI",
+              "capacities": [
+                {
+                  "id": "CAP-TEC-AU-CD-001",
+                  "name": "Foco em benefícios ao cliente",
+                  "file_path": "data/Processo/Ciclo_de_Vida_do_Produto/Ciclo_de_Vida_Integrado_do_Produto/foco_em_benefícios_ao_cliente.json",
+                  "question_count": 5,
+                  "status": "draft"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Operações/Cadeia de Suprimentos",
+          "code": "OP",
+          "dimensions": [
+            {
+              "name": "Horizontal (D2)",
+              "code": "HO",
+              "capacities": [
+                {
+                  "id": "CAP-PROC-OD-HD-001",
+                  "name": "Horizontal (D2) - Mapeamento secundário",
+                  "file_path": "data/Processo/Operações/Cadeia_de_Suprimentos/Horizontal_(D2)/horizontal_(d2)_-_mapeamento_secundário.json",
+                  "question_count": 6,
+                  "status": "draft"
+                }
+              ]
+            },
+            {
+              "name": "Vertical (D1)",
+              "code": "VE",
+              "capacities": [
+                {
+                  "id": "CAP-PROC-OD-VD-001",
+                  "name": "Vertical (D1) - primário",
+                  "file_path": "data/Processo/Operações/Cadeia_de_Suprimentos/Vertical_(D1)/vertical_(d1)_-_primário.json",
+                  "question_count": 5,
+                  "status": "draft"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tecnologia",
+      "code": "TEC",
+      "pilares": [
+        {
+          "name": "Automação",
+          "code": "AU",
+          "dimensions": [
+            {
+              "name": "Chão de Fábrica",
+              "code": "CH",
+              "capacities": [
+                {
+                  "id": "CAP-TEC-AU-CD-001",
+                  "name": "Design de interfaces orientado à tarefa",
+                  "file_path": "data/Tecnologia/Automação/Chão_de_Fábrica/design_de_interfaces_orientado_à_tarefa.json",
+                  "question_count": 3,
+                  "status": "draft"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Conectividade",
+          "code": "CO",
+          "dimensions": [
+            {
+              "name": "Chão de Fábrica",
+              "code": "CH",
+              "capacities": [
+                {
+                  "id": "CAP-TEC-CO-CD-001",
+                  "name": "Aquisição de dados por sensores e atuadores",
+                  "file_path": "data/Tecnologia/Conectividade/Chão_de_Fábrica/aquisição_de_dados_por_sensores_e_atuadores.json",
+                  "question_count": 4,
+                  "status": "draft"
+                }
+              ]
+            },
+            {
+              "name": "Empresa",
+              "code": "EM",
+              "capacities": [
+                {
+                  "id": "CAP-TEC-CO-CD-001",
+                  "name": "Interface de dados padronizada",
+                  "file_path": "data/Tecnologia/Conectividade/Empresa/interface_de_dados_padronizada.json",
+                  "question_count": 3,
+                  "status": "draft"
+                }
+              ]
+            },
+            {
+              "name": "Instalações",
+              "code": "IN",
+              "capacities": [
+                {
+                  "id": "CAP-TEC-CO-ID-001",
+                  "name": "Infraestrutura de TI resiliente",
+                  "file_path": "data/Tecnologia/Conectividade/Instalações/infraestrutura_de_ti_resiliente.json",
+                  "question_count": 7,
+                  "status": "draft"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Inteligência",
+          "code": "IN",
+          "dimensions": [
+            {
+              "name": "Chão de Fábrica",
+              "code": "CH",
+              "capacities": [
+                {
+                  "id": "CAP-TEC-IN-CD-001",
+                  "name": "Pré-processamento descentralizado de dados de sensores",
+                  "file_path": "data/Tecnologia/Inteligência/Chão_de_Fábrica/pré-processamento_descentralizado_de_dados_de_sensores.json",
+                  "question_count": 3,
+                  "status": "draft"
+                }
+              ]
+            },
+            {
+              "name": "Corporativo (D11)",
+              "code": "CO",
+              "capacities": [
+                {
+                  "id": "CAP-TEC-IN-CD-001",
+                  "name": "Enterprise (D11)",
+                  "file_path": "data/Tecnologia/Inteligência/Corporativo_(D11)/enterprise_(d11).json",
+                  "question_count": 5,
+                  "status": "draft"
+                }
+              ]
+            },
+            {
+              "name": "Empresa",
+              "code": "EM",
+              "capacities": [
+                {
+                  "id": "CAP-TEC-IN-CD-001",
+                  "name": "Análise de dados automatizada",
+                  "file_path": "data/Tecnologia/Inteligência/Empresa/análise_de_dados_automatizada.json",
+                  "question_count": 4,
+                  "status": "draft"
+                },
+                {
+                  "id": "CAP-TEC-IN-CD-001",
+                  "name": "Entrega de informação contextualizada",
+                  "file_path": "data/Tecnologia/Inteligência/Empresa/entrega_de_informação_contextualizada.json",
+                  "question_count": 5,
+                  "status": "draft"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_capacities": 23,
+    "total_questions": 137,
+    "total_dimensions": 15,
+    "total_pilares": 7
+  }
+}
