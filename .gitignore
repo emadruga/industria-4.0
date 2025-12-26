@@ -15,3 +15,7 @@ question-base/JSON_*/
 ~$*
 *.txt
 
+# Exclude duplicate/temp directories and files
+question-base/question-base/
+question-base/scripts/comparison_report.json
+
