@@ -17,11 +17,13 @@ python batch_convert.py \
 
 ```bash
 # Validate entire directory (schema validation)
-python validate_questions.py \
-  ../data/ \
+python tools/validate_questions.py \
+  ../JSON4/data/ \
   -r \
   -v
 ```
+
+**Note**: This is basic schema validation. For comprehensive validation, use Scenario 2b below.
 
 ## Scenario 2b: Validate Hierarchy Consistency Against Catalog
 
@@ -33,12 +35,12 @@ cd /Users/emadruga/proj/industria-4.0
 
 # Validate all JSON files against the Excel catalog
 python question-base/scripts/json_validate.py \
-  question-base/JSON/data \
+  question-base/JSON4/data \
   -e mdic-suframa/templates/acatech_siri_comparacao.xlsx
 
 # Fix issues automatically
 python question-base/scripts/json_validate.py \
-  question-base/JSON/data \
+  question-base/JSON4/data \
   -e mdic-suframa/templates/acatech_siri_comparacao.xlsx \
   --fix
 ```
@@ -181,41 +183,69 @@ After adding, removing, or editing JSON files, regenerate the hierarchy metadata
 
 ```bash
 conda activate INDUSTRIA4
-cd /Users/emadruga/proj/industria-4.0
+cd /Users/emadruga/proj/industria-4.0/question-base/scripts
 
-# Regenerate hierarchy.json and hierarchy_table.md
-python question-base/scripts/regenerate_hierarchy_table.py \
-  question-base/JSON/data \
-  -o question-base/JSON/metadata
+# Regenerate hierarchy.json
+python rebuild_hierarchy.py ../JSON4
 ```
 
 **What it generates:**
 - `hierarchy.json`: Complete hierarchical structure (Block → Pilar → Dimension → Capacity)
-- `hierarchy_table.md`: Markdown table showing all questions for easy browsing
 
 **When to use:**
 - After batch conversion of new DOCX files
 - After running json_validate.py with --fix (files may have moved)
 - After manual edits to JSON files
-- Before generating sunburst HTML visualizations
+- Before generating HTML visualizations
 
 **Example output:**
 ```
-============================================================
-REGENERATION SUMMARY
-============================================================
-Total JSON files processed: 19
-Total blocks: 3
-Total pilares: 7
-Total dimensions: 13
-Total capacities: 19
-Total questions: 107
-Average questions per capacity: 5.6
+Found 23 JSON files
 
-✅ Hierarchy files regenerated successfully!
+✅ Hierarchy saved to: ../JSON4/metadata/hierarchy.json
+
+Statistics:
+  Total capacities: 23
+  Total questions: 137
+  Total dimensions: 15
+  Total pilares: 7
+  Total blocks: 3
 ```
 
-## Scenario 11: Find Missing Evidence Sources
+## Scenario 11: Flatten DOCX Files with Tracked Changes
+
+When DOCX files have tracked changes or comments that prevent proper field extraction:
+
+```bash
+conda activate INDUSTRIA4
+cd /Users/emadruga/proj/industria-4.0/question-base/scripts
+
+# Flatten a single file (converts DOCX → DOC → DOCX to finalize edits)
+./tools/flatten_one_docx.sh "/path/to/file.docx"
+
+# Or use the Python-based approach (XML manipulation)
+python tools/accept_tracked_changes.py "/path/to/file.docx"
+
+# Process all files in a directory
+python tools/accept_tracked_changes.py "/path/to/directory" -p "*.docx"
+```
+
+**When to use:**
+- "Capacidade em medição" fields show as empty
+- Files were reviewed with Track Changes enabled
+- Comments contain the actual content instead of being in the document body
+
+**Method 1**: `flatten_one_docx.sh` (Recommended for review comments)
+- Requires Microsoft Word for Mac
+- Converts via DOC format (forces all edits to become permanent)
+- More reliable for complex tracked changes
+
+**Method 2**: `accept_tracked_changes.py` (For simple tracked changes)
+- Pure Python solution (no Word required)
+- Works at XML level
+- Good for straightforward insertions/deletions
+
+## Scenario 12: Find Missing Evidence Sources
 
 ```python
 # Check which questions lack evidence sources
