@@ -9,3 +9,9 @@ question-base/JSON2/
 question-base/JSON3/
 question-base/JSON_*/
 
+# Exclude backup files and temp files
+*.backup
+*.doc
+~$*
+*.txt
+
