@@ -3,3 +3,9 @@ question-base/scripts/__pycache__/*
 .DS_Store
 NOTES
 
+# Exclude intermediate JSON output folders (keep JSON4 as current validated base)
+question-base/JSON/
+question-base/JSON2/
+question-base/JSON3/
+question-base/JSON_*/
+
