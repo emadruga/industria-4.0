@@ -30,6 +30,7 @@ class BatchConverter:
             'total_capacities': 0
         }
         self.results = []
+        self.capacity_counter = 0  # Sequential capacity numbering
 
     def find_docx_files(self, pattern: str = "**/*.docx") -> List[Path]:
         """Find all DOCX files matching the pattern."""
@@ -83,11 +84,16 @@ class BatchConverter:
         """Convert a single DOCX file."""
         try:
             author = self.infer_author(docx_path)
+
+            # Increment capacity counter for sequential numbering
+            self.capacity_counter += 1
+
             print(f"\n{'='*60}")
             print(f"Converting: {docx_path.name}")
             print(f"Author: {author}")
+            print(f"Capacity number: {self.capacity_counter}")
 
-            converter = DOCXToJSONConverter(str(docx_path), author=author)
+            converter = DOCXToJSONConverter(str(docx_path), author=author, capacity_number=self.capacity_counter)
             data = converter.convert()
 
             # Get output path
@@ -364,39 +370,41 @@ class BatchConverter:
         return mapping.get(block, 'UNK')
 
     def _get_code(self, name: str) -> str:
-        """Generate a short code from a name, ignoring '(' and other non-alphabetic chars."""
-        words = name.split()
+        """Generate smart code (5-6 letters, skip articles like 'e')."""
+        import re
 
-        # Get valid characters from first letters of words
+        # Remove dimension codes like (D10), (D11) from the string
+        clean_name = re.sub(r'\s*\([Dd]\d+\)\s*', '', name).strip()
+
+        # Articles and connectors to skip
+        skip_words = {'e', 'de', 'da', 'do', 'das', 'dos', '&', '-', '/'}
+
+        # Split into words and filter
+        words = clean_name.split()
+        meaningful_words = [w for w in words if w.lower() not in skip_words and w.strip()]
+
+        # Extract 5-6 letters from meaningful words
         code_chars = []
-        for word in words[:4]:  # Check up to 4 words to get 2 valid chars
-            # Skip empty words and find first alphabetic character
-            for char in word:
-                if char.isalpha():  # Only use alphabetic characters
-                    code_chars.append(char.upper())
-                    break
-            if len(code_chars) >= 2:
-                break
+        for word in meaningful_words:
+            # Get only alphabetic characters
+            clean_word = ''.join([c for c in word if c.isalpha()])
+            if clean_word:
+                code_chars.extend(list(clean_word.upper()))
 
-        if len(code_chars) >= 2:
-            return ''.join(code_chars[:2])
+        # Take 6 letters if available, otherwise 5
+        if len(code_chars) >= 6:
+            return ''.join(code_chars[:6])
+        elif len(code_chars) >= 5:
+            return ''.join(code_chars[:5])
+        elif len(code_chars) >= 3:
+            return ''.join(code_chars[:len(code_chars)])
 
-        # If we don't have 2 chars yet, get from first word with valid letters
-        if len(code_chars) < 2:
-            for word in words:
-                clean_word = ''.join([c for c in word if c.isalpha()])
-                if len(clean_word) >= 2:
-                    # Use the first 2 letters from this clean word
-                    return clean_word[:2].upper()
-                elif len(clean_word) == 1 and len(code_chars) == 0:
-                    code_chars.append(clean_word[0].upper())
+        # Fallback: use all alphabetic characters
+        alpha_chars = [c.upper() for c in clean_name if c.isalpha()]
+        if len(alpha_chars) >= 3:
+            return ''.join(alpha_chars[:min(6, len(alpha_chars))])
 
-        # Final fallback: get first 2 alphabetic characters from entire name
-        alpha_chars = [c.upper() for c in name if c.isalpha()]
-        if len(alpha_chars) >= 2:
-            return ''.join(alpha_chars[:2])
-
-        return 'UN'  # Default if nothing works
+        return 'CODE'  # Default if nothing works
 
 
 def main():

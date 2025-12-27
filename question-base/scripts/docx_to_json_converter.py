@@ -92,9 +92,10 @@ class Capacity:
 class DOCXToJSONConverter:
     """Converts Industry 4.0 DOCX files to structured JSON."""
 
-    def __init__(self, docx_path: str, author: str = "Unknown"):
+    def __init__(self, docx_path: str, author: str = "Unknown", capacity_number: int = 1):
         self.docx_path = Path(docx_path)
         self.author = author
+        self.capacity_number = capacity_number
         self.doc = Document(str(self.docx_path))
 
         # Patterns for parsing
@@ -219,11 +220,11 @@ class DOCXToJSONConverter:
         normalized_pilar = self._normalize_pilar_name(capacity_data['pilar'])
         normalized_dimension = self._normalize_dimension_name(capacity_data['dimension'])
 
-        # Generate capacity ID (after normalization)
+        # Generate capacity ID (after normalization) with sequential numbering
         block_code = self._get_block_code(capacity_data['block'])
         pilar_code = self._get_pilar_code(capacity_data['pilar'])
         dim_code = self._get_dimension_code(capacity_data['dimension'])
-        capacity_id = f"CAP-{block_code}-{pilar_code}-{dim_code}-001"
+        capacity_id = f"CAP-{block_code}-{pilar_code}-{dim_code}-{self.capacity_number:03d}"
 
         metadata = Metadata(
             source_frameworks=["ACATECH", "SIRI"],
@@ -322,41 +323,38 @@ class DOCXToJSONConverter:
         return normalization.get(pilar_clean, pilar_clean)
 
     def _get_pilar_code(self, pilar: str) -> str:
-        """Get short code for pilar, ignoring '(' and other non-alphabetic chars."""
+        """Generate smart code for pilar (5-6 letters, skip articles like 'e')."""
         normalized = self._normalize_pilar_name(pilar)
-        # Extract initials from pilar name, filtering out non-alphabetic characters
+
+        # Articles and connectors to skip
+        skip_words = {'e', 'de', 'da', 'do', 'das', 'dos', '&', '-', '/'}
+
+        # Split into words and filter
         words = normalized.split()
+        meaningful_words = [w for w in words if w.lower() not in skip_words and w.strip()]
 
-        # Get valid characters from first letters of words
+        # Extract 5-6 letters from meaningful words
         code_chars = []
-        for word in words[:4]:  # Check up to 4 words to get 2 valid chars
-            # Skip empty words and find first alphabetic character
-            for char in word:
-                if char.isalpha():  # Only use alphabetic characters
-                    code_chars.append(char.upper())
-                    break
-            if len(code_chars) >= 2:
-                break
+        for word in meaningful_words:
+            # Get only alphabetic characters
+            clean_word = ''.join([c for c in word if c.isalpha()])
+            if clean_word:
+                code_chars.extend(list(clean_word.upper()))
 
-        if len(code_chars) >= 2:
-            return ''.join(code_chars[:2])
+        # Take 6 letters if available, otherwise 5
+        if len(code_chars) >= 6:
+            return ''.join(code_chars[:6])
+        elif len(code_chars) >= 5:
+            return ''.join(code_chars[:5])
+        elif len(code_chars) >= 3:
+            return ''.join(code_chars[:len(code_chars)])
 
-        # If we don't have 2 chars yet, get from first word with valid letters
-        if len(code_chars) < 2:
-            for word in words:
-                clean_word = ''.join([c for c in word if c.isalpha()])
-                if len(clean_word) >= 2:
-                    # Use the first 2 letters from this clean word
-                    return clean_word[:2].upper()
-                elif len(clean_word) == 1 and len(code_chars) == 0:
-                    code_chars.append(clean_word[0].upper())
-
-        # Final fallback: get first 2 alphabetic characters from entire normalized string
+        # Fallback: use all alphabetic characters
         alpha_chars = [c.upper() for c in normalized if c.isalpha()]
-        if len(alpha_chars) >= 2:
-            return ''.join(alpha_chars[:2])
+        if len(alpha_chars) >= 3:
+            return ''.join(alpha_chars[:min(6, len(alpha_chars))])
 
-        return 'PI'  # Default if nothing works
+        return 'PILAR'  # Default if nothing works
 
     def _normalize_dimension_name(self, dimension: str) -> str:
         """Normalize dimension name to standard Portuguese form."""
@@ -421,41 +419,41 @@ class DOCXToJSONConverter:
         return normalization.get(dimension_clean, dimension_clean)
 
     def _get_dimension_code(self, dimension: str) -> str:
-        """Get short code for dimension, ignoring '(' and other non-alphabetic chars."""
+        """Generate smart code for dimension (5-6 letters, skip articles like 'e')."""
         normalized = self._normalize_dimension_name(dimension)
-        # Extract initials from dimension name, filtering out non-alphabetic characters
-        words = normalized.split()
 
-        # Get valid characters from first letters of words
+        # Remove dimension codes like (D10), (D11) from the string
+        clean_dimension = re.sub(r'\s*\([Dd]\d+\)\s*', '', normalized).strip()
+
+        # Articles and connectors to skip
+        skip_words = {'e', 'de', 'da', 'do', 'das', 'dos', '&', '-', '/'}
+
+        # Split into words and filter
+        words = clean_dimension.split()
+        meaningful_words = [w for w in words if w.lower() not in skip_words and w.strip()]
+
+        # Extract 5-6 letters from meaningful words
         code_chars = []
-        for word in words[:4]:  # Check up to 4 words to get 2 valid chars
-            # Skip empty words and find first alphabetic character
-            for char in word:
-                if char.isalpha():  # Only use alphabetic characters
-                    code_chars.append(char.upper())
-                    break
-            if len(code_chars) >= 2:
-                break
+        for word in meaningful_words:
+            # Get only alphabetic characters
+            clean_word = ''.join([c for c in word if c.isalpha()])
+            if clean_word:
+                code_chars.extend(list(clean_word.upper()))
 
-        if len(code_chars) >= 2:
-            return ''.join(code_chars[:2])
+        # Take 6 letters if available, otherwise 5
+        if len(code_chars) >= 6:
+            return ''.join(code_chars[:6])
+        elif len(code_chars) >= 5:
+            return ''.join(code_chars[:5])
+        elif len(code_chars) >= 3:
+            return ''.join(code_chars[:len(code_chars)])
 
-        # If we don't have 2 chars yet, get from first word with valid letters
-        if len(code_chars) < 2:
-            for word in words:
-                clean_word = ''.join([c for c in word if c.isalpha()])
-                if len(clean_word) >= 2:
-                    # Use the first 2 letters from this clean word
-                    return clean_word[:2].upper()
-                elif len(clean_word) == 1 and len(code_chars) == 0:
-                    code_chars.append(clean_word[0].upper())
+        # Fallback: use all alphabetic characters
+        alpha_chars = [c.upper() for c in clean_dimension if c.isalpha()]
+        if len(alpha_chars) >= 3:
+            return ''.join(alpha_chars[:min(6, len(alpha_chars))])
 
-        # Final fallback: get first 2 alphabetic characters from entire normalized string
-        alpha_chars = [c.upper() for c in normalized if c.isalpha()]
-        if len(alpha_chars) >= 2:
-            return ''.join(alpha_chars[:2])
-
-        return 'DM'  # Default if nothing works
+        return 'DIMENS'  # Default if nothing works
 
     def _extract_questions(self, capacity: Capacity) -> List[Question]:
         """Extract all questions from the document."""
