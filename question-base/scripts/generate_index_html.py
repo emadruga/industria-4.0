@@ -261,6 +261,64 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
             font-weight: 500;
         }}
 
+        .filter-section {{
+            background: rgba(255, 255, 255, 0.98);
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }}
+
+        .filter-row {{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+        }}
+
+        .filter-group {{
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }}
+
+        .filter-label {{
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #4a5568;
+            text-transform: uppercase;
+        }}
+
+        .filter-select {{
+            padding: 0.4rem 0.6rem;
+            border: 1px solid #cbd5e0;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            background: white;
+            cursor: pointer;
+        }}
+
+        .filter-select:focus {{
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }}
+
+        .clear-filters {{
+            padding: 0.4rem 0.8rem;
+            background: #e2e8f0;
+            border: none;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            color: #4a5568;
+            font-weight: 500;
+        }}
+
+        .clear-filters:hover {{
+            background: #cbd5e0;
+        }}
+
         .maturity-section {{
             flex: 0 0 40%;
             background: rgba(255, 255, 255, 0.98);
@@ -460,6 +518,36 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
         </div>
 
         <div class="main-content">
+            <div class="filter-section">
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label class="filter-label">Bloco</label>
+                        <select id="filter-block" class="filter-select" onchange="applyFilters()">
+                            <option value="">Todos</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Pilar</label>
+                        <select id="filter-pilar" class="filter-select" onchange="applyFilters()">
+                            <option value="">Todos</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Dimensão</label>
+                        <select id="filter-dimension" class="filter-select" onchange="applyFilters()">
+                            <option value="">Todas</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Autor</label>
+                        <select id="filter-author" class="filter-select" onchange="applyFilters()">
+                            <option value="">Todos</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="clear-filters" onclick="clearFilters()">Limpar Filtros</button>
+            </div>
+
             <div class="top-row">
                 <div class="chart-section">
                     <div id="sunburst"></div>
@@ -486,6 +574,102 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
     <script>
         const questionsData = {questions_json};
         let currentQuestionIndex = -1;
+        let activeFilters = {{
+            block: '',
+            pilar: '',
+            dimension: '',
+            author: ''
+        }};
+
+        // Populate filter dropdowns
+        function populateFilters() {{
+            const blocks = [...new Set(questionsData.map(q => q.block))].sort();
+            const pilars = [...new Set(questionsData.map(q => q.pilar))].sort();
+            const dimensions = [...new Set(questionsData.map(q => q.dimension))].sort();
+            const authors = [...new Set(questionsData.map(q => q.author))].sort();
+
+            const blockSelect = document.getElementById('filter-block');
+            const pilarSelect = document.getElementById('filter-pilar');
+            const dimensionSelect = document.getElementById('filter-dimension');
+            const authorSelect = document.getElementById('filter-author');
+
+            blocks.forEach(block => {{
+                const option = document.createElement('option');
+                option.value = block;
+                option.textContent = block;
+                blockSelect.appendChild(option);
+            }});
+
+            pilars.forEach(pilar => {{
+                const option = document.createElement('option');
+                option.value = pilar;
+                option.textContent = pilar;
+                pilarSelect.appendChild(option);
+            }});
+
+            dimensions.forEach(dimension => {{
+                const option = document.createElement('option');
+                option.value = dimension;
+                option.textContent = dimension;
+                dimensionSelect.appendChild(option);
+            }});
+
+            authors.forEach(author => {{
+                const option = document.createElement('option');
+                option.value = author;
+                option.textContent = author;
+                authorSelect.appendChild(option);
+            }});
+        }}
+
+        // Apply filters
+        function applyFilters() {{
+            activeFilters.block = document.getElementById('filter-block').value;
+            activeFilters.pilar = document.getElementById('filter-pilar').value;
+            activeFilters.dimension = document.getElementById('filter-dimension').value;
+            activeFilters.author = document.getElementById('filter-author').value;
+
+            updateChartWithFilters();
+        }}
+
+        // Clear all filters
+        function clearFilters() {{
+            document.getElementById('filter-block').value = '';
+            document.getElementById('filter-pilar').value = '';
+            document.getElementById('filter-dimension').value = '';
+            document.getElementById('filter-author').value = '';
+            activeFilters = {{ block: '', pilar: '', dimension: '', author: '' }};
+            updateChartWithFilters();
+        }}
+
+        // Check if question matches filters
+        function matchesFilters(questionData) {{
+            if (activeFilters.block && questionData.block !== activeFilters.block) return false;
+            if (activeFilters.pilar && questionData.pilar !== activeFilters.pilar) return false;
+            if (activeFilters.dimension && questionData.dimension !== activeFilters.dimension) return false;
+            if (activeFilters.author && questionData.author !== activeFilters.author) return false;
+            return true;
+        }}
+
+        // Update chart colors based on filters
+        function updateChartWithFilters() {{
+            const greenHue = '#43e97b';  // Normal green for questions
+            const darkGreenHue = '#2d5f44';  // Dark green for filtered out
+
+            d3.selectAll('.sunburst-arc')
+                .attr('fill', d => {{
+                    // Check if this is a question
+                    if (d.data.type === 'question' && d.data.data) {{
+                        const matches = matchesFilters(d.data.data);
+                        return matches ? greenHue : darkGreenHue;
+                    }}
+                    // For non-question nodes, use standard colors
+                    const color = d3.scaleOrdinal()
+                        .domain(['block', 'pilar', 'dimension', 'capacity', 'question'])
+                        .range(['#667eea', '#764ba2', '#f093fb', '#4facfe', greenHue]);
+                    return color(d.data.type || 'root');
+                }});
+        }}
 
         // Helper function to sort children by question ID
         function sortByQuestionId(children) {{
@@ -677,6 +861,8 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
         // Highlight the current question in the sunburst chart
         function highlightQuestionInChart(questionId) {{
             const capacityBlue = '#4facfe';
+            const greenHue = '#43e97b';
+            const darkGreenHue = '#2d5f44';
 
             d3.selectAll('.sunburst-arc')
                 .attr('fill', d => {{
@@ -684,10 +870,15 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
                     if (d.data.type === 'question' && d.data.data && d.data.data.question_id === questionId) {{
                         return capacityBlue;
                     }}
+                    // For questions, apply filter-based coloring
+                    if (d.data.type === 'question' && d.data.data) {{
+                        const matches = matchesFilters(d.data.data);
+                        return matches ? greenHue : darkGreenHue;
+                    }}
                     // Otherwise use the standard color
                     const color = d3.scaleOrdinal()
                         .domain(['block', 'pilar', 'dimension', 'capacity', 'question'])
-                        .range(['#667eea', '#764ba2', '#f093fb', '#4facfe', '#43e97b']);
+                        .range(['#667eea', '#764ba2', '#f093fb', '#4facfe', greenHue]);
                     return color(d.data.type || 'root');
                 }});
         }}
@@ -748,6 +939,7 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
 
         // Initialize
         window.addEventListener('DOMContentLoaded', () => {{
+            populateFilters();
             createSunburst();
 
             // Show a random question on load
