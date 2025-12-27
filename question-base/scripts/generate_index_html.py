@@ -599,10 +599,8 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
                 return;
             }}
 
-            // Update current index
-            if (currentQuestionIndex === -1) {{
-                currentQuestionIndex = questionsData.findIndex(q => q.question_id === questionData.question_id);
-            }}
+            // Update current index (always refresh when displaying a question)
+            currentQuestionIndex = questionsData.findIndex(q => q.question_id === questionData.question_id);
 
             // Top-right panel: Question details (without maturity levels)
             questionContainer.innerHTML = `
