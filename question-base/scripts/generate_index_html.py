@@ -508,6 +508,75 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
         .maturity-section::-webkit-scrollbar-thumb:hover {{
             background: #a0aec0;
         }}
+
+        /* Evidence signals styles */
+        .evidence-toggle {{
+            margin-top: 1rem;
+            padding: 0.75rem;
+            background: #e6f2ff;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: background 0.2s;
+        }}
+
+        .evidence-toggle:hover {{
+            background: #cce5ff;
+        }}
+
+        .evidence-toggle span {{
+            font-size: 0.9rem;
+            color: #667eea;
+            font-weight: bold;
+        }}
+
+        .evidence-content {{
+            margin-top: 0.75rem;
+            padding-left: 1rem;
+            border-left: 2px solid #667eea;
+        }}
+
+        .evidence-category {{
+            margin-bottom: 1rem;
+        }}
+
+        .evidence-category-title {{
+            font-weight: 600;
+            color: #4a5568;
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }}
+
+        .evidence-list {{
+            list-style: none;
+            padding-left: 0;
+        }}
+
+        .evidence-list li {{
+            padding: 0.4rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: #4a5568;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }}
+
+        .evidence-list li::before {{
+            content: "•";
+            position: absolute;
+            left: 0.5rem;
+            color: #667eea;
+            font-weight: bold;
+        }}
+
+        .no-evidence {{
+            color: #a0aec0;
+            font-style: italic;
+            font-size: 0.9rem;
+            padding: 0.5rem 0;
+        }}
     </style>
 </head>
 <body>
@@ -835,27 +904,118 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
             // Bottom panel: Maturity levels only
             const levels = questionData.maturity_levels || [];
             if (levels.length > 0) {{
-                maturityContainer.innerHTML = `
-                    <div class="maturity-levels">
-                        <h3>Níveis de Maturidade</h3>
-                        ${{levels.map(level => `
-                            <div class="level-card">
-                                <div class="level-header">${{level.label || 'Nível ' + level.level}}</div>
-                                <div class="level-description">${{level.description}}</div>
-                            </div>
-                        `).join('')}}
-                    </div>
-                `;
+                const questionIdClean = questionData.question_id.replace(/[^a-zA-Z0-9]/g, '_');
+                let maturityHTML = '<div class="maturity-levels"><h3>Níveis de Maturidade</h3>';
+
+                levels.forEach((level, index) => {{
+                    const hasEvidence = level.evidence_signals && (
+                        (level.evidence_signals.artifacts && level.evidence_signals.artifacts.length > 0) ||
+                        (level.evidence_signals.metrics && level.evidence_signals.metrics.length > 0) ||
+                        (level.evidence_signals.observable_behaviors && level.evidence_signals.observable_behaviors.length > 0) ||
+                        (level.evidence_signals.interview_questions && level.evidence_signals.interview_questions.length > 0)
+                    );
+
+                    const evidenceId = 'evidence-' + questionIdClean + '-' + level.level;
+                    const iconId = 'evidence-icon-' + questionIdClean + '-' + level.level;
+                    const levelLabel = level.label || ('Nível ' + level.level);
+
+                    maturityHTML += '<div class="level-card">';
+                    maturityHTML += '<div class="level-header">' + levelLabel + '</div>';
+                    maturityHTML += '<div class="level-description">' + level.description + '</div>';
+
+                    maturityHTML += '<div class="evidence-toggle" onclick="toggleEvidence(\\\'' + questionIdClean + '\\\', ' + level.level + ')">';
+                    maturityHTML += '<span id="' + iconId + '">▶</span>';
+                    maturityHTML += '<strong>Sinais de Evidência</strong>';
+                    maturityHTML += '</div>';
+
+                    maturityHTML += '<div id="' + evidenceId + '" class="evidence-content" style="display: none;">';
+                    if (hasEvidence) {{
+                        maturityHTML += renderEvidenceSection(level.evidence_signals);
+                    }} else {{
+                        maturityHTML += '<p class="no-evidence">Ainda não disponível.</p>';
+                    }}
+                    maturityHTML += '</div>';
+
+                    maturityHTML += '</div>';
+                }});
+
+                maturityHTML += '</div>';
+                maturityContainer.innerHTML = maturityHTML;
             }} else {{
-                maturityContainer.innerHTML = `
-                    <div class="no-question">
-                        <p>Nenhum nível de maturidade definido para esta questão</p>
-                    </div>
-                `;
+                maturityContainer.innerHTML = '<div class="no-question"><p>Nenhum nível de maturidade definido para esta questão</p></div>';
             }}
 
             // Highlight current question in sunburst
             highlightQuestionInChart(questionData.question_id);
+        }}
+
+        // Toggle evidence section visibility
+        function toggleEvidence(questionIdClean, levelId) {{
+            const contentId = `evidence-${{questionIdClean}}-${{levelId}}`;
+            const iconId = `evidence-icon-${{questionIdClean}}-${{levelId}}`;
+            const content = document.getElementById(contentId);
+            const icon = document.getElementById(iconId);
+
+            if (content && icon) {{
+                if (content.style.display === 'none') {{
+                    content.style.display = 'block';
+                    icon.textContent = '▼';
+                }} else {{
+                    content.style.display = 'none';
+                    icon.textContent = '▶';
+                }}
+            }}
+        }}
+
+        // Render evidence section
+        function renderEvidenceSection(signals) {{
+            let html = '';
+
+            if (signals.artifacts && signals.artifacts.length > 0) {{
+                html += `
+                    <div class="evidence-category">
+                        <div class="evidence-category-title">📄 Artefatos (${{signals.artifacts.length}})</div>
+                        <ul class="evidence-list">
+                            ${{signals.artifacts.map(item => `<li>${{item}}</li>`).join('')}}
+                        </ul>
+                    </div>
+                `;
+            }}
+
+            if (signals.metrics && signals.metrics.length > 0) {{
+                html += `
+                    <div class="evidence-category">
+                        <div class="evidence-category-title">📊 Métricas/KPIs (${{signals.metrics.length}})</div>
+                        <ul class="evidence-list">
+                            ${{signals.metrics.map(item => `<li>${{item}}</li>`).join('')}}
+                        </ul>
+                    </div>
+                `;
+            }}
+
+            if (signals.observable_behaviors && signals.observable_behaviors.length > 0) {{
+                html += `
+                    <div class="evidence-category">
+                        <div class="evidence-category-title">👁️ Comportamentos Observáveis (${{signals.observable_behaviors.length}})</div>
+                        <ul class="evidence-list">
+                            ${{signals.observable_behaviors.map(item => `<li>${{item}}</li>`).join('')}}
+                        </ul>
+                    </div>
+                `;
+            }}
+
+            if (signals.interview_questions && signals.interview_questions.length > 0) {{
+                html += `
+                    <div class="evidence-category">
+                        <div class="evidence-category-title">💬 Perguntas para Entrevista (${{signals.interview_questions.length}})</div>
+                        <ul class="evidence-list">
+                            ${{signals.interview_questions.map(item => `<li>${{item}}</li>`).join('')}}
+                        </ul>
+                    </div>
+                `;
+            }}
+
+            return html || '<p class="no-evidence">Nenhuma evidência disponível.</p>';
         }}
 
         // Highlight the current question in the sunburst chart
