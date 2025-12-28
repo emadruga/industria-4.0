@@ -1,7 +1,12 @@
 question-base/data*
-question-base/scripts/__pycache__/*
 .DS_Store
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
 NOTES
+CLAUDE.md
 
 # Exclude intermediate JSON output folders (keep JSON4 as current validated base)
 question-base/JSON/
