@@ -1,0 +1,1518 @@
+{
+  "capacity": {
+    "id": "CAP-TEC-CONECT-INSTAL-023",
+    "name": "Infraestrutura de TI resiliente",
+    "block": "Tecnologia",
+    "pilar": "Conectividade",
+    "dimension": "Instalações",
+    "description": "Esta dimensão avalia a interconexão de equipamentos e sistemas dentro do ambiente industrial, incluindo cibersegurança de instalações críticas e controle de condições ambientais (do inglês Heating, Ventilation, and Air Conditioning, ou HVAC). Visa medir a interoperabilidade e segurança da rede para permitir a troca contínua de dados e a automação eficiente da instalação, gerando redução de custos e maior eficiência.",
+    "related_capacities": [
+      "Infraestrutura de TI resiliente Segurança de TI"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Wilson Melo Jr",
+      "version": "1.0",
+      "last_updated": "2025-12-28",
+      "source_docx": "Facility (D9).docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-TEC-CONECT-INSTAL-023-001",
+      "question_number": 1,
+      "title": "Robustez e Eficiência da Infraestrutura de Rede da Instalação",
+      "text": "Quão eficiente é a infraestrutura de rede (cabeada e sem fio) que interliga os sistemas da instalação de fábrica (inclusive HVAC) para garantir a conectividade?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A infraestrutura de rede digital é inexistente ou não está em uso.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagrama de arquitetura de rede (TI/OT) da instalação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Dados de sensores (HVAC/chiller) em sistemas de controle. Registros de falhas e tempo de recuperação (MTTR)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Disponibilidade (%) de sistemas críticos da instalação. Latência média de dados de sensores da instalação. Consumo de energia por unidade produzida. Número de incidentes relacionados a falhas na rede. Tempo médio de recuperação (MTTR - Mean Time to Repair) de falhas na rede."
+            ],
+            "observable_behaviors": [
+              "Os ativos e sistemas da instalação (como HVAC e iluminação) não estão conectados e não são capazes de interagir ou trocar informação",
+              "Os processos são gerenciados por métodos informais ou ad-hoc"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A infraestrutura digital básica foi introduzida mas é limitada.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagrama de arquitetura de rede (TI/OT) da instalação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Dados de sensores (HVAC/chiller) em sistemas de controle. Registros de falhas e tempo de recuperação (MTTR)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Disponibilidade (%) de sistemas críticos da instalação. Latência média de dados de sensores da instalação. Consumo de energia por unidade produzida. Número de incidentes relacionados a falhas na rede. Tempo médio de recuperação (MTTR - Mean Time to Repair) de falhas na rede."
+            ],
+            "observable_behaviors": [
+              "Existem links de rede formais (cabeados e/ou sem fio) que permitem a interação ou troca de informação entre os ativos da instalação",
+              "Múltiplas tecnologias e protocolos de comunicação podem estar em uso sem a devida integração"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os sistemas e ativos da instalação conectados são interoperáveis e conseguem interagir e trocar informações sem restrições significativas.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagrama de arquitetura de rede (TI/OT) da instalação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Dados de sensores (HVAC/chiller) em sistemas de controle. Registros de falhas e tempo de recuperação (MTTR)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Disponibilidade (%) de sistemas críticos da instalação. Latência média de dados de sensores da instalação. Consumo de energia por unidade produzida. Número de incidentes relacionados a falhas na rede. Tempo médio de recuperação (MTTR - Mean Time to Repair) de falhas na rede."
+            ],
+            "observable_behaviors": [
+              "O Internet Protocol (IP) está se tornando amplamente utilizado (e",
+              ", IPv6), o que é um requisito chave para a Internet of Things (IoT)"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os links de rede são capazes de trocar informações assim que geradas.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagrama de arquitetura de rede (TI/OT) da instalação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Dados de sensores (HVAC/chiller) em sistemas de controle. Registros de falhas e tempo de recuperação (MTTR)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Disponibilidade (%) de sistemas críticos da instalação. Latência média de dados de sensores da instalação. Consumo de energia por unidade produzida. Número de incidentes relacionados a falhas na rede. Tempo médio de recuperação (MTTR - Mean Time to Repair) de falhas na rede."
+            ],
+            "observable_behaviors": [
+              "A conectividade provê suporte à análise de dados locais para identificar e diagnosticar as causas potenciais de desvios"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A infraestrutura suporta a coleta de dados abrangentes em tempo real para criar uma representação digital (sombra digital) do estado da instalação.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagrama de arquitetura de rede (TI/OT) da instalação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Dados de sensores (HVAC/chiller) em sistemas de controle. Registros de falhas e tempo de recuperação (MTTR)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Disponibilidade (%) de sistemas críticos da instalação. Latência média de dados de sensores da instalação. Consumo de energia por unidade produzida. Número de incidentes relacionados a falhas na rede. Tempo médio de recuperação (MTTR - Mean Time to Repair) de falhas na rede."
+            ],
+            "observable_behaviors": [
+              "A troca de dados disponíveis corporativamente em tempo real entre ativos e sistemas da instalação ocorre de forma permanente",
+              "Os dados estão disponíveis imediatamente após sua leitura/aquisição"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A infraestrutura de rede é escalável, permitindo que as redes existentes sejam configuradas de forma rápida e fácil para acomodar modificações na composição dos sistemas da instalação",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagrama de arquitetura de rede (TI/OT) da instalação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Dados de sensores (HVAC/chiller) em sistemas de controle. Registros de falhas e tempo de recuperação (MTTR)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Disponibilidade (%) de sistemas críticos da instalação. Latência média de dados de sensores da instalação. Consumo de energia por unidade produzida. Número de incidentes relacionados a falhas na rede. Tempo médio de recuperação (MTTR - Mean Time to Repair) de falhas na rede."
+            ],
+            "observable_behaviors": [
+              "A rede suporta a aplicação de análise preditiva e modelos avançados para prever futuros estados de ativos e sistemas (e",
+              ", falhas no HVAC)"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A infraestrutura suporta a convergência completa das redes e plataformas de automação da instalação com o chão de fábrica e a gerência.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagrama de arquitetura de rede (TI/OT) da instalação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Dados de sensores (HVAC/chiller) em sistemas de controle. Registros de falhas e tempo de recuperação (MTTR)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Disponibilidade (%) de sistemas críticos da instalação. Latência média de dados de sensores da instalação. Consumo de energia por unidade produzida. Número de incidentes relacionados a falhas na rede. Tempo médio de recuperação (MTTR - Mean Time to Repair) de falhas na rede."
+            ],
+            "observable_behaviors": [
+              "A rede permite interações dinâmicas e reconfiguráveis entre domínios, suportando a execução autônoma de decisões para otimizar o desempenho da instalação"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Diagrama de arquitetura de rede (TI/OT) da instalação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Dados de sensores (HVAC/chiller) em sistemas de controle. Registros de falhas e tempo de recuperação (MTTR)."
+        ],
+        "metrics": [
+          "Métricas/KPIs Disponibilidade (%) de sistemas críticos da instalação. Latência média de dados de sensores da instalação. Consumo de energia por unidade produzida. Número de incidentes relacionados a falhas na rede. Tempo médio de recuperação (MTTR - Mean Time to Repair) de falhas na rede."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Os ativos e sistemas da instalação (como HVAC e iluminação) não estão conectados e não são capazes de interagir ou trocar informação",
+              "Os processos são gerenciados por métodos informais ou ad-hoc"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Existem links de rede formais (cabeados e/ou sem fio) que permitem a interação ou troca de informação entre os ativos da instalação",
+              "Múltiplas tecnologias e protocolos de comunicação podem estar em uso sem a devida integração"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "O Internet Protocol (IP) está se tornando amplamente utilizado (e",
+              ", IPv6), o que é um requisito chave para a Internet of Things (IoT)"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A conectividade provê suporte à análise de dados locais para identificar e diagnosticar as causas potenciais de desvios"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A troca de dados disponíveis corporativamente em tempo real entre ativos e sistemas da instalação ocorre de forma permanente",
+              "Os dados estão disponíveis imediatamente após sua leitura/aquisição"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A rede suporta a aplicação de análise preditiva e modelos avançados para prever futuros estados de ativos e sistemas (e",
+              ", falhas no HVAC)"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A rede permite interações dinâmicas e reconfiguráveis entre domínios, suportando a execução autônoma de decisões para otimizar o desempenho da instalação"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Selecionar 3-5 artefatos relevantes para evidência dos sinais (incidentes de rede, logs de latência), atualizados nos últimos 90 dias."
+      }
+    },
+    {
+      "id": "Q-TEC-CONECT-INSTAL-023-002",
+      "question_number": 2,
+      "title": "Integração entre Infraestrutura e Sistemas Críticos da Instalação",
+      "text": "Qual é o grau de integração entre equipamentos da infraestrutura de conectividade com elementos críticos da instalação e controle do ambiente (e.g., HVAC, iluminação) de fábrica?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Os ativos e sistemas críticos da instalação não estão conectados à infraestrutura de rede, ou a automação é inexistente.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagramas de arquitetura de rede TI/OT da instalação Sistemas de Gerenciamento de Edifícios (BMS) ou automação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Registros de dados de sensores de HVAC em sistemas MES/ERP."
+            ],
+            "metrics": [
+              "Métricas/KPIs Consumo energético total da instalação. Latência de dados entre sistemas de controle ambiental e o sistema central. Disponibilidade (%) dos sistemas. Tempo médio de sincronização entre dados OT e TI."
+            ],
+            "observable_behaviors": [
+              "O gerenciamento é feito por métodos informais, usualmente de forma manual"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Os sistemas críticos da instalação são introduzidos ou parcialmente automatizados, mas gerenciados por intervenção humana.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagramas de arquitetura de rede TI/OT da instalação Sistemas de Gerenciamento de Edifícios (BMS) ou automação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Registros de dados de sensores de HVAC em sistemas MES/ERP."
+            ],
+            "metrics": [
+              "Métricas/KPIs Consumo energético total da instalação. Latência de dados entre sistemas de controle ambiental e o sistema central. Disponibilidade (%) dos sistemas. Tempo médio de sincronização entre dados OT e TI."
+            ],
+            "observable_behaviors": [
+              "Existem links de rede formais que permitem a interação ou troca de informação, geralmente através de múltiplas tecnologias e protocolos",
+              "A dependência da participação humana é evidente"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A infraestrutura de rede interliga os ativos da instalação, permitindo que os sistemas críticos da instalação sejam interoperáveis.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagramas de arquitetura de rede TI/OT da instalação Sistemas de Gerenciamento de Edifícios (BMS) ou automação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Registros de dados de sensores de HVAC em sistemas MES/ERP."
+            ],
+            "metrics": [
+              "Métricas/KPIs Consumo energético total da instalação. Latência de dados entre sistemas de controle ambiental e o sistema central. Disponibilidade (%) dos sistemas. Tempo médio de sincronização entre dados OT e TI."
+            ],
+            "observable_behaviors": [
+              "Os ativos conseguem interagir e trocar informação sem restrições significativas",
+              "A integração completa entre TI/TO ainda não ocorreu"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A infraestrutura permite a comunicação em tempo real para controle dos ativos.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagramas de arquitetura de rede TI/OT da instalação Sistemas de Gerenciamento de Edifícios (BMS) ou automação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Registros de dados de sensores de HVAC em sistemas MES/ERP."
+            ],
+            "metrics": [
+              "Métricas/KPIs Consumo energético total da instalação. Latência de dados entre sistemas de controle ambiental e o sistema central. Disponibilidade (%) dos sistemas. Tempo médio de sincronização entre dados OT e TI."
+            ],
+            "observable_behaviors": [
+              "Envio e recebimento de dados e comandos de controle em tempo real",
+              "TI/TO estão integrados",
+              "Capacidade de sincronização entre TI e OT"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A integração suporta a coleta de dados abrangente em tempo real dos sistemas de controle (e.g., sensores de HVAC), criando uma Sombra Digital precisa do estado da instalação.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagramas de arquitetura de rede TI/OT da instalação Sistemas de Gerenciamento de Edifícios (BMS) ou automação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Registros de dados de sensores de HVAC em sistemas MES/ERP."
+            ],
+            "metrics": [
+              "Métricas/KPIs Consumo energético total da instalação. Latência de dados entre sistemas de controle ambiental e o sistema central. Disponibilidade (%) dos sistemas. Tempo médio de sincronização entre dados OT e TI."
+            ],
+            "observable_behaviors": [
+              "TI/OT identificam desvios e diagnosticam as causas potenciais (e",
+              ", por que o HVAC está consumindo mais energia)",
+              "A integração vertical e horizontal dos processos e sistemas é estabelecida, resultando em diagnóstico automático de desvios de performance dos sistemas críticos"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A infraestrutura em tempo real é escalável, podendo ser reconfigurada de forma rápida e fácil para acomodar novos ativos de controle.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagramas de arquitetura de rede TI/OT da instalação Sistemas de Gerenciamento de Edifícios (BMS) ou automação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Registros de dados de sensores de HVAC em sistemas MES/ERP."
+            ],
+            "metrics": [
+              "Métricas/KPIs Consumo energético total da instalação. Latência de dados entre sistemas de controle ambiental e o sistema central. Disponibilidade (%) dos sistemas. Tempo médio de sincronização entre dados OT e TI."
+            ],
+            "observable_behaviors": [
+              "A integração suporta modelos preditivos e análise avançada para prever futuros estados dos sistemas de controle (e",
+              ", manutenção preditiva do chiller ou HVAC)"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Os sistemas de controle e a infraestrutura de conectividade estão convergentes com as plataformas de automação do Chão de Fábrica e da Empresa (Enterprise) para formar redes altamente autônomas.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Diagramas de arquitetura de rede TI/OT da instalação Sistemas de Gerenciamento de Edifícios (BMS) ou automação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Registros de dados de sensores de HVAC em sistemas MES/ERP."
+            ],
+            "metrics": [
+              "Métricas/KPIs Consumo energético total da instalação. Latência de dados entre sistemas de controle ambiental e o sistema central. Disponibilidade (%) dos sistemas. Tempo médio de sincronização entre dados OT e TI."
+            ],
+            "observable_behaviors": [
+              "O sistema é capaz de executar decisões automaticamente para otimizar o desempenho e a eficiência dos recursos da instalação, sem intervenção humana"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Diagramas de arquitetura de rede TI/OT da instalação Sistemas de Gerenciamento de Edifícios (BMS) ou automação. Relatórios de auditoria ou certificações como ISO 27001. Logs de latência e desempenho de rede em tempo real. Documentação de arquitetura de Edge/Cloud Computing. Registros de dados de sensores de HVAC em sistemas MES/ERP."
+        ],
+        "metrics": [
+          "Métricas/KPIs Consumo energético total da instalação. Latência de dados entre sistemas de controle ambiental e o sistema central. Disponibilidade (%) dos sistemas. Tempo médio de sincronização entre dados OT e TI."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "O gerenciamento é feito por métodos informais, usualmente de forma manual"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Existem links de rede formais que permitem a interação ou troca de informação, geralmente através de múltiplas tecnologias e protocolos",
+              "A dependência da participação humana é evidente"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Os ativos conseguem interagir e trocar informação sem restrições significativas",
+              "A integração completa entre TI/TO ainda não ocorreu"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Envio e recebimento de dados e comandos de controle em tempo real",
+              "TI/TO estão integrados",
+              "Capacidade de sincronização entre TI e OT"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "TI/OT identificam desvios e diagnosticam as causas potenciais (e",
+              ", por que o HVAC está consumindo mais energia)",
+              "A integração vertical e horizontal dos processos e sistemas é estabelecida, resultando em diagnóstico automático de desvios de performance dos sistemas críticos"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A integração suporta modelos preditivos e análise avançada para prever futuros estados dos sistemas de controle (e",
+              ", manutenção preditiva do chiller ou HVAC)"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "O sistema é capaz de executar decisões automaticamente para otimizar o desempenho e a eficiência dos recursos da instalação, sem intervenção humana"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Selecionar 3-5 artefatos relevantes para evidência dos sinais (logs de segurança de rede, auditorias e relatórios de incidentes), atualizados nos últimos 90 dias."
+      }
+    },
+    {
+      "id": "Q-TEC-CONECT-INSTAL-023-003",
+      "question_number": 3,
+      "title": "Escalabilidade da Infraestrutura da Instalação",
+      "text": "A infraestrutura de rede (cabeada e sem fio) que interliga os sistemas da instalação (incluindo controles HVAC, iluminação, etc) permite que as redes existentes sejam facilmente adaptadas para acomodar novas composições de equipamentos, máquinas e sistemas de computador?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A expansão da infraestrutura é impossível digitalmente.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Documentação de soluções Edge ou Cloud Computing. Diagramas de arquitetura de rede TI/OT da instalação. Protocolos para reconfiguração rápida (Plug-and-play) Logs de capacidade e desempenho da infraestrutura. Mapa de integração de protocolos (interoperabilidade Facility). Planos de integração de novos equipamentos."
+            ],
+            "metrics": [
+              "Métricas/KPIs Tempo médio de integração de novo ativo. Disponibilidade (%) de sistemas críticos. Latência média de dados de rede da instalação. Número de incidentes críticos de falhas de disponibilidade. Tempo médio de onboarding de novos dispositivos."
+            ],
+            "observable_behaviors": [
+              "Os sistemas (e",
+              ", HVAC) não estão conectados e quaisquer modificações ou adições de equipamentos são tratadas de forma isolada, manual e ad-hoc"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A adaptação ou adição de novos ativos requer intervenção humana significativa e configuração manual extensa.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Documentação de soluções Edge ou Cloud Computing. Diagramas de arquitetura de rede TI/OT da instalação. Protocolos para reconfiguração rápida (Plug-and-play) Logs de capacidade e desempenho da infraestrutura. Mapa de integração de protocolos (interoperabilidade Facility). Planos de integração de novos equipamentos."
+            ],
+            "metrics": [
+              "Métricas/KPIs Tempo médio de integração de novo ativo. Disponibilidade (%) de sistemas críticos. Latência média de dados de rede da instalação. Número de incidentes críticos de falhas de disponibilidade. Tempo médio de onboarding de novos dispositivos."
+            ],
+            "observable_behaviors": [
+              "A infraestrutura de rede básica possui baixo grau de interoperabilidade",
+              "A integração de novos sistemas de controle ambiental é complexa e lenta devido à incompatibilidade"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os sistemas conectados são interoperáveis, facilitando a adaptação/adição de novos equipamentos críticos da instalação.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Documentação de soluções Edge ou Cloud Computing. Diagramas de arquitetura de rede TI/OT da instalação. Protocolos para reconfiguração rápida (Plug-and-play) Logs de capacidade e desempenho da infraestrutura. Mapa de integração de protocolos (interoperabilidade Facility). Planos de integração de novos equipamentos."
+            ],
+            "metrics": [
+              "Métricas/KPIs Tempo médio de integração de novo ativo. Disponibilidade (%) de sistemas críticos. Latência média de dados de rede da instalação. Número de incidentes críticos de falhas de disponibilidade. Tempo médio de onboarding de novos dispositivos."
+            ],
+            "observable_behaviors": [
+              "A infraestrutura permite adaptações e novas aquisições de equipamentos sem restrições significativas de protocolo",
+              "Contudo, a adaptação da rede a grandes mudanças na composição de ativos é lenta e depende de planejamento específico"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A infraestrutura é totalmente interoperável, e existe um framework definido para inclusão de novos ativos e sistemas de controle.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Documentação de soluções Edge ou Cloud Computing. Diagramas de arquitetura de rede TI/OT da instalação. Protocolos para reconfiguração rápida (Plug-and-play) Logs de capacidade e desempenho da infraestrutura. Mapa de integração de protocolos (interoperabilidade Facility). Planos de integração de novos equipamentos."
+            ],
+            "metrics": [
+              "Métricas/KPIs Tempo médio de integração de novo ativo. Disponibilidade (%) de sistemas críticos. Latência média de dados de rede da instalação. Número de incidentes críticos de falhas de disponibilidade. Tempo médio de onboarding de novos dispositivos."
+            ],
+            "observable_behaviors": [
+              "Existem processos definidos e sequenciais para reconfiguração da rede",
+              "Entretanto, tais processos não são automatizados e ainda dependem de ações específicas",
+              "A expansão da coleta de dados em tempo real para novos ativos é uma funcionalidade disponível"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A infraestrutura é capaz de se adaptar de forma contínua aos requisitos vigentes de configuração e escalabilidade.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Documentação de soluções Edge ou Cloud Computing. Diagramas de arquitetura de rede TI/OT da instalação. Protocolos para reconfiguração rápida (Plug-and-play) Logs de capacidade e desempenho da infraestrutura. Mapa de integração de protocolos (interoperabilidade Facility). Planos de integração de novos equipamentos."
+            ],
+            "metrics": [
+              "Métricas/KPIs Tempo médio de integração de novo ativo. Disponibilidade (%) de sistemas críticos. Latência média de dados de rede da instalação. Número de incidentes críticos de falhas de disponibilidade. Tempo médio de onboarding de novos dispositivos."
+            ],
+            "observable_behaviors": [
+              "A rede suporta a adição de novos ativos de controle e a comunicação em tempo real",
+              "O sistema ajusta automaticamente a capacidade de rede em função da carga de dados",
+              "Os sistemas de assistência diagnosticam o impacto de novos equipamentos na operação",
+              "A escalabilidade existe, mas a adaptação não é totalmente autônoma"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A infraestrutura de rede é altamente escalável.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Documentação de soluções Edge ou Cloud Computing. Diagramas de arquitetura de rede TI/OT da instalação. Protocolos para reconfiguração rápida (Plug-and-play) Logs de capacidade e desempenho da infraestrutura. Mapa de integração de protocolos (interoperabilidade Facility). Planos de integração de novos equipamentos."
+            ],
+            "metrics": [
+              "Métricas/KPIs Tempo médio de integração de novo ativo. Disponibilidade (%) de sistemas críticos. Latência média de dados de rede da instalação. Número de incidentes críticos de falhas de disponibilidade. Tempo médio de onboarding de novos dispositivos."
+            ],
+            "observable_behaviors": [
+              "As redes existentes (cabeada e sem fio) podem ser configuradas de forma rápida e fácil para acomodar quaisquer modificações na composição de equipamentos e sistemas da instalação (provisionamento automatizado)",
+              "A adição de novos ativos suporta a análise preditiva em toda a instalação"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A escalabilidade atinge a autonomia.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Documentação de soluções Edge ou Cloud Computing. Diagramas de arquitetura de rede TI/OT da instalação. Protocolos para reconfiguração rápida (Plug-and-play) Logs de capacidade e desempenho da infraestrutura. Mapa de integração de protocolos (interoperabilidade Facility). Planos de integração de novos equipamentos."
+            ],
+            "metrics": [
+              "Métricas/KPIs Tempo médio de integração de novo ativo. Disponibilidade (%) de sistemas críticos. Latência média de dados de rede da instalação. Número de incidentes críticos de falhas de disponibilidade. Tempo médio de onboarding de novos dispositivos."
+            ],
+            "observable_behaviors": [
+              "A rede da instalação está convergente com as plataformas do Chão de Fábrica e Corporativa, permitindo reconfigurações dinâmicas e contínuas (plug-and-play)",
+              "Novos ativos são integrados automaticamente em redes altamente autônomas que otimizam o desempenho da instalação sem intervenção humana (utilizando o aprendizado adaptativo e o balanceamento dinâmico de carga)"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Documentação de soluções Edge ou Cloud Computing. Diagramas de arquitetura de rede TI/OT da instalação. Protocolos para reconfiguração rápida (Plug-and-play) Logs de capacidade e desempenho da infraestrutura. Mapa de integração de protocolos (interoperabilidade Facility). Planos de integração de novos equipamentos."
+        ],
+        "metrics": [
+          "Métricas/KPIs Tempo médio de integração de novo ativo. Disponibilidade (%) de sistemas críticos. Latência média de dados de rede da instalação. Número de incidentes críticos de falhas de disponibilidade. Tempo médio de onboarding de novos dispositivos."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Os sistemas (e",
+              ", HVAC) não estão conectados e quaisquer modificações ou adições de equipamentos são tratadas de forma isolada, manual e ad-hoc"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A infraestrutura de rede básica possui baixo grau de interoperabilidade",
+              "A integração de novos sistemas de controle ambiental é complexa e lenta devido à incompatibilidade"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A infraestrutura permite adaptações e novas aquisições de equipamentos sem restrições significativas de protocolo",
+              "Contudo, a adaptação da rede a grandes mudanças na composição de ativos é lenta e depende de planejamento específico"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Existem processos definidos e sequenciais para reconfiguração da rede",
+              "Entretanto, tais processos não são automatizados e ainda dependem de ações específicas",
+              "A expansão da coleta de dados em tempo real para novos ativos é uma funcionalidade disponível"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A rede suporta a adição de novos ativos de controle e a comunicação em tempo real",
+              "O sistema ajusta automaticamente a capacidade de rede em função da carga de dados",
+              "Os sistemas de assistência diagnosticam o impacto de novos equipamentos na operação",
+              "A escalabilidade existe, mas a adaptação não é totalmente autônoma"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "As redes existentes (cabeada e sem fio) podem ser configuradas de forma rápida e fácil para acomodar quaisquer modificações na composição de equipamentos e sistemas da instalação (provisionamento automatizado)",
+              "A adição de novos ativos suporta a análise preditiva em toda a instalação"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A rede da instalação está convergente com as plataformas do Chão de Fábrica e Corporativa, permitindo reconfigurações dinâmicas e contínuas (plug-and-play)",
+              "Novos ativos são integrados automaticamente em redes altamente autônomas que otimizam o desempenho da instalação sem intervenção humana (utilizando o aprendizado adaptativo e o balanceamento dinâmico de carga)"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Selecionar 3-5 artefatos relevantes para evidência dos sinais, atualizados nos últimos 90 dias."
+      }
+    },
+    {
+      "id": "Q-TEC-CONECT-INSTAL-023-004",
+      "question_number": 4,
+      "title": "Administração Segura dos Ativos da Instalação",
+      "text": "O framework de segurança de TI e as políticas de governança cobrem a administração de ativos, incluindo equipamentos e sistemas de controle da Instalação?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existe um framework de segurança de TI, e a administração de ativos é feita com base em métodos ad-hoc ou manuais.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de ativos. Registros de rastreabilidade e localização de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo de Recuperação de Falhas de Ativos. Porcentagem de ativos com identificação única, contemplados pelas políticas de segurança. Número de Não Conformidades em auditorias da Política de Proteção de Dados."
+            ],
+            "observable_behaviors": [
+              "Não há processos definidos de segurança de TI",
+              "Em muitos casos, os ativos sequer estão conectados, de modo que a segurança de TI é irrelevante para este domínio"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A segurança de TI está focada em funcionalidades básicas dos sistemas, sem um foco explícito na administração de ativos digitais ou identificação formal.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de ativos. Registros de rastreabilidade e localização de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo de Recuperação de Falhas de Ativos. Porcentagem de ativos com identificação única, contemplados pelas políticas de segurança. Número de Não Conformidades em auditorias da Política de Proteção de Dados."
+            ],
+            "observable_behaviors": [
+              "Os ativos da instalação (como os controladores do HVAC e iluminação, por exemplo) possuem sistemas de controle próprios e isolados, que executam tarefas pré-programadas"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A segurança de TI é tratada de forma reativa ou ad-hoc; não há um framework de segurança vigilante e resiliente estabelecido.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de ativos. Registros de rastreabilidade e localização de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo de Recuperação de Falhas de Ativos. Porcentagem de ativos com identificação única, contemplados pelas políticas de segurança. Número de Não Conformidades em auditorias da Política de Proteção de Dados."
+            ],
+            "observable_behaviors": [
+              "A administração de ativos não inclui controle de fluxo de dados formal ou validação contínua",
+              "Embora os sistemas estejam conectados e sejam interoperáveis, a segurança de TI é tratada de forma tempestiva, por solicitação de demanda"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Existe um framework de segurança vigilante e resiliente.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de ativos. Registros de rastreabilidade e localização de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo de Recuperação de Falhas de Ativos. Porcentagem de ativos com identificação única, contemplados pelas políticas de segurança. Número de Não Conformidades em auditorias da Política de Proteção de Dados."
+            ],
+            "observable_behaviors": [
+              "Medidas de segurança de TI são formalmente estabelecidas e cobrem questões de administração de ativos, incluindo a proteção de dados da instalação e o controle de acesso de usuários",
+              "Existem políticas claras para proteger a rede de ativos interoperáveis da instalação contra acesso ou disrupção indesejada"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A segurança é proativa e adaptada continuamente.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de ativos. Registros de rastreabilidade e localização de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo de Recuperação de Falhas de Ativos. Porcentagem de ativos com identificação única, contemplados pelas políticas de segurança. Número de Não Conformidades em auditorias da Política de Proteção de Dados."
+            ],
+            "observable_behaviors": [
+              "A administração de ativos é suportada por sistemas de informação capazes de realizar o controle do fluxo de dados em tempo real",
+              "Os sistemas conseguem identificar desvios relacionados a ativos (e",
+              ", falhas de autenticação de dispositivos) e diagnosticar causas potenciais"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A infraestrutura é altamente escalável e redundante, e o framework de segurança suporta o crescimento contínuo de ativos.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de ativos. Registros de rastreabilidade e localização de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo de Recuperação de Falhas de Ativos. Porcentagem de ativos com identificação única, contemplados pelas políticas de segurança. Número de Não Conformidades em auditorias da Política de Proteção de Dados."
+            ],
+            "observable_behaviors": [
+              "Os sistemas utilizam análise preditiva e IA/ML para prever vulnerabilidades futuras ou falhas de segurança relacionadas à administração de ativos, como o risco de comprometimento da identidade digital do ativo"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A administração de ativos está integrada em uma arquitetura de segurança ciberfísica segura e resiliente.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de ativos. Registros de rastreabilidade e localização de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo de Recuperação de Falhas de Ativos. Porcentagem de ativos com identificação única, contemplados pelas políticas de segurança. Número de Não Conformidades em auditorias da Política de Proteção de Dados."
+            ],
+            "observable_behaviors": [
+              "Os sistemas de informação e segurança são auto-aprendizes e executam decisões automaticamente para otimizar a segurança e a funcionalidade dos ativos, adaptando-se continuamente às circunstâncias, sem intervenção humana"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de ativos. Registros de rastreabilidade e localização de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+        ],
+        "metrics": [
+          "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo de Recuperação de Falhas de Ativos. Porcentagem de ativos com identificação única, contemplados pelas políticas de segurança. Número de Não Conformidades em auditorias da Política de Proteção de Dados."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Não há processos definidos de segurança de TI",
+              "Em muitos casos, os ativos sequer estão conectados, de modo que a segurança de TI é irrelevante para este domínio"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Os ativos da instalação (como os controladores do HVAC e iluminação, por exemplo) possuem sistemas de controle próprios e isolados, que executam tarefas pré-programadas"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A administração de ativos não inclui controle de fluxo de dados formal ou validação contínua",
+              "Embora os sistemas estejam conectados e sejam interoperáveis, a segurança de TI é tratada de forma tempestiva, por solicitação de demanda"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Medidas de segurança de TI são formalmente estabelecidas e cobrem questões de administração de ativos, incluindo a proteção de dados da instalação e o controle de acesso de usuários",
+              "Existem políticas claras para proteger a rede de ativos interoperáveis da instalação contra acesso ou disrupção indesejada"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A administração de ativos é suportada por sistemas de informação capazes de realizar o controle do fluxo de dados em tempo real",
+              "Os sistemas conseguem identificar desvios relacionados a ativos (e",
+              ", falhas de autenticação de dispositivos) e diagnosticar causas potenciais"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Os sistemas utilizam análise preditiva e IA/ML para prever vulnerabilidades futuras ou falhas de segurança relacionadas à administração de ativos, como o risco de comprometimento da identidade digital do ativo"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Os sistemas de informação e segurança são auto-aprendizes e executam decisões automaticamente para otimizar a segurança e a funcionalidade dos ativos, adaptando-se continuamente às circunstâncias, sem intervenção humana"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Selecionar 3-5 artefatos relevantes para evidência dos sinais, atualizados nos últimos 90 dias."
+      }
+    },
+    {
+      "id": "Q-TEC-CONECT-INSTAL-023-005",
+      "question_number": 5,
+      "title": "Controle de Acesso aos Ativos da Instalação",
+      "text": "A infraestrutura de Segurança de TI garante a identificação e autenticação de usuários (incluindo funcionários e colaboradores externos) de forma a controlar o acesso a equipamentos e sistemas críticos da instalação?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O acesso aos equipamentos e sistemas críticos da instalação é manual ou físico, sem requisitos de identificação ou autenticação de usuários digitais.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de usuários. Perfis de função e controle de credenciais. Registro de uso de assinaturas digitais/aprovações. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para restauração de acessos críticos. Número (%) de ativos com controle de acesso baseado em função. Grau de segurança dos mecanismos de controle de acesso implementados (e.g., senha simples é baixo, autenticação de 2 fatores é médio, assinatura digital é alto). Número de alertas de acesso indevido tratados automaticamente."
+            ],
+            "observable_behaviors": [
+              "Não há processos definidos de identificação/autenticação",
+              "Os sistemas de controle não estão conectados ou quando estão, o controle de acesso é inexistente"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "O acesso é isolado por sistema, com base em mecanismos simples de identificação e autenticação, sem rastreabilidade centralizada.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de usuários. Perfis de função e controle de credenciais. Registro de uso de assinaturas digitais/aprovações. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para restauração de acessos críticos. Número (%) de ativos com controle de acesso baseado em função. Grau de segurança dos mecanismos de controle de acesso implementados (e.g., senha simples é baixo, autenticação de 2 fatores é médio, assinatura digital é alto). Número de alertas de acesso indevido tratados automaticamente."
+            ],
+            "observable_behaviors": [
+              "Os ativos da instalação estão conectados, mas a identificação e autenticação de usuários são básicas (e",
+              ", senhas simples, muitas vezes compartilhadas entre vários usuários) e geralmente executam tarefas pré-programadas"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os sistemas estão conectados, e existe alguma forma de identificação/autenticação de usuários. No entanto, a gestão desses mecanismos é frágil ou executada em modo ad-hoc.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de usuários. Perfis de função e controle de credenciais. Registro de uso de assinaturas digitais/aprovações. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para restauração de acessos críticos. Número (%) de ativos com controle de acesso baseado em função. Grau de segurança dos mecanismos de controle de acesso implementados (e.g., senha simples é baixo, autenticação de 2 fatores é médio, assinatura digital é alto). Número de alertas de acesso indevido tratados automaticamente."
+            ],
+            "observable_behaviors": [
+              "A identificação/autenticação não é baseada em perfis de função (privilégios), e se baseia em mecanismos muito simples (e",
+              "A rede é vulnerável a acessos indesejados"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Existe um framework de segurança para proteger a rede contra acesso ou disrupção indesejados.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de usuários. Perfis de função e controle de credenciais. Registro de uso de assinaturas digitais/aprovações. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para restauração de acessos críticos. Número (%) de ativos com controle de acesso baseado em função. Grau de segurança dos mecanismos de controle de acesso implementados (e.g., senha simples é baixo, autenticação de 2 fatores é médio, assinatura digital é alto). Número de alertas de acesso indevido tratados automaticamente."
+            ],
+            "observable_behaviors": [
+              "A infraestrutura implementa a identificação e autenticação de usuários de maneira formal",
+              "Os mecanismos utilizados baseiam-se em perfis de função e credenciais únicas (RBAC)",
+              "O controle de acesso também permite que os funcionários sejam incluídos em processos de comunicação de forma contextualizada",
+              "O log é centralizado"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A identificação/autenticação de usuários é realizada em tempo real e de maneira contextualizada para o acesso aos ativos da instalação.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de usuários. Perfis de função e controle de credenciais. Registro de uso de assinaturas digitais/aprovações. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para restauração de acessos críticos. Número (%) de ativos com controle de acesso baseado em função. Grau de segurança dos mecanismos de controle de acesso implementados (e.g., senha simples é baixo, autenticação de 2 fatores é médio, assinatura digital é alto). Número de alertas de acesso indevido tratados automaticamente."
+            ],
+            "observable_behaviors": [
+              "O sistema de controle de acesso se integra aos demais sistemas da instalação, podendo identificar e diagnosticar desvios ou tentativas de acesso não autorizado, rastreando imediatamente a fonte humana ou digital"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A infraestrutura é escalável e o framework de segurança suporta o crescimento contínuo de usuários.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de usuários. Perfis de função e controle de credenciais. Registro de uso de assinaturas digitais/aprovações. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para restauração de acessos críticos. Número (%) de ativos com controle de acesso baseado em função. Grau de segurança dos mecanismos de controle de acesso implementados (e.g., senha simples é baixo, autenticação de 2 fatores é médio, assinatura digital é alto). Número de alertas de acesso indevido tratados automaticamente."
+            ],
+            "observable_behaviors": [
+              "O sistema de controle de acesso usa análise preditiva para prever vulnerabilidades relacionadas ao acesso de usuários ou identificar proativamente riscos de comprometimento de credenciais, com base na análise comportamental do usuário"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Os sistemas de controle de acesso são autônomos, adaptativos, e totalmente automatizados.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de usuários. Perfis de função e controle de credenciais. Registro de uso de assinaturas digitais/aprovações. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para restauração de acessos críticos. Número (%) de ativos com controle de acesso baseado em função. Grau de segurança dos mecanismos de controle de acesso implementados (e.g., senha simples é baixo, autenticação de 2 fatores é médio, assinatura digital é alto). Número de alertas de acesso indevido tratados automaticamente."
+            ],
+            "observable_behaviors": [
+              "O sistema de controle de acesso adapta as credenciais e privilégios dos usuários às circunstâncias operacionais de forma automática",
+              "Ele também se integra com outros domínios para executar decisões de segurança de forma autônoma (e",
+              ", revogação automática de acesso em caso de risco)",
+              "Existem mecanismos de detecção de intrusão adaptativos e capazes de aprender a partir de padrões comportamentais dos usuários",
+              "Há integração com SIEM/SOC para resposta automática"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Política de segurança cibernética. Documentação de identificação e autenticação de usuários. Perfis de função e controle de credenciais. Registro de uso de assinaturas digitais/aprovações. Relatórios de auditoria de políticas de segurança dos sistemas da instalação. Documentação de políticas de proteção e privacidade de dados."
+        ],
+        "metrics": [
+          "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para restauração de acessos críticos. Número (%) de ativos com controle de acesso baseado em função. Grau de segurança dos mecanismos de controle de acesso implementados (e.g., senha simples é baixo, autenticação de 2 fatores é médio, assinatura digital é alto). Número de alertas de acesso indevido tratados automaticamente."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Não há processos definidos de identificação/autenticação",
+              "Os sistemas de controle não estão conectados ou quando estão, o controle de acesso é inexistente"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Os ativos da instalação estão conectados, mas a identificação e autenticação de usuários são básicas (e",
+              ", senhas simples, muitas vezes compartilhadas entre vários usuários) e geralmente executam tarefas pré-programadas"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A identificação/autenticação não é baseada em perfis de função (privilégios), e se baseia em mecanismos muito simples (e",
+              "A rede é vulnerável a acessos indesejados"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A infraestrutura implementa a identificação e autenticação de usuários de maneira formal",
+              "Os mecanismos utilizados baseiam-se em perfis de função e credenciais únicas (RBAC)",
+              "O controle de acesso também permite que os funcionários sejam incluídos em processos de comunicação de forma contextualizada",
+              "O log é centralizado"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "O sistema de controle de acesso se integra aos demais sistemas da instalação, podendo identificar e diagnosticar desvios ou tentativas de acesso não autorizado, rastreando imediatamente a fonte humana ou digital"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "O sistema de controle de acesso usa análise preditiva para prever vulnerabilidades relacionadas ao acesso de usuários ou identificar proativamente riscos de comprometimento de credenciais, com base na análise comportamental do usuário"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "O sistema de controle de acesso adapta as credenciais e privilégios dos usuários às circunstâncias operacionais de forma automática",
+              "Ele também se integra com outros domínios para executar decisões de segurança de forma autônoma (e",
+              ", revogação automática de acesso em caso de risco)",
+              "Existem mecanismos de detecção de intrusão adaptativos e capazes de aprender a partir de padrões comportamentais dos usuários",
+              "Há integração com SIEM/SOC para resposta automática"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Selecionar 3-5 artefatos relevantes para evidência dos sinais, atualizados nos últimos 90 dias."
+      }
+    },
+    {
+      "id": "Q-TEC-CONECT-INSTAL-023-006",
+      "question_number": 6,
+      "title": "Validação de Saúde do Sistema",
+      "text": "Como a infraestrutura de Segurança de TI implementa a validação de saúde do sistema (do inglês, system health validation) para os ativos e sistemas de controle da instalação, permitindo a identificação e registro de desvios, falhas de segurança ou mau funcionamento?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A validação da saúde do sistema não é realizada.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Relatórios de validação da saúde do sistema. Logs de detecção e diagnóstico de desvios. Dados de sensores em sistemas de informação. Documentação de análise preditiva de falhas de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para diagnóstico de desvios na saúde do sistema. Disponibilidade (%) dos sistemas críticos da instalação. Acurácia (%) da previsão de falhas de ativos da instalação."
+            ],
+            "observable_behaviors": [
+              "Sistemas de TI e OT não estão presentes, ou não há dispositivos eletrônicos ou digitais sendo usados"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Os sistemas OT e IT da instalação executam tarefas e processos baseados em lógica pré-programada.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Relatórios de validação da saúde do sistema. Logs de detecção e diagnóstico de desvios. Dados de sensores em sistemas de informação. Documentação de análise preditiva de falhas de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para diagnóstico de desvios na saúde do sistema. Disponibilidade (%) dos sistemas críticos da instalação. Acurácia (%) da previsão de falhas de ativos da instalação."
+            ],
+            "observable_behaviors": [
+              "A validação de saúde dos sistemas se limita a funcionalidades estáticas de auto diagnóstico, providas isoladamente pelos próprios equipamentos",
+              "Não há capacidade de identificar desvios ou avaliar de forma ativa a saúde do sistema"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os sistemas OT e IT são capazes de identificar desvios dos parâmetros predefinidos.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Relatórios de validação da saúde do sistema. Logs de detecção e diagnóstico de desvios. Dados de sensores em sistemas de informação. Documentação de análise preditiva de falhas de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para diagnóstico de desvios na saúde do sistema. Disponibilidade (%) dos sistemas críticos da instalação. Acurácia (%) da previsão de falhas de ativos da instalação."
+            ],
+            "observable_behaviors": [
+              "Os sistemas podem notificar o pessoal relevante sobre esses desvios",
+              "A validação de saúde do sistema utiliza recursos básicos, focada apenas na detecção"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os sistemas OT e IT são capazes de identificar desvios e diagnosticar as causas potenciais.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Relatórios de validação da saúde do sistema. Logs de detecção e diagnóstico de desvios. Dados de sensores em sistemas de informação. Documentação de análise preditiva de falhas de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para diagnóstico de desvios na saúde do sistema. Disponibilidade (%) dos sistemas críticos da instalação. Acurácia (%) da previsão de falhas de ativos da instalação."
+            ],
+            "observable_behaviors": [
+              "O framework de segurança contempla a proteção da rede e dos ativos, cobrindo formalmente a validação da saúde do sistema por meio de medidas claras de segurança de TI"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os sistemas OT e IT utilizam dados em tempo real para identificar desvios e diagnosticar as causas potenciais.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Relatórios de validação da saúde do sistema. Logs de detecção e diagnóstico de desvios. Dados de sensores em sistemas de informação. Documentação de análise preditiva de falhas de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para diagnóstico de desvios na saúde do sistema. Disponibilidade (%) dos sistemas críticos da instalação. Acurácia (%) da previsão de falhas de ativos da instalação."
+            ],
+            "observable_behaviors": [
+              "Os ativos e sistemas da instalação são capazes de comunicação em tempo real",
+              "Há medidas proativas para manter a validação de saúde do sistema e adaptá-la em resposta às circunstâncias"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Os sistemas OT e IT são capazes de prever desvios e executar decisões independentemente, para otimizar o desempenho",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Relatórios de validação da saúde do sistema. Logs de detecção e diagnóstico de desvios. Dados de sensores em sistemas de informação. Documentação de análise preditiva de falhas de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para diagnóstico de desvios na saúde do sistema. Disponibilidade (%) dos sistemas críticos da instalação. Acurácia (%) da previsão de falhas de ativos da instalação."
+            ],
+            "observable_behaviors": [
+              "A validação da saúde do sistema é avançada, utilizando algoritmos e modelos avançados para prever falhas potenciais com antecedência"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A validação da saúde do sistema inclui processos de auto-aprendizagem e o sistema de informação continuamente se adapta às circunstâncias.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Relatórios de validação da saúde do sistema. Logs de detecção e diagnóstico de desvios. Dados de sensores em sistemas de informação. Documentação de análise preditiva de falhas de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para diagnóstico de desvios na saúde do sistema. Disponibilidade (%) dos sistemas críticos da instalação. Acurácia (%) da previsão de falhas de ativos da instalação."
+            ],
+            "observable_behaviors": [
+              "Os sistemas de validação da saúde do sistema funcionam de forma autônoma e podem tomar decisões",
+              "Eles são dotados de mecanismos de aprendizado para otimizar o desempenho e a eficiência de recursos"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Relatórios de validação da saúde do sistema. Logs de detecção e diagnóstico de desvios. Dados de sensores em sistemas de informação. Documentação de análise preditiva de falhas de ativos. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+        ],
+        "metrics": [
+          "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Tempo médio para diagnóstico de desvios na saúde do sistema. Disponibilidade (%) dos sistemas críticos da instalação. Acurácia (%) da previsão de falhas de ativos da instalação."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Sistemas de TI e OT não estão presentes, ou não há dispositivos eletrônicos ou digitais sendo usados"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A validação de saúde dos sistemas se limita a funcionalidades estáticas de auto diagnóstico, providas isoladamente pelos próprios equipamentos",
+              "Não há capacidade de identificar desvios ou avaliar de forma ativa a saúde do sistema"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Os sistemas podem notificar o pessoal relevante sobre esses desvios",
+              "A validação de saúde do sistema utiliza recursos básicos, focada apenas na detecção"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "O framework de segurança contempla a proteção da rede e dos ativos, cobrindo formalmente a validação da saúde do sistema por meio de medidas claras de segurança de TI"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Os ativos e sistemas da instalação são capazes de comunicação em tempo real",
+              "Há medidas proativas para manter a validação de saúde do sistema e adaptá-la em resposta às circunstâncias"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A validação da saúde do sistema é avançada, utilizando algoritmos e modelos avançados para prever falhas potenciais com antecedência"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Os sistemas de validação da saúde do sistema funcionam de forma autônoma e podem tomar decisões",
+              "Eles são dotados de mecanismos de aprendizado para otimizar o desempenho e a eficiência de recursos"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Selecionar 3-5 artefatos relevantes para evidência dos sinais, atualizados nos últimos 90 dias."
+      }
+    },
+    {
+      "id": "Q-TEC-CONECT-INSTAL-023-007",
+      "question_number": 7,
+      "title": "Controle de Fluxo de Dados",
+      "text": "A infraestrutura de Segurança de TI implementa o controle de fluxo de dados para os ativos e sistemas de controle da instalação?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O fluxo de dados digital é inexistente.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Diagramas de arquitetura de rede TI/OT da instalação. Políticas formais de Controle de Fluxo de Dados. Logs de detecção e diagnóstico de desvios. Documentação de protocolos de comunicação. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Latência média do fluxo de dados da instalação. Disponibilidade (%) dos sistemas críticos da instalação. Tempo médio de recuperação de falhas no fluxo de dados. Percentual de pacotes retransmitidos (perda de dados)."
+            ],
+            "observable_behaviors": [
+              "Os ativos e sistemas da instalação não estão conectados e não há uso de sistemas de TI/OT"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "O controle do fluxo de dados é manual e ad-hoc.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Diagramas de arquitetura de rede TI/OT da instalação. Políticas formais de Controle de Fluxo de Dados. Logs de detecção e diagnóstico de desvios. Documentação de protocolos de comunicação. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Latência média do fluxo de dados da instalação. Disponibilidade (%) dos sistemas críticos da instalação. Tempo médio de recuperação de falhas no fluxo de dados. Percentual de pacotes retransmitidos (perda de dados)."
+            ],
+            "observable_behaviors": [
+              "Ainda que existam links formais de rede para ativos da instalação, a troca de dados entre os sistemas de controle e os sistemas de TI é predominantemente gerenciada por intervenção humana"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os sistemas e ativos da instalação são capazes de interagir e trocar informação sem restrições significativas, mas não existem políticas de segurança definidas para esses processos.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Diagramas de arquitetura de rede TI/OT da instalação. Políticas formais de Controle de Fluxo de Dados. Logs de detecção e diagnóstico de desvios. Documentação de protocolos de comunicação. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Latência média do fluxo de dados da instalação. Disponibilidade (%) dos sistemas críticos da instalação. Tempo médio de recuperação de falhas no fluxo de dados. Percentual de pacotes retransmitidos (perda de dados)."
+            ],
+            "observable_behaviors": [
+              "A segurança na troca de dados entre os ativos é gerida de forma reativa",
+              "Não existe um framework de segurança voltado ao controle de fluxo de dados"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "As políticas de segurança de TI cobrem formalmente o controle de fluxo de dados.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Diagramas de arquitetura de rede TI/OT da instalação. Políticas formais de Controle de Fluxo de Dados. Logs de detecção e diagnóstico de desvios. Documentação de protocolos de comunicação. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Latência média do fluxo de dados da instalação. Disponibilidade (%) dos sistemas críticos da instalação. Tempo médio de recuperação de falhas no fluxo de dados. Percentual de pacotes retransmitidos (perda de dados)."
+            ],
+            "observable_behaviors": [
+              "Existe um framework de segurança para proteger a rede e os ativos da instalação contra disrupção",
+              "A informação é trocada continuamente entre os sistemas da cadeia de valor (integração vertical)",
+              "Implementação de firewalls industriais e segmentação lógica"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os sistemas e ativos da instalação são capazes de estabelecer fluxos de dados em tempo real, de forma segura.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Diagramas de arquitetura de rede TI/OT da instalação. Políticas formais de Controle de Fluxo de Dados. Logs de detecção e diagnóstico de desvios. Documentação de protocolos de comunicação. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Latência média do fluxo de dados da instalação. Disponibilidade (%) dos sistemas críticos da instalação. Tempo médio de recuperação de falhas no fluxo de dados. Percentual de pacotes retransmitidos (perda de dados)."
+            ],
+            "observable_behaviors": [
+              "O fluxo de dados da instalação é processado sem atraso e está disponível quase imediatamente",
+              "O fluxo de dados permite que os sistemas de assistência façam diagnósticos de desvios ou falhas de segurança no fluxo de dados"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "O controle do fluxo de dados é suportado por análise avançada e sistemas redundantes.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Diagramas de arquitetura de rede TI/OT da instalação. Políticas formais de Controle de Fluxo de Dados. Logs de detecção e diagnóstico de desvios. Documentação de protocolos de comunicação. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Latência média do fluxo de dados da instalação. Disponibilidade (%) dos sistemas críticos da instalação. Tempo médio de recuperação de falhas no fluxo de dados. Percentual de pacotes retransmitidos (perda de dados)."
+            ],
+            "observable_behaviors": [
+              "Os sistemas utilizam modelos preditivos para prever e prevenir vulnerabilidades ou interrupções no fluxo de dados da instalação antes que ocorram"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O controle do fluxo de dados implementa mecanismos de auto-aprendizado e adapta-se continuamente às circunstâncias.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Diagramas de arquitetura de rede TI/OT da instalação. Políticas formais de Controle de Fluxo de Dados. Logs de detecção e diagnóstico de desvios. Documentação de protocolos de comunicação. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+            ],
+            "metrics": [
+              "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Latência média do fluxo de dados da instalação. Disponibilidade (%) dos sistemas críticos da instalação. Tempo médio de recuperação de falhas no fluxo de dados. Percentual de pacotes retransmitidos (perda de dados)."
+            ],
+            "observable_behaviors": [
+              "Os sistemas de segurança fazem isso intensivo de dados do próprio fluxo sob controle, estabelecendo padrões seguros de operação",
+              "Eles também executam decisões automaticamente para otimizar o fluxo de dados e as funcionalidades do sistema, sem intervenção humana"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Certificação de segurança de rede (e.g., IEC 62443). Diagramas de arquitetura de rede TI/OT da instalação. Políticas formais de Controle de Fluxo de Dados. Logs de detecção e diagnóstico de desvios. Documentação de protocolos de comunicação. Relatórios de auditoria de políticas de segurança dos sistemas da instalação."
+        ],
+        "metrics": [
+          "Métricas/KPIs Taxa de Incidentes Críticos de Cibersegurança. Latência média do fluxo de dados da instalação. Disponibilidade (%) dos sistemas críticos da instalação. Tempo médio de recuperação de falhas no fluxo de dados. Percentual de pacotes retransmitidos (perda de dados)."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Os ativos e sistemas da instalação não estão conectados e não há uso de sistemas de TI/OT"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Ainda que existam links formais de rede para ativos da instalação, a troca de dados entre os sistemas de controle e os sistemas de TI é predominantemente gerenciada por intervenção humana"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "A segurança na troca de dados entre os ativos é gerida de forma reativa",
+              "Não existe um framework de segurança voltado ao controle de fluxo de dados"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Existe um framework de segurança para proteger a rede e os ativos da instalação contra disrupção",
+              "A informação é trocada continuamente entre os sistemas da cadeia de valor (integração vertical)",
+              "Implementação de firewalls industriais e segmentação lógica"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "O fluxo de dados da instalação é processado sem atraso e está disponível quase imediatamente",
+              "O fluxo de dados permite que os sistemas de assistência façam diagnósticos de desvios ou falhas de segurança no fluxo de dados"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Os sistemas utilizam modelos preditivos para prever e prevenir vulnerabilidades ou interrupções no fluxo de dados da instalação antes que ocorram"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Os sistemas de segurança fazem isso intensivo de dados do próprio fluxo sob controle, estabelecendo padrões seguros de operação",
+              "Eles também executam decisões automaticamente para otimizar o fluxo de dados e as funcionalidades do sistema, sem intervenção humana"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Selecionar 3-5 artefatos relevantes para evidência dos sinais, atualizados nos últimos 90 dias."
+      }
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}
