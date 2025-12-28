@@ -187,11 +187,56 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
             padding: 1rem;
         }}
 
+        .top-row-container {{
+            margin-bottom: 1rem;
+        }}
+
+        .top-row-header {{
+            padding: 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #f7fafc;
+            border-radius: 8px 8px 0 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background 0.2s;
+        }}
+
+        .top-row-header:hover {{
+            background: #edf2f7;
+        }}
+
+        .top-row-header h3 {{
+            margin: 0;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #2d3748;
+        }}
+
+        .top-row-toggle-icon {{
+            font-size: 1.2rem;
+            color: #667eea;
+            transition: transform 0.3s;
+        }}
+
+        .top-row-toggle-icon.collapsed {{
+            transform: rotate(-90deg);
+        }}
+
         .top-row {{
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 1rem;
-            flex: 0 0 55%;
+            max-height: 600px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            transition: max-height 0.3s ease-out;
+        }}
+
+        .top-row.collapsed {{
+            max-height: 0;
+            margin: 0;
             overflow: hidden;
         }}
 
@@ -218,7 +263,7 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
         .question-detail-section {{
             background: rgba(255, 255, 255, 0.98);
             padding: 2rem;
-            overflow-y: auto;
+            padding-bottom: 10rem;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             position: relative;
@@ -263,10 +308,53 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
 
         .filter-section {{
             background: rgba(255, 255, 255, 0.98);
-            padding: 1rem;
             margin-bottom: 1rem;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }}
+
+        .filter-header {{
+            padding: 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #f7fafc;
+            border-radius: 8px 8px 0 0;
+            transition: background 0.2s;
+        }}
+
+        .filter-header:hover {{
+            background: #edf2f7;
+        }}
+
+        .filter-header h3 {{
+            margin: 0;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #2d3748;
+        }}
+
+        .filter-toggle-icon {{
+            font-size: 1.2rem;
+            color: #667eea;
+            transition: transform 0.3s;
+        }}
+
+        .filter-toggle-icon.collapsed {{
+            transform: rotate(-90deg);
+        }}
+
+        .filter-content {{
+            padding: 1rem;
+            max-height: 500px;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }}
+
+        .filter-content.collapsed {{
+            max-height: 0;
+            padding: 0 1rem;
         }}
 
         .filter-row {{
@@ -323,6 +411,7 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
             flex: 0 0 40%;
             background: rgba(255, 255, 255, 0.98);
             padding: 2rem;
+            padding-bottom: 10rem;
             overflow-y: auto;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
@@ -588,43 +677,55 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
 
         <div class="main-content">
             <div class="filter-section">
-                <div class="filter-row">
-                    <div class="filter-group">
-                        <label class="filter-label">Bloco</label>
-                        <select id="filter-block" class="filter-select" onchange="applyFilters()">
-                            <option value="">Todos</option>
-                        </select>
-                    </div>
-                    <div class="filter-group">
-                        <label class="filter-label">Pilar</label>
-                        <select id="filter-pilar" class="filter-select" onchange="applyFilters()">
-                            <option value="">Todos</option>
-                        </select>
-                    </div>
-                    <div class="filter-group">
-                        <label class="filter-label">Dimensão</label>
-                        <select id="filter-dimension" class="filter-select" onchange="applyFilters()">
-                            <option value="">Todas</option>
-                        </select>
-                    </div>
-                    <div class="filter-group">
-                        <label class="filter-label">Autor</label>
-                        <select id="filter-author" class="filter-select" onchange="applyFilters()">
-                            <option value="">Todos</option>
-                        </select>
-                    </div>
+                <div class="filter-header" onclick="toggleFilters()">
+                    <h3>Filtros</h3>
+                    <span class="filter-toggle-icon" id="filter-toggle-icon">▼</span>
                 </div>
-                <button class="clear-filters" onclick="clearFilters()">Limpar Filtros</button>
+                <div class="filter-content" id="filter-content">
+                    <div class="filter-row">
+                        <div class="filter-group">
+                            <label class="filter-label">Bloco</label>
+                            <select id="filter-block" class="filter-select" onchange="applyFilters()">
+                                <option value="">Todos</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label class="filter-label">Pilar</label>
+                            <select id="filter-pilar" class="filter-select" onchange="applyFilters()">
+                                <option value="">Todos</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label class="filter-label">Dimensão</label>
+                            <select id="filter-dimension" class="filter-select" onchange="applyFilters()">
+                                <option value="">Todas</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label class="filter-label">Autor</label>
+                            <select id="filter-author" class="filter-select" onchange="applyFilters()">
+                                <option value="">Todos</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="clear-filters" onclick="clearFilters()">Limpar Filtros</button>
+                </div>
             </div>
 
-            <div class="top-row">
-                <div class="chart-section">
-                    <div id="sunburst"></div>
+            <div class="top-row-container">
+                <div class="top-row-header" onclick="toggleTopRow()">
+                    <h3>Visualização e Detalhes</h3>
+                    <span class="top-row-toggle-icon" id="top-row-toggle-icon">▼</span>
                 </div>
+                <div class="top-row" id="top-row">
+                    <div class="chart-section">
+                        <div id="sunburst"></div>
+                    </div>
 
-                <div class="question-detail-section">
-                    <div id="question-detail" class="question-detail">
-                        <div class="loading">Clique no gráfico para explorar as questões...</div>
+                    <div class="question-detail-section">
+                        <div id="question-detail" class="question-detail">
+                            <div class="loading">Clique no gráfico para explorar as questões...</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -689,6 +790,22 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
                 option.textContent = author;
                 authorSelect.appendChild(option);
             }});
+        }}
+
+        // Toggle filter section expand/collapse
+        function toggleFilters() {{
+            const content = document.getElementById('filter-content');
+            const icon = document.getElementById('filter-toggle-icon');
+            content.classList.toggle('collapsed');
+            icon.classList.toggle('collapsed');
+        }}
+
+        // Toggle top row section expand/collapse
+        function toggleTopRow() {{
+            const content = document.getElementById('top-row');
+            const icon = document.getElementById('top-row-toggle-icon');
+            content.classList.toggle('collapsed');
+            icon.classList.toggle('collapsed');
         }}
 
         // Apply filters
@@ -905,7 +1022,21 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
             const levels = questionData.maturity_levels || [];
             if (levels.length > 0) {{
                 const questionIdClean = questionData.question_id.replace(/[^a-zA-Z0-9]/g, '_');
-                let maturityHTML = '<div class="maturity-levels"><h3>Níveis de Maturidade</h3>';
+                let maturityHTML = '<div class="maturity-levels">';
+
+                // Add hierarchy breadcrumb (same style as metadata panel)
+                maturityHTML += '<div class="breadcrumb">';
+                maturityHTML += '<span class="breadcrumb-item">' + questionData.block + '</span>';
+                maturityHTML += '<span class="breadcrumb-separator">→</span>';
+                maturityHTML += '<span class="breadcrumb-item">' + questionData.pilar + '</span>';
+                maturityHTML += '<span class="breadcrumb-separator">→</span>';
+                maturityHTML += '<span class="breadcrumb-item">' + questionData.dimension + '</span>';
+                maturityHTML += '<span class="breadcrumb-separator">→</span>';
+                maturityHTML += '<span class="breadcrumb-item">' + questionData.capacity + '</span>';
+                maturityHTML += '</div>';
+
+                maturityHTML += '<h3 style="margin-bottom: 0.5rem;">Questão: ' + (questionData.text || questionData.title || '') + '</h3>';
+                maturityHTML += '<h4 style="color: #667eea; margin-top: 0.5rem; margin-bottom: 1.5rem; font-size: 1.1rem;">Níveis de Maturidade</h4>';
 
                 levels.forEach((level, index) => {{
                     const hasEvidence = level.evidence_signals && (
