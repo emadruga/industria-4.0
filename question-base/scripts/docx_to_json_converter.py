@@ -41,6 +41,7 @@ class MaturityLevel:
     level: int
     label: str
     description: str
+    evidence_signals: Optional[Dict[str, List[str]]] = None
 
 
 @dataclass
@@ -534,6 +535,19 @@ class DOCXToJSONConverter:
 
             cell_text = self._clean_text(cells[0].text)
 
+            # Check for evidence sources (MUST be outside len(cells) >= 2 check!)
+            # Evidence tables often have single-cell rows with headers like "Possíveis fontes de evidências:"
+            if 'evidência' in cell_text.lower() or 'evidence' in cell_text.lower():
+                # Use the evidence extractor module if available
+                if self.evidence_extractor:
+                    extracted_evidence = self.evidence_extractor.extract_from_table(table)
+                    if extracted_evidence:
+                        question_dict['evidence_sources'] = extracted_evidence
+                else:
+                    # Fallback to old parsing method
+                    content = cells[1].text if len(cells) >= 2 else cell_text
+                    self._parse_evidence_sources(content, question_dict['evidence_sources'])
+
             # Check if this row contains maturity level information
             if len(cells) >= 2:
                 first_cell = self._clean_text(cells[0].text)
@@ -564,20 +578,9 @@ class DOCXToJSONConverter:
                     if not question_dict['text']:
                         question_dict['text'] = first_cell
 
-                # Check for evidence sources
-                if 'evidência' in cell_text.lower() or 'evidence' in cell_text.lower():
-                    # Use the evidence extractor module if available
-                    if self.evidence_extractor:
-                        extracted_evidence = self.evidence_extractor.extract_from_table(table)
-                        if extracted_evidence:
-                            question_dict['evidence_sources'] = extracted_evidence
-                    else:
-                        # Fallback to old parsing method
-                        content = second_cell if len(cells) >= 2 else cell_text
-                        self._parse_evidence_sources(content, question_dict['evidence_sources'])
-                elif 'Capacidade em medição' in cell_text or 'Capacidade em medicao' in cell_text:
-                    if len(cells) >= 2:
-                        question_dict['capacity_measured'] = self._clean_text(cells[1].text)
+                # Check for capacity measurement
+                if 'Capacidade em medição' in cell_text or 'Capacidade em medicao' in cell_text:
+                    question_dict['capacity_measured'] = self._clean_text(cells[1].text)
 
     def _parse_evidence_sources(self, text: str, evidence_dict: Dict):
         """Parse evidence sources from text."""
@@ -614,14 +617,92 @@ class DOCXToJSONConverter:
         if sampling_match:
             evidence_dict['sampling_guidance'] = self._clean_text(sampling_match.group(1))
 
+    def _map_evidence_to_maturity_levels(self, maturity_levels_list: List[Dict], evidence_data: Dict) -> List[Dict]:
+        """
+        Map evidence signals to corresponding maturity levels.
+
+        Uses hybrid approach:
+        - Sections A & B (artifacts, metrics): Applied to ALL maturity levels
+        - Section C (signals_by_level): Level-specific observable behaviors
+        - Section D (sampling_guidance): Stored at evidence_sources level
+
+        Args:
+            maturity_levels_list: List of maturity level dicts
+            evidence_data: Evidence dict with artifacts, metrics, signals_by_level
+
+        Returns:
+            Updated maturity levels list with evidence_signals added
+        """
+        if not evidence_data:
+            # No evidence data, add empty structure to all levels
+            for ml in maturity_levels_list:
+                ml['evidence_signals'] = {
+                    "artifacts": [],
+                    "metrics": [],
+                    "observable_behaviors": [],
+                    "interview_questions": []
+                }
+            return maturity_levels_list
+
+        # Extract general artifacts and metrics from Sections A & B
+        general_artifacts = evidence_data.get('artifacts', [])
+        general_metrics = evidence_data.get('metrics', [])
+        signals_by_level = evidence_data.get('signals_by_level', {})
+
+        # Map evidence to each maturity level
+        for ml in maturity_levels_list:
+            level_key = f"N{ml['level']}"
+
+            # Start with general artifacts/metrics that apply to all levels
+            level_artifacts = list(general_artifacts)  # Copy general list
+            level_metrics = list(general_metrics)  # Copy general list
+            level_behaviors = []
+            level_questions = []
+
+            # Add level-specific evidence from Section C if available
+            if level_key in signals_by_level and isinstance(signals_by_level[level_key], dict):
+                level_evidence = signals_by_level[level_key]
+
+                # Add level-specific artifacts/metrics if present (override general if specified)
+                if level_evidence.get('artifacts'):
+                    level_artifacts.extend(level_evidence['artifacts'])
+
+                if level_evidence.get('metrics'):
+                    level_metrics.extend(level_evidence['metrics'])
+
+                # Level-specific observable behaviors (from prose format)
+                level_behaviors = level_evidence.get('observable_behaviors', [])
+
+                # Level-specific interview questions
+                level_questions = level_evidence.get('interview_questions', [])
+
+            ml['evidence_signals'] = {
+                "artifacts": level_artifacts,
+                "metrics": level_metrics,
+                "observable_behaviors": level_behaviors,
+                "interview_questions": level_questions
+            }
+
+        return maturity_levels_list
+
     def _convert_to_question_objects(self, questions_dicts: List[Dict], capacity: Capacity) -> List[Question]:
         """Convert question dictionaries to Question objects."""
         questions = []
 
         for q_dict in questions_dicts:
-            # Convert maturity levels
+            # Map evidence to maturity levels before converting to objects
+            maturity_levels_dicts = q_dict.get('maturity_levels', [])
+            evidence_data = q_dict.get('evidence_sources', {})
+
+            # Apply evidence mapping
+            maturity_levels_dicts = self._map_evidence_to_maturity_levels(
+                maturity_levels_dicts,
+                evidence_data
+            )
+
+            # Convert maturity levels to dataclass objects
             maturity_levels = [
-                MaturityLevel(**ml) for ml in q_dict.get('maturity_levels', [])
+                MaturityLevel(**ml) for ml in maturity_levels_dicts
             ]
 
             # Sort by level
