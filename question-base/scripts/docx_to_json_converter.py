@@ -45,15 +45,6 @@ class MaturityLevel:
 
 
 @dataclass
-class EvidenceSources:
-    """Evidence sources for assessing a question."""
-    artifacts: List[str]
-    metrics: List[str]
-    signals_by_level: Dict[str, str]
-    sampling_guidance: str
-
-
-@dataclass
 class Question:
     """Represents a single assessment question."""
     id: str
@@ -61,7 +52,9 @@ class Question:
     title: str
     text: str
     maturity_levels: List[MaturityLevel]
-    evidence_sources: Optional[EvidenceSources] = None
+    artifacts: Optional[List[str]] = None
+    metrics: Optional[List[str]] = None
+    sampling_guidance: Optional[str] = None
     notes: Optional[str] = None
 
 
@@ -621,14 +614,9 @@ class DOCXToJSONConverter:
         """
         Map evidence signals to corresponding maturity levels.
 
-        Uses hybrid approach:
-        - Sections A & B (artifacts, metrics): Applied to ALL maturity levels
-        - Section C (signals_by_level): Level-specific observable behaviors
-        - Section D (sampling_guidance): Stored at evidence_sources level
-
         Args:
             maturity_levels_list: List of maturity level dicts
-            evidence_data: Evidence dict with artifacts, metrics, signals_by_level
+            evidence_data: Evidence dict with signals_by_level
 
         Returns:
             Updated maturity levels list with evidence_signals added
@@ -637,50 +625,24 @@ class DOCXToJSONConverter:
             # No evidence data, add empty structure to all levels
             for ml in maturity_levels_list:
                 ml['evidence_signals'] = {
-                    "artifacts": [],
-                    "metrics": [],
-                    "observable_behaviors": [],
-                    "interview_questions": []
+                    "observable_behaviors": []
                 }
             return maturity_levels_list
 
-        # Extract general artifacts and metrics from Sections A & B
-        general_artifacts = evidence_data.get('artifacts', [])
-        general_metrics = evidence_data.get('metrics', [])
         signals_by_level = evidence_data.get('signals_by_level', {})
 
         # Map evidence to each maturity level
         for ml in maturity_levels_list:
             level_key = f"N{ml['level']}"
-
-            # Start with general artifacts/metrics that apply to all levels
-            level_artifacts = list(general_artifacts)  # Copy general list
-            level_metrics = list(general_metrics)  # Copy general list
             level_behaviors = []
-            level_questions = []
 
-            # Add level-specific evidence from Section C if available
+            # Get level-specific observable behaviors from Section C
             if level_key in signals_by_level and isinstance(signals_by_level[level_key], dict):
                 level_evidence = signals_by_level[level_key]
-
-                # Add level-specific artifacts/metrics if present (override general if specified)
-                if level_evidence.get('artifacts'):
-                    level_artifacts.extend(level_evidence['artifacts'])
-
-                if level_evidence.get('metrics'):
-                    level_metrics.extend(level_evidence['metrics'])
-
-                # Level-specific observable behaviors (from prose format)
                 level_behaviors = level_evidence.get('observable_behaviors', [])
 
-                # Level-specific interview questions
-                level_questions = level_evidence.get('interview_questions', [])
-
             ml['evidence_signals'] = {
-                "artifacts": level_artifacts,
-                "metrics": level_metrics,
-                "observable_behaviors": level_behaviors,
-                "interview_questions": level_questions
+                "observable_behaviors": level_behaviors
             }
 
         return maturity_levels_list
@@ -708,17 +670,15 @@ class DOCXToJSONConverter:
             # Sort by level
             maturity_levels.sort(key=lambda x: x.level)
 
-            # Convert evidence sources
-            evidence_sources = None
+            # Extract evidence data directly to question level
+            artifacts = None
+            metrics = None
+            sampling_guidance = None
             if q_dict.get('evidence_sources'):
                 ev = q_dict['evidence_sources']
-                if ev['artifacts'] or ev['metrics'] or ev['signals_by_level']:
-                    evidence_sources = EvidenceSources(
-                        artifacts=ev['artifacts'],
-                        metrics=ev['metrics'],
-                        signals_by_level=ev['signals_by_level'],
-                        sampling_guidance=ev['sampling_guidance']
-                    )
+                artifacts = ev.get('artifacts', []) if ev.get('artifacts') else None
+                metrics = ev.get('metrics', []) if ev.get('metrics') else None
+                sampling_guidance = ev.get('sampling_guidance', '') if ev.get('sampling_guidance') else None
 
             question = Question(
                 id=q_dict['id'],
@@ -726,7 +686,9 @@ class DOCXToJSONConverter:
                 title=q_dict['title'],
                 text=q_dict['text'],
                 maturity_levels=maturity_levels,
-                evidence_sources=evidence_sources
+                artifacts=artifacts,
+                metrics=metrics,
+                sampling_guidance=sampling_guidance
             )
 
             questions.append(question)
