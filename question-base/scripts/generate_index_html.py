@@ -118,6 +118,9 @@ def parse_markdown_table(md_path: Path, json_data: Dict[str, dict]) -> list:
                 question_json = json_info['question']
                 question_data['text'] = question_json.get('text', '')
                 question_data['maturity_levels'] = question_json.get('maturity_levels', [])
+                question_data['artifacts'] = question_json.get('artifacts', [])
+                question_data['metrics'] = question_json.get('metrics', [])
+                question_data['sampling_guidance'] = question_json.get('sampling_guidance', '')
 
             questions_data.append(question_data)
 
@@ -263,7 +266,7 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
         .question-detail-section {{
             background: rgba(255, 255, 255, 0.98);
             padding: 2rem;
-            padding-bottom: 10rem;
+            padding-bottom: 2rem;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             position: relative;
@@ -408,10 +411,10 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
         }}
 
         .maturity-section {{
-            flex: 0 0 40%;
+            flex: 1 1 auto;
+            min-height: 200px;
             background: rgba(255, 255, 255, 0.98);
-            padding: 2rem;
-            padding-bottom: 10rem;
+            padding: 1.5rem;
             overflow-y: auto;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
@@ -507,7 +510,7 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
         }}
 
         .maturity-levels {{
-            margin-top: 2rem;
+            margin-top: 0.5rem;
         }}
 
         .maturity-levels h3 {{
@@ -1015,6 +1018,39 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
                             <div class="metadata-value">${{questionData.capacity_description}}</div>
                         </div>
                     ` : ''}}
+
+                    ${{(questionData.artifacts && questionData.artifacts.length > 0) || (questionData.metrics && questionData.metrics.length > 0) ? `
+                        <div class="metadata-item">
+                            <div class="evidence-toggle" onclick="toggleQuestionEvidence('${{questionData.question_id}}')" style="cursor: pointer; padding: 0.5rem 0; color: #667eea; font-weight: 600;">
+                                <span id="question-evidence-icon-${{questionData.question_id}}">▶</span>
+                                <span style="margin-left: 0.5rem;">Evidências</span>
+                            </div>
+                            <div id="question-evidence-${{questionData.question_id}}" style="display: none; margin-top: 0.5rem;">
+                                ${{questionData.artifacts && questionData.artifacts.length > 0 ? `
+                                    <div style="margin-bottom: 1rem;">
+                                        <div style="font-weight: 600; color: #2d3748; margin-bottom: 0.5rem;">📄 Artefatos</div>
+                                        <ul style="margin: 0; padding-left: 1.5rem; color: #4a5568;">
+                                            ${{questionData.artifacts.map(item => `<li style="margin-bottom: 0.25rem;">${{item}}</li>`).join('')}}
+                                        </ul>
+                                    </div>
+                                ` : ''}}
+                                ${{questionData.metrics && questionData.metrics.length > 0 ? `
+                                    <div style="margin-bottom: 1rem;">
+                                        <div style="font-weight: 600; color: #2d3748; margin-bottom: 0.5rem;">📊 Métricas/KPIs</div>
+                                        <ul style="margin: 0; padding-left: 1.5rem; color: #4a5568;">
+                                            ${{questionData.metrics.map(item => `<li style="margin-bottom: 0.25rem;">${{item}}</li>`).join('')}}
+                                        </ul>
+                                    </div>
+                                ` : ''}}
+                                ${{questionData.sampling_guidance ? `
+                                    <div>
+                                        <div style="font-weight: 600; color: #2d3748; margin-bottom: 0.5rem;">🎯 Orientações de Amostragem</div>
+                                        <div style="color: #4a5568; line-height: 1.5;">${{questionData.sampling_guidance}}</div>
+                                    </div>
+                                ` : ''}}
+                            </div>
+                        </div>
+                    ` : ''}}
                 </div>
             `;
 
@@ -1035,16 +1071,13 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
                 maturityHTML += '<span class="breadcrumb-item">' + questionData.capacity + '</span>';
                 maturityHTML += '</div>';
 
-                maturityHTML += '<h3 style="margin-bottom: 0.5rem;">Questão: ' + (questionData.text || questionData.title || '') + '</h3>';
-                maturityHTML += '<h4 style="color: #667eea; margin-top: 0.5rem; margin-bottom: 1.5rem; font-size: 1.1rem;">Níveis de Maturidade</h4>';
+                maturityHTML += '<h3 style="margin-bottom: 0.25rem; margin-top: 0.5rem;">Questão: ' + (questionData.text || questionData.title || '') + '</h3>';
+                maturityHTML += '<h4 style="color: #667eea; margin-top: 0.25rem; margin-bottom: 0.75rem; font-size: 1.1rem;">Níveis de Maturidade</h4>';
 
                 levels.forEach((level, index) => {{
-                    const hasEvidence = level.evidence_signals && (
-                        (level.evidence_signals.artifacts && level.evidence_signals.artifacts.length > 0) ||
-                        (level.evidence_signals.metrics && level.evidence_signals.metrics.length > 0) ||
-                        (level.evidence_signals.observable_behaviors && level.evidence_signals.observable_behaviors.length > 0) ||
-                        (level.evidence_signals.interview_questions && level.evidence_signals.interview_questions.length > 0)
-                    );
+                    const hasEvidence = level.evidence_signals &&
+                        level.evidence_signals.observable_behaviors &&
+                        level.evidence_signals.observable_behaviors.length > 0;
 
                     const evidenceId = 'evidence-' + questionIdClean + '-' + level.level;
                     const iconId = 'evidence-icon-' + questionIdClean + '-' + level.level;
@@ -1080,10 +1113,28 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
             highlightQuestionInChart(questionData.question_id);
         }}
 
-        // Toggle evidence section visibility
+        // Toggle evidence section visibility (for maturity levels)
         function toggleEvidence(questionIdClean, levelId) {{
             const contentId = `evidence-${{questionIdClean}}-${{levelId}}`;
             const iconId = `evidence-icon-${{questionIdClean}}-${{levelId}}`;
+            const content = document.getElementById(contentId);
+            const icon = document.getElementById(iconId);
+
+            if (content && icon) {{
+                if (content.style.display === 'none') {{
+                    content.style.display = 'block';
+                    icon.textContent = '▼';
+                }} else {{
+                    content.style.display = 'none';
+                    icon.textContent = '▶';
+                }}
+            }}
+        }}
+
+        // Toggle question-level evidence section
+        function toggleQuestionEvidence(questionId) {{
+            const contentId = `question-evidence-${{questionId}}`;
+            const iconId = `question-evidence-icon-${{questionId}}`;
             const content = document.getElementById(contentId);
             const icon = document.getElementById(iconId);
 
@@ -1102,45 +1153,12 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
         function renderEvidenceSection(signals) {{
             let html = '';
 
-            if (signals.artifacts && signals.artifacts.length > 0) {{
-                html += `
-                    <div class="evidence-category">
-                        <div class="evidence-category-title">📄 Artefatos (${{signals.artifacts.length}})</div>
-                        <ul class="evidence-list">
-                            ${{signals.artifacts.map(item => `<li>${{item}}</li>`).join('')}}
-                        </ul>
-                    </div>
-                `;
-            }}
-
-            if (signals.metrics && signals.metrics.length > 0) {{
-                html += `
-                    <div class="evidence-category">
-                        <div class="evidence-category-title">📊 Métricas/KPIs (${{signals.metrics.length}})</div>
-                        <ul class="evidence-list">
-                            ${{signals.metrics.map(item => `<li>${{item}}</li>`).join('')}}
-                        </ul>
-                    </div>
-                `;
-            }}
-
             if (signals.observable_behaviors && signals.observable_behaviors.length > 0) {{
                 html += `
                     <div class="evidence-category">
                         <div class="evidence-category-title">👁️ Comportamentos Observáveis (${{signals.observable_behaviors.length}})</div>
                         <ul class="evidence-list">
                             ${{signals.observable_behaviors.map(item => `<li>${{item}}</li>`).join('')}}
-                        </ul>
-                    </div>
-                `;
-            }}
-
-            if (signals.interview_questions && signals.interview_questions.length > 0) {{
-                html += `
-                    <div class="evidence-category">
-                        <div class="evidence-category-title">💬 Perguntas para Entrevista (${{signals.interview_questions.length}})</div>
-                        <ul class="evidence-list">
-                            ${{signals.interview_questions.map(item => `<li>${{item}}</li>`).join('')}}
                         </ul>
                     </div>
                 `;
