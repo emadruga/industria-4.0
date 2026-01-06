@@ -182,16 +182,13 @@ class EvidenceExtractor:
         Extract detailed signals organized by maturity level.
 
         Supports two formats:
-        1. Structured format with subsections (Artefatos:, Métricas:, etc.)
+        1. Structured format with subsections (Comportamentos Observáveis:)
         2. Prose format with semicolon-separated observable behaviors
 
         Returns:
             {
                 "N0": {
-                    "artifacts": [...],
-                    "metrics": [...],
-                    "observable_behaviors": [...],
-                    "interview_questions": [...]
+                    "observable_behaviors": [...]
                 },
                 "N1": {...}
             }
@@ -207,27 +204,18 @@ class EvidenceExtractor:
             content = match.group(2).strip()
 
             # Try structured format first (with subsection headers)
-            artifacts = self._extract_subsection(content, r"Artefatos|Artifacts")
-            metrics = self._extract_subsection(content, r"Métricas|KPIs|Metrics")
             behaviors = self._extract_subsection(
                 content,
                 r"Comportamentos|Sinais|Observable|Behaviors|Comportamentos Observáveis"
             )
-            questions = self._extract_subsection(
-                content,
-                r"Perguntas|Questions|Interview|Perguntas para Entrevista"
-            )
 
             # If no subsections found, treat entire content as prose observable behaviors
-            if not any([artifacts, metrics, behaviors, questions]):
+            if not behaviors:
                 # Parse prose format: split by semicolons and periods
                 behaviors = self._parse_prose_behaviors(content)
 
             signals[level] = {
-                "artifacts": artifacts,
-                "metrics": metrics,
-                "observable_behaviors": behaviors,
-                "interview_questions": questions
+                "observable_behaviors": behaviors
             }
 
         return signals
