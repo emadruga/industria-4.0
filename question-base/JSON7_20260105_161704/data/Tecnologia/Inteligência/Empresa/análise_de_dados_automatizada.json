@@ -1,0 +1,415 @@
+{
+  "capacity": {
+    "id": "CAP-TEC-INTELI-CORPOR-002",
+    "name": "Análise de dados automatizada",
+    "block": "Tecnologia",
+    "pilar": "Inteligência",
+    "dimension": "Empresa",
+    "description": "Refere-se à capacidade dos sistemas de informação de agregar dados continuamente para gerar informações, extrair conhecimento e fornecer suporte às decisões dos usuários. Isso requer a habilidade de identificar automaticamente relações de causa e efeito a partir de diversas fontes de dados e prever eventos futuros por meio de simulações e outros métodos. A análise não se limita a correlações conhecidas, mas também busca identificar novos padrões nos dados para promover um aprendizado contínuo. Em estágios avançados, algoritmos de otimização integram os impactos de eventos previstos (como uma falha) para gerar recomendações e ações de forma autônoma.",
+    "related_capacities": [
+      "Entrega de dados contextualizada Interface de usuário específica da aplicação Infraestrutura de TI resiliente Integração horizontal e vertical Governança de dados Interface de dados padrão Segurança de TI"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Cristiano Gurgel Castro",
+      "version": "1.0",
+      "last_updated": "2026-01-05",
+      "source_docx": "0891_Dimensão Enterprise_cgcastro.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-TEC-INTELI-CORPOR-002-001",
+      "question_number": 1,
+      "title": "Como a empresa utiliza a análise automatizada de dados para",
+      "text": "Como a empresa utiliza a análise automatizada de dados para gerar insights e dar suporte à tomada de decisão?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "As decisões são baseadas puramente na experiência e intuição dos colaboradores, sem qualquer uso de dados de processo ou operacionais para análise.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "A equipe reage aos problemas (ex: quebra de máquina) apenas depois que eles ocorrem",
+              "A discussão sobre as causas é baseada em \"achismos\""
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Os dados são coletados e armazenados em sistemas isolados, sendo utilizados para a criação de relatórios simples e pré-programados, sem capacidade de análise aprofundada.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "A equipe reage aos problemas (ex: quebra de máquina) apenas depois que eles ocorrem",
+              "A discussão sobre as causas é baseada em \"achismos\""
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os dados de diferentes sistemas de TI e TO são consolidados, mas a análise ainda é realizada manualmente pelos colaboradores para identificar desvios e tendências.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Existem planilhas ou relatórios básicos que mostram dados de produção passados, mas a equipe leva tempo para cruzar informações e entender o que aconteceu"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A empresa utiliza painéis e dashboards que monitoram os processos em tempo real, permitindo a visualização do status atual (o que está acontecendo) e a identificação de desvios em relação a parâmetros predefinidos.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Telas e painéis na fábrica mostram em tempo real o status da produção e alertam visualmente quando um indicador (ex: velocidade da linha) sai do padrão"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "São utilizadas ferramentas de análise de dados para realizar diagnósticos e análises de causa raiz, permitindo à empresa compreender por que os eventos ocorrem (por que está acontecendo) e identificar correlações entre diferentes variáveis.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Diante de um problema de qualidade, a equipe utiliza ferramentas que analisam dados de processo de diversas fontes para apontar as prováveis causas, como a variação de um parâmetro específico"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "A empresa emprega modelos e algoritmos (ex",
+          "description": "machine learning) para analisar dados históricos e em tempo real, prevendo eventos futuros como falhas de equipamentos, problemas de qualidade ou variações na demanda (o que vai acontecer).",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "O sistema de manutenção envia uma ordem de serviço para inspecionar um motor, informando que há 85% de chance de ele falhar nas próximas 48 horas com base na análise de dados de vibração e temperatura"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Os sistemas de TI são capazes não apenas de prever eventos futuros, mas também de executar decisões de forma autônoma ou fornecer recomendações otimizadas para adaptar os processos em tempo real, visando a auto-otimização.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "O sistema de planejamento, ao prever um possível atraso na entrega de um pedido devido a uma redução na eficiência de uma máquina, automaticamente reajusta a sequência de produção para minimizar o impacto, sem intervenção humana"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Relatórios e Dashboards de BI: Verificar sistemas como ERP, MES, SCADA ou plataformas de Business Intelligence para painéis de monitoramento de KPIs em tempo real. Documentação de Ferramentas de Análise: Acessar a documentação de plataformas de data analytics, modelos de machine learning e algoritmos de simulação utilizados. Registros de Análise de Causa Raiz (RCA): Solicitar relatórios de análises de falhas ou problemas de qualidade para verificar se a causa foi identificada com base em dados. Sistema de Alertas Preditivos: Analisar logs e registros do sistema de manutenção preditiva para confirmar a emissão de alertas antes da ocorrência de falhas. Configuração de Regras de Decisão Autônoma: Inspecionar as configurações em sistemas (MES, sistemas de planejamento) que demonstrem a execução de ações automáticas baseadas em análises de dadosA) Artefatos e onde buscar."
+        ],
+        "metrics": [
+          "Métricas/KPIs Eficiência Global dos Equipamentos (OEE): Melhorias no OEE podem indicar uma análise de dados mais eficaz para reduzir perdas. Tempo Médio Entre Falhas (MTBF): Um aumento no MTBF pode ser um indicador do sucesso da manutenção preditiva. Índice de Rendimento na Primeira Passagem (FPY): Aumento nos índices de qualidade pode ser resultado da predição e prevenção de defeitos. Redução de Paradas Não Planejadas: Quantificar a diminuição de paradas de máquinas como resultado de análises preditivas. Acuracidade das Previsões: Medir a precisão dos modelos preditivos (ex: previsão de demanda, previsão de falhas)."
+        ],
+        "sampling_guidance": "Amostragem Entrevistas: Conversar com gestores de produção, manutenção, qualidade e engenheiros de processo. Perguntar como eles identificam a causa de um problema recorrente. Demonstração Prática: Pedir a um analista ou engenheiro que demonstre, usando as ferramentas da empresa, como um conjunto de dados brutos é transformado em uma informação acionável (ex: um insight para melhoria de processo). Análise de Caso: Selecionar uma parada de máquina ou um desvio de qualidade ocorrido recentemente e rastrear como o evento foi detectado, analisado, solucionado e se foram tomadas ações para prevenir sua recorrência com base em dados. Observação: Acompanhar uma reunião de gerenciamento da produção (Shop Floor Management) para observar se as discussões e decisões são guiadas por dados apresentados em tempo real."
+      }
+    },
+    {
+      "id": "Q-TEC-INTELI-CORPOR-002-002",
+      "question_number": 2,
+      "title": "Qual é a abrangência da análise automatizada de dados?",
+      "text": "Qual é a abrangência da análise automatizada de dados?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Nenhuma análise de dados automatizada é realizada na empresa.",
+          "evidence_signals": {
+            "observable_behaviors": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "A análise automatizada é usada de forma isolada, focada em um único ativo, parâmetro ou processo (ex",
+          "description": "monitorar a vibração de um motor específico ou a contagem de peças de uma máquina).",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "O supervisor de uma máquina só consegue ver os dados daquela máquina"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A análise é usada para otimizar múltiplos processos ou áreas de forma independente (em silos), sem integração entre eles",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "O gerente de produção vê o OEE de todas as linhas em um painel, mas não sabe o custo financeiro de uma parada"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "A análise integra dados de múltiplos processos e sistemas dentro de um mesmo domínio funcional (ex",
+          "description": "integração de dados de todas as máquinas do shop floor para otimizar o fluxo de produção e identificar gargalos).",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "O gerente da fábrica consegue ver em um dashboard qual linha está sendo o gargalo e como isso afeta o plano de produção geral do dia"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "A análise integra dados de forma vertical, conectando o shop floor (TI/TO) com sistemas de gestão corporativa (Enterprise), como ERP ou SCM (ex",
+          "description": "analisar como o OEE da produção impacta o custo financeiro do produto no ERP).",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "O gerente financeiro (Controller) recebe um relatório que mostra como a queda de eficiência de 5% na Linha 3 aumentou o custo real do \"Pedido X\" em 2%"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "A análise integra dados verticalmente (fábrica + gestão) e horizontalmente, incluindo dados de parceiros externos (ex",
+          "description": "fornecedores ou clientes) para otimizar processos (ex: prever como um atraso de matéria-prima impactará o OEE).",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "O sistema de compras dispara um alerta de risco, informando que a produção está 10% acima do planejado e que, se o fornecedor \"Y\" não adiantar a entrega, a linha irá parar em 48 horas"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A análise de dados é holística e dinâmica, abrangendo todo o ecossistema (fornecedores, logística, produção, clientes, dados de mercado) para permitir a otimização e adaptação autônoma da cadeia de valor em tempo real.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "O sistema analisa a previsão de vendas, a capacidade real da fábrica e o custo de energia (variável), e sugere automaticamente um novo mix de produção para o próximo turno para maximizar a margem de lucro"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Mapas de Fluxo de Dados (Data Flow Diagrams): Verificar na documentação de TI como os dados fluem entre sistemas (ex: MES -> ERP -> SCM). Dashboards Gerenciais (BI): Analisar os dashboards de nível estratégico. Verificar se eles cruzam dados de produção (ex: OEE, sucata) com dados financeiros (ex: Custo por Unidade, margem) ou dados de vendas (ex: On-Time Delivery). Documentação de APIs e Integrações: Solicitar à equipe de TI os artefatos que comprovem a integração de dados entre sistemas internos (MES, ERP) e externos (portais de fornecedores, sistemas de logística). Relatórios de Custo do Produto: Verificar se os relatórios de custo utilizam dados de eficiência e consumo reais vindos automaticamente do chão de fábrica."
+        ],
+        "metrics": [
+          "Métricas/KPIs Custo Total da Qualidade (Total Cost of Quality): Analisar se a métrica é calculada automaticamente integrando dados de sucata/retrabalho (MES) com custos de garantia (CRM) e custos de material (ERP). Giro de Estoque (Inventory Turnover): Um giro de estoque otimizado pode indicar uma boa integração entre a previsão de demanda (CRM/SCM) e o ritmo de produção (MES). Acuracidade da Previsão de Demanda (Demand Forecast Accuracy): Verificar se a previsão de vendas é ajustada automaticamente com base na capacidade de produção real. On-Time In-Full (OTIF): Medir o OTIF como um indicador da integração entre planejamento, produção e logística."
+        ],
+        "sampling_guidance": "Amostragem Entrevistas (Funções Cruzadas): Conversar com o Gerente de TI, Gerente de Produção e o Controller (Gerente Financeiro). Perguntas-chave: Para o Controller: \"Como você sabe o custo real de um produto que acabou de ser fabricado? Você usa dados automáticos da fábrica para isso?\" Para o Gerente de TI: \"Me mostre o mapa de integração de dados. O MES fala com o ERP? E com o SCM?\" Para o Gerente de Produção: \"Quando um cliente liga para Vendas perguntando do pedido dele, o vendedor consegue saber em que pé está a produção em tempo real?\""
+      }
+    },
+    {
+      "id": "Q-TEC-INTELI-CORPOR-002-003",
+      "question_number": 3,
+      "title": "Qual é a natureza dos sistemas de análise de dados?",
+      "text": "Qual é a natureza dos sistemas de análise de dados?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Nenhuma análise é realizada; os processos são executados com base na intuição e experiência.",
+          "evidence_signals": {
+            "observable_behaviors": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "A análise é 100% manual. Os dados são exportados (ex",
+          "description": "CSV) e analisados manualmente em ferramentas de planilha (ex: Excel).",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Se a máquina quebra, eu chamo o operador mais antigo, ele sabe o que fazer"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "A análise é automatizada, mas limitada a regras fixas e pré-programadas (ex",
+          "description": "scripts SQL, relatórios de BI) para exibir dados históricos ou em tempo real (ex: \"mostrar todas as paradas > 5 min\").",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Eu tenho um dashboard que me mostra as paradas de ontem, aí eu investigo"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Os sistemas aplicam regras de diagnóstico complexas (árvores de decisão, expert systems) que foram definidas manualmente por especialistas para identificar causas conhecidas (ex",
+          "description": "\"Se Temp > 80 E Vibração > 5, ENTÃO Causa Provável = Falha no Rolamento\").",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Nós programamos o sistema para alertar sempre que a pressão X e a temperatura Y saem da faixa que o engenheiro definiu"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "A empresa utiliza modelos preditivos (ex",
+          "description": "regressão, forecasting) que são treinados por especialistas (ex: Cientistas de Dados) e depois implantados no sistema. O modelo é estático até ser manualmente retreinado.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Nossa equipe de dados criou um modelo que prevê o risco de parada",
+              "Ele é atualizado a cada 3 meses, quando eles rodam o treinamento de novo"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "A empresa utiliza ativamente técnicas de Machine Learning (ex",
+          "description": "clustering, redes neurais) para descobrir novas correlações, anomalias e padrões nos dados que não eram previamente conhecidos pelos especialistas.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"O sistema de IA analisou 6 meses de dados e descobriu que a maioria das nossas falhas de qualidade acontece 3 horas após a troca de turno, mas apenas quando usamos o material do Fornecedor B",
+              "Não sabíamos disso\"6"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Os sistemas são adaptativos e utilizam autoaprendizado (ex",
+          "description": "online learning, reinforcement learning), ajustando seus próprios modelos e algoritmos continuamente à medida que novos dados chegam, sem a necessidade de intervenção humana.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"O algoritmo que otimiza o consumo de energia do forno se ajusta sozinho",
+              "Ele percebe a variação na umidade da matéria-prima e recalcula os parâmetros de queima em tempo real, sem ninguém pedir"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Repositórios de Código/Scripts: Verificar a existência de scripts SQL (Nível 2) vs. scripts de Python/R com bibliotecas de ML (ex: Scikit-learn, TensorFlow) (Nível 4/5). Documentação de Sistemas (MES/SCADA): Procurar por módulos de \"Sistemas Especialistas\" (Expert Systems) ou \"Motores de Regras\" (BRMS) (Nível 3). Documentação de Projetos de Ciência de Dados: Acessar notebooks (ex: Jupyter) ou relatórios de projetos de Data Science que detalhem o processo de \"descoberta\" (EDA) e modelagem (Nível 5). Plataformas de MLOps/Auto-ML: Verificar o uso de ferramentas que gerenciam o ciclo de vida de modelos, especialmente o retreinamento automático e monitoramento de model drift (Nível 6)."
+        ],
+        "metrics": [
+          "Métricas/KPIs Taxa de Descoberta de Insights: Número de novas correlações de processo (causadoras de falhas ou melhorias) identificadas pelo sistema vs. por humanos. Acuracidade do Modelo (Model Accuracy/Precision/Recall): Verificar se essa métrica é monitorada e se há um processo de retreinamento. Velocidade de Adaptação do Modelo (Model Drift): Medir quanto tempo um modelo leva para se tornar obsoleto e com que frequência ele é atualizado (manual vs. automático). Número de Regras de Negócio Manuais vs. Modelos de ML em produção."
+        ],
+        "sampling_guidance": "Amostragem Entrevistas: Conversar com Engenheiros de Processo, Cientistas de Dados (se existirem), Gerentes de TI e Analistas de BI. Perguntas-chave: \"Quando vocês encontram um problema novo, quem define a 'regra' para o sistema detectar esse problema no futuro? O sistema aprende sozinho ou um especialista precisa programá-lo?\" \"Me mostre um exemplo de um insight ou correlação que o sistema descobriu sozinho, que a equipe de engenharia não conhecia.\" \"Com que frequência os modelos preditivos são atualizados (retreinados)? Quem faz isso?\""
+      }
+    },
+    {
+      "id": "Q-TEC-INTELI-CORPOR-002-004",
+      "question_number": 4,
+      "title": "Com que frequência e velocidade a análise de dados é executa",
+      "text": "Com que frequência e velocidade a análise de dados é executada e os resultados são disponibilizados para a tomada de decisão?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A análise de dados não é realizada; as decisões são tomadas com base na percepção imediata do evento.",
+          "evidence_signals": {
+            "observable_behaviors": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A análise é puramente manual e ad-hoc (sob demanda). A geração de um relatório ou insight pode levar dias ou semanas após a coleta dos dados.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Ao final do mês, rodamos o relatório e vemos o que aconteceu"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "A análise é automatizada, mas executada em lotes (batch) com baixa frequência (ex",
+          "description": "diária, semanal ou mensal). As decisões são sempre baseadas em dados históricos (ex: D-1 ou S-1).",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Toda manhã, na reunião das 8h, olhamos o relatório da produção do dia anterior para definir as ações de hoje"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "A análise é executada em intervalos frequentes (ex",
+          "description": "a cada hora), permitindo uma visão \"quase em tempo real\" (near real-time) e a tomada de decisões táticas dentro de um mesmo turno ou dia de trabalho.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Eu atualizo o painel a cada hora para ver se estamos dentro da meta do turno"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A análise é executada em tempo real (real-time). Os dados são processados e os insights (diagnósticos, alertas) são gerados em segundos após o evento, permitindo uma resposta humana imediata.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"O painel ficou vermelho 3 segundos depois que a máquina parou, e o operador já recebeu o alarme no tablet dele"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A análise em tempo real é usada para simular cenários futuros imediatos ou fornecer recomendações preditivas, permitindo que a equipe tome decisões proativas antes que um problema se agrave.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"O sistema detectou uma vibração anômala e imediatamente simulou o impacto disso na ordem de produção, recomendando ao planejador uma troca de ferramenta na próxima parada programada"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A análise em tempo real aciona diretamente ações corretivas ou adaptativas de forma autônoma (ciclo fechado ou closed-loop), muitas vezes sem necessidade de intervenção humana, eliminando a latência de decisão.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"O sistema detectou a variação na viscosidade do material e ajustou automaticamente a velocidade da linha para manter a qualidade do produto, sem que ninguém precisasse intervir"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Arquitetura de Dados: Verificar se a arquitetura é baseada em data warehouse (geralmente batch, Nível 2) ou em plataformas de streaming de dados (ex: Kafka, Spark Streaming) (Nível 4+). Agendadores de Tarefas (Schedulers): Verificar a frequência de execução de jobs de ETL (Extração, Transformação e Carga) ou de análise (ex: \"rodar todo dia às 02:00\" vs. \"a cada 5 minutos\"). Logs de Atualização de Dashboards: Verificar o timestamp da última atualização de dados nos painéis de BI e MES. Documentação de Arquitetura de Software: Procurar por termos como \"processamento de eventos complexos\" (CEP) ou \"arquitetura orientada a eventos\" (EDA), que indicam Nível 4+."
+        ],
+        "metrics": [
+          "Métricas/KPIs Latência de Insight (Insight Latency): Tempo entre a ocorrência de um evento e a disponibilização da informação sobre ele. Latência de Análise (Analysis Latency): Tempo necessário para analisar os dados e entender a causa raiz do evento. Latência de Decisão (Decision Latency): Tempo para aprovar uma (contra)medida com base na análise. Tempo de Ciclo (Cycle Time) da Análise: O tempo total desde a captura do dado até a geração do insight."
+        ],
+        "sampling_guidance": "Amostragem Observação Direta: Ficar ao lado de um operador ou supervisor e perguntar qual a data/hora dos dados que ele está vendo em seu painel de controle. Teste Prático: Forçar uma condição de parada (simulada ou real, se seguro) em um equipamento e cronometrar quanto tempo leva para o sistema de gerenciamento (MES/SCADA) refletir essa mudança. Entrevistas (TI + Operações): Para TI: \"Qual é a frequência de atualização dos nossos principais bancos de dados de produção? Os dados são processados em lote ou via streaming?\" Para Operações: \"Se uma meta de produção é perdida, quando você descobre? Agora, no final do turno, ou só amanhã?\""
+      }
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}
