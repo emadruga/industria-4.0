@@ -1,0 +1,2023 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-PRONTI-APREND-014",
+    "name": "Reconhecer o valor dos erros",
+    "block": "Organização",
+    "pilar": "Prontidão de Talentos",
+    "dimension": "Aprendizado e Desenvolvimento da Força de Trabalho",
+    "description": "A capacidade de reconhecer o valor dos erros (Recognise the value of mistakes) reflete o grau de maturidade cultural e de aprendizado organizacional frente à inovação, experimentação e transformação digital. Uma cultura que reconhece o valor dos erros não os encara como falhas individuais, mas como fontes de aprendizado coletivo e oportunidades de inovação. Isso é especialmente relevante em contextos digitais e industriais complexos, onde a experimentação e a adaptação são constantes. À medida que a maturidade aumenta, a organização passa de uma postura punitiva e avessa ao risco para um ambiente seguro psicologicamente, transparente e orientado por dados, no qual os erros são analisados, documentados e convertidos em conhecimento útil. Nos níveis mais altos, a organização torna-se autodidata , com processos sistematizados de reflexão, análise e compartilhamento das lições aprendidas, fomentando inovação contínua e resiliência frente à mudança. Essa capacidade sustenta o princípio da disposição à mudança definido pelo modelo ACATECH, fortalecendo o alinhamento entre pessoas, processos e tecnologia — e criando as condições culturais necessárias para a transformação digital sustentável. Este formulário detalhado é um híbrido que utiliza a dimensão D13 (Workforce Learning & Development) do SIRI como âncora, mas avalia a capacidade 'Reconhecer o valor dos erros' com a profundidade da área de 'Cultura' do modelo acatech.",
+    "related_capacities": [
+      "Aprendizagem organizacional orientada à reflexão",
+      "Cultura de segurança psicológica",
+      "Mecanismos formais de captura e disseminação do aprendizado",
+      "Gestão de riscos e inovação responsável",
+      "Liderança orientada ao aprendizado",
+      "Feedback contínuo e melhoria adaptativa",
+      "Integração do aprendizado com os sistemas digitais",
+      "Cultura de inovação e experimentação contínua."
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Flavia Agostini",
+      "version": "1.0",
+      "last_updated": "2025-12-28",
+      "source_docx": "Organizacao - Reconhecer o valor dos erros.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-PRONTI-APREND-014-001",
+      "question_number": 1,
+      "title": "Cultura de aprendizado a partir de erros",
+      "text": "Em que medida os erros e falhas são analisados e utilizados como oportunidades de aprendizado dentro da organização?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Os erros são ignorados ou tratados apenas como falhas individuais.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de não conformidades, incidentes e lições aprendidas. Registros de reuniões de post-mortem, retrospectivas ou after-action reviews. Planos de melhoria contínua e indicadores de eficácia de correções. Repositórios digitais de conhecimento organizacional. Documentos de políticas internas sobre gestão de erros e aprendizado."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de erros analisados versus ocorridos. Tempo médio entre ocorrência e ação corretiva. Número de melhorias implementadas a partir de falhas. Engajamento dos colaboradores em processos de aprendizado pós-incidente. Taxa de redução de reincidência de erros. Redução do Custo da Não-Qualidade (CNQ) melhoria no OEE (Overall Equipment Effectiveness) pela redução de paradas não planejadas."
+            ],
+            "observable_behaviors": [
+              "Erros tratados com punição, sem aprendizado",
+              "Inexistência de registros ou discussões estruturadas"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Há reconhecimento informal dos erros, mas sem processos estruturados de análise ou aprendizado.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de não conformidades, incidentes e lições aprendidas. Registros de reuniões de post-mortem, retrospectivas ou after-action reviews. Planos de melhoria contínua e indicadores de eficácia de correções. Repositórios digitais de conhecimento organizacional. Documentos de políticas internas sobre gestão de erros e aprendizado."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de erros analisados versus ocorridos. Tempo médio entre ocorrência e ação corretiva. Número de melhorias implementadas a partir de falhas. Engajamento dos colaboradores em processos de aprendizado pós-incidente. Taxa de redução de reincidência de erros. Redução do Custo da Não-Qualidade (CNQ) melhoria no OEE (Overall Equipment Effectiveness) pela redução de paradas não planejadas."
+            ],
+            "observable_behaviors": [
+              "Discussões informais sobre erros, sem registro"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Alguns registros digitais de erros ou incidentes são mantidos, porém sem aplicação prática sistemática.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de não conformidades, incidentes e lições aprendidas. Registros de reuniões de post-mortem, retrospectivas ou after-action reviews. Planos de melhoria contínua e indicadores de eficácia de correções. Repositórios digitais de conhecimento organizacional. Documentos de políticas internas sobre gestão de erros e aprendizado."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de erros analisados versus ocorridos. Tempo médio entre ocorrência e ação corretiva. Número de melhorias implementadas a partir de falhas. Engajamento dos colaboradores em processos de aprendizado pós-incidente. Taxa de redução de reincidência de erros. Redução do Custo da Não-Qualidade (CNQ) melhoria no OEE (Overall Equipment Effectiveness) pela redução de paradas não planejadas."
+            ],
+            "observable_behaviors": [
+              "Registros digitais isolados, sem retorno ao processo"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os erros são analisados periodicamente e geram planos de ação ou revisões de processo.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de não conformidades, incidentes e lições aprendidas. Registros de reuniões de post-mortem, retrospectivas ou after-action reviews. Planos de melhoria contínua e indicadores de eficácia de correções. Repositórios digitais de conhecimento organizacional. Documentos de políticas internas sobre gestão de erros e aprendizado."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de erros analisados versus ocorridos. Tempo médio entre ocorrência e ação corretiva. Número de melhorias implementadas a partir de falhas. Engajamento dos colaboradores em processos de aprendizado pós-incidente. Taxa de redução de reincidência de erros. Redução do Custo da Não-Qualidade (CNQ) melhoria no OEE (Overall Equipment Effectiveness) pela redução de paradas não planejadas."
+            ],
+            "observable_behaviors": [
+              "Análises pontuais de causa e impacto com ações corretivas isoladas"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Há mecanismos formais de coleta, análise e disseminação de lições aprendidas a partir de erros.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de não conformidades, incidentes e lições aprendidas. Registros de reuniões de post-mortem, retrospectivas ou after-action reviews. Planos de melhoria contínua e indicadores de eficácia de correções. Repositórios digitais de conhecimento organizacional. Documentos de políticas internas sobre gestão de erros e aprendizado."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de erros analisados versus ocorridos. Tempo médio entre ocorrência e ação corretiva. Número de melhorias implementadas a partir de falhas. Engajamento dos colaboradores em processos de aprendizado pós-incidente. Taxa de redução de reincidência de erros. Redução do Custo da Não-Qualidade (CNQ) melhoria no OEE (Overall Equipment Effectiveness) pela redução de paradas não planejadas."
+            ],
+            "observable_behaviors": [
+              "Lições aprendidas documentadas e compartilhadas com indicadores de prevenção"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados históricos e análises de erros são utilizados para prever falhas e antecipar melhorias.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de não conformidades, incidentes e lições aprendidas. Registros de reuniões de post-mortem, retrospectivas ou after-action reviews. Planos de melhoria contínua e indicadores de eficácia de correções. Repositórios digitais de conhecimento organizacional. Documentos de políticas internas sobre gestão de erros e aprendizado."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de erros analisados versus ocorridos. Tempo médio entre ocorrência e ação corretiva. Número de melhorias implementadas a partir de falhas. Engajamento dos colaboradores em processos de aprendizado pós-incidente. Taxa de redução de reincidência de erros. Redução do Custo da Não-Qualidade (CNQ) melhoria no OEE (Overall Equipment Effectiveness) pela redução de paradas não planejadas."
+            ],
+            "observable_behaviors": [
+              "Análises preditivas e integração com dados históricos",
+              "Aprendizado integrado à gestão de riscos"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema de aprendizado é contínuo e automatizado, com feedback em tempo real e atualização dinâmica de processos a partir dos erros detectados.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de não conformidades, incidentes e lições aprendidas. Registros de reuniões de post-mortem, retrospectivas ou after-action reviews. Planos de melhoria contínua e indicadores de eficácia de correções. Repositórios digitais de conhecimento organizacional. Documentos de políticas internas sobre gestão de erros e aprendizado."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de erros analisados versus ocorridos. Tempo médio entre ocorrência e ação corretiva. Número de melhorias implementadas a partir de falhas. Engajamento dos colaboradores em processos de aprendizado pós-incidente. Taxa de redução de reincidência de erros. Redução do Custo da Não-Qualidade (CNQ) melhoria no OEE (Overall Equipment Effectiveness) pela redução de paradas não planejadas."
+            ],
+            "observable_behaviors": [
+              "Sistema adaptativo e aprendizado em tempo real"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Relatórios de não conformidades, incidentes e lições aprendidas. Registros de reuniões de post-mortem, retrospectivas ou after-action reviews. Planos de melhoria contínua e indicadores de eficácia de correções. Repositórios digitais de conhecimento organizacional. Documentos de políticas internas sobre gestão de erros e aprendizado."
+        ],
+        "metrics": [
+          "Métricas/KPIs Percentual de erros analisados versus ocorridos. Tempo médio entre ocorrência e ação corretiva. Número de melhorias implementadas a partir de falhas. Engajamento dos colaboradores em processos de aprendizado pós-incidente. Taxa de redução de reincidência de erros. Redução do Custo da Não-Qualidade (CNQ) melhoria no OEE (Overall Equipment Effectiveness) pela redução de paradas não planejadas."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Erros tratados com punição, sem aprendizado",
+              "Inexistência de registros ou discussões estruturadas"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Discussões informais sobre erros, sem registro"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Registros digitais isolados, sem retorno ao processo"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Análises pontuais de causa e impacto com ações corretivas isoladas"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Lições aprendidas documentadas e compartilhadas com indicadores de prevenção"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Análises preditivas e integração com dados históricos",
+              "Aprendizado integrado à gestão de riscos"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Sistema adaptativo e aprendizado em tempo real"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Selecionar 5–10 incidentes ou falhas relevantes (operacionais, de projeto ou de produto) ocorridos nos últimos 6 a 12 meses. Verificar existência de registros, análises de causa e planos de melhoria. Avaliar se as lições aprendidas foram compartilhadas entre áreas e se houve monitoramento de reincidência."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-014-002",
+      "question_number": 2,
+      "title": "Segurança psicológica e transparência",
+      "text": "Até que ponto os colaboradores se sentem seguros para relatar erros, propor melhorias e compartilhar experiências sem receio de punição?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Há medo de punição e pouca abertura para diálogo sobre erros ou melhorias.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Pesquisas de clima e engajamento organizacional. Registros de feedbacks, comunicações internas e canais de denúncia. Políticas de cultura, diversidade e comportamento ético. Relatórios de gestão de pessoas e de liderança. Entrevistas e grupos focais sobre percepção de segurança psicológica."
+            ],
+            "metrics": [
+              "Métricas/KPIs Índice de segurança psicológica (em pesquisas internas). Taxa de engajamento e confiança em lideranças. Volume de feedbacks registrados por canal oficial. Taxa de retenção de talentos e rotatividade voluntária. Número de ideias ou melhorias propostas por colaboradores. Redução na taxa de rotatividade (turnover) Aumento no índice de inovação (nº de ideias/colaborador) Melhoria na pontuação de E-NPS (Employee Net Promoter Score)."
+            ],
+            "observable_behaviors": [
+              "Cultura punitiva e hierárquica"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A liderança comunica abertura, mas na prática prevalece a aversão a erros e críticas.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Pesquisas de clima e engajamento organizacional. Registros de feedbacks, comunicações internas e canais de denúncia. Políticas de cultura, diversidade e comportamento ético. Relatórios de gestão de pessoas e de liderança. Entrevistas e grupos focais sobre percepção de segurança psicológica."
+            ],
+            "metrics": [
+              "Métricas/KPIs Índice de segurança psicológica (em pesquisas internas). Taxa de engajamento e confiança em lideranças. Volume de feedbacks registrados por canal oficial. Taxa de retenção de talentos e rotatividade voluntária. Número de ideias ou melhorias propostas por colaboradores. Redução na taxa de rotatividade (turnover) Aumento no índice de inovação (nº de ideias/colaborador) Melhoria na pontuação de E-NPS (Employee Net Promoter Score)."
+            ],
+            "observable_behaviors": [
+              "Discurso de abertura sem prática efetiva"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existem canais digitais de comunicação interna, mas pouco utilizados para feedback transparente.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Pesquisas de clima e engajamento organizacional. Registros de feedbacks, comunicações internas e canais de denúncia. Políticas de cultura, diversidade e comportamento ético. Relatórios de gestão de pessoas e de liderança. Entrevistas e grupos focais sobre percepção de segurança psicológica."
+            ],
+            "metrics": [
+              "Métricas/KPIs Índice de segurança psicológica (em pesquisas internas). Taxa de engajamento e confiança em lideranças. Volume de feedbacks registrados por canal oficial. Taxa de retenção de talentos e rotatividade voluntária. Número de ideias ou melhorias propostas por colaboradores. Redução na taxa de rotatividade (turnover) Aumento no índice de inovação (nº de ideias/colaborador) Melhoria na pontuação de E-NPS (Employee Net Promoter Score)."
+            ],
+            "observable_behaviors": [
+              "Comunicação digital unidirecional"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os colaboradores são encorajados a compartilhar experiências e aprendizados sem retaliação.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Pesquisas de clima e engajamento organizacional. Registros de feedbacks, comunicações internas e canais de denúncia. Políticas de cultura, diversidade e comportamento ético. Relatórios de gestão de pessoas e de liderança. Entrevistas e grupos focais sobre percepção de segurança psicológica."
+            ],
+            "metrics": [
+              "Métricas/KPIs Índice de segurança psicológica (em pesquisas internas). Taxa de engajamento e confiança em lideranças. Volume de feedbacks registrados por canal oficial. Taxa de retenção de talentos e rotatividade voluntária. Número de ideias ou melhorias propostas por colaboradores. Redução na taxa de rotatividade (turnover) Aumento no índice de inovação (nº de ideias/colaborador) Melhoria na pontuação de E-NPS (Employee Net Promoter Score)."
+            ],
+            "observable_behaviors": [
+              "Feedback e escuta ativa implantados"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A organização mede o nível de segurança psicológica e adota planos de melhoria baseados em dados de clima e engajamento.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Pesquisas de clima e engajamento organizacional. Registros de feedbacks, comunicações internas e canais de denúncia. Políticas de cultura, diversidade e comportamento ético. Relatórios de gestão de pessoas e de liderança. Entrevistas e grupos focais sobre percepção de segurança psicológica."
+            ],
+            "metrics": [
+              "Métricas/KPIs Índice de segurança psicológica (em pesquisas internas). Taxa de engajamento e confiança em lideranças. Volume de feedbacks registrados por canal oficial. Taxa de retenção de talentos e rotatividade voluntária. Número de ideias ou melhorias propostas por colaboradores. Redução na taxa de rotatividade (turnover) Aumento no índice de inovação (nº de ideias/colaborador) Melhoria na pontuação de E-NPS (Employee Net Promoter Score)."
+            ],
+            "observable_behaviors": [
+              "Avaliação sistemática de confiança e engajamento"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Análises de engajamento e clima organizacional são usadas para prever riscos de desconfiança e desmotivação.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Pesquisas de clima e engajamento organizacional. Registros de feedbacks, comunicações internas e canais de denúncia. Políticas de cultura, diversidade e comportamento ético. Relatórios de gestão de pessoas e de liderança. Entrevistas e grupos focais sobre percepção de segurança psicológica."
+            ],
+            "metrics": [
+              "Métricas/KPIs Índice de segurança psicológica (em pesquisas internas). Taxa de engajamento e confiança em lideranças. Volume de feedbacks registrados por canal oficial. Taxa de retenção de talentos e rotatividade voluntária. Número de ideias ou melhorias propostas por colaboradores. Redução na taxa de rotatividade (turnover) Aumento no índice de inovação (nº de ideias/colaborador) Melhoria na pontuação de E-NPS (Employee Net Promoter Score)."
+            ],
+            "observable_behaviors": [
+              "Uso de analytics para prever rupturas culturais"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "A cultura é autorregulada",
+          "description": "existe feedback contínuo, confiança mútua e transparência apoiada por sistemas digitais de comunicação e análise de sentimento em tempo real.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Pesquisas de clima e engajamento organizacional. Registros de feedbacks, comunicações internas e canais de denúncia. Políticas de cultura, diversidade e comportamento ético. Relatórios de gestão de pessoas e de liderança. Entrevistas e grupos focais sobre percepção de segurança psicológica."
+            ],
+            "metrics": [
+              "Métricas/KPIs Índice de segurança psicológica (em pesquisas internas). Taxa de engajamento e confiança em lideranças. Volume de feedbacks registrados por canal oficial. Taxa de retenção de talentos e rotatividade voluntária. Número de ideias ou melhorias propostas por colaboradores. Redução na taxa de rotatividade (turnover) Aumento no índice de inovação (nº de ideias/colaborador) Melhoria na pontuação de E-NPS (Employee Net Promoter Score)."
+            ],
+            "observable_behaviors": [
+              "Transparência e confiança mantidas de forma autônoma e contínua"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Pesquisas de clima e engajamento organizacional. Registros de feedbacks, comunicações internas e canais de denúncia. Políticas de cultura, diversidade e comportamento ético. Relatórios de gestão de pessoas e de liderança. Entrevistas e grupos focais sobre percepção de segurança psicológica."
+        ],
+        "metrics": [
+          "Métricas/KPIs Índice de segurança psicológica (em pesquisas internas). Taxa de engajamento e confiança em lideranças. Volume de feedbacks registrados por canal oficial. Taxa de retenção de talentos e rotatividade voluntária. Número de ideias ou melhorias propostas por colaboradores. Redução na taxa de rotatividade (turnover) Aumento no índice de inovação (nº de ideias/colaborador) Melhoria na pontuação de E-NPS (Employee Net Promoter Score)."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Cultura punitiva e hierárquica"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Discurso de abertura sem prática efetiva"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Comunicação digital unidirecional"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Feedback e escuta ativa implantados"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Avaliação sistemática de confiança e engajamento"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Uso de analytics para prever rupturas culturais"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Transparência e confiança mantidas de forma autônoma e contínua"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Avaliar pesquisas de clima, engajamento e feedback 360º. Realizar entrevistas com amostras representativas de equipes sobre percepções de segurança. Revisar planos de ação de cultura e liderança baseados em resultados dessas pesquisas."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-014-003",
+      "question_number": 3,
+      "title": "Estruturas formais de captura de aprendizado",
+      "text": "Existem processos ou ferramentas digitais que registram, organizam e disseminam lições aprendidas a partir de erros ou incidentes?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O aprendizado ocorre de forma informal e não é registrado.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de lições aprendidas , knowledge bases e portais de aprendizado. Relatórios de atualização e uso de plataformas de conhecimento. Procedimentos internos de gestão de aprendizado e melhoria contínua. Logs de sistemas corporativos (LMS, LXP, ERP, intranet). Evidências de treinamentos ou workshops derivados de lições aprendidas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de lições aprendidas registradas e validadas. Taxa de reutilização de aprendizados em novos projetos. Frequência de atualização da base de conhecimento. Percentual de acessos e consultas a registros de aprendizado. Correlação entre aprendizado registrado e redução de erros reincidentes. Redução do tempo de onboarding de novos funcionários Redução do tempo médio para resolução de problemas (MTTR) Padronização de melhores práticas entre turnos/plantas."
+            ],
+            "observable_behaviors": [
+              "Conhecimento disperso e não documentado"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem tentativas pontuais de registrar lições aprendidas, sem padronização.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de lições aprendidas , knowledge bases e portais de aprendizado. Relatórios de atualização e uso de plataformas de conhecimento. Procedimentos internos de gestão de aprendizado e melhoria contínua. Logs de sistemas corporativos (LMS, LXP, ERP, intranet). Evidências de treinamentos ou workshops derivados de lições aprendidas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de lições aprendidas registradas e validadas. Taxa de reutilização de aprendizados em novos projetos. Frequência de atualização da base de conhecimento. Percentual de acessos e consultas a registros de aprendizado. Correlação entre aprendizado registrado e redução de erros reincidentes. Redução do tempo de onboarding de novos funcionários Redução do tempo médio para resolução de problemas (MTTR) Padronização de melhores práticas entre turnos/plantas."
+            ],
+            "observable_behaviors": [
+              "Registros pontuais e desorganizados"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Algumas lições são documentadas em arquivos digitais, mas sem centralização ou controle de qualidade.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de lições aprendidas , knowledge bases e portais de aprendizado. Relatórios de atualização e uso de plataformas de conhecimento. Procedimentos internos de gestão de aprendizado e melhoria contínua. Logs de sistemas corporativos (LMS, LXP, ERP, intranet). Evidências de treinamentos ou workshops derivados de lições aprendidas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de lições aprendidas registradas e validadas. Taxa de reutilização de aprendizados em novos projetos. Frequência de atualização da base de conhecimento. Percentual de acessos e consultas a registros de aprendizado. Correlação entre aprendizado registrado e redução de erros reincidentes. Redução do tempo de onboarding de novos funcionários Redução do tempo médio para resolução de problemas (MTTR) Padronização de melhores práticas entre turnos/plantas."
+            ],
+            "observable_behaviors": [
+              "Arquivos digitais isolados"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Há uma plataforma ou processo padronizado de registro e consulta de aprendizados.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de lições aprendidas , knowledge bases e portais de aprendizado. Relatórios de atualização e uso de plataformas de conhecimento. Procedimentos internos de gestão de aprendizado e melhoria contínua. Logs de sistemas corporativos (LMS, LXP, ERP, intranet). Evidências de treinamentos ou workshops derivados de lições aprendidas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de lições aprendidas registradas e validadas. Taxa de reutilização de aprendizados em novos projetos. Frequência de atualização da base de conhecimento. Percentual de acessos e consultas a registros de aprendizado. Correlação entre aprendizado registrado e redução de erros reincidentes. Redução do tempo de onboarding de novos funcionários Redução do tempo médio para resolução de problemas (MTTR) Padronização de melhores práticas entre turnos/plantas."
+            ],
+            "observable_behaviors": [
+              "Processo formal de registro e compartilhamento"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O sistema de aprendizado possui métricas de uso, atualização e relevância.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de lições aprendidas , knowledge bases e portais de aprendizado. Relatórios de atualização e uso de plataformas de conhecimento. Procedimentos internos de gestão de aprendizado e melhoria contínua. Logs de sistemas corporativos (LMS, LXP, ERP, intranet). Evidências de treinamentos ou workshops derivados de lições aprendidas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de lições aprendidas registradas e validadas. Taxa de reutilização de aprendizados em novos projetos. Frequência de atualização da base de conhecimento. Percentual de acessos e consultas a registros de aprendizado. Correlação entre aprendizado registrado e redução de erros reincidentes. Redução do tempo de onboarding de novos funcionários Redução do tempo médio para resolução de problemas (MTTR) Padronização de melhores práticas entre turnos/plantas."
+            ],
+            "observable_behaviors": [
+              "Indicadores e análises sobre uso e impacto"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados de aprendizado são analisados para identificar lacunas de conhecimento e direcionar capacitações.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de lições aprendidas , knowledge bases e portais de aprendizado. Relatórios de atualização e uso de plataformas de conhecimento. Procedimentos internos de gestão de aprendizado e melhoria contínua. Logs de sistemas corporativos (LMS, LXP, ERP, intranet). Evidências de treinamentos ou workshops derivados de lições aprendidas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de lições aprendidas registradas e validadas. Taxa de reutilização de aprendizados em novos projetos. Frequência de atualização da base de conhecimento. Percentual de acessos e consultas a registros de aprendizado. Correlação entre aprendizado registrado e redução de erros reincidentes. Redução do tempo de onboarding de novos funcionários Redução do tempo médio para resolução de problemas (MTTR) Padronização de melhores práticas entre turnos/plantas."
+            ],
+            "observable_behaviors": [
+              "Analytics orientando novas capacitações"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema de aprendizado é automatizado e integrado aos processos corporativos, atualizando-se continuamente com base em dados e feedbacks em tempo real.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de lições aprendidas , knowledge bases e portais de aprendizado. Relatórios de atualização e uso de plataformas de conhecimento. Procedimentos internos de gestão de aprendizado e melhoria contínua. Logs de sistemas corporativos (LMS, LXP, ERP, intranet). Evidências de treinamentos ou workshops derivados de lições aprendidas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de lições aprendidas registradas e validadas. Taxa de reutilização de aprendizados em novos projetos. Frequência de atualização da base de conhecimento. Percentual de acessos e consultas a registros de aprendizado. Correlação entre aprendizado registrado e redução de erros reincidentes. Redução do tempo de onboarding de novos funcionários Redução do tempo médio para resolução de problemas (MTTR) Padronização de melhores práticas entre turnos/plantas."
+            ],
+            "observable_behaviors": [
+              "Sistema dinâmico e auto atualizável"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Registros de lições aprendidas , knowledge bases e portais de aprendizado. Relatórios de atualização e uso de plataformas de conhecimento. Procedimentos internos de gestão de aprendizado e melhoria contínua. Logs de sistemas corporativos (LMS, LXP, ERP, intranet). Evidências de treinamentos ou workshops derivados de lições aprendidas."
+        ],
+        "metrics": [
+          "Métricas/KPIs Número de lições aprendidas registradas e validadas. Taxa de reutilização de aprendizados em novos projetos. Frequência de atualização da base de conhecimento. Percentual de acessos e consultas a registros de aprendizado. Correlação entre aprendizado registrado e redução de erros reincidentes. Redução do tempo de onboarding de novos funcionários Redução do tempo médio para resolução de problemas (MTTR) Padronização de melhores práticas entre turnos/plantas."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Conhecimento disperso e não documentado"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Registros pontuais e desorganizados"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Arquivos digitais isolados"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Processo formal de registro e compartilhamento"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Indicadores e análises sobre uso e impacto"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Analytics orientando novas capacitações"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Sistema dinâmico e auto atualizável"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Revisão de bases de dados de aprendizado. Entrevistas com gestores de projetos e inovação. Observação de práticas de documentação e compartilhamento. Verificação da integração com sistemas de gestão corporativa."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-014-004",
+      "question_number": 4,
+      "title": "Liderança e comportamento de aprendizado",
+      "text": "Como os líderes e gestores demonstram, na prática, comportamentos que valorizam o aprendizado a partir de erros?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A liderança não reconhece erros nem promove aprendizado aberto nas equipes.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Programas de formação e avaliação de líderes. Relatórios de desempenho e engajamento de equipes. Resultados de pesquisas de clima e feedback 360°. Registros de reuniões de feedback e aprendizado coletivo. Políticas de liderança e cultura organizacional."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de líderes treinados em cultura de aprendizado. Índice de engajamento das equipes por líder. Frequência de feedbacks estruturados. Nível de satisfação das equipes com a comunicação e suporte de líderes. Correlação entre liderança de aprendizado e desempenho operacional. Aumento na taxa de promoção interna. Correlação entre a avaliação do líder e a produtividade da equipe Redução do tempo para atingir metas da equipe."
+            ],
+            "observable_behaviors": [
+              "Liderança autoritária, foco em controle e punição"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Alguns líderes valorizam o aprendizado, mas sem práticas estruturadas de estímulo.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Programas de formação e avaliação de líderes. Relatórios de desempenho e engajamento de equipes. Resultados de pesquisas de clima e feedback 360°. Registros de reuniões de feedback e aprendizado coletivo. Políticas de liderança e cultura organizacional."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de líderes treinados em cultura de aprendizado. Índice de engajamento das equipes por líder. Frequência de feedbacks estruturados. Nível de satisfação das equipes com a comunicação e suporte de líderes. Correlação entre liderança de aprendizado e desempenho operacional. Aumento na taxa de promoção interna. Correlação entre a avaliação do líder e a produtividade da equipe Redução do tempo para atingir metas da equipe."
+            ],
+            "observable_behaviors": [
+              "Incentivo informal ao aprendizado"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existem treinamentos sobre liderança e aprendizado, mas sem integração à rotina de gestão.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Programas de formação e avaliação de líderes. Relatórios de desempenho e engajamento de equipes. Resultados de pesquisas de clima e feedback 360°. Registros de reuniões de feedback e aprendizado coletivo. Políticas de liderança e cultura organizacional."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de líderes treinados em cultura de aprendizado. Índice de engajamento das equipes por líder. Frequência de feedbacks estruturados. Nível de satisfação das equipes com a comunicação e suporte de líderes. Correlação entre liderança de aprendizado e desempenho operacional. Aumento na taxa de promoção interna. Correlação entre a avaliação do líder e a produtividade da equipe Redução do tempo para atingir metas da equipe."
+            ],
+            "observable_behaviors": [
+              "Treinamentos de liderança sem integração prática"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os líderes promovem reuniões de aprendizado e feedback regulares nas equipes.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Programas de formação e avaliação de líderes. Relatórios de desempenho e engajamento de equipes. Resultados de pesquisas de clima e feedback 360°. Registros de reuniões de feedback e aprendizado coletivo. Políticas de liderança e cultura organizacional."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de líderes treinados em cultura de aprendizado. Índice de engajamento das equipes por líder. Frequência de feedbacks estruturados. Nível de satisfação das equipes com a comunicação e suporte de líderes. Correlação entre liderança de aprendizado e desempenho operacional. Aumento na taxa de promoção interna. Correlação entre a avaliação do líder e a produtividade da equipe Redução do tempo para atingir metas da equipe."
+            ],
+            "observable_behaviors": [
+              "Reuniões e feedbacks regulares"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O comportamento de aprendizado da liderança é monitorado e avaliado por indicadores de engajamento e desenvolvimento.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Programas de formação e avaliação de líderes. Relatórios de desempenho e engajamento de equipes. Resultados de pesquisas de clima e feedback 360°. Registros de reuniões de feedback e aprendizado coletivo. Políticas de liderança e cultura organizacional."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de líderes treinados em cultura de aprendizado. Índice de engajamento das equipes por líder. Frequência de feedbacks estruturados. Nível de satisfação das equipes com a comunicação e suporte de líderes. Correlação entre liderança de aprendizado e desempenho operacional. Aumento na taxa de promoção interna. Correlação entre a avaliação do líder e a produtividade da equipe Redução do tempo para atingir metas da equipe."
+            ],
+            "observable_behaviors": [
+              "Avaliação sistemática do papel do líder no aprendizado"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados analíticos e avaliações de clima são usados para prever necessidades de desenvolvimento de líderes.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Programas de formação e avaliação de líderes. Relatórios de desempenho e engajamento de equipes. Resultados de pesquisas de clima e feedback 360°. Registros de reuniões de feedback e aprendizado coletivo. Políticas de liderança e cultura organizacional."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de líderes treinados em cultura de aprendizado. Índice de engajamento das equipes por líder. Frequência de feedbacks estruturados. Nível de satisfação das equipes com a comunicação e suporte de líderes. Correlação entre liderança de aprendizado e desempenho operacional. Aumento na taxa de promoção interna. Correlação entre a avaliação do líder e a produtividade da equipe Redução do tempo para atingir metas da equipe."
+            ],
+            "observable_behaviors": [
+              "Análise preditiva do desenvolvimento de líderes"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A liderança é digitalmente empoderada, utiliza ferramentas de feedback contínuo e aprendizado personalizado, e sustenta uma cultura de aprendizado autônoma e colaborativa.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Programas de formação e avaliação de líderes. Relatórios de desempenho e engajamento de equipes. Resultados de pesquisas de clima e feedback 360°. Registros de reuniões de feedback e aprendizado coletivo. Políticas de liderança e cultura organizacional."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de líderes treinados em cultura de aprendizado. Índice de engajamento das equipes por líder. Frequência de feedbacks estruturados. Nível de satisfação das equipes com a comunicação e suporte de líderes. Correlação entre liderança de aprendizado e desempenho operacional. Aumento na taxa de promoção interna. Correlação entre a avaliação do líder e a produtividade da equipe Redução do tempo para atingir metas da equipe."
+            ],
+            "observable_behaviors": [
+              "Liderança adaptativa, digital e auto sustentada"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Programas de formação e avaliação de líderes. Relatórios de desempenho e engajamento de equipes. Resultados de pesquisas de clima e feedback 360°. Registros de reuniões de feedback e aprendizado coletivo. Políticas de liderança e cultura organizacional."
+        ],
+        "metrics": [
+          "Métricas/KPIs Percentual de líderes treinados em cultura de aprendizado. Índice de engajamento das equipes por líder. Frequência de feedbacks estruturados. Nível de satisfação das equipes com a comunicação e suporte de líderes. Correlação entre liderança de aprendizado e desempenho operacional. Aumento na taxa de promoção interna. Correlação entre a avaliação do líder e a produtividade da equipe Redução do tempo para atingir metas da equipe."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Liderança autoritária, foco em controle e punição"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Incentivo informal ao aprendizado"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Treinamentos de liderança sem integração prática"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Reuniões e feedbacks regulares"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Avaliação sistemática do papel do líder no aprendizado"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Análise preditiva do desenvolvimento de líderes"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Liderança adaptativa, digital e auto sustentada"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Entrevistas com líderes e liderados. Revisão de relatórios de desenvolvimento de liderança. Observação de reuniões de feedback e retrospectivas. Análise de dados de engajamento e rotatividade por equipe."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-014-005",
+      "question_number": 5,
+      "title": "Equilíbrio entre risco e inovação",
+      "text": "De que forma a organização incentiva a experimentação e a inovação, ao mesmo tempo em que gerencia riscos decorrentes de possíveis falhas?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A organização evita riscos e desencoraja a experimentação.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas de inovação e gestão de riscos. Registros de testes, protótipos e pilotos realizados. Relatórios de análise de impacto e mitigação de riscos. Ferramentas digitais de gestão de projetos e risk dashboards. Planos de continuidade de negócios e aprendizado pós-projeto."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de projetos experimentais concluídos com sucesso. Taxa de inovação versus incidentes de risco. Percentual de mitigação de riscos detectados precocemente. Tempo médio entre detecção e correção de falhas em experimentos. Retorno sobre investimento em projetos de inovação controlada. Melhoria na taxa de sucesso de projetos (projetos entregues no prazo/orçamento) ROI de projetos de inovação, redução de custos de mitigação de riscos (ex: multas, perdas)."
+            ],
+            "observable_behaviors": [
+              "Cultura avessa ao risco"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Há espaço limitado para inovação, sem mecanismos de controle de risco.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas de inovação e gestão de riscos. Registros de testes, protótipos e pilotos realizados. Relatórios de análise de impacto e mitigação de riscos. Ferramentas digitais de gestão de projetos e risk dashboards. Planos de continuidade de negócios e aprendizado pós-projeto."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de projetos experimentais concluídos com sucesso. Taxa de inovação versus incidentes de risco. Percentual de mitigação de riscos detectados precocemente. Tempo médio entre detecção e correção de falhas em experimentos. Retorno sobre investimento em projetos de inovação controlada. Melhoria na taxa de sucesso de projetos (projetos entregues no prazo/orçamento) ROI de projetos de inovação, redução de custos de mitigação de riscos (ex: multas, perdas)."
+            ],
+            "observable_behaviors": [
+              "Iniciativas isoladas de inovação, sem controle formal"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Alguns processos de inovação são documentados digitalmente, mas sem acompanhamento sistemático de riscos.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas de inovação e gestão de riscos. Registros de testes, protótipos e pilotos realizados. Relatórios de análise de impacto e mitigação de riscos. Ferramentas digitais de gestão de projetos e risk dashboards. Planos de continuidade de negócios e aprendizado pós-projeto."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de projetos experimentais concluídos com sucesso. Taxa de inovação versus incidentes de risco. Percentual de mitigação de riscos detectados precocemente. Tempo médio entre detecção e correção de falhas em experimentos. Retorno sobre investimento em projetos de inovação controlada. Melhoria na taxa de sucesso de projetos (projetos entregues no prazo/orçamento) ROI de projetos de inovação, redução de custos de mitigação de riscos (ex: multas, perdas)."
+            ],
+            "observable_behaviors": [
+              "Documentação parcial e dispersa"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Existem políticas de inovação e procedimentos básicos de análise de risco.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas de inovação e gestão de riscos. Registros de testes, protótipos e pilotos realizados. Relatórios de análise de impacto e mitigação de riscos. Ferramentas digitais de gestão de projetos e risk dashboards. Planos de continuidade de negócios e aprendizado pós-projeto."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de projetos experimentais concluídos com sucesso. Taxa de inovação versus incidentes de risco. Percentual de mitigação de riscos detectados precocemente. Tempo médio entre detecção e correção de falhas em experimentos. Retorno sobre investimento em projetos de inovação controlada. Melhoria na taxa de sucesso de projetos (projetos entregues no prazo/orçamento) ROI de projetos de inovação, redução de custos de mitigação de riscos (ex: multas, perdas)."
+            ],
+            "observable_behaviors": [
+              "Políticas e processos básicos de risco e inovação"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O gerenciamento de riscos é parte integrante dos processos de inovação e é monitorado com métricas específicas.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas de inovação e gestão de riscos. Registros de testes, protótipos e pilotos realizados. Relatórios de análise de impacto e mitigação de riscos. Ferramentas digitais de gestão de projetos e risk dashboards. Planos de continuidade de negócios e aprendizado pós-projeto."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de projetos experimentais concluídos com sucesso. Taxa de inovação versus incidentes de risco. Percentual de mitigação de riscos detectados precocemente. Tempo médio entre detecção e correção de falhas em experimentos. Retorno sobre investimento em projetos de inovação controlada. Melhoria na taxa de sucesso de projetos (projetos entregues no prazo/orçamento) ROI de projetos de inovação, redução de custos de mitigação de riscos (ex: multas, perdas)."
+            ],
+            "observable_behaviors": [
+              "Monitoramento estruturado com indicadores"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados analíticos e simulações são usados para prever impactos e orientar decisões de inovação.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas de inovação e gestão de riscos. Registros de testes, protótipos e pilotos realizados. Relatórios de análise de impacto e mitigação de riscos. Ferramentas digitais de gestão de projetos e risk dashboards. Planos de continuidade de negócios e aprendizado pós-projeto."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de projetos experimentais concluídos com sucesso. Taxa de inovação versus incidentes de risco. Percentual de mitigação de riscos detectados precocemente. Tempo médio entre detecção e correção de falhas em experimentos. Retorno sobre investimento em projetos de inovação controlada. Melhoria na taxa de sucesso de projetos (projetos entregues no prazo/orçamento) ROI de projetos de inovação, redução de custos de mitigação de riscos (ex: multas, perdas)."
+            ],
+            "observable_behaviors": [
+              "Previsão de riscos via analytics e simulações"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O ambiente de inovação é autorregulado, com sistemas de aprendizado e mitigação de risco em tempo real, sustentado por inteligência analítica e governança digital.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas de inovação e gestão de riscos. Registros de testes, protótipos e pilotos realizados. Relatórios de análise de impacto e mitigação de riscos. Ferramentas digitais de gestão de projetos e risk dashboards. Planos de continuidade de negócios e aprendizado pós-projeto."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de projetos experimentais concluídos com sucesso. Taxa de inovação versus incidentes de risco. Percentual de mitigação de riscos detectados precocemente. Tempo médio entre detecção e correção de falhas em experimentos. Retorno sobre investimento em projetos de inovação controlada. Melhoria na taxa de sucesso de projetos (projetos entregues no prazo/orçamento) ROI de projetos de inovação, redução de custos de mitigação de riscos (ex: multas, perdas)."
+            ],
+            "observable_behaviors": [
+              "Mitigação adaptativa e aprendizado contínuo em tempo real"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Políticas de inovação e gestão de riscos. Registros de testes, protótipos e pilotos realizados. Relatórios de análise de impacto e mitigação de riscos. Ferramentas digitais de gestão de projetos e risk dashboards. Planos de continuidade de negócios e aprendizado pós-projeto."
+        ],
+        "metrics": [
+          "Métricas/KPIs Número de projetos experimentais concluídos com sucesso. Taxa de inovação versus incidentes de risco. Percentual de mitigação de riscos detectados precocemente. Tempo médio entre detecção e correção de falhas em experimentos. Retorno sobre investimento em projetos de inovação controlada. Melhoria na taxa de sucesso de projetos (projetos entregues no prazo/orçamento) ROI de projetos de inovação, redução de custos de mitigação de riscos (ex: multas, perdas)."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Cultura avessa ao risco"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Iniciativas isoladas de inovação, sem controle formal"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Documentação parcial e dispersa"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Políticas e processos básicos de risco e inovação"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Monitoramento estruturado com indicadores"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Previsão de riscos via analytics e simulações"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Mitigação adaptativa e aprendizado contínuo em tempo real"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Entrevistas com equipes de inovação, P&D e gestão de riscos. Revisão de relatórios de projetos experimentais e testes. Avaliação de ferramentas digitais de monitoramento de risco. Observação de práticas de aprendizado pós-projeto."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-014-006",
+      "question_number": 6,
+      "title": "Feedback e melhoria contínua",
+      "text": "O feedback sobre erros e resultados inesperados é utilizado sistematicamente para ajustar processos, produtos e práticas organizacionais?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O feedback é esporádico e não gera ações de melhoria.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de reuniões de feedback e planos de ação. Relatórios de auditoria interna e de melhoria contínua. Indicadores de desempenho e dashboards analíticos. Ferramentas digitais de gestão de desempenho (OKRs, KPIs, sistemas de RH). Documentação de retrospectivas , after-action reviews e post-mortem analysis."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de feedbacks convertidos em planos de ação. Tempo médio de resposta a incidentes e melhorias. Taxa de reincidência de falhas. Índice de engajamento em processos de feedback. Nível de satisfação dos colaboradores com o processo de aprendizado. Aumento da produtividade (output/input). Melhoria nos índices de satisfação do cliente (CSAT/NPS) Redução do tempo de ciclo de processos."
+            ],
+            "observable_behaviors": [
+              "Feedback ausente ou punitivo"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "O feedback é aplicado informalmente e sem acompanhamento.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de reuniões de feedback e planos de ação. Relatórios de auditoria interna e de melhoria contínua. Indicadores de desempenho e dashboards analíticos. Ferramentas digitais de gestão de desempenho (OKRs, KPIs, sistemas de RH). Documentação de retrospectivas , after-action reviews e post-mortem analysis."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de feedbacks convertidos em planos de ação. Tempo médio de resposta a incidentes e melhorias. Taxa de reincidência de falhas. Índice de engajamento em processos de feedback. Nível de satisfação dos colaboradores com o processo de aprendizado. Aumento da produtividade (output/input). Melhoria nos índices de satisfação do cliente (CSAT/NPS) Redução do tempo de ciclo de processos."
+            ],
+            "observable_behaviors": [
+              "Feedback informal, não rastreável"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existem registros digitais de feedback, mas sem integração com planos de ação.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de reuniões de feedback e planos de ação. Relatórios de auditoria interna e de melhoria contínua. Indicadores de desempenho e dashboards analíticos. Ferramentas digitais de gestão de desempenho (OKRs, KPIs, sistemas de RH). Documentação de retrospectivas , after-action reviews e post-mortem analysis."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de feedbacks convertidos em planos de ação. Tempo médio de resposta a incidentes e melhorias. Taxa de reincidência de falhas. Índice de engajamento em processos de feedback. Nível de satisfação dos colaboradores com o processo de aprendizado. Aumento da produtividade (output/input). Melhoria nos índices de satisfação do cliente (CSAT/NPS) Redução do tempo de ciclo de processos."
+            ],
+            "observable_behaviors": [
+              "Registros digitais isolados"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "O feedback é estruturado e utilizado para aprimorar processos e resultados.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de reuniões de feedback e planos de ação. Relatórios de auditoria interna e de melhoria contínua. Indicadores de desempenho e dashboards analíticos. Ferramentas digitais de gestão de desempenho (OKRs, KPIs, sistemas de RH). Documentação de retrospectivas , after-action reviews e post-mortem analysis."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de feedbacks convertidos em planos de ação. Tempo médio de resposta a incidentes e melhorias. Taxa de reincidência de falhas. Índice de engajamento em processos de feedback. Nível de satisfação dos colaboradores com o processo de aprendizado. Aumento da produtividade (output/input). Melhoria nos índices de satisfação do cliente (CSAT/NPS) Redução do tempo de ciclo de processos."
+            ],
+            "observable_behaviors": [
+              "Estrutura formal de ciclos de feedback"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O ciclo de feedback é monitorado por indicadores de desempenho e melhoria contínua.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de reuniões de feedback e planos de ação. Relatórios de auditoria interna e de melhoria contínua. Indicadores de desempenho e dashboards analíticos. Ferramentas digitais de gestão de desempenho (OKRs, KPIs, sistemas de RH). Documentação de retrospectivas , after-action reviews e post-mortem analysis."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de feedbacks convertidos em planos de ação. Tempo médio de resposta a incidentes e melhorias. Taxa de reincidência de falhas. Índice de engajamento em processos de feedback. Nível de satisfação dos colaboradores com o processo de aprendizado. Aumento da produtividade (output/input). Melhoria nos índices de satisfação do cliente (CSAT/NPS) Redução do tempo de ciclo de processos."
+            ],
+            "observable_behaviors": [
+              "Monitoramento e indicadores ativos"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Análises preditivas são usadas para prever falhas e orientar ações de melhoria.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de reuniões de feedback e planos de ação. Relatórios de auditoria interna e de melhoria contínua. Indicadores de desempenho e dashboards analíticos. Ferramentas digitais de gestão de desempenho (OKRs, KPIs, sistemas de RH). Documentação de retrospectivas , after-action reviews e post-mortem analysis."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de feedbacks convertidos em planos de ação. Tempo médio de resposta a incidentes e melhorias. Taxa de reincidência de falhas. Índice de engajamento em processos de feedback. Nível de satisfação dos colaboradores com o processo de aprendizado. Aumento da produtividade (output/input). Melhoria nos índices de satisfação do cliente (CSAT/NPS) Redução do tempo de ciclo de processos."
+            ],
+            "observable_behaviors": [
+              "Análise preditiva e ajustes antecipados"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O feedback é contínuo, automatizado e integrado aos sistemas de gestão, permitindo ajustes em tempo real com base em dados analíticos.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Registros de reuniões de feedback e planos de ação. Relatórios de auditoria interna e de melhoria contínua. Indicadores de desempenho e dashboards analíticos. Ferramentas digitais de gestão de desempenho (OKRs, KPIs, sistemas de RH). Documentação de retrospectivas , after-action reviews e post-mortem analysis."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de feedbacks convertidos em planos de ação. Tempo médio de resposta a incidentes e melhorias. Taxa de reincidência de falhas. Índice de engajamento em processos de feedback. Nível de satisfação dos colaboradores com o processo de aprendizado. Aumento da produtividade (output/input). Melhoria nos índices de satisfação do cliente (CSAT/NPS) Redução do tempo de ciclo de processos."
+            ],
+            "observable_behaviors": [
+              "Feedback em tempo real, com aprendizado adaptativo automatizado"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Registros de reuniões de feedback e planos de ação. Relatórios de auditoria interna e de melhoria contínua. Indicadores de desempenho e dashboards analíticos. Ferramentas digitais de gestão de desempenho (OKRs, KPIs, sistemas de RH). Documentação de retrospectivas , after-action reviews e post-mortem analysis."
+        ],
+        "metrics": [
+          "Métricas/KPIs Percentual de feedbacks convertidos em planos de ação. Tempo médio de resposta a incidentes e melhorias. Taxa de reincidência de falhas. Índice de engajamento em processos de feedback. Nível de satisfação dos colaboradores com o processo de aprendizado. Aumento da produtividade (output/input). Melhoria nos índices de satisfação do cliente (CSAT/NPS) Redução do tempo de ciclo de processos."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Feedback ausente ou punitivo"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Feedback informal, não rastreável"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Registros digitais isolados"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Estrutura formal de ciclos de feedback"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Monitoramento e indicadores ativos"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Análise preditiva e ajustes antecipados"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Feedback em tempo real, com aprendizado adaptativo automatizado"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Entrevistas com líderes e equipes sobre práticas de feedback. Revisão de registros de planos de ação e auditorias. Observação de reuniões de retrospectiva . Análise de dados de desempenho e dashboards de melhoria."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-014-007",
+      "question_number": 7,
+      "title": "Integração digital do aprendizado",
+      "text": "A organização utiliza ferramentas digitais e analíticas para monitorar, registrar e gerar insights sobre erros, incidentes e melhorias?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O aprendizado e a análise de desempenho não utilizam sistemas digitais.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Plataformas de aprendizado (LMS, LXP, HRIS) e relatórios de uso. Dashboards de aprendizado e analytics. Registros de integração entre sistemas de RH, operação e treinamento. Políticas de governança de dados e interoperabilidade. Evidências de uso de IA e personalização de conteúdo."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de integração entre sistemas de aprendizado e gestão. Grau de automação dos relatórios de desempenho e capacitação. Tempo médio de atualização das trilhas de aprendizado. Precisão dos modelos preditivos de competência. Nível de personalização do conteúdo de aprendizado. Aumento da eficiência no uso de sistemas (menos cliques/tempo por tarefa) ROI sobre investimentos em tecnologia de aprendizado (LMS/LXP). Redução de erros operacionais por falta de conhecimento."
+            ],
+            "observable_behaviors": [
+              "Ausência de tecnologia no aprendizado"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Algumas ferramentas digitais são usadas isoladamente, sem integração.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Plataformas de aprendizado (LMS, LXP, HRIS) e relatórios de uso. Dashboards de aprendizado e analytics. Registros de integração entre sistemas de RH, operação e treinamento. Políticas de governança de dados e interoperabilidade. Evidências de uso de IA e personalização de conteúdo."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de integração entre sistemas de aprendizado e gestão. Grau de automação dos relatórios de desempenho e capacitação. Tempo médio de atualização das trilhas de aprendizado. Precisão dos modelos preditivos de competência. Nível de personalização do conteúdo de aprendizado. Aumento da eficiência no uso de sistemas (menos cliques/tempo por tarefa) ROI sobre investimentos em tecnologia de aprendizado (LMS/LXP). Redução de erros operacionais por falta de conhecimento."
+            ],
+            "observable_behaviors": [
+              "Ferramentas isoladas e desconectadas"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os dados de aprendizado são coletados digitalmente, mas sem análise sistemática.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Plataformas de aprendizado (LMS, LXP, HRIS) e relatórios de uso. Dashboards de aprendizado e analytics. Registros de integração entre sistemas de RH, operação e treinamento. Políticas de governança de dados e interoperabilidade. Evidências de uso de IA e personalização de conteúdo."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de integração entre sistemas de aprendizado e gestão. Grau de automação dos relatórios de desempenho e capacitação. Tempo médio de atualização das trilhas de aprendizado. Precisão dos modelos preditivos de competência. Nível de personalização do conteúdo de aprendizado. Aumento da eficiência no uso de sistemas (menos cliques/tempo por tarefa) ROI sobre investimentos em tecnologia de aprendizado (LMS/LXP). Redução de erros operacionais por falta de conhecimento."
+            ],
+            "observable_behaviors": [
+              "Coleta digital sem uso analítico"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Sistemas de aprendizado e gestão do conhecimento estão conectados a ferramentas corporativas.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Plataformas de aprendizado (LMS, LXP, HRIS) e relatórios de uso. Dashboards de aprendizado e analytics. Registros de integração entre sistemas de RH, operação e treinamento. Políticas de governança de dados e interoperabilidade. Evidências de uso de IA e personalização de conteúdo."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de integração entre sistemas de aprendizado e gestão. Grau de automação dos relatórios de desempenho e capacitação. Tempo médio de atualização das trilhas de aprendizado. Precisão dos modelos preditivos de competência. Nível de personalização do conteúdo de aprendizado. Aumento da eficiência no uso de sistemas (menos cliques/tempo por tarefa) ROI sobre investimentos em tecnologia de aprendizado (LMS/LXP). Redução de erros operacionais por falta de conhecimento."
+            ],
+            "observable_behaviors": [
+              "Integração funcional entre plataformas"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Dados digitais são usados para avaliar desempenho, identificar lacunas e propor melhorias.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Plataformas de aprendizado (LMS, LXP, HRIS) e relatórios de uso. Dashboards de aprendizado e analytics. Registros de integração entre sistemas de RH, operação e treinamento. Políticas de governança de dados e interoperabilidade. Evidências de uso de IA e personalização de conteúdo."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de integração entre sistemas de aprendizado e gestão. Grau de automação dos relatórios de desempenho e capacitação. Tempo médio de atualização das trilhas de aprendizado. Precisão dos modelos preditivos de competência. Nível de personalização do conteúdo de aprendizado. Aumento da eficiência no uso de sistemas (menos cliques/tempo por tarefa) ROI sobre investimentos em tecnologia de aprendizado (LMS/LXP). Redução de erros operacionais por falta de conhecimento."
+            ],
+            "observable_behaviors": [
+              "Diagnóstico e melhoria com base em dados"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Algoritmos e análises preditivas orientam decisões sobre capacitação e desenvolvimento de talentos.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Plataformas de aprendizado (LMS, LXP, HRIS) e relatórios de uso. Dashboards de aprendizado e analytics. Registros de integração entre sistemas de RH, operação e treinamento. Políticas de governança de dados e interoperabilidade. Evidências de uso de IA e personalização de conteúdo."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de integração entre sistemas de aprendizado e gestão. Grau de automação dos relatórios de desempenho e capacitação. Tempo médio de atualização das trilhas de aprendizado. Precisão dos modelos preditivos de competência. Nível de personalização do conteúdo de aprendizado. Aumento da eficiência no uso de sistemas (menos cliques/tempo por tarefa) ROI sobre investimentos em tecnologia de aprendizado (LMS/LXP). Redução de erros operacionais por falta de conhecimento."
+            ],
+            "observable_behaviors": [
+              "Decisões preditivas e personalização"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O aprendizado é digitalmente integrado e automatizado, com sistemas que se ajustam em tempo real às necessidades individuais e organizacionais.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Plataformas de aprendizado (LMS, LXP, HRIS) e relatórios de uso. Dashboards de aprendizado e analytics. Registros de integração entre sistemas de RH, operação e treinamento. Políticas de governança de dados e interoperabilidade. Evidências de uso de IA e personalização de conteúdo."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de integração entre sistemas de aprendizado e gestão. Grau de automação dos relatórios de desempenho e capacitação. Tempo médio de atualização das trilhas de aprendizado. Precisão dos modelos preditivos de competência. Nível de personalização do conteúdo de aprendizado. Aumento da eficiência no uso de sistemas (menos cliques/tempo por tarefa) ROI sobre investimentos em tecnologia de aprendizado (LMS/LXP). Redução de erros operacionais por falta de conhecimento."
+            ],
+            "observable_behaviors": [
+              "Aprendizado autônomo e adaptativo em tempo real"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Plataformas de aprendizado (LMS, LXP, HRIS) e relatórios de uso. Dashboards de aprendizado e analytics. Registros de integração entre sistemas de RH, operação e treinamento. Políticas de governança de dados e interoperabilidade. Evidências de uso de IA e personalização de conteúdo."
+        ],
+        "metrics": [
+          "Métricas/KPIs Percentual de integração entre sistemas de aprendizado e gestão. Grau de automação dos relatórios de desempenho e capacitação. Tempo médio de atualização das trilhas de aprendizado. Precisão dos modelos preditivos de competência. Nível de personalização do conteúdo de aprendizado. Aumento da eficiência no uso de sistemas (menos cliques/tempo por tarefa) ROI sobre investimentos em tecnologia de aprendizado (LMS/LXP). Redução de erros operacionais por falta de conhecimento."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Ausência de tecnologia no aprendizado"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Ferramentas isoladas e desconectadas"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Coleta digital sem uso analítico"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Integração funcional entre plataformas"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Diagnóstico e melhoria com base em dados"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Decisões preditivas e personalização"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Aprendizado autônomo e adaptativo em tempo real"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Entrevistas com gestores de RH, TI e inovação. Análise técnica das integrações entre plataformas digitais. Verificação de relatórios analíticos e dashboards de aprendizado. Revisão de políticas e práticas de governança de dados."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-014-008",
+      "question_number": 8,
+      "title": "Cultura de inovação e experimentação",
+      "text": "De que forma a organização estimula os colaboradores a experimentar novas ideias, aceitando erros como parte do processo de inovação?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A organização não incentiva a experimentação; erros são penalizados.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas e valores organizacionais sobre inovação e aprendizado. Registros de programas de inovação, hackathons ou incubadoras internas. Relatórios de experimentação, prototipagem e gestão de ideias. Pesquisas de clima e engajamento sobre segurança psicológica. Planos de reconhecimento e comunicação de boas práticas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de experimentos ou projetos piloto realizados anualmente. Taxa de aproveitamento de ideias propostas por colaboradores. Percentual de aprendizados documentados a partir de falhas. Nível de engajamento em programas de inovação. Indicador de segurança psicológica e clima de aprendizado. Aumento da receita vinda de novos produtos/serviços Redução do ciclo de P&D (Time-to-Market). Aumento do portfólio de patentes ou inovações registradas."
+            ],
+            "observable_behaviors": [
+              "Erros punidos",
+              "medo de propor ideias"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Há tolerância informal a erros, mas sem práticas de aprendizado estruturadas.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas e valores organizacionais sobre inovação e aprendizado. Registros de programas de inovação, hackathons ou incubadoras internas. Relatórios de experimentação, prototipagem e gestão de ideias. Pesquisas de clima e engajamento sobre segurança psicológica. Planos de reconhecimento e comunicação de boas práticas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de experimentos ou projetos piloto realizados anualmente. Taxa de aproveitamento de ideias propostas por colaboradores. Percentual de aprendizados documentados a partir de falhas. Nível de engajamento em programas de inovação. Indicador de segurança psicológica e clima de aprendizado. Aumento da receita vinda de novos produtos/serviços Redução do ciclo de P&D (Time-to-Market). Aumento do portfólio de patentes ou inovações registradas."
+            ],
+            "observable_behaviors": [
+              "Tolerância ocasional, sem processos de aprendizado"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Algumas iniciativas de inovação e experimentação são registradas digitalmente, mas sem aprendizado sistemático.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas e valores organizacionais sobre inovação e aprendizado. Registros de programas de inovação, hackathons ou incubadoras internas. Relatórios de experimentação, prototipagem e gestão de ideias. Pesquisas de clima e engajamento sobre segurança psicológica. Planos de reconhecimento e comunicação de boas práticas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de experimentos ou projetos piloto realizados anualmente. Taxa de aproveitamento de ideias propostas por colaboradores. Percentual de aprendizados documentados a partir de falhas. Nível de engajamento em programas de inovação. Indicador de segurança psicológica e clima de aprendizado. Aumento da receita vinda de novos produtos/serviços Redução do ciclo de P&D (Time-to-Market). Aumento do portfólio de patentes ou inovações registradas."
+            ],
+            "observable_behaviors": [
+              "Iniciativas digitais isoladas de inovação"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A organização estimula a experimentação e reconhece o valor do erro como parte do aprendizado.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas e valores organizacionais sobre inovação e aprendizado. Registros de programas de inovação, hackathons ou incubadoras internas. Relatórios de experimentação, prototipagem e gestão de ideias. Pesquisas de clima e engajamento sobre segurança psicológica. Planos de reconhecimento e comunicação de boas práticas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de experimentos ou projetos piloto realizados anualmente. Taxa de aproveitamento de ideias propostas por colaboradores. Percentual de aprendizados documentados a partir de falhas. Nível de engajamento em programas de inovação. Indicador de segurança psicológica e clima de aprendizado. Aumento da receita vinda de novos produtos/serviços Redução do ciclo de P&D (Time-to-Market). Aumento do portfólio de patentes ou inovações registradas."
+            ],
+            "observable_behaviors": [
+              "Incentivo ativo à experimentação e aprendizado com erros"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Existem processos formais para analisar e compartilhar aprendizados oriundos de erros e experimentos.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas e valores organizacionais sobre inovação e aprendizado. Registros de programas de inovação, hackathons ou incubadoras internas. Relatórios de experimentação, prototipagem e gestão de ideias. Pesquisas de clima e engajamento sobre segurança psicológica. Planos de reconhecimento e comunicação de boas práticas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de experimentos ou projetos piloto realizados anualmente. Taxa de aproveitamento de ideias propostas por colaboradores. Percentual de aprendizados documentados a partir de falhas. Nível de engajamento em programas de inovação. Indicador de segurança psicológica e clima de aprendizado. Aumento da receita vinda de novos produtos/serviços Redução do ciclo de P&D (Time-to-Market). Aumento do portfólio de patentes ou inovações registradas."
+            ],
+            "observable_behaviors": [
+              "Processos estruturados de análise de falhas e lições aprendidas"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados e analytics são usados para prever riscos, avaliar hipóteses e ajustar experimentos com base em resultados.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas e valores organizacionais sobre inovação e aprendizado. Registros de programas de inovação, hackathons ou incubadoras internas. Relatórios de experimentação, prototipagem e gestão de ideias. Pesquisas de clima e engajamento sobre segurança psicológica. Planos de reconhecimento e comunicação de boas práticas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de experimentos ou projetos piloto realizados anualmente. Taxa de aproveitamento de ideias propostas por colaboradores. Percentual de aprendizados documentados a partir de falhas. Nível de engajamento em programas de inovação. Indicador de segurança psicológica e clima de aprendizado. Aumento da receita vinda de novos produtos/serviços Redução do ciclo de P&D (Time-to-Market). Aumento do portfólio de patentes ou inovações registradas."
+            ],
+            "observable_behaviors": [
+              "Uso de dados para prever resultados e aprimorar testes"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A cultura de inovação é contínua e autodidata , com ciclos ágeis e feedback em tempo real que transformam erros em aprendizado estratégico.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Políticas e valores organizacionais sobre inovação e aprendizado. Registros de programas de inovação, hackathons ou incubadoras internas. Relatórios de experimentação, prototipagem e gestão de ideias. Pesquisas de clima e engajamento sobre segurança psicológica. Planos de reconhecimento e comunicação de boas práticas."
+            ],
+            "metrics": [
+              "Métricas/KPIs Número de experimentos ou projetos piloto realizados anualmente. Taxa de aproveitamento de ideias propostas por colaboradores. Percentual de aprendizados documentados a partir de falhas. Nível de engajamento em programas de inovação. Indicador de segurança psicológica e clima de aprendizado. Aumento da receita vinda de novos produtos/serviços Redução do ciclo de P&D (Time-to-Market). Aumento do portfólio de patentes ou inovações registradas."
+            ],
+            "observable_behaviors": [
+              "Inovação contínua com aprendizado adaptativo e coletivo"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Políticas e valores organizacionais sobre inovação e aprendizado. Registros de programas de inovação, hackathons ou incubadoras internas. Relatórios de experimentação, prototipagem e gestão de ideias. Pesquisas de clima e engajamento sobre segurança psicológica. Planos de reconhecimento e comunicação de boas práticas."
+        ],
+        "metrics": [
+          "Métricas/KPIs Número de experimentos ou projetos piloto realizados anualmente. Taxa de aproveitamento de ideias propostas por colaboradores. Percentual de aprendizados documentados a partir de falhas. Nível de engajamento em programas de inovação. Indicador de segurança psicológica e clima de aprendizado. Aumento da receita vinda de novos produtos/serviços Redução do ciclo de P&D (Time-to-Market). Aumento do portfólio de patentes ou inovações registradas."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Erros punidos",
+              "medo de propor ideias"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Tolerância ocasional, sem processos de aprendizado"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Iniciativas digitais isoladas de inovação"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Incentivo ativo à experimentação e aprendizado com erros"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Processos estruturados de análise de falhas e lições aprendidas"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Uso de dados para prever resultados e aprimorar testes"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Inovação contínua com aprendizado adaptativo e coletivo"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Selecionar 5 iniciativas de inovação ou protótipos recentes, incluindo projetos com falhas. Verificar se houve registro, avaliação e comunicação dos resultados (positivos e negativos). Avaliar reconhecimento e aprendizagem derivada dos experimentos."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-014-009",
+      "question_number": 9,
+      "title": "Disseminação e compartilhamento do aprendizado",
+      "text": "As lições aprendidas com erros ou experimentos são compartilhadas entre equipes, áreas e unidades da organização?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "As lições aprendidas não são documentadas nem compartilhadas.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas de projetos ou experimentos. Repositórios digitais de conhecimento (intranets, bases de dados de aprendizado). Registros de reuniões de pós-projeto e feedback. Planos de comunicação e aprendizado organizacional. Plataformas de gestão do conhecimento e colaboração (KM tools, SharePoint, Confluence)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de projetos com lições aprendidas documentadas. Número de acessos e reutilizações de registros de aprendizado. Índice de prevenção de erros recorrentes. Tempo médio entre o registro e a disseminação de uma lição. Nível de engajamento em comunidades de prática. Redução da duplicação de esforços/erros entre projetos. Aumento da velocidade de implementação de melhorias Melhoria na colaboração interdepartamental (medida por pesquisas internas)."
+            ],
+            "observable_behaviors": [
+              "Nenhum registro ou troca de conhecimento sobre erros",
+              "Inexistência de canais de comunicação sobre lições aprendidas"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "O compartilhamento de aprendizados ocorre de forma informal e pontual entre colegas ou equipes.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas de projetos ou experimentos. Repositórios digitais de conhecimento (intranets, bases de dados de aprendizado). Registros de reuniões de pós-projeto e feedback. Planos de comunicação e aprendizado organizacional. Plataformas de gestão do conhecimento e colaboração (KM tools, SharePoint, Confluence)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de projetos com lições aprendidas documentadas. Número de acessos e reutilizações de registros de aprendizado. Índice de prevenção de erros recorrentes. Tempo médio entre o registro e a disseminação de uma lição. Nível de engajamento em comunidades de prática. Redução da duplicação de esforços/erros entre projetos. Aumento da velocidade de implementação de melhorias Melhoria na colaboração interdepartamental (medida por pesquisas internas)."
+            ],
+            "observable_behaviors": [
+              "Compartilhamento verbal e informal"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Lições aprendidas são registradas digitalmente, mas o acesso e a disseminação são limitados.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas de projetos ou experimentos. Repositórios digitais de conhecimento (intranets, bases de dados de aprendizado). Registros de reuniões de pós-projeto e feedback. Planos de comunicação e aprendizado organizacional. Plataformas de gestão do conhecimento e colaboração (KM tools, SharePoint, Confluence)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de projetos com lições aprendidas documentadas. Número de acessos e reutilizações de registros de aprendizado. Índice de prevenção de erros recorrentes. Tempo médio entre o registro e a disseminação de uma lição. Nível de engajamento em comunidades de prática. Redução da duplicação de esforços/erros entre projetos. Aumento da velocidade de implementação de melhorias Melhoria na colaboração interdepartamental (medida por pesquisas internas)."
+            ],
+            "observable_behaviors": [
+              "Registros digitais isolados e pouco utilizados"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A organização possui processos estruturados para registro e disseminação de lições aprendidas entre áreas.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas de projetos ou experimentos. Repositórios digitais de conhecimento (intranets, bases de dados de aprendizado). Registros de reuniões de pós-projeto e feedback. Planos de comunicação e aprendizado organizacional. Plataformas de gestão do conhecimento e colaboração (KM tools, SharePoint, Confluence)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de projetos com lições aprendidas documentadas. Número de acessos e reutilizações de registros de aprendizado. Índice de prevenção de erros recorrentes. Tempo médio entre o registro e a disseminação de uma lição. Nível de engajamento em comunidades de prática. Redução da duplicação de esforços/erros entre projetos. Aumento da velocidade de implementação de melhorias Melhoria na colaboração interdepartamental (medida por pesquisas internas)."
+            ],
+            "observable_behaviors": [
+              "Processo formal de disseminação de lições aprendidas"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O compartilhamento é sistemático, acompanhado de métricas e usado para prevenir falhas recorrentes.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas de projetos ou experimentos. Repositórios digitais de conhecimento (intranets, bases de dados de aprendizado). Registros de reuniões de pós-projeto e feedback. Planos de comunicação e aprendizado organizacional. Plataformas de gestão do conhecimento e colaboração (KM tools, SharePoint, Confluence)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de projetos com lições aprendidas documentadas. Número de acessos e reutilizações de registros de aprendizado. Índice de prevenção de erros recorrentes. Tempo médio entre o registro e a disseminação de uma lição. Nível de engajamento em comunidades de prática. Redução da duplicação de esforços/erros entre projetos. Aumento da velocidade de implementação de melhorias Melhoria na colaboração interdepartamental (medida por pesquisas internas)."
+            ],
+            "observable_behaviors": [
+              "Indicadores de uso e impacto das lições aprendidas"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados de aprendizado e erros alimentam sistemas analíticos que identificam padrões e antecipam riscos.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas de projetos ou experimentos. Repositórios digitais de conhecimento (intranets, bases de dados de aprendizado). Registros de reuniões de pós-projeto e feedback. Planos de comunicação e aprendizado organizacional. Plataformas de gestão do conhecimento e colaboração (KM tools, SharePoint, Confluence)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de projetos com lições aprendidas documentadas. Número de acessos e reutilizações de registros de aprendizado. Índice de prevenção de erros recorrentes. Tempo médio entre o registro e a disseminação de uma lição. Nível de engajamento em comunidades de prática. Redução da duplicação de esforços/erros entre projetos. Aumento da velocidade de implementação de melhorias Melhoria na colaboração interdepartamental (medida por pesquisas internas)."
+            ],
+            "observable_behaviors": [
+              "Aprendizado preditivo com base em padrões analíticos"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A disseminação do aprendizado é automatizada e em tempo real, com sistemas inteligentes que atualizam práticas e processos de forma dinâmica.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas de projetos ou experimentos. Repositórios digitais de conhecimento (intranets, bases de dados de aprendizado). Registros de reuniões de pós-projeto e feedback. Planos de comunicação e aprendizado organizacional. Plataformas de gestão do conhecimento e colaboração (KM tools, SharePoint, Confluence)."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de projetos com lições aprendidas documentadas. Número de acessos e reutilizações de registros de aprendizado. Índice de prevenção de erros recorrentes. Tempo médio entre o registro e a disseminação de uma lição. Nível de engajamento em comunidades de prática. Redução da duplicação de esforços/erros entre projetos. Aumento da velocidade de implementação de melhorias Melhoria na colaboração interdepartamental (medida por pesquisas internas)."
+            ],
+            "observable_behaviors": [
+              "Disseminação automática e aprendizado organizacional em tempo real"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Relatórios de lições aprendidas de projetos ou experimentos. Repositórios digitais de conhecimento (intranets, bases de dados de aprendizado). Registros de reuniões de pós-projeto e feedback. Planos de comunicação e aprendizado organizacional. Plataformas de gestão do conhecimento e colaboração (KM tools, SharePoint, Confluence)."
+        ],
+        "metrics": [
+          "Métricas/KPIs Percentual de projetos com lições aprendidas documentadas. Número de acessos e reutilizações de registros de aprendizado. Índice de prevenção de erros recorrentes. Tempo médio entre o registro e a disseminação de uma lição. Nível de engajamento em comunidades de prática. Redução da duplicação de esforços/erros entre projetos. Aumento da velocidade de implementação de melhorias Melhoria na colaboração interdepartamental (medida por pesquisas internas)."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Nenhum registro ou troca de conhecimento sobre erros",
+              "Inexistência de canais de comunicação sobre lições aprendidas"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Compartilhamento verbal e informal"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Registros digitais isolados e pouco utilizados"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Processo formal de disseminação de lições aprendidas"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Indicadores de uso e impacto das lições aprendidas"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Aprendizado preditivo com base em padrões analíticos"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Disseminação automática e aprendizado organizacional em tempo real"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Selecionar 5–8 projetos concluídos recentemente com erros ou ajustes documentados. Verificar se as lições foram registradas, disseminadas e reutilizadas. Observar repositórios, portais ou intranets para confirmar o compartilhamento e a atualização periódica."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-014-010",
+      "question_number": 10,
+      "title": "Aprendizado adaptativo e cultura evolutiva",
+      "text": "Em que medida a organização utiliza o aprendizado proveniente de erros para antecipar mudanças, ajustar estratégias e evoluir culturalmente?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "O aprendizado proveniente de erros não é analisado nem utilizado para ajustes organizacionais.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas e planos de ação decorrentes de falhas. Registros de revisões estratégicas e ajustes baseados em aprendizado. Documentos de gestão da mudança organizacional. Dashboards de indicadores de aprendizado e desempenho. Evidências de uso de sistemas de análise preditiva e IA em processos de melhoria contínua."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de ajustes estratégicos resultantes de lições aprendidas. Tempo médio de resposta a eventos de erro ou falha. Índice de maturidade da cultura de aprendizado organizacional. Número de melhorias implementadas com base em dados de aprendizado. Taxa de inovação derivada de experimentação e feedback. Velocidade de adaptação a novas demandas de mercado. Aumento da agilidade organizacional (medida por frameworks como OKRs) Crescimento da participação de mercado (market share)."
+            ],
+            "observable_behaviors": [
+              "Erros ignorados ou ocultados"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "As lições aprendidas são discutidas pontualmente, mas sem impacto em decisões ou estratégias.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas e planos de ação decorrentes de falhas. Registros de revisões estratégicas e ajustes baseados em aprendizado. Documentos de gestão da mudança organizacional. Dashboards de indicadores de aprendizado e desempenho. Evidências de uso de sistemas de análise preditiva e IA em processos de melhoria contínua."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de ajustes estratégicos resultantes de lições aprendidas. Tempo médio de resposta a eventos de erro ou falha. Índice de maturidade da cultura de aprendizado organizacional. Número de melhorias implementadas com base em dados de aprendizado. Taxa de inovação derivada de experimentação e feedback. Velocidade de adaptação a novas demandas de mercado. Aumento da agilidade organizacional (medida por frameworks como OKRs) Crescimento da participação de mercado (market share)."
+            ],
+            "observable_behaviors": [
+              "Discussões isoladas, sem efeito prático"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Registros de erros e aprendizados são documentados digitalmente, porém sem retroalimentação sistêmica.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas e planos de ação decorrentes de falhas. Registros de revisões estratégicas e ajustes baseados em aprendizado. Documentos de gestão da mudança organizacional. Dashboards de indicadores de aprendizado e desempenho. Evidências de uso de sistemas de análise preditiva e IA em processos de melhoria contínua."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de ajustes estratégicos resultantes de lições aprendidas. Tempo médio de resposta a eventos de erro ou falha. Índice de maturidade da cultura de aprendizado organizacional. Número de melhorias implementadas com base em dados de aprendizado. Taxa de inovação derivada de experimentação e feedback. Velocidade de adaptação a novas demandas de mercado. Aumento da agilidade organizacional (medida por frameworks como OKRs) Crescimento da participação de mercado (market share)."
+            ],
+            "observable_behaviors": [
+              "Registros digitais sem retroalimentação"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "O aprendizado é incorporado aos processos e políticas, gerando melhorias pontuais e ajustes de rotina.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas e planos de ação decorrentes de falhas. Registros de revisões estratégicas e ajustes baseados em aprendizado. Documentos de gestão da mudança organizacional. Dashboards de indicadores de aprendizado e desempenho. Evidências de uso de sistemas de análise preditiva e IA em processos de melhoria contínua."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de ajustes estratégicos resultantes de lições aprendidas. Tempo médio de resposta a eventos de erro ou falha. Índice de maturidade da cultura de aprendizado organizacional. Número de melhorias implementadas com base em dados de aprendizado. Taxa de inovação derivada de experimentação e feedback. Velocidade de adaptação a novas demandas de mercado. Aumento da agilidade organizacional (medida por frameworks como OKRs) Crescimento da participação de mercado (market share)."
+            ],
+            "observable_behaviors": [
+              "Melhoria pontual de processos"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os aprendizados são medidos, avaliados e usados para ajustar estratégias e prevenir recorrências.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas e planos de ação decorrentes de falhas. Registros de revisões estratégicas e ajustes baseados em aprendizado. Documentos de gestão da mudança organizacional. Dashboards de indicadores de aprendizado e desempenho. Evidências de uso de sistemas de análise preditiva e IA em processos de melhoria contínua."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de ajustes estratégicos resultantes de lições aprendidas. Tempo médio de resposta a eventos de erro ou falha. Índice de maturidade da cultura de aprendizado organizacional. Número de melhorias implementadas com base em dados de aprendizado. Taxa de inovação derivada de experimentação e feedback. Velocidade de adaptação a novas demandas de mercado. Aumento da agilidade organizacional (medida por frameworks como OKRs) Crescimento da participação de mercado (market share)."
+            ],
+            "observable_behaviors": [
+              "Ações corretivas e ajustes estratégicos com base em indicadores"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados de aprendizado e desempenho são analisados por sistemas inteligentes para antecipar mudanças e tendências.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas e planos de ação decorrentes de falhas. Registros de revisões estratégicas e ajustes baseados em aprendizado. Documentos de gestão da mudança organizacional. Dashboards de indicadores de aprendizado e desempenho. Evidências de uso de sistemas de análise preditiva e IA em processos de melhoria contínua."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de ajustes estratégicos resultantes de lições aprendidas. Tempo médio de resposta a eventos de erro ou falha. Índice de maturidade da cultura de aprendizado organizacional. Número de melhorias implementadas com base em dados de aprendizado. Taxa de inovação derivada de experimentação e feedback. Velocidade de adaptação a novas demandas de mercado. Aumento da agilidade organizacional (medida por frameworks como OKRs) Crescimento da participação de mercado (market share)."
+            ],
+            "observable_behaviors": [
+              "Uso de analytics para prever riscos e mudanças"
+            ],
+            "interview_questions": []
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização aprende e se ajusta em tempo real, evoluindo continuamente sua cultura, processos e estratégias com base em dados e feedbacks automatizados.",
+          "evidence_signals": {
+            "artifacts": [
+              "Artefatos e onde buscar Relatórios de lições aprendidas e planos de ação decorrentes de falhas. Registros de revisões estratégicas e ajustes baseados em aprendizado. Documentos de gestão da mudança organizacional. Dashboards de indicadores de aprendizado e desempenho. Evidências de uso de sistemas de análise preditiva e IA em processos de melhoria contínua."
+            ],
+            "metrics": [
+              "Métricas/KPIs Percentual de ajustes estratégicos resultantes de lições aprendidas. Tempo médio de resposta a eventos de erro ou falha. Índice de maturidade da cultura de aprendizado organizacional. Número de melhorias implementadas com base em dados de aprendizado. Taxa de inovação derivada de experimentação e feedback. Velocidade de adaptação a novas demandas de mercado. Aumento da agilidade organizacional (medida por frameworks como OKRs) Crescimento da participação de mercado (market share)."
+            ],
+            "observable_behaviors": [
+              "Cultura evolutiva com aprendizado automatizado e contínuo"
+            ],
+            "interview_questions": []
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Relatórios de lições aprendidas e planos de ação decorrentes de falhas. Registros de revisões estratégicas e ajustes baseados em aprendizado. Documentos de gestão da mudança organizacional. Dashboards de indicadores de aprendizado e desempenho. Evidências de uso de sistemas de análise preditiva e IA em processos de melhoria contínua."
+        ],
+        "metrics": [
+          "Métricas/KPIs Percentual de ajustes estratégicos resultantes de lições aprendidas. Tempo médio de resposta a eventos de erro ou falha. Índice de maturidade da cultura de aprendizado organizacional. Número de melhorias implementadas com base em dados de aprendizado. Taxa de inovação derivada de experimentação e feedback. Velocidade de adaptação a novas demandas de mercado. Aumento da agilidade organizacional (medida por frameworks como OKRs) Crescimento da participação de mercado (market share)."
+        ],
+        "signals_by_level": {
+          "N0": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Erros ignorados ou ocultados"
+            ],
+            "interview_questions": []
+          },
+          "N1": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Discussões isoladas, sem efeito prático"
+            ],
+            "interview_questions": []
+          },
+          "N2": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Registros digitais sem retroalimentação"
+            ],
+            "interview_questions": []
+          },
+          "N3": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Melhoria pontual de processos"
+            ],
+            "interview_questions": []
+          },
+          "N4": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Ações corretivas e ajustes estratégicos com base em indicadores"
+            ],
+            "interview_questions": []
+          },
+          "N5": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Uso de analytics para prever riscos e mudanças"
+            ],
+            "interview_questions": []
+          },
+          "N6": {
+            "artifacts": [],
+            "metrics": [],
+            "observable_behaviors": [
+              "Cultura evolutiva com aprendizado automatizado e contínuo"
+            ],
+            "interview_questions": []
+          }
+        },
+        "sampling_guidance": "Amostragem Selecionar 5 decisões ou revisões estratégicas originadas de aprendizados de erros. Avaliar como os dados de desempenho e falhas influenciaram políticas e planos. Verificar se há revisões periódicas de estratégia baseadas em insights de aprendizado."
+      }
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "files_analyzed": [
+    {
+      "filename": "0890_Dimensão Shopfloor_cgcastro.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "0891_Dimensão Enterprise_cgcastro.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "0892_Dimensão Inter- and Intra-Company Collaboration_cgcastro.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "0893_Dimensão Strategy & Governance_cgcastro.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "20251105_Checklist_Maturidade_Metas_Motivacionais_ESTENDIDO.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "20251105_checklist_gestao_agil.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "20251106_Checklist_Estilo_Lideranca_Democratico_Estendido.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "20251106_checklist_abertura_inovacao.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "20251106_checklist_cooperacao_rede.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "20251110_Comunicacao_Aberta_Checklist_Estendido.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "20251110_Confianca_Processos_Sistemas_Informacao_ESTENDIDO.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": true
+      },
+      "evidence_structure": {
+        "has_level_markers": true,
+        "level_format": "N0: format",
+        "levels_found": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "has_category_headers": true,
+        "categories_found": [
+          "metrics"
+        ],
+        "formatting_type": "structured",
+        "list_style": "paragraph"
+      },
+      "text_sample": "N0: ausência de sistemas digitais; registros manuais ou inexistentes; decisões baseadas exclusivamente em experiência. \nN1: processos documentados em papel ou planilhas locais; dados fragmentados e pouco compartilhados; baixa confiança nas informações. \nN2: sistemas básicos implementados (ex.: ERP inicial); uso limitado; equipes ainda preferem métodos tradicionais; desconfiança ocasional nos dados. \nN3: uso regular de sistemas para monitoramento; dados descritivos são acessados frequentemente; d..."
+    },
+    {
+      "filename": "Organizacao - Desenvolvimento profissional continuo.docx",
+      "author": "Ewerton Madruga",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "Organizacao - Prover competencias digitais.docx",
+      "author": "Ewerton Madruga",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "Organizacao - Reconhecer o valor dos erros.docx",
+      "author": "Ewerton Madruga",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "Processo - Integração horizontal.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "Processo - Integração vertical.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "Competência de Liderança.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "Tecnologia - Aprendizagem e tomada de decisão.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "Tecnologia - Entrega de informação contextualizada.docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    },
+    {
+      "filename": "Shop Floor (D4).docx",
+      "author": "Unknown",
+      "sections_found": {
+        "evidence": false
+      },
+      "evidence_structure": {},
+      "text_sample": ""
+    }
+  ],
+  "authors": {
+    "Unknown": {
+      "files": [
+        "0890_Dimensão Shopfloor_cgcastro.docx",
+        "0891_Dimensão Enterprise_cgcastro.docx",
+        "0892_Dimensão Inter- and Intra-Company Collaboration_cgcastro.docx",
+        "0893_Dimensão Strategy & Governance_cgcastro.docx",
+        "20251105_Checklist_Maturidade_Metas_Motivacionais_ESTENDIDO.docx",
+        "20251105_checklist_gestao_agil.docx",
+        "20251106_Checklist_Estilo_Lideranca_Democratico_Estendido.docx",
+        "20251106_checklist_abertura_inovacao.docx",
+        "20251106_checklist_cooperacao_rede.docx",
+        "20251110_Comunicacao_Aberta_Checklist_Estendido.docx",
+        "20251110_Confianca_Processos_Sistemas_Informacao_ESTENDIDO.docx",
+        "Processo - Integração horizontal.docx",
+        "Processo - Integração vertical.docx",
+        "Competência de Liderança.docx",
+        "Tecnologia - Aprendizagem e tomada de decisão.docx",
+        "Tecnologia - Entrega de informação contextualizada.docx",
+        "Shop Floor (D4).docx"
+      ],
+      "common_patterns": []
+    },
+    "Ewerton Madruga": {
+      "files": [
+        "Organizacao - Desenvolvimento profissional continuo.docx",
+        "Organizacao - Prover competencias digitais.docx",
+        "Organizacao - Reconhecer o valor dos erros.docx"
+      ],
+      "common_patterns": []
+    }
+  },
+  "section_patterns": {
+    "C\\)\\s*Sinais por n[ií]vel[:\\s]+(.*?)(?=D\\)|$)": 1
+  },
+  "evidence_categories": {
+    "metrics": [
+      "20251110_Confianca_Processos_Sistemas_Informacao_ESTENDIDO.docx"
+    ]
+  },
+  "formatting_styles": {
+    "structured": [
+      "20251110_Confianca_Processos_Sistemas_Informacao_ESTENDIDO.docx"
+    ],
+    "prose": []
+  },
+  "level_patterns": {
+    "N0: format": 1
+  },
+  "quality_issues": [
+    {
+      "file": "0890_Dimensão Shopfloor_cgcastro.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "0891_Dimensão Enterprise_cgcastro.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "0892_Dimensão Inter- and Intra-Company Collaboration_cgcastro.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "0893_Dimensão Strategy & Governance_cgcastro.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "20251105_Checklist_Maturidade_Metas_Motivacionais_ESTENDIDO.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "20251105_checklist_gestao_agil.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "20251106_Checklist_Estilo_Lideranca_Democratico_Estendido.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "20251106_checklist_abertura_inovacao.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "20251106_checklist_cooperacao_rede.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "20251110_Comunicacao_Aberta_Checklist_Estendido.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "Organizacao - Desenvolvimento profissional continuo.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "Organizacao - Prover competencias digitais.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "Organizacao - Reconhecer o valor dos erros.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "Processo - Integração horizontal.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "Processo - Integração vertical.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "Competência de Liderança.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "Tecnologia - Aprendizagem e tomada de decisão.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "Tecnologia - Entrega de informação contextualizada.docx",
+      "issue": "No evidence section found"
+    },
+    {
+      "file": "Shop Floor (D4).docx",
+      "issue": "No evidence section found"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "issue": "Only 1/20 files use structured format",
+      "action": "Create DOCX template with clear category headers (Artefatos, Métricas, Comportamentos, Perguntas)"
+    },
+    {
+      "priority": "MEDIUM",
+      "issue": "Only 1 evidence categories used",
+      "action": "Encourage use of all 4 categories: Artefatos, Métricas, Comportamentos, Perguntas"
+    }
+  ]
+}

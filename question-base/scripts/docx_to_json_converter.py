@@ -41,15 +41,7 @@ class MaturityLevel:
     level: int
     label: str
     description: str
-
-
-@dataclass
-class EvidenceSources:
-    """Evidence sources for assessing a question."""
-    artifacts: List[str]
-    metrics: List[str]
-    signals_by_level: Dict[str, str]
-    sampling_guidance: str
+    evidence_signals: Optional[Dict[str, List[str]]] = None
 
 
 @dataclass
@@ -60,7 +52,9 @@ class Question:
     title: str
     text: str
     maturity_levels: List[MaturityLevel]
-    evidence_sources: Optional[EvidenceSources] = None
+    artifacts: Optional[List[str]] = None
+    metrics: Optional[List[str]] = None
+    sampling_guidance: Optional[str] = None
     notes: Optional[str] = None
 
 
@@ -92,9 +86,10 @@ class Capacity:
 class DOCXToJSONConverter:
     """Converts Industry 4.0 DOCX files to structured JSON."""
 
-    def __init__(self, docx_path: str, author: str = "Unknown"):
+    def __init__(self, docx_path: str, author: str = "Unknown", capacity_number: int = 1):
         self.docx_path = Path(docx_path)
         self.author = author
+        self.capacity_number = capacity_number
         self.doc = Document(str(self.docx_path))
 
         # Patterns for parsing
@@ -219,11 +214,11 @@ class DOCXToJSONConverter:
         normalized_pilar = self._normalize_pilar_name(capacity_data['pilar'])
         normalized_dimension = self._normalize_dimension_name(capacity_data['dimension'])
 
-        # Generate capacity ID (after normalization)
+        # Generate capacity ID (after normalization) with sequential numbering
         block_code = self._get_block_code(capacity_data['block'])
         pilar_code = self._get_pilar_code(capacity_data['pilar'])
         dim_code = self._get_dimension_code(capacity_data['dimension'])
-        capacity_id = f"CAP-{block_code}-{pilar_code}-{dim_code}-001"
+        capacity_id = f"CAP-{block_code}-{pilar_code}-{dim_code}-{self.capacity_number:03d}"
 
         metadata = Metadata(
             source_frameworks=["ACATECH", "SIRI"],
@@ -322,41 +317,38 @@ class DOCXToJSONConverter:
         return normalization.get(pilar_clean, pilar_clean)
 
     def _get_pilar_code(self, pilar: str) -> str:
-        """Get short code for pilar, ignoring '(' and other non-alphabetic chars."""
+        """Generate smart code for pilar (5-6 letters, skip articles like 'e')."""
         normalized = self._normalize_pilar_name(pilar)
-        # Extract initials from pilar name, filtering out non-alphabetic characters
+
+        # Articles and connectors to skip
+        skip_words = {'e', 'de', 'da', 'do', 'das', 'dos', '&', '-', '/'}
+
+        # Split into words and filter
         words = normalized.split()
+        meaningful_words = [w for w in words if w.lower() not in skip_words and w.strip()]
 
-        # Get valid characters from first letters of words
+        # Extract 5-6 letters from meaningful words
         code_chars = []
-        for word in words[:4]:  # Check up to 4 words to get 2 valid chars
-            # Skip empty words and find first alphabetic character
-            for char in word:
-                if char.isalpha():  # Only use alphabetic characters
-                    code_chars.append(char.upper())
-                    break
-            if len(code_chars) >= 2:
-                break
+        for word in meaningful_words:
+            # Get only alphabetic characters
+            clean_word = ''.join([c for c in word if c.isalpha()])
+            if clean_word:
+                code_chars.extend(list(clean_word.upper()))
 
-        if len(code_chars) >= 2:
-            return ''.join(code_chars[:2])
+        # Take 6 letters if available, otherwise 5
+        if len(code_chars) >= 6:
+            return ''.join(code_chars[:6])
+        elif len(code_chars) >= 5:
+            return ''.join(code_chars[:5])
+        elif len(code_chars) >= 3:
+            return ''.join(code_chars[:len(code_chars)])
 
-        # If we don't have 2 chars yet, get from first word with valid letters
-        if len(code_chars) < 2:
-            for word in words:
-                clean_word = ''.join([c for c in word if c.isalpha()])
-                if len(clean_word) >= 2:
-                    # Use the first 2 letters from this clean word
-                    return clean_word[:2].upper()
-                elif len(clean_word) == 1 and len(code_chars) == 0:
-                    code_chars.append(clean_word[0].upper())
-
-        # Final fallback: get first 2 alphabetic characters from entire normalized string
+        # Fallback: use all alphabetic characters
         alpha_chars = [c.upper() for c in normalized if c.isalpha()]
-        if len(alpha_chars) >= 2:
-            return ''.join(alpha_chars[:2])
+        if len(alpha_chars) >= 3:
+            return ''.join(alpha_chars[:min(6, len(alpha_chars))])
 
-        return 'PI'  # Default if nothing works
+        return 'PILAR'  # Default if nothing works
 
     def _normalize_dimension_name(self, dimension: str) -> str:
         """Normalize dimension name to standard Portuguese form."""
@@ -421,41 +413,41 @@ class DOCXToJSONConverter:
         return normalization.get(dimension_clean, dimension_clean)
 
     def _get_dimension_code(self, dimension: str) -> str:
-        """Get short code for dimension, ignoring '(' and other non-alphabetic chars."""
+        """Generate smart code for dimension (5-6 letters, skip articles like 'e')."""
         normalized = self._normalize_dimension_name(dimension)
-        # Extract initials from dimension name, filtering out non-alphabetic characters
-        words = normalized.split()
 
-        # Get valid characters from first letters of words
+        # Remove dimension codes like (D10), (D11) from the string
+        clean_dimension = re.sub(r'\s*\([Dd]\d+\)\s*', '', normalized).strip()
+
+        # Articles and connectors to skip
+        skip_words = {'e', 'de', 'da', 'do', 'das', 'dos', '&', '-', '/'}
+
+        # Split into words and filter
+        words = clean_dimension.split()
+        meaningful_words = [w for w in words if w.lower() not in skip_words and w.strip()]
+
+        # Extract 5-6 letters from meaningful words
         code_chars = []
-        for word in words[:4]:  # Check up to 4 words to get 2 valid chars
-            # Skip empty words and find first alphabetic character
-            for char in word:
-                if char.isalpha():  # Only use alphabetic characters
-                    code_chars.append(char.upper())
-                    break
-            if len(code_chars) >= 2:
-                break
+        for word in meaningful_words:
+            # Get only alphabetic characters
+            clean_word = ''.join([c for c in word if c.isalpha()])
+            if clean_word:
+                code_chars.extend(list(clean_word.upper()))
 
-        if len(code_chars) >= 2:
-            return ''.join(code_chars[:2])
+        # Take 6 letters if available, otherwise 5
+        if len(code_chars) >= 6:
+            return ''.join(code_chars[:6])
+        elif len(code_chars) >= 5:
+            return ''.join(code_chars[:5])
+        elif len(code_chars) >= 3:
+            return ''.join(code_chars[:len(code_chars)])
 
-        # If we don't have 2 chars yet, get from first word with valid letters
-        if len(code_chars) < 2:
-            for word in words:
-                clean_word = ''.join([c for c in word if c.isalpha()])
-                if len(clean_word) >= 2:
-                    # Use the first 2 letters from this clean word
-                    return clean_word[:2].upper()
-                elif len(clean_word) == 1 and len(code_chars) == 0:
-                    code_chars.append(clean_word[0].upper())
+        # Fallback: use all alphabetic characters
+        alpha_chars = [c.upper() for c in clean_dimension if c.isalpha()]
+        if len(alpha_chars) >= 3:
+            return ''.join(alpha_chars[:min(6, len(alpha_chars))])
 
-        # Final fallback: get first 2 alphabetic characters from entire normalized string
-        alpha_chars = [c.upper() for c in normalized if c.isalpha()]
-        if len(alpha_chars) >= 2:
-            return ''.join(alpha_chars[:2])
-
-        return 'DM'  # Default if nothing works
+        return 'DIMENS'  # Default if nothing works
 
     def _extract_questions(self, capacity: Capacity) -> List[Question]:
         """Extract all questions from the document."""
@@ -536,6 +528,19 @@ class DOCXToJSONConverter:
 
             cell_text = self._clean_text(cells[0].text)
 
+            # Check for evidence sources (MUST be outside len(cells) >= 2 check!)
+            # Evidence tables often have single-cell rows with headers like "Possíveis fontes de evidências:"
+            if 'evidência' in cell_text.lower() or 'evidence' in cell_text.lower():
+                # Use the evidence extractor module if available
+                if self.evidence_extractor:
+                    extracted_evidence = self.evidence_extractor.extract_from_table(table)
+                    if extracted_evidence:
+                        question_dict['evidence_sources'] = extracted_evidence
+                else:
+                    # Fallback to old parsing method
+                    content = cells[1].text if len(cells) >= 2 else cell_text
+                    self._parse_evidence_sources(content, question_dict['evidence_sources'])
+
             # Check if this row contains maturity level information
             if len(cells) >= 2:
                 first_cell = self._clean_text(cells[0].text)
@@ -566,20 +571,9 @@ class DOCXToJSONConverter:
                     if not question_dict['text']:
                         question_dict['text'] = first_cell
 
-                # Check for evidence sources
-                if 'evidência' in cell_text.lower() or 'evidence' in cell_text.lower():
-                    # Use the evidence extractor module if available
-                    if self.evidence_extractor:
-                        extracted_evidence = self.evidence_extractor.extract_from_table(table)
-                        if extracted_evidence:
-                            question_dict['evidence_sources'] = extracted_evidence
-                    else:
-                        # Fallback to old parsing method
-                        content = second_cell if len(cells) >= 2 else cell_text
-                        self._parse_evidence_sources(content, question_dict['evidence_sources'])
-                elif 'Capacidade em medição' in cell_text or 'Capacidade em medicao' in cell_text:
-                    if len(cells) >= 2:
-                        question_dict['capacity_measured'] = self._clean_text(cells[1].text)
+                # Check for capacity measurement
+                if 'Capacidade em medição' in cell_text or 'Capacidade em medicao' in cell_text:
+                    question_dict['capacity_measured'] = self._clean_text(cells[1].text)
 
     def _parse_evidence_sources(self, text: str, evidence_dict: Dict):
         """Parse evidence sources from text."""
@@ -616,30 +610,75 @@ class DOCXToJSONConverter:
         if sampling_match:
             evidence_dict['sampling_guidance'] = self._clean_text(sampling_match.group(1))
 
+    def _map_evidence_to_maturity_levels(self, maturity_levels_list: List[Dict], evidence_data: Dict) -> List[Dict]:
+        """
+        Map evidence signals to corresponding maturity levels.
+
+        Args:
+            maturity_levels_list: List of maturity level dicts
+            evidence_data: Evidence dict with signals_by_level
+
+        Returns:
+            Updated maturity levels list with evidence_signals added
+        """
+        if not evidence_data:
+            # No evidence data, add empty structure to all levels
+            for ml in maturity_levels_list:
+                ml['evidence_signals'] = {
+                    "observable_behaviors": []
+                }
+            return maturity_levels_list
+
+        signals_by_level = evidence_data.get('signals_by_level', {})
+
+        # Map evidence to each maturity level
+        for ml in maturity_levels_list:
+            level_key = f"N{ml['level']}"
+            level_behaviors = []
+
+            # Get level-specific observable behaviors from Section C
+            if level_key in signals_by_level and isinstance(signals_by_level[level_key], dict):
+                level_evidence = signals_by_level[level_key]
+                level_behaviors = level_evidence.get('observable_behaviors', [])
+
+            ml['evidence_signals'] = {
+                "observable_behaviors": level_behaviors
+            }
+
+        return maturity_levels_list
+
     def _convert_to_question_objects(self, questions_dicts: List[Dict], capacity: Capacity) -> List[Question]:
         """Convert question dictionaries to Question objects."""
         questions = []
 
         for q_dict in questions_dicts:
-            # Convert maturity levels
+            # Map evidence to maturity levels before converting to objects
+            maturity_levels_dicts = q_dict.get('maturity_levels', [])
+            evidence_data = q_dict.get('evidence_sources', {})
+
+            # Apply evidence mapping
+            maturity_levels_dicts = self._map_evidence_to_maturity_levels(
+                maturity_levels_dicts,
+                evidence_data
+            )
+
+            # Convert maturity levels to dataclass objects
             maturity_levels = [
-                MaturityLevel(**ml) for ml in q_dict.get('maturity_levels', [])
+                MaturityLevel(**ml) for ml in maturity_levels_dicts
             ]
 
             # Sort by level
             maturity_levels.sort(key=lambda x: x.level)
 
-            # Convert evidence sources
-            evidence_sources = None
+            # Extract evidence data directly to question level
+            artifacts = None
+            metrics = None
+            sampling_guidance = None
             if q_dict.get('evidence_sources'):
                 ev = q_dict['evidence_sources']
-                if ev['artifacts'] or ev['metrics'] or ev['signals_by_level']:
-                    evidence_sources = EvidenceSources(
-                        artifacts=ev['artifacts'],
-                        metrics=ev['metrics'],
-                        signals_by_level=ev['signals_by_level'],
-                        sampling_guidance=ev['sampling_guidance']
-                    )
+                artifacts = ev.get('artifacts', []) if ev.get('artifacts') else None
+                metrics = ev.get('metrics', []) if ev.get('metrics') else None
+                sampling_guidance = ev.get('sampling_guidance', '') if ev.get('sampling_guidance') else None
 
             question = Question(
                 id=q_dict['id'],
@@ -647,7 +686,9 @@ class DOCXToJSONConverter:
                 title=q_dict['title'],
                 text=q_dict['text'],
                 maturity_levels=maturity_levels,
-                evidence_sources=evidence_sources
+                artifacts=artifacts,
+                metrics=metrics,
+                sampling_guidance=sampling_guidance
             )
 
             questions.append(question)

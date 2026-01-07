@@ -1,0 +1,946 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-PRONTI-APREND-013",
+    "name": "Prover competencias digitais",
+    "block": "Organização",
+    "pilar": "Prontidão de Talentos",
+    "dimension": "Aprendizado e Desenvolvimento da Força de Trabalho (D13)",
+    "description": "A capacidade de prover competências digitais é um elemento essencial para o desenvolvimento da maturidade organizacional em indústrias e instituições que buscam a transformação digital. Nos modelos ACATECH e SIRI, essa capacidade faz parte da dimensão organizacional que trata do preparo da força de trabalho (Talent Readiness) e está relacionada à habilidade de planejar, desenvolver e sustentar competências técnicas e comportamentais voltadas ao uso e gestão de tecnologias digitais. O princípio de capacidade digital, na estrutura de recursos do modelo ACATECH, enfatiza que a transformação digital não depende apenas de infraestrutura tecnológica, mas também da qualificação contínua das pessoas e da incorporação de uma cultura de aprendizagem adaptativa. A formação em competências digitais abrange tanto habilidades técnicas (como análise de dados, automação, segurança cibernética, uso de IA e ferramentas colaborativas) quanto competências cognitivas e sociais, como resolução de problemas, pensamento crítico e inovação. À medida que a maturidade aumenta, a organização evolui de ações pontuais de capacitação para um ecossistema de aprendizagem contínua e personalizada, baseado em plataformas digitais de treinamento, análise de lacunas de competência e aprendizagem autoguiada. Nos níveis mais elevados, a força de trabalho torna-se auto aprendente, multidisciplinar e digitalmente fluente, promovendo inovação e agilidade na adoção de novas tecnologias.",
+    "related_capacities": [
+      "Diagnóstico e mapeamento de competências digitais",
+      "Planejamento estratégico de desenvolvimento de talentos digitais",
+      "Implementação de programas de capacitação e aprendizagem contínua Uso de tecnologias educacionais e plataformas digitais de aprendizagem",
+      "Incentivo à cultura digital e aprendizado autodirigido",
+      "Avaliação de impacto e eficácia das capacitações digitais",
+      "Integração de competências digitais com práticas operacionais",
+      "Aprendizagem organizacional baseada em dados",
+      "Resiliência e adaptabilidade digital da força de trabalho",
+      "Parcerias e ecossistema de aprendizagem digital."
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Flavia Agostini",
+      "version": "1.0",
+      "last_updated": "2026-01-05",
+      "source_docx": "Organizacao - Prover competencias digitais.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-PRONTI-APREND-013-001",
+      "question_number": 1,
+      "title": "Diagnóstico e mapeamento de competências digitais",
+      "text": "Em que medida a organização identifica, registra e monitora as competências digitais necessárias para cada função ?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A organização não possui levantamento das competências digitais dos colaboradores.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Nenhum mapeamento formal de competências"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem descrições de cargos e habilidades básicas, mas sem foco em competências digitais.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Inventário de habilidades básicas sem foco digital"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "As competências digitais estão parcialmente registradas em sistemas de RH, sem atualização regular.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Registros digitais parciais e não estruturados"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Há um processo formal de mapeamento de competências digitais, revisado periodicamente.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Processo formal e documentado de diagnóstico"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O diagnóstico é baseado em dados e métricas que identificam lacunas e orientam ações de capacitação.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Lacunas e indicadores de competência são mensurados e usados para decisões"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Ferramentas analíticas antecipam necessidades futuras de competências e direcionam treinamentos personalizados.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Diagnóstico automatizado e preditivo com base em dados analíticos"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema de mapeamento é adaptativo, autônomo e se atualiza em tempo real com base em dados de desempenho e evolução tecnológica. .",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Atualização contínua e autônoma dos perfis de competência digital"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Banco de dados de competências do RH (sistemas LMS, HR Analytics, People Analytics). Relatórios de avaliação de desempenho digital. Planos de desenvolvimento individual (PDIs) e mapas de carreira. Registros de treinamentos e resultados de avaliações técnicas. Matrizes de Habilidades Digitais (Digital Skill Matrix) ou Inventário de Competências Digitais."
+        ],
+        "metrics": [
+          "Métricas/KPIs Percentual de funções com competências digitais mapeadas. Frequência de atualização dos registros de competência. Taxa de fechamento de lacunas identificadas. Percentual de colaboradores com trilhas de desenvolvimento digital ativas."
+        ],
+        "sampling_guidance": "Amostragem Entrevistas com gestores de RH, líderes de área e colaboradores. Análise de registros em sistemas de gestão de talentos. Observação de práticas de avaliação de desempenho e feedback. Revisão de relatórios de auditoria interna de competências."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-013-002",
+      "question_number": 2,
+      "title": "Planejamento estratégico para desenvolvimento de talentos digitais",
+      "text": "Até que ponto o planejamento de desenvolvimento da força de trabalho está alinhado às necessidades da transformação digital e às mudanças tecnológicas emergentes?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há planejamento estruturado de desenvolvimento de talentos digitais.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Ausência de plano formal de talentos"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem planos de capacitação pontuais, sem alinhamento com a estratégia digital.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Planos pontuais, não conectados à estratégia digital"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "O planejamento está documentado em sistemas digitais, mas o alinhamento com as metas tecnológicas é reativo ou limitado.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Registro digital de planos, sem integração estratégica"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "O plano de desenvolvimento de talentos é formalmente alinhado à estratégia digital da organização.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Planejamento formal alinhado às metas digitais"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O planejamento baseia-se em métricas de desempenho e learning analytics, permitindo ajustes proativos e direcionados.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Uso de dados e indicadores para ajuste de planos"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Ferramentas analíticas antecipam lacunas de talento e recomendam ações de capacitação.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Planejamento preditivo com base em analytics e IA"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O planejamento é dinâmico e ajusta automaticamente as iniciativas de capacitação conforme dados em tempo real e evolução tecnológica.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Sistema adaptativo de gestão de talentos em tempo real"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Plano estratégico de transformação digital. Documentos de gestão de talentos e relatórios de RH. Registros de orçamento e investimento em capacitação digital. Planos de sucessão e relatórios de avaliação de competências críticas. Relatórios de Projeção de Necessidades de Talentos"
+        ],
+        "metrics": [
+          "Métricas/KPIs Percentual de funções críticas com plano de desenvolvimento digital definido. Grau de alinhamento entre metas de capacitação e estratégia corporativa. Taxa de cumprimento dos planos de desenvolvimento. Tempo médio de resposta a novas necessidades tecnológicas."
+        ],
+        "sampling_guidance": "Amostragem Entrevistas com RH, liderança de inovação e áreas técnicas. Análise de relatórios de revisão de competências e sucessão. Verificação de integração entre plano de talentos e plano digital. Observação de comitês de gestão de pessoas e tecnologia."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-013-003",
+      "question_number": 3,
+      "title": "Implementação de programas de capacitação digital contínua",
+      "text": "Em que grau a organização implementa programas estruturados e contínuos de capacitação digital ?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não existem programas estruturados de capacitação digital.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Ausência de treinamentos estruturados"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Há treinamentos pontuais e presenciais, sem plano contínuo de capacitação.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Treinamentos pontuais e reativos"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existem programas de treinamento com conteúdos digitais, mas sem acompanhamento sistemático.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Conteúdos digitais básicos, sem acompanhamento"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os programas de capacitação digital são contínuos e alinhados aos objetivos estratégicos da organização.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Programas contínuos e integrados à estratégia"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "O desempenho e o progresso dos participantes são monitorados e utilizados para melhoria dos programas.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Monitoramento de desempenho e métricas de evolução"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Ferramentas analíticas personalizam o aprendizado com base em dados de desempenho e perfil de cada colaborador.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Aprendizado personalizado, analítico e preditivo"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema de capacitação é autônomo e preditivo, ajustando em tempo real conteúdos e métodos conforme as necessidades individuais e os dados operacionais de desempenho .",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Aprendizado adaptativo e autônomo, com IA e feedback em tempo real"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Registros e relatórios de programas de capacitação (RH, Treinamento e Desenvolvimento). Cronogramas e conteúdos de trilhas de aprendizado digital. Relatórios de desempenho e avaliação dos participantes. Sistemas LMS/LXP com indicadores de progresso e conclusão. Registros de certificações e feedbacks de aprendizagem."
+        ],
+        "metrics": [
+          "Métricas/KPIs Percentual de colaboradores com participação ativa em programas digitais. Taxa de conclusão de trilhas de aprendizado. Frequência de atualização dos conteúdos digitais. Índice de satisfação e aplicabilidade dos treinamentos. Impacto das capacitações em indicadores de desempenho organizacional."
+        ],
+        "sampling_guidance": "Amostragem Entrevistas com gestores de RH, inovação e TI. Análise de relatórios de plataformas de aprendizado (LMS, BI). Observação de trilhas de capacitação em execução. Verificação de políticas e planos de capacitação digital."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-013-004",
+      "question_number": 4,
+      "title": "Uso de tecnologias educacionais e plataformas digitais de aprendizagem",
+      "text": "Em que medida a organização utiliza plataformas digitais e tecnologias educacionais (como LMS, IA, realidade virtual ou simuladores) ?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há uso de tecnologias digitais em programas de aprendizado.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Ausência de tecnologias educacionais"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Ferramentas digitais são utilizadas apenas para registro ou compartilhamento de materiais.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Uso pontual de ferramentas digitais básicas"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existe uma plataforma básica de e-learning, com conteúdos disponíveis de forma estática.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Sistema de e-learning simples, sem acompanhamento"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "O sistema de aprendizado digital é integrado à gestão de talentos e inclui acompanhamento de progresso.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Integração com RH e monitoramento de progresso"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A plataforma gera relatórios e indicadores de desempenho, permitindo análise de eficácia das capacitações.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Relatórios e dashboards analíticos"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Tecnologias como IA, Realidade Aumentada (RA) / Realidade Virtual (RV) ou simulações são usadas para personalizar o aprendizado .",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Personalização preditiva via IA e tecnologias imersivas"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema de aprendizado é autônomo e inteligente, ajustando conteúdos e métodos em tempo real conforme o perfil e desempenho do colaborador.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Aprendizado adaptativo em tempo real, com IA autônoma"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Relatórios e dashboards do LMS ou LXP. Registros de uso de tecnologias imersivas (RA, RV, simulações). Logs de acesso e de conclusão de cursos. Políticas e planos de adoção tecnológica em aprendizagem. Documentação técnica de ferramentas educacionais. Especificações técnicas de interoperabilidade entre LMS/LXP e MES/ERP"
+        ],
+        "metrics": [
+          "Métricas/KPIs Percentual de programas de capacitação suportados digitalmente. Taxa de engajamento e conclusão em plataformas digitais. Nível de automação de processos de aprendizado (inscrição, avaliação, feedback). Índice de personalização de conteúdos por perfil. Taxa de adoção de tecnologias emergentes em capacitação."
+        ],
+        "sampling_guidance": "Amostragem Entrevistas com RH, equipe de TI e instrutores. Verificação direta do uso das plataformas digitais. Revisão de relatórios de analytics das plataformas. Observação de práticas de aprendizado imersivo e automatizado."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-013-005",
+      "question_number": 5,
+      "title": "Cultura digital e aprendizado autodirigido",
+      "text": "Até que ponto a organização promove uma cultura de aprendizado contínuo, incentivando a autonomia, a curiosidade e a experimentação digital entre os colaboradores?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A organização não promove iniciativas voltadas à cultura digital ou aprendizado contínuo.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Ausência de estímulo à aprendizagem"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem treinamentos obrigatórios, mas sem incentivo à autonomia ou inovação.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Treinamentos formais e obrigatórios, sem protagonismo do colaborador"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A organização oferece cursos e conteúdos digitais, mas o aprendizado é passivo e dirigido.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Conteúdos digitais disponíveis, mas de uso passivo"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Há estímulo à aprendizagem contínua, com oportunidades estruturadas de desenvolvimento e feedback.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Incentivo à aprendizagem contínua e feedback regular"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A cultura digital é ativamente promovida e mensurada por indicadores de engajamento e aprendizado.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Mensuração e acompanhamento da cultura digital"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A organização utiliza dados e IA para promover recomendações personalizadas de aprendizado e monitorar o engajamento individual.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Uso de dados e IA para recomendações personalizadas e integração do conhecimento em bases formais"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O aprendizado é autônomo, colaborativo e sustentado por um ecossistema digital que se ajusta em tempo real às necessidades dos colaboradores e da organização.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Ecossistema autônomo de aprendizado colaborativo e adaptativo"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Políticas e programas de cultura organizacional e transformação digital. Campanhas e materiais de comunicação interna sobre inovação e aprendizado. Registros de participação em comunidades de prática ou programas de mentoria. Dados de engajamento em plataformas digitais de aprendizado. Relatórios de feedback, enquetes internas e avaliações de clima organizacional. Programas de Reconhecimento e Recompensa por Inovação ou Aprendizado"
+        ],
+        "metrics": [
+          "Métricas/KPIs Índice de engajamento digital dos colaboradores. Percentual de participação voluntária em capacitações. Frequência de acesso a plataformas de aprendizado sob demanda. Nível de satisfação com a cultura de aprendizado. Correlação entre aprendizado autodirigido e desempenho organizacional."
+        ],
+        "sampling_guidance": "Amostragem Entrevistas com colaboradores, gestores e RH. Análise de relatórios de engajamento e indicadores de cultura. Verificação do uso de plataformas digitais e fóruns colaborativos. Observação de práticas de reconhecimento e incentivo ao aprendizado."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-013-006",
+      "question_number": 6,
+      "title": "Avaliação de impacto e eficácia das capacitações digitais",
+      "text": "Em que grau a organização mede o impacto dos programas de capacitação digital, relacionando o aprendizado ao desempenho, produtividade e resultados da transformação digital?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há avaliação formal das capacitações digitais realizadas.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Ausência de avaliação"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A avaliação é baseada apenas em feedback de satisfação dos participantes.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Avaliação apenas de satisfação"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Resultados são registrados digitalmente, mas sem análise sistemática de impacto.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Registros digitais sem análise"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Há processos formais para avaliar a eficácia das capacitações e identificar oportunidades de melhoria.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Avaliação formal e periódica com relatórios"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Indicadores e métricas de Learning Analytics são usados para correlacionar o aprendizado com o desempenho operacional e as metas organizacionais.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Métricas relacionadas a indicadores de desempenho"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Ferramentas analíticas e preditivas identificam tendências de impacto e orientam a personalização dos programas.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Análises preditivas e personalização de programas"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema de aprendizado fecha o ciclo de feedback e ajusta automaticamente conteúdos e estratégias de capacitação, em tempo real, com base em dados de impacto e desempenho prático. .",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Aprendizado adaptativo com ajustes automáticos"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Relatórios de desempenho de capacitações e dashboards de RH. Indicadores de ROI e produtividade relacionados a programas de aprendizado. Relatórios de engajamento em plataformas de aprendizagem digital. Pesquisas de satisfação e eficácia pós-treinamento. Dados de desempenho operacional antes e depois das capacitações. Análise de regressão/correlação entre indicadores de L&D e KPIs de Produção/Qualidade."
+        ],
+        "metrics": [
+          "Métricas/KPIs Taxa de conclusão de programas de capacitação digital. Grau de correlação entre aprendizado e resultados operacionais. Retorno sobre investimento (ROI) das capacitações digitais. Percentual de programas revisados com base em análise de impacto. Tempo médio de melhoria de desempenho pós-treinamento."
+        ],
+        "sampling_guidance": "Amostragem Entrevistas com gestores de RH e líderes de aprendizado. Revisão de relatórios de indicadores de desempenho pós-capacitação. Análise de dados extraídos de plataformas LMS/LXP. Observação de práticas de feedback e revisão de programas."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-013-007",
+      "question_number": 7,
+      "title": "Integração das competências digitais com a prática operacional",
+      "text": "Até que ponto as competências digitais desenvolvidas são efetivamente aplicadas nas rotinas operacionais, de gestão e inovação da organização?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "As capacitações digitais não possuem relação direta com as atividades práticas dos colaboradores.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Nenhuma aplicação prática das competências digitais"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Algumas competências digitais são aplicadas de forma pontual e sem acompanhamento sistemático.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Uso pontual e informal de novas habilidades"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Há registros digitais de aplicação prática, mas sem integração formal com a operação.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Registros digitais isolados de aplicação"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "O aprendizado digital é planejado e formalmente integrado para apoiar atividades e processos operacionais específicos, sendo um requisito do cargo.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Alinhamento formal entre aprendizado e operação"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A aplicação prática das competências é monitorada e utilizada como indicador de desempenho e melhoria.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Monitoramento sistemático de resultados práticos"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados operacionais e analíticos são usados para ajustar e otimizar programas de capacitação de forma contínua.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Otimização algorítmica ou baseada em IA de programas de treinamento conforme dados operacionais"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "A integração é completa",
+          "description": "o processo de aprendizado está embutido nos sistemas de execução operacional com feedback automático e ajuste contínuo das práticas.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Feedback em tempo real entre aprendizado e operação"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Relatórios de aplicação prática pós-capacitação. Indicadores de desempenho antes e depois da formação digital. Dados de integração entre sistemas de aprendizado (LMS) e sistemas operacionais (ERP, MES, IoT). Planos de desenvolvimento individual vinculados a metas operacionais. Registros de feedback de líderes e colaboradores sobre uso das competências em campo."
+        ],
+        "metrics": [
+          "Métricas/KPIs Percentual de competências aplicadas na rotina operacional. Índice de melhoria de produtividade pós-capacitação. Tempo médio de incorporação de novas práticas digitais. Número de processos otimizados a partir de aprendizado digital. Correlação entre aprendizado e redução de erros ou retrabalho."
+        ],
+        "sampling_guidance": "Amostragem Entrevistas com gestores operacionais, RH e líderes técnicos. Revisão de relatórios de integração de sistemas. Observação em campo de práticas operacionais digitais. Análise de métricas de desempenho pós-capacitação."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-013-008",
+      "question_number": 8,
+      "title": "Aprendizagem organizacional baseada em dados",
+      "text": "Em que medida a organização utiliza dados e análises (learning analytics) para personalizar treinamentos, prever lacunas de competência e ajustar seus programas de capacitação?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há coleta ou uso de dados para avaliar o aprendizado.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Ausência de coleta de dados"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Dados básicos de participação ou satisfação são coletados, mas não analisados sistematicamente.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Coleta pontual, sem análise"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Dados de aprendizado são armazenados em sistemas digitais, porém usados apenas para registro.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Dados digitais armazenados, sem uso prático"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Há análise regular de dados de aprendizado e desempenho, utilizada para revisão de programas.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Análise periódica e ajustes pontuais"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Métricas e dashboards analíticos são empregados para identificar lacunas e direcionar capacitações.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Dashboards e relatórios diagnósticos ativos"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Modelos analíticos e algoritmos preveem necessidades futuras de aprendizado e desempenho, suportando decisões proativas.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Previsões de aprendizado com base em IA"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sistema de aprendizado utiliza IA e automação para ajustar conteúdos, métodos e recomendações em tempo real, com base em dados individuais e coletivos.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Personalização automática e aprendizado adaptativo"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Relatórios de analytics de plataformas LMS ou LXP. Dashboards de desempenho e engajamento em aprendizado. Documentação de uso de algoritmos ou modelos preditivos. Registros de personalização automática de conteúdos. Planos de governança de dados de aprendizado e privacidade. Modelo de governança e ética de dados de aprendizado (Learning Data Governance)"
+        ],
+        "metrics": [
+          "Métricas/KPIs Percentual de decisões de aprendizado baseadas em dados. Tempo médio entre coleta de dados e ação corretiva no programa. Precisão das previsões de lacunas de competência. Grau de personalização dos conteúdos de treinamento. Engajamento e desempenho pós-personalização."
+        ],
+        "sampling_guidance": "Amostragem Entrevistas com gestores de RH, TI e líderes de capacitação. Revisão de relatórios de analytics e dashboards de aprendizado. Verificação da existência de políticas de governança de dados educacionais. Observação de recomendações automatizadas em plataformas de aprendizado."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-013-009",
+      "question_number": 9,
+      "title": "Resiliência e adaptabilidade digital da força de trabalho",
+      "text": "Até que ponto os colaboradores estão preparados para se adaptar a novas tecnologias, processos digitais e mudanças contínuas no ambiente de trabalho?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Os colaboradores resistem às mudanças tecnológicas e não há ações formais de adaptação digital.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Resistência generalizada à mudança"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem treinamentos pontuais para novas ferramentas, mas sem acompanhamento sistemático.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Treinamentos pontuais e reativos"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A organização oferece conteúdos digitais sobre novas tecnologias, sem planos estruturados de adaptação.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Capacitações digitais básicas"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Há programas formais e contínuos de atualização e requalificação digital (reskilling/upskilling), vinculados a planos de sucessão e mudanças tecnológicas esperadas.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Programas estruturados e regulares de atualização"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A resiliência digital é monitorada e avaliada por indicadores de engajamento e desempenho em contextos de mudança.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Avaliação e métricas de adaptação"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Ferramentas analíticas e dados de desempenho são usados para prever lacunas de adaptação e preparar respostas antecipadas.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Ações preditivas com base em dados de engajamento"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização possui uma cultura de adaptabilidade intrínseca, em que os colaboradores modelam a mudança e o aprendizado contínuo é apoiado por sistemas inteligentes e processos orgânicos.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Cultura adaptativa e aprendizado contínuo automatizado"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Programas de reskilling e upskilling registrados em RH. Relatórios de engajamento e desempenho em adoção tecnológica. Indicadores de participação em capacitações emergenciais. Políticas de mudança organizacional e suporte à inovação. Pesquisas internas sobre cultura e adaptação digital."
+        ],
+        "metrics": [
+          "Métricas/KPIs Percentual de colaboradores requalificados em novas tecnologias. Tempo médio de adaptação a novas ferramentas ou processos. Índice de engajamento digital. Taxa de sucesso de implementações tecnológicas (adoção efetiva). Nível de prontidão digital por área ou função."
+        ],
+        "sampling_guidance": "Amostragem Entrevistas com gestores de RH, inovação e líderes de equipe. Revisão de relatórios de resiliência e readiness digital. Análise de indicadores de adoção tecnológica. Observação de práticas de aprendizado e colaboração digital."
+      }
+    },
+    {
+      "id": "Q-ORG-PRONTI-APREND-013-010",
+      "question_number": 10,
+      "title": "Parcerias e ecossistema de aprendizagem digital",
+      "text": "Em que grau a organização estabelece parcerias com instituições de ensino, startups e fornecedores para desenvolver competências digitais e promover inovação educacional?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Não há parcerias ou ações externas relacionadas à capacitação digital.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Ausência de parcerias educacionais"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Existem parcerias pontuais com instituições externas, sem integração formal.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Colaborações isoladas e informais"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "As parcerias são registradas e gerenciadas digitalmente, mas com escopo limitado.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Registros digitais de parcerias sem integração operacional"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Há programas de capacitação desenvolvidos em colaboração com parceiros externos.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Programas colaborativos estruturados"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "As parcerias são monitoradas por métricas de desempenho e resultados educacionais.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Monitoramento e indicadores de impacto"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Dados e learning analytics são utilizados para identificar, avaliar e otimizar novas oportunidades de cooperação e a evolução do ecossistema.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Uso de dados para otimizar e expandir o ecossistema"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização integra um ecossistema inteligente e interconectado, com aprendizado colaborativo em tempo real entre múltiplos agentes e troca fluida de dados de desempenho.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Rede adaptativa e inteligente de aprendizado colaborativo"
+            ]
+          }
+        }
+      ],
+      "evidence_sources": {
+        "artifacts": [
+          "Artefatos e onde buscar Contratos e memorandos de entendimento com universidades, startups e instituições de pesquisa. Registros de participação em redes de inovação e capacitação. Relatórios de resultados de programas desenvolvidos em parceria. Documentação de integração de plataformas e dados de aprendizado. Registros de eventos, hackathons, certificações e iniciativas conjuntas."
+        ],
+        "metrics": [
+          "Métricas/KPIs Número de parcerias ativas voltadas à aprendizagem digital. Percentual de programas de capacitação desenvolvidos em parceria. Grau de interoperabilidade entre plataformas de parceiros. Taxa de inovação educacional derivada de colaborações externas. Índice de satisfação ou impacto de programas conjuntos."
+        ],
+        "sampling_guidance": "Amostragem Entrevistas com gestores de RH, P&D e inovação. Análise de relatórios de parcerias e acordos de cooperação. Verificação de dados de plataformas compartilhadas. Avaliação de projetos educacionais conjuntos e resultados obtidos."
+      }
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "ALAGIRI GOVINDASAMY; ARIVARASI ARULARASAN. Readiness and Maturity Assessment Model to Measure the Industry 4.0 Ecosystem. Lecture notes in electrical engineering, p. 57–67, 1 jan. 2021."
+    },
+    {
+      "citation": "BONINI, A. et al. The relationship between leadership and adaptive performance: A systematic review and meta-analysis. PLOS ONE, v. 19, p. 1–29, out. 2024."
+    },
+    {
+      "citation": "DECUYPERE, A.; SCHAUFELI, W. Exploring the Leadership–Engagement Nexus: A Moderated Meta-Analysis and Review of Explaining Mechanisms. International Journal of Environmental Research and Public Health, v. 18, n. 16, p. 8592, 2021."
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    },
+    {
+      "citation": "INCIT. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2025. [s.l: s.n.]. Disponível em: <https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://assets.incit.org/large-documents/manual/The_global_smart_industry_readiness_index_initiative_2025-manual.pdf"
+    },
+    {
+      "citation": "KASAPOĞLU, C. et al. Industry 4.0 maturity assessment in manufacturing enterprises: a mixed-methods approach for SMEs. Central European Management Journal, abr. 2025."
+    },
+    {
+      "citation": "KHASSAWNEH, O.; ELREHAIL, H. The Effect of Participative Leadership Style on Employees’ Performance: The Contingent Role of Institutional Theory. Administrative Sciences, v. 12, n. 4, p. 195, 15 dez. 2022."
+    },
+    {
+      "citation": "LIN, W. D. et al. Application of SIRI for Industry 4.0 Maturity Assessment and Analysis. 2021 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), 1 dez. 2019."
+    },
+    {
+      "citation": "SEMERARO, C. et al. A maturity model for evaluating the impact of Industry 4.0 technologies and principles in SMEs. Manufacturing Letters, v. 37, p. 61–65, 1 set. 2023."
+    },
+    {
+      "citation": "TOUFIGHI, S. P. et al. Participative leadership, cultural factors, and speaking-up behaviour: An examination of intra-organisational knowledge sharing. Journal of Innovation & Knowledge, v. 9, n. 3, p. 100548–100548, 1 jul. 2024."
+    },
+    {
+      "citation": "WEF. The Global Smart Industry Readiness Index Initiative: Manufacturing Transformation Insights Report 2022 A R Y 2 0 2 2. [s.l: s.n.]. Disponível em: <https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf>.",
+      "url": "https://www3.weforum.org/docs/WEF_The_Global_Smart_Industry_Readiness_Index_Initiative_2022.pdf"
+    }
+  ]
+}

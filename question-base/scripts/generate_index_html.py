@@ -118,6 +118,9 @@ def parse_markdown_table(md_path: Path, json_data: Dict[str, dict]) -> list:
                 question_json = json_info['question']
                 question_data['text'] = question_json.get('text', '')
                 question_data['maturity_levels'] = question_json.get('maturity_levels', [])
+                question_data['artifacts'] = question_json.get('artifacts', [])
+                question_data['metrics'] = question_json.get('metrics', [])
+                question_data['sampling_guidance'] = question_json.get('sampling_guidance', '')
 
             questions_data.append(question_data)
 
@@ -183,29 +186,238 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
             flex-direction: column;
             flex: 1;
             overflow: hidden;
+            gap: 1rem;
+            padding: 1rem;
+        }}
+
+        .top-row-container {{
+            margin-bottom: 1rem;
+        }}
+
+        .top-row-header {{
+            padding: 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #f7fafc;
+            border-radius: 8px 8px 0 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background 0.2s;
+        }}
+
+        .top-row-header:hover {{
+            background: #edf2f7;
+        }}
+
+        .top-row-header h3 {{
+            margin: 0;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #2d3748;
+        }}
+
+        .top-row-toggle-icon {{
+            font-size: 1.2rem;
+            color: #667eea;
+            transition: transform 0.3s;
+        }}
+
+        .top-row-toggle-icon.collapsed {{
+            transform: rotate(-90deg);
+        }}
+
+        .top-row {{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            max-height: 600px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            transition: max-height 0.3s ease-out;
+        }}
+
+        .top-row.collapsed {{
+            max-height: 0;
+            margin: 0;
+            overflow: hidden;
         }}
 
         .chart-section {{
-            flex: 0 0 55%;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem 1rem 1rem 3rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: rgba(255, 255, 255, 0.95);
-            padding: 2rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
         }}
 
         #sunburst {{
-            max-width: 100%;
-            max-height: 100%;
+            width: 100%;
+            height: 100%;
         }}
 
-        .detail-section {{
-            flex: 0 0 45%;
+        #sunburst svg {{
+            display: block;
+        }}
+
+        .question-detail-section {{
             background: rgba(255, 255, 255, 0.98);
             padding: 2rem;
+            padding-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            position: relative;
+        }}
+
+        .navigation-controls {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }}
+
+        .nav-button {{
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: background 0.2s;
+        }}
+
+        .nav-button:hover {{
+            background: #5568d3;
+        }}
+
+        .nav-button:disabled {{
+            background: #cbd5e0;
+            cursor: not-allowed;
+        }}
+
+        .question-counter {{
+            color: #718096;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }}
+
+        .filter-section {{
+            background: rgba(255, 255, 255, 0.98);
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }}
+
+        .filter-header {{
+            padding: 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #f7fafc;
+            border-radius: 8px 8px 0 0;
+            transition: background 0.2s;
+        }}
+
+        .filter-header:hover {{
+            background: #edf2f7;
+        }}
+
+        .filter-header h3 {{
+            margin: 0;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #2d3748;
+        }}
+
+        .filter-toggle-icon {{
+            font-size: 1.2rem;
+            color: #667eea;
+            transition: transform 0.3s;
+        }}
+
+        .filter-toggle-icon.collapsed {{
+            transform: rotate(-90deg);
+        }}
+
+        .filter-content {{
+            padding: 1rem;
+            max-height: 500px;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }}
+
+        .filter-content.collapsed {{
+            max-height: 0;
+            padding: 0 1rem;
+        }}
+
+        .filter-row {{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+        }}
+
+        .filter-group {{
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }}
+
+        .filter-label {{
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #4a5568;
+            text-transform: uppercase;
+        }}
+
+        .filter-select {{
+            padding: 0.4rem 0.6rem;
+            border: 1px solid #cbd5e0;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            background: white;
+            cursor: pointer;
+        }}
+
+        .filter-select:focus {{
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }}
+
+        .clear-filters {{
+            padding: 0.4rem 0.8rem;
+            background: #e2e8f0;
+            border: none;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            color: #4a5568;
+            font-weight: 500;
+        }}
+
+        .clear-filters:hover {{
+            background: #cbd5e0;
+        }}
+
+        .maturity-section {{
+            flex: 1 1 auto;
+            min-height: 200px;
+            background: rgba(255, 255, 255, 0.98);
+            padding: 1.5rem;
             overflow-y: auto;
-            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }}
 
         .question-detail {{
@@ -298,7 +510,7 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
         }}
 
         .maturity-levels {{
-            margin-top: 2rem;
+            margin-top: 0.5rem;
         }}
 
         .maturity-levels h3 {{
@@ -368,21 +580,94 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
             color: #718096;
         }}
 
-        .detail-section::-webkit-scrollbar {{
+        .question-detail-section::-webkit-scrollbar,
+        .maturity-section::-webkit-scrollbar {{
             width: 8px;
         }}
 
-        .detail-section::-webkit-scrollbar-track {{
+        .question-detail-section::-webkit-scrollbar-track,
+        .maturity-section::-webkit-scrollbar-track {{
             background: #f1f1f1;
         }}
 
-        .detail-section::-webkit-scrollbar-thumb {{
+        .question-detail-section::-webkit-scrollbar-thumb,
+        .maturity-section::-webkit-scrollbar-thumb {{
             background: #cbd5e0;
             border-radius: 4px;
         }}
 
-        .detail-section::-webkit-scrollbar-thumb:hover {{
+        .question-detail-section::-webkit-scrollbar-thumb:hover,
+        .maturity-section::-webkit-scrollbar-thumb:hover {{
             background: #a0aec0;
+        }}
+
+        /* Evidence signals styles */
+        .evidence-toggle {{
+            margin-top: 1rem;
+            padding: 0.75rem;
+            background: #e6f2ff;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: background 0.2s;
+        }}
+
+        .evidence-toggle:hover {{
+            background: #cce5ff;
+        }}
+
+        .evidence-toggle span {{
+            font-size: 0.9rem;
+            color: #667eea;
+            font-weight: bold;
+        }}
+
+        .evidence-content {{
+            margin-top: 0.75rem;
+            padding-left: 1rem;
+            border-left: 2px solid #667eea;
+        }}
+
+        .evidence-category {{
+            margin-bottom: 1rem;
+        }}
+
+        .evidence-category-title {{
+            font-weight: 600;
+            color: #4a5568;
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }}
+
+        .evidence-list {{
+            list-style: none;
+            padding-left: 0;
+        }}
+
+        .evidence-list li {{
+            padding: 0.4rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: #4a5568;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }}
+
+        .evidence-list li::before {{
+            content: "•";
+            position: absolute;
+            left: 0.5rem;
+            color: #667eea;
+            font-weight: bold;
+        }}
+
+        .no-evidence {{
+            color: #a0aec0;
+            font-style: italic;
+            font-size: 0.9rem;
+            padding: 0.5rem 0;
         }}
     </style>
 </head>
@@ -394,13 +679,66 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
         </div>
 
         <div class="main-content">
-            <div class="chart-section">
-                <div id="sunburst"></div>
+            <div class="filter-section">
+                <div class="filter-header" onclick="toggleFilters()">
+                    <h3>Filtros</h3>
+                    <span class="filter-toggle-icon" id="filter-toggle-icon">▼</span>
+                </div>
+                <div class="filter-content" id="filter-content">
+                    <div class="filter-row">
+                        <div class="filter-group">
+                            <label class="filter-label">Bloco</label>
+                            <select id="filter-block" class="filter-select" onchange="applyFilters()">
+                                <option value="">Todos</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label class="filter-label">Pilar</label>
+                            <select id="filter-pilar" class="filter-select" onchange="applyFilters()">
+                                <option value="">Todos</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label class="filter-label">Dimensão</label>
+                            <select id="filter-dimension" class="filter-select" onchange="applyFilters()">
+                                <option value="">Todas</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label class="filter-label">Autor</label>
+                            <select id="filter-author" class="filter-select" onchange="applyFilters()">
+                                <option value="">Todos</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="clear-filters" onclick="clearFilters()">Limpar Filtros</button>
+                </div>
             </div>
 
-            <div class="detail-section">
-                <div id="question-detail" class="question-detail">
-                    <div class="loading">Clique no gráfico acima para explorar as questões...</div>
+            <div class="top-row-container">
+                <div class="top-row-header" onclick="toggleTopRow()">
+                    <h3>Visualização e Detalhes</h3>
+                    <span class="top-row-toggle-icon" id="top-row-toggle-icon">▼</span>
+                </div>
+                <div class="top-row" id="top-row">
+                    <div class="chart-section">
+                        <div id="sunburst"></div>
+                    </div>
+
+                    <div class="question-detail-section">
+                        <div id="question-detail" class="question-detail">
+                            <div class="loading">Clique no gráfico para explorar as questões...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maturity-section">
+                <div id="maturity-levels">
+                    <div class="no-question">
+                        <div class="no-question-icon">📊</div>
+                        <p>Selecione uma questão para ver os níveis de maturidade</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -408,6 +746,133 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
 
     <script>
         const questionsData = {questions_json};
+        let currentQuestionIndex = -1;
+        let activeFilters = {{
+            block: '',
+            pilar: '',
+            dimension: '',
+            author: ''
+        }};
+
+        // Populate filter dropdowns
+        function populateFilters() {{
+            const blocks = [...new Set(questionsData.map(q => q.block))].sort();
+            const pilars = [...new Set(questionsData.map(q => q.pilar))].sort();
+            const dimensions = [...new Set(questionsData.map(q => q.dimension))].sort();
+            const authors = [...new Set(questionsData.map(q => q.author))].sort();
+
+            const blockSelect = document.getElementById('filter-block');
+            const pilarSelect = document.getElementById('filter-pilar');
+            const dimensionSelect = document.getElementById('filter-dimension');
+            const authorSelect = document.getElementById('filter-author');
+
+            blocks.forEach(block => {{
+                const option = document.createElement('option');
+                option.value = block;
+                option.textContent = block;
+                blockSelect.appendChild(option);
+            }});
+
+            pilars.forEach(pilar => {{
+                const option = document.createElement('option');
+                option.value = pilar;
+                option.textContent = pilar;
+                pilarSelect.appendChild(option);
+            }});
+
+            dimensions.forEach(dimension => {{
+                const option = document.createElement('option');
+                option.value = dimension;
+                option.textContent = dimension;
+                dimensionSelect.appendChild(option);
+            }});
+
+            authors.forEach(author => {{
+                const option = document.createElement('option');
+                option.value = author;
+                option.textContent = author;
+                authorSelect.appendChild(option);
+            }});
+        }}
+
+        // Toggle filter section expand/collapse
+        function toggleFilters() {{
+            const content = document.getElementById('filter-content');
+            const icon = document.getElementById('filter-toggle-icon');
+            content.classList.toggle('collapsed');
+            icon.classList.toggle('collapsed');
+        }}
+
+        // Toggle top row section expand/collapse
+        function toggleTopRow() {{
+            const content = document.getElementById('top-row');
+            const icon = document.getElementById('top-row-toggle-icon');
+            content.classList.toggle('collapsed');
+            icon.classList.toggle('collapsed');
+        }}
+
+        // Apply filters
+        function applyFilters() {{
+            activeFilters.block = document.getElementById('filter-block').value;
+            activeFilters.pilar = document.getElementById('filter-pilar').value;
+            activeFilters.dimension = document.getElementById('filter-dimension').value;
+            activeFilters.author = document.getElementById('filter-author').value;
+
+            updateChartWithFilters();
+        }}
+
+        // Clear all filters
+        function clearFilters() {{
+            document.getElementById('filter-block').value = '';
+            document.getElementById('filter-pilar').value = '';
+            document.getElementById('filter-dimension').value = '';
+            document.getElementById('filter-author').value = '';
+            activeFilters = {{ block: '', pilar: '', dimension: '', author: '' }};
+            updateChartWithFilters();
+        }}
+
+        // Check if question matches filters
+        function matchesFilters(questionData) {{
+            if (activeFilters.block && questionData.block !== activeFilters.block) return false;
+            if (activeFilters.pilar && questionData.pilar !== activeFilters.pilar) return false;
+            if (activeFilters.dimension && questionData.dimension !== activeFilters.dimension) return false;
+            if (activeFilters.author && questionData.author !== activeFilters.author) return false;
+            return true;
+        }}
+
+        // Update chart colors based on filters
+        function updateChartWithFilters() {{
+            const greenHue = '#43e97b';  // Normal green for questions
+            const darkGreenHue = '#2d5f44';  // Dark green for filtered out
+
+            d3.selectAll('.sunburst-arc')
+                .attr('fill', d => {{
+                    // Check if this is a question
+                    if (d.data.type === 'question' && d.data.data) {{
+                        const matches = matchesFilters(d.data.data);
+                        return matches ? greenHue : darkGreenHue;
+                    }}
+                    // For non-question nodes, use standard colors
+                    const color = d3.scaleOrdinal()
+                        .domain(['block', 'pilar', 'dimension', 'capacity', 'question'])
+                        .range(['#667eea', '#764ba2', '#f093fb', '#4facfe', greenHue]);
+                    return color(d.data.type || 'root');
+                }});
+        }}
+
+        // Helper function to sort children by question ID
+        function sortByQuestionId(children) {{
+            return children.sort((a, b) => {{
+                // For questions, use the question_id from data
+                if (a.type === 'question' && b.type === 'question') {{
+                    const idA = a.data.question_id || '';
+                    const idB = b.data.question_id || '';
+                    return idA.localeCompare(idB);
+                }}
+                // For other types, sort by name
+                return (a.name || '').localeCompare(b.name || '');
+            }});
+        }}
 
         // Build hierarchy for sunburst
         function buildHierarchy(data) {{
@@ -445,39 +910,85 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
                 }});
             }});
 
+            // Sort all levels of the hierarchy
             root.children = Object.values(blocks);
+            sortByQuestionId(root.children);
+
+            root.children.forEach(block => {{
+                sortByQuestionId(block.children);
+                block.children.forEach(pilar => {{
+                    sortByQuestionId(pilar.children);
+                    pilar.children.forEach(dimension => {{
+                        sortByQuestionId(dimension.children);
+                        dimension.children.forEach(capacity => {{
+                            sortByQuestionId(capacity.children);
+                        }});
+                    }});
+                }});
+            }});
+
             return root;
+        }}
+
+        // Navigate to previous/next question
+        function navigateQuestion(direction) {{
+            if (direction === 'prev') {{
+                if (currentQuestionIndex > 0) {{
+                    currentQuestionIndex--;
+                }} else {{
+                    // Wrap around to last question
+                    currentQuestionIndex = questionsData.length - 1;
+                }}
+            }} else if (direction === 'next') {{
+                if (currentQuestionIndex < questionsData.length - 1) {{
+                    currentQuestionIndex++;
+                }} else {{
+                    // Wrap around to first question
+                    currentQuestionIndex = 0;
+                }}
+            }}
+            displayQuestion(questionsData[currentQuestionIndex]);
         }}
 
         // Display question details
         function displayQuestion(questionData) {{
-            const container = document.getElementById('question-detail');
+            const questionContainer = document.getElementById('question-detail');
+            const maturityContainer = document.getElementById('maturity-levels');
 
             if (!questionData) {{
-                container.innerHTML = `
+                currentQuestionIndex = -1;
+                questionContainer.innerHTML = `
                     <div class="no-question">
                         <div class="no-question-icon">📊</div>
                         <p>Clique em uma questão no gráfico para ver os detalhes</p>
                     </div>
                 `;
+                maturityContainer.innerHTML = `
+                    <div class="no-question">
+                        <div class="no-question-icon">📊</div>
+                        <p>Selecione uma questão para ver os níveis de maturidade</p>
+                    </div>
+                `;
                 return;
             }}
 
-            // Generate maturity levels HTML
-            const levels = questionData.maturity_levels || [];
-            const levelsHtml = levels.length > 0 ? `
-                <div class="maturity-levels">
-                    <h3>Níveis de Maturidade</h3>
-                    ${{levels.map(level => `
-                        <div class="level-card">
-                            <div class="level-header">Nível ${{level.level}}</div>
-                            <div class="level-description">${{level.description}}</div>
-                        </div>
-                    `).join('')}}
-                </div>
-            ` : '';
+            // Update current index (always refresh when displaying a question)
+            currentQuestionIndex = questionsData.findIndex(q => q.question_id === questionData.question_id);
 
-            container.innerHTML = `
+            // Top-right panel: Question details (without maturity levels)
+            questionContainer.innerHTML = `
+                <div class="navigation-controls">
+                    <button class="nav-button" onclick="navigateQuestion('prev')">
+                        ← Anterior
+                    </button>
+                    <div class="question-counter">
+                        ${{currentQuestionIndex + 1}} / ${{questionsData.length}}
+                    </div>
+                    <button class="nav-button" onclick="navigateQuestion('next')">
+                        Próxima →
+                    </button>
+                </div>
+
                 <div class="breadcrumb">
                     <span class="breadcrumb-item">${{questionData.block}}</span>
                     <span class="breadcrumb-separator">→</span>
@@ -507,17 +1018,184 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
                             <div class="metadata-value">${{questionData.capacity_description}}</div>
                         </div>
                     ` : ''}}
-                </div>
 
-                ${{levelsHtml}}
+                    ${{(questionData.artifacts && questionData.artifacts.length > 0) || (questionData.metrics && questionData.metrics.length > 0) ? `
+                        <div class="metadata-item">
+                            <div class="evidence-toggle" onclick="toggleQuestionEvidence('${{questionData.question_id}}')" style="cursor: pointer; padding: 0.5rem 0; color: #667eea; font-weight: 600;">
+                                <span id="question-evidence-icon-${{questionData.question_id}}">▶</span>
+                                <span style="margin-left: 0.5rem;">Evidências</span>
+                            </div>
+                            <div id="question-evidence-${{questionData.question_id}}" style="display: none; margin-top: 0.5rem;">
+                                ${{questionData.artifacts && questionData.artifacts.length > 0 ? `
+                                    <div style="margin-bottom: 1rem;">
+                                        <div style="font-weight: 600; color: #2d3748; margin-bottom: 0.5rem;">📄 Artefatos</div>
+                                        <ul style="margin: 0; padding-left: 1.5rem; color: #4a5568;">
+                                            ${{questionData.artifacts.map(item => `<li style="margin-bottom: 0.25rem;">${{item}}</li>`).join('')}}
+                                        </ul>
+                                    </div>
+                                ` : ''}}
+                                ${{questionData.metrics && questionData.metrics.length > 0 ? `
+                                    <div style="margin-bottom: 1rem;">
+                                        <div style="font-weight: 600; color: #2d3748; margin-bottom: 0.5rem;">📊 Métricas/KPIs</div>
+                                        <ul style="margin: 0; padding-left: 1.5rem; color: #4a5568;">
+                                            ${{questionData.metrics.map(item => `<li style="margin-bottom: 0.25rem;">${{item}}</li>`).join('')}}
+                                        </ul>
+                                    </div>
+                                ` : ''}}
+                                ${{questionData.sampling_guidance ? `
+                                    <div>
+                                        <div style="font-weight: 600; color: #2d3748; margin-bottom: 0.5rem;">🎯 Orientações de Amostragem</div>
+                                        <div style="color: #4a5568; line-height: 1.5;">${{questionData.sampling_guidance}}</div>
+                                    </div>
+                                ` : ''}}
+                            </div>
+                        </div>
+                    ` : ''}}
+                </div>
             `;
+
+            // Bottom panel: Maturity levels only
+            const levels = questionData.maturity_levels || [];
+            if (levels.length > 0) {{
+                const questionIdClean = questionData.question_id.replace(/[^a-zA-Z0-9]/g, '_');
+                let maturityHTML = '<div class="maturity-levels">';
+
+                // Add hierarchy breadcrumb (same style as metadata panel)
+                maturityHTML += '<div class="breadcrumb">';
+                maturityHTML += '<span class="breadcrumb-item">' + questionData.block + '</span>';
+                maturityHTML += '<span class="breadcrumb-separator">→</span>';
+                maturityHTML += '<span class="breadcrumb-item">' + questionData.pilar + '</span>';
+                maturityHTML += '<span class="breadcrumb-separator">→</span>';
+                maturityHTML += '<span class="breadcrumb-item">' + questionData.dimension + '</span>';
+                maturityHTML += '<span class="breadcrumb-separator">→</span>';
+                maturityHTML += '<span class="breadcrumb-item">' + questionData.capacity + '</span>';
+                maturityHTML += '</div>';
+
+                maturityHTML += '<h3 style="margin-bottom: 0.25rem; margin-top: 0.5rem;">Questão: ' + (questionData.text || questionData.title || '') + '</h3>';
+                maturityHTML += '<h4 style="color: #667eea; margin-top: 0.25rem; margin-bottom: 0.75rem; font-size: 1.1rem;">Níveis de Maturidade</h4>';
+
+                levels.forEach((level, index) => {{
+                    const hasEvidence = level.evidence_signals &&
+                        level.evidence_signals.observable_behaviors &&
+                        level.evidence_signals.observable_behaviors.length > 0;
+
+                    const evidenceId = 'evidence-' + questionIdClean + '-' + level.level;
+                    const iconId = 'evidence-icon-' + questionIdClean + '-' + level.level;
+                    const levelLabel = level.label || ('Nível ' + level.level);
+
+                    maturityHTML += '<div class="level-card">';
+                    maturityHTML += '<div class="level-header">' + levelLabel + '</div>';
+                    maturityHTML += '<div class="level-description">' + level.description + '</div>';
+
+                    maturityHTML += '<div class="evidence-toggle" onclick="toggleEvidence(\\\'' + questionIdClean + '\\\', ' + level.level + ')">';
+                    maturityHTML += '<span id="' + iconId + '">▶</span>';
+                    maturityHTML += '<strong>Sinais de Evidência</strong>';
+                    maturityHTML += '</div>';
+
+                    maturityHTML += '<div id="' + evidenceId + '" class="evidence-content" style="display: none;">';
+                    if (hasEvidence) {{
+                        maturityHTML += renderEvidenceSection(level.evidence_signals);
+                    }} else {{
+                        maturityHTML += '<p class="no-evidence">Ainda não disponível.</p>';
+                    }}
+                    maturityHTML += '</div>';
+
+                    maturityHTML += '</div>';
+                }});
+
+                maturityHTML += '</div>';
+                maturityContainer.innerHTML = maturityHTML;
+            }} else {{
+                maturityContainer.innerHTML = '<div class="no-question"><p>Nenhum nível de maturidade definido para esta questão</p></div>';
+            }}
+
+            // Highlight current question in sunburst
+            highlightQuestionInChart(questionData.question_id);
+        }}
+
+        // Toggle evidence section visibility (for maturity levels)
+        function toggleEvidence(questionIdClean, levelId) {{
+            const contentId = `evidence-${{questionIdClean}}-${{levelId}}`;
+            const iconId = `evidence-icon-${{questionIdClean}}-${{levelId}}`;
+            const content = document.getElementById(contentId);
+            const icon = document.getElementById(iconId);
+
+            if (content && icon) {{
+                if (content.style.display === 'none') {{
+                    content.style.display = 'block';
+                    icon.textContent = '▼';
+                }} else {{
+                    content.style.display = 'none';
+                    icon.textContent = '▶';
+                }}
+            }}
+        }}
+
+        // Toggle question-level evidence section
+        function toggleQuestionEvidence(questionId) {{
+            const contentId = `question-evidence-${{questionId}}`;
+            const iconId = `question-evidence-icon-${{questionId}}`;
+            const content = document.getElementById(contentId);
+            const icon = document.getElementById(iconId);
+
+            if (content && icon) {{
+                if (content.style.display === 'none') {{
+                    content.style.display = 'block';
+                    icon.textContent = '▼';
+                }} else {{
+                    content.style.display = 'none';
+                    icon.textContent = '▶';
+                }}
+            }}
+        }}
+
+        // Render evidence section
+        function renderEvidenceSection(signals) {{
+            let html = '';
+
+            if (signals.observable_behaviors && signals.observable_behaviors.length > 0) {{
+                html += `
+                    <div class="evidence-category">
+                        <div class="evidence-category-title">👁️ Comportamentos Observáveis (${{signals.observable_behaviors.length}})</div>
+                        <ul class="evidence-list">
+                            ${{signals.observable_behaviors.map(item => `<li>${{item}}</li>`).join('')}}
+                        </ul>
+                    </div>
+                `;
+            }}
+
+            return html || '<p class="no-evidence">Nenhuma evidência disponível.</p>';
+        }}
+
+        // Highlight the current question in the sunburst chart
+        function highlightQuestionInChart(questionId) {{
+            const capacityBlue = '#4facfe';
+            const greenHue = '#43e97b';
+            const darkGreenHue = '#2d5f44';
+
+            d3.selectAll('.sunburst-arc')
+                .attr('fill', d => {{
+                    // Check if this is the current question
+                    if (d.data.type === 'question' && d.data.data && d.data.data.question_id === questionId) {{
+                        return capacityBlue;
+                    }}
+                    // For questions, apply filter-based coloring
+                    if (d.data.type === 'question' && d.data.data) {{
+                        const matches = matchesFilters(d.data.data);
+                        return matches ? greenHue : darkGreenHue;
+                    }}
+                    // Otherwise use the standard color
+                    const color = d3.scaleOrdinal()
+                        .domain(['block', 'pilar', 'dimension', 'capacity', 'question'])
+                        .range(['#667eea', '#764ba2', '#f093fb', '#4facfe', greenHue]);
+                    return color(d.data.type || 'root');
+                }});
         }}
 
         // Create sunburst chart
         function createSunburst() {{
-            // Make chart 2x larger
-            const width = Math.min(window.innerWidth * 0.95, 1200);
-            const height = Math.min(window.innerHeight * 0.50, 900);
+            const width = 300;
+            const height = 300;
             const radius = Math.min(width, height) / 2;
 
             const color = d3.scaleOrdinal()
@@ -526,8 +1204,7 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
 
             const hierarchy = buildHierarchy(questionsData);
             const root = d3.hierarchy(hierarchy)
-                .sum(d => d.type === 'question' ? 1 : 0)
-                .sort((a, b) => b.value - a.value);
+                .sum(d => d.type === 'question' ? 1 : 0);
 
             const partition = d3.partition()
                 .size([2 * Math.PI, radius]);
@@ -546,10 +1223,11 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
                 .append('svg')
                 .attr('width', width)
                 .attr('height', height)
-                .attr('viewBox', `${{-width / 2}} ${{-height / 2}} ${{width}} ${{height}}`)
+                .attr('viewBox', `0 0 ${{width}} ${{height}}`)
                 .style('font', '12px sans-serif');
 
-            const g = svg.append('g');
+            const g = svg.append('g')
+                .attr('transform', `translate(${{radius}},${{radius}})`);
 
             g.selectAll('path')
                 .data(root.descendants())
@@ -570,6 +1248,7 @@ def generate_html(questions_data: list, total_capacities: int = None) -> str:
 
         // Initialize
         window.addEventListener('DOMContentLoaded', () => {{
+            populateFilters();
             createSunburst();
 
             // Show a random question on load

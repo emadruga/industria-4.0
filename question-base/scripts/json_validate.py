@@ -241,63 +241,16 @@ class JSONValidator:
             metadata = capacity.get('metadata', {})
             author = metadata.get('author', 'Unknown')
 
-            # Lookup in catalog
-            catalog_entry = self.catalog.lookup_capacity(capacity_name)
-
-            if not catalog_entry:
-                print(f"⚠️  Capacity '{capacity_name}' not found in catalog")
-                print(f"    File:   {json_path.name}")
-                print(f"    Path:   {json_path}")
-                print(f"    Author: {author}")
-                print()
-                return file_issues
-
-            # Validate block
-            block_mismatch = json_block != catalog_entry['block']
-            pilar_mismatch = json_pilar != catalog_entry['pilar']
-            dimension_mismatch = json_dimension != catalog_entry['dimension']
-
-            if block_mismatch:
-                issue = ValidationIssue(
-                    str(json_path),
-                    "Block mismatch",
-                    "capacity.block",
-                    json_block,
-                    catalog_entry['block'],
-                    author
-                )
-                file_issues.append(issue)
-
-            # Validate pilar
-            if pilar_mismatch:
-                issue = ValidationIssue(
-                    str(json_path),
-                    "Pilar mismatch",
-                    "capacity.pilar",
-                    json_pilar,
-                    catalog_entry['pilar'],
-                    author
-                )
-                file_issues.append(issue)
-
-            # Validate dimension
-            if dimension_mismatch:
-                issue = ValidationIssue(
-                    str(json_path),
-                    "Dimension mismatch",
-                    "capacity.dimension",
-                    json_dimension,
-                    catalog_entry['dimension'],
-                    author
-                )
-                file_issues.append(issue)
-
-            # Check capacity description for formatting issues
+            # Check capacity description for formatting issues FIRST (before catalog check)
+            # This ensures we validate descriptions even for capacities not in catalog
             capacity_desc = capacity.get('description', '').strip()
             if capacity_desc:
-                # Check for English dimension names pattern: word + " (" + D + digit
+                # Check for English dimension names pattern: Capital letter + any text + (D##) within first 100 chars
+                # Matches patterns like "Workforce Learning & Development (D13)" or "Leadership Competency (D14)"
+                # Only check the first 100 characters to avoid false positives when (D##) appears in the description body
                 import re
-                has_english_dimension = re.search(r'\b[A-Z][a-z]+.*?\s*\([Dd]\d+\)', capacity_desc)
+                desc_start = capacity_desc[:100]
+                has_english_dimension = re.search(r'^[A-Z][^(]*\([Dd]\d+\)', desc_start)
                 has_resumo_descritivo = 'resumo descritivo' in capacity_desc.lower()
                 has_description_header = capacity_desc.lower().startswith('descrição da capacidade')
 
@@ -313,6 +266,59 @@ class JSONValidator:
                         "[Clean Portuguese description without headers/labels]",
                         author,
                         what_to_do=f"Remove English dimension names, 'Resumo Descritivo', and 'Descrição da Capacidade' headers"
+                    )
+                    file_issues.append(issue)
+
+            # Lookup in catalog
+            catalog_entry = self.catalog.lookup_capacity(capacity_name)
+
+            if not catalog_entry:
+                print(f"⚠️  Capacity '{capacity_name}' not found in catalog")
+                print(f"    File:   {json_path.name}")
+                print(f"    Path:   {json_path}")
+                print(f"    Author: {author}")
+                print()
+                # Don't return early - continue to validate descriptions and question titles
+                # return file_issues
+
+            # Validate block/pilar/dimension only if capacity is in catalog
+            if catalog_entry:
+                block_mismatch = json_block != catalog_entry['block']
+                pilar_mismatch = json_pilar != catalog_entry['pilar']
+                dimension_mismatch = json_dimension != catalog_entry['dimension']
+
+                if block_mismatch:
+                    issue = ValidationIssue(
+                        str(json_path),
+                        "Block mismatch",
+                        "capacity.block",
+                        json_block,
+                        catalog_entry['block'],
+                        author
+                    )
+                    file_issues.append(issue)
+
+                # Validate pilar
+                if pilar_mismatch:
+                    issue = ValidationIssue(
+                        str(json_path),
+                        "Pilar mismatch",
+                        "capacity.pilar",
+                        json_pilar,
+                        catalog_entry['pilar'],
+                        author
+                    )
+                    file_issues.append(issue)
+
+                # Validate dimension
+                if dimension_mismatch:
+                    issue = ValidationIssue(
+                        str(json_path),
+                        "Dimension mismatch",
+                        "capacity.dimension",
+                        json_dimension,
+                        catalog_entry['dimension'],
+                        author
                     )
                     file_issues.append(issue)
 
@@ -435,19 +441,40 @@ class JSONValidator:
             # Fix capacity description issues
             elif issue.field == "capacity.description":
                 desc = data['capacity']['description']
+                capacity_name = data['capacity'].get('name', '')
 
-                # Remove "Descrição da Capacidade" header
+                # Pattern: "Dimension Name Resumo Descritivo Capacity Name actual description..."
+                # We want to keep only the "actual description" part
+
+                # Step 1: Remove "Descrição da Capacidade" header if present
                 if desc.lower().startswith('descrição da capacidade'):
                     desc = re.sub(r'^descrição da capacidade\s*', '', desc, flags=re.IGNORECASE)
 
-                # Remove "Resumo Descritivo"
+                # Step 2: Remove English dimension names with codes like "Leadership Competency (D14)" or "Workforce Learning & Development (D13)"
+                # Pattern matches: Capital letter + any text (including &) + (D##)
+                desc = re.sub(r'^[A-Z][^(]*\([Dd]\d+\)\s*', '', desc)
+
+                # Step 3: Remove dimension name at the beginning (Portuguese)
+                # Pattern: dimension name followed by "Resumo Descritivo"
+                desc = re.sub(r'^[^\.]+?\s+resumo descritivo\s+', '', desc, flags=re.IGNORECASE)
+
+                # Step 4: If capacity name appears at start (after previous removals), remove it
+                # This handles cases where capacity name is repeated after "Resumo Descritivo"
+                if capacity_name:
+                    # Escape special regex characters in capacity name
+                    escaped_name = re.escape(capacity_name)
+                    # Remove capacity name if it appears at the beginning
+                    desc = re.sub(r'^' + escaped_name + r'\s+', '', desc, flags=re.IGNORECASE)
+
+                # Step 5: Clean up any remaining "Resumo Descritivo" fragments
                 desc = re.sub(r'resumo descritivo\s*', '', desc, flags=re.IGNORECASE)
 
-                # Remove English dimension names with codes like "Leadership Competency (D14)"
-                desc = re.sub(r'\b[A-Z][a-z]+[^(]*\([Dd]\d+\)\s*', '', desc)
+                # Step 6: Clean up extra whitespace
+                desc = ' '.join(desc.split()).strip()
 
-                # Clean up extra whitespace
-                desc = ' '.join(desc.split())
+                # Step 7: Capitalize first letter if needed
+                if desc and desc[0].islower():
+                    desc = desc[0].upper() + desc[1:]
 
                 data['capacity']['description'] = desc
                 modified = True
