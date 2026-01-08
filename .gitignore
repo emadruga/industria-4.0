@@ -12,6 +12,8 @@ CLAUDE.md
 question-base/JSON/
 question-base/JSON2/
 question-base/JSON3/
+question-base/JSON5/
+question-base/JSON6/
 question-base/JSON_*/
 
 # Exclude backup files and temp files
