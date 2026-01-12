@@ -111,6 +111,22 @@
               "cultura ágil enraizada"
             ]
           }
+        },
+        {
+          "level": 6,
+          "label": "Transformacional",
+          "description": "A liderança se tornou referência em gestão ágil, moldando ativamente o futuro da agilidade organizacional. A gestão não apenas adapta práticas existentes mas inova e cria novos modelos, influenciando o ecossistema externo e estabelecendo padrões de excelência em transformação ágil.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "organização é referência em gestão ágil",
+              "liderança publica livros, artigos e casos de sucesso",
+              "convida outras organizações para benchmarking",
+              "desenvolve frameworks proprietários reconhecidos",
+              "líderes palestram em conferências internacionais",
+              "contribui para evolução de frameworks ágeis",
+              "mentoram outras organizações em transformação ágil"
+            ]
+          }
         }
       ],
       "artifacts": [
@@ -635,84 +651,6 @@
         "Métricas/KPIs Completion rate de fases do plano de transformação. % de times que completaram transição ágil. Lead time de transformação por time/área. Índice de resistência (survey ou análise qualitativa). Engajamento em iniciativas de transformação (participação em eventos, surveys). Sustentabilidade (% de times que mantêm práticas após 12 meses). ROI da transformação (benefícios vs. investimento). Velocidade/throughput antes vs. depois (evidência de melhoria)."
       ],
       "sampling_guidance": "Amostragem Analisar: (1) documentação de plano de transformação e assessment inicial; (2) evidências de governance (atas de steering committee dos últimos 6 meses); (3) plano de comunicação e exemplos de execução; (4) métricas de progresso; (5) registro de resistências e ações de mitigação; (6) survey de sustentabilidade (práticas mantidas após 12+ meses)."
-    }
-  ],
-  "glossary": [
-    {
-      "term": "Gestão Ágil (Agile Management)",
-      "definition": "Abordagem de gestão que enfatiza flexibilidade, iteração rápida, feedback contínuo e adaptação, em contraste com modelos tradicionais de comando-e-controle."
-    },
-    {
-      "term": "Scrum",
-      "definition": "Framework ágil estruturado em sprints (iterações de 1-4 semanas) com papéis definidos (Scrum Master, Product Owner, Dev Team) e cerimônias regulares."
-    },
-    {
-      "term": "Kanban",
-      "definition": "Método visual de gestão de fluxo que usa quadros para visualizar trabalho, limitar WIP (work in progress) e otimizar fluxo contínuo."
-    },
-    {
-      "term": "SAFe (Scaled Agile Framework)",
-      "definition": "Framework para escalar práticas ágeis em grandes organizações, com múltiplos níveis (Team, Program, Large Solution, Portfolio)."
-    },
-    {
-      "term": "Lean",
-      "definition": "Filosofia de gestão focada em eliminar desperdício, criar valor para o cliente e melhoria contínua (kaizen)."
-    },
-    {
-      "term": "Sprint",
-      "definition": "Período de tempo fixo (geralmente 1-4 semanas) no qual um incremento de produto é desenvolvido no Scrum."
-    },
-    {
-      "term": "OKR (Objectives and Key Results)",
-      "definition": "Sistema de definição de metas onde objetivos qualitativos são ligados a resultados-chave mensuráveis, revisados frequentemente (trimestral)."
-    },
-    {
-      "term": "MVP (Minimum Viable Product)",
-      "definition": "Versão mais simples de um produto que permite validar hipóteses com usuários reais com mínimo esforço/investimento."
-    },
-    {
-      "term": "Iterativo e Incremental",
-      "definition": "Abordagem de desenvolvimento onde trabalho é feito em ciclos curtos (iterativo) com entregas parciais de valor (incremental)."
-    },
-    {
-      "term": "Retrospectiva",
-      "definition": "Cerimônia onde time reflete sobre o processo de trabalho e identifica melhorias; aplicável também ao nível de liderança."
-    },
-    {
-      "term": "Estrutura Organizacional Horizontal",
-      "definition": "Modelo com menos níveis hierárquicos, mais autonomia distribuída e comunicação lateral facilitada."
-    },
-    {
-      "term": "Tomada de Decisão Descentralizada",
-      "definition": "Autoridade de decisão distribuída para níveis mais baixos da organização, permitindo respostas mais rápidas."
-    },
-    {
-      "term": "Empoderamento (Empowerment)",
-      "definition": "Delegação de autoridade e autonomia para que equipes tomem decisões sem aprovação constante da liderança."
-    },
-    {
-      "term": "Framework",
-      "definition": "Estrutura conceitual que define papéis, processos, artefatos e práticas para abordar um tipo específico de problema."
-    },
-    {
-      "term": "Waterfall",
-      "definition": "Modelo tradicional de gestão de projetos em fases sequenciais (requisitos → design → implementação → teste → entrega)."
-    },
-    {
-      "term": "Benchmarking",
-      "definition": "Prática de comparar processos e métricas com outras organizações para identificar melhores práticas."
-    },
-    {
-      "term": "Coaching",
-      "definition": "Processo de desenvolver capacidades através de orientação, questionamento e feedback, em vez de dar ordens diretas."
-    },
-    {
-      "term": "LeSS (Large-Scale Scrum)",
-      "definition": "Framework para aplicar Scrum em grande escala, mantendo simplicidade e evitando burocracia do SAFe."
-    },
-    {
-      "term": "VUCA",
-      "definition": "Acrônimo para Volatility, Uncertainty, Complexity, Ambiguity - características do ambiente de negócios moderno."
     }
   ],
   "references": [
