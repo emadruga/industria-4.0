@@ -63,8 +63,8 @@
         },
         {
           "level": 3,
-          "label": "Políticas de governança de dados são implementadas em toda a empresa, com papéis e responsabilidades definidos (ex",
-          "description": "Data Stewards). A qualidade dos dados é monitorada, proporcionando visibilidade sobre os principais problemas.",
+          "label": "Nível 3",
+          "description": "Políticas de governança de dados são implementadas em toda a empresa, com papéis e responsabilidades definidos (ex Data Stewards). A qualidade dos dados é monitorada, proporcionando visibilidade sobre os principais problemas.",
           "evidence_signals": {
             "observable_behaviors": [
               "Papéis como Data Stewards ou Data Owners estão formalmente designados",
@@ -122,8 +122,8 @@
       "maturity_levels": [
         {
           "level": 0,
-          "label": "Não há gestão de dados mestres. Dados críticos (ex",
-          "description": "clientes, produtos) são cadastrados de forma independente em cada sistema (ERP, CRM, etc.), resultando em alta duplicidade e inconsistência.",
+          "label": "Nível 0",
+          "description": "Não há gestão de dados mestres. Dados críticos (ex clientes, produtos) são cadastrados de forma independente em cada sistema (ERP, CRM, etc.), resultando em alta duplicidade e inconsistência.",
           "evidence_signals": {
             "observable_behaviors": [
               "Relatórios de vendas de um mesmo cliente são diferentes no ERP e no CRM",
@@ -133,8 +133,8 @@
         },
         {
           "level": 1,
-          "label": "A empresa reconhece os problemas de inconsistência de dados, mas as correções são feitas manualmente, de forma reativa e pontual (ex",
-          "description": "\"limpando\" planilhas) quando um erro é descoberto.",
+          "label": "Nível 1",
+          "description": "A empresa reconhece os problemas de inconsistência de dados, mas as correções são feitas manualmente, de forma reativa e pontual (ex \"limpando\" planilhas) quando um erro é descoberto.",
           "evidence_signals": {
             "observable_behaviors": [
               "Equipes financeiras e de logística gastam dias no fechamento do mês para \"bater\" os números de diferentes relatórios"
@@ -143,8 +143,8 @@
         },
         {
           "level": 2,
-          "label": "Existem processos departamentais para tentar padronizar a entrada de dados mestres (ex",
-          "description": "um departamento \"possui\" o cadastro de produtos), mas não há integração entre os sistemas.",
+          "label": "Nível 2",
+          "description": "Existem processos departamentais para tentar padronizar a entrada de dados mestres (ex um departamento \"possui\" o cadastro de produtos), mas não há integração entre os sistemas.",
           "evidence_signals": {
             "observable_behaviors": [
               "O departamento de engenharia cadastra o produto no PLM, e o departamento fiscal/logística recadastra o mesmo produto no ERP, com códigos diferentes"
@@ -174,8 +174,8 @@
         },
         {
           "level": 5,
-          "label": "O sistema MDM é usado proativamente para gerenciar o ciclo de vida completo dos dados mestres e para simular o impacto de mudanças (ex",
-          "description": "fusão de cadastros de clientes) antes que elas afetem os sistemas de produção.",
+          "label": "Nível 5",
+          "description": "O sistema MDM é usado proativamente para gerenciar o ciclo de vida completo dos dados mestres e para simular o impacto de mudanças (ex fusão de cadastros de clientes) antes que elas afetem os sistemas de produção.",
           "evidence_signals": {
             "observable_behaviors": [
               "O sistema MDM é auditável e rastreia quem alterou o quê e quando, garantindo a governança preditiva"
@@ -184,8 +184,8 @@
         },
         {
           "level": 6,
-          "label": "Os dados mestres são gerenciados de forma dinâmica e federada, permitindo a integração ágil de novos parceiros ou fontes de dados (ex",
-          "description": "IoT, e-commerce) na \"fonte da verdade\", suportando a adaptabilidade do negócio.",
+          "label": "Nível 6",
+          "description": "Os dados mestres são gerenciados de forma dinâmica e federada, permitindo a integração ágil de novos parceiros ou fontes de dados (ex IoT, e-commerce) na \"fonte da verdade\", suportando a adaptabilidade do negócio.",
           "evidence_signals": {
             "observable_behaviors": [
               "A empresa consegue consolidar dados de uma nova aquisição (empresa) em seu sistema MDM em tempo recorde, adaptando-se rapidamente"
@@ -240,8 +240,8 @@
         },
         {
           "level": 3,
-          "label": "A empresa começa a medir ativamente a qualidade dos dados. Existem painéis (dashboards) e KPIs de qualidade (ex",
-          "description": "% de completude, % de duplicatas) que dão visibilidade aos problemas.",
+          "label": "Nível 3",
+          "description": "A empresa começa a medir ativamente a qualidade dos dados. Existem painéis (dashboards) e KPIs de qualidade (ex % de completude, % de duplicatas) que dão visibilidade aos problemas.",
           "evidence_signals": {
             "observable_behaviors": [
               "Um gestor de logística consegue ver um gráfico que mostra: \"Nos últimos 30 dias, 12% dos pedidos foram cadastrados sem a informação do transportador\""
@@ -250,8 +250,8 @@
         },
         {
           "level": 4,
-          "label": "A empresa analisa a causa-raiz dos problemas de qualidade de dados. Existem processos formais de remediação para corrigir os dados na fonte (ex",
-          "description": "no ERP), e não apenas no relatório.",
+          "label": "Nível 4",
+          "description": "A empresa analisa a causa-raiz dos problemas de qualidade de dados. Existem processos formais de remediação para corrigir os dados na fonte (ex no ERP), e não apenas no relatório.",
           "evidence_signals": {
             "observable_behaviors": [
               "Criação de uma task-force para analisar por que o campo \"transportador\" não está sendo preenchido no sistema de vendas e implementar uma correção no sistema"
@@ -260,8 +260,8 @@
         },
         {
           "level": 5,
-          "label": "A qualidade de dados é gerenciada de forma proativa e preditiva. Regras de qualidade são automatizadas e integradas aos processos de negócio (ex",
-          "description": "impedindo que um pedido sem CEP válido seja salvo).",
+          "label": "Nível 5",
+          "description": "A qualidade de dados é gerenciada de forma proativa e preditiva. Regras de qualidade são automatizadas e integradas aos processos de negócio (ex impedindo que um pedido sem CEP válido seja salvo).",
           "evidence_signals": {
             "observable_behaviors": [
               "O sistema de vendas agora torna o campo \"transportador\" obrigatório e valida o código digitado contra a tabela de transportadoras ativas, impedindo o erro"
@@ -295,8 +295,8 @@
       "maturity_levels": [
         {
           "level": 0,
-          "label": "A troca de dados entre sistemas é quase inexistente ou totalmente manual (ex",
-          "description": "exportação/importação de planilhas e arquivos .csv).",
+          "label": "Nível 0",
+          "description": "A troca de dados entre sistemas é quase inexistente ou totalmente manual (ex exportação/importação de planilhas e arquivos .csv).",
           "evidence_signals": {
             "observable_behaviors": [
               "O funcionário de logística digita manualmente o pedido do CRM no sistema de faturamento (WMS/ERP)"
@@ -316,8 +316,8 @@
         },
         {
           "level": 2,
-          "label": "A empresa utiliza um barramento de serviço (ESB) ou ferramenta de EAI (Enterprise Application Integration) para gerenciar algumas integrações centrais, mas a maioria ainda é ponto a ponto. Os formatos de dados (ex",
-          "description": "XML) começam a ser padronizados.",
+          "label": "Nível 2",
+          "description": "A empresa utiliza um barramento de serviço (ESB) ou ferramenta de EAI (Enterprise Application Integration) para gerenciar algumas integrações centrais, mas a maioria ainda é ponto a ponto. Os formatos de dados (ex XML) começam a ser padronizados.",
           "evidence_signals": {
             "observable_behaviors": [
               "O sistema de vendas envia um arquivo XML para um diretório, que o sistema de logística \"lê\" a cada 30 minutos"
@@ -326,8 +326,8 @@
         },
         {
           "level": 3,
-          "label": "A empresa adota padrões de indústria (ex",
-          "description": "OPC-UA para o chão de fábrica) e possui diretrizes internas para a criação de APIs, mas seu uso ainda não é universal.",
+          "label": "Nível 3",
+          "description": "A empresa adota padrões de indústria (ex OPC-UA para o chão de fábrica) e possui diretrizes internas para a criação de APIs, mas seu uso ainda não é universal.",
           "evidence_signals": {
             "observable_behaviors": [
               "A máquina nova no chão de fábrica é conectada à rede via OPC-UA, e seus dados aparecem no MES sem um projeto de software customizado"
@@ -392,8 +392,8 @@
         },
         {
           "level": 1,
-          "label": "As decisões são centralizadas e baseadas em procedimentos formais. A TI é usada de forma isolada (ex",
-          "description": "planilhas locais) para coletar dados, mas não suporta a tomada de decisão descentralizada",
+          "label": "Nível 1",
+          "description": "As decisões são centralizadas e baseadas em procedimentos formais. A TI é usada de forma isolada (ex planilhas locais) para coletar dados, mas não suporta a tomada de decisão descentralizada",
           "evidence_signals": {
             "observable_behaviors": [
               "A tomada de decisão é centralizada",
@@ -403,8 +403,8 @@
         },
         {
           "level": 2,
-          "label": "Os sistemas de TI estão conectados (ex",
-          "description": "ERP, MES), permitindo a partilha de informação. No entanto, a autoridade de decisão permanece rigidamente centralizada na gestão.",
+          "label": "Nível 2",
+          "description": "Os sistemas de TI estão conectados (ex ERP, MES), permitindo a partilha de informação. No entanto, a autoridade de decisão permanece rigidamente centralizada na gestão.",
           "evidence_signals": {
             "observable_behaviors": [
               "Os sistemas de TI estão conectados, permitindo a partilha básica de informação (ex: dados de engenharia para a produção)",
@@ -475,8 +475,8 @@
       "maturity_levels": [
         {
           "level": 0,
-          "label": "Não há delegação para sistemas. Todas as decisões de processo (ex",
-          "description": "parar uma máquina, ajustar parâmetros, mudar fila) são 100% manuais e reativas.",
+          "label": "Nível 0",
+          "description": "Não há delegação para sistemas. Todas as decisões de processo (ex parar uma máquina, ajustar parâmetros, mudar fila) são 100% manuais e reativas.",
           "evidence_signals": {
             "observable_behaviors": [
               "Inexistente"
@@ -485,8 +485,8 @@
         },
         {
           "level": 1,
-          "label": "Os sistemas de TI são usados apenas para registrar dados (ex",
-          "description": "planilhas, terminais de CNC). A decisão ainda é 100% humana e manual.",
+          "label": "Nível 1",
+          "description": "Os sistemas de TI são usados apenas para registrar dados (ex planilhas, terminais de CNC). A decisão ainda é 100% humana e manual.",
           "evidence_signals": {
             "observable_behaviors": [
               "Sistemas registram dados passivamente para decisão humana posterior"
@@ -495,8 +495,8 @@
         },
         {
           "level": 2,
-          "label": "Os sistemas de TI (ex",
-          "description": "ERP, MES) estão conectados e apresentam relatórios consolidados, mas a decisão ainda é 100% humana (ex: um gerente aprova uma ordem no sistema).",
+          "label": "Nível 2",
+          "description": "Os sistemas de TI (ex ERP, MES) estão conectados e apresentam relatórios consolidados, mas a decisão ainda é 100% humana (ex: um gerente aprova uma ordem no sistema).",
           "evidence_signals": {
             "observable_behaviors": [
               "Sistemas apresentam relatórios consolidados para decisão humana ativa"
@@ -505,8 +505,8 @@
         },
         {
           "level": 3,
-          "label": "Os sistemas (Digital Shadow) alertam ativamente sobre desvios em tempo real (ex",
-          "description": "\"Alerta: Máquina X está fora da especificação\"). A decisão sobre o que fazer ainda é totalmente humana.",
+          "label": "Nível 3",
+          "description": "Os sistemas (Digital Shadow) alertam ativamente sobre desvios em tempo real (ex \"Alerta: Máquina X está fora da especificação\"). A decisão sobre o que fazer ainda é totalmente humana.",
           "evidence_signals": {
             "observable_behaviors": [
               "Sistemas emitem alertas (ex: dashboards, luzes andon) quando um desvio ocorre",
@@ -516,8 +516,8 @@
         },
         {
           "level": 4,
-          "label": "Os sistemas analisam os dados (transparência) e diagnosticam a causa raiz de um problema (ex",
-          "description": "\"Alerta: Máquina X parou porque o sensor Y falhou\"). A decisão de como corrigir ainda é humana.",
+          "label": "Nível 4",
+          "description": "Os sistemas analisam os dados (transparência) e diagnosticam a causa raiz de um problema (ex \"Alerta: Máquina X parou porque o sensor Y falhou\"). A decisão de como corrigir ainda é humana.",
           "evidence_signals": {
             "observable_behaviors": [
               "Sistemas diagnosticam causas (transparência) e sugerem análises",
@@ -527,8 +527,8 @@
         },
         {
           "level": 5,
-          "label": "Os sistemas (capacidade preditiva) antecipam eventos e recomendam ações corretivas (ex",
-          "description": "\"Sugerir parada de máquina X para manutenção em 2 horas\"). Um humano ainda precisa aprovar a recomendação.",
+          "label": "Nível 5",
+          "description": "Os sistemas (capacidade preditiva) antecipam eventos e recomendam ações corretivas (ex \"Sugerir parada de máquina X para manutenção em 2 horas\"). Um humano ainda precisa aprovar a recomendação.",
           "evidence_signals": {
             "observable_behaviors": [
               "Sistemas oferecem recomendações de ação (capacidade preditiva) que requerem aprovação humana"
@@ -537,8 +537,8 @@
         },
         {
           "level": 6,
-          "label": "Os sistemas de TI (adaptabilidade) têm autonomia para tomar e executar decisões táticas complexas automaticamente (ex",
-          "description": "reordenar fila de produção, ajustar parâmetros de máquina) para otimizar o processo sem intervenção humana.",
+          "label": "Nível 6",
+          "description": "Os sistemas de TI (adaptabilidade) têm autonomia para tomar e executar decisões táticas complexas automaticamente (ex reordenar fila de produção, ajustar parâmetros de máquina) para otimizar o processo sem intervenção humana.",
           "evidence_signals": {
             "observable_behaviors": [
               "Sistemas têm autonomia para tomar e executar decisões táticas (ex: reordenar produção, ajustar parâmetros de máquina) sem aprovação humana"
@@ -572,8 +572,8 @@
         },
         {
           "level": 1,
-          "label": "As decisões são baseadas em dados de sistemas isolados (ex",
-          "description": "uma planilha de produção, um relatório de inventário separado). Os dados não são integrados, estão frequentemente desatualizados e podem ser conflitantes.",
+          "label": "Nível 1",
+          "description": "As decisões são baseadas em dados de sistemas isolados (ex uma planilha de produção, um relatório de inventário separado). Os dados não são integrados, estão frequentemente desatualizados e podem ser conflitantes.",
           "evidence_signals": {
             "observable_behaviors": [
               "Reuniões de produção baseadas em planilhas impressas na noite anterior"
@@ -582,8 +582,8 @@
         },
         {
           "level": 2,
-          "label": "Os sistemas estão minimamente conectados. O tomador de decisão pode buscar ativamente os dados em diferentes sistemas (ex",
-          "description": "consultar o ERP, depois o MES), mas precisa compilar e analisar tudo manualmente.",
+          "label": "Nível 2",
+          "description": "Os sistemas estão minimamente conectados. O tomador de decisão pode buscar ativamente os dados em diferentes sistemas (ex consultar o ERP, depois o MES), mas precisa compilar e analisar tudo manualmente.",
           "evidence_signals": {
             "observable_behaviors": [
               "O gestor precisa abrir 3 sistemas diferentes para entender um problema"
@@ -592,8 +592,8 @@
         },
         {
           "level": 3,
-          "label": "Os tomadores de decisão têm acesso a um \"Digital Shadow\" (ex",
-          "description": "um dashboard centralizado) que mostra o que está acontecendo em tempo real (Visibilidade). As decisões são baseadas no estado atual real.",
+          "label": "Nível 3",
+          "description": "Os tomadores de decisão têm acesso a um \"Digital Shadow\" (ex um dashboard centralizado) que mostra o que está acontecendo em tempo real (Visibilidade). As decisões são baseadas no estado atual real.",
           "evidence_signals": {
             "observable_behaviors": [
               "A reunião de produção usa um dashboard ao vivo (Digital Shadow) que todos confiam"
@@ -602,8 +602,8 @@
         },
         {
           "level": 4,
-          "label": "O sistema não apenas mostra o estado atual, mas também fornece análises de causa-raiz (Transparência), explicando por que algo está acontecendo (ex",
-          "description": "\"Máquina 5 parada por falta de material\"). As decisões são mais precisas e assertivas.",
+          "label": "Nível 4",
+          "description": "O sistema não apenas mostra o estado atual, mas também fornece análises de causa-raiz (Transparência), explicando por que algo está acontecendo (ex \"Máquina 5 parada por falta de material\"). As decisões são mais precisas e assertivas.",
           "evidence_signals": {
             "observable_behaviors": [
               "O dashboard mostra a causa do problema (ex: gargalo) automaticamente"
@@ -612,8 +612,8 @@
         },
         {
           "level": 5,
-          "label": "O sistema fornece informações preditivas e simulações de impacto (Capacidade Preditiva) aos tomadores de decisão (ex",
-          "description": "\"Se a Ordem X for priorizada, a Ordem Y atrasará 2 dias\"). As decisões consideram o impacto futuro.",
+          "label": "Nível 5",
+          "description": "O sistema fornece informações preditivas e simulações de impacto (Capacidade Preditiva) aos tomadores de decisão (ex \"Se a Ordem X for priorizada, a Ordem Y atrasará 2 dias\"). As decisões consideram o impacto futuro.",
           "evidence_signals": {
             "observable_behaviors": [
               "O sistema envia um alerta ao gestor: \"Atenção: Risco de 80% de atraso na Ordem X se a Máquina Y não for ajustada em 1h\""
@@ -735,7 +735,9 @@
           "label": "Nível 0",
           "description": "A gestão desencoraja ativamente as sugestões ou iniciativas de mudança dos funcionários, considerando-as \"fora de função\" ou \"indisciplina\".",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "Funcionários relatam: \"Eu nem me dou ao trabalho de sugerir\", \"Na última vez que tentei, levei uma bronca por parar a linha\" ou \"A gestão não gosta que a gente se meta\""
+            ]
           }
         },
         {
@@ -744,8 +746,7 @@
           "description": "A gestão ignora sistematicamente as iniciativas de mudança. Funcionários que tentam são vistos como \"problemáticos\" ou \"perda de tempo\".",
           "evidence_signals": {
             "observable_behaviors": [
-              "Funcionários relatam: \"Eu nem me dou ao trabalho de sugerir",
-              "Na última vez que tentei, levei uma bronca por parar a linha\" ou \"A gestão não gosta que a gente se meta\""
+              "Funcionários relatam: \"Eu nem me dou ao trabalho de sugerir\", \"Na última vez que tentei, levei uma bronca por parar a linha\" ou \"A gestão não gosta que a gente se meta\""
             ]
           }
         },
@@ -821,7 +822,9 @@
           "label": "Nível 0",
           "description": "Os funcionários veem a mudança como uma ameaça ou um fardo. Eles ativamente evitam ou se opõem a ela.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "\"Eu sou pago para operar esta máquina, não para consertá-la\", \"Esse é o trabalho da engenharia"
+            ]
           }
         },
         {
@@ -830,8 +833,7 @@
           "description": "Os funcionários acreditam que \"mudar\" não é parte do seu trabalho. Eles esperam passivamente por instruções e executam apenas o que é mandado.",
           "evidence_signals": {
             "observable_behaviors": [
-              "\"Eu sou pago para operar esta máquina, não para consertá-la",
-              "Esse é o trabalho da engenharia"
+              "\"Eu sou pago para operar esta máquina, não para consertá-la\", \"Esse é o trabalho da engenharia"
             ]
           }
         },
