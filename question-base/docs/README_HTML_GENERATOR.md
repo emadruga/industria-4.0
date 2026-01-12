@@ -2,6 +2,91 @@
 
 This script generates an interactive HTML visualization with a sunburst chart from the hierarchical question data.
 
+## Prerequisites
+
+### Python Environment Setup
+
+This project requires Python 3.6 or higher. Follow these steps to set up your Python environment:
+
+#### 1. Check Python Installation
+
+```bash
+python3 --version
+```
+
+If Python is not installed, download it from [python.org](https://www.python.org/downloads/) or use your system's package manager:
+
+- **macOS**: `brew install python3`
+- **Ubuntu/Debian**: `sudo apt-get install python3 python3-pip python3-venv`
+- **Windows**: Download from python.org or use `winget install Python.Python.3`
+
+#### 2. Create a Virtual Environment (Recommended)
+
+Using a virtual environment keeps dependencies isolated from your system Python:
+
+```bash
+# Navigate to the project root
+cd /path/to/industria-4.0
+
+# Create virtual environment
+python3 -m venv venv
+
+# Activate the virtual environment
+# On macOS/Linux:
+source venv/bin/activate
+
+# On Windows:
+venv\Scripts\activate
+```
+
+You'll know the virtual environment is active when you see `(venv)` in your terminal prompt.
+
+#### 3. Install Dependencies
+
+Install all required Python packages using pip:
+
+```bash
+# Make sure you're in the question-base directory or adjust the path
+pip install -r question-base/requirements.txt
+```
+
+**Core dependencies installed**:
+- `python-docx` - Read and write Microsoft Word .docx files
+- `jsonschema` - JSON Schema validation
+- `openpyxl` - Read/write Excel files
+- `pyyaml` - YAML support
+- `pandas` - Data analysis
+- `tabulate` - Pretty-print tabular data
+- `colorama` - Colored terminal output
+
+#### 4. Verify Installation
+
+```bash
+# Test that imports work
+python3 -c "import json, sys, pathlib; print('Python environment ready!')"
+```
+
+#### 5. Deactivating the Virtual Environment
+
+When you're done working, deactivate the virtual environment:
+
+```bash
+deactivate
+```
+
+### Quick Start (After Setup)
+
+```bash
+# Activate virtual environment
+source venv/bin/activate
+
+# Navigate to scripts directory
+cd question-base/scripts
+
+# Run the HTML generator
+python generate_index_html.py ../JSON7_20260105_164046/metadata/hierarchy_table.md
+```
+
 ## Overview
 
 `generate_index_html.py` reads the markdown hierarchy table and creates a beautiful, interactive single-page application that allows you to explore all Industry 4.0 maturity model questions through a sunburst chart.
@@ -16,6 +101,32 @@ This script generates an interactive HTML visualization with a sunburst chart fr
 - **Breadcrumb Navigation**: Shows the full hierarchy path for each question
 
 ## Usage
+
+### First: Rebuild Hierarchy
+
+After validation moves files or JSON files get modified by hand, rebuild the hierarchy to reflect the new structure.
+
+```bash
+OUTPUT_DIR="../JSON7_20260105_164046"
+# Rebuild hierarchy.json
+python rebuild_hierarchy.py "$OUTPUT_DIR"
+```
+
+**Output**:
+- Updated `$OUTPUT_DIR/metadata/hierarchy.json` with correct statistics
+
+**Expected statistics** (as of 2025-12-26):
+✅ Hierarchy table saved to: ../JSON7_20260105_164046/metadata/hierarchy_table.md
+
+Statistics:
+  Total capacities: 23
+  Total questions: 137
+  Total dimensions: 15
+  Total pilares: 7
+  Total blocks: 3
+
+---
+
 
 ### Basic Usage
 
@@ -34,14 +145,15 @@ python generate_index_html.py hierarchy_table.md -o custom_output.html
 ### Complete Workflow Example
 
 ```bash
-# 1. Convert all DOCX files to JSON
-python batch_convert.py -o ../data_output ../docs_by_author/
+# 1. Convert all JSON files into an intermediary hierarchy table
+OUTPUT_DIR="../JSON7_20260105_164046"
+python rebuild_hierarchy.py "$OUTPUT_DIR"
 
 # 2. Generate interactive HTML
-python generate_index_html.py ../data_output/metadata/hierarchy_table.md
+python generate_index_html.py $OUTPUT_DIR/metadata/hierarchy_table.md
 
 # 3. Open in browser
-open ../data_output/metadata/index.html
+open $OUTPUT_DIR/metadata/index.html
 ```
 
 ## Input Format
