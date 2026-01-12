@@ -159,8 +159,8 @@
         },
         {
           "level": 4,
-          "label": "A comunicação é automatizada via integração de sistemas (ex",
-          "description": "EDI, APIs) para transações-chave (ex: pedidos, faturas). A troca de dados é estruturada e elimina a redigitação, mas é limitada a processos específicos.",
+          "label": "Nível 4",
+          "description": "A comunicação é automatizada via integração de sistemas (ex EDI, APIs) para transações-chave (ex: pedidos, faturas). A troca de dados é estruturada e elimina a redigitação, mas é limitada a processos específicos.",
           "evidence_signals": {
             "observable_behaviors": [
               "O pedido de compra é enviado do ERP da empresa e recebido diretamente no sistema de vendas do fornecedor, sem intervenção humana"
@@ -169,8 +169,8 @@
         },
         {
           "level": 5,
-          "label": "A integração de sistemas é ampla e ocorre em tempo real, permitindo o compartilhamento de dados operacionais (ex",
-          "description": "status de produção do fornecedor, níveis de estoque do cliente). A comunicação é contextualizada e proativa.",
+          "label": "Nível 5",
+          "description": "A integração de sistemas é ampla e ocorre em tempo real, permitindo o compartilhamento de dados operacionais (ex status de produção do fornecedor, níveis de estoque do cliente). A comunicação é contextualizada e proativa.",
           "evidence_signals": {
             "observable_behaviors": [
               "O planejador de produção da empresa consegue ver, em seu próprio sistema, o status de produção (real) do item que está sendo fabricado no fornecedor"
@@ -179,8 +179,8 @@
         },
         {
           "level": 6,
-          "label": "Existe uma rede de valor dinâmica e conectada. Os sistemas da empresa e dos parceiros comunicam-se de forma autônoma para otimizar a cadeia (ex",
-          "description": "reabastecimento automático, ajuste dinâmico de planos de entrega).",
+          "label": "Nível 6",
+          "description": "Existe uma rede de valor dinâmica e conectada. Os sistemas da empresa e dos parceiros comunicam-se de forma autônoma para otimizar a cadeia (ex reabastecimento automático, ajuste dinâmico de planos de entrega).",
           "evidence_signals": {
             "observable_behaviors": [
               "O sistema detecta um atraso na produção de um fornecedor A (via dados em tempo real) e automaticamente gera uma ordem de compra de emergência para o fornecedor B"
@@ -204,8 +204,8 @@
       "maturity_levels": [
         {
           "level": 0,
-          "label": "As instruções de trabalho são predominantemente verbais (ex",
-          "description": "\"o supervisor explica o que fazer\") e baseadas na experiência do colaborador. Não há suporte de sistemas.",
+          "label": "Nível 0",
+          "description": "As instruções de trabalho são predominantemente verbais (ex \"o supervisor explica o que fazer\") e baseadas na experiência do colaborador. Não há suporte de sistemas.",
           "evidence_signals": {
             "observable_behaviors": [
               "\"Eu aprendi olhando o colega do lado fazer"
@@ -224,8 +224,8 @@
         },
         {
           "level": 2,
-          "label": "As instruções são digitais (ex",
-          "description": "PDFs, arquivos de texto) e armazenadas em pastas de rede. O colaborador precisa localizar e abrir ativamente o documento correto para a tarefa.",
+          "label": "Nível 2",
+          "description": "As instruções são digitais (ex PDFs, arquivos de texto) e armazenadas em pastas de rede. O colaborador precisa localizar e abrir ativamente o documento correto para a tarefa.",
           "evidence_signals": {
             "observable_behaviors": [
               "O operador precisa usar o computador do setor para abrir a \"Pasta P\" na rede, navegar até o modelo do produto e abrir o PDF da instrução"
@@ -234,8 +234,8 @@
         },
         {
           "level": 3,
-          "label": "Os sistemas (ex",
-          "description": "terminal MES) exibem a instrução de trabalho correta associada à ordem de produção ativa. A informação é contextual, mas apresentada de forma básica (texto, tabelas).",
+          "label": "Nível 3",
+          "description": "Os sistemas (ex terminal MES) exibem a instrução de trabalho correta associada à ordem de produção ativa. A informação é contextual, mas apresentada de forma básica (texto, tabelas).",
           "evidence_signals": {
             "observable_behaviors": [
               "Ao dar \"play\" na ordem de produção no terminal da máquina, a tela exibe automaticamente as especificações e parâmetros daquela Ordem de Produção"
@@ -254,8 +254,8 @@
         },
         {
           "level": 5,
-          "label": "A empresa utiliza sistemas de assistência avançados (ex",
-          "description": "Realidade Aumentada - AR) que fornecem orientação passo a passo, sobrepondo digitalmente a informação ao ambiente de trabalho real.",
+          "label": "Nível 5",
+          "description": "A empresa utiliza sistemas de assistência avançados (ex Realidade Aumentada - AR) que fornecem orientação passo a passo, sobrepondo digitalmente a informação ao ambiente de trabalho real.",
           "evidence_signals": {
             "observable_behaviors": [
               "O técnico de manutenção usa um tablet ou óculos AR que projeta setas indicando qual componente da máquina deve ser inspecionado ou substituído"
@@ -264,8 +264,8 @@
         },
         {
           "level": 6,
-          "label": "Os sistemas de assistência são adaptativos e proativos. Eles não apenas guiam o operador (ex",
-          "description": "AR), mas também validam a execução da tarefa em tempo real (ex: usando visão computacional) e documentam o processo automaticamente.",
+          "label": "Nível 6",
+          "description": "Os sistemas de assistência são adaptativos e proativos. Eles não apenas guiam o operador (ex AR), mas também validam a execução da tarefa em tempo real (ex: usando visão computacional) e documentam o processo automaticamente.",
           "evidence_signals": {
             "observable_behaviors": [
               "O operador de montagem é guiado por luzes (pick-by-light) e, ao tentar pegar a peça errada, o sistema emite um alerta sonoro e visual antes que o erro ocorra"
@@ -391,8 +391,8 @@
         },
         {
           "level": 1,
-          "label": "Listas básicas (ex",
-          "description": "planilhas, documentos de texto) de funcionários e suas funções existem, mas não há perfis de competências detalhados ou pesquisáveis.",
+          "label": "Nível 1",
+          "description": "Listas básicas (ex planilhas, documentos de texto) de funcionários e suas funções existem, mas não há perfis de competências detalhados ou pesquisáveis.",
           "evidence_signals": {
             "observable_behaviors": [
               "Listas estáticas e isoladas",
@@ -403,8 +403,8 @@
         },
         {
           "level": 2,
-          "label": "Existem sistemas de TI (ex",
-          "description": "sistema de RH) que armazenam competências, mas esses dados são estáticos, raramente atualizados e não estão integrados às ferramentas de trabalho diário.",
+          "label": "Nível 2",
+          "description": "Existem sistemas de TI (ex sistema de RH) que armazenam competências, mas esses dados são estáticos, raramente atualizados e não estão integrados às ferramentas de trabalho diário.",
           "evidence_signals": {
             "observable_behaviors": [
               "Repositório passivo",
@@ -415,8 +415,8 @@
         },
         {
           "level": 3,
-          "label": "Ferramentas de colaboração (ex",
-          "description": "chats, intranets) são usadas, mas a identificação de competências ainda depende muito da rede de contatos pessoal; não há um sistema formal de \"busca por especialistas\".",
+          "label": "Nível 3",
+          "description": "Ferramentas de colaboração (ex chats, intranets) são usadas, mas a identificação de competências ainda depende muito da rede de contatos pessoal; não há um sistema formal de \"busca por especialistas\".",
           "evidence_signals": {
             "observable_behaviors": [
               "Ferramentas de colaboração com perfis",
@@ -427,8 +427,8 @@
         },
         {
           "level": 4,
-          "label": "Plataformas de TI (ex",
-          "description": "intranet avançada, perfis em ferramentas de colaboração) começam a fornecer transparência sobre os perfis de competências dos funcionários e seu envolvimento atual em projetos ou comunidades",
+          "label": "Nível 4",
+          "description": "Plataformas de TI (ex intranet avançada, perfis em ferramentas de colaboração) começam a fornecer transparência sobre os perfis de competências dos funcionários e seu envolvimento atual em projetos ou comunidades",
           "evidence_signals": {
             "observable_behaviors": [
               "Transparência ativa",
@@ -451,8 +451,8 @@
         },
         {
           "level": 6,
-          "label": "As plataformas de TI não apenas dão transparência às competências existentes, mas também se integram a novas tecnologias de treinamento (ex",
-          "description": "Realidade Aumentada) para capacitar rapidamente os funcionários para novas tarefas, permitindo a formação de comunidades de forma ainda mais ágil",
+          "label": "Nível 6",
+          "description": "As plataformas de TI não apenas dão transparência às competências existentes, mas também se integram a novas tecnologias de treinamento (ex Realidade Aumentada) para capacitar rapidamente os funcionários para novas tarefas, permitindo a formação de comunidades de forma ainda mais ágil",
           "evidence_signals": {
             "observable_behaviors": [
               "Alocação inteligente e dinâmica",
@@ -489,8 +489,8 @@
         },
         {
           "level": 1,
-          "label": "As metas são puramente departamentais e muitas vezes unidimensionais (ex",
-          "description": "\"número de peças produzidas\"). O trabalho em projetos fora do departamento não é formalmente reconhecido.",
+          "label": "Nível 1",
+          "description": "As metas são puramente departamentais e muitas vezes unidimensionais (ex \"número de peças produzidas\"). O trabalho em projetos fora do departamento não é formalmente reconhecido.",
           "evidence_signals": {
             "observable_behaviors": [
               "As metas são 100% definidas pelo gerente departamental e focadas em métricas de eficiência locais (mentalidade de silo)",
@@ -544,8 +544,8 @@
         },
         {
           "level": 6,
-          "label": "O sucesso da equipe de especialistas/comunidade é formalmente medido (ex",
-          "description": "controladoria financeira de comunidades). Os sistemas de metas e incentivos (monetários e não monetários) estão diretamente alinhados aos resultados da equipe, e não apenas aos silos departamentais.",
+          "label": "Nível 6",
+          "description": "O sucesso da equipe de especialistas/comunidade é formalmente medido (ex controladoria financeira de comunidades). Os sistemas de metas e incentivos (monetários e não monetários) estão diretamente alinhados aos resultados da equipe, e não apenas aos silos departamentais.",
           "evidence_signals": {
             "observable_behaviors": [
               "O sistema de remuneração (bônus) é diretamente atrelado ao desempenho da comunidade",
@@ -582,8 +582,8 @@
         },
         {
           "level": 1,
-          "label": "A gestão de projetos é tradicional (ex",
-          "description": "cascata, waterfall). As equipes apenas executam tarefas pré-definidas e não têm autoridade para alterar o plano.",
+          "label": "Nível 1",
+          "description": "A gestão de projetos é tradicional (ex cascata, waterfall). As equipes apenas executam tarefas pré-definidas e não têm autoridade para alterar o plano.",
           "evidence_signals": {
             "observable_behaviors": [
               "Processos de desenvolvimento inflexíveis e convencionais (ex: modelo em cascata / waterfall) são a norma",
@@ -593,8 +593,8 @@
         },
         {
           "level": 2,
-          "label": "A empresa experimenta métodos ágeis (ex",
-          "description": "Scrum), mas apenas em \"ilhas\" (como TI). As \"comunidades\" em outras áreas não têm autoridade real para mudar escopo ou alocar recursos.",
+          "label": "Nível 2",
+          "description": "A empresa experimenta métodos ágeis (ex Scrum), mas apenas em \"ilhas\" (como TI). As \"comunidades\" em outras áreas não têm autoridade real para mudar escopo ou alocar recursos.",
           "evidence_signals": {
             "observable_behaviors": [
               "A empresa usa métodos tradicionais de gerenciamento de projetos",
