@@ -44,8 +44,8 @@
         },
         {
           "level": 1,
-          "label": "Existem canais de comunicação formais (ex",
-          "description": "e-mail, pastas compartilhadas), mas o uso é inconsistente. O compartilhamento de arquivos como anexos é uma prática comum, levando a múltiplas versões e redundância.",
+          "label": "Nível 1",
+          "description": "Existem canais de comunicação formais (ex e-mail, pastas compartilhadas), mas o uso é inconsistente. O compartilhamento de arquivos como anexos é uma prática comum, levando a múltiplas versões e redundância.",
           "evidence_signals": {
             "observable_behaviors": [
               "Existem pastas compartilhadas em um servidor, mas a organização é caótica e o controle de versão é manual (ex: \"Relatorio_v2_final_AGORA_VAI"
@@ -54,8 +54,8 @@
         },
         {
           "level": 2,
-          "label": "A organização utiliza ferramentas digitais básicas para comunicação (ex",
-          "description": "aplicativos de mensagens), mas elas não são integradas aos processos de negócio. As aprovações ainda são tratadas de forma manual ou via e-mail.",
+          "label": "Nível 2",
+          "description": "A organização utiliza ferramentas digitais básicas para comunicação (ex aplicativos de mensagens), mas elas não são integradas aos processos de negócio. As aprovações ainda são tratadas de forma manual ou via e-mail.",
           "evidence_signals": {
             "observable_behaviors": [
               "A empresa adota um chat corporativo, mas ele é usado principalmente para conversas informais, enquanto a comunicação e as decisões importantes continuam por e-mail"
@@ -74,8 +74,8 @@
         },
         {
           "level": 4,
-          "label": "A comunicação é rastreável e contextualizada, vinculada a processos de negócio (ex",
-          "description": "ordens de produção, projetos). Aprovações são gerenciadas por meio de assinaturas digitais e fluxos de trabalho transparentes.",
+          "label": "Nível 4",
+          "description": "A comunicação é rastreável e contextualizada, vinculada a processos de negócio (ex ordens de produção, projetos). Aprovações são gerenciadas por meio de assinaturas digitais e fluxos de trabalho transparentes.",
           "evidence_signals": {
             "observable_behaviors": [
               "A aprovação de uma requisição de compra gera notificações automáticas para os aprovadores, e todo o histórico fica registrado no sistema, de forma transparente e auditável"
@@ -119,8 +119,8 @@
       "maturity_levels": [
         {
           "level": 0,
-          "label": "A comunicação com fornecedores e clientes é totalmente manual (ex",
-          "description": "telefone, e-mails individuais, fax). Não há rastreabilidade e os dados precisam ser redigitados manualmente nos sistemas internos.",
+          "label": "Nível 0",
+          "description": "A comunicação com fornecedores e clientes é totalmente manual (ex telefone, e-mails individuais, fax). Não há rastreabilidade e os dados precisam ser redigitados manualmente nos sistemas internos.",
           "evidence_signals": {
             "observable_behaviors": [
               "\"Preciso ligar para o fornecedor para saber se ele recebeu meu pedido"
@@ -129,8 +129,8 @@
         },
         {
           "level": 1,
-          "label": "São utilizados métodos digitais básicos, mas não padronizados (ex",
-          "description": "ordens de compra enviadas como PDF por e-mail). A comunicação é reativa e os dados ainda são inseridos manualmente.",
+          "label": "Nível 1",
+          "description": "São utilizados métodos digitais básicos, mas não padronizados (ex ordens de compra enviadas como PDF por e-mail). A comunicação é reativa e os dados ainda são inseridos manualmente.",
           "evidence_signals": {
             "observable_behaviors": [
               "O departamento de compras envia e-mails em massa com planilhas de previsão para os fornecedores"
@@ -139,8 +139,8 @@
         },
         {
           "level": 2,
-          "label": "A empresa utiliza um canal digital unidirecional, como um portal simples onde disponibiliza informações (ex",
-          "description": "previsões de compra) para os parceiros baixarem, mas a interação (confirmação, NF-e) volta por e-mail.",
+          "label": "Nível 2",
+          "description": "A empresa utiliza um canal digital unidirecional, como um portal simples onde disponibiliza informações (ex previsões de compra) para os parceiros baixarem, mas a interação (confirmação, NF-e) volta por e-mail.",
           "evidence_signals": {
             "observable_behaviors": [
               "O fornecedor reclama que precisa entrar \"todo dia\" no portal para ver se há algo novo, pois não recebe notificações"
@@ -149,8 +149,8 @@
         },
         {
           "level": 3,
-          "label": "Existe um portal de colaboração (ex",
-          "description": "Portal de Fornecedores) onde os parceiros podem interagir (ex: confirmar pedidos, enviar faturas, atualizar status). A comunicação é bidirecional, mas contida no portal (silo).",
+          "label": "Nível 3",
+          "description": "Existe um portal de colaboração (ex Portal de Fornecedores) onde os parceiros podem interagir (ex: confirmar pedidos, enviar faturas, atualizar status). A comunicação é bidirecional, mas contida no portal (silo).",
           "evidence_signals": {
             "observable_behaviors": [
               "Um fornecedor anexa a Nota Fiscal diretamente no pedido dentro do portal, e o sistema interno de recebimento é notificado"
