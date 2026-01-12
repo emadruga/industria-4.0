@@ -7,7 +7,10 @@
     "dimension": "Chão de Fábrica",
     "description": "A dimensão Shop Floor Intelligence (D10) avalia o processamento e a análise de dados no ambiente de produção com o objetivo de otimizar processos existentes e, em estágios avançados, criar novas aplicações, produtos e serviços.",
     "related_capacities": [
-      "Controle de Processo em Tempo Real Filtragem e Agregação de Dados na Borda Detecção de Anomalias e Predição Local Tomada de Decisão Autônoma do Equipamento"
+      "Controle de Processo em Tempo Real",
+      "Filtragem e Agregação de Dados na Borda",
+      "Detecção de Anomalias e Predição Local",
+      "Tomada de Decisão Autônoma do Equipamento"
     ],
     "metadata": {
       "source_frameworks": [
@@ -89,8 +92,8 @@
         },
         {
           "level": 5,
-          "label": "Os sistemas de processamento descentralizado são robustos o suficiente para executar análises complexas (ex",
-          "description": "manutenção preditiva, detecção de anomalias) localmente, e as previsões resultantes são integradas ao planejamento para antecipar desvios.",
+          "label": "Nível 5",
+          "description": "Os sistemas de processamento descentralizado são robustos o suficiente para executar análises complexas (ex. manutenção preditiva, detecção de anomalias) localmente, e as previsões resultantes são integradas ao planejamento para antecipar desvios.",
           "evidence_signals": {
             "observable_behaviors": [
               "Alertas de Manutenção Preditiva",
@@ -170,8 +173,8 @@
         },
         {
           "level": 4,
-          "label": "O pré-processamento descentralizado (ex",
-          "description": "em dispositivos de borda) é usado para filtrar e agregar dados brutos, garantindo a redução da latência e enviando apenas informações contextuais em tempo quase real para sistemas centrais (ex: dashboards).",
+          "label": "Nível 4",
+          "description": "O pré-processamento descentralizado (ex em dispositivos de borda) é usado para filtrar e agregar dados brutos, garantindo a redução da latência e enviando apenas informações contextuais em tempo quase real para sistemas centrais (ex: dashboards).",
           "evidence_signals": {
             "observable_behaviors": [
               "Pré-Processamento por Agregação/Filtragem: O dispositivo de borda executa filtragem de ruído e agregação (ex: calcula médias, máximos, mínimos) e envia apenas esses dados agregados em intervalos regulares (ex: a cada 1 minuto) para sistemas centrais",
@@ -181,8 +184,8 @@
         },
         {
           "level": 5,
-          "label": "Os sistemas descentralizados executam análises complexas (ex",
-          "description": "detecção de anomalias, manutenção preditiva) localmente, enviando apenas os insights e previsões para integração com o planejamento, não o fluxo de dados brutos.",
+          "label": "Nível 5",
+          "description": "Os sistemas descentralizados executam análises complexas (ex detecção de anomalias, manutenção preditiva) localmente, enviando apenas os insights e previsões para integração com o planejamento, não o fluxo de dados brutos.",
           "evidence_signals": {
             "observable_behaviors": [
               "Processamento por Exceção (Envio de Insights): Os dispositivos de borda monitoram os dados brutos, mas só enviam dados para o sistema central quando uma anomalia ou evento de interesse é detectado",
@@ -251,8 +254,8 @@
         },
         {
           "level": 3,
-          "label": "Sistemas embarcados são utilizados para monitoramento local e loops de controle fechado de processos técnicos (ex",
-          "description": "controle PID básico em um CLP), mas esses dados não são integrados à rede corporativa.",
+          "label": "Nível 3",
+          "description": "Sistemas embarcados são utilizados para monitoramento local e loops de controle fechado de processos técnicos (ex controle PID básico em um CLP), mas esses dados não são integrados à rede corporativa.",
           "evidence_signals": {
             "observable_behaviors": [
               "O CLP local executa lógicas de intertravamento simples e controle PID básico (loops fechados)",
@@ -262,8 +265,8 @@
         },
         {
           "level": 4,
-          "label": "O pré-processamento descentralizado em dispositivos de borda é usado para executar cálculos mais complexos (ex",
-          "description": "fusão de múltiplos sensores) para otimizar um processo localmente, garantindo a redução da latência de decisão.",
+          "label": "Nível 4",
+          "description": "O pré-processamento descentralizado em dispositivos de borda é usado para executar cálculos mais complexos (ex fusão de múltiplos sensores) para otimizar um processo localmente, garantindo a redução da latência de decisão.",
           "evidence_signals": {
             "observable_behaviors": [
               "O dispositivo de borda (ex: IPC, CLP avançado) executa cálculos complexos (ex: fusão de múltiplos sensores, fórmulas matemáticas) localmente para otimizar um processo em tempo real, garantindo baixa latência"
@@ -272,8 +275,8 @@
         },
         {
           "level": 5,
-          "label": "O processamento descentralizado executa cálculos complexos e modelos de otimização (ex",
-          "description": "Controle de Processo Avançado - APC) em tempo real no dispositivo de borda, ajustando ativamente o processo sem depender da rede central.",
+          "label": "Nível 5",
+          "description": "O processamento descentralizado executa cálculos complexos e modelos de otimização (ex Controle de Processo Avançado - APC) em tempo real no dispositivo de borda, ajustando ativamente o processo sem depender da rede central.",
           "evidence_signals": {
             "observable_behaviors": [
               "O dispositivo de borda executa modelos de otimização complexos (ex: Controle de Processo Avançado - APC) em tempo real, ajustando múltiplos parâmetros interdependentes para maximizar a eficiência, sem depender da rede central"
