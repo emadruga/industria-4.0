@@ -912,7 +912,9 @@
           "label": "Nível 0",
           "description": "A implementação de mudanças pela equipe não é uma prática; qualquer desvio do padrão é ativamente corrigido.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "\"Se o procedimento diz 'A', fazemos 'A'\", \"Se você tentar fazer 'B', mesmo que seja melhor, você está errado"
+            ]
           }
         },
         {
@@ -921,8 +923,7 @@
           "description": "Mudanças, se aprovadas, seguem um processo de implementação rígido, linear (cascata) e lento, que leva meses. O plano não pode ser alterado após o início.",
           "evidence_signals": {
             "observable_behaviors": [
-              "\"Se o procedimento diz 'A', fazemos 'A'",
-              "Se você tentar fazer 'B', mesmo que seja melhor, você está errado"
+              "\"Se o procedimento diz 'A', fazemos 'A'\", \"Se você tentar fazer 'B', mesmo que seja melhor, você está errado"
             ]
           }
         },
