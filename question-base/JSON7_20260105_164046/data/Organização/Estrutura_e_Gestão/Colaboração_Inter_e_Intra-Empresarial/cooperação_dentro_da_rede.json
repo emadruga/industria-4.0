@@ -594,48 +594,6 @@
       "sampling_guidance": "Amostragem Analisar gestão de relacionamento com 5-10 parceiros-chave, avaliando maturidade dos mecanismos de governança, confiança e alinhamento de incentivos."
     }
   ],
-  "glossary": [
-    {
-      "term": "Ecossistema de negócios",
-      "definition": "Rede de organizações (fornecedores, clientes, parceiros, universidades, institutos) que colaboram e competem, criando e capturando valor coletivamente através de plataformas e complementaridades."
-    },
-    {
-      "term": "Colaboração intra-empresa",
-      "definition": "Trabalho conjunto entre diferentes áreas e equipes dentro da mesma organização."
-    },
-    {
-      "term": "Colaboração inter-empresa",
-      "definition": "Trabalho conjunto com organizações externas, incluindo fornecedores, clientes, parceiros tecnológicos e outros stakeholders."
-    },
-    {
-      "term": "Cadeia de valor",
-      "definition": "Conjunto de atividades que uma empresa realiza para criar e entregar valor, incluindo fornecedores a montante e clientes a jusante."
-    },
-    {
-      "term": "Co-desenvolvimento",
-      "definition": "Desenvolvimento colaborativo de produtos, serviços ou tecnologias com parceiros externos, compartilhando responsabilidades, riscos e propriedade intelectual."
-    },
-    {
-      "term": "Inovação aberta",
-      "definition": "Paradigma que assume que empresas podem e devem usar ideias externas e internas, assim como caminhos internos e externos para o mercado, para avançar sua tecnologia."
-    },
-    {
-      "term": "Plataformas digitais",
-      "definition": "Infraestruturas tecnológicas que facilitam interações e transações entre múltiplos participantes de um ecossistema."
-    },
-    {
-      "term": "Governança compartilhada",
-      "definition": "Modelo de tomada de decisão e gestão onde responsabilidades, riscos e benefícios são distribuídos entre múltiplos stakeholders."
-    },
-    {
-      "term": "KPIs compartilhados",
-      "definition": "Indicadores-chave de desempenho definidos e monitorados conjuntamente por múltiplas organizações para medir sucesso de iniciativas colaborativas."
-    },
-    {
-      "term": "Interoperabilidade",
-      "definition": "Capacidade de sistemas, dispositivos ou organizações trabalharem juntos através de troca e uso de informações."
-    }
-  ],
   "references": [
     {
       "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf. Acesso em: 3 out. 2025.",
