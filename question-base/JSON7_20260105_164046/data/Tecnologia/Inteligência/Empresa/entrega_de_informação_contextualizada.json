@@ -207,22 +207,256 @@
       "id": "Q-TEC-INTELI-CORPOR-019-003",
       "question_number": 3,
       "title": "Qualidade, confiabilidade e rastreabilidade da informação",
-      "text": "",
-      "maturity_levels": []
+    "text": "Até que ponto a organização assegura a qualidade, a rastreabilidade e a confiabilidade das informações geradas e distribuídas por seus sistemas inteligentes?",
+    "maturity_levels": [
+      {
+        "level": 0,
+        "label": "Nível 0",
+        "description": "Não há controle formal da qualidade e rastreabilidade das informações; dados são inconsistentes e não verificados.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Dados inconsistentes, sem registros ou trilhas de auditoria."
+          ]
+        }
+      },
+      {
+        "level": 1,
+        "label": "Nível 1",
+        "description": "Existem procedimentos básicos de verificação manual de dados, mas sem padronização organizacional.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Verificação manual de amostras de dados."
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "label": "Nível 2",
+        "description": "Ferramentas digitais registram dados e logs, porém a validação ainda é parcial e reativa.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Logs digitais e relatórios de controle parcial."
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "label": "Nível 3",
+        "description": "Sistemas corporativos e operacionais integram verificações automáticas e alertas locais de inconsistência.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Validação automatizada e alertas de inconsistência."
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "label": "Nível 4",
+        "description": "Indicadores de qualidade e rastreabilidade são monitorados transversalmente, permitindo diagnóstico proativo de falhas.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Monitoramento contínuo e relatórios transversais de qualidade."
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "label": "Nível 5",
+        "description": "Mecanismos analíticos e preditivos identificam anomalias e antecipam inconsistências de dados.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Previsão de anomalias e falhas de integridade."
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "label": "Nível 6",
+        "description": "O sistema corrige automaticamente falhas de qualidade e rastreabilidade em tempo real, assegurando integridade contínua.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Correção autônoma e aprendizado contínuo do sistema para prevenir reincidência."
+          ]
+        }
+      }
+],
+    "artifacts": [
+ "Artefatos e onde buscar  Registros de logs e trilhas de auditoria. Políticas de governança de dados e documentação de metadados. Relatórios de controle de qualidade da informação. Dashboards de monitoramento de integridade e consistência de dados."
+],
+    "metrics": [
+"Métricas/KPIs Percentual de inconsistências detectadas e corrigidas automaticamente. Taxa de integridade de dados entre sistemas. Tempo médio de detecção e correção de erros. Frequência de falhas de rastreabilidade em auditorias internas."
+],
+    "sampling_guidance": "Amostragem Entrevistas com gestores de TI e responsáveis por governança de dados. Análise de registros de qualidade e relatórios de auditoria. Avaliação prática de sistemas de monitoramento e alertas."
     },
     {
       "id": "Q-TEC-INTELI-CORPOR-019-004",
       "question_number": 4,
       "title": "Capacidade analítica e preditiva dos sistemas de informação",
-      "text": "",
-      "maturity_levels": []
+    "text": "Os sistemas de informação da organização utilizam análises avançadas (analytics, machine learning, IA) para gerar insights preditivos e apoiar decisões antecipadas?",
+    "maturity_levels": [
+      {
+        "level": 0,
+        "label": "Nível 0",
+        "description": "Não há uso estruturado de análises; decisões baseiam-se em experiência ou relatórios manuais.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Decisões empíricas, sem suporte analítico."
+          ]
+        }
+      },
+      {
+        "level": 1,
+        "label": "Nível 1",
+        "description": "Existem iniciativas pontuais de análise de dados, realizadas manualmente e sem padronização.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Relatórios manuais e planilhas simples."
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "label": "Nível 2",
+        "description": "Ferramentas digitais produzem relatórios descritivos e visibilidade básica de indicadores.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Ferramentas digitais com relatórios descritivos."
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "label": "Nível 3",
+        "description": "Sistemas consolidados realizam análises automáticas e relatórios integrados em tempo quasi-real.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Dashboards automatizados com métricas integradas."
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "label": "Nível 4",
+        "description": "Modelos analíticos correlacionam variáveis e fornecem diagnósticos de desempenho organizacional.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Modelos correlacionais e diagnósticos de causa e efeito."
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "label": "Nível 5",
+        "description": "Aplicação de técnicas de machine learning e IA para prever eventos, tendências e comportamentos.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Uso de algoritmos preditivos com resultados medidos."
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "label": "Nível 6",
+        "description": "Sistemas autodidatas ajustam parâmetros e decisões automaticamente em tempo real, baseados em análise contínua de dados.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Sistema autodidata, com predições e ajustes em tempo real."
+          ]
+        }
+      }
+],
+    "artifacts": [
+ "Artefatos e onde buscar  Relatórios e dashboards analíticos. Documentação de uso de algoritmos e modelos de IA. Registros de scripts e pipelines de dados (ETL, Data Lake). Logs de previsão e análises automatizadas."
+],
+    "metrics": [
+"Métricas/KPIs Percentual de decisões suportadas por análises de dados. Precisão e acurácia dos modelos preditivos. Tempo de resposta entre coleta de dados e geração de insights. Redução de falhas ou custos baseada em análises preditivas."
+],
+    "sampling_guidance": "Amostragem Entrevistas com analistas de dados, gestores de TI e operação. Observação de uso de painéis analíticos. Verificação de logs de execução de modelos preditivos. Revisão de relatórios de melhoria baseados em previsões."
     },
     {
       "id": "Q-TEC-INTELI-CORPOR-019-005",
       "question_number": 5,
       "title": "Autonomia e empoderamento das equipes na utilização da informação contextualizada",
-      "text": "",
-      "maturity_levels": []
+    "text": "Em que medida as equipes, em diferentes níveis, têm autonomia para acessar, interpretar e aplicar informações contextualizadas fornecidas pelos sistemas inteligentes?",
+    "maturity_levels": [
+      {
+        "level": 0,
+        "label": "Nível 0",
+        "description": "O acesso à informação é restrito e centralizado; decisões são tomadas sem base em dados ou suporte digital.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Acesso restrito; decisões baseadas em hierarquia."
+          ]
+        }
+      },
+      {
+        "level": 1,
+        "label": "Nível 1",
+        "description": "Existem regras formais de acesso à informação, mas o uso permanece limitado e dependente de níveis hierárquicos superiores.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Acesso formalizado, porém centralizado."
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "label": "Nível 2",
+        "description": "Equipes possuem acesso digital a informações, porém o uso é majoritariamente reativo e individual.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Equipes acessam dados, mas sem contextualização ou iniciativa autônoma."
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "label": "Nível 3",
+        "description": "Equipes locais utilizam dados em tempo quasi-real e aplicam análises contextuais em suas decisões cotidianas.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Uso regular de dados para decisões locais."
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "label": "Nível 4",
+        "description": "Há compartilhamento transversal de informações; equipes colaboram na análise de causas e soluções baseadas em dados.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Colaboração transversal e compartilhamento de insights."
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "label": "Nível 5",
+        "description": "Sistemas inteligentes recomendam ações, e equipes atuam proativamente com base em previsões e simulações.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Ações preditivas e autonomia sustentada por IA."
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "label": "Nível 6",
+        "description": "As equipes e os sistemas aprendem mutuamente, operando de forma autônoma, colaborativa e em tempo real.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Aprendizado contínuo entre sistemas e equipes, decisões adaptativas em tempo real."
+          ]
+        }
+      }
+],
+    "artifacts": [
+ "Artefatos e onde buscar  Políticas de acesso à informação e perfis de usuário. Relatórios de auditoria de uso de dashboards e sistemas analíticos. Evidências de treinamentos e programas de capacitação digital. Registros de decisões operacionais descentralizadas."
+],
+    "metrics": [
+"Métricas/KPIs Percentual de decisões tomadas com base em informações digitais. Tempo médio de resposta entre evento e decisão local. Autonomia percebida pelos colaboradores. Número de usuários ativos em plataformas analíticas."
+],
+    "sampling_guidance": "Amostragem Entrevistas com líderes e operadores de diferentes áreas. Observação de reuniões de decisão com base em dados. Avaliação de logs de acesso e relatórios de uso de dashboards. Análise de programas de capacitação digital."
     }
   ],
   "references": [
