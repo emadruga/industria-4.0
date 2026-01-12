@@ -82,8 +82,8 @@
         },
         {
           "level": 5,
-          "label": "A empresa emprega modelos e algoritmos (ex",
-          "description": "machine learning) para analisar dados históricos e em tempo real, prevendo eventos futuros como falhas de equipamentos, problemas de qualidade ou variações na demanda (o que vai acontecer).",
+          "label": "Nível 5",
+          "description": "A empresa emprega modelos e algoritmos (ex machine learning) para analisar dados históricos e em tempo real, prevendo eventos futuros como falhas de equipamentos, problemas de qualidade ou variações na demanda (o que vai acontecer).",
           "evidence_signals": {
             "observable_behaviors": [
               "O sistema de manutenção envia uma ordem de serviço para inspecionar um motor, informando que há 85% de chance de ele falhar nas próximas 48 horas com base na análise de dados de vibração e temperatura"
@@ -125,8 +125,8 @@
         },
         {
           "level": 1,
-          "label": "A análise automatizada é usada de forma isolada, focada em um único ativo, parâmetro ou processo (ex",
-          "description": "monitorar a vibração de um motor específico ou a contagem de peças de uma máquina).",
+          "label": "Nível 1",
+          "description": "A análise automatizada é usada de forma isolada, focada em um único ativo, parâmetro ou processo (ex monitorar a vibração de um motor específico ou a contagem de peças de uma máquina).",
           "evidence_signals": {
             "observable_behaviors": [
               "O supervisor de uma máquina só consegue ver os dados daquela máquina"
@@ -145,8 +145,8 @@
         },
         {
           "level": 3,
-          "label": "A análise integra dados de múltiplos processos e sistemas dentro de um mesmo domínio funcional (ex",
-          "description": "integração de dados de todas as máquinas do shop floor para otimizar o fluxo de produção e identificar gargalos).",
+          "label": "Nível 3",
+          "description": "A análise integra dados de múltiplos processos e sistemas dentro de um mesmo domínio funcional (ex integração de dados de todas as máquinas do shop floor para otimizar o fluxo de produção e identificar gargalos).",
           "evidence_signals": {
             "observable_behaviors": [
               "O gerente da fábrica consegue ver em um dashboard qual linha está sendo o gargalo e como isso afeta o plano de produção geral do dia"
