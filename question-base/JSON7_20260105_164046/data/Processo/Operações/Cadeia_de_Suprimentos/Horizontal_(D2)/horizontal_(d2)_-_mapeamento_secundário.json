@@ -458,8 +458,86 @@
       "id": "Q-PROC-OPERAÇ-HORIZO-015-006",
       "question_number": 6,
       "title": "Resiliência e adaptação colaborativa em tempo real",
-      "text": "",
-      "maturity_levels": []
+    "text": "Em que medida a organização e seus parceiros são capazes de reagir de forma autônoma e coordenada a eventos inesperados?",
+    "maturity_levels": [
+      {
+        "level": 0,
+        "label": "Nível 0",
+        "description": "A organização reage de forma manual e isolada a eventos imprevistos, sem coordenação com parceiros.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Reações manuais e locais."
+          ]
+        }
+      },
+      {
+        "level": 1,
+        "label": "Nível 1",
+        "description": "Existem planos de contingência documentados, mas sem suporte digital nem comunicação automatizada.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Planos de contingência formais, sem integração."
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "label": "Nível 2",
+        "description": "Há registro digital de eventos e respostas, mas a reação ainda depende de intervenção humana.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Monitoramento digital, mas reações manuais."
+          ]
+        }
+      },
+      {
+        "level": 3,
+        "label": "Nível 3",
+        "description": "Os sistemas internos e de parceiros trocam informações automaticamente, permitindo resposta coordenada básica.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Coordenação automatizada entre unidades."
+          ]
+        }
+      },
+      {
+        "level": 4,
+        "label": "Nível 4",
+        "description": "O monitoramento é contínuo; alertas e recomendações automáticas suportam decisões de mitigação colaborativas.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Alertas e recomendações automáticas."
+          ]
+        }
+      },
+      {
+        "level": 5,
+        "label": "Nível 5",
+        "description": "Alertas de eventos (previstos pela Q5 ou inesperados) disparam reconfigurações de fluxo semi-automáticas, com validação humana para mitigar o impacto e coordenar parceiros.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Previsão de eventos e reconfiguração automática."
+          ]
+        }
+      },
+      {
+        "level": 6,
+        "label": "Nível 6",
+        "description": "A rede de valor demonstra auto-organização: reage a disrupções em tempo real de forma autônoma, redistribuindo recursos e funções na cadeia de forma colaborativa e aprendendo com o evento.",
+        "evidence_signals": {
+          "observable_behaviors": [
+            "Resposta adaptativa autônoma e colaborativa."
+          ]
+        }
+      }
+],
+    "artifacts": [
+   "Artefatos e onde buscar Relatórios de incidentes e respostas operacionais. Logs de monitoramento em tempo real (SCM, ERP, IoT, sistemas logísticos). Modelos de simulação e análise preditiva de riscos. Protocolos de contingência automatizados e dashboards de controle."
+],
+    "metrics": [
+   "Métricas/KPIs Tempo médio de resposta a eventos disruptivos. Percentual de processos recuperados automaticamente. Taxa de falhas mitigadas antes do impacto. Nível de integração de dados em alertas e planos de reação."
+],
+    "sampling_guidance": "Amostragem Entrevistas com gestores de cadeia de suprimentos, TI e operações. Análise de registros de eventos e respostas operacionais. Observação de testes de contingência ou simulações. Avaliação de logs e dashboards de sistemas de monitoramento."      
     }
   ],
   "references": [
