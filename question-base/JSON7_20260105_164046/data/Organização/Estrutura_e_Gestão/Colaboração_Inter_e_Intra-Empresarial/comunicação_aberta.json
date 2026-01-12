@@ -138,7 +138,12 @@
           "label": "Nível 0",
           "description": "Informações estratégicas são mantidas apenas na alta liderança, sem comunicação formal. Decisões não são compartilhadas ou justificadas.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "informações estratégicas restritas à alta liderança",
+              "sem comunicação formal de decisões",
+              "colaboradores desconhecem estratégia e mudanças",
+              "ausência de canais de comunicação descendente"
+            ]
           }
         },
         {
@@ -146,7 +151,12 @@
           "label": "Nível 1",
           "description": "Comunicação top-down básica apenas quando estritamente necessário. Informações compartilhadas de forma seletiva e tardia.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "comunicação top-down esporádica",
+              "informações compartilhadas apenas quando necessário",
+              "atrasos na comunicação de mudanças",
+              "seletividade no compartilhamento"
+            ]
           }
         },
         {
@@ -154,7 +164,12 @@
           "label": "Nível 2",
           "description": "Informações são compartilhadas formalmente através de canais oficiais, mas de forma seletiva e com atraso significativo. Pouca justificativa das decisões.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "canais oficiais de comunicação existem",
+              "informações compartilhadas com atraso significativo",
+              "seletividade no que é comunicado",
+              "justificativas limitadas ou ausentes"
+            ]
           }
         },
         {
@@ -162,7 +177,12 @@
           "label": "Nível 3",
           "description": "Comunicação regular de informações estratégicas através de múltiplos canais formais. Decisões importantes são comunicadas com contexto básico.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "múltiplos canais formais de comunicação",
+              "comunicação regular e programada",
+              "decisões importantes comunicadas com contexto básico",
+              "calendário de comunicações estruturado"
+            ]
           }
         },
         {
@@ -170,7 +190,12 @@
           "label": "Nível 4",
           "description": "Transparência estruturada com dashboards acessíveis, comunicação frequente e bidirecional. Decisões são explicadas com dados e contexto.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "dashboards acessíveis a todos",
+              "comunicação frequente e bidirecional",
+              "decisões explicadas com dados e contexto",
+              "canais para perguntas e feedback"
+            ]
           }
         },
         {
@@ -178,7 +203,12 @@
           "label": "Nível 5",
           "description": "Transparência total com acesso em tempo real a informações estratégicas, métricas de desempenho e processos decisórios. Comunicação proativa e bidirectional.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "acesso em tempo real a informações estratégicas",
+              "métricas de desempenho transparentes",
+              "comunicação proativa da liderança",
+              "processos decisórios visíveis"
+            ]
           }
         },
         {
@@ -186,10 +216,23 @@
           "label": "Nível 6",
           "description": "Cultura de transparência radical com governança distribuída, comunicação contínua em tempo real e acesso universal a todas as informações relevantes.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "transparência radical institucionalizada",
+              "governança distribuída e participativa",
+              "comunicação contínua em tempo real",
+              "acesso universal a todas informações",
+              "cultura de abertura total"
+            ]
           }
         }
-      ]
+      ],
+      "artifacts": [
+        "Documentos de política de transparência organizacional (governança de comunicação). Cronogramas de comunicações oficiais (town halls, all-hands meetings, newsletters executivas). Plataformas de comunicação institucional (intranet, portais, aplicativos corporativos). Atas de comitês executivos e decisões estratégicas publicadas. Gravações ou transcrições de reuniões de liderança compartilhadas. Políticas de acesso à informação e classificação de dados. Canais de comunicação bidirecional (fóruns, AMAs - Ask Me Anything). Pesquisas de transparência e confiança organizacional. Métricas de acesso e engajamento com comunicações institucionais."
+      ],
+      "metrics": [
+        "Taxa de abertura de comunicações oficiais (e-mails, newsletters). Frequência de comunicações top-down vs bottom-up. Tempo médio entre decisão estratégica e comunicação formal. % de decisões com contexto e justificativa compartilhados. Índice de transparência percebida (survey). NPS interno de comunicação da liderança. Taxa de participação em canais bidirecionais (perguntas em AMAs, postagens em fóruns). % de colaboradores que se sentem informados sobre estratégia (pesquisa de clima)."
+      ],
+      "sampling_guidance": "Mapear todas as comunicações estratégicas dos últimos 90 dias: tipo, canal, audiência, timing entre decisão e comunicação, presença de contexto/justificativa. Entrevistar 8-12 colaboradores de diferentes níveis sobre percepção de transparência e acesso à informação. Analisar políticas de governança de comunicação e classificação de informações."
     },
     {
       "id": "Q-ORG-ESTRUT-COLABO-010-003",
@@ -202,7 +245,12 @@
           "label": "Nível 0",
           "description": "Não existe prática formal de feedback. Feedback acontece raramente e de forma ad hoc, geralmente apenas negativo ou em situações de crise.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "ausência de práticas formais de feedback",
+              "feedback esporádico e apenas negativo",
+              "foco em críticas durante crises",
+              "sem estrutura ou processos"
+            ]
           }
         },
         {
@@ -210,7 +258,12 @@
           "label": "Nível 1",
           "description": "Feedback anual via avaliação de desempenho formal. Processo burocrático e unidirecional (líder → colaborador).",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "avaliação de desempenho anual formal",
+              "processo burocrático",
+              "feedback unidirecional (líder para colaborador)",
+              "sem feedback upward ou lateral"
+            ]
           }
         },
         {
@@ -218,7 +271,12 @@
           "label": "Nível 2",
           "description": "Feedback trimestral ou semestral estruturado, mas ainda limitado ao fluxo top-down. Pouca abertura para feedback upward ou lateral.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "feedback trimestral ou semestral estruturado",
+              "limitado ao fluxo top-down",
+              "baixa abertura para feedback upward",
+              "feedback lateral inexistente"
+            ]
           }
         },
         {
@@ -226,7 +284,12 @@
           "label": "Nível 3",
           "description": "Feedback mensal com canais formais estabelecidos. Início de feedback bidirecional (upward e downward), mas ainda irregular.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "feedback mensal com canais formais",
+              "início de feedback bidirecional",
+              "upward feedback ainda irregular",
+              "abertura crescente mas inconsistente"
+            ]
           }
         },
         {
@@ -234,7 +297,12 @@
           "label": "Nível 4",
           "description": "Feedback contínuo e multidirecional (upward, downward, lateral) com ferramentas digitais. Cultura que valoriza feedback construtivo.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "feedback contínuo e multidirecional",
+              "ferramentas digitais para feedback",
+              "cultura que valoriza feedback construtivo",
+              "feedback upward, downward e lateral estabelecidos"
+            ]
           }
         },
         {
@@ -242,7 +310,13 @@
           "label": "Nível 5",
           "description": "Cultura forte de feedback em tempo real com feedback 360°, ferramentas automatizadas e alta segurança psicológica.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "feedback em tempo real",
+              "feedback 360° estruturado",
+              "ferramentas automatizadas",
+              "alta segurança psicológica",
+              "cultura forte de feedback"
+            ]
           }
         },
         {
@@ -250,10 +324,23 @@
           "label": "Nível 6",
           "description": "Feedback contínuo totalmente integrado ao fluxo de trabalho, com IA para análise de padrões, reconhecimento automatizado e coaching contínuo.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "feedback integrado ao fluxo de trabalho",
+              "IA para análise de padrões",
+              "reconhecimento automatizado",
+              "coaching contínuo",
+              "cultura de melhoria contínua enraizada"
+            ]
           }
         }
-      ]
+      ],
+      "artifacts": [
+        "Sistema de gestão de performance e feedback (HRIS, plataformas de feedback contínuo). Registros de sessões de feedback (1:1s, avaliações, check-ins). Templates e guias de feedback estruturado. Calendário de ciclos de feedback. Plataformas de feedback 360° e multi-rater. Pesquisas de clima sobre cultura de feedback. Programas de treinamento em dar e receber feedback. Métricas de frequência e qualidade de feedback. Canais de feedback anônimo. Políticas de segurança psicológica e feedback construtivo."
+      ],
+      "metrics": [
+        "Frequência média de feedback (dias entre sessões). % de colaboradores que receberam feedback no último mês/trimestre. Taxa de uso de ferramentas de feedback. Índice de segurança psicológica (survey). % de feedback multidirecional vs unidirecional. NPS de qualidade do feedback recebido. Tempo médio de resposta a feedback (closure do loop). % de colaboradores treinados em práticas de feedback. Correlação entre frequência de feedback e engajamento."
+      ],
+      "sampling_guidance": "Analisar registros de feedback dos últimos 6 meses: frequência, direção (upward/downward/lateral), qualidade, ações resultantes. Entrevistar 10-15 colaboradores de diferentes níveis sobre experiência com feedback. Revisar ferramentas e plataformas disponíveis. Analisar pesquisas de clima sobre segurança psicológica e cultura de feedback."
     },
     {
       "id": "Q-ORG-ESTRUT-COLABO-010-004",
@@ -266,7 +353,12 @@
           "label": "Nível 0",
           "description": "Silêncio ou comunicação muito inconsistente durante crises. Rumores e desinformação proliferam. Alta ansiedade organizacional.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "silêncio ou comunicação inconsistente",
+              "proliferação de rumores",
+              "alta ansiedade organizacional",
+              "desinformação disseminada"
+            ]
           }
         },
         {
@@ -274,7 +366,12 @@
           "label": "Nível 1",
           "description": "Comunicação mínima e tardia, apenas quando pressionado. Mensagens vagas e pouco esclarecedoras.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "comunicação mínima e tardia",
+              "mensagens apenas quando pressionado",
+              "conteúdo vago e pouco claro",
+              "falta de proatividade"
+            ]
           }
         },
         {
@@ -282,7 +379,12 @@
           "label": "Nível 2",
           "description": "Comunicação formal mas limitada e altamente controlada. Informações parciais, causando especulação e ansiedade.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "comunicação formal mas limitada",
+              "alto controle sobre informações",
+              "informações parciais",
+              "especulação e ansiedade persistem"
+            ]
           }
         },
         {
@@ -290,7 +392,12 @@
           "label": "Nível 3",
           "description": "Comunicação regular durante crises mas ainda predominantemente top-down. Atualizações periódicas com informações relevantes.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "comunicação regular durante crises",
+              "fluxo predominantemente top-down",
+              "atualizações periódicas",
+              "informações relevantes compartilhadas"
+            ]
           }
         },
         {
@@ -298,7 +405,12 @@
           "label": "Nível 4",
           "description": "Comunicação transparente e frequente com espaço para dúvidas e preocupações. Liderança visível e acessível.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "comunicação transparente e frequente",
+              "espaço para dúvidas e preocupações",
+              "liderança visível e acessível",
+              "canais bidirecionais ativos"
+            ]
           }
         },
         {
@@ -306,7 +418,13 @@
           "label": "Nível 5",
           "description": "Comunicação em tempo real através de múltiplos canais bidirecionais. Alta transparência, empatia e responsividade a questões.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "comunicação em tempo real",
+              "múltiplos canais bidirecionais",
+              "alta transparência",
+              "empatia e responsividade",
+              "questões respondidas rapidamente"
+            ]
           }
         },
         {
@@ -314,10 +432,23 @@
           "label": "Nível 6",
           "description": "Comunicação radical e contínua com transparência total, canais bidirecionais ativos, co-criação de soluções e governança participativa.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "comunicação radical e contínua",
+              "transparência total",
+              "co-criação de soluções",
+              "governança participativa em crises",
+              "colaboradores como agentes ativos"
+            ]
           }
         }
-      ]
+      ],
+      "artifacts": [
+        "Plano de comunicação de crise documentado. Protocolos de comunicação em situações de emergência. Histórico de comunicações durante crises anteriores (e-mails, town halls, vídeos). Canais de comunicação de emergência (aplicativos, SMS, hotlines). Pesquisas de percepção durante e após crises. Atas de reuniões de gestão de crise. FAQs atualizados durante crises. Registros de perguntas e respostas em canais bidirecionais. Análise de sentimento durante períodos de crise. Treinamentos de porta-vozes e gestão de crise."
+      ],
+      "metrics": [
+        "Tempo entre início da crise e primeira comunicação oficial. Frequência de atualizações durante crise. Taxa de abertura/visualização de comunicações de crise. % de colaboradores que se sentem informados durante crises (survey). Número de perguntas recebidas vs respondidas. Tempo médio de resposta a perguntas. Índice de ansiedade organizacional (survey pré e pós). Taxa de disseminação de rumores/desinformação. NPS de comunicação de crise."
+      ],
+      "sampling_guidance": "Analisar as 3-5 crises ou mudanças significativas mais recentes: tempo de resposta, frequência de comunicação, canais utilizados, transparência, responsividade. Entrevistar 10-15 colaboradores sobre experiência de comunicação durante crises. Revisar planos de comunicação de crise. Analisar pesquisas de clima durante e após crises."
     },
     {
       "id": "Q-ORG-ESTRUT-COLABO-010-005",
@@ -330,7 +461,12 @@
           "label": "Nível 0",
           "description": "Sem mecanismos de escuta. Comunicação totalmente unidirecional (top-down). Colaboradores não têm voz.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "ausência de mecanismos de escuta",
+              "comunicação totalmente unidirecional",
+              "colaboradores sem voz",
+              "sem canais para expressão"
+            ]
           }
         },
         {
@@ -338,7 +474,12 @@
           "label": "Nível 1",
           "description": "Mecanismos básicos de escuta (caixa de sugestões física/digital) existem mas são raramente utilizados e sem resposta.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "caixa de sugestões existe mas subutilizada",
+              "sem resposta a inputs",
+              "baixíssima utilização",
+              "percepção de inutilidade"
+            ]
           }
         },
         {
@@ -346,7 +487,12 @@
           "label": "Nível 2",
           "description": "Canais de escuta existem mas respostas são lentas, genéricas ou inexistentes. Colaboradores sentem que não são ouvidos.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "canais de escuta existem",
+              "respostas lentas ou genéricas",
+              "colaboradores sentem que não são ouvidos",
+              "baixo fechamento do loop"
+            ]
           }
         },
         {
@@ -354,7 +500,12 @@
           "label": "Nível 3",
           "description": "Escuta estruturada com processos de captura e resposta estabelecidos. Fechamento do loop de feedback acontece mas ainda lento.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "processos estruturados de escuta",
+              "captura e resposta estabelecidos",
+              "fechamento do loop acontece mas lento",
+              "responsividade moderada"
+            ]
           }
         },
         {
@@ -362,7 +513,12 @@
           "label": "Nível 4",
           "description": "Escuta ativa com análise sistemática de inputs, respostas tempestivas e fechamento consistente do loop de feedback.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "análise sistemática de inputs",
+              "respostas tempestivas",
+              "fechamento consistente do loop",
+              "alta responsividade"
+            ]
           }
         },
         {
@@ -370,7 +526,13 @@
           "label": "Nível 5",
           "description": "Plataformas de escuta multicanal com análise de sentimento, categorização automática e resposta ágil. Alta responsividade.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "plataformas multicanal integradas",
+              "análise de sentimento automatizada",
+              "categorização automática",
+              "resposta ágil",
+              "alta responsividade"
+            ]
           }
         },
         {
@@ -378,10 +540,23 @@
           "label": "Nível 6",
           "description": "Escuta contínua em tempo real com IA, análise preditiva de sentimentos, identificação proativa de problemas e ação preventiva.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "escuta contínua em tempo real",
+              "IA para análise preditiva",
+              "identificação proativa de problemas",
+              "ação preventiva",
+              "cultura de escuta enraizada"
+            ]
           }
         }
-      ]
+      ],
+      "artifacts": [
+        "Plataformas de escuta organizacional (caixas de sugestões digitais, pulse surveys, fóruns). Sistema de gestão de ideias e sugestões. Registros de inputs recebidos e status de resposta. Políticas de escuta ativa e tempo de resposta. Pesquisas de engajamento e clima. Canais de comunicação anônimos. Ferramentas de análise de sentimento. Atas de comitês de revisão de sugestões. Métricas de tempo de resposta e taxa de implementação. Programas de reconhecimento de ideias implementadas."
+      ],
+      "metrics": [
+        "Número de inputs recebidos por canal por período. Taxa de resposta a inputs (% respondidos). Tempo médio de resposta a inputs. Taxa de fechamento do loop (% com resolução comunicada). % de sugestões implementadas. Índice de satisfação com escuta organizacional (survey). Taxa de utilização de canais de escuta. Diversidade de fontes de input (diferentes áreas, níveis). Correlação entre escuta ativa e engajamento. Tempo entre identificação de problema e ação corretiva."
+      ],
+      "sampling_guidance": "Analisar todos os inputs recebidos nos últimos 6 meses: volume, canais, temas, tempo de resposta, ações tomadas. Entrevistar 10-15 colaboradores sobre percepção de escuta organizacional. Revisar processos e políticas de gestão de inputs. Analisar taxa de implementação de sugestões e reconhecimento dado."
     }
   ],
   "references": [
