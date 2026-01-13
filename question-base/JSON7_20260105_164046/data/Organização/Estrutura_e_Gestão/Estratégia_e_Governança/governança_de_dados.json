@@ -948,10 +948,14 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Quadros de gestão à vista para verificar a autoria das iniciativas de melhoria (se são dos operadores ou dos gestores). Registros de \"donos\" de projetos de melhoria para ver se funcionários da linha de frente estão liderando as ações. Descrições de cargo (verificar se \"melhoria contínua\" ou \"iniciativa proativa\" são listadas como responsabilidades formais da função)."
+        "Quadros de gestão à vista para verificar a autoria das iniciativas de melhoria (se são dos operadores ou dos gestores).",
+"Registros de \"donos\" de projetos de melhoria para ver se funcionários da linha de frente estão liderando as ações.",
+"Descrições de cargo (verificar se \"melhoria contínua\" ou \"iniciativa proativa\" são listadas como responsabilidades formais da função)."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de funcionários que participaram ativamente (não apenas como ouvintes) de pelo menos um evento de melhoria no último ano. Número de problemas (ex: cartões de melhoria) abertos versus fechados pela própria equipe (sem intervenção direta da gestão/engenharia). Tempo médio entre a identificação de um problema pela equipe e a primeira ação de contenção/correção (mede a prontidão para agir)."
+        "Percentual de funcionários que participaram ativamente (não apenas como ouvintes) de pelo menos um evento de melhoria no último ano.",
+"Número de problemas (ex: cartões de melhoria) abertos versus fechados pela própria equipe (sem intervenção direta da gestão/engenharia).",
+"Tempo médio entre a identificação de um problema pela equipe e a primeira ação de contenção/correção (mede a prontidão para agir)."
       ],
       "sampling_guidance": "Amostragem Observação: Observe as reuniões de início de turno (Daily Huddles). Quem relata os problemas? Quem se voluntaria para resolvê-los? Entrevistas (Operadores/Técnicos): \"De quem é a responsabilidade de identificar melhorias por aqui?\" \"Quando você vê algo que pode ser melhorado, qual é o seu primeiro impulso: (a) Ignorar, (b) Esperar que alguém veja, (c) Relatar ao chefe, ou (d) Tentar resolver?\" \"Você se sente responsável por garantir que a mudança realmente aconteça?\""
     },
@@ -1041,10 +1045,16 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Documentação de projetos de melhoria (ex: A3, DMAIC, Sprints Ágeis). Quadros de gestão de mudança (Kanban, Scrum boards) usados pelas equipes. Registros de \"lições aprendidas\" ou retrospectivas de projetos de mudança. Evidências de prototipagem ou MVPs (Minimum Viable Products) usados em mudanças de processo."
+        "Documentação de projetos de melhoria (ex: A3, DMAIC, Sprints Ágeis).",
+"Quadros de gestão de mudança (Kanban, Scrum boards) usados pelas equipes.",
+"Registros de \"lições aprendidas\" ou retrospectivas de projetos de mudança.",
+"Evidências de prototipagem ou MVPs (Minimum Viable Products) usados em mudanças de processo."
       ],
       "metrics": [
-        "Métricas/KPIs Duração do ciclo de mudança (do início da implementação ao primeiro feedback de dados). Frequência de iteração (quantas vezes a solução foi ajustada após o início da implementação). Taxa de sucesso de mudanças (mudanças que atingiram o resultado esperado vs. as que foram revertidas). Tempo para validar uma hipótese de mudança (Time-to-learn)."
+        "Duração do ciclo de mudança (do início da implementação ao primeiro feedback de dados).",
+"Frequência de iteração (quantas vezes a solução foi ajustada após o início da implementação).",
+"Taxa de sucesso de mudanças (mudanças que atingiram o resultado esperado vs. as que foram revertidas).",
+"Tempo para validar uma hipótese de mudança (Time-to-learn)."
       ],
       "sampling_guidance": "Amostragem Entrevistas (Equipes de Melhoria, Líderes de Equipe, Engenheiros de Processo): \"Descreva o processo para implementar uma nova ideia. Você precisa de um plano completo antes de começar?\" \"Com que frequência você pode ajustar a solução depois que ela já começou a ser implementada?\" \"O que é mais valorizado: seguir o plano original perfeitamente ou adaptar o plano rapidamente para obter um resultado melhor?\" Observação: Acompanhe uma reunião de revisão de melhoria. O foco está em \"culpar quem desviou do plano\" ou em \"o que aprendemos com o desvio\"?"
     }
