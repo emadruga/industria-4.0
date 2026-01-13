@@ -107,12 +107,19 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Documento de Política de Governança de Dados. Dicionário de dados e catálogo de dados. Plano de gerenciamento de dados mestres (Master Data Management). Atas de reunião do comitê de governança de dados. Relatórios de qualidade de dados (Data Quality reports)."
+        "Documento de Política de Governança de Dados.",
+"Dicionário de dados e catálogo de dados.",
+"Plano de gerenciamento de dados mestres (Master Data Management).",
+"Atas de reunião do comitê de governança de dados.",
+"Relatórios de qualidade de dados (Data Quality reports)."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de elementos de dados críticos sob governança formal. Índices de qualidade dos dados (ex: precisão, completude, consistência). Número de incidentes de dados reportados por mês. Tempo médio para resolução de problemas de qualidade de dados."
+        "Percentual de elementos de dados críticos sob governança formal.",
+"Índices de qualidade dos dados (ex: precisão, completude, consistência).",
+"Número de incidentes de dados reportados por mês.",
+"Tempo médio para resolução de problemas de qualidade de dados."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com o Chief Data Officer (CDO), Data Stewards, analistas de dados e gestores de áreas de negócio para entender a aplicação das políticas. Análise da documentação de governança de dados. Revisão dos relatórios e painéis de qualidade de dados. Observação de como os problemas de dados são discutidos e resolvidos nas reuniões de equipe."
+      "sampling_guidance": "Entrevistas com o Chief Data Officer (CDO), Data Stewards, analistas de dados e gestores de áreas de negócio para entender a aplicação das políticas. Análise da documentação de governança de dados. Revisão dos relatórios e painéis de qualidade de dados. Observação de como os problemas de dados são discutidos e resolvidos nas reuniões de equipe."
     },
     {
       "id": "Q-ORG-ESTRUT-ESTRAT-004-002",
@@ -194,12 +201,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Arquitetura de sistemas (mapa de sistemas mostrando ERP, CRM, PLM). Documentação do projeto ou plataforma de MDM. Regras de negócio documentadas para data cleansing e padronização. Relatórios de duplicidade de dados (antes e depois da implementação do MDM)."
+        "Arquitetura de sistemas (mapa de sistemas mostrando ERP, CRM, PLM).",
+"Documentação do projeto ou plataforma de MDM.",
+"Regras de negócio documentadas para data cleansing e padronização.",
+"Relatórios de duplicidade de dados (antes e depois da implementação do MDM)."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de registros de dados mestres duplicados (ex: clientes, produtos). Percentual de campos de dados críticos preenchidos e padronizados. Tempo gasto em conciliação manual de dados entre sistemas. Nível de confiança nos dados (pesquisa com usuários de negócio)."
+        "Percentual de registros de dados mestres duplicados (ex: clientes, produtos).",
+"Percentual de campos de dados críticos preenchidos e padronizados.",
+"Tempo gasto em conciliação manual de dados entre sistemas.",
+"Nível de confiança nos dados (pesquisa com usuários de negócio)."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com analistas de TI (responsáveis pelo ERP/CRM), analistas de negócio e arquitetos de dados. Demonstração ao vivo do sistema de MDM (se existir). Solicitar um relatório simples (ex: \"vendas por cliente\") e verificar se os dados são extraídos de uma fonte única ou se exigem consolidação manual. Verificar o processo de cadastro de um novo produto ou fornecedor."
+      "sampling_guidance": "Entrevistas com analistas de TI (responsáveis pelo ERP/CRM), analistas de negócio e arquitetos de dados. Demonstração ao vivo do sistema de MDM (se existir). Solicitar um relatório simples (ex: \"vendas por cliente\") e verificar se os dados são extraídos de uma fonte única ou se exigem consolidação manual. Verificar o processo de cadastro de um novo produto ou fornecedor."
     },
     {
       "id": "Q-ORG-ESTRUT-ESTRAT-004-003",
@@ -280,12 +293,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Painéis (Dashboards) de Qualidade de Dados (ex: Power BI, Qlik). Relatórios de Perfilamento de Dados (Data Profiling). Documentação de Regras de Negócio de Qualidade (ex: \"CPF deve ser válido\", \"Produto deve ter peso\"). Planos de remediação de dados e logs de correção. Catálogo de Dados com data quality scores associados."
+        "Painéis (Dashboards) de Qualidade de Dados (ex: Power BI, Qlik).",
+"Relatórios de Perfilamento de Dados (Data Profiling).",
+"Documentação de Regras de Negócio de Qualidade (ex: \"CPF deve ser válido\", \"Produto deve ter peso\").",
+"Planos de remediação de dados e logs de correção.",
+"Catálogo de Dados com data quality scores associados."
       ],
       "metrics": [
-        "Métricas/KPIs % de registros completos em tabelas críticas (ex: cadastro de clientes). % de precisão (ex: % de e-mails válidos, % de endereços padronizados). Tempo médio para detecção de um erro de dados (MTTD). Tempo médio para correção de um erro de dados (MTTR). Nível de confiança do usuário nos dados (via pesquisa interna)."
+        "% de registros completos em tabelas críticas (ex: cadastro de clientes).",
+"% de precisão (ex: % de e-mails válidos, % de endereços padronizados).",
+"Tempo médio para detecção de um erro de dados (MTTD).",
+"Tempo médio para correção de um erro de dados (MTTR).",
+"Nível de confiança do usuário nos dados (via pesquisa interna)."
       ],
-      "sampling_guidance": ". Tempo médio para correção de um erro de dados (MTTR). Nível de confiança do usuário nos dados (via pesquisa interna). C) Sinais por nível N0: A equipe de finanças não confia nos dados de vendas do CRM; o ditado \"lixo entra, lixo sai\" (GIGO) é comum. N1: O analista de BI passa 80% do tempo \"limpando\" planilhas antes de poder iniciar uma análise. N2: Existência de manuais de procedimento para \"como preencher o cadastro de produto\". N3: Um gestor de logística consegue ver um gráfico que mostra: \"Nos últimos 30 dias, 12% dos pedidos foram cadastrados sem a informação do transportador\". N4: Criação de uma task-force para analisar por que o campo \"transportador\" não está sendo preenchido no sistema de vendas e implementar uma correção no sistema. N5: O sistema de vendas agora torna o campo \"transportador\" obrigatório e valida o código digitado contra a tabela de transportadoras ativas, impedindo o erro. N6: O sistema identifica um volume atípico de pedidos para um CEP inexistente, bloqueia preventivamente o faturamento para esse CEP e notifica o administrador do sistema. D) Amostragem Entrevistas com Data Stewards (guardiões dos dados), analistas de BI e usuários-chave (ex: finanças, marketing, logística). Solicitar a visualização dos painéis de qualidade de dados. Pedir que descrevam o processo que acontece quando um dado incorreto é encontrado em um relatório importante. Verificar a existência de regras de validação nos formulários de entrada de dados dos sistemas (ERP, CRM)."
+      "sampling_guidance": "Entrevistas com Data Stewards (guardiões dos dados), analistas de BI e usuários-chave (ex: finanças, marketing, logística). Solicitar a visualização dos painéis de qualidade de dados. Pedir que descrevam o processo que acontece quando um dado incorreto é encontrado em um relatório importante. Verificar a existência de regras de validação nos formulários de entrada de dados dos sistemas (ERP, CRM)."
     },
     {
       "id": "Q-ORG-ESTRUT-ESTRAT-004-004",
@@ -366,12 +387,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Diagrama de arquitetura de sistemas (para identificar conexões P2P vs. centralizadas). Documentação da plataforma de integração (ESB, API Management). Catálogo de APIs e microsserviços da empresa. Diretrizes de desenvolvimento (padrões de codificação para APIs). Especificações de padrões de dados (ex: JSON, XML, OPC-UA)."
+        "Diagrama de arquitetura de sistemas (para identificar conexões P2P vs. centralizadas).",
+"Documentação da plataforma de integração (ESB, API Management).",
+"Catálogo de APIs e microsserviços da empresa.",
+"Diretrizes de desenvolvimento (padrões de codificação para APIs).",
+"Especificações de padrões de dados (ex: JSON, XML, OPC-UA)."
       ],
       "metrics": [
-        "Métricas/KPIs Tempo médio para integrar um novo sistema. Número de integrações ponto a ponto vs. número de APIs reutilizáveis. % de reutilização de APIs em novos projetos. Custo de manutenção das integrações. Número de falhas de integração por mês."
+        "Tempo médio para integrar um novo sistema.",
+"Número de integrações ponto a ponto vs. número de APIs reutilizáveis.",
+"% de reutilização de APIs em novos projetos.",
+"Custo de manutenção das integrações.",
+"Número de falhas de integração por mês."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com o Arquiteto de Soluções/TI, Gerente de Desenvolvimento e equipe de DevOps/Integração. Revisão da documentação de arquitetura. Pedir para ver o portal de desenvolvedores ou o catálogo de APIs. Questionar o processo: \"Se comprarmos um novo software de RH (ex: Workday), quanto tempo leva para integrá-lo ao nosso sistema financeiro?\""
+      "sampling_guidance": "Entrevistas com o Arquiteto de Soluções/TI, Gerente de Desenvolvimento e equipe de DevOps/Integração. Revisão da documentação de arquitetura. Pedir para ver o portal de desenvolvedores ou o catálogo de APIs. Questionar o processo: \"Se comprarmos um novo software de RH (ex: Workday), quanto tempo leva para integrá-lo ao nosso sistema financeiro?\""
     },
     {
       "id": "Q-ORG-ESTRUT-ESTRAT-004-005",
@@ -460,12 +489,17 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Organogramas formais e matrizes de responsabilidade. Manuais de governança corporativa e políticas de aprovação. Fluxos de trabalho (workflows) de aprovação documentados e configurados nos sistemas de TI."
+        "Organogramas formais e matrizes de responsabilidade.",
+"Manuais de governança corporativa e políticas de aprovação.",
+"Fluxos de trabalho (workflows) de aprovação documentados e configurados nos sistemas de TI."
       ],
       "metrics": [
-        "Métricas/KPIs Tempo de latência da decisão (tempo entre o evento e a aprovação da medida). Tempo de latência da ação (tempo para a medida corretiva ter efeito) Percentual de decisões tomadas de forma descentralizada vs. centralizada. Percentual de decisões automatizadas (delegadas a sistemas de TI)."
+        "Tempo de latência da decisão (tempo entre o evento e a aprovação da medida).",
+"Tempo de latência da ação (tempo para a medida corretiva ter efeito)",
+"Percentual de decisões tomadas de forma descentralizada vs. centralizada.",
+"Percentual de decisões automatizadas (delegadas a sistemas de TI)."
       ],
-      "sampling_guidance": "Amostragem Selecionar 3-5 decisões recentes (ex: mudança não planejada na ordem de produção, aprovação de manutenção de emergência, alteração de design de produto). Entrevistar as equipes operacionais e gestores envolvidos para verificar quem (ou qual sistema) teve a autoridade real para tomar a decisão final. Revisar os registros de aprovação nos sistemas para validar o processo documentado vs. o processo real."
+      "sampling_guidance": "Selecionar 3-5 decisões recentes (ex: mudança não planejada na ordem de produção, aprovação de manutenção de emergência, alteração de design de produto). Entrevistar as equipes operacionais e gestores envolvidos para verificar quem (ou qual sistema) teve a autoridade real para tomar a decisão final. Revisar os registros de aprovação nos sistemas para validar o processo documentado vs. o processo real."
     },
     {
       "id": "Q-ORG-ESTRUT-ESTRAT-004-006",
@@ -547,10 +581,13 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Logs de sistemas (MES, SCADA, ERP) para verificar aprovações e ações automatizadas. Documentação de regras de negócio (Business Rules Engine) configuradas nos sistemas. Manuais de operação e fluxos de processo documentados."
+        "Logs de sistemas (MES, SCADA, ERP) para verificar aprovações e ações automatizadas.",
+"Documentação de regras de negócio (Business Rules Engine) configuradas nos sistemas.",
+"Manuais de operação e fluxos de processo documentados."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de decisões de processo (ex: ajuste de parâmetro, gestão de fila) tomadas automaticamente por sistemas. Tempo de resposta do sistema a um desvio (desde a detecção até a ação corretiva)."
+        "Percentual de decisões de processo (ex: ajuste de parâmetro, gestão de fila) tomadas automaticamente por sistemas.",
+"Tempo de resposta do sistema a um desvio (desde a detecção até a ação corretiva)."
       ],
       "sampling_guidance": "Amostragem Analisar logs de 3-5 eventos de desvio recentes (ex: falha de máquina, problema de qualidade, atraso de material). Verificar nos logs do sistema se a correção foi feita por um operador, um gerente ou automaticamente pelo sistema. Entrevistar operadores do \"shop floor\" sobre quais decisões eles tomam e quais o sistema toma por eles."
     },
@@ -632,12 +669,17 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Dashboards de gestão (em tempo real vs. relatórios estáticos). Telas de terminais no \"shop floor\" (MES). Relatórios de análise de causa-raiz (RCA) e se eles usam dados de sistema ou são baseados em entrevistas. Ferramentas de BI (Business Intelligence) e seus níveis de integração."
+        "Dashboards de gestão (em tempo real vs. relatórios estáticos).",
+"Telas de terminais no \"shop floor\" (MES).",
+"Relatórios de análise de causa-raiz (RCA) e se eles usam dados de sistema ou são baseados em entrevistas.",
+"Ferramentas de BI (Business Intelligence) e seus níveis de integração."
       ],
       "metrics": [
-        "Métricas/KPIs Tempo médio para coletar dados necessários para uma decisão não rotineira. Percentual de decisões operacionais suportadas por dados em tempo real vs. relatórios históricos. Taxa de adoção de dashboards de BI ou MES pelos gestores e operadores."
+        "Tempo médio para coletar dados necessários para uma decisão não rotineira.",
+"Percentual de decisões operacionais suportadas por dados em tempo real vs. relatórios históricos.",
+"Taxa de adoção de dashboards de BI ou MES pelos gestores e operadores."
       ],
-      "sampling_guidance": "Amostragem Apresentar a um gestor de produção um cenário hipotético (ex: \"Um cliente importante ligou querendo dobrar um pedido. Como você decide se aceita?\"). Observar quais ferramentas e dados ele usa para tomar a decisão (tempo, fontes de dados, nível de confiança na informação). Perguntar a um operador: \"Quando sua máquina para, qual informação você recebe e de onde?\""
+      "sampling_guidance": "Apresentar a um gestor de produção um cenário hipotético (ex: \"Um cliente importante ligou querendo dobrar um pedido. Como você decide se aceita?\"). Observar quais ferramentas e dados ele usa para tomar a decisão (tempo, fontes de dados, nível de confiança na informação). Perguntar a um operador: \"Quando sua máquina para, qual informação você recebe e de onde?\""
     },
     {
       "id": "Q-ORG-ESTRUT-ESTRAT-004-008",
@@ -717,12 +759,19 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Registros de sistemas de sugestão de melhoria Documentação de projetos de melhoria contínua. Atas de reuniões de equipes operacionais que discutem a implementação de mudanças. Matrizes de responsabilidade para processos de gestão de mudança, evidenciando a descentralização do poder de decisão."
+        "Registros de sistemas de sugestão de melhoria",
+"Documentação de projetos de melhoria contínua.",
+"Atas de reuniões de equipes operacionais que discutem a implementação de mudanças. ",
+"Matrizes de responsabilidade para processos de gestão de mudança, evidenciando a descentralização do poder de decisão."
+
       ],
       "metrics": [
-        "Métricas/KPIs Número de melhorias/mudanças implementadas iniciadas por funcionários da linha de frente (não-gerenciais). Tempo de ciclo da mudança (desde a identificação do evento até a implementação da medida). Taxa de participação em programas de sugestão/melhoria. Percentual de decisões de mudança delegadas às equipes de processo."
+        "Número de melhorias/mudanças implementadas iniciadas por funcionários da linha de frente (não-gerenciais).",
+"Tempo de ciclo da mudança (desde a identificação do evento até a implementação da medida).",
+"Taxa de participação em programas de sugestão/melhoria.",
+"Percentual de decisões de mudança delegadas às equipes de processo."
       ],
-      "sampling_guidance": "Amostragem Realizar entrevistas com operadores, líderes de equipe, supervisores e gerentes de melhoria contínua. Perguntas-chave: \"Descreva a última vez que você identificou uma oportunidade de melhoria ou um problema no seu trabalho.\" \"O que você fez a respeito?\" \"Você teve autoridade para implementar a mudança sozinho ou precisou de aprovação? \"Quem na empresa é responsável por iniciar mudanças?\" Observação: Analisar 3-5 processos de mudança recentes e rastrear a origem da iniciativa (quem deu o primeiro passo)"
+      "sampling_guidance": "Realizar entrevistas com operadores, líderes de equipe, supervisores e gerentes de melhoria contínua. Perguntas-chave: \"Descreva a última vez que você identificou uma oportunidade de melhoria ou um problema no seu trabalho.\" \"O que você fez a respeito?\" \"Você teve autoridade para implementar a mudança sozinho ou precisou de aprovação? \"Quem na empresa é responsável por iniciar mudanças?\" Observação: Analisar 3-5 processos de mudança recentes e rastrear a origem da iniciativa (quem deu o primeiro passo)"
     },
     {
       "id": "Q-ORG-ESTRUT-ESTRAT-004-009",
@@ -804,10 +853,15 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Fluxogramas do processo de \"sugestão-para-implementação\". Registros de alocação de tempo (ex: horas de engenharia, tempo de máquina parada) ou orçamento para projetos de melhoria iniciados por funcionários. Atas de reunião de gestão (procurar por aprovações/rejeições de iniciativas da linha de frente). Documentação de projetos de melhoria (verificar quem é o \"dono\" ou líder do projeto)."
+        "Fluxogramas do processo de \"sugestão-para-implementação\".",
+"Registros de alocação de tempo (ex: horas de engenharia, tempo de máquina parada) ou orçamento para projetos de melhoria iniciados por funcionários.",
+"Atas de reunião de gestão (procurar por aprovações/rejeições de iniciativas da linha de frente).",
+"Documentação de projetos de melhoria (verificar quem é o \"dono\" ou líder do projeto)."
       ],
       "metrics": [
-        "Métricas/KPIs Taxa de conversão (sugestões de funcionários vs. implementações). Tempo de aprovação (tempo entre a sugestão do funcionário e a alocação de recursos pela gestão). Percentual de projetos de melhoria liderados por funcionários não-gerenciais."
+        "Taxa de conversão (sugestões de funcionários vs. implementações).",
+"Tempo de aprovação (tempo entre a sugestão do funcionário e a alocação de recursos pela gestão).",
+"Percentual de projetos de melhoria liderados por funcionários não-gerenciais."
       ],
       "sampling_guidance": "Amostragem Entrevistas: Realizar entrevistas focadas com funcionários da linha de frente (operadores, técnicos) e seus supervisores diretos (líderes de turno, gerentes de produção). Perguntas-chave (para funcionários): \"O que acontece quando você leva uma ideia de mudança para seu supervisor?\" \"Você recebe apoio (tempo, dinheiro, ajuda) para testar suas ideias?\" \"Descreva uma mudança que você tentou implementar. Quem o ajudou? Quem o atrapalhou?\" Perguntas-chave (para gestores): \"Qual é o seu papel quando um membro da sua equipe sugere uma mudança de processo?\" \"Como você decide quais recursos alocar para uma ideia vinda da equipe?\""
     },
