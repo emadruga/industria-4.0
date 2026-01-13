@@ -104,10 +104,16 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Políticas e Procedimentos: Política de comunicação interna; Manual de uso de ferramentas de colaboração; Procedimentos para aprovação de documentos e decisões. Sistemas: Plataformas de colaboração e groupware (ex: Microsoft Teams, Slack, intranets corporativas); Sistemas de Gestão Eletrônica de Documentos; Logs e trilhas de auditoria de sistemas que demonstrem fluxos de aprovação digital. Documentação: Atas de reunião com ações e responsáveis definidos em sistema; Registros de fluxos de aprovação digital; Documentação de projetos em repositórios centralizados."
+        "Políticas e Procedimentos: Política de comunicação interna; Manual de uso de ferramentas de colaboração; Procedimentos para aprovação de documentos e decisões.",
+"Sistemas: Plataformas de colaboração e groupware (ex: Microsoft Teams, Slack, intranets corporativas); Sistemas de Gestão Eletrônica de Documentos; Logs e trilhas de auditoria de sistemas que demonstrem fluxos de aprovação digital.",
+"Documentação: Atas de reunião com ações e responsáveis definidos em sistema; Registros de fluxos de aprovação digital; Documentação de projetos em repositórios centralizados."
       ],
       "metrics": [
-        "Métricas/KPIs Tempo médio para aprovação de documentos, requisições ou decisões. Percentual de adesão e uso das plataformas de comunicação oficiais. Tempo médio gasto por funcionários na busca por informações (pode ser medido via pesquisa interna ou análise de sistemas). Redução no volume de e-mails internos com anexos em favor de links para uma fonte única da verdade. Índice de satisfação dos colaboradores com as ferramentas e processos de comunicação."
+        "Tempo médio para aprovação de documentos, requisições ou decisões.",
+"Percentual de adesão e uso das plataformas de comunicação oficiais.",
+"Tempo médio gasto por funcionários na busca por informações (pode ser medido via pesquisa interna ou análise de sistemas).",
+"Redução no volume de e-mails internos com anexos em favor de links para uma fonte única da verdade.",
+"Índice de satisfação dos colaboradores com as ferramentas e processos de comunicação."
       ],
       "sampling_guidance": "Amostragem Selecionar 3 a 5 processos de negócio críticos (ex: desenvolvimento de novo produto, gestão de não conformidade, planejamento de produção) e mapear como a comunicação e as aprovações ocorrem. Realizar entrevistas com colaboradores de diferentes níveis e áreas (ex: chão de fábrica, engenharia, administrativo) para entender como eles se comunicam com outras equipes e como buscam as informações necessárias para seu trabalho. Acompanhar uma reunião de equipe e observar como as decisões são documentadas e as tarefas são distribuídas e rastreadas. Solicitar a demonstração do uso das ferramentas de colaboração para gerenciar um projeto em andamento."
     },
@@ -189,10 +195,16 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Sistemas: Existência e uso de Portais de Fornecedores ou Clientes; Logs de transações EDI (Electronic Data Interchange); Documentação de APIs (Interfaces de Programação de Aplicações) para parceiros. Documentação: Contratos ou Acordos de Nível de Serviço (SLAs) com parceiros que definem canais de comunicação; Manuais de integração para fornecedores. Processos: Mapeamento do fluxo de pedido de compra (Procure-to-Pay) e do fluxo de pedido de venda (Order-to-Cash) para identificar pontos de comunicação manual vs. automática."
+        "Sistemas: Existência e uso de Portais de Fornecedores ou Clientes; Logs de transações EDI (Electronic Data Interchange); Documentação de APIs (Interfaces de Programação de Aplicações) para parceiros.",
+"Documentação: Contratos ou Acordos de Nível de Serviço (SLAs) com parceiros que definem canais de comunicação; Manuais de integração para fornecedores.",
+"Processos: Mapeamento do fluxo de pedido de compra (Procure-to-Pay) e do fluxo de pedido de venda (Order-to-Cash) para identificar pontos de comunicação manual vs. automática."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de pedidos de compra/venda processados \"sem toque\" (touchless). Tempo médio para confirmação de pedido por parte do fornecedor. Percentual de fornecedores críticos integrados via portal ou EDI/API. Acuracidade do On-Time Delivery in Full (OTIF) de fornecedores, correlacionada com a visibilidade da informação. Custo de processamento de pedidos (manual vs. automático)."
+        "Percentual de pedidos de compra/venda processados \"sem toque\" (touchless).",
+"Tempo médio para confirmação de pedido por parte do fornecedor.",
+"Percentual de fornecedores críticos integrados via portal ou EDI/API.",
+"Acuracidade do On-Time Delivery in Full (OTIF) de fornecedores, correlacionada com a visibilidade da informação.",
+"Custo de processamento de pedidos (manual vs. automático)."
       ],
       "sampling_guidance": "Amostragem Selecionar os 5 principais fornecedores (em volume ou criticidade) e verificar como a comunicação de pedidos, previsões e faturamento é realizada com cada um. Acompanhar o processo de um pedido de cliente, desde o recebimento até a entrega, e mapear todos os pontos de comunicação com o cliente (confirmação, status, rastreamento, fatura). Entrevistar o time de Compras e o de Logística para entender como gerenciam exceções com parceiros (atrasos, problemas de qualidade)."
     },
@@ -274,12 +286,17 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Postos de Trabalho: Verificar a presença de instruções impressas (pastas, quadros); Existência de terminais MES/SFC (Shop Floor Control). Sistemas: Software de gestão de Instruções de Trabalho (ITs); Módulos de MES que exibem ITs; Existência de software e hardware de Realidade Aumentada (AR) ou Realidade Mista (MR). Documentação: Padrão de criação e atualização de Instruções de Trabalho; Vídeos ou guias de montagem digitais."
+        "Postos de Trabalho: Verificar a presença de instruções impressas (pastas, quadros); Existência de terminais MES/SFC (Shop Floor Control).",
+"Sistemas: Software de gestão de Instruções de Trabalho (ITs); Módulos de MES que exibem ITs; Existência de software e hardware de Realidade Aumentada (AR) ou Realidade Mista (MR).",
+"Documentação: Padrão de criação e atualização de Instruções de Trabalho; Vídeos ou guias de montagem digitais."
       ],
       "metrics": [
-        "Métricas/KPIs Tempo médio de treinamento (onboarding) de um novo operador para uma tarefa. Taxa de erro humano (ex: refugos, retrabalho) por posto de trabalho. Tempo médio de ciclo da tarefa (Task Cycle Time) vs. tempo padrão. Aderência ao processo (quantas vezes o operador consulta a instrução)."
+        "Tempo médio de treinamento (onboarding) de um novo operador para uma tarefa.",
+"Taxa de erro humano (ex: refugos, retrabalho) por posto de trabalho.",
+"Tempo médio de ciclo da tarefa (Task Cycle Time) vs. tempo padrão.",
+"Aderência ao processo (quantas vezes o operador consulta a instrução)."
       ],
-      "sampling_guidance": "Amostragem Selecionar e observar 3 a 5 postos de trabalho críticos (ex: montagem complexa, setup de máquina, inspeção final). Pedir a um operador (um experiente e um novato) para demonstrar como eles acessam e utilizam as instruções de trabalho para uma tarefa específica. Entrevistar a Engenharia de Processos ou Industrial sobre como as instruções são criadas, distribuídas, atualizadas e como medem sua eficácia."
+      "sampling_guidance": "Selecionar e observar 3 a 5 postos de trabalho críticos (ex: montagem complexa, setup de máquina, inspeção final). Pedir a um operador (um experiente e um novato) para demonstrar como eles acessam e utilizam as instruções de trabalho para uma tarefa específica. Entrevistar a Engenharia de Processos ou Industrial sobre como as instruções são criadas, distribuídas, atualizadas e como medem sua eficácia."
     },
     {
       "id": "Q-ORG-ESTRUT-COLABO-003-004",
@@ -363,10 +380,19 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Plataformas de colaboração baseadas em TI Documentação de perfis de habilidades dos funcionários Ferramentas de gerenciamento de atribuições (Assignment management) Atas de reunião de equipes de projeto (Comunidades) Organogramas (formais e funcionais/projetos)"
+        "Plataformas de colaboração baseadas em TI",
+"Documentação de perfis de habilidades dos funcionários",
+"Ferramentas de gerenciamento de atribuições (Assignment management)",
+"Atas de reunião de equipes de projeto (Comunidades)",
+"Organogramas (formais e funcionais/projetos)"
       ],
       "metrics": [
-        "Métricas/KPIs Transparência e Engajamento em Comunidades Dinamismo Organizacional Aceleração da Resposta a Eventos (Redução de Latência) Eficiência na Execução de Tarefas por Habilidade Medição de Desempenho de Equipes e Aprendizado"
+        "Transparência e Engajamento em Comunidades",
+"Dinamismo Organizacional",
+"Aceleração da Resposta a Eventos (Redução de Latência)",
+"Eficiência na Execução de Tarefas por Habilidade",
+"Medição de Desempenho de Equipes e Aprendizado"
+
       ],
       "sampling_guidance": "Amostragem Entrevistas com funcionários de diferentes departamentos para avaliar a comunicação e colaboração interdepartamental. Análise da composição de equipes de projeto, verificando se são temporárias ou permanentes e se reúnem membros de diferentes áreas. Revisão de como as equipes são formadas (orientadas a tarefas ou hierarquia) ."
     },
@@ -463,10 +489,16 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Sistema de Informação de RH (HRIS) e seus módulos de competências. Plataformas de colaboração (ex: perfis de usuário no Microsoft Teams, Slack, Workplace). Intranet corporativa (ex: função \"Páginas Amarelas\" ou \"Busca por Especialista\"). Software de gestão de projetos (ex: Jira, Asana) para verificar como as equipes são montadas e os recursos alocados. Plataformas de gestão de conhecimento (Knowledge Management)."
+        "Sistema de Informação de RH (HRIS) e seus módulos de competências.",
+"Plataformas de colaboração (ex: perfis de usuário no Microsoft Teams, Slack, Workplace).",
+"Intranet corporativa (ex: função \"Páginas Amarelas\" ou \"Busca por Especialista\").",
+"Software de gestão de projetos (ex: Jira, Asana) para verificar como as equipes são montadas e os recursos alocados.",
+"Plataformas de gestão de conhecimento (Knowledge Management)."
       ],
       "metrics": [
-        "Métricas/KPIs Tempo médio para identificar e alocar um especialista para uma nova equipe/projeto. Taxa de atualização dos perfis de competências dos funcionários no sistema. Percentual de projetos/equipes formadas com membros de diferentes departamentos."
+        "Tempo médio para identificar e alocar um especialista para uma nova equipe/projeto.",
+"Taxa de atualização dos perfis de competências dos funcionários no sistema.",
+"Percentual de projetos/equipes formadas com membros de diferentes departamentos."
       ],
       "sampling_guidance": "Amostragem Simular uma busca por um especialista em uma competência específica (ex: \"análise de dados Python\") nas ferramentas internas e avaliar a facilidade e precisão dos resultados. Entrevistar gestores de projeto sobre como eles encontram e recrutam membros para suas equipes. Verificar os perfis de funcionários nas plataformas de colaboração para ver se as competências estão listadas e se são pesquisáveis."
     },
@@ -555,10 +587,15 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Formulários de avaliação de desempenho (ex: verificar se há campos para feedback de líderes de projeto). Documentação oficial da política de metas (ex: OKRs, Balanced Scorecard). Política de bônus e remuneração variável (ex: verificar se o bônus é baseado em metas de equipe ou apenas departamentais/individuais). Atas de reuniões de avaliação de desempenho (com permissão)."
+        "Formulários de avaliação de desempenho (ex: verificar se há campos para feedback de líderes de projeto).",
+"Documentação oficial da política de metas (ex: OKRs, Balanced Scorecard).",
+"Política de bônus e remuneração variável (ex: verificar se o bônus é baseado em metas de equipe ou apenas departamentais/individuais).",
+"Atas de reuniões de avaliação de desempenho (com permissão)."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual da avaliação de desempenho de um funcionário que é determinado por metas de equipe/comunidade vs. metas departamentais. Métricas formais de \"sucesso de equipes de especialistas\". Métricas de \"controladoria financeira de comunidades\"."
+        "Percentual da avaliação de desempenho de um funcionário que é determinado por metas de equipe/comunidade vs. metas departamentais.",
+"Métricas formais de \"sucesso de equipes de especialistas\".",
+"Métricas de \"controladoria financeira de comunidades\"."
       ],
       "sampling_guidance": ". Política de bônus e remuneração variável (ex: verificar se o bônus é baseado em metas de equipe ou apenas departamentais/individuais). Atas de reuniões de avaliação de desempenho (com permissão). B) Métricas/KPIs Percentual da avaliação de desempenho de um funcionário que é determinado por metas de equipe/comunidade vs. metas departamentais. Métricas formais de \"sucesso de equipes de especialistas\". Métricas de \"controladoria financeira de comunidades\". C) Sinais por nível N0: O trabalho em projetos multifuncionais é visto como \"trabalho extra\" ou uma distração das \"metas reais\" do departamento. Não há reconhecimento formal. N1: As metas são 100% definidas pelo gerente departamental e focadas em métricas de eficiência locais (mentalidade de silo). O desempenho em uma equipe multifuncional não tem impacto formal na avaliação. N2: A avaliação de desempenho é tradicional. O gerente departamental pode, se quiser, pedir um feedback informal ao líder de um projeto, mas esse feedback não tem peso estruturado e não afeta bônus ou promoções. N3: O sistema de metas começa a incluir objetivos multidimensionais, como \"eficiência do processo\" ou \"colaboração\". O trabalho em comunidades é incentivado como uma forma de \"desenvolvimento pessoal\", mas as metas financeiras ainda são departamentais. N4: O sistema de avaliação de desempenho é formalmente matricial. O feedback do líder da comunidade/projeto é um input obrigatório e tem peso definido na avaliação final do funcionário. N5: A maior parte das metas de desempenho está diretamente atrelada aos resultados e entregas da comunidade/equipe, e não às metas do departamento funcional. A empresa começa a medir ativamente o \"sucesso das equipes de especialistas\". N6:.O sistema de remuneração (bônus) é diretamente atrelado ao desempenho da comunidade. A empresa possui uma \"controladoria financeira de comunidades\" para medir o valor entregue por elas, e o departamento funcional age principalmente como um centro de competência para desenvolvimento de carreira, não como o principal avaliador de resultados. D) Amostragem Entrevistar 3 funcionários de departamentos diferentes que participam da mesma comunidade/projeto e perguntar como esse trabalho impacta sua avaliação de desempenho e bônus. Entrevistar 2 líderes de projeto/comunidade e perguntar qual é o seu papel formal no processo de avaliação de desempenho dos membros de sua equipe. Revisar os formulários de avaliação de desempenho para ver se o \"feedback 360 graus\" ou feedback de líderes de projeto é um componente obrigatório."
     },
@@ -648,10 +685,17 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Manuais de metodologia de gestão de projetos (ex: verificando se usam PMBOK, Scrum, SAFe, etc.). Quadros Kanban ou backlogs de Scrum (digitais ou físicos, como Trello, Jira, Azure DevOps). Atas de reuniões de Sprint Planning ou Sprint Review. Matrizes de responsabilidade (ex: RACI) para projetos, que definem quem aprova e quem decide. Documentação sobre processos de tomada de decisão (ex: quem aprova um gasto de R$ 5.000 para a equipe?)."
+        "Manuais de metodologia de gestão de projetos (ex: verificando se usam PMBOK, Scrum, SAFe, etc.).",
+"Quadros Kanban ou backlogs de Scrum (digitais ou físicos, como Trello, Jira, Azure DevOps).",
+"Atas de reuniões de Sprint Planning ou Sprint Review.",
+"Matrizes de responsabilidade (ex: RACI) para projetos, que definem quem aprova e quem decide.",
+"Documentação sobre processos de tomada de decisão (ex: quem aprova um gasto de R$ 5.000 para a equipe?)."
       ],
       "metrics": [
-        "Métricas/KPIs Cycle Time de Decisão (tempo médio entre a identificação de um problema pela equipe e sua resolução/decisão). Frequência de Sprints ou ciclos de feedback. Número de decisões que precisam ser \"escaladas\" para a gerência vs. número de decisões tomadas pela própria equipe. Velocidade da Equipe (Velocity) e gráficos de Burndown (em metodologias ágeis)."
+        "Cycle Time de Decisão (tempo médio entre a identificação de um problema pela equipe e sua resolução/decisão).",
+"Frequência de Sprints ou ciclos de feedback.",
+"Número de decisões que precisam ser \"escaladas\" para a gerência vs. número de decisões tomadas pela própria equipe.",
+"Velocidade da Equipe (Velocity) e gráficos de Burndown (em metodologias ágeis)."
       ],
       "sampling_guidance": "Amostragem Participar como ouvinte de uma reunião diária (Daily Scrum) ou de uma retrospectiva de Sprint. Entrevistar um Product Owner ou Scrum Master sobre como as decisões de priorização são tomadas e quem tem a palavra final. Perguntar a um membro da equipe: \"Qual foi a última decisão importante que sua equipe tomou sem precisar da aprovação de um gerente sênior?\". Perguntar a um gerente: \"Como você equilibra a necessidade de controle com a autonomia das equipes?\"."
     }
