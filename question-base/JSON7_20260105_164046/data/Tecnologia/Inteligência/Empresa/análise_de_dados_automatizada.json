@@ -102,10 +102,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Relatórios e Dashboards de BI: Verificar sistemas como ERP, MES, SCADA ou plataformas de Business Intelligence para painéis de monitoramento de KPIs em tempo real. Documentação de Ferramentas de Análise: Acessar a documentação de plataformas de data analytics, modelos de machine learning e algoritmos de simulação utilizados. Registros de Análise de Causa Raiz (RCA): Solicitar relatórios de análises de falhas ou problemas de qualidade para verificar se a causa foi identificada com base em dados. Sistema de Alertas Preditivos: Analisar logs e registros do sistema de manutenção preditiva para confirmar a emissão de alertas antes da ocorrência de falhas. Configuração de Regras de Decisão Autônoma: Inspecionar as configurações em sistemas (MES, sistemas de planejamento) que demonstrem a execução de ações automáticas baseadas em análises de dadosA) Artefatos e onde buscar."
+        "Relatórios e Dashboards de BI: Verificar sistemas como ERP, MES, SCADA ou plataformas de Business Intelligence para painéis de monitoramento de KPIs em tempo real. ",
+"Documentação de Ferramentas de Análise: Acessar a documentação de plataformas de data analytics, modelos de machine learning e algoritmos de simulação utilizados.",
+"Registros de Análise de Causa Raiz (RCA): Solicitar relatórios de análises de falhas ou problemas de qualidade para verificar se a causa foi identificada com base em dados.",
+"Sistema de Alertas Preditivos: Analisar logs e registros do sistema de manutenção preditiva para confirmar a emissão de alertas antes da ocorrência de falhas.",
+"Configuração de Regras de Decisão Autônoma: Inspecionar as configurações em sistemas (MES, sistemas de planejamento) que demonstrem a execução de ações automáticas baseadas em análises de dadosA) Artefatos e onde buscar."
       ],
       "metrics": [
-        "Métricas/KPIs Eficiência Global dos Equipamentos (OEE): Melhorias no OEE podem indicar uma análise de dados mais eficaz para reduzir perdas. Tempo Médio Entre Falhas (MTBF): Um aumento no MTBF pode ser um indicador do sucesso da manutenção preditiva. Índice de Rendimento na Primeira Passagem (FPY): Aumento nos índices de qualidade pode ser resultado da predição e prevenção de defeitos. Redução de Paradas Não Planejadas: Quantificar a diminuição de paradas de máquinas como resultado de análises preditivas. Acuracidade das Previsões: Medir a precisão dos modelos preditivos (ex: previsão de demanda, previsão de falhas)."
+        "Eficiência Global dos Equipamentos (OEE): Melhorias no OEE podem indicar uma análise de dados mais eficaz para reduzir perdas.",
+"Tempo Médio Entre Falhas (MTBF): Um aumento no MTBF pode ser um indicador do sucesso da manutenção preditiva.",
+"Índice de Rendimento na Primeira Passagem (FPY): Aumento nos índices de qualidade pode ser resultado da predição e prevenção de defeitos.",
+"Redução de Paradas Não Planejadas: Quantificar a diminuição de paradas de máquinas como resultado de análises preditivas.",
+"Acuracidade das Previsões: Medir a precisão dos modelos preditivos (ex: previsão de demanda, previsão de falhas)."
       ],
       "sampling_guidance": "Amostragem Entrevistas: Conversar com gestores de produção, manutenção, qualidade e engenheiros de processo. Perguntar como eles identificam a causa de um problema recorrente. Demonstração Prática: Pedir a um analista ou engenheiro que demonstre, usando as ferramentas da empresa, como um conjunto de dados brutos é transformado em uma informação acionável (ex: um insight para melhoria de processo). Análise de Caso: Selecionar uma parada de máquina ou um desvio de qualidade ocorrido recentemente e rastrear como o evento foi detectado, analisado, solucionado e se foram tomadas ações para prevenir sua recorrência com base em dados. Observação: Acompanhar uma reunião de gerenciamento da produção (Shop Floor Management) para observar se as discussões e decisões são guiadas por dados apresentados em tempo real."
     },
@@ -185,10 +193,16 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Mapas de Fluxo de Dados (Data Flow Diagrams): Verificar na documentação de TI como os dados fluem entre sistemas (ex: MES -> ERP -> SCM). Dashboards Gerenciais (BI): Analisar os dashboards de nível estratégico. Verificar se eles cruzam dados de produção (ex: OEE, sucata) com dados financeiros (ex: Custo por Unidade, margem) ou dados de vendas (ex: On-Time Delivery). Documentação de APIs e Integrações: Solicitar à equipe de TI os artefatos que comprovem a integração de dados entre sistemas internos (MES, ERP) e externos (portais de fornecedores, sistemas de logística). Relatórios de Custo do Produto: Verificar se os relatórios de custo utilizam dados de eficiência e consumo reais vindos automaticamente do chão de fábrica."
+        "Mapas de Fluxo de Dados (Data Flow Diagrams): Verificar na documentação de TI como os dados fluem entre sistemas (ex: MES -> ERP -> SCM).",
+"Dashboards Gerenciais (BI): Analisar os dashboards de nível estratégico. Verificar se eles cruzam dados de produção (ex: OEE, sucata) com dados financeiros (ex: Custo por Unidade, margem) ou dados de vendas (ex: On-Time Delivery).",
+"Documentação de APIs e Integrações: Solicitar à equipe de TI os artefatos que comprovem a integração de dados entre sistemas internos (MES, ERP) e externos (portais de fornecedores, sistemas de logística).",
+"Relatórios de Custo do Produto: Verificar se os relatórios de custo utilizam dados de eficiência e consumo reais vindos automaticamente do chão de fábrica."
       ],
       "metrics": [
-        "Métricas/KPIs Custo Total da Qualidade (Total Cost of Quality): Analisar se a métrica é calculada automaticamente integrando dados de sucata/retrabalho (MES) com custos de garantia (CRM) e custos de material (ERP). Giro de Estoque (Inventory Turnover): Um giro de estoque otimizado pode indicar uma boa integração entre a previsão de demanda (CRM/SCM) e o ritmo de produção (MES). Acuracidade da Previsão de Demanda (Demand Forecast Accuracy): Verificar se a previsão de vendas é ajustada automaticamente com base na capacidade de produção real. On-Time In-Full (OTIF): Medir o OTIF como um indicador da integração entre planejamento, produção e logística."
+        "Custo Total da Qualidade (Total Cost of Quality): Analisar se a métrica é calculada automaticamente integrando dados de sucata/retrabalho (MES) com custos de garantia (CRM) e custos de material (ERP).",
+"Giro de Estoque (Inventory Turnover): Um giro de estoque otimizado pode indicar uma boa integração entre a previsão de demanda (CRM/SCM) e o ritmo de produção (MES).",
+"Acuracidade da Previsão de Demanda (Demand Forecast Accuracy): Verificar se a previsão de vendas é ajustada automaticamente com base na capacidade de produção real.",
+"On-Time In-Full (OTIF): Medir o OTIF como um indicador da integração entre planejamento, produção e logística."
       ],
       "sampling_guidance": "Amostragem Entrevistas (Funções Cruzadas): Conversar com o Gerente de TI, Gerente de Produção e o Controller (Gerente Financeiro). Perguntas-chave: Para o Controller: \"Como você sabe o custo real de um produto que acabou de ser fabricado? Você usa dados automáticos da fábrica para isso?\" Para o Gerente de TI: \"Me mostre o mapa de integração de dados. O MES fala com o ERP? E com o SCM?\" Para o Gerente de Produção: \"Quando um cliente liga para Vendas perguntando do pedido dele, o vendedor consegue saber em que pé está a produção em tempo real?\""
     },
@@ -271,10 +285,16 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Repositórios de Código/Scripts: Verificar a existência de scripts SQL (Nível 2) vs. scripts de Python/R com bibliotecas de ML (ex: Scikit-learn, TensorFlow) (Nível 4/5). Documentação de Sistemas (MES/SCADA): Procurar por módulos de \"Sistemas Especialistas\" (Expert Systems) ou \"Motores de Regras\" (BRMS) (Nível 3). Documentação de Projetos de Ciência de Dados: Acessar notebooks (ex: Jupyter) ou relatórios de projetos de Data Science que detalhem o processo de \"descoberta\" (EDA) e modelagem (Nível 5). Plataformas de MLOps/Auto-ML: Verificar o uso de ferramentas que gerenciam o ciclo de vida de modelos, especialmente o retreinamento automático e monitoramento de model drift (Nível 6)."
+        "Repositórios de Código/Scripts: Verificar a existência de scripts SQL (Nível 2) vs. scripts de Python/R com bibliotecas de ML (ex: Scikit-learn, TensorFlow) (Nível 4/5).",
+"Documentação de Sistemas (MES/SCADA): Procurar por módulos de \"Sistemas Especialistas\" (Expert Systems) ou \"Motores de Regras\" (BRMS) (Nível 3).",
+"Documentação de Projetos de Ciência de Dados: Acessar notebooks (ex: Jupyter) ou relatórios de projetos de Data Science que detalhem o processo de \"descoberta\" (EDA) e modelagem (Nível 5).",
+"Plataformas de MLOps/Auto-ML: Verificar o uso de ferramentas que gerenciam o ciclo de vida de modelos, especialmente o retreinamento automático e monitoramento de model drift (Nível 6)."
       ],
       "metrics": [
-        "Métricas/KPIs Taxa de Descoberta de Insights: Número de novas correlações de processo (causadoras de falhas ou melhorias) identificadas pelo sistema vs. por humanos. Acuracidade do Modelo (Model Accuracy/Precision/Recall): Verificar se essa métrica é monitorada e se há um processo de retreinamento. Velocidade de Adaptação do Modelo (Model Drift): Medir quanto tempo um modelo leva para se tornar obsoleto e com que frequência ele é atualizado (manual vs. automático). Número de Regras de Negócio Manuais vs. Modelos de ML em produção."
+        "Taxa de Descoberta de Insights: Número de novas correlações de processo (causadoras de falhas ou melhorias) identificadas pelo sistema vs. por humanos.",
+"Acuracidade do Modelo (Model Accuracy/Precision/Recall): Verificar se essa métrica é monitorada e se há um processo de retreinamento.",
+"Velocidade de Adaptação do Modelo (Model Drift): Medir quanto tempo um modelo leva para se tornar obsoleto e com que frequência ele é atualizado (manual vs. automático).",
+"Número de Regras de Negócio Manuais vs. Modelos de ML em produção."
       ],
       "sampling_guidance": "Amostragem Entrevistas: Conversar com Engenheiros de Processo, Cientistas de Dados (se existirem), Gerentes de TI e Analistas de BI. Perguntas-chave: \"Quando vocês encontram um problema novo, quem define a 'regra' para o sistema detectar esse problema no futuro? O sistema aprende sozinho ou um especialista precisa programá-lo?\" \"Me mostre um exemplo de um insight ou correlação que o sistema descobriu sozinho, que a equipe de engenharia não conhecia.\" \"Com que frequência os modelos preditivos são atualizados (retreinados)? Quem faz isso?\""
     },
@@ -354,10 +374,16 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Arquitetura de Dados: Verificar se a arquitetura é baseada em data warehouse (geralmente batch, Nível 2) ou em plataformas de streaming de dados (ex: Kafka, Spark Streaming) (Nível 4+). Agendadores de Tarefas (Schedulers): Verificar a frequência de execução de jobs de ETL (Extração, Transformação e Carga) ou de análise (ex: \"rodar todo dia às 02:00\" vs. \"a cada 5 minutos\"). Logs de Atualização de Dashboards: Verificar o timestamp da última atualização de dados nos painéis de BI e MES. Documentação de Arquitetura de Software: Procurar por termos como \"processamento de eventos complexos\" (CEP) ou \"arquitetura orientada a eventos\" (EDA), que indicam Nível 4+."
+        "Arquitetura de Dados: Verificar se a arquitetura é baseada em data warehouse (geralmente batch, Nível 2) ou em plataformas de streaming de dados (ex: Kafka, Spark Streaming) (Nível 4+).",
+"Agendadores de Tarefas (Schedulers): Verificar a frequência de execução de jobs de ETL (Extração, Transformação e Carga) ou de análise (ex: \"rodar todo dia às 02:00\" vs. \"a cada 5 minutos\").",
+"Logs de Atualização de Dashboards: Verificar o timestamp da última atualização de dados nos painéis de BI e MES.",
+"Documentação de Arquitetura de Software: Procurar por termos como \"processamento de eventos complexos\" (CEP) ou \"arquitetura orientada a eventos\" (EDA), que indicam Nível 4+."
       ],
       "metrics": [
-        "Métricas/KPIs Latência de Insight (Insight Latency): Tempo entre a ocorrência de um evento e a disponibilização da informação sobre ele. Latência de Análise (Analysis Latency): Tempo necessário para analisar os dados e entender a causa raiz do evento. Latência de Decisão (Decision Latency): Tempo para aprovar uma (contra)medida com base na análise. Tempo de Ciclo (Cycle Time) da Análise: O tempo total desde a captura do dado até a geração do insight."
+        "Latência de Insight (Insight Latency): Tempo entre a ocorrência de um evento e a disponibilização da informação sobre ele.",
+"Latência de Análise (Analysis Latency): Tempo necessário para analisar os dados e entender a causa raiz do evento.",
+"Latência de Decisão (Decision Latency): Tempo para aprovar uma (contra)medida com base na análise.",
+"Tempo de Ciclo (Cycle Time) da Análise: O tempo total desde a captura do dado até a geração do insight."
       ],
       "sampling_guidance": "Amostragem Observação Direta: Ficar ao lado de um operador ou supervisor e perguntar qual a data/hora dos dados que ele está vendo em seu painel de controle. Teste Prático: Forçar uma condição de parada (simulada ou real, se seguro) em um equipamento e cronometrar quanto tempo leva para o sistema de gerenciamento (MES/SCADA) refletir essa mudança. Entrevistas (TI + Operações): Para TI: \"Qual é a frequência de atualização dos nossos principais bancos de dados de produção? Os dados são processados em lote ou via streaming?\" Para Operações: \"Se uma meta de produção é perdida, quando você descobre? Agora, no final do turno, ou só amanhã?\""
     }
