@@ -108,12 +108,19 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Banco de dados de competências do RH (sistemas LMS, HR Analytics, People Analytics). Relatórios de avaliação de desempenho digital. Planos de desenvolvimento individual (PDIs) e mapas de carreira. Registros de treinamentos e resultados de avaliações técnicas. Matrizes de Habilidades Digitais (Digital Skill Matrix) ou Inventário de Competências Digitais."
+        "Banco de dados de competências do RH (sistemas LMS, HR Analytics, People Analytics).",
+        "Relatórios de avaliação de desempenho digital.",
+        "Planos de desenvolvimento individual (PDIs) e mapas de carreira.",
+        "Registros de treinamentos e resultados de avaliações técnicas.",
+        "Matrizes de Habilidades Digitais (Digital Skill Matrix) ou Inventário de Competências Digitais."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de funções com competências digitais mapeadas. Frequência de atualização dos registros de competência. Taxa de fechamento de lacunas identificadas. Percentual de colaboradores com trilhas de desenvolvimento digital ativas."
+        "Percentual de funções com competências digitais mapeadas.",
+        "Frequência de atualização dos registros de competência.",
+        "Taxa de fechamento de lacunas identificadas.",
+        "Percentual de colaboradores com trilhas de desenvolvimento digital ativas."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores de RH, líderes de área e colaboradores. Análise de registros em sistemas de gestão de talentos. Observação de práticas de avaliação de desempenho e feedback. Revisão de relatórios de auditoria interna de competências."
+      "sampling_guidance": "Entrevistas com gestores de RH, líderes de área e colaboradores; análise de registros em sistemas de gestão de talentos; observação de práticas de avaliação de desempenho e feedback; revisão de relatórios de auditoria interna de competências."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-013-002",
@@ -193,12 +200,19 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Plano estratégico de transformação digital. Documentos de gestão de talentos e relatórios de RH. Registros de orçamento e investimento em capacitação digital. Planos de sucessão e relatórios de avaliação de competências críticas. Relatórios de Projeção de Necessidades de Talentos"
+        "Plano estratégico de transformação digital.",
+        "Documentos de gestão de talentos e relatórios de RH.",
+        "Registros de orçamento e investimento em capacitação digital.",
+        "Planos de sucessão e relatórios de avaliação de competências críticas.",
+        "Relatórios de Projeção de Necessidades de Talentos"
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de funções críticas com plano de desenvolvimento digital definido. Grau de alinhamento entre metas de capacitação e estratégia corporativa. Taxa de cumprimento dos planos de desenvolvimento. Tempo médio de resposta a novas necessidades tecnológicas."
+        "Percentual de funções críticas com plano de desenvolvimento digital definido.",
+        "Grau de alinhamento entre metas de capacitação e estratégia corporativa.",
+        "Taxa de cumprimento dos planos de desenvolvimento.",
+        "Tempo médio de resposta a novas necessidades tecnológicas."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com RH, liderança de inovação e áreas técnicas. Análise de relatórios de revisão de competências e sucessão. Verificação de integração entre plano de talentos e plano digital. Observação de comitês de gestão de pessoas e tecnologia."
+      "sampling_guidance": "Entrevistas com RH, liderança de inovação e áreas técnicas; análise de relatórios de revisão de competências e sucessão; verificação de integração entre plano de talentos e plano digital; observação de comitês de gestão de pessoas e tecnologia."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-013-003",
@@ -278,12 +292,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Registros e relatórios de programas de capacitação (RH, Treinamento e Desenvolvimento). Cronogramas e conteúdos de trilhas de aprendizado digital. Relatórios de desempenho e avaliação dos participantes. Sistemas LMS/LXP com indicadores de progresso e conclusão. Registros de certificações e feedbacks de aprendizagem."
+        "Registros e relatórios de programas de capacitação (RH, Treinamento e Desenvolvimento).",
+        "Cronogramas e conteúdos de trilhas de aprendizado digital.",
+        "Relatórios de desempenho e avaliação dos participantes.",
+        "Sistemas LMS/LXP com indicadores de progresso e conclusão.",
+        "Registros de certificações e feedbacks de aprendizagem."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de colaboradores com participação ativa em programas digitais. Taxa de conclusão de trilhas de aprendizado. Frequência de atualização dos conteúdos digitais. Índice de satisfação e aplicabilidade dos treinamentos. Impacto das capacitações em indicadores de desempenho organizacional."
+        "Percentual de colaboradores com participação ativa em programas digitais.",
+        "Taxa de conclusão de trilhas de aprendizado.",
+        "Frequência de atualização dos conteúdos digitais.",
+        "Índice de satisfação e aplicabilidade dos treinamentos.",
+        "Impacto das capacitações em indicadores de desempenho organizacional."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores de RH, inovação e TI. Análise de relatórios de plataformas de aprendizado (LMS, BI). Observação de trilhas de capacitação em execução. Verificação de políticas e planos de capacitação digital."
+      "sampling_guidance": "Entrevistas com gestores de RH, inovação e TI; análise de relatórios de plataformas de aprendizado (LMS, BI); observação de trilhas de capacitação em execução; verificação de políticas e planos de capacitação digital."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-013-004",
@@ -363,12 +385,21 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Relatórios e dashboards do LMS ou LXP. Registros de uso de tecnologias imersivas (RA, RV, simulações). Logs de acesso e de conclusão de cursos. Políticas e planos de adoção tecnológica em aprendizagem. Documentação técnica de ferramentas educacionais. Especificações técnicas de interoperabilidade entre LMS/LXP e MES/ERP"
+        "Relatórios e dashboards do LMS ou LXP.",
+        "Registros de uso de tecnologias imersivas (RA, RV, simulações).",
+        "Logs de acesso e de conclusão de cursos.",
+        "Políticas e planos de adoção tecnológica em aprendizagem.",
+        "Documentação técnica de ferramentas educacionais.",
+        "Especificações técnicas de interoperabilidade entre LMS/LXP e MES/ERP"
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de programas de capacitação suportados digitalmente. Taxa de engajamento e conclusão em plataformas digitais. Nível de automação de processos de aprendizado (inscrição, avaliação, feedback). Índice de personalização de conteúdos por perfil. Taxa de adoção de tecnologias emergentes em capacitação."
+        "Percentual de programas de capacitação suportados digitalmente.",
+        "Taxa de engajamento e conclusão em plataformas digitais.",
+        "Nível de automação de processos de aprendizado (inscrição, avaliação, feedback).",
+        "Índice de personalização de conteúdos por perfil.",
+        "Taxa de adoção de tecnologias emergentes em capacitação."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com RH, equipe de TI e instrutores. Verificação direta do uso das plataformas digitais. Revisão de relatórios de analytics das plataformas. Observação de práticas de aprendizado imersivo e automatizado."
+      "sampling_guidance": "Entrevistas com RH, equipe de TI e instrutores; verificação direta do uso das plataformas digitais; revisão de relatórios de analytics das plataformas; observação de práticas de aprendizado imersivo e automatizado."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-013-005",
@@ -448,12 +479,21 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Políticas e programas de cultura organizacional e transformação digital. Campanhas e materiais de comunicação interna sobre inovação e aprendizado. Registros de participação em comunidades de prática ou programas de mentoria. Dados de engajamento em plataformas digitais de aprendizado. Relatórios de feedback, enquetes internas e avaliações de clima organizacional. Programas de Reconhecimento e Recompensa por Inovação ou Aprendizado"
+        "Políticas e programas de cultura organizacional e transformação digital.",
+        "Campanhas e materiais de comunicação interna sobre inovação e aprendizado.",
+        "Registros de participação em comunidades de prática ou programas de mentoria.",
+        "Dados de engajamento em plataformas digitais de aprendizado.",
+        "Relatórios de feedback, enquetes internas e avaliações de clima organizacional.",
+        "Programas de Reconhecimento e Recompensa por Inovação ou Aprendizado"
       ],
       "metrics": [
-        "Métricas/KPIs Índice de engajamento digital dos colaboradores. Percentual de participação voluntária em capacitações. Frequência de acesso a plataformas de aprendizado sob demanda. Nível de satisfação com a cultura de aprendizado. Correlação entre aprendizado autodirigido e desempenho organizacional."
+        "Índice de engajamento digital dos colaboradores.",
+        "Percentual de participação voluntária em capacitações.",
+        "Frequência de acesso a plataformas de aprendizado sob demanda.",
+        "Nível de satisfação com a cultura de aprendizado.",
+        "Correlação entre aprendizado autodirigido e desempenho organizacional."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com colaboradores, gestores e RH. Análise de relatórios de engajamento e indicadores de cultura. Verificação do uso de plataformas digitais e fóruns colaborativos. Observação de práticas de reconhecimento e incentivo ao aprendizado."
+      "sampling_guidance": "Entrevistas com colaboradores, gestores e RH; análise de relatórios de engajamento e indicadores de cultura; verificação do uso de plataformas digitais e fóruns colaborativos; observação de práticas de reconhecimento e incentivo ao aprendizado."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-013-006",
@@ -533,12 +573,21 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Relatórios de desempenho de capacitações e dashboards de RH. Indicadores de ROI e produtividade relacionados a programas de aprendizado. Relatórios de engajamento em plataformas de aprendizagem digital. Pesquisas de satisfação e eficácia pós-treinamento. Dados de desempenho operacional antes e depois das capacitações. Análise de regressão/correlação entre indicadores de L&D e KPIs de Produção/Qualidade."
+        "Relatórios de desempenho de capacitações e dashboards de RH.",
+        "Indicadores de ROI e produtividade relacionados a programas de aprendizado.",
+        "Relatórios de engajamento em plataformas de aprendizagem digital.",
+        "Pesquisas de satisfação e eficácia pós-treinamento.",
+        "Dados de desempenho operacional antes e depois das capacitações.",
+        "Análise de regressão/correlação entre indicadores de L&D e KPIs de Produção/Qualidade."
       ],
       "metrics": [
-        "Métricas/KPIs Taxa de conclusão de programas de capacitação digital. Grau de correlação entre aprendizado e resultados operacionais. Retorno sobre investimento (ROI) das capacitações digitais. Percentual de programas revisados com base em análise de impacto. Tempo médio de melhoria de desempenho pós-treinamento."
+        "Taxa de conclusão de programas de capacitação digital.",
+        "Grau de correlação entre aprendizado e resultados operacionais.",
+        "Retorno sobre investimento (ROI) das capacitações digitais.",
+        "Percentual de programas revisados com base em análise de impacto.",
+        "Tempo médio de melhoria de desempenho pós-treinamento."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores de RH e líderes de aprendizado. Revisão de relatórios de indicadores de desempenho pós-capacitação. Análise de dados extraídos de plataformas LMS/LXP. Observação de práticas de feedback e revisão de programas."
+      "sampling_guidance": "Entrevistas com gestores de RH e líderes de aprendizado; revisão de relatórios de indicadores de desempenho pós-capacitação; análise de dados extraídos de plataformas LMS/LXP; observação de práticas de feedback e revisão de programas."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-013-007",
@@ -618,12 +667,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Relatórios de aplicação prática pós-capacitação. Indicadores de desempenho antes e depois da formação digital. Dados de integração entre sistemas de aprendizado (LMS) e sistemas operacionais (ERP, MES, IoT). Planos de desenvolvimento individual vinculados a metas operacionais. Registros de feedback de líderes e colaboradores sobre uso das competências em campo."
+        "Relatórios de aplicação prática pós-capacitação.",
+        "Indicadores de desempenho antes e depois da formação digital.",
+        "Dados de integração entre sistemas de aprendizado (LMS) e sistemas operacionais (ERP, MES, IoT).",
+        "Planos de desenvolvimento individual vinculados a metas operacionais.",
+        "Registros de feedback de líderes e colaboradores sobre uso das competências em campo."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de competências aplicadas na rotina operacional. Índice de melhoria de produtividade pós-capacitação. Tempo médio de incorporação de novas práticas digitais. Número de processos otimizados a partir de aprendizado digital. Correlação entre aprendizado e redução de erros ou retrabalho."
+        "Percentual de competências aplicadas na rotina operacional.",
+        "Índice de melhoria de produtividade pós-capacitação.",
+        "Tempo médio de incorporação de novas práticas digitais.",
+        "Número de processos otimizados a partir de aprendizado digital.",
+        "Correlação entre aprendizado e redução de erros ou retrabalho."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores operacionais, RH e líderes técnicos. Revisão de relatórios de integração de sistemas. Observação em campo de práticas operacionais digitais. Análise de métricas de desempenho pós-capacitação."
+      "sampling_guidance": "Entrevistas com gestores operacionais, RH e líderes técnicos; revisão de relatórios de integração de sistemas; observação em campo de práticas operacionais digitais; análise de métricas de desempenho pós-capacitação."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-013-008",
@@ -703,12 +760,21 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Relatórios de analytics de plataformas LMS ou LXP. Dashboards de desempenho e engajamento em aprendizado. Documentação de uso de algoritmos ou modelos preditivos. Registros de personalização automática de conteúdos. Planos de governança de dados de aprendizado e privacidade. Modelo de governança e ética de dados de aprendizado (Learning Data Governance)"
+        "Relatórios de analytics de plataformas LMS ou LXP.",
+        "Dashboards de desempenho e engajamento em aprendizado.",
+        "Documentação de uso de algoritmos ou modelos preditivos.",
+        "Registros de personalização automática de conteúdos.",
+        "Planos de governança de dados de aprendizado e privacidade.",
+        "Modelo de governança e ética de dados de aprendizado (Learning Data Governance)"
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de decisões de aprendizado baseadas em dados. Tempo médio entre coleta de dados e ação corretiva no programa. Precisão das previsões de lacunas de competência. Grau de personalização dos conteúdos de treinamento. Engajamento e desempenho pós-personalização."
+        "Percentual de decisões de aprendizado baseadas em dados.",
+        "Tempo médio entre coleta de dados e ação corretiva no programa.",
+        "Precisão das previsões de lacunas de competência.",
+        "Grau de personalização dos conteúdos de treinamento.",
+        "Engajamento e desempenho pós-personalização."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores de RH, TI e líderes de capacitação. Revisão de relatórios de analytics e dashboards de aprendizado. Verificação da existência de políticas de governança de dados educacionais. Observação de recomendações automatizadas em plataformas de aprendizado."
+      "sampling_guidance": "Entrevistas com gestores de RH, TI e líderes de capacitação; revisão de relatórios de analytics e dashboards de aprendizado; verificação da existência de políticas de governança de dados educacionais; observação de recomendações automatizadas em plataformas de aprendizado."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-013-009",
@@ -788,12 +854,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Programas de reskilling e upskilling registrados em RH. Relatórios de engajamento e desempenho em adoção tecnológica. Indicadores de participação em capacitações emergenciais. Políticas de mudança organizacional e suporte à inovação. Pesquisas internas sobre cultura e adaptação digital."
+        "Programas de reskilling e upskilling registrados em RH.",
+        "Relatórios de engajamento e desempenho em adoção tecnológica.",
+        "Indicadores de participação em capacitações emergenciais.",
+        "Políticas de mudança organizacional e suporte à inovação.",
+        "Pesquisas internas sobre cultura e adaptação digital."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de colaboradores requalificados em novas tecnologias. Tempo médio de adaptação a novas ferramentas ou processos. Índice de engajamento digital. Taxa de sucesso de implementações tecnológicas (adoção efetiva). Nível de prontidão digital por área ou função."
+        "Percentual de colaboradores requalificados em novas tecnologias.",
+        "Tempo médio de adaptação a novas ferramentas ou processos.",
+        "Índice de engajamento digital.",
+        "Taxa de sucesso de implementações tecnológicas (adoção efetiva).",
+        "Nível de prontidão digital por área ou função."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores de RH, inovação e líderes de equipe. Revisão de relatórios de resiliência e readiness digital. Análise de indicadores de adoção tecnológica. Observação de práticas de aprendizado e colaboração digital."
+      "sampling_guidance": "Entrevistas com gestores de RH, inovação e líderes de equipe; revisão de relatórios de resiliência e readiness digital; análise de indicadores de adoção tecnológica; observação de práticas de aprendizado e colaboração digital."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-013-010",
@@ -873,12 +947,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Contratos e memorandos de entendimento com universidades, startups e instituições de pesquisa. Registros de participação em redes de inovação e capacitação. Relatórios de resultados de programas desenvolvidos em parceria. Documentação de integração de plataformas e dados de aprendizado. Registros de eventos, hackathons, certificações e iniciativas conjuntas."
+        "Contratos e memorandos de entendimento com universidades, startups e instituições de pesquisa.",
+        "Registros de participação em redes de inovação e capacitação.",
+        "Relatórios de resultados de programas desenvolvidos em parceria.",
+        "Documentação de integração de plataformas e dados de aprendizado.",
+        "Registros de eventos, hackathons, certificações e iniciativas conjuntas."
       ],
       "metrics": [
-        "Métricas/KPIs Número de parcerias ativas voltadas à aprendizagem digital. Percentual de programas de capacitação desenvolvidos em parceria. Grau de interoperabilidade entre plataformas de parceiros. Taxa de inovação educacional derivada de colaborações externas. Índice de satisfação ou impacto de programas conjuntos."
+        "Número de parcerias ativas voltadas à aprendizagem digital.",
+        "Percentual de programas de capacitação desenvolvidos em parceria.",
+        "Grau de interoperabilidade entre plataformas de parceiros.",
+        "Taxa de inovação educacional derivada de colaborações externas.",
+        "Índice de satisfação ou impacto de programas conjuntos."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores de RH, P&D e inovação. Análise de relatórios de parcerias e acordos de cooperação. Verificação de dados de plataformas compartilhadas. Avaliação de projetos educacionais conjuntos e resultados obtidos."
+      "sampling_guidance": "Entrevistas com gestores de RH, P&D e inovação; análise de relatórios de parcerias e acordos de cooperação; verificação de dados de plataformas compartilhadas; avaliação de projetos educacionais conjuntos e resultados obtidos."
     }
   ],
   "references": [
