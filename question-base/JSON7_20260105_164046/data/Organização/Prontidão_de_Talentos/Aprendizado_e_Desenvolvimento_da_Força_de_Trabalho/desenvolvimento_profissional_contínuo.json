@@ -109,12 +109,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Plano estratégico de aprendizado e desenvolvimento (ex: Plano Diretor de Capacitação, Mapas de Competências Estratégicas ). Mapas de competências e relatórios de lacunas. Registros de revisão e atualização do plano de capacitação. Relatórios de performance de programas de aprendizado. Ferramentas digitais de gestão de aprendizado (LMS, LXP)."
+        "Plano estratégico de aprendizado e desenvolvimento (ex: Plano Diretor de Capacitação, Mapas de Competências Estratégicas ).",
+        "Mapas de competências e relatórios de lacunas.",
+        "Registros de revisão e atualização do plano de capacitação.",
+        "Relatórios de performance de programas de aprendizado.",
+        "Ferramentas digitais de gestão de aprendizado (LMS, LXP)."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de competências críticas com planos de aprendizado associados. Taxa de atualização de programas de capacitação. ROI (Retorno sobre Investimento) de programas de desenvolvimento profissional. Alinhamento entre metas de aprendizado e indicadores de desempenho estratégico. Percentual de colaboradores com trilhas de desenvolvimento ativas."
+        "Percentual de competências críticas com planos de aprendizado associados.",
+        "Taxa de atualização de programas de capacitação.",
+        "ROI (Retorno sobre Investimento) de programas de desenvolvimento profissional.",
+        "Alinhamento entre metas de aprendizado e indicadores de desempenho estratégico.",
+        "Percentual de colaboradores com trilhas de desenvolvimento ativas."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores de RH e liderança estratégica. Revisão do plano de desenvolvimento e relatórios de execução. Análise de dashboards e KPIs de aprendizado. Verificação de integração entre sistemas corporativos e plataformas de aprendizado."
+      "sampling_guidance": "Entrevistas com gestores de RH e liderança estratégica; revisão do plano de desenvolvimento e relatórios de execução; análise de dashboards e KPIs de aprendizado; verificação de integração entre sistemas corporativos e plataformas de aprendizado."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-012-002",
@@ -194,12 +202,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Plataformas de aprendizado digital (LMS/LXP). Registros de personalização e relatórios de engajamento. Políticas de inclusão e acessibilidade digital. Planos de desenvolvimento individual (PDIs). Dados de uso e satisfação dos colaboradores."
+        "Plataformas de aprendizado digital (LMS/LXP).",
+        "Registros de personalização e relatórios de engajamento.",
+        "Políticas de inclusão e acessibilidade digital.",
+        "Planos de desenvolvimento individual (PDIs).",
+        "Dados de uso e satisfação dos colaboradores."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de colaboradores com trilhas personalizadas. Índice de acessibilidade e inclusão digital. Taxa de engajamento em plataformas de aprendizado. Taxa de conclusão de trilhas e certificações. Satisfação dos usuários com a experiência de aprendizado."
+        "Percentual de colaboradores com trilhas personalizadas.",
+        "Índice de acessibilidade e inclusão digital.",
+        "Taxa de engajamento em plataformas de aprendizado.",
+        "Taxa de conclusão de trilhas e certificações.",
+        "Satisfação dos usuários com a experiência de aprendizado."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com colaboradores de diferentes áreas e níveis hierárquicos. Revisão de relatórios de acessibilidade e engajamento. Avaliação técnica de plataformas digitais de aprendizado. Análise de planos de desenvolvimento individuais (PDIs)."
+      "sampling_guidance": "Amostragem Entrevistas com colaboradores de diferentes áreas e níveis hierárquicos; revisão de relatórios de acessibilidade e engajamento; avaliação técnica de plataformas digitais de aprendizado; análise de planos de desenvolvimento individuais (PDIs)."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-012-003",
@@ -279,12 +295,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Políticas de desenvolvimento de pessoas e cultura organizacional. Relatórios de participação em programas voluntários de aprendizado. Plataformas digitais de engajamento e gamificação. Registros de reconhecimento e recompensas ligadas ao aprendizado. Pesquisas de clima e engajamento."
+        "Políticas de desenvolvimento de pessoas e cultura organizacional.",
+        "Relatórios de participação em programas voluntários de aprendizado.",
+        "Plataformas digitais de engajamento e gamificação.",
+        "Registros de reconhecimento e recompensas ligadas ao aprendizado.",
+        "Pesquisas de clima e engajamento."
       ],
       "metrics": [
-        "Métricas/KPIs Taxa de participação e conclusão voluntária em programas de aprendizado. Índice de engajamento digital (acessos, horas dedicadas, certificações). Percentual de colaboradores com PDIs ativos. Nível de satisfação com programas de desenvolvimento. Taxa de retenção de talentos engajados em aprendizado contínuo."
+        "Taxa de participação e conclusão voluntária em programas de aprendizado.",
+        "Índice de engajamento digital (acessos, horas dedicadas, certificações).",
+        "Percentual de colaboradores com PDIs ativos.",
+        "Nível de satisfação com programas de desenvolvimento.",
+        "Taxa de retenção de talentos engajados em aprendizado contínuo."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com colaboradores e líderes sobre práticas de incentivo ao aprendizado. Observação de programas de reconhecimento e campanhas internas. Revisão de dados de engajamento em plataformas digitais. Análise de relatórios de clima e cultura organizacional."
+      "sampling_guidance": "Amostragem Entrevistas com colaboradores e líderes sobre práticas de incentivo ao aprendizado; observação de programas de reconhecimento e campanhas internas; revisão de dados de engajamento em plataformas digitais; análise de relatórios de clima e cultura organizacional."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-012-004",
@@ -364,12 +388,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Sistemas de gestão de aprendizado (LMS/LXP) e integração com HRIS, ERPs e sistemas de produção (MES). Relatórios de analytics e dashboards de competências. Políticas de integração de dados de RH e aprendizado. Registros de atualização automática de trilhas de aprendizado. Documentação técnica de interoperabilidade entre plataformas."
+        "Sistemas de gestão de aprendizado (LMS/LXP) e integração com HRIS, ERPs e sistemas de produção (MES).",
+        "Relatórios de analytics e dashboards de competências.",
+        "Políticas de integração de dados de RH e aprendizado.",
+        "Registros de atualização automática de trilhas de aprendizado.",
+        "Documentação técnica de interoperabilidade entre plataformas."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de integração entre sistemas de aprendizado e gestão. Taxa de automação de relatórios de desenvolvimento. Frequência de atualização de dados de competência. Precisão das recomendações de aprendizado digital. Tempo de resposta entre feedback e atualização de trilha."
+        "Percentual de integração entre sistemas de aprendizado e gestão.",
+        "Taxa de automação de relatórios de desenvolvimento.",
+        "Frequência de atualização de dados de competência.",
+        "Precisão das recomendações de aprendizado digital.",
+        "Tempo de resposta entre feedback e atualização de trilha."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com equipes de RH, TI e treinamento. Revisão de relatórios e dashboards de aprendizado. Avaliação técnica de integração entre sistemas digitais. Verificação de políticas e fluxos de dados de aprendizado."
+      "sampling_guidance": "Entrevistas com equipes de RH, TI e treinamento; revisão de relatórios e dashboards de aprendizado; avaliação técnica de integração entre sistemas digitais; verificação de políticas e fluxos de dados de aprendizado."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-012-005",
@@ -449,12 +481,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Relatórios de desempenho de aprendizado e avaliação pós-treinamento. Dashboards de competências e KPIs de desenvolvimento. Políticas de avaliação e feedback contínuo. Registros em plataformas LMS/LXP integradas a RH. Relatórios de auditorias de aprendizado e performance."
+        "Relatórios de desempenho de aprendizado e avaliação pós-treinamento.",
+        "Dashboards de competências e KPIs de desenvolvimento.",
+        "Políticas de avaliação e feedback contínuo.",
+        "Registros em plataformas LMS/LXP integradas a RH.",
+        "Relatórios de auditorias de aprendizado e performance."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de colaboradores com competências avaliadas periodicamente. Índice de evolução de competências críticas. ROI de programas de aprendizado. Taxa de conclusão e retenção de aprendizado. Tempo médio de resposta entre lacuna identificada e ação corretiva."
+        "Percentual de colaboradores com competências avaliadas periodicamente.",
+        "Índice de evolução de competências críticas.",
+        "ROI de programas de aprendizado.",
+        "Taxa de conclusão e retenção de aprendizado.",
+        "Tempo médio de resposta entre lacuna identificada e ação corretiva."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores de RH, treinamento e líderes operacionais. Revisão de dashboards e relatórios analíticos. Observação de processos de feedback e avaliação de desempenho. Análise de planos de ação derivados de lacunas de competência."
+      "sampling_guidance": "Entrevistas com gestores de RH, treinamento e líderes operacionais; revisão de dashboards e relatórios analíticos; observação de processos de feedback e avaliação de desempenho; análise de planos de ação derivados de lacunas de competência."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-012-006",
@@ -534,12 +574,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Planos de desenvolvimento de competências e relatórios de RH. Catálogos e trilhas de aprendizado de requalificação digital. Registros de capacitação em plataformas LMS ou LXP. Indicadores de reskilling/upskilling nos relatórios de desempenho. Políticas corporativas de desenvolvimento de talentos."
+        "Planos de desenvolvimento de competências e relatórios de RH.",
+        "Catálogos e trilhas de aprendizado de requalificação digital.",
+        "Registros de capacitação em plataformas LMS ou LXP.",
+        "Indicadores de reskilling/upskilling nos relatórios de desempenho.",
+        "Políticas corporativas de desenvolvimento de talentos."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de colaboradores requalificados em novas tecnologias. Taxa de participação em programas de upskilling digital. Percentual de lacunas de competências reduzidas. ROI de programas de requalificação. Tempo médio para requalificação de funções críticas."
+        "Percentual de colaboradores requalificados em novas tecnologias.",
+        "Taxa de participação em programas de upskilling digital.",
+        "Percentual de lacunas de competências reduzidas.",
+        "ROI de programas de requalificação.",
+        "Tempo médio para requalificação de funções críticas."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores de RH, líderes técnicos e colaboradores. Revisão documental de programas e políticas de requalificação. Análise de dados de participação e resultados em plataformas digitais. Avaliação de relatórios de impacto e ROI de aprendizado."
+      "sampling_guidance": "Entrevistas com gestores de RH, líderes técnicos e colaboradores; revisão documental de programas e políticas de requalificação; análise de dados de participação e resultados em plataformas digitais; avaliação de relatórios de impacto e ROI de aprendizado."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-012-007",
@@ -619,12 +667,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Programas de desenvolvimento de liderança com módulos específicos sobre mentoria, coaching e cultura de aprendizado. Relatórios de engajamento e acompanhamento de equipes. Indicadores de participação dos líderes em treinamentos e mentorias. Feedbacks de colaboradores em pesquisas de clima e cultura. Políticas e frameworks de gestão de desempenho e aprendizado."
+        "Programas de desenvolvimento de liderança com módulos específicos sobre mentoria, coaching e cultura de aprendizado.",
+        "Relatórios de engajamento e acompanhamento de equipes.",
+        "Indicadores de participação dos líderes em treinamentos e mentorias.",
+        "Feedbacks de colaboradores em pesquisas de clima e cultura.",
+        "Políticas e frameworks de gestão de desempenho e aprendizado."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de líderes participantes de programas de aprendizado contínuo. Nível de engajamento das equipes em capacitação sob cada liderança. Taxa de feedbacks realizados e acompanhamentos de desenvolvimento. Índice de satisfação dos colaboradores com o apoio à aprendizagem. Avaliação de liderança orientada por aprendizado (learning leadership score)."
+        "Percentual de líderes participantes de programas de aprendizado contínuo.",
+        "Nível de engajamento das equipes em capacitação sob cada liderança.",
+        "Taxa de feedbacks realizados e acompanhamentos de desenvolvimento.",
+        "Índice de satisfação dos colaboradores com o apoio à aprendizagem.",
+        "Avaliação de liderança orientada por aprendizado (learning leadership score)."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com líderes e equipes sobre práticas de aprendizado. Revisão de relatórios de engajamento e programas de capacitação. Observação de sessões de feedback e acompanhamento de desenvolvimento. Análise de métricas de liderança e aprendizado organizacional."
+      "sampling_guidance": "Amostragem Entrevistas com líderes e equipes sobre práticas de aprendizado; revisão de relatórios de engajamento e programas de capacitação; observação de sessões de feedback e acompanhamento de desenvolvimento; análise de métricas de liderança e aprendizado organizacional."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-012-008",
@@ -704,12 +760,20 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Políticas e diretrizes corporativas de aprendizado e desenvolvimento, incluindo orçamento definido e papéis. Documentos de governança (comitês, papéis, fluxos decisórios). Registros de reuniões e atas de revisão de políticas. Relatórios de auditoria interna ou externa sobre programas de capacitação. Sistemas de gestão de governança (GRC, RH, LMS)."
+        "Políticas e diretrizes corporativas de aprendizado e desenvolvimento, incluindo orçamento definido e papéis.",
+        "Documentos de governança (comitês, papéis, fluxos decisórios).",
+        "Registros de reuniões e atas de revisão de políticas.",
+        "Relatórios de auditoria interna ou externa sobre programas de capacitação.",
+        "Sistemas de gestão de governança (GRC, RH, LMS)."
       ],
       "metrics": [
-        "Métricas/KPIs Frequência de revisão de políticas de aprendizado. Nível de conformidade com diretrizes e normas internas. Percentual de áreas cobertas por planos de desenvolvimento. Grau de envolvimento da liderança na governança de aprendizado. Tempo médio para atualização de políticas ou papéis."
+        "Frequência de revisão de políticas de aprendizado.",
+        "Nível de conformidade com diretrizes e normas internas.",
+        "Percentual de áreas cobertas por planos de desenvolvimento.",
+        "Grau de envolvimento da liderança na governança de aprendizado.",
+        "Tempo médio para atualização de políticas ou papéis."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores de RH, compliance e desenvolvimento. Revisão documental de políticas e organogramas de governança. Observação de reuniões e processos decisórios sobre aprendizado. Análise de registros e relatórios de auditoria."
+      "sampling_guidance": "Amostragem Entrevistas com gestores de RH, compliance e desenvolvimento; revisão documental de políticas e organogramas de governança; observação de reuniões e processos decisórios sobre aprendizado; análise de registros e relatórios de auditoria."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-012-009",
@@ -790,12 +854,21 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Acordos de cooperação técnica com universidades e centros de pesquisa. Participação em hubs de inovação, clusters setoriais, MOOCs corporativos e programas governamentais de capacitação Registros de participação em redes, consórcios ou clusters de inovação. Documentação de programas conjuntos de capacitação ou P&D. Relatórios de resultados e métricas de impacto de parcerias. Plataformas de aprendizado e colaboração externas (corporate academies, MOOCs, hubs)."
+        "Acordos de cooperação técnica com universidades e centros de pesquisa.",
+        "Participação em hubs de inovação, clusters setoriais, MOOCs corporativos e programas governamentais de capacitação.",
+        "Registros de participação em redes, consórcios ou clusters de inovação.",
+        "Documentação de programas conjuntos de capacitação ou P&D.",
+        "Relatórios de resultados e métricas de impacto de parcerias.",
+        "Plataformas de aprendizado e colaboração externas (corporate academies, MOOCs, hubs)."
       ],
       "metrics": [
-        "Métricas/KPIs Número e diversidade de parcerias ativas. Percentual de projetos de inovação realizados em parceria. Taxa de transferência de conhecimento entre instituições. ROI de programas colaborativos de aprendizado. Índice de engajamento digital em ecossistemas externos."
+        "Número e diversidade de parcerias ativas.",
+        "Percentual de projetos de inovação realizados em parceria.",
+        "Taxa de transferência de conhecimento entre instituições.",
+        "ROI de programas colaborativos de aprendizado.",
+        "Índice de engajamento digital em ecossistemas externos."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores de RH, inovação e P&D. Revisão de acordos e relatórios de cooperação. Análise de métricas de desempenho de programas colaborativos. Avaliação de plataformas e repositórios de aprendizado compartilhado."
+      "sampling_guidance": "Amostragem Entrevistas com gestores de RH, inovação e P&D; revisão de acordos e relatórios de cooperação; análise de métricas de desempenho de programas colaborativos; avaliação de plataformas e repositórios de aprendizado compartilhado."
     },
     {
       "id": "Q-ORG-PRONTI-APREND-012-010",
@@ -875,12 +948,21 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Dashboards e relatórios de analytics de aprendizado. Registros e relatórios de plataformas LMS, LXP e HRIS. Políticas e práticas de governança de dados de aprendizado. Sistemas de recomendação de trilhas e conteúdos baseados em IA. Documentação sobre modelos preditivos e algoritmos aplicados a RH."
+        "Dashboards e relatórios de analytics de aprendizado.",
+        "Registros e relatórios de plataformas LMS, LXP e HRIS.",
+        "Políticas e práticas de governança de dados de aprendizado.",
+        "Sistemas de recomendação de trilhas e conteúdos baseados em IA.",
+        "Documentação sobre modelos preditivos e algoritmos aplicados a RH."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de decisões de aprendizado baseadas em dados. Grau de automação de recomendações de aprendizado. Taxa de precisão das previsões de lacunas de competência. Percentual de trilhas de aprendizado geradas/ajustadas autonomamente por IA. Tempo médio entre identificação de lacuna e ação corretiva. Nível de satisfação dos usuários com as recomendações personalizadas."
+        "Percentual de decisões de aprendizado baseadas em dados.",
+        "Grau de automação de recomendações de aprendizado.",
+        "Taxa de precisão das previsões de lacunas de competência.",
+        "Percentual de trilhas de aprendizado geradas/ajustadas autonomamente por IA.",
+        "Tempo médio entre identificação de lacuna e ação corretiva.",
+        "Nível de satisfação dos usuários com as recomendações personalizadas."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com líderes de RH, TI e Analytics. Revisão de sistemas e relatórios de inteligência de aprendizado. Avaliação técnica dos algoritmos e mecanismos de recomendação. Observação de processos de tomada de decisão baseados em dados."
+      "sampling_guidance": "Amostragem Entrevistas com líderes de RH, TI e Analytics; revisão de sistemas e relatórios de inteligência de aprendizado; avaliação técnica dos algoritmos e mecanismos de recomendação; observação de processos de tomada de decisão baseados em dados."
     }
   ],
   "references": [
