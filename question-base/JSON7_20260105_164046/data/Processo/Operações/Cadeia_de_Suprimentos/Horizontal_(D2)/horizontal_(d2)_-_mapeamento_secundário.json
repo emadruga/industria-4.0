@@ -107,12 +107,17 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Diagramas de arquitetura de integração entre ERP, MES e sistemas externos. Logs e registros de comunicação automatizada entre sistemas. Documentação técnica de APIs, EDI ou middleware de integração. Relatórios de consistência e desempenho de dados trocados."
+        "Diagramas de arquitetura de integração entre ERP, MES e sistemas externos.",
+        "Logs e registros de comunicação automatizada entre sistemas.",
+        "Documentação técnica de APIs, EDI ou middleware de integração.",
+        "Relatórios de consistência e desempenho de dados trocados."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de parceiros integrados digitalmente. Volume de transações automatizadas na cadeia de valor. Tempo médio de atualização de dados entre empresas."
+        "Percentual de parceiros integrados digitalmente.",
+        "Volume de transações automatizadas na cadeia de valor.",
+        "Tempo médio de atualização de dados entre empresas."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com equipes de TI, logística, produção e suprimentos. Observação de rotinas de comunicação com fornecedores e clientes. Revisão de documentação técnica e logs de integração. Análise de indicadores de desempenho da cadeia de valor integrada."
+      "sampling_guidance": "Entrevistas com equipes de TI, logística, produção e suprimentos; observação de rotinas de comunicação com fornecedores e clientes; revisão de documentação técnica e logs de integração; análise de indicadores de desempenho da cadeia de valor integrada."
     },
     {
       "id": "Q-PROC-OPERAÇ-HORIZO-015-002",
@@ -192,12 +197,17 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Mapas e fluxogramas de processos ponta a ponta. Logs e registros de integração entre ERP, SCM e sistemas logísticos. Dashboards operacionais compartilhados entre parceiros. Relatórios de desempenho e indicadores de sincronização."
+        "Mapas e fluxogramas de processos ponta a ponta.",
+        "Logs e registros de integração entre ERP, SCM e sistemas logísticos.",
+        "Dashboards operacionais compartilhados entre parceiros.",
+        "Relatórios de desempenho e indicadores de sincronização."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de processos sincronizados digitalmente. Taxa de divergência entre planos e execução. Nível de visibilidade entre parceiros (quantos compartilham dados em tempo real)."
+        "Percentual de processos sincronizados digitalmente.",
+        "Taxa de divergência entre planos e execução.",
+        "Nível de visibilidade entre parceiros (quantos compartilham dados em tempo real)."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com equipes de suprimentos, logística e produção. Observação prática de processos interdepartamentais. Revisão de logs de atualização de sistemas. Avaliação de indicadores de sincronização entre parceiros."
+      "sampling_guidance": "Entrevistas com equipes de suprimentos, logística e produção; observação prática de processos interdepartamentais; revisão de logs de atualização de sistemas; avaliação de indicadores de sincronização entre parceiros."
     },
     {
       "id": "Q-PROC-OPERAÇ-HORIZO-015-003",
@@ -277,12 +287,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Registros de lotes, ordens de produção e rastreabilidade. Logs de integração entre ERP, SCM, PLM e sistemas de transporte. Dashboards de rastreamento e relatórios de conformidade. Documentos de controle de qualidade e certificações de origem."
+        "Registros de lotes, ordens de produção e rastreabilidade.",
+        "Logs de integração entre ERP, SCM, PLM e sistemas de transporte.",
+        "Dashboards de rastreamento e relatórios de conformidade.",
+        "Documentos de controle de qualidade e certificações de origem."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de produtos ou processos com rastreabilidade digital completa. Tempo médio de identificação de origem e destino de itens. Percentual de parceiros que compartilham dados de rastreamento. Taxa de inconsistência ou falhas detectadas na cadeia de rastreamento."
+        "Percentual de produtos ou processos com rastreabilidade digital completa.",
+        "Tempo médio de identificação de origem e destino de itens.",
+        "Percentual de parceiros que compartilham dados de rastreamento.",
+        "Taxa de inconsistência ou falhas detectadas na cadeia de rastreamento."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com equipes de produção, logística, qualidade e compliance. Revisão documental de relatórios de rastreamento e auditorias. Observação prática de sistemas de rastreamento interorganizacional. Análise de logs de integração e plataformas colaborativas."
+      "sampling_guidance": "Entrevistas com equipes de produção, logística, qualidade e compliance; revisão documental de relatórios de rastreamento e auditorias; observação prática de sistemas de rastreamento interorganizacional; análise de logs de integração e plataformas colaborativas."
     },
     {
       "id": "Q-PROC-OPERAÇ-HORIZO-015-004",
@@ -362,12 +378,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Registros de uso de plataformas colaborativas (portais B2B, SCM, CRM). Logs de reuniões digitais e processos de aprovação conjunta. Documentação de integração de dados compartilhados. Relatórios de decisões conjuntas e planos de ação colaborativos."
+        "Registros de uso de plataformas colaborativas (portais B2B, SCM, CRM).",
+        "Logs de reuniões digitais e processos de aprovação conjunta.",
+        "Documentação de integração de dados compartilhados.",
+        "Relatórios de decisões conjuntas e planos de ação colaborativos."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de processos gerenciados por plataformas colaborativas. Tempo médio para tomada de decisão conjunta. Nível de participação dos parceiros em decisões críticas. Grau de automação dos fluxos de aprovação interorganizacionais."
+        "Percentual de processos gerenciados por plataformas colaborativas.",
+        "Tempo médio para tomada de decisão conjunta.",
+        "Nível de participação dos parceiros em decisões críticas.",
+        "Grau de automação dos fluxos de aprovação interorganizacionais."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com equipes de logística, suprimentos, TI e planejamento. Revisão de registros de plataformas colaborativas e logs de comunicação. Observação de rotinas de tomada de decisão em rede. Avaliação de indicadores de desempenho colaborativo."
+      "sampling_guidance": "Entrevistas com equipes de logística, suprimentos, TI e planejamento; revisão de registros de plataformas colaborativas e logs de comunicação; observação de rotinas de tomada de decisão em rede. Avaliação de indicadores de desempenho colaborativo."
     },
     {
       "id": "Q-PROC-OPERAÇ-HORIZO-015-005",
@@ -447,12 +469,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Relatórios analíticos e dashboards integrados (BI, SCM, ERP). Logs de automação e decisões geradas por IA. Modelos preditivos implementados (previsão de demanda, manutenção, logística). Documentação técnica de sistemas de análise e aprendizado de máquina."
+        "Relatórios analíticos e dashboards integrados (BI, SCM, ERP).",
+        "Logs de automação e decisões geradas por IA.",
+        "Modelos preditivos implementados (previsão de demanda, manutenção, logística).",
+        "Documentação técnica de sistemas de análise e aprendizado de máquina."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de decisões automatizadas na cadeia de valor. Precisão dos modelos preditivos utilizados. Redução de falhas e desvios operacionais detectados antecipadamente. Tempo médio de resposta a variações de demanda."
+        "Percentual de decisões automatizadas na cadeia de valor.",
+        "Precisão dos modelos preditivos utilizados.",
+        "Redução de falhas e desvios operacionais detectados antecipadamente.",
+        "Tempo médio de resposta a variações de demanda."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com áreas de planejamento, TI, logística e suprimentos. Verificação dos sistemas de análise de dados e IA utilizados. Avaliação de relatórios de desempenho e predição de eventos. Análise de logs de automação e respostas em tempo real."
+      "sampling_guidance": "Entrevistas com áreas de planejamento, TI, logística e suprimentos; verificação dos sistemas de análise de dados e IA utilizados; avaliação de relatórios de desempenho e predição de eventos; análise de logs de automação e respostas em tempo real."
     },
     {
       "id": "Q-PROC-OPERAÇ-HORIZO-015-006",
@@ -532,12 +560,18 @@
       }
 ],
     "artifacts": [
-   "Artefatos e onde buscar Relatórios de incidentes e respostas operacionais. Logs de monitoramento em tempo real (SCM, ERP, IoT, sistemas logísticos). Modelos de simulação e análise preditiva de riscos. Protocolos de contingência automatizados e dashboards de controle."
+      "Relatórios de incidentes e respostas operacionais.",
+      "Logs de monitoramento em tempo real (SCM, ERP, IoT, sistemas logísticos).",
+      "Modelos de simulação e análise preditiva de riscos.",
+      "Protocolos de contingência automatizados e dashboards de controle."
 ],
     "metrics": [
-   "Métricas/KPIs Tempo médio de resposta a eventos disruptivos. Percentual de processos recuperados automaticamente. Taxa de falhas mitigadas antes do impacto. Nível de integração de dados em alertas e planos de reação."
+      "Tempo médio de resposta a eventos disruptivos.",
+      "Percentual de processos recuperados automaticamente.",
+      "Taxa de falhas mitigadas antes do impacto.",
+      "Nível de integração de dados em alertas e planos de reação."
 ],
-    "sampling_guidance": "Amostragem Entrevistas com gestores de cadeia de suprimentos, TI e operações. Análise de registros de eventos e respostas operacionais. Observação de testes de contingência ou simulações. Avaliação de logs e dashboards de sistemas de monitoramento."      
+    "sampling_guidance": "Entrevistas com gestores de cadeia de suprimentos, TI e operações; análise de registros de eventos e respostas operacionais; observação de testes de contingência ou simulações; avaliação de logs e dashboards de sistemas de monitoramento."      
     }
   ],
   "references": [
