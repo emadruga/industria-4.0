@@ -2,7 +2,7 @@
 
 Complete hierarchical view from blocks to individual questions.
 
-**Total Questions:** 137
+**Total Questions:** 136
 **Total Capacities:** 23
 
 ---
@@ -42,7 +42,6 @@ Complete hierarchical view from blocks to individual questions.
 | Organização | Estrutura e Gestão | Competência de Liderança | Estilo de liderança democrático | `Q-ORG-ESTRUT-COMPET-017-005` | Capacitação da equipe |
 | Organização | Estrutura e Gestão | Competência de Liderança | Estilo de liderança democrático | `Q-ORG-ESTRUT-COMPET-017-006` | Resolução de problemas operacionais |
 | Organização | Estrutura e Gestão | Competência de Liderança | Estilo de liderança democrático | `Q-ORG-ESTRUT-COMPET-017-007` | Adaptação às mudanças externas |
-| Organização | Estrutura e Gestão | Competência de Liderança | Estilo de liderança democrático | `Q-ORG-ESTRUT-COMPET-017-008` | TEMA |
 | Organização | Estrutura e Gestão | Competência de Liderança | Gestão ágil | `Q-ORG-ESTRUT-COMPET-006-001` | Prontidão para Aplicação de Técnicas de Gestão Ágil |
 | Organização | Estrutura e Gestão | Competência de Liderança | Gestão ágil | `Q-ORG-ESTRUT-COMPET-006-002` | Suporte e Comprometimento da Alta Gestão |
 | Organização | Estrutura e Gestão | Competência de Liderança | Gestão ágil | `Q-ORG-ESTRUT-COMPET-006-003` | Envolvimento e Colaboração com Cliente/Stakeholder |

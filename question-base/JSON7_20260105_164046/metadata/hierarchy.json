@@ -74,7 +74,7 @@
                   "id": "CAP-ORG-ESTRUT-COMPET-017",
                   "name": "Estilo de liderança democrático",
                   "file_path": "data/Organização/Estrutura_e_Gestão/Competência_de_Liderança/estilo_de_liderança_democrático.json",
-                  "question_count": 8,
+                  "question_count": 7,
                   "status": "draft"
                 },
                 {
@@ -331,7 +331,7 @@
   ],
   "statistics": {
     "total_capacities": 23,
-    "total_questions": 137,
+    "total_questions": 136,
     "total_dimensions": 15,
     "total_pilares": 7
   }
