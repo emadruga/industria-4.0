@@ -111,10 +111,19 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Calendário de rituais interfuncionais (cadência, pauta e presença). RACIs/matrizes de responsabilidade e OKRs compartilhados entre áreas e com parceiros externos. Contratos e acordos de colaboração com fornecedores, clientes e parceiros. Plataformas de colaboração digital (portais compartilhados, sistemas integrados). Arquiteturas de integração (mapas de fluxo de informação interno e externo). Post-mortems/A3s com participantes de múltiplas áreas e organizações."
+        "Calendário de rituais interfuncionais (cadência, pauta e presença).",
+        "RACIs/matrizes de responsabilidade e OKRs compartilhados entre áreas e com parceiros externos.",
+        "Contratos e acordos de colaboração com fornecedores, clientes e parceiros.",
+        "Plataformas de colaboração digital (portais compartilhados, sistemas integrados).",
+        "Arquiteturas de integração (mapas de fluxo de informação interno e externo).",
+        "Post-mortems/A3s com participantes de múltiplas áreas e organizações."
       ],
       "metrics": [
-        "Métricas/KPIs Taxa de presença por função em rituais colaborativos; nº de itens interáreas e inter-organizações concluídos por sprint/mês. Tempo de handoff e retrabalho por fronteira (ex.: engenharia→produção, empresa→fornecedor). Fluxo (lead time, throughput, WIP) em itens que cruzam times e organizações. Número de projetos colaborativos com parceiros externos. Taxa de sucesso de iniciativas colaborativas na rede."
+        "Taxa de presença por função em rituais colaborativos; nº de itens interáreas e inter-organizações concluídos por sprint/mês.",
+        "Tempo de handoff e retrabalho por fronteira (ex.: engenharia→produção, empresa→fornecedor).",
+        "Fluxo (lead time, throughput, WIP) em itens que cruzam times e organizações.",
+        "Número de projetos colaborativos com parceiros externos.",
+        "Taxa de sucesso de iniciativas colaborativas na rede."
       ],
       "sampling_guidance": "Amostragem Selecionar 2-3 iniciativas que exigiram colaboração interna e externa e seguir o “fio” dos registros ponta-a-ponta nos últimos 90 dias. —"
     },
@@ -204,10 +213,22 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Acordos de colaboração e parcerias estratégicas na cadeia de valor. Plataformas de integração digital com fornecedores e clientes. Infraestrutura técnica digital para integração (APIs, EDI, portais B2"
+        "Acordos de colaboração e parcerias estratégicas na cadeia de valor.",
+        "Plataformas de integração digital com fornecedores e clientes.",
+        "Infraestrutura técnica digital para integração (APIs, EDI, portais B2."
       ],
       "metrics": [
-        ". Projetos de co-desenvolvimento e co-inovação documentados. Políticas de governança de dados compartilhados. Certificações e protocolos para participação na rede. Registros de transferência de conhecimento e melhores práticas. B) Métricas/KPIs Nível de investimento em parcerias (tempo, recursos, orçamento). Nível de colaboração e confiança com parceiros (surveys, índices). Número de projetos colaborativos ativos na cadeia de valor. % de novos produtos/serviços desenvolvidos em colaboração com parceiros. Redução de tempo de ciclo através de colaboração. Taxa de adoção de tecnologias digitais pelos parceiros. Melhoria de qualidade/redução de custos através de colaboração."
+        "Projetos de co-desenvolvimento e co-inovação documentados.",
+        "Políticas de governança de dados compartilhados.",
+        "Certificações e protocolos para participação na rede.",
+        "Registros de transferência de conhecimento e melhores práticas.",
+        "B) Métricas/KPIs Nível de investimento em parcerias (tempo, recursos, orçamento).",
+        "Nível de colaboração e confiança com parceiros (surveys, índices).",
+        "Número de projetos colaborativos ativos na cadeia de valor.",
+        "% de novos produtos/serviços desenvolvidos em colaboração com parceiros.",
+        "Redução de tempo de ciclo através de colaboração.",
+        "Taxa de adoção de tecnologias digitais pelos parceiros.",
+        "Melhoria de qualidade/redução de custos através de colaboração."
       ],
       "sampling_guidance": "Amostragem Analisar 3-5 iniciativas colaborativas com parceiros externos nos últimos 12 meses, verificando nível de integração, compartilhamento e resultados."
     },
@@ -299,10 +320,22 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Acordos com universidades, institutos de pesquisa e centros de inovação. Participação em consórcios, clusters e hubs de inovação. Projetos de pesquisa colaborativa documentados. Plataformas digitais de inovação aberta. Registros de transferência de tecnologia e licenciamento. Publicações conjuntas e patentes compartilhadas. Programas de corporate venture e aceleração."
+        "Acordos com universidades, institutos de pesquisa e centros de inovação.",
+        "Participação em consórcios, clusters e hubs de inovação.",
+        "Projetos de pesquisa colaborativa documentados.",
+        "Plataformas digitais de inovação aberta.",
+        "Registros de transferência de tecnologia e licenciamento.",
+        "Publicações conjuntas e patentes compartilhadas.",
+        "Programas de corporate venture e aceleração."
       ],
       "metrics": [
-        "Métricas/KPIs Número de parcerias ativas em inovação. Investimento em colaboração para inovação (% do budget de P&D). % de projetos de inovação que requerem colaboração externa. Tempo para incorporar tecnologias/conhecimentos externos. Número de inovações resultantes de colaborações. Taxa de sucesso de projetos colaborativos de inovação. ROI de investimentos em redes de inovação."
+        "Número de parcerias ativas em inovação.",
+        "Investimento em colaboração para inovação (% do budget de P&D).",
+        "% de projetos de inovação que requerem colaboração externa.",
+        "Tempo para incorporar tecnologias/conhecimentos externos.",
+        "Número de inovações resultantes de colaborações.",
+        "Taxa de sucesso de projetos colaborativos de inovação.",
+        "ROI de investimentos em redes de inovação."
       ],
       "sampling_guidance": ". % de projetos de inovação que requerem colaboração externa. Tempo para incorporar tecnologias/conhecimentos externos. Número de inovações resultantes de colaborações. Taxa de sucesso de projetos colaborativos de inovação. ROI de investimentos em redes de inovação. C) Sinais por nível N0: desenvolvimento isolado; sem participação em redes. N1: contatos informais; participação passiva em eventos. N2: participação formal mas limitada; projetos pontuais. N3: engajamento ativo; ajustes para facilitar participação em iniciativas específicas. N4: colaboração estabelecida; compartilhamento de recursos em P&D; projetos conjuntos. N5: integração em ecossistemas; metas compartilhadas; acesso a conhecimento complementar. N6: liderança em ecossistemas digitais; inovação aberta contínua; co-criação sistemática. D) Amostragem Mapear todas as parcerias de inovação ativas, analisando profundidade da colaboração, recursos compartilhados e resultados gerados nos últimos 24 meses."
     },
@@ -394,10 +427,22 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Pipeline de desenvolvimento de produtos/serviços. Acordos de co-desenvolvimento e NDA com parceiros. Especificações técnicas compartilhadas e interfaces definidas. Plataformas de colaboração em desenvolvimento (PLM integrado, repositórios compartilhados). Documentação de integração e interoperabilidade. Roadmaps tecnológicos compartilhados. Registros de propriedade intelectual conjunta."
+        "Pipeline de desenvolvimento de produtos/serviços.",
+        "Acordos de co-desenvolvimento e NDA com parceiros.",
+        "Especificações técnicas compartilhadas e interfaces definidas.",
+        "Plataformas de colaboração em desenvolvimento (PLM integrado, repositórios compartilhados).",
+        "Documentação de integração e interoperabilidade.",
+        "Roadmaps tecnológicos compartilhados.",
+        "Registros de propriedade intelectual conjunta."
       ],
       "metrics": [
-        "Métricas/KPIs % de projetos que envolvem colaboração externa no desenvolvimento. Número de componentes/módulos desenvolvidos colaborativamente. Tempo de ciclo de desenvolvimento com colaboração vs. interno. Taxa de reuso de componentes colaborativos. Qualidade e performance de soluções colaborativas. Custo de desenvolvimento compartilhado. Taxa de sucesso de lançamentos colaborativos."
+        "% de projetos que envolvem colaboração externa no desenvolvimento.",
+        "Número de componentes/módulos desenvolvidos colaborativamente.",
+        "Tempo de ciclo de desenvolvimento com colaboração vs. interno.",
+        "Taxa de reuso de componentes colaborativos.",
+        "Qualidade e performance de soluções colaborativas.",
+        "Custo de desenvolvimento compartilhado.",
+        "Taxa de sucesso de lançamentos colaborativos."
       ],
       "sampling_guidance": "Amostragem Analisar 5-7 projetos recentes de desenvolvimento, identificando grau de colaboração externa, parceiros envolvidos e contribuições específicas de cada participante."
     },
@@ -488,10 +533,23 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Inventário de ferramentas digitais de colaboração em uso. Arquitetura de integração de sistemas (internos e com parceiros). APIs e interfaces de integração documentadas. Plataformas de colaboração em nuvem. Dashboards compartilhados e visibilidade de dados. Infraestrutura de IoT e conectividade. Capacidades de analytics e IA para suporte à colaboração. Políticas de segurança e governança de dados compartilhados."
+        "Inventário de ferramentas digitais de colaboração em uso.",
+        "Arquitetura de integração de sistemas (internos e com parceiros).",
+        "APIs e interfaces de integração documentadas.",
+        "Plataformas de colaboração em nuvem.",
+        "Dashboards compartilhados e visibilidade de dados.",
+        "Infraestrutura de IoT e conectividade.",
+        "Capacidades de analytics e IA para suporte à colaboração.",
+        "Políticas de segurança e governança de dados compartilhados."
       ],
       "metrics": [
-        "Métricas/KPIs Grau de digitalização da comunicação e colaboração (% de interações digitais). Número de integrações ativas com sistemas de parceiros. Volume de dados trocados digitalmente. Latência de comunicação e sincronização. Disponibilidade e performance de plataformas colaborativas. Taxa de adoção de ferramentas digitais colaborativas. Automação de processos colaborativos."
+        "Grau de digitalização da comunicação e colaboração (% de interações digitais).",
+        "Número de integrações ativas com sistemas de parceiros.",
+        "Volume de dados trocados digitalmente.",
+        "Latência de comunicação e sincronização.",
+        "Disponibilidade e performance de plataformas colaborativas.",
+        "Taxa de adoção de ferramentas digitais colaborativas.",
+        "Automação de processos colaborativos."
       ],
       "sampling_guidance": "Amostragem Mapear arquitetura de integração atual, listar todas as ferramentas/plataformas de colaboração digital e avaliar maturidade de uso em 3-5 casos de colaboração recentes."
     },
@@ -586,10 +644,23 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Sistema de gestão de relacionamentos com parceiros (PRM/CRM estendido). Contratos e SLAs com parceiros. Modelos de governança compartilhada documentados. Mecanismos de resolução de conflitos. Políticas de compartilhamento de valor e incentivos. Acordos de confidencialidade e segurança. Pesquisas de satisfação e confiança com parceiros. Registro de histórico de colaborações e performance."
+        "Sistema de gestão de relacionamentos com parceiros (PRM/CRM estendido).",
+        "Contratos e SLAs com parceiros.",
+        "Modelos de governança compartilhada documentados.",
+        "Mecanismos de resolução de conflitos.",
+        "Políticas de compartilhamento de valor e incentivos.",
+        "Acordos de confidencialidade e segurança.",
+        "Pesquisas de satisfação e confiança com parceiros.",
+        "Registro de histórico de colaborações e performance."
       ],
       "metrics": [
-        "Métricas/KPIs Índice de satisfação de parceiros. Índice de confiança e reputação na rede. Número de conflitos e tempo de resolução. Taxa de renovação de parcerias. Crescimento do valor gerado em colaborações. Net Promoter Score (NPS) com parceiros. Diversidade e tamanho do ecossistema. Velocidade de onboarding de novos parceiros."
+        "Índice de satisfação de parceiros. Índice de confiança e reputação na rede.",
+        "Número de conflitos e tempo de resolução.",
+        "Taxa de renovação de parcerias.",
+        "Crescimento do valor gerado em colaborações.",
+        "Net Promoter Score (NPS) com parceiros.",
+        "Diversidade e tamanho do ecossistema.",
+        "Velocidade de onboarding de novos parceiros."
       ],
       "sampling_guidance": "Amostragem Analisar gestão de relacionamento com 5-10 parceiros-chave, avaliando maturidade dos mecanismos de governança, confiança e alinhamento de incentivos."
     }

@@ -127,10 +127,37 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Radar tecnológico atualizado periodicamente com tendências mapeadas. Business cases e relatórios de POCs/pilotos com critérios claros de avaliação e resultados documentados. Contratos e acordos formalizados de parcerias com universidades, startups, centros de pesquisa e institutos de inovação. Orçamento anual dedicado a P&D e inovação digital com acompanhamento de execução. Relatórios de lições aprendidas (post-mortems) de experimentos bem-sucedidos e falhados. Registro de decisões de kill/pivot/scale com justificativas baseadas em dados. Programas de corporate venture, aceleração ou innovation hub. Políticas e comunicações corporativas sobre cultura de erro e experimentação. Canvas de experimentos com hipóteses, métricas e critérios de sucesso definidos. Repositório de conhecimento sobre experimentos realizados e aprendizados capturados. Mapeamento do ecossistema de inovação (stakeholders, natureza das parcerias, status). Registro de participação em eventos, feiras, conferências e comunidades de prática tecnológicas."
+        "Radar tecnológico atualizado periodicamente com tendências mapeadas.",
+        "Business cases e relatórios de POCs/pilotos com critérios claros de avaliação e resultados documentados.",
+        "Contratos e acordos formalizados de parcerias com universidades, startups, centros de pesquisa e institutos de inovação.",
+        "Orçamento anual dedicado a P&D e inovação digital com acompanhamento de execução.",
+        "Relatórios de lições aprendidas (post-mortems) de experimentos bem-sucedidos e falhados.",
+        "Registro de decisões de kill/pivot/scale com justificativas baseadas em dados.",
+        "Programas de corporate venture, aceleração ou innovation hub.",
+        "Políticas e comunicações corporativas sobre cultura de erro e experimentação.",
+        "Canvas de experimentos com hipóteses, métricas e critérios de sucesso definidos.",
+        "Repositório de conhecimento sobre experimentos realizados e aprendizados capturados.",
+        "Mapeamento do ecossistema de inovação (stakeholders, natureza das parcerias, status).",
+        "Registro de participação em eventos, feiras, conferências e comunidades de prática tecnológicas."
       ],
       "metrics": [
-        "Métricas/KPIs Número de tecnologias avaliadas anualmente (scouting tecnológico). % do faturamento ou orçamento alocado para experimentação e inovação digital. Número de POCs/pilotos executados por período. Taxa de conversão do funil de inovação (tecnologias avaliadas → POCs → pilotos → implementações). Tempo médio de ciclo desde identificação de tecnologia até piloto ou decisão. Número de parcerias ativas para co-inovação (universidades, startups, institutos). Número de experimentos realizados por trimestre/ano. Taxa de “kill rate” saudável (idealmente 30-50% dos experimentos descontinuados com base em dados). Tempo entre identificação de falha e pivô/aprendizado capturado. % de experimentos com lições aprendidas formalmente documentadas. Número de ideias de inovação derivadas de aprendizados anteriores. ROI de investimentos em inovação (quando mensurável). Número de patentes, publicações ou inovações geradas em parceria. Frequência de revisões da estratégia de inovação. Tempo de resposta organizacional a mudanças tecnológicas ou de mercado relevantes. % de iniciativas de inovação ajustadas ou canceladas com base em análise de dados. Diversidade de fontes de inteligência tecnológica utilizadas (relatórios, eventos, parcerias, etc.)."
+        "Número de tecnologias avaliadas anualmente (scouting tecnológico).",
+        "% do faturamento ou orçamento alocado para experimentação e inovação digital.",
+        "Número de POCs/pilotos executados por período.",
+        "Taxa de conversão do funil de inovação (tecnologias avaliadas → POCs → pilotos → implementações).",
+        "Tempo médio de ciclo desde identificação de tecnologia até piloto ou decisão.",
+        "Número de parcerias ativas para co-inovação (universidades, startups, institutos).",
+        "Número de experimentos realizados por trimestre/ano.",
+        "Taxa de “kill rate” saudável (idealmente 30-50% dos experimentos descontinuados com base em dados).",
+        "Tempo entre identificação de falha e pivô/aprendizado capturado.",
+        "% de experimentos com lições aprendidas formalmente documentadas.",
+        "Número de ideias de inovação derivadas de aprendizados anteriores.",
+        "ROI de investimentos em inovação (quando mensurável).",
+        "Número de patentes, publicações ou inovações geradas em parceria.",
+        "Frequência de revisões da estratégia de inovação.",
+        "Tempo de resposta organizacional a mudanças tecnológicas ou de mercado relevantes.",
+        "% de iniciativas de inovação ajustadas ou canceladas com base em análise de dados.",
+        "Diversidade de fontes de inteligência tecnológica utilizadas (relatórios, eventos, parcerias, etc.)."
       ],
       "sampling_guidance": "Amostragem Analisar as últimas 5-10 tecnologias ou inovações avaliadas nos últimos 12-24 meses, rastreando todo o caminho desde identificação inicial até decisão final (implementar/descartar/postergar), incluindo participantes, análises realizadas, dados utilizados, experimentos conduzidos e aprendizados capturados. Revisar orçamento de inovação dos últimos 3 anos e mapear as 5-10 principais parcerias ativas com seus resultados tangíveis. Selecionar 3-5 experimentos que falharam nos últimos 12 meses e verificar tratamento (análise formal, lições documentadas, consequências para equipe). Comparar versões da estratégia de inovação dos últimos 2-3 anos identificando mudanças significativas e seus gatilhos. —"
     },
@@ -235,10 +262,28 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Relatórios de análise de causa-raiz (RCA) utilizando métodos como 5 Porquês, Ishikawa, A3 ou equivalentes. Documentos de post-mortems de projetos e experimentos (bem-sucedidos e falhados). Repositório ou base de conhecimento de lições aprendidas acessível à organização. Atas de retrospectivas ágeis ou reuniões de lessons learned. Políticas formais sobre error management e comunicação de erros. Registros de “blameless post-mortems” ou sessões de aprendizado sem atribuição de culpa. Comunicações da liderança celebrando falhas que geraram aprendizado. Canal formal para reporte de erros (sistema de tickets, plataforma colaborativa). Evidências de mudanças em processos/práticas originadas de lições aprendidas. Treinamentos sobre cultura de erro e aprendizado organizacional."
+        "Relatórios de análise de causa-raiz (RCA) utilizando métodos como 5 Porquês, Ishikawa, A3 ou equivalentes.",
+        "Documentos de post-mortems de projetos e experimentos (bem-sucedidos e falhados).",
+        "Repositório ou base de conhecimento de lições aprendidas acessível à organização.",
+        "Atas de retrospectivas ágeis ou reuniões de lessons learned.",
+        "Políticas formais sobre error management e comunicação de erros.",
+        "Registros de “blameless post-mortems” ou sessões de aprendizado sem atribuição de culpa.",
+        "Comunicações da liderança celebrando falhas que geraram aprendizado.",
+        "Canal formal para reporte de erros (sistema de tickets, plataforma colaborativa).",
+        "Evidências de mudanças em processos/práticas originadas de lições aprendidas.",
+        "Treinamentos sobre cultura de erro e aprendizado organizacional."
       ],
       "metrics": [
-        "Métricas/KPIs Número de análises formais de erro realizadas por período. % de projetos/experimentos com post-mortem documentado. Tempo médio entre ocorrência de erro e análise formal. % de lições aprendidas que resultaram em mudanças implementadas. Taxa de recorrência de erros similares (indica se aprendizado está sendo aplicado). Número de acessos ao repositório de lições aprendidas. % de colaboradores treinados em error management. Net Promoter Score (NPS) interno sobre segurança psicológica para reportar erros. Número de inovações originadas de insights de erros anteriores. Tempo médio de detecção de erros (MTTD - Mean Time To Detect)."
+        "Número de análises formais de erro realizadas por período.",
+        "% de projetos/experimentos com post-mortem documentado.",
+        "Tempo médio entre ocorrência de erro e análise formal.",
+        "% de lições aprendidas que resultaram em mudanças implementadas.",
+        "Taxa de recorrência de erros similares (indica se aprendizado está sendo aplicado).",
+        "Número de acessos ao repositório de lições aprendidas.",
+        "% de colaboradores treinados em error management.",
+        "Net Promoter Score (NPS) interno sobre segurança psicológica para reportar erros.",
+        "Número de inovações originadas de insights de erros anteriores.",
+        "Tempo médio de detecção de erros (MTTD - Mean Time To Detect)."
       ],
       "sampling_guidance": "Amostragem Selecionar 5-7 erros ou falhas significativas dos últimos 12-18 meses e verificar: existência de análise formal, metodologia utilizada, participantes, tempo até análise, lições documentadas, ações corretivas implementadas, compartilhamento com outras equipes, e evidências de que não houve punição aos envolvidos. Entrevistar 5-10 colaboradores de diferentes níveis sobre percepção de segurança psicológica para reportar erros."
     },
@@ -343,10 +388,28 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Organogramas mostrando estrutura hierárquica e níveis de decisão. Políticas formais de delegação de autoridade e limites de alçada para inovação. Fluxogramas de processos de aprovação para ideias e experimentos. Descrições de papéis e responsabilidades (RACI, job descriptions) indicando autonomia. Evidências de estruturas descentralizadas (squads, tribes, células autônomas, OKRs em cascata). Orçamento dedicado por time/squad para experimentação sem aprovações múltiplas. Plataformas de ideação mostrando fluxo desde submissão até execução. Atas de reuniões mostrando quem toma decisões sobre experimentação. Registros de experimentos iniciados por times sem aprovação prévia da alta liderança. Comunicações sobre empoderamento e autonomia dos colaboradores. Evidências de times multifuncionais autogerenciados."
+        "Organogramas mostrando estrutura hierárquica e níveis de decisão.",
+        "Políticas formais de delegação de autoridade e limites de alçada para inovação.",
+        "Fluxogramas de processos de aprovação para ideias e experimentos.",
+        "Descrições de papéis e responsabilidades (RACI, job descriptions) indicando autonomia.",
+        "Evidências de estruturas descentralizadas (squads, tribes, células autônomas, OKRs em cascata).",
+        "Orçamento dedicado por time/squad para experimentação sem aprovações múltiplas.",
+        "Plataformas de ideação mostrando fluxo desde submissão até execução.",
+        "Atas de reuniões mostrando quem toma decisões sobre experimentação.",
+        "Registros de experimentos iniciados por times sem aprovação prévia da alta liderança.",
+        "Comunicações sobre empoderamento e autonomia dos colaboradores.",
+        "Evidências de times multifuncionais autogerenciados."
       ],
       "metrics": [
-        "Métricas/KPIs Número de níveis hierárquicos que uma ideia precisa atravessar para aprovação. Tempo médio desde submissão de ideia até autorização para experimentar. % de ideias/experimentos iniciados por colaboradores sem envolvimento da alta liderança. Número de experimentos em paralelo conduzidos por times autônomos. % de orçamento de inovação alocado diretamente para times vs centralizado. Índice de empoderamento percebido (survey interno com escala validada). % de decisões sobre inovação tomadas em até 1 semana. Taxa de implementação de ideias bottom-up vs top-down. Número de times/squads com autonomia formal para experimentar. % de colaboradores que reportam sentir-se empoderados para inovar (pesquisa de clima)."
+        "Número de níveis hierárquicos que uma ideia precisa atravessar para aprovação.",
+        "Tempo médio desde submissão de ideia até autorização para experimentar.",
+        "% de ideias/experimentos iniciados por colaboradores sem envolvimento da alta liderança.",
+        "Número de experimentos em paralelo conduzidos por times autônomos.",
+        "% de orçamento de inovação alocado diretamente para times vs centralizado. Índice de empoderamento percebido (survey interno com escala validada).",
+        "% de decisões sobre inovação tomadas em até 1 semana.",
+        "Taxa de implementação de ideias bottom-up vs top-down.",
+        "Número de times/squads com autonomia formal para experimentar.",
+        "% de colaboradores que reportam sentir-se empoderados para inovar (pesquisa de clima)."
       ],
       "sampling_guidance": "Amostragem Mapear o fluxo completo de 5-7 ideias recentes desde submissão até implementação ou rejeição: quantos níveis de aprovação, tempo em cada etapa, quem tomou decisões, nível hierárquico dos proponentes. Entrevistar 8-12 colaboradores de diferentes níveis sobre percepção de autonomia usando escala padronizada. Analisar % do orçamento de inovação que está alocado centralmente vs descentralizado em times. Verificar quantos experimentos/pilotos foram iniciados no último trimestre sem aprovação prévia da C-level."
     },
@@ -453,10 +516,28 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Registro temporal de experimentos mostrando data de concepção, início, marcos e conclusão. Metodologias de experimentação documentadas (Lean Startup, Design Sprint, MVP, etc.). Ferramentas e plataformas de prototipagem rápida disponíveis (Figma, InVision, low-code platforms). Infraestrutura técnica para experimentação (ambientes de sandbox, feature flags, A/B testing). Evidências de uso de métodos ágeis (sprints curtos, retrospectivas frequentes). Histórico de MVPs (Minimum Viable Products) desenvolvidos e tempo até validação. Documentação de pivots rápidos baseados em aprendizado. Calendário de Design Sprints ou Innovation Sprints realizados. Acesso a ambientes de desenvolvimento e teste isolados. Processos de continuous integration/continuous delivery (CI/CD) habilitando deploys rápidos."
+        "Registro temporal de experimentos mostrando data de concepção, início, marcos e conclusão.",
+        "Metodologias de experimentação documentadas (Lean Startup, Design Sprint, MVP, etc.).",
+        "Ferramentas e plataformas de prototipagem rápida disponíveis (Figma, InVision, low-code platforms).",
+        "Infraestrutura técnica para experimentação (ambientes de sandbox, feature flags, A/B testing).",
+        "Evidências de uso de métodos ágeis (sprints curtos, retrospectivas frequentes).",
+        "Histórico de MVPs (Minimum Viable Products) desenvolvidos e tempo até validação.",
+        "Documentação de pivots rápidos baseados em aprendizado.",
+        "Calendário de Design Sprints ou Innovation Sprints realizados.",
+        "Acesso a ambientes de desenvolvimento e teste isolados.",
+        "Processos de continuous integration/continuous delivery (CI/CD) habilitando deploys rápidos."
       ],
       "metrics": [
-        "Métricas/KPIs Tempo médio desde concepção de ideia até primeiro teste em ambiente real (lead time de experimentação). Tempo médio de cada ciclo de build-measure-learn. Número de experimentos executados por trimestre. Número de iterações/pivots por experimento antes de decisão final. % de experimentos que seguem metodologias ágeis estruturadas. Tempo médio para provisionar recursos (infraestrutura, equipe) para experimento. Número de MVPs lançados por período. Frequência de deploys em ambientes de teste. % de experimentos concluídos dentro do prazo planejado. Número de experimentos em paralelo sendo executados."
+        "Tempo médio desde concepção de ideia até primeiro teste em ambiente real (lead time de experimentação).",
+        "Tempo médio de cada ciclo de build-measure-learn.",
+        "Número de experimentos executados por trimestre.",
+        "Número de iterações/pivots por experimento antes de decisão final.",
+        "% de experimentos que seguem metodologias ágeis estruturadas.",
+        "Tempo médio para provisionar recursos (infraestrutura, equipe) para experimento.",
+        "Número de MVPs lançados por período.",
+        "Frequência de deploys em ambientes de teste.",
+        "% de experimentos concluídos dentro do prazo planejado.",
+        "Número de experimentos em paralelo sendo executados."
       ],
       "sampling_guidance": "habilitando deploys rápidos. B) Métricas/KPIs Tempo médio desde concepção de ideia até primeiro teste em ambiente real (lead time de experimentação). Tempo médio de cada ciclo de build-measure-learn. Número de experimentos executados por trimestre. Número de iterações/pivots por experimento antes de decisão final. % de experimentos que seguem metodologias ágeis estruturadas. Tempo médio para provisionar recursos (infraestrutura, equipe) para experimento. Número de MVPs lançados por período. Frequência de deploys em ambientes de teste. % de experimentos concluídos dentro do prazo planejado. Número de experimentos em paralelo sendo executados. C) Sinais por nível N0: ausência de processo; ideias nunca testadas ou >12 meses; sem infraestrutura para experimentação; mentalidade de “planejamento perfeito”. N1: processo muito lento (6-12 meses); alta burocracia; dependência de recursos compartilhados escassos; múltiplas aprovações sequenciais. N2: processo lento (3-6 meses); alguma estrutura mas com muitas dependências; recursos ainda competidos; aprovações múltiplas. N3: moderadamente ágil (1-3 meses); alguma dedicação de recursos; ainda há dependências significativas; processo definido mas não otimizado. N4: ágil (2-8 semanas); metodologias estruturadas (Design Sprint, Lean); recursos dedicados; ciclos iterativos claros; ferramentas adequadas. N5: altamente ágil (1-4 semanas); infraestrutura madura; feature flags e A/B testing; prototipagem rápida; cultura build-measure-learn estabelecida. N6: ultrarrápido (3-10 dias); continuous delivery; automação ampla; ambientes on-demand; múltiplos experimentos paralelos; aprendizado em tempo quase real. D) Amostragem Rastrear cronologicamente 5-8 experimentos recentes desde concepção até conclusão, documentando: data de cada etapa, tempo total, número de iterações, metodologia utilizada, recursos envolvidos, bloqueios encontrados. Calcular lead time médio de experimentação dos últimos 6-12 meses. Verificar quantos experimentos foram executados em paralelo no último trimestre. Entrevistar 3-5 product owners ou líderes de inovação sobre percepção de velocidade e obstáculos."
     }

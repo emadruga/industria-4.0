@@ -120,10 +120,21 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Calendário de rituais interfuncionais (cadência, pauta e presença). Atas de reuniões com lista de participantes e decisões. Plataformas de comunicação (Slack, Teams, Confluence) com histórico de canais e threads. RAACIs/matrizes de responsabilidade compartilhadas. Portais de conhecimento e wikis corporativos com métricas de acesso. Documentos de governança de comunicação e protocolos de compartilhamento de informação. Acordos de colaboração e parcerias com stakeholders externos."
+        "Calendário de rituais interfuncionais (cadência, pauta e presença).",
+        "Atas de reuniões com lista de participantes e decisões.",
+        "Plataformas de comunicação (Slack, Teams, Confluence) com histórico de canais e threads.",
+        "RAACIs/matrizes de responsabilidade compartilhadas.",
+        "Portais de conhecimento e wikis corporativos com métricas de acesso.",
+        "Documentos de governança de comunicação e protocolos de compartilhamento de informação.",
+        "Acordos de colaboração e parcerias com stakeholders externos."
       ],
       "metrics": [
-        "Métricas/KPIs Taxa de participação em canais de comunicação por função/área. Número de interações entre áreas (mensagens, reuniões, documentos compartilhados). Tempo de resposta médio entre áreas. Taxa de retrabalho ou falhas de comunicação. Número de projetos/iniciativas interáreas concluídos por período. Índice de transparência (% de decisões e informações documentadas e acessíveis). NPS interno de comunicação e colaboração."
+        "Taxa de participação em canais de comunicação por função/área.",
+        "Número de interações entre áreas (mensagens, reuniões, documentos compartilhados).",
+        "Tempo de resposta médio entre áreas.",
+        "Taxa de retrabalho ou falhas de comunicação.",
+        "Número de projetos/iniciativas interáreas concluídos por período. Índice de transparência (% de decisões e informações documentadas e acessíveis).",
+        "NPS interno de comunicação e colaboração."
       ],
       "sampling_guidance": "Amostragem Selecionar 3-5 iniciativas recentes que exigiram colaboração entre áreas ou com parceiros externos e mapear o fluxo de comunicação (frequência, canais, participantes, tempo de resposta, qualidade das informações compartilhadas). Entrevistar representantes de diferentes áreas sobre a efetividade dos canais de comunicação. Analisar atas de reuniões interfuncionais dos últimos 90 dias."
     },
@@ -227,10 +238,24 @@
         }
       ],
       "artifacts": [
-        "Documentos de política de transparência organizacional (governança de comunicação). Cronogramas de comunicações oficiais (town halls, all-hands meetings, newsletters executivas). Plataformas de comunicação institucional (intranet, portais, aplicativos corporativos). Atas de comitês executivos e decisões estratégicas publicadas. Gravações ou transcrições de reuniões de liderança compartilhadas. Políticas de acesso à informação e classificação de dados. Canais de comunicação bidirecional (fóruns, AMAs - Ask Me Anything). Pesquisas de transparência e confiança organizacional. Métricas de acesso e engajamento com comunicações institucionais."
+        "Documentos de política de transparência organizacional (governança de comunicação).",
+        "Cronogramas de comunicações oficiais (town halls, all-hands meetings, newsletters executivas).",
+        "Plataformas de comunicação institucional (intranet, portais, aplicativos corporativos).",
+        "Atas de comitês executivos e decisões estratégicas publicadas.",
+        "Gravações ou transcrições de reuniões de liderança compartilhadas.",
+        "Políticas de acesso à informação e classificação de dados.",
+        "Canais de comunicação bidirecional (fóruns, AMAs - Ask Me Anything).",
+        "Pesquisas de transparência e confiança organizacional.",
+        "Métricas de acesso e engajamento com comunicações institucionais."
       ],
       "metrics": [
-        "Taxa de abertura de comunicações oficiais (e-mails, newsletters). Frequência de comunicações top-down vs bottom-up. Tempo médio entre decisão estratégica e comunicação formal. % de decisões com contexto e justificativa compartilhados. Índice de transparência percebida (survey). NPS interno de comunicação da liderança. Taxa de participação em canais bidirecionais (perguntas em AMAs, postagens em fóruns). % de colaboradores que se sentem informados sobre estratégia (pesquisa de clima)."
+        "Taxa de abertura de comunicações oficiais (e-mails, newsletters).",
+        "Frequência de comunicações top-down vs bottom-up.",
+        "Tempo médio entre decisão estratégica e comunicação formal.",
+        "% de decisões com contexto e justificativa compartilhados. Índice de transparência percebida (survey).",
+        "NPS interno de comunicação da liderança.",
+        "Taxa de participação em canais bidirecionais (perguntas em AMAs, postagens em fóruns).",
+        "% de colaboradores que se sentem informados sobre estratégia (pesquisa de clima)."
       ],
       "sampling_guidance": "Mapear todas as comunicações estratégicas dos últimos 90 dias: tipo, canal, audiência, timing entre decisão e comunicação, presença de contexto/justificativa. Entrevistar 8-12 colaboradores de diferentes níveis sobre percepção de transparência e acesso à informação. Analisar políticas de governança de comunicação e classificação de informações."
     },
@@ -335,10 +360,26 @@
         }
       ],
       "artifacts": [
-        "Sistema de gestão de performance e feedback (HRIS, plataformas de feedback contínuo). Registros de sessões de feedback (1:1s, avaliações, check-ins). Templates e guias de feedback estruturado. Calendário de ciclos de feedback. Plataformas de feedback 360° e multi-rater. Pesquisas de clima sobre cultura de feedback. Programas de treinamento em dar e receber feedback. Métricas de frequência e qualidade de feedback. Canais de feedback anônimo. Políticas de segurança psicológica e feedback construtivo."
+        "Sistema de gestão de performance e feedback (HRIS, plataformas de feedback contínuo).",
+        "Registros de sessões de feedback (1:1s, avaliações, check-ins).",
+        "Templates e guias de feedback estruturado.",
+        "Calendário de ciclos de feedback.",
+        "Plataformas de feedback 360° e multi-rater.",
+        "Pesquisas de clima sobre cultura de feedback.",
+        "Programas de treinamento em dar e receber feedback.",
+        "Métricas de frequência e qualidade de feedback.",
+        "Canais de feedback anônimo.",
+        "Políticas de segurança psicológica e feedback construtivo."
       ],
       "metrics": [
-        "Frequência média de feedback (dias entre sessões). % de colaboradores que receberam feedback no último mês/trimestre. Taxa de uso de ferramentas de feedback. Índice de segurança psicológica (survey). % de feedback multidirecional vs unidirecional. NPS de qualidade do feedback recebido. Tempo médio de resposta a feedback (closure do loop). % de colaboradores treinados em práticas de feedback. Correlação entre frequência de feedback e engajamento."
+        "Frequência média de feedback (dias entre sessões).",
+        "% de colaboradores que receberam feedback no último mês/trimestre.",
+        "Taxa de uso de ferramentas de feedback. Índice de segurança psicológica (survey).",
+        "% de feedback multidirecional vs unidirecional.",
+        "NPS de qualidade do feedback recebido.",
+        "Tempo médio de resposta a feedback (closure do loop).",
+        "% de colaboradores treinados em práticas de feedback.",
+        "Correlação entre frequência de feedback e engajamento."
       ],
       "sampling_guidance": "Analisar registros de feedback dos últimos 6 meses: frequência, direção (upward/downward/lateral), qualidade, ações resultantes. Entrevistar 10-15 colaboradores de diferentes níveis sobre experiência com feedback. Revisar ferramentas e plataformas disponíveis. Analisar pesquisas de clima sobre segurança psicológica e cultura de feedback."
     },
@@ -443,10 +484,26 @@
         }
       ],
       "artifacts": [
-        "Plano de comunicação de crise documentado. Protocolos de comunicação em situações de emergência. Histórico de comunicações durante crises anteriores (e-mails, town halls, vídeos). Canais de comunicação de emergência (aplicativos, SMS, hotlines). Pesquisas de percepção durante e após crises. Atas de reuniões de gestão de crise. FAQs atualizados durante crises. Registros de perguntas e respostas em canais bidirecionais. Análise de sentimento durante períodos de crise. Treinamentos de porta-vozes e gestão de crise."
+        "Plano de comunicação de crise documentado.",
+        "Protocolos de comunicação em situações de emergência.",
+        "Histórico de comunicações durante crises anteriores (e-mails, town halls, vídeos).",
+        "Canais de comunicação de emergência (aplicativos, SMS, hotlines).",
+        "Pesquisas de percepção durante e após crises.",
+        "Atas de reuniões de gestão de crise.",
+        "FAQs atualizados durante crises.",
+        "Registros de perguntas e respostas em canais bidirecionais.",
+        "Análise de sentimento durante períodos de crise.",
+        "Treinamentos de porta-vozes e gestão de crise."
       ],
       "metrics": [
-        "Tempo entre início da crise e primeira comunicação oficial. Frequência de atualizações durante crise. Taxa de abertura/visualização de comunicações de crise. % de colaboradores que se sentem informados durante crises (survey). Número de perguntas recebidas vs respondidas. Tempo médio de resposta a perguntas. Índice de ansiedade organizacional (survey pré e pós). Taxa de disseminação de rumores/desinformação. NPS de comunicação de crise."
+        "Tempo entre início da crise e primeira comunicação oficial.",
+        "Frequência de atualizações durante crise.",
+        "Taxa de abertura/visualização de comunicações de crise.",
+        "% de colaboradores que se sentem informados durante crises (survey).",
+        "Número de perguntas recebidas vs respondidas.",
+        "Tempo médio de resposta a perguntas. Índice de ansiedade organizacional (survey pré e pós).",
+        "Taxa de disseminação de rumores/desinformação.",
+        "NPS de comunicação de crise."
       ],
       "sampling_guidance": "Analisar as 3-5 crises ou mudanças significativas mais recentes: tempo de resposta, frequência de comunicação, canais utilizados, transparência, responsividade. Entrevistar 10-15 colaboradores sobre experiência de comunicação durante crises. Revisar planos de comunicação de crise. Analisar pesquisas de clima durante e após crises."
     },
@@ -551,10 +608,27 @@
         }
       ],
       "artifacts": [
-        "Plataformas de escuta organizacional (caixas de sugestões digitais, pulse surveys, fóruns). Sistema de gestão de ideias e sugestões. Registros de inputs recebidos e status de resposta. Políticas de escuta ativa e tempo de resposta. Pesquisas de engajamento e clima. Canais de comunicação anônimos. Ferramentas de análise de sentimento. Atas de comitês de revisão de sugestões. Métricas de tempo de resposta e taxa de implementação. Programas de reconhecimento de ideias implementadas."
+        "Plataformas de escuta organizacional (caixas de sugestões digitais, pulse surveys, fóruns).",
+        "Sistema de gestão de ideias e sugestões.",
+        "Registros de inputs recebidos e status de resposta.",
+        "Políticas de escuta ativa e tempo de resposta.",
+        "Pesquisas de engajamento e clima.",
+        "Canais de comunicação anônimos.",
+        "Ferramentas de análise de sentimento.",
+        "Atas de comitês de revisão de sugestões.",
+        "Métricas de tempo de resposta e taxa de implementação.",
+        "Programas de reconhecimento de ideias implementadas."
       ],
       "metrics": [
-        "Número de inputs recebidos por canal por período. Taxa de resposta a inputs (% respondidos). Tempo médio de resposta a inputs. Taxa de fechamento do loop (% com resolução comunicada). % de sugestões implementadas. Índice de satisfação com escuta organizacional (survey). Taxa de utilização de canais de escuta. Diversidade de fontes de input (diferentes áreas, níveis). Correlação entre escuta ativa e engajamento. Tempo entre identificação de problema e ação corretiva."
+        "Número de inputs recebidos por canal por período.",
+        "Taxa de resposta a inputs (% respondidos).",
+        "Tempo médio de resposta a inputs.",
+        "Taxa de fechamento do loop (% com resolução comunicada).",
+        "% de sugestões implementadas. Índice de satisfação com escuta organizacional (survey).",
+        "Taxa de utilização de canais de escuta.",
+        "Diversidade de fontes de input (diferentes áreas, níveis).",
+        "Correlação entre escuta ativa e engajamento.",
+        "Tempo entre identificação de problema e ação corretiva."
       ],
       "sampling_guidance": "Analisar todos os inputs recebidos nos últimos 6 meses: volume, canais, temas, tempo de resposta, ações tomadas. Entrevistar 10-15 colaboradores sobre percepção de escuta organizacional. Revisar processos e políticas de gestão de inputs. Analisar taxa de implementação de sugestões e reconhecimento dado."
     }

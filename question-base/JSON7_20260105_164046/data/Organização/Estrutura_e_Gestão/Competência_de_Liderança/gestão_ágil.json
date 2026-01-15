@@ -130,10 +130,26 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Certificações e treinamentos da liderança em gestão ágil (Scrum Master, SAFe Agilist, Kanban, etc.). Participação em eventos (conferências ágeis, workshops, comunidades de prática). Biblioteca de livros/materiais sobre gestão ágil acessados pela liderança. Assinaturas de publicações especializadas (Harvard Business Review, MIT Sloan, revistas ágeis). Roadmap de transformação ágil desenhado pela liderança. Documentação de iniciativas ágeis patrocinadas pela liderança. Contratos com consultorias especializadas em transformação ágil. Framework ágil adotado (Scrum, Kanban, SAFe, LeSS, etc.) e evidências de customização. Rituais de liderança baseados em princípios ágeis (OKRs, retrospectivas de C-level, etc.)."
+        "Certificações e treinamentos da liderança em gestão ágil (Scrum Master, SAFe Agilist, Kanban, etc.).",
+        "Participação em eventos (conferências ágeis, workshops, comunidades de prática).",
+        "Biblioteca de livros/materiais sobre gestão ágil acessados pela liderança.",
+        "Assinaturas de publicações especializadas (Harvard Business Review, MIT Sloan, revistas ágeis).",
+        "Roadmap de transformação ágil desenhado pela liderança.",
+        "Documentação de iniciativas ágeis patrocinadas pela liderança.",
+        "Contratos com consultorias especializadas em transformação ágil.",
+        "Framework ágil adotado (Scrum, Kanban, SAFe, LeSS, etc.) e evidências de customização.",
+        "Rituais de liderança baseados em princípios ágeis (OKRs, retrospectivas de C-level, etc.)."
       ],
       "metrics": [
-        "Métricas/KPIs % da liderança com certificação em gestão ágil. Horas de treinamento em gestão ágil por líder/ano. Número de iniciativas ágeis patrocinadas pela liderança. % de áreas da organização com práticas ágeis implementadas. Tempo médio de ciclo para decisões estratégicas (redução ao longo do tempo). Taxa de experimentação (pilotos/MVPs lançados por trimestre). Frequência de adaptação do roadmap estratégico. NPS interno sobre agilidade da liderança. Lead time de iniciativas estratégicas (ideia → execução)."
+        "% da liderança com certificação em gestão ágil.",
+        "Horas de treinamento em gestão ágil por líder/ano.",
+        "Número de iniciativas ágeis patrocinadas pela liderança.",
+        "% de áreas da organização com práticas ágeis implementadas.",
+        "Tempo médio de ciclo para decisões estratégicas (redução ao longo do tempo).",
+        "Taxa de experimentação (pilotos/MVPs lançados por trimestre).",
+        "Frequência de adaptação do roadmap estratégico.",
+        "NPS interno sobre agilidade da liderança.",
+        "Lead time de iniciativas estratégicas (ideia → execução)."
       ],
       "sampling_guidance": "Amostragem Entrevistar 3-5 membros da alta liderança para avaliar: (1) familiaridade com terminologia ágil (sprints, retrospectivas, MVPs, OKRs, etc.); (2) participação em treinamentos/eventos nos últimos 12 meses; (3) capacidade de explicar como aplicam princípios ágeis em suas decisões; (4) exemplos concretos de iniciativas ágeis que patrocinaram; (5) como adaptaram práticas ágeis ao contexto da empresa. Analisar últimos 12 meses de iniciativas estratégicas para verificar aplicação de princípios ágeis (iterativo, incremental, feedback rápido)."
     },
@@ -231,10 +247,23 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Atas de reuniões executivas com pautas sobre transformação ágil. Orçamento alocado para iniciativas ágeis (treinamentos, ferramentas, consultorias, coaches). Comunicados oficiais da liderança sobre compromisso com agilidade. Presença de executivos em cerimônias ágeis (sprint reviews, PI planning, town halls). Roadmap estratégico incluindo objetivos de transformação ágil. Decisões de priorização que favorecem iniciativas ágeis. Documentação de impedimentos escalados e resolvidos pela liderança. Contratações de roles ágeis (Scrum Masters, Agile Coaches, Product Owners)."
+        "Atas de reuniões executivas com pautas sobre transformação ágil.",
+        "Orçamento alocado para iniciativas ágeis (treinamentos, ferramentas, consultorias, coaches).",
+        "Comunicados oficiais da liderança sobre compromisso com agilidade.",
+        "Presença de executivos em cerimônias ágeis (sprint reviews, PI planning, town halls).",
+        "Roadmap estratégico incluindo objetivos de transformação ágil.",
+        "Decisões de priorização que favorecem iniciativas ágeis.",
+        "Documentação de impedimentos escalados e resolvidos pela liderança.",
+        "Contratações de roles ágeis (Scrum Masters, Agile Coaches, Product Owners)."
       ],
       "metrics": [
-        "Métricas/KPIs % do orçamento de TI/Operações dedicado a transformação ágil. Frequência de participação de executivos em eventos ágeis. Tempo médio de resolução de impedimentos escalados. Número de iniciativas ágeis patrocinadas por executivos. Taxa de aprovação rápida de investimentos ágeis vs. tradicionais. NPS de times sobre suporte da liderança. % de executivos com treinamento/certificação ágil."
+        "% do orçamento de TI/Operações dedicado a transformação ágil.",
+        "Frequência de participação de executivos em eventos ágeis.",
+        "Tempo médio de resolução de impedimentos escalados.",
+        "Número de iniciativas ágeis patrocinadas por executivos.",
+        "Taxa de aprovação rápida de investimentos ágeis vs. tradicionais.",
+        "NPS de times sobre suporte da liderança.",
+        "% de executivos com treinamento/certificação ágil."
       ],
       "sampling_guidance": "Amostragem Analisar últimos 6 meses: (1) atas de comitê executivo (quantas mencionam agilidade?); (2) orçamento aprovado para iniciativas ágeis; (3) lista de presença de executivos em eventos ágeis; (4) exemplos de impedimentos resolvidos por escalação; (5) comunicações oficiais sobre agilidade."
     },
@@ -328,10 +357,22 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Calendário de cerimônias com lista de presença de clientes/stakeholders (sprint reviews, demos). Backlog com evidências de input de clientes (user stories com origem, feedback registrado). Atas de reuniões de refinamento/priorização com clientes. Canais de comunicação dedicados (Slack, Teams) com clientes ativos. Contratos/acordos que especificam participação de clientes. Feedback logs (pesquisas, entrevistas, testes de usabilidade). Artefatos de co-criação (design sprints, workshops, prototipação conjunta)."
+        "Calendário de cerimônias com lista de presença de clientes/stakeholders (sprint reviews, demos).",
+        "Backlog com evidências de input de clientes (user stories com origem, feedback registrado).",
+        "Atas de reuniões de refinamento/priorização com clientes.",
+        "Canais de comunicação dedicados (Slack, Teams) com clientes ativos.",
+        "Contratos/acordos que especificam participação de clientes.",
+        "Feedback logs (pesquisas, entrevistas, testes de usabilidade).",
+        "Artefatos de co-criação (design sprints, workshops, prototipação conjunta)."
       ],
       "metrics": [
-        "Métricas/KPIs Taxa de participação de clientes em sprint reviews (% de sprints com cliente presente). Tempo médio de resposta de clientes a dúvidas/solicitações. % de user stories validadas por clientes antes de desenvolvimento. Frequência de interação (média de contatos por semana). NPS/CSAT dos clientes sobre o processo colaborativo. % de mudanças no backlog originadas de feedback de cliente. Lead time de esclarecimento de dúvidas."
+        "Taxa de participação de clientes em sprint reviews (% de sprints com cliente presente).",
+        "Tempo médio de resposta de clientes a dúvidas/solicitações.",
+        "% de user stories validadas por clientes antes de desenvolvimento.",
+        "Frequência de interação (média de contatos por semana).",
+        "NPS/CSAT dos clientes sobre o processo colaborativo.",
+        "% de mudanças no backlog originadas de feedback de cliente.",
+        "Lead time de esclarecimento de dúvidas."
       ],
       "sampling_guidance": "Amostragem Analisar últimas 10 sprints: (1) taxa de presença de clientes em reviews; (2) número de interações registradas por sprint; (3) % de PBIs que tiveram validação prévia; (4) exemplos de mudanças de direção baseadas em feedback; (5) tempo médio entre dúvida e resposta do cliente."
     },
@@ -431,10 +472,50 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Assessment de cultura organizacional (ex: Competing Values Framework, Denison, OCAI). Pesquisas de clima e engajamento com questões sobre confiança, autonomia, tolerância a erros. Documentação de valores corporativos e evidências de aplicação prática. Registros de retrospectivas e ações de melhoria implementadas. Post-mortems de falhas com foco em aprendizado (vs. culpabilização). Políticas de gestão de pessoas (avaliação, promoção, recompensas) alinhadas com valores ágeis. Canais de comunicação abertos (town halls, AMAs, fóruns)."
+        "Assessment de cultura organizacional (ex: Competing Values Framework, Denison, OCAI).",
+        "Pesquisas de clima e engajamento com questões sobre confiança, autonomia, tolerância a erros.",
+        "Documentação de valores corporativos e evidências de aplicação prática.",
+        "Registros de retrospectivas e ações de melhoria implementadas.",
+        "Post-mortems de falhas com foco em aprendizado (vs. culpabilização).",
+        "Políticas de gestão de pessoas (avaliação, promoção, recompensas) alinhadas com valores ágeis.",
+        "Canais de comunicação abertos (town halls, AMAs, fóruns)."
       ],
       "metrics": [
-        "Métricas/KPIs Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno). Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado). % de decisões tomadas de forma descentralizada. Tempo de implementação de ações de retrospectivas. Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score). Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno). Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado). % de decisões tomadas de forma descentralizada. Tempo de implementação de ações de retrospectivas. Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score). Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno). Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado). % de decisões tomadas de forma descentralizada. Tempo de implementação de ações de retrospectivas. Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score). Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno). Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado). % de decisões tomadas de forma descentralizada. Tempo de implementação de ações de retrospectivas. Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score). Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno). Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado). % de decisões tomadas de forma descentralizada. Tempo de implementação de ações de retrospectivas. Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score). Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno). Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado). % de decisões tomadas de forma descentralizada. Tempo de implementação de ações de retrospectivas. Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score). Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno). Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado). % de decisões tomadas de forma descentralizada. Tempo de implementação de ações de retrospectivas. Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score)."
+        "Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno).",
+        "Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado).",
+        "% de decisões tomadas de forma descentralizada.",
+        "Tempo de implementação de ações de retrospectivas.",
+        "Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score).",
+        "Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno).",
+        "Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado).",
+        "% de decisões tomadas de forma descentralizada.",
+        "Tempo de implementação de ações de retrospectivas.",
+        "Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score).",
+        "Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno).",
+        "Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado).",
+        "% de decisões tomadas de forma descentralizada.",
+        "Tempo de implementação de ações de retrospectivas.",
+        "Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score).",
+        "Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno).",
+        "Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado).",
+        "% de decisões tomadas de forma descentralizada.",
+        "Tempo de implementação de ações de retrospectivas.",
+        "Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score).",
+        "Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno).",
+        "Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado).",
+        "% de decisões tomadas de forma descentralizada.",
+        "Tempo de implementação de ações de retrospectivas.",
+        "Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score).",
+        "Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno).",
+        "Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado).",
+        "% de decisões tomadas de forma descentralizada.",
+        "Tempo de implementação de ações de retrospectivas.",
+        "Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score).",
+        "Score de segurança psicológica (survey baseado em Edmondson). Índice de confiança entre áreas (survey interno).",
+        "Taxa de “falhas celebradas” (experimentos que falharam mas geraram aprendizado).",
+        "% de decisões tomadas de forma descentralizada.",
+        "Tempo de implementação de ações de retrospectivas.",
+        "Turnover em times ágeis vs. tradicionais. eNPS (employee Net Promoter Score)."
       ],
       "sampling_guidance": "Amostragem Realizar survey de cultura ágil com amostra representativa (mín. 50 pessoas de diferentes níveis/áreas). Analisar últimas 5 retrospectivas de 3 times: quantas ações foram implementadas? Houve resistência? Revisar 3 post-mortems recentes: foco em aprendizado ou culpa?"
     },
@@ -535,10 +616,24 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Catálogo de treinamentos ágeis disponíveis (básico, intermediário, avançado, especializado). Trilhas de aprendizagem e planos de desenvolvimento individual (PDIs). Matriz de competências ágeis e gap analysis. Contratos com empresas de treinamento/coaching. Relação de coaches/Scrum Masters (dedicados, part-time, ratio coach:time). Agenda de coaching e sessões de mentoring. Registros de certificações obtidas (CSM, CSPO, SAFe, etc.). Comunidades de prática (CoPs, chapters, guilds) com calendário de encontros. Materiais de treinamento interno desenvolvidos."
+        "Catálogo de treinamentos ágeis disponíveis (básico, intermediário, avançado, especializado).",
+        "Trilhas de aprendizagem e planos de desenvolvimento individual (PDIs).",
+        "Matriz de competências ágeis e gap analysis.",
+        "Contratos com empresas de treinamento/coaching.",
+        "Relação de coaches/Scrum Masters (dedicados, part-time, ratio coach:time).",
+        "Agenda de coaching e sessões de mentoring.",
+        "Registros de certificações obtidas (CSM, CSPO, SAFe, etc.).",
+        "Comunidades de prática (CoPs, chapters, guilds) com calendário de encontros.",
+        "Materiais de treinamento interno desenvolvidos."
       ],
       "metrics": [
-        "Métricas/KPIs % da força de trabalho treinada em práticas ágeis (por nível: básico, intermediário, avançado). Horas de treinamento per capita em agilidade (anual). Número de certificações ágeis por 100 colaboradores. Ratio coach:time (ideal: 1:3 a 1:5 times por coach). Taxa de conclusão de trilhas de desenvolvimento. $ investido em capacitação ágil / colaborador / ano. Frequência de coaching (sessões/time/mês). Participação em CoPs (% de profissionais ágeis ativos)."
+        "% da força de trabalho treinada em práticas ágeis (por nível: básico, intermediário, avançado).",
+        "Horas de treinamento per capita em agilidade (anual).",
+        "Número de certificações ágeis por 100 colaboradores.",
+        "Ratio coach:time (ideal: 1:3 a 1:5 times por coach).",
+        "Taxa de conclusão de trilhas de desenvolvimento. $ investido em capacitação ágil / colaborador / ano.",
+        "Frequência de coaching (sessões/time/mês).",
+        "Participação em CoPs (% de profissionais ágeis ativos)."
       ],
       "sampling_guidance": "Amostragem Analisar: (1) % de pessoas treinadas por nível nos últimos 12 meses; (2) ratio atual de coaches:times; (3) budget de capacitação ágil vs. total de treinamento; (4) amostra de 10 PDIs para verificar inclusão de competências ágeis; (5) atividade de CoPs nos últimos 3 meses."
     },
@@ -645,10 +740,25 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Plano de transformação ágil (roadmap, fases, milestones). Assessment de prontidão organizacional (readiness assessment usando frameworks validados). Plano de gestão de mudança (stakeholder analysis, plano de comunicação, plano de resistências). Estrutura de governança (steering committee, transformation office, agile COE). Mapa de stakeholders e estratégia de engajamento. Plano de comunicação da transformação (canais, frequência, mensagens-chave). Registro de riscos e resistências com plano de mitigação. Métricas de transformação (leading e lagging indicators). Lições aprendidas documentadas e ações corretivas. Roadmap de evolução pós-transformação inicial."
+        "Plano de transformação ágil (roadmap, fases, milestones).",
+        "Assessment de prontidão organizacional (readiness assessment usando frameworks validados).",
+        "Plano de gestão de mudança (stakeholder analysis, plano de comunicação, plano de resistências).",
+        "Estrutura de governança (steering committee, transformation office, agile COE).",
+        "Mapa de stakeholders e estratégia de engajamento.",
+        "Plano de comunicação da transformação (canais, frequência, mensagens-chave).",
+        "Registro de riscos e resistências com plano de mitigação.",
+        "Métricas de transformação (leading e lagging indicators).",
+        "Lições aprendidas documentadas e ações corretivas.",
+        "Roadmap de evolução pós-transformação inicial."
       ],
       "metrics": [
-        "Métricas/KPIs Completion rate de fases do plano de transformação. % de times que completaram transição ágil. Lead time de transformação por time/área. Índice de resistência (survey ou análise qualitativa). Engajamento em iniciativas de transformação (participação em eventos, surveys). Sustentabilidade (% de times que mantêm práticas após 12 meses). ROI da transformação (benefícios vs. investimento). Velocidade/throughput antes vs. depois (evidência de melhoria)."
+        "Completion rate de fases do plano de transformação.",
+        "% de times que completaram transição ágil.",
+        "Lead time de transformação por time/área. Índice de resistência (survey ou análise qualitativa).",
+        "Engajamento em iniciativas de transformação (participação em eventos, surveys).",
+        "Sustentabilidade (% de times que mantêm práticas após 12 meses).",
+        "ROI da transformação (benefícios vs. investimento).",
+        "Velocidade/throughput antes vs. depois (evidência de melhoria)."
       ],
       "sampling_guidance": "Amostragem Analisar: (1) documentação de plano de transformação e assessment inicial; (2) evidências de governance (atas de steering committee dos últimos 6 meses); (3) plano de comunicação e exemplos de execução; (4) métricas de progresso; (5) registro de resistências e ações de mitigação; (6) survey de sustentabilidade (práticas mantidas após 12+ meses)."
     }
