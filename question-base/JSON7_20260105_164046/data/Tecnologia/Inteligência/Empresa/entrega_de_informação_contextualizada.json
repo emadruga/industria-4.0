@@ -111,12 +111,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Relatórios de BI e dashboards corporativos. Logs e registros de sistemas ERP/MES. Documentação de integração de dados (APIs, Data Lakes, ETL). Relatórios de auditoria sobre governança de dados."
+        "Relatórios de BI e dashboards corporativos.",
+        "Logs e registros de sistemas ERP/MES.",
+        "Documentação de integração de dados (APIs, Data Lakes, ETL).",
+        "Relatórios de auditoria sobre governança de dados."
       ],
       "metrics": [
-        "Métricas/KPIs Tempo médio para disponibilização de informações relevantes. Nível de integração entre sistemas (número de interfaces automatizadas vs. manuais). Percentual de decisões suportadas por insights de dados. Taxa de acurácia dos modelos de previsão."
+        "Tempo médio para disponibilização de informações relevantes.",
+        "Nível de integração entre sistemas (número de interfaces automatizadas vs. manuais).",
+        "Percentual de decisões suportadas por insights de dados.",
+        "Taxa de acurácia dos modelos de previsão."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores de TI, analistas de dados e líderes de operação. Amostra de relatórios históricos e dashboards recentes. Demonstração prática de ferramentas de analytics utilizadas."
+      "sampling_guidance": "Entrevistas com gestores de TI, analistas de dados e líderes de operação; amostra de relatórios históricos e dashboards recentes; demonstração prática de ferramentas de analytics utilizadas."
     },
     {
       "id": "Q-TEC-INTELI-CORPOR-019-002",
@@ -196,12 +202,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Diagramas de arquitetura de sistemas e fluxos de dados. Registros de integração (APIs, middleware, gateways IoT). Documentação de interoperabilidade (protocolos, padrões de dados). Relatórios de sincronização entre ERP, MES e sistemas de automação."
+        "Diagramas de arquitetura de sistemas e fluxos de dados.",
+        "Registros de integração (APIs, middleware, gateways IoT).",
+        "Documentação de interoperabilidade (protocolos, padrões de dados).",
+        "Relatórios de sincronização entre ERP, MES e sistemas de automação."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de processos automatizados entre Enterprise e Facility. Tempo médio de atualização de dados entre sistemas. Número de integrações automáticas versus manuais. Taxa de consistência de dados entre níveis."
+        "Percentual de processos automatizados entre Enterprise e Facility.",
+        "Tempo médio de atualização de dados entre sistemas.",
+        "Número de integrações automáticas versus manuais.",
+        "Taxa de consistência de dados entre níveis."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com equipes de TI, automação e gestores de operação. Análise documental de diagramas de sistemas. Demonstração de painéis de integração em uso."
+      "sampling_guidance": "Entrevistas com equipes de TI, automação e gestores de operação; análise documental de diagramas de sistemas; demonstração de painéis de integração em uso."
     },
     {
       "id": "Q-TEC-INTELI-CORPOR-019-003",
@@ -281,12 +293,18 @@
       }
 ],
     "artifacts": [
- "Artefatos e onde buscar  Registros de logs e trilhas de auditoria. Políticas de governança de dados e documentação de metadados. Relatórios de controle de qualidade da informação. Dashboards de monitoramento de integridade e consistência de dados."
+      "Registros de logs e trilhas de auditoria.",
+      "Políticas de governança de dados e documentação de metadados.",
+      "Relatórios de controle de qualidade da informação.",
+      "Dashboards de monitoramento de integridade e consistência de dados."
 ],
     "metrics": [
-"Métricas/KPIs Percentual de inconsistências detectadas e corrigidas automaticamente. Taxa de integridade de dados entre sistemas. Tempo médio de detecção e correção de erros. Frequência de falhas de rastreabilidade em auditorias internas."
+      "Percentual de inconsistências detectadas e corrigidas automaticamente.",
+      "Taxa de integridade de dados entre sistemas.",
+      "Tempo médio de detecção e correção de erros.",
+      "Frequência de falhas de rastreabilidade em auditorias internas."
 ],
-    "sampling_guidance": "Amostragem Entrevistas com gestores de TI e responsáveis por governança de dados. Análise de registros de qualidade e relatórios de auditoria. Avaliação prática de sistemas de monitoramento e alertas."
+    "sampling_guidance": "Entrevistas com gestores de TI e responsáveis por governança de dados; análise de registros de qualidade e relatórios de auditoria; avaliação prática de sistemas de monitoramento e alertas."
     },
     {
       "id": "Q-TEC-INTELI-CORPOR-019-004",
@@ -366,12 +384,18 @@
       }
 ],
     "artifacts": [
- "Artefatos e onde buscar  Relatórios e dashboards analíticos. Documentação de uso de algoritmos e modelos de IA. Registros de scripts e pipelines de dados (ETL, Data Lake). Logs de previsão e análises automatizadas."
+      "Relatórios e dashboards analíticos.",
+      "Documentação de uso de algoritmos e modelos de IA.",
+      "Registros de scripts e pipelines de dados (ETL, Data Lake).",
+      "Logs de previsão e análises automatizadas."
 ],
     "metrics": [
-"Métricas/KPIs Percentual de decisões suportadas por análises de dados. Precisão e acurácia dos modelos preditivos. Tempo de resposta entre coleta de dados e geração de insights. Redução de falhas ou custos baseada em análises preditivas."
+      "Percentual de decisões suportadas por análises de dados.",
+      "Precisão e acurácia dos modelos preditivos.",
+      "Tempo de resposta entre coleta de dados e geração de insights.",
+      "Redução de falhas ou custos baseada em análises preditivas."
 ],
-    "sampling_guidance": "Amostragem Entrevistas com analistas de dados, gestores de TI e operação. Observação de uso de painéis analíticos. Verificação de logs de execução de modelos preditivos. Revisão de relatórios de melhoria baseados em previsões."
+    "sampling_guidance": "Entrevistas com analistas de dados, gestores de TI e operação; observação de uso de painéis analíticos; verificação de logs de execução de modelos preditivos; revisão de relatórios de melhoria baseados em previsões."
     },
     {
       "id": "Q-TEC-INTELI-CORPOR-019-005",
@@ -451,12 +475,18 @@
       }
 ],
     "artifacts": [
- "Artefatos e onde buscar  Políticas de acesso à informação e perfis de usuário. Relatórios de auditoria de uso de dashboards e sistemas analíticos. Evidências de treinamentos e programas de capacitação digital. Registros de decisões operacionais descentralizadas."
+      "Políticas de acesso à informação e perfis de usuário.",
+      "Relatórios de auditoria de uso de dashboards e sistemas analíticos.",
+      "Evidências de treinamentos e programas de capacitação digital.",
+      "Registros de decisões operacionais descentralizadas."
 ],
     "metrics": [
-"Métricas/KPIs Percentual de decisões tomadas com base em informações digitais. Tempo médio de resposta entre evento e decisão local. Autonomia percebida pelos colaboradores. Número de usuários ativos em plataformas analíticas."
+      "Percentual de decisões tomadas com base em informações digitais.",
+      "Tempo médio de resposta entre evento e decisão local.",
+      "Autonomia percebida pelos colaboradores.",
+      "Número de usuários ativos em plataformas analíticas."
 ],
-    "sampling_guidance": "Amostragem Entrevistas com líderes e operadores de diferentes áreas. Observação de reuniões de decisão com base em dados. Avaliação de logs de acesso e relatórios de uso de dashboards. Análise de programas de capacitação digital."
+    "sampling_guidance": "Entrevistas com líderes e operadores de diferentes áreas; observação de reuniões de decisão com base em dados; avaliação de logs de acesso e relatórios de uso de dashboards; análise de programas de capacitação digital."
     }
   ],
   "references": [
