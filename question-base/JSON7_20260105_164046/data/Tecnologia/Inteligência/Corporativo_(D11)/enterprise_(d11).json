@@ -107,12 +107,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Políticas de gestão do conhecimento e aprendizado. Registros de reuniões de análise de desempenho. Relatórios e dashboards de indicadores de aprendizado. Documentação de planos de ação baseados em dados."
+        "Políticas de gestão do conhecimento e aprendizado.",
+        "Registros de reuniões de análise de desempenho.",
+        "Relatórios e dashboards de indicadores de aprendizado.",
+        "Documentação de planos de ação baseados em dados."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de decisões sustentadas por evidências de dados. Número de lições aprendidas incorporadas em processos. Frequência de análises de desempenho baseadas em dados. Índice de maturidade da cultura de dados."
+        "Percentual de decisões sustentadas por evidências de dados.",
+        "Número de lições aprendidas incorporadas em processos.",
+        "Frequência de análises de desempenho baseadas em dados.",
+        "Índice de maturidade da cultura de dados."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores e analistas sobre processos de aprendizado. Análise documental de planos de ação e relatórios de lições aprendidas. Observação de reuniões de revisão de desempenho. Avaliação de plataformas de gestão do conhecimento e BI."
+      "sampling_guidance": "Entrevistas com gestores e analistas sobre processos de aprendizado; análise documental de planos de ação e relatórios de lições aprendidas; observação de reuniões de revisão de desempenho; avaliação de plataformas de gestão do conhecimento e BI."
     },
     {
       "id": "Q-TEC-INTELI-CORPOR-018-002",
@@ -192,12 +198,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Registros de treinamentos e certificações em análise de dados. Relatórios de uso de dashboards e ferramentas de BI. Políticas de desenvolvimento de competências digitais. Entrevistas com equipes sobre processos de decisão e uso de dados."
+        "Registros de treinamentos e certificações em análise de dados.",
+        "Relatórios de uso de dashboards e ferramentas de BI.",
+        "Políticas de desenvolvimento de competências digitais.",
+        "Entrevistas com equipes sobre processos de decisão e uso de dados."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de colaboradores treinados em análise de dados. Número de decisões apoiadas por ferramentas analíticas. Frequência de uso de dashboards e relatórios. Índice de maturidade de competência analítica (por setor)."
+        "Percentual de colaboradores treinados em análise de dados.",
+        "Número de decisões apoiadas por ferramentas analíticas.",
+        "Frequência de uso de dashboards e relatórios.",
+        "Índice de maturidade de competência analítica (por setor)."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores e analistas. Revisão de relatórios e dashboards utilizados nas áreas. Observação de reuniões de decisão baseadas em dados. Avaliação de materiais de capacitação digital."
+      "sampling_guidance": "Entrevistas com gestores e analistas; revisão de relatórios e dashboards utilizados nas áreas; observação de reuniões de decisão baseadas em dados; avaliação de materiais de capacitação digital."
     },
     {
       "id": "Q-TEC-INTELI-CORPOR-018-003",
@@ -277,12 +289,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Relatórios de lições aprendidas e planos de ação. Registros de reuniões de análise crítica e auditorias internas. Sistemas digitais de feedback e gestão do conhecimento. Indicadores de performance vinculados a melhorias contínuas."
+        "Relatórios de lições aprendidas e planos de ação.",
+        "Registros de reuniões de análise crítica e auditorias internas.",
+        "Sistemas digitais de feedback e gestão do conhecimento.",
+        "Indicadores de performance vinculados a melhorias contínuas."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de planos de ação derivados de feedbacks concluídos. Frequência de revisões de desempenho baseadas em dados. Taxa de reincidência de falhas após aplicação de feedback. Tempo médio entre ocorrência e ação corretiva."
+        "Percentual de planos de ação derivados de feedbacks concluídos.",
+        "Frequência de revisões de desempenho baseadas em dados.",
+        "Taxa de reincidência de falhas após aplicação de feedback.",
+        "Tempo médio entre ocorrência e ação corretiva."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores e equipes sobre práticas de feedback. Análise de relatórios de auditoria e de melhoria contínua. Observação de reuniões de análise crítica. Avaliação de sistemas de gestão do conhecimento."
+      "sampling_guidance": "Entrevistas com gestores e equipes sobre práticas de feedback; análise de relatórios de auditoria e de melhoria contínua; observação de reuniões de análise crítica; avaliação de sistemas de gestão do conhecimento."
     },
     {
       "id": "Q-TEC-INTELI-CORPOR-018-004",
@@ -362,12 +380,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Políticas de ética e governança de dados. Relatórios de auditoria e compliance digital. Registros de consentimento e controle de acesso. Logs de rastreabilidade de sistemas e decisões automatizadas."
+        "Políticas de ética e governança de dados.",
+        "Relatórios de auditoria e compliance digital.",
+        "Registros de consentimento e controle de acesso.",
+        "Logs de rastreabilidade de sistemas e decisões automatizadas."
       ],
       "metrics": [
-        "Métricas/KPIs Taxa de conformidade com políticas de privacidade (LGPD/GDPR). Número de incidentes de uso indevido de dados. Índice de confiança organizacional em sistemas de decisão. Percentual de decisões auditáveis e explicáveis."
+        "Taxa de conformidade com políticas de privacidade (LGPD/GDPR).",
+        "Número de incidentes de uso indevido de dados.",
+        "Índice de confiança organizacional em sistemas de decisão.",
+        "Percentual de decisões auditáveis e explicáveis."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com equipes de compliance, TI e gestão de dados. Análise de relatórios de auditoria e conformidade. Verificação de logs e registros de acesso a dados. Observação de processos de tomada de decisão automatizada."
+      "sampling_guidance": "Entrevistas com equipes de compliance, TI e gestão de dados; análise de relatórios de auditoria e conformidade; verificação de logs e registros de acesso a dados; observação de processos de tomada de decisão automatizada."
     },
     {
       "id": "Q-TEC-INTELI-CORPOR-018-005",
@@ -447,12 +471,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Relatórios de revisão e melhoria de processos baseados em dados. Registros de uso de sistemas de monitoramento em tempo real. Planos de ação e indicadores derivados de análises preditivas. Documentação de projetos de inovação orientados por dados."
+        "Relatórios de revisão e melhoria de processos baseados em dados.",
+        "Registros de uso de sistemas de monitoramento em tempo real.",
+        "Planos de ação e indicadores derivados de análises preditivas.",
+        "Documentação de projetos de inovação orientados por dados."
       ],
       "metrics": [
-        "Métricas/KPIs Tempo médio de resposta a mudanças críticas. Percentual de processos revisados com base em análises de dados. Taxa de sucesso em decisões adaptativas (ajustes proativos). Nível de integração entre sistemas de monitoramento e decisão."
+        "Tempo médio de resposta a mudanças críticas.",
+        "Percentual de processos revisados com base em análises de dados.",
+        "Taxa de sucesso em decisões adaptativas (ajustes proativos).",
+        "Nível de integração entre sistemas de monitoramento e decisão."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com gestores e equipes sobre reações a mudanças. Observação de ciclos de decisão baseados em dados. Avaliação de logs e relatórios de automação adaptativa. Revisão de planos estratégicos e indicadores de inovação."
+      "sampling_guidance": "Entrevistas com gestores e equipes sobre reações a mudanças; observação de ciclos de decisão baseados em dados; avaliação de logs e relatórios de automação adaptativa; revisão de planos estratégicos e indicadores de inovação."
     }
   ],
   "references": [
