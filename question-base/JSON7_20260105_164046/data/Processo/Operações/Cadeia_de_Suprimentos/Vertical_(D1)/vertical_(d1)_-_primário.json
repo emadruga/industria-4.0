@@ -110,12 +110,17 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Diagramas de arquitetura de sistemas (ERP, MES, SCADA, PLC). Registros de logs de integração e fluxos de dados. Relatórios de desempenho de sistemas interligados. Documentação técnica de APIs, middleware e protocolos de integração."
+        "Diagramas de arquitetura de sistemas (ERP, MES, SCADA, PLC).",
+        "Registros de logs de integração e fluxos de dados.",
+        "Relatórios de desempenho de sistemas interligados.",
+        "Documentação técnica de APIs, middleware e protocolos de integração."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de processos automatizados entre ERP e MES. Tempo médio de sincronização entre eventos de produção e registros no ERP Taxa de consistência de dados entre sistemas. Percentual de dados operacionais utilizados em decisões corporativas."
+        "Percentual de processos automatizados entre ERP e MES.",
+        "Tempo médio de sincronização entre eventos de produção e registros no ERP Taxa de consistência de dados entre sistemas.",
+        "Percentual de dados operacionais utilizados em decisões corporativas."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com equipes de TI, automação e planejamento. Análise documental de fluxos de integração e logs de sistemas. Observação de processos de sincronização e atualização de dados. Revisão de painéis de controle e relatórios de integração."
+      "sampling_guidance": "Entrevistas com equipes de TI, automação e planejamento; análise documental de fluxos de integração e logs de sistemas; observação de processos de sincronização e atualização de dados; revisão de painéis de controle e relatórios de integração."
     },
     {
       "id": "Q-PROC-OPERAÇ-VERTIC-016-002",
@@ -195,12 +200,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Registros de logs e histórico de atualização de dados. Diagramas de integração entre ERP, MES e SCADA. Relatórios de sincronização de ordens de produção. Dashboards e painéis corporativos com indicadores em tempo real."
+        "Registros de logs e histórico de atualização de dados.",
+        "Diagramas de integração entre ERP, MES e SCADA.",
+        "Relatórios de sincronização de ordens de produção.",
+        "Dashboards e painéis corporativos com indicadores em tempo real."
       ],
       "metrics": [
-        "Métricas/KPIs Tempo médio de sincronização entre eventos de chão de fábrica e o ERP. Percentual de dados operacionais disponíveis em tempo real. Taxa de divergência entre planos e execução. Tempo de resposta entre detecção de anomalias e ajuste do plano."
+        "Tempo médio de sincronização entre eventos de chão de fábrica e o ERP.",
+        "Percentual de dados operacionais disponíveis em tempo real.",
+        "Taxa de divergência entre planos e execução.",
+        "Tempo de resposta entre detecção de anomalias e ajuste do plano."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com equipes de planejamento, manutenção e produção. Observação do fluxo de atualização entre sistemas. Revisão de relatórios e logs de integração. Avaliação de dashboards e ferramentas de monitoramento."
+      "sampling_guidance": "Entrevistas com equipes de planejamento, manutenção e produção; observação do fluxo de atualização entre sistemas; revisão de relatórios e logs de integração; avaliação de dashboards e ferramentas de monitoramento."
     },
     {
       "id": "Q-PROC-OPERAÇ-VERTIC-016-003",
@@ -280,12 +291,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Registros de rastreabilidade (ordens de produção, lotes, séries). Logs de sistemas MES, SCADA, ERP e IoT. Dashboards e relatórios de desempenho produtivo. Documentos de controle de qualidade e manutenção."
+        "Registros de rastreabilidade (ordens de produção, lotes, séries).",
+        "Logs de sistemas MES, SCADA, ERP e IoT.",
+        "Dashboards e relatórios de desempenho produtivo.",
+        "Documentos de controle de qualidade e manutenção."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de processos e produtos rastreáveis digitalmente. Tempo médio para rastrear a origem de um produto ou evento. Percentual de dados visíveis em tempo real. Taxa de detecção de falhas antes da ocorrência."
+        "Percentual de processos e produtos rastreáveis digitalmente.",
+        "Tempo médio para rastrear a origem de um produto ou evento.",
+        "Percentual de dados visíveis em tempo real.",
+        "Taxa de detecção de falhas antes da ocorrência."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com equipes de produção, qualidade e logística. Verificação prática de sistemas de rastreabilidade e dashboards. Revisão de relatórios de controle e eventos de produção. Análise de logs de integração entre sistemas."
+      "sampling_guidance": "Entrevistas com equipes de produção, qualidade e logística; verificação prática de sistemas de rastreabilidade e dashboards; revisão de relatórios de controle e eventos de produção; análise de logs de integração entre sistemas."
     },
     {
       "id": "Q-PROC-OPERAÇ-VERTIC-016-004",
@@ -365,12 +382,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Política de governança de dados e padrões de integração. Documentação de modelos de dados e dicionários corporativos. Logs de integração e relatórios de consistência de dados. Registros de auditorias de dados e validações automáticas."
+        "Política de governança de dados e padrões de integração.",
+        "Documentação de modelos de dados e dicionários corporativos.",
+        "Logs de integração e relatórios de consistência de dados.",
+        "Registros de auditorias de dados e validações automáticas."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de sistemas aderentes ao modelo de dados corporativo. Número de inconsistências de dados detectadas por período. Taxa de integridade de dados entre sistemas integrados. Tempo médio de correção de erros de sincronização."
+        "Percentual de sistemas aderentes ao modelo de dados corporativo.",
+        "Número de inconsistências de dados detectadas por período.",
+        "Taxa de integridade de dados entre sistemas integrados.",
+        "Tempo médio de correção de erros de sincronização."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com equipes de TI, engenharia de dados e automação. Revisão documental de modelos e padrões de integração. Observação de rotinas de sincronização e controle de qualidade de dados. Avaliação de logs de consistência entre sistemas corporativos e operacionais."
+      "sampling_guidance": "Entrevistas com equipes de TI, engenharia de dados e automação; revisão documental de modelos e padrões de integração; observação de rotinas de sincronização e controle de qualidade de dados; avaliação de logs de consistência entre sistemas corporativos e operacionais."
     },
     {
       "id": "Q-PROC-OPERAÇ-VERTIC-016-005",
@@ -450,12 +473,18 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Relatórios e dashboards analíticos (BI, IoT, MES, ERP). Registros de uso de algoritmos preditivos e de IA. Logs de simulações e ajustes automáticos de processos. Documentação de integração entre sistemas de dados e analytics."
+        "Relatórios e dashboards analíticos (BI, IoT, MES, ERP).",
+        "Registros de uso de algoritmos preditivos e de IA.",
+        "Logs de simulações e ajustes automáticos de processos.",
+        "Documentação de integração entre sistemas de dados e analytics."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de processos com suporte de análise preditiva. Redução de falhas ou paradas não planejadas. Tempo de resposta entre detecção e correção de desvios. Precisão dos modelos preditivos implementados."
+        "Percentual de processos com suporte de análise preditiva.",
+        "Redução de falhas ou paradas não planejadas.",
+        "Tempo de resposta entre detecção e correção de desvios.",
+        "Precisão dos modelos preditivos implementados."
       ],
-      "sampling_guidance": "Amostragem Entrevistas com equipes de TI, engenharia de dados e produção. Análise de relatórios de desempenho e logs de IA. Verificação de dashboards preditivos e históricos de ajustes automáticos. Observação de casos de uso de machine learning na operação."
+      "sampling_guidance": "Amostragem Entrevistas com equipes de TI, engenharia de dados e produção; análise de relatórios de desempenho e logs de IA; verificação de dashboards preditivos e históricos de ajustes automáticos; observação de casos de uso de machine learning na operação."
     }
   ],
   "references": [
