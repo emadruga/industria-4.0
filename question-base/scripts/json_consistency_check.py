@@ -22,6 +22,7 @@ from pathlib import Path
 from typing import Dict, List, Any, Set, Tuple
 from collections import defaultdict
 from dataclasses import dataclass, field
+import pandas as pd
 
 
 @dataclass
@@ -42,6 +43,7 @@ class ValidationReport:
     issues: List[ValidationIssue] = field(default_factory=list)
     authors: Set[str] = field(default_factory=set)
     frameworks: Set[str] = field(default_factory=set)
+    capacity_names: Set[str] = field(default_factory=set)
 
     def add_issue(self, issue: ValidationIssue):
         self.issues.append(issue)
@@ -89,8 +91,9 @@ class JSONConsistencyChecker:
     VALID_FRAMEWORKS = {'ACATECH', 'SIRI'}
     VALID_STATUSES = {'draft', 'review', 'approved', 'published'}
 
-    def __init__(self, data_dir: Path):
+    def __init__(self, data_dir: Path, excel_path: Path = None):
         self.data_dir = Path(data_dir)
+        self.excel_path = excel_path
         self.report = ValidationReport()
 
     def validate_all_files(self) -> ValidationReport:
@@ -110,6 +113,10 @@ class JSONConsistencyChecker:
         self.report.valid_files = self.report.total_files - len([
             i for i in self.report.issues if i.severity == 'ERROR'
         ])
+
+        # Validate capacity coverage if Excel file is provided
+        if self.excel_path:
+            self._validate_capacity_coverage()
 
         return self.report
 
@@ -143,6 +150,11 @@ class JSONConsistencyChecker:
         self._validate_capacity(data.get('capacity', {}), rel_path)
         self._validate_questions(data.get('questions', []), rel_path)
         self._validate_references(data.get('references', []), rel_path)
+
+        # Collect capacity name for coverage validation
+        capacity = data.get('capacity', {})
+        if capacity and 'name' in capacity:
+            self.report.capacity_names.add(capacity['name'])
 
     def _validate_top_level_structure(self, data: Dict, file_path: Path):
         """Validate top-level structure"""
@@ -663,6 +675,64 @@ class JSONConsistencyChecker:
                     message="Citation mentions URL but 'url' field is missing"
                 ))
 
+    def _validate_capacity_coverage(self):
+        """Validate that all capacities from Excel spreadsheet have implementation in JSON catalog"""
+        try:
+            print(f"\nValidating capacity coverage against Excel file: {self.excel_path}")
+
+            # Read Excel file
+            df = pd.read_excel(self.excel_path)
+
+            # Extract capacity names from column 3 (index 3), skipping header row
+            # Also extract responsible person from column 8 (index 8)
+            capacity_data = {}
+            for i in range(1, len(df)):
+                capacity_name = df.iloc[i, 3]
+                responsible = df.iloc[i, 8]
+                if pd.notna(capacity_name):
+                    capacity_data[capacity_name] = responsible if pd.notna(responsible) else "Unknown"
+
+            excel_capacities_set = set(capacity_data.keys())
+
+            print(f"Found {len(excel_capacities_set)} unique capacities in Excel spreadsheet")
+            print(f"Found {len(self.report.capacity_names)} unique capacities in JSON catalog")
+
+            # Find capacities in Excel but not in JSON catalog
+            missing_capacities = excel_capacities_set - self.report.capacity_names
+
+            # Find capacities in JSON catalog but not in Excel
+            extra_capacities = self.report.capacity_names - excel_capacities_set
+
+            if missing_capacities:
+                for capacity in sorted(missing_capacities):
+                    responsible = capacity_data.get(capacity, "Unknown")
+                    self.report.add_issue(ValidationIssue(
+                        file_path="CATALOG_COVERAGE",
+                        severity='ERROR',
+                        category='CAPACITY_COVERAGE',
+                        message=f"Capacity from Excel spreadsheet not implemented in JSON catalog: '{capacity}' (Assigned to: {responsible})"
+                    ))
+
+            if extra_capacities:
+                for capacity in sorted(extra_capacities):
+                    self.report.add_issue(ValidationIssue(
+                        file_path="CATALOG_COVERAGE",
+                        severity='INFO',
+                        category='CAPACITY_COVERAGE',
+                        message=f"Capacity in JSON catalog not found in Excel spreadsheet: '{capacity}'"
+                    ))
+
+            if not missing_capacities and not extra_capacities:
+                print("✓ All capacities from Excel spreadsheet are implemented in JSON catalog")
+
+        except Exception as e:
+            self.report.add_issue(ValidationIssue(
+                file_path="CATALOG_COVERAGE",
+                severity='ERROR',
+                category='CAPACITY_COVERAGE',
+                message=f"Error validating capacity coverage: {str(e)}"
+            ))
+
     @staticmethod
     def _is_valid_version(version: str) -> bool:
         """Check if version follows semantic versioning pattern"""
@@ -762,13 +832,15 @@ def print_report(report: ValidationReport):
 
 def main():
     """Main entry point"""
-    if len(sys.argv) != 2:
-        print("Usage: python json_consistency_check.py <data_directory>")
+    if len(sys.argv) < 2 or len(sys.argv) > 3:
+        print("Usage: python json_consistency_check.py <data_directory> [excel_file]")
         print("\nExample:")
         print("  python json_consistency_check.py ./question-base/JSON7_20260105_164046/data")
+        print("  python json_consistency_check.py ./question-base/JSON7_20260105_164046/data ./mdic-suframa/templates/acatech_siri_comparacao.xlsx")
         sys.exit(1)
 
     data_dir = Path(sys.argv[1])
+    excel_path = Path(sys.argv[2]) if len(sys.argv) == 3 else None
 
     if not data_dir.exists():
         print(f"Error: Directory not found: {data_dir}")
@@ -778,10 +850,17 @@ def main():
         print(f"Error: Not a directory: {data_dir}")
         sys.exit(1)
 
-    print(f"JSON Consistency Checker")
-    print(f"Data directory: {data_dir.absolute()}\n")
+    if excel_path and not excel_path.exists():
+        print(f"Error: Excel file not found: {excel_path}")
+        sys.exit(1)
 
-    checker = JSONConsistencyChecker(data_dir)
+    print(f"JSON Consistency Checker")
+    print(f"Data directory: {data_dir.absolute()}")
+    if excel_path:
+        print(f"Excel file: {excel_path.absolute()}")
+    print()
+
+    checker = JSONConsistencyChecker(data_dir, excel_path)
     report = checker.validate_all_files()
     print_report(report)
 
