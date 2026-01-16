@@ -247,8 +247,8 @@
         },
         {
           "level": 3,
-          "label": "A rastreabilidade é digital e parcial entre parceiros diretos (ex.",
-          "description": "fornecedor principal e cliente imediato).",
+          "label": "Nível 3",
+          "description": "A rastreabilidade é digital e parcial entre parceiros diretos (ex: fornecedor principal e cliente imediato).",
           "evidence_signals": {
             "observable_behaviors": [
               "Integração parcial entre alguns parceiros"

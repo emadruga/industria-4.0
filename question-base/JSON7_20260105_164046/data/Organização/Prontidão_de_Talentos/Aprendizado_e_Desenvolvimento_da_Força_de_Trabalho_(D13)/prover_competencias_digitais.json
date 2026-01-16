@@ -657,8 +657,8 @@
         },
         {
           "level": 6,
-          "label": "A integração é completa",
-          "description": "o processo de aprendizado está embutido nos sistemas de execução operacional com feedback automático e ajuste contínuo das práticas.",
+          "label": "Nível 6",
+          "description": "A integração é completa; o processo de aprendizado está embutido nos sistemas de execução operacional com feedback automático e ajuste contínuo das práticas.",
           "evidence_signals": {
             "observable_behaviors": [
               "Feedback em tempo real entre aprendizado e operação"

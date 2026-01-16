@@ -627,8 +627,8 @@
         },
         {
           "level": 3,
-          "label": "Os líderes são formalmente cobrados por (ex",
-          "description": "em suas metas) participar e incentivar ativamente o aprendizado contínuo das equipes.",
+          "label": "Nível 3",
+          "description": "Os líderes são formalmente cobrados por (ex: em suas metas) participar e incentivar ativamente o aprendizado contínuo das equipes.",
           "evidence_signals": {
             "observable_behaviors": [
               "Participação ativa e sistemática dos líderes"

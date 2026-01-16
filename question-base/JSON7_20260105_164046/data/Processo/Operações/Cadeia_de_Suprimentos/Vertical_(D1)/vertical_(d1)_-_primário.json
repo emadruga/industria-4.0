@@ -91,7 +91,7 @@
         {
           "level": 5,
           "label": "Nível 5",
-          "description": "",
+          "description": "A integração vertical utiliza análise preditiva e inteligência artificial para antecipar necessidades de planejamento e execução. Os sistemas corporativos e operacionais trocam informações em tempo real, permitindo ajustes automatizados e proativos com base em previsões e cenários futuros.",
           "evidence_signals": {
             "observable_behaviors": [
               "Integração preditiva e ajustes automatizados"
@@ -101,7 +101,7 @@
         {
           "level": 6,
           "label": "Nível 6",
-          "description": "",
+          "description": "A integração vertical é totalmente autônoma e adaptativa. Todos os sistemas (desde sensores no chão de fábrica até ERP corporativo) operam de forma coordenada e auto-otimizável, com capacidade de adaptação dinâmica em tempo real. O sistema opera de forma integrada mesmo diante de falhas, garantindo resiliência operacional e decisões autônomas alinhadas aos objetivos estratégicos.",
           "evidence_signals": {
             "observable_behaviors": [
               "Integração total, adaptativa e autônoma entre todos os níveis"
@@ -181,7 +181,7 @@
         {
           "level": 5,
           "label": "Nível 5",
-          "description": "",
+          "description": "A sincronização é em tempo real com capacidade preditiva. Os sistemas utilizam análise de dados históricos e em tempo real para prever eventos futuros (ex: paradas, gargalos, falta de materiais) e ajustar automaticamente os planos de produção, manutenção e suprimentos de forma proativa, minimizando impactos antes que problemas ocorram.",
           "evidence_signals": {
             "observable_behaviors": [
               "Replanejamento preditivo e automatizado"
@@ -191,7 +191,7 @@
         {
           "level": 6,
           "label": "Nível 6",
-          "description": "",
+          "description": "A sincronização é autônoma e adaptativa em tempo real. O sistema opera com total autonomia para ajustar planos e processos instantaneamente em resposta a mudanças no ambiente operacional, usando inteligência artificial e aprendizado contínuo. Os sistemas de operação e planejamento funcionam como um organismo integrado, auto-otimizando a cadeia de valor de forma contínua sem necessidade de intervenção humana.",
           "evidence_signals": {
             "observable_behaviors": [
               "Adaptação autônoma e instantânea de planos e processos"
