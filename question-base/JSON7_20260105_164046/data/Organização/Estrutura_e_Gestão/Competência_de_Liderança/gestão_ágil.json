@@ -36,8 +36,8 @@
       "maturity_levels": [
         {
           "level": 0,
-          "label": "Não familiarizada",
-          "description": "A liderança não está familiarizada com os conceitos e práticas mais recentes de gestão ágil. A gestão desconhece os conceitos mais recentes que podem viabilizar a próxima fase de avanço da organização.",
+          "label": "Nível 0",
+          "description": "Não familiarizada: A liderança não está familiarizada com os conceitos e práticas mais recentes de gestão ágil. A gestão desconhece os conceitos mais recentes que podem viabilizar a próxima fase de avanço da organização.",
           "evidence_signals": {
             "observable_behaviors": [
               "liderança desconhece Scrum, Kanban, OKRs, sprints",
@@ -48,8 +48,8 @@
         },
         {
           "level": 1,
-          "label": "Conhecimento Limitado",
-          "description": "A liderança tem alguma consciência, através de canais ad hoc, dos conceitos e práticas mais recentes de gestão ágil. A gestão está parcialmente familiarizada com os conceitos mais recentes que podem viabilizar a próxima fase de avanço.",
+          "label": "Nível 1",
+          "description": "Conhecimento Limitado: A liderança tem alguma consciência, através de canais ad hoc, dos conceitos e práticas mais recentes de gestão ágil. A gestão está parcialmente familiarizada com os conceitos mais recentes que podem viabilizar a próxima fase de avanço.",
           "evidence_signals": {
             "observable_behaviors": [
               "liderança ouviu falar de gestão ágil",
@@ -61,8 +61,8 @@
         },
         {
           "level": 2,
-          "label": "Informada",
-          "description": "A liderança está bem informada, através de canais e vias formais, sobre os conceitos e práticas mais recentes de gestão ágil. A gestão está totalmente familiarizada com os conceitos mais recentes que podem viabilizar a próxima fase de avanço.",
+          "label": "Nível 2",
+          "description": "Informada: A liderança está bem informada, através de canais e vias formais, sobre os conceitos e práticas mais recentes de gestão ágil. A gestão está totalmente familiarizada com os conceitos mais recentes que podem viabilizar a próxima fase de avanço.",
           "evidence_signals": {
             "observable_behaviors": [
               "liderança passou por treinamentos formais em gestão ágil",
@@ -75,8 +75,8 @@
         },
         {
           "level": 3,
-          "label": "Semi-dependente",
-          "description": "A liderança depende de parceiros externos para desenvolver iniciativas que alavancam os conceitos mais recentes de gestão ágil para melhorar pelo menos uma área da organização. Com assistência externa, a gestão é capaz de aplicar os conceitos mais recentes para viabilizar melhorias em pelo menos uma área.",
+          "label": "Nível 3",
+          "description": "Semi-dependente: A liderança depende de parceiros externos para desenvolver iniciativas que alavancam os conceitos mais recentes de gestão ágil para melhorar pelo menos uma área da organização. Com assistência externa, a gestão é capaz de aplicar os conceitos mais recentes para viabilizar melhorias em pelo menos uma área.",
           "evidence_signals": {
             "observable_behaviors": [
               "contratação de consultores especializados para implementar práticas ágeis em uma área piloto (ex: TI)",
@@ -87,8 +87,8 @@
         },
         {
           "level": 4,
-          "label": "Independente",
-          "description": "A liderança é capaz, com relativa independência, de desenvolver iniciativas que alavancam os conceitos e técnicas mais recentes de gestão ágil para melhorar mais de uma área da organização. A gestão é capaz de aplicar os conceitos mais recentes para viabilizar melhorias em múltiplas áreas.",
+          "label": "Nível 4",
+          "description": "Independente: A liderança é capaz, com relativa independência, de desenvolver iniciativas que alavancam os conceitos e técnicas mais recentes de gestão ágil para melhorar mais de uma área da organização. A gestão é capaz de aplicar os conceitos mais recentes para viabilizar melhorias em múltiplas áreas.",
           "evidence_signals": {
             "observable_behaviors": [
               "liderança lidera a expansão de práticas ágeis para múltiplas áreas sem dependência crítica de consultores",
@@ -100,8 +100,8 @@
         },
         {
           "level": 5,
-          "label": "Adaptativa",
-          "description": "A liderança é capaz de adaptar independentemente seu framework de transformação organizacional baseado em gestão ágil conforme os conceitos e tecnologias mudam. A gestão é capaz de incrementar suas iniciativas de melhoria conforme os conceitos mais recentes de gestão ágil mudam ou evoluem ao longo do tempo.",
+          "label": "Nível 5",
+          "description": "Adaptativa: A liderança é capaz de adaptar independentemente seu framework de transformação organizacional baseado em gestão ágil conforme os conceitos e tecnologias mudam. A gestão é capaz de incrementar suas iniciativas de melhoria conforme os conceitos mais recentes de gestão ágil mudam ou evoluem ao longo do tempo.",
           "evidence_signals": {
             "observable_behaviors": [
               "liderança adapta continuamente o modelo de gestão ágil conforme aprende",
@@ -114,8 +114,8 @@
         },
         {
           "level": 6,
-          "label": "Transformacional",
-          "description": "A liderança se tornou referência em gestão ágil, moldando ativamente o futuro da agilidade organizacional. A gestão não apenas adapta práticas existentes mas inova e cria novos modelos, influenciando o ecossistema externo e estabelecendo padrões de excelência em transformação ágil.",
+          "label": "Nível 6",
+          "description": "Transformacional: A liderança se tornou referência em gestão ágil, moldando ativamente o futuro da agilidade organizacional. A gestão não apenas adapta práticas existentes mas inova e cria novos modelos, influenciando o ecossistema externo e estabelecendo padrões de excelência em transformação ágil.",
           "evidence_signals": {
             "observable_behaviors": [
               "organização é referência em gestão ágil",
@@ -550,8 +550,8 @@
         },
         {
           "level": 2,
-          "label": "Existe um programa básico de treinamento inicial (ex",
-          "description": "Scrum Foundation), mas sem coaching ou follow-up.",
+          "label": "Nível 2",
+          "description": "Existe um programa básico de treinamento inicial (ex: Scrum Foundation), mas sem coaching ou follow-up.",
           "evidence_signals": {
             "observable_behaviors": [
               "Scrum Foundation para todos",
