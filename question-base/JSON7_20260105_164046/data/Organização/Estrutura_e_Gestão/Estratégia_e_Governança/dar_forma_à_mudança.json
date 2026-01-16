@@ -1,0 +1,409 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-ESTRUT-ESTRAT-004",
+    "name": "Dar forma à mudança",
+    "block": "Organização",
+    "pilar": "Estrutura e Gestão",
+    "dimension": "Estratégia e Governança",
+    "description": "Esta capacidade define a aptidão de uma empresa e de seus colaboradores para reagir de maneira rápida e apropriada a eventos externos, maximizando os benefícios da mudança para todos os envolvidos. Ela pressupõe que a transformação não deve ser apenas aceita passivamente, mas sim protagonizada pelos próprios funcionários",
+    "related_capacities": [
+      "Integração horizontal e vertical Interface de dados padrão Segurança de TI Comunidades flexíveis Sistemas de metas motivacionais Gestão ágil Competência de Liderança Colaboração Inter e Intra-Empresas Estratégia e Governança Reconhecer o valor dos erros Abertura à inovação Aprendizagem e tomada de decisão baseadas em dados Desenvolvimento profissional contínuo"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Cristiano Gurgel Castro",
+      "version": "1.0",
+      "last_updated": "2026-01-05",
+      "source_docx": "0893_Dimensão Strategy & Governance_cgcastro.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-ESTRUT-ESTRAT-004-008",
+      "question_number": 8,
+      "title": "Qual é a atitude e o nível de autonomia dos funcionários par",
+      "text": "Qual é a atitude e o nível de autonomia dos funcionários para iniciar e implementar mudanças?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "As mudanças são impostas pela gestão e geralmente recebidas com resistência. Os funcionários não têm voz nem iniciativa no processo de mudança.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Funcionários afirmam: \"Eu apenas faço o que me mandam\" ou \"A gestão decide tudo, não adianta sugerir\""
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Os funcionários executam mudanças apenas quando instruídos. A iniciativa de mudança não é esperada nem incentivada no nível operacional.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Funcionários afirmam: \"Eu apenas faço o que me mandam\" ou \"A gestão decide tudo, não adianta sugerir\""
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os funcionários são incentivados a sugerir melhorias (ex: caixas de sugestão), mas não têm autoridade para iniciar ou implementar mudanças. A gestão centraliza todas as decisões de mudança.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Existem caixas de sugestão, mas os funcionários relatam que raramente veem suas ideias implementadas ou recebem feedback"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os funcionários mais próximos dos processos são consultados sobre mudanças, mas a autoridade de decisão permanece centralizada. A iniciativa de mudança ainda é vista como uma responsabilidade primária da gestão.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Operadores relatam problemas e sugerem soluções, mas afirmam que precisam esperar dias ou semanas pela aprovação da gerência ou engenharia para implementar qualquer mudança"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os funcionários têm autonomia para iniciar e implementar pequenas mudanças dentro de suas áreas imediatas. Eles entendem que são parcialmente responsáveis por moldar a mudança.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Equipes de linha de frente demonstram autonomia para mudanças locais (ex: organização do local de trabalho), mas mudanças de processo maiores ainda são iniciadas e controladas pela gestão"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Os funcionários com o conhecimento técnico relevante têm autoridade para iniciar e implementar mudanças significativas. Eles são proativos e dão o primeiro passo por conta própria para que a mudança aconteça.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Um operador identifica uma falha recorrente e tem autoridade para parar, testar uma solução e documentar a mudança para a equipe, iniciando o processo por conta própria"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização depende da iniciativa da linha de frente para impulsionar a adaptação. Os funcionários têm autonomia total para iniciar, implementar e concluir mudanças rapidamente, e são avaliados pela sua capacidade de fazê-lo.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "As equipes operacionais têm metas de melhoria e autonomia para experimentar, falhar e implementar mudanças de processo em tempo real, comunicando as mudanças horizontalmente"
+            ]
+          }
+        }
+      ],
+      "artifacts": [
+        "Registros de sistemas de sugestão de melhoria",
+"Documentação de projetos de melhoria contínua.",
+"Atas de reuniões de equipes operacionais que discutem a implementação de mudanças. ",
+"Matrizes de responsabilidade para processos de gestão de mudança, evidenciando a descentralização do poder de decisão."
+
+      ],
+      "metrics": [
+        "Número de melhorias/mudanças implementadas iniciadas por funcionários da linha de frente (não-gerenciais).",
+"Tempo de ciclo da mudança (desde a identificação do evento até a implementação da medida).",
+"Taxa de participação em programas de sugestão/melhoria.",
+"Percentual de decisões de mudança delegadas às equipes de processo."
+      ],
+      "sampling_guidance": "Realizar entrevistas com operadores, líderes de equipe, supervisores e gerentes de melhoria contínua. Perguntas-chave: \"Descreva a última vez que você identificou uma oportunidade de melhoria ou um problema no seu trabalho.\" \"O que você fez a respeito?\" \"Você teve autoridade para implementar a mudança sozinho ou precisou de aprovação? \"Quem na empresa é responsável por iniciar mudanças?\" Observação: Analisar 3-5 processos de mudança recentes e rastrear a origem da iniciativa (quem deu o primeiro passo)"
+    },
+    {
+      "id": "Q-ORG-ESTRUT-ESTRAT-004-009",
+      "question_number": 9,
+      "title": "Como a estrutura de gestão reage (apoia, bloqueia, ignora) q",
+      "text": "Como a estrutura de gestão reage (apoia, bloqueia, ignora) quando um funcionário da linha de frente propõe ou tenta implementar uma mudança?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A gestão desencoraja ativamente as sugestões ou iniciativas de mudança dos funcionários, considerando-as \"fora de função\" ou \"indisciplina\".",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Funcionários relatam: \"Eu nem me dou ao trabalho de sugerir\", \"Na última vez que tentei, levei uma bronca por parar a linha\" ou \"A gestão não gosta que a gente se meta\""
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A gestão ignora sistematicamente as iniciativas de mudança. Funcionários que tentam são vistos como \"problemáticos\" ou \"perda de tempo\".",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Funcionários relatam: \"Eu nem me dou ao trabalho de sugerir\", \"Na última vez que tentei, levei uma bronca por parar a linha\" ou \"A gestão não gosta que a gente se meta\""
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A gestão ouve as propostas, mas a iniciativa é bloqueada por burocracia excessiva (ex: múltiplos formulários, longos tempos de espera por aprovação) que desencoraja a ação.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Eu sugeri uma melhoria há 6 meses",
+              "Preenchi três formulários e nunca mais ouvi falar"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A gestão apoia verbalmente a iniciativa, mas raramente fornece os recursos (tempo, orçamento, pessoal) ou a autoridade necessários para a implementação. A mudança não avança.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Meu chefe disse 'ótima ideia', mas falou que 'não temos tempo para isso agora' e o assunto morreu"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A gestão apoia ativamente iniciativas de baixo risco. Para mudanças maiores, a gestão assume o controle do projeto, retirando a liderança do funcionário que a iniciou.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Conseguimos mudar o layout da nossa célula, mas quando sugerimos alterar o fluxo de TI, a gerência sênior assumiu o projeto e perdemos o controle"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A gestão atua como facilitadora, fornecendo ativamente os recursos e o \"leeway\" (espaço de manobra) necessários para que o funcionário ou a equipe teste e implemente a mudança que iniciou.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Eu disse ao meu gerente que nosso processo estava gerando refugo",
+              "Ele me deu 4 horas de 'tempo de máquina' e um colega da manutenção para testar minha nova ideia"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A gestão espera que os funcionários iniciem e liderem mudanças. O papel principal da gestão é remover barreiras, garantir recursos rapidamente e proteger a equipe durante a experimentação (mesmo que falhe).",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Nosso gerente nos pergunta diariamente: 'O que está bloqueando sua mudança?' O trabalho dele é nos ajudar a implementar nossas próprias ideias o mais rápido possível"
+            ]
+          }
+        }
+      ],
+      "artifacts": [
+        "Fluxogramas do processo de \"sugestão-para-implementação\".",
+"Registros de alocação de tempo (ex: horas de engenharia, tempo de máquina parada) ou orçamento para projetos de melhoria iniciados por funcionários.",
+"Atas de reunião de gestão (procurar por aprovações/rejeições de iniciativas da linha de frente).",
+"Documentação de projetos de melhoria (verificar quem é o \"dono\" ou líder do projeto)."
+      ],
+      "metrics": [
+        "Taxa de conversão (sugestões de funcionários vs. implementações).",
+"Tempo de aprovação (tempo entre a sugestão do funcionário e a alocação de recursos pela gestão).",
+"Percentual de projetos de melhoria liderados por funcionários não-gerenciais."
+      ],
+      "sampling_guidance": "Amostragem Entrevistas: Realizar entrevistas focadas com funcionários da linha de frente (operadores, técnicos) e seus supervisores diretos (líderes de turno, gerentes de produção). Perguntas-chave (para funcionários): \"O que acontece quando você leva uma ideia de mudança para seu supervisor?\" \"Você recebe apoio (tempo, dinheiro, ajuda) para testar suas ideias?\" \"Descreva uma mudança que você tentou implementar. Quem o ajudou? Quem o atrapalhou?\" Perguntas-chave (para gestores): \"Qual é o seu papel quando um membro da sua equipe sugere uma mudança de processo?\" \"Como você decide quais recursos alocar para uma ideia vinda da equipe?\""
+    },
+    {
+      "id": "Q-ORG-ESTRUT-ESTRAT-004-010",
+      "question_number": 10,
+      "title": "Qual é a postura do funcionário em relação à sua responsabil",
+      "text": "Qual é a postura do funcionário em relação à sua responsabilidade pessoal de iniciar mudanças, mesmo que não seja explicitamente solicitado?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Os funcionários veem a mudança como uma ameaça ou um fardo. Eles ativamente evitam ou se opõem a ela.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Eu sou pago para operar esta máquina, não para consertá-la\", \"Esse é o trabalho da engenharia"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Os funcionários acreditam que \"mudar\" não é parte do seu trabalho. Eles esperam passivamente por instruções e executam apenas o que é mandado.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Eu sou pago para operar esta máquina, não para consertá-la\", \"Esse é o trabalho da engenharia"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Os funcionários reconhecem problemas, mas acreditam que é responsabilidade exclusiva da gestão (supervisores, engenharia) identificá-los e resolvê-los.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Eu avisei meu supervisor sobre o problema",
+              "Minha parte eu fiz",
+              "Se ele não resolveu, não é mais comigo"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Os funcionários tomam a iniciativa de relatar problemas, mas não se sentem responsáveis por propor ou desenvolver a solução. A responsabilidade termina na comunicação do problema.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Eu sempre aponto os problemas para o meu líder na reunião diária",
+              "Cabe a ele decidir o que fazer"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os funcionários sentem-se responsáveis por identificar problemas e propor soluções. Eles preparam e apresentam suas ideias à gestão para aprovação.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Eu vi que o sensor falhava, então passei um tempo pensando em uma solução e apresentei um esboço ao meu gerente"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Os funcionários sentem responsabilidade pessoal não apenas por propor, mas por liderar a implementação da mudança. Eles tomam a iniciativa e estão preparados para dar o primeiro passo por conta própria.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Quando vi o problema, eu mesmo documentei o que estava acontecendo, chamei o time e comecei a testar uma solução",
+              "Eu sou o responsável por fazer isso funcionar\""
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A responsabilidade pela melhoria é totalmente internalizada. Os funcionários veem o ato de \"mudar\" como parte central do seu trabalho diário, tomam a iniciativa de forma autônoma e ajudam os colegas a fazer o mesmo.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Faz parte da minha rotina diária identificar e corrigir problemas",
+              "Não preciso pedir permissão para melhorar meu próprio processo"
+            ]
+          }
+        }
+      ],
+      "artifacts": [
+        "Quadros de gestão à vista para verificar a autoria das iniciativas de melhoria (se são dos operadores ou dos gestores).",
+"Registros de \"donos\" de projetos de melhoria para ver se funcionários da linha de frente estão liderando as ações.",
+"Descrições de cargo (verificar se \"melhoria contínua\" ou \"iniciativa proativa\" são listadas como responsabilidades formais da função)."
+      ],
+      "metrics": [
+        "Percentual de funcionários que participaram ativamente (não apenas como ouvintes) de pelo menos um evento de melhoria no último ano.",
+"Número de problemas (ex: cartões de melhoria) abertos versus fechados pela própria equipe (sem intervenção direta da gestão/engenharia).",
+"Tempo médio entre a identificação de um problema pela equipe e a primeira ação de contenção/correção (mede a prontidão para agir)."
+      ],
+      "sampling_guidance": "Amostragem Observação: Observe as reuniões de início de turno (Daily Huddles). Quem relata os problemas? Quem se voluntaria para resolvê-los? Entrevistas (Operadores/Técnicos): \"De quem é a responsabilidade de identificar melhorias por aqui?\" \"Quando você vê algo que pode ser melhorado, qual é o seu primeiro impulso: (a) Ignorar, (b) Esperar que alguém veja, (c) Relatar ao chefe, ou (d) Tentar resolver?\" \"Você se sente responsável por garantir que a mudança realmente aconteça?\""
+    },
+    {
+      "id": "Q-ORG-ESTRUT-ESTRAT-004-011",
+      "question_number": 11,
+      "title": "Qual é a abordagem predominante da organização para implemen",
+      "text": "Qual é a abordagem predominante da organização para implementar mudanças?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A implementação de mudanças pela equipe não é uma prática; qualquer desvio do padrão é ativamente corrigido.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Se o procedimento diz 'A', fazemos 'A'\", \"Se você tentar fazer 'B', mesmo que seja melhor, você está errado"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Mudanças, se aprovadas, seguem um processo de implementação rígido, linear (cascata) e lento, que leva meses. O plano não pode ser alterado após o início.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Se o procedimento diz 'A', fazemos 'A'\", \"Se você tentar fazer 'B', mesmo que seja melhor, você está errado"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A implementação é caótica e ad-hoc. As mudanças são feitas, mas não há um processo estruturado para medir o impacto, aprender ou adaptar a solução.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Nós mudamos o processo na semana passada, mas não sei dizer se melhorou",
+              "Simplesmente fizemos e seguimos em frente"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A mudança requer um plano de projeto detalhado e completo antes da implementação. O foco está em seguir o plano original, e adaptações são vistas como falhas de planejamento.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Estamos há 3 meses planejando a mudança do software da máquina",
+              "Não podemos testar nada até o plano mestre ser 100% aprovado pela engenharia e TI"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A implementação segue ciclos formais de melhoria (ex: PDCA). A equipe coleta dados após a implementação e planeja ajustes em ciclos subsequentes (ex: mensalmente).",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Implementamos a mudança",
+              "Mês que vem, na reunião de gestão, vamos olhar os KPIs para ver se deu certo e decidir o próximo passo"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A equipe é incentivada a usar abordagens de \"teste rápido\" (prototipagem). As mudanças são implementadas em pequena escala para coletar dados e o aprendizado é usado para \"moldar\" a solução final.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Achamos que a mudança funcionaria",
+              "O chefe nos deu permissão para testar na máquina 2 por uma tarde",
+              "Vimos que 70% funcionou, mas 30% deu errado",
+              "Amanhã vamos testar de novo com os ajustes"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A implementação é ativamente ágil, usando ciclos curtos (ex: diários/semanais). A equipe tem autonomia para adaptar a solução em tempo real com base em dados, focando em \"falhar rápido\" e aprender iterativamente.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "\"Temos um 'quadro de sprint' de melhoria",
+              "Nossa meta é testar 3 pequenas mudanças esta semana",
+              "A primeira falhou em 1 hora (o que foi ótimo, aprendemos rápido), a segunda está funcionando e vamos escalar"
+            ]
+          }
+        }
+      ],
+      "artifacts": [
+        "Documentação de projetos de melhoria (ex: A3, DMAIC, Sprints Ágeis).",
+"Quadros de gestão de mudança (Kanban, Scrum boards) usados pelas equipes.",
+"Registros de \"lições aprendidas\" ou retrospectivas de projetos de mudança.",
+"Evidências de prototipagem ou MVPs (Minimum Viable Products) usados em mudanças de processo."
+      ],
+      "metrics": [
+        "Duração do ciclo de mudança (do início da implementação ao primeiro feedback de dados).",
+"Frequência de iteração (quantas vezes a solução foi ajustada após o início da implementação).",
+"Taxa de sucesso de mudanças (mudanças que atingiram o resultado esperado vs. as que foram revertidas).",
+"Tempo para validar uma hipótese de mudança (Time-to-learn)."
+      ],
+      "sampling_guidance": "Amostragem Entrevistas (Equipes de Melhoria, Líderes de Equipe, Engenheiros de Processo): \"Descreva o processo para implementar uma nova ideia. Você precisa de um plano completo antes de começar?\" \"Com que frequência você pode ajustar a solução depois que ela já começou a ser implementada?\" \"O que é mais valorizado: seguir o plano original perfeitamente ou adaptar o plano rapidamente para obter um resultado melhor?\" Observação: Acompanhe uma reunião de revisão de melhoria. O foco está em \"culpar quem desviou do plano\" ou em \"o que aprendemos com o desvio\"?"
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    }
+  ]
+}
