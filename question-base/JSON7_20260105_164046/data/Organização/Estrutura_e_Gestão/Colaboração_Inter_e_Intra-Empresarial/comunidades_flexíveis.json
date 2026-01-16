@@ -1,0 +1,439 @@
+{
+  "capacity": {
+    "id": "CAP-ORG-ESTRUT-COLABO-003",
+    "name": "Comunidades flexíveis",
+    "block": "Organização",
+    "pilar": "Estrutura e Gestão",
+    "dimension": "Colaboração Inter e Intra-Empresarial",
+    "description": "A comunicação entre colaboradores deve ser rastreável, livre de redundâncias e atender às necessidades dos grupos de stakeholders, garantindo que a informação correta chegue à pessoa certa, no momento certo e no formato adequado. O objetivo é reduzir o tempo que os funcionários despendem procurando e esperando por informações, utilizando armazenamento centralizado de dados (fonte única da verdade), assinaturas digitais para aprovações e sistemas de groupware para suportar a comunicação contextualizada e eficiente.",
+    "related_capacities": [
+      "Design de interface baseado em tarefas Colaboração Inter e Intra-Empresas Conectividade (Shop Floor",
+      "Enterprise",
+      "Facility) Governança de Dados Gestão de direitos de decisão Sistemas de metas motivacionais Gestão ágil"
+    ],
+    "metadata": {
+      "source_frameworks": [
+        "ACATECH",
+        "SIRI"
+      ],
+      "author": "Cristiano Gurgel Castro",
+      "version": "1.0",
+      "last_updated": "2026-01-05",
+      "source_docx": "0892_Dimensão Inter- and Intra-Company Collaboration_cgcastro.docx",
+      "status": "draft"
+    }
+  },
+  "questions": [
+    {
+      "id": "Q-ORG-ESTRUT-COLABO-003-004",
+      "question_number": 4,
+      "title": "Como a estrutura organizacional da empresa apoia a colaboraç",
+      "text": "Como a estrutura organizacional da empresa apoia a colaboração e a formação dinâmica de equipes?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Estrutura organizacional tradicional e rígida, voltada para a operação eficiente de departamentos individuais (silos)",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Estrutura organizacional tradicional e rígida, voltada para a operação eficiente de departamentos individuais isolados (silos)"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A empresa possui uma estrutura organizacional tradicional focada na eficiência departamental",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "A empresa possui uma estrutura organizacional tradicional focada na eficiência departamental"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Métodos tradicionais de gerenciamento de projetos são empregados; a abordagem é estruturada, mas pesada e carece de agilidade, dificultando ajustes rápidos",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Métodos tradicionais de gerenciamento de projetos são empregados",
+              "A abordagem para mudança, embora estruturada, é pesada e carece de agilidade, dificultando ajustes rápidos"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Estruturas operacionais tradicionais começam a ser quebradas; plataformas de colaboração são usadas para fortalecer a cooperação entre diferentes partes do negócio",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "A organização começa a quebrar estruturas operacionais tradicionais",
+              "Os funcionários são envolvidos mais de perto nos processos de mudança"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Ocorre colaboração entre especialistas de diferentes departamentos; técnicas de gerenciamento ágil são usadas para processos de mudança",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Ocorre colaboração entre especialistas de diferentes departamentos",
+              "Técnicas de gerenciamento ágil são utilizadas para processos de mudança"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A estrutura organizacional é modificada para que a capacidade possa ser rapidamente ajustada a novas situações",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "A estrutura organizacional é modificada para que a capacidade possa ser rapidamente ajustada a novas situações"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "Comunidades flexíveis e gerenciamento ágil de projetos criam uma organização orgânica; o trabalho é executado pelos funcionários com as habilidades corretas, independentemente da hierarquia ou departamento",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Comunidades flexíveis e gerenciamento ágil de projetos criam uma organização orgânica",
+              "O trabalho é executado por funcionários com as habilidades corretas, independentemente da hierarquia ou departamento"
+            ]
+          }
+        }
+      ],
+      "artifacts": [
+        "Plataformas de colaboração baseadas em TI",
+"Documentação de perfis de habilidades dos funcionários",
+"Ferramentas de gerenciamento de atribuições (Assignment management)",
+"Atas de reunião de equipes de projeto (Comunidades)",
+"Organogramas (formais e funcionais/projetos)"
+      ],
+      "metrics": [
+        "Transparência e Engajamento em Comunidades",
+"Dinamismo Organizacional",
+"Aceleração da Resposta a Eventos (Redução de Latência)",
+"Eficiência na Execução de Tarefas por Habilidade",
+"Medição de Desempenho de Equipes e Aprendizado"
+
+      ],
+      "sampling_guidance": "Amostragem Entrevistas com funcionários de diferentes departamentos para avaliar a comunicação e colaboração interdepartamental. Análise da composição de equipes de projeto, verificando se são temporárias ou permanentes e se reúnem membros de diferentes áreas. Revisão de como as equipes são formadas (orientadas a tarefas ou hierarquia) ."
+    },
+    {
+      "id": "Q-ORG-ESTRUT-COLABO-003-005",
+      "question_number": 5,
+      "title": "De que forma as ferramentas de TI e plataformas de colaboraç",
+      "text": "De que forma as ferramentas de TI e plataformas de colaboração dão transparência às competências dos funcionários para apoiar a formação de equipes flexíveis?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Nenhuma ferramenta de TI é usada para isso. A alocação de pessoas para tarefas ou equipes é baseada puramente no conhecimento pessoal e na memória dos gestores.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Inexistente",
+              "A identificação de competências é totalmente informal",
+              "Os gestores dependem da memória ou de perguntar a outros gestores (\"quem sabe fazer X?\")",
+              "Não há repositório digital de competências"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "Listas básicas (ex planilhas, documentos de texto) de funcionários e suas funções existem, mas não há perfis de competências detalhados ou pesquisáveis.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Listas estáticas e isoladas",
+              "O RH ou os departamentos mantêm planilhas básicas listando funcionários e seus cargos ou treinamentos concluídos",
+              "Essas listas não são centralizadas, não são pesquisáveis e ficam rapidamente desatualizadas"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "Existem sistemas de TI (ex sistema de RH) que armazenam competências, mas esses dados são estáticos, raramente atualizados e não estão integrados às ferramentas de trabalho diário.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Repositório passivo",
+              "Existe um sistema de RH (como um SIRH) onde as competências podem ser registradas (muitas vezes apenas para avaliações de desempenho)",
+              "O sistema funciona como um \"currículo\" digital, mas não é usado ativamente para formar equipes no dia a dia"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Ferramentas de colaboração (ex chats, intranets) são usadas, mas a identificação de competências ainda depende muito da rede de contatos pessoal; não há um sistema formal de \"busca por especialistas\".",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Ferramentas de colaboração com perfis",
+              "A empresa utiliza ferramentas de comunicação (como intranet ou chat corporativo) onde os funcionários podem preencher seus próprios perfis, incluindo um campo opcional de \"habilidades\"",
+              "A busca é simples e a qualidade da informação depende inteiramente do funcionário"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Plataformas de TI (ex intranet avançada, perfis em ferramentas de colaboração) começam a fornecer transparência sobre os perfis de competências dos funcionários e seu envolvimento atual em projetos ou comunidades",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Transparência ativa",
+              "Plataformas de colaboração baseadas em TI fornecem transparência sobre os perfis de competências dos funcionários",
+              "É possível pesquisar ativamente por habilidades (ex: \"especialista em Python\") e ver os perfis de quem as possui"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "Existem plataformas de TI integradas que facilitam ativamente a comunicação e dão suporte ao \"assignment management\" (gestão de alocação), permitindo pesquisar e encontrar especialistas de forma eficiente",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Suporte à alocação (Assignment Management)",
+              "As plataformas de TI facilitam ativamente a comunicação e apoiam a gestão de alocação",
+              "Os gestores podem ver não apenas quem tem a competência, mas também verificar a disponibilidade (taxa de alocação) e o envolvimento atual dessa pessoa em outras comunidades ou projetos"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "As plataformas de TI não apenas dão transparência às competências existentes, mas também se integram a novas tecnologias de treinamento (ex Realidade Aumentada) para capacitar rapidamente os funcionários para novas tarefas, permitindo a formação de comunidades de forma ainda mais ágil",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Alocação inteligente e dinâmica",
+              "O sistema de TI sugere ativamente especialistas para novas tarefas com base nos requisitos do projeto",
+              "Ele usa dados (ex: projetos anteriores, feedback de 360º) para classificar o nível de proficiência e pode até identificar lacunas de competência na equipe e sugerir treinamentos rápidos"
+            ]
+          }
+        }
+      ],
+      "artifacts": [
+        "Sistema de Informação de RH (HRIS) e seus módulos de competências.",
+"Plataformas de colaboração (ex: perfis de usuário no Microsoft Teams, Slack, Workplace).",
+"Intranet corporativa (ex: função \"Páginas Amarelas\" ou \"Busca por Especialista\").",
+"Software de gestão de projetos (ex: Jira, Asana) para verificar como as equipes são montadas e os recursos alocados.",
+"Plataformas de gestão de conhecimento (Knowledge Management)."
+      ],
+      "metrics": [
+        "Tempo médio para identificar e alocar um especialista para uma nova equipe/projeto.",
+"Taxa de atualização dos perfis de competências dos funcionários no sistema.",
+"Percentual de projetos/equipes formadas com membros de diferentes departamentos."
+      ],
+      "sampling_guidance": "Amostragem Simular uma busca por um especialista em uma competência específica (ex: \"análise de dados Python\") nas ferramentas internas e avaliar a facilidade e precisão dos resultados. Entrevistar gestores de projeto sobre como eles encontram e recrutam membros para suas equipes. Verificar os perfis de funcionários nas plataformas de colaboração para ver se as competências estão listadas e se são pesquisáveis."
+    },
+    {
+      "id": "Q-ORG-ESTRUT-COLABO-003-006",
+      "question_number": 6,
+      "title": "Como a gestão de desempenho e os sistemas de metas estão ada",
+      "text": "Como a gestão de desempenho e os sistemas de metas estão adaptados para apoiar o trabalho em equipes flexíveis e multifuncionais?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "A avaliação de desempenho e as metas são 100% individuais e definidas estritamente dentro dos silos departamentais. Não há reconhecimento formal do trabalho interdepartamental.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "O trabalho em projetos multifuncionais é visto como \"trabalho extra\" ou uma distração das \"metas reais\" do departamento",
+              "Não há reconhecimento formal"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "As metas são puramente departamentais e muitas vezes unidimensionais (ex \"número de peças produzidas\"). O trabalho em projetos fora do departamento não é formalmente reconhecido.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "As metas são 100% definidas pelo gerente departamental e focadas em métricas de eficiência locais (mentalidade de silo)",
+              "O desempenho em uma equipe multifuncional não tem impacto formal na avaliação"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A avaliação de desempenho é tradicional e totalmente controlada pelo gerente departamental. O trabalho em equipes multifuncionais pode ser mencionado informalmente, mas não tem peso estruturado na avaliação.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "A avaliação de desempenho é tradicional",
+              "O gerente departamental pode, se quiser, pedir um feedback informal ao líder de um projeto, mas esse feedback não tem peso estruturado e não afeta bônus ou promoções"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "A organização reconhece a colaboração. A avaliação de desempenho inclui um item genérico sobre \"trabalho em equipe\", mas as metas principais ainda são departamentais. O feedback de outros líderes é esporádico.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "O sistema de metas começa a incluir objetivos multidimensionais, como \"eficiência do processo\" ou \"colaboração\"",
+              "O trabalho em comunidades é incentivado como uma forma de \"desenvolvimento pessoal\", mas as metas financeiras ainda são departamentais"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "A empresa começa a introduzir metas multidimensionais. O feedback de líderes de projeto ou comunidade é solicitado formalmente durante a avaliação de desempenho, embora o gerente departamental ainda tenha a decisão final.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "O sistema de avaliação de desempenho é formalmente matricial",
+              "O feedback do líder da comunidade/projeto é um input obrigatório e tem peso definido na avaliação final do funcionário"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "São implementados sistemas de metas motivacionais que equilibram objetivos departamentais (funcionais) e objetivos de equipe (projeto/comunidade). A avaliação de desempenho considera formalmente o feedback de múltiplos líderes (matricial).",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "A maior parte das metas de desempenho está diretamente atrelada aos resultados e entregas da comunidade/equipe, e não às metas do departamento funcional",
+              "A empresa começa a medir ativamente o \"sucesso das equipes de especialistas\""
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "O sucesso da equipe de especialistas/comunidade é formalmente medido (ex controladoria financeira de comunidades). Os sistemas de metas e incentivos (monetários e não monetários) estão diretamente alinhados aos resultados da equipe, e não apenas aos silos departamentais.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "O sistema de remuneração (bônus) é diretamente atrelado ao desempenho da comunidade",
+              "A empresa possui uma \"controladoria financeira de comunidades\" para medir o valor entregue por elas, e o departamento funcional age principalmente como um centro de competência para desenvolvimento de carreira, não como o principal avaliador de resultados"
+            ]
+          }
+        }
+      ],
+      "artifacts": [
+        "Formulários de avaliação de desempenho (ex: verificar se há campos para feedback de líderes de projeto).",
+"Documentação oficial da política de metas (ex: OKRs, Balanced Scorecard).",
+"Política de bônus e remuneração variável (ex: verificar se o bônus é baseado em metas de equipe ou apenas departamentais/individuais).",
+"Atas de reuniões de avaliação de desempenho (com permissão)."
+      ],
+      "metrics": [
+        "Percentual da avaliação de desempenho de um funcionário que é determinado por metas de equipe/comunidade vs. metas departamentais.",
+"Métricas formais de \"sucesso de equipes de especialistas\".",
+"Métricas de \"controladoria financeira de comunidades\"."
+      ],
+      "sampling_guidance": ". Política de bônus e remuneração variável (ex: verificar se o bônus é baseado em metas de equipe ou apenas departamentais/individuais). Atas de reuniões de avaliação de desempenho (com permissão). B) Métricas/KPIs Percentual da avaliação de desempenho de um funcionário que é determinado por metas de equipe/comunidade vs. metas departamentais. Métricas formais de \"sucesso de equipes de especialistas\". Métricas de \"controladoria financeira de comunidades\". C) Sinais por nível N0: O trabalho em projetos multifuncionais é visto como \"trabalho extra\" ou uma distração das \"metas reais\" do departamento. Não há reconhecimento formal. N1: As metas são 100% definidas pelo gerente departamental e focadas em métricas de eficiência locais (mentalidade de silo). O desempenho em uma equipe multifuncional não tem impacto formal na avaliação. N2: A avaliação de desempenho é tradicional. O gerente departamental pode, se quiser, pedir um feedback informal ao líder de um projeto, mas esse feedback não tem peso estruturado e não afeta bônus ou promoções. N3: O sistema de metas começa a incluir objetivos multidimensionais, como \"eficiência do processo\" ou \"colaboração\". O trabalho em comunidades é incentivado como uma forma de \"desenvolvimento pessoal\", mas as metas financeiras ainda são departamentais. N4: O sistema de avaliação de desempenho é formalmente matricial. O feedback do líder da comunidade/projeto é um input obrigatório e tem peso definido na avaliação final do funcionário. N5: A maior parte das metas de desempenho está diretamente atrelada aos resultados e entregas da comunidade/equipe, e não às metas do departamento funcional. A empresa começa a medir ativamente o \"sucesso das equipes de especialistas\". N6:.O sistema de remuneração (bônus) é diretamente atrelado ao desempenho da comunidade. A empresa possui uma \"controladoria financeira de comunidades\" para medir o valor entregue por elas, e o departamento funcional age principalmente como um centro de competência para desenvolvimento de carreira, não como o principal avaliador de resultados. D) Amostragem Entrevistar 3 funcionários de departamentos diferentes que participam da mesma comunidade/projeto e perguntar como esse trabalho impacta sua avaliação de desempenho e bônus. Entrevistar 2 líderes de projeto/comunidade e perguntar qual é o seu papel formal no processo de avaliação de desempenho dos membros de sua equipe. Revisar os formulários de avaliação de desempenho para ver se o \"feedback 360 graus\" ou feedback de líderes de projeto é um componente obrigatório."
+    },
+    {
+      "id": "Q-ORG-ESTRUT-COLABO-003-007",
+      "question_number": 7,
+      "title": "Como a gestão ágil e a distribuição de autoridade são aplica",
+      "text": "Como a gestão ágil e a distribuição de autoridade são aplicadas para garantir que as comunidades flexíveis possam tomar decisões rapidamente?",
+      "maturity_levels": [
+        {
+          "level": 0,
+          "label": "Nível 0",
+          "description": "Estrutura rígida de comando e controle. Todas as decisões, mesmo as operacionais, são escaladas para a gerência departamental. As equipes não têm autonomia.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Gestão de \"comando e controle\"",
+              "As equipes recebem instruções detalhadas e não têm autoridade para tomar decisões",
+              "Qualquer desvio ou problema exige a paralisação e a consulta a um supervisor, que toma todas as decisões"
+            ]
+          }
+        },
+        {
+          "level": 1,
+          "label": "Nível 1",
+          "description": "A gestão de projetos é tradicional (ex cascata, waterfall). As equipes apenas executam tarefas pré-definidas e não têm autoridade para alterar o plano.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Processos de desenvolvimento inflexíveis e convencionais (ex: modelo em cascata / waterfall) são a norma",
+              "Os requisitos são definidos rigidamente no início e as equipes não têm permissão para alterá-los"
+            ]
+          }
+        },
+        {
+          "level": 2,
+          "label": "Nível 2",
+          "description": "A empresa experimenta métodos ágeis (ex Scrum), mas apenas em \"ilhas\" (como TI). As \"comunidades\" em outras áreas não têm autoridade real para mudar escopo ou alocar recursos.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "A empresa usa métodos tradicionais de gerenciamento de projetos",
+              "Embora haja um \"gerente de projeto\", ele atua como um controlador, e todas as decisões sobre escopo, tempo ou custo devem ser escaladas para um comitê de direção ou para a gerência sênior"
+            ]
+          }
+        },
+        {
+          "level": 3,
+          "label": "Nível 3",
+          "description": "Métodos ágeis (como Sprints ou Daily Scrums) são usados em algumas equipes. No entanto, as decisões importantes (orçamento, priorização) ainda são centralizadas nos gerentes de departamento.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "A organização começa a usar \"ciclos de feedback de alta frequência\"",
+              "As equipes podem desenvolver protótipos rapidamente, mas a autoridade para validar e agir sobre o feedback obtido (ex: mudar o produto) ainda é centralizada na gerência"
+            ]
+          }
+        },
+        {
+          "level": 4,
+          "label": "Nível 4",
+          "description": "Os direitos de decisão são gerenciados ativamente. As equipes têm autonomia definida para tomar decisões operacionais (o \"como fazer\"), enquanto a gerência define os objetivos estratégicos (o \"o que fazer\").",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "Abordagens de gestão ágil, como o Scrum, são implementadas formalmente nas equipes",
+              "As equipes têm autoridade para gerenciar seu próprio backlog e tomar decisões táticas dentro de um Sprint, mas decisões estratégicas (ex: orçamento do projeto, metas de longo prazo) permanecem centralizadas"
+            ]
+          }
+        },
+        {
+          "level": 5,
+          "label": "Nível 5",
+          "description": "A gestão ágil é a norma para a maioria dos projetos. As equipes são capacitadas pela organização para fazer ajustes que facilitem a cooperação e podem compartilhar recursos em projetos de longo prazo.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "O gerenciamento ágil é amplamente utilizado e os direitos de decisão são descentralizados",
+              "As equipes são autorizadas a tomar decisões significativas (ex: alterar recursos, ajustar prioridades de curto prazo) para responder rapidamente ao feedback, sem precisar da aprovação da alta administração"
+            ]
+          }
+        },
+        {
+          "level": 6,
+          "label": "Nível 6",
+          "description": "A organização opera com gestão ágil em larga escala. As comunidades flexíveis têm alto grau de responsabilidade individual e autoridade para tomar decisões descentralizadas rapidamente, alinhadas aos objetivos estratégicos.",
+          "evidence_signals": {
+            "observable_behaviors": [
+              "A organização opera com gestão ágil em escala e alta autonomia",
+              "As comunidades flexíveis têm autoridade para tomar decisões descentralizadas que afetam até mesmo a estratégia (ex: pivotar a funcionalidade de um produto com base em dados de uso), alinhando-se rapidamente às mudanças do ambiente"
+            ]
+          }
+        }
+      ],
+      "artifacts": [
+        "Manuais de metodologia de gestão de projetos (ex: verificando se usam PMBOK, Scrum, SAFe, etc.).",
+"Quadros Kanban ou backlogs de Scrum (digitais ou físicos, como Trello, Jira, Azure DevOps).",
+"Atas de reuniões de Sprint Planning ou Sprint Review.",
+"Matrizes de responsabilidade (ex: RACI) para projetos, que definem quem aprova e quem decide.",
+"Documentação sobre processos de tomada de decisão (ex: quem aprova um gasto de R$ 5.000 para a equipe?)."
+      ],
+      "metrics": [
+        "Cycle Time de Decisão (tempo médio entre a identificação de um problema pela equipe e sua resolução/decisão).",
+"Frequência de Sprints ou ciclos de feedback.",
+"Número de decisões que precisam ser \"escaladas\" para a gerência vs. número de decisões tomadas pela própria equipe.",
+"Velocidade da Equipe (Velocity) e gráficos de Burndown (em metodologias ágeis)."
+      ],
+      "sampling_guidance": "Amostragem Participar como ouvinte de uma reunião diária (Daily Scrum) ou de uma retrospectiva de Sprint. Entrevistar um Product Owner ou Scrum Master sobre como as decisões de priorização são tomadas e quem tem a palavra final. Perguntar a um membro da equipe: \"Qual foi a última decisão importante que sua equipe tomou sem precisar da aprovação de um gerente sênior?\". Perguntar a um gerente: \"Como você equilibra a necessidade de controle com a autonomia das equipes?\"."
+    }
+  ],
+  "references": [
+    {
+      "citation": "ACATECH. Industrie 4.0 Maturity Index. Managing the Digital Transformation of Companies – UPDATE 2020 - acatech - National Academy of Science and Engineering. Disponível em: <https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf>. Acesso em: 3 out. 2025.",
+      "url": "https://en.acatech.de/publication/industrie-4-0-maturity-index-update-2020/download-pdf"
+    },
+    {
+      "citation": "EDB. THE SMART INDUSTRY READINESS INDEX - Catalysing the transformation of manufacturing. [s.l: s.n.]. Disponível em: <https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1).pdf>.",
+      "url": "https://www.edb.gov.sg/content/dam/edb-en/about-edb/media-releases/news/the-smart-industry-readiness-index/the-sg-smart-industry-readiness-index-whitepaper%20(1"
+    }
+  ]
+}
