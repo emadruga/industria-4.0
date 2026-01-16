@@ -1,11 +1,11 @@
 {
   "capacity": {
     "id": "CAP-ORG-ESTRUT-ESTRAT-004",
-    "name": "Governança de dados",
+    "name": "Gestão de direitos de decisão",
     "block": "Organização",
     "pilar": "Estrutura e Gestão",
     "dimension": "Estratégia e Governança",
-    "description": "A governança de dados refere-se às políticas e orientações para o processamento, armazenamento, gerenciamento e apresentação de dados de alta qualidade em toda a empresa. A implementação de uma governança de dados eficaz é fundamental para melhorar a qualidade dos dados, o que, por sua vez, sustenta a confiança nos sistemas de informação e viabiliza a tomada de decisões baseada em dados. Para que uma empresa se beneficie das mudanças, ela deve ser capaz de fornecer respostas rápidas a eventos externos. As mudanças necessárias devem ser iniciadas, implementadas e concluídas o mais rápido possível. A iniciativa para a mudança deve partir dos funcionários que possuem o conhecimento adequado para interpretar o evento, que são frequentemente aqueles que trabalham mais próximos do sistema ou máquina em questão. Isso requer a transferência de poderes de decisão e a criação de oportunidades para que os especialistas técnicos compartilhem seu conhecimento. O fator crítico é que os funcionários entendam que também são responsáveis por moldar a mudança; eles devem estar dispostos a iniciá-la por conta própria e preparados para dar o primeiro passo para que ela aconteça.",
+    "description": "Esta capacidade refere-se ao equilíbrio estratégico entre a centralização e a descentralização da autoridade para tomar decisões dentro de uma empresa. O objetivo principal é alocar o poder de decisão de forma que a eficácia e a eficiência dos processos sejam maximizadas, garantindo que as escolhas sejam feitas por quem possui as melhores informações.",
     "related_capacities": [
       "Integração horizontal e vertical Interface de dados padrão Segurança de TI Comunidades flexíveis Sistemas de metas motivacionais Gestão ágil Competência de Liderança Colaboração Inter e Intra-Empresas Estratégia e Governança Reconhecer o valor dos erros Abertura à inovação Aprendizagem e tomada de decisão baseadas em dados Desenvolvimento profissional contínuo"
     ],
@@ -22,7 +22,6 @@
     }
   },
   "questions": [
-
     {
       "id": "Q-ORG-ESTRUT-ESTRAT-004-005",
       "question_number": 5,
