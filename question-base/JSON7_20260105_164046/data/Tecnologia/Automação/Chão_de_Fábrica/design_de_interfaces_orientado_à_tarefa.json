@@ -7,7 +7,8 @@
     "dimension": "Chão de Fábrica",
     "description": "Esta dimensão avalia o grau e a flexibilidade da automação e sua integração em múltiplos sistemas no local onde a produção e gestão de bens são realizadas. O foco é otimizar os níveis gerais de automação dos processos de produção e, em estágios mais altos, permitir a reconfiguração flexível de máquinas para fabricar maior variedade de produtos com prazos curtos.",
     "related_capacities": [
-      "Design de interfaces orientado à tarefa Interface de usuário específica"
+      "Design de interfaces orientado à tarefa",
+      "Interface de usuário específica"
     ],
     "metadata": {
       "source_frameworks": [
@@ -238,107 +239,6 @@
         "Aumento da Eficácia Geral do Equipamento (OEE) por intervenção assistida."
       ],
       "sampling_guidance": "Selecionar 5–10 processos relevantes que envolvem a interação homem/máquina em Chão de Fábrica (vídeos de operação assistida e capturas de dashboards dinâmicos)."
-    },
-    {
-      "id": "Q-TEC-AUTOMA-CHÃOFÁ-020-003",
-      "question_number": 3,
-      "title": "Impacto das interfaces de Chão de Fábrica",
-      "text": "Qual o impacto do formato (e.g., AR, tabelas, voz) e tempo de entrega das interfaces no Chão de Fábrica na otimização das atividades do operador?",
-      "maturity_levels": [
-        {
-          "level": 0,
-          "label": "Nível 0",
-          "description": "As interfaces específicas de usuário são inexistentes ou não digitais, não é possível avaliar seu impacto em termos de otimização de atividades.",
-          "evidence_signals": {
-            "observable_behaviors": [
-              "Os sistemas de TI/OT não estão em uso no Chão de Fábrica.",
-              "Os processos são executados por humanos sem automação."
-            ]
-          }
-        },
-        {
-          "level": 1,
-          "label": "Nível 1",
-          "description": "As interfaces HMI são genéricas e não contextuais, os níveis de otimização são mínimos.",
-          "evidence_signals": {
-            "observable_behaviors": [
-              "Os sistemas executam tarefas pré-programadas, e a informação exibida é estática ou não filtrada pelas necessidades do operador.",
-              "O operador precisa interpretar, buscar e classificar a informação por si próprio.",
-              "Baixo impacto observado na eficiência do operador."
-            ]
-          }
-        },
-        {
-          "level": 2,
-          "label": "Nível 2",
-          "description": "Há interfaces digitais conectadas, mas o fornecimento de informação é baseado no princípio pull (o operador busca a informação); logo, os níveis de otimização dependem exclusivamente do agente humano.",
-          "evidence_signals": {
-            "observable_behaviors": [
-              "As interfaces trocam informação, mas o design não é adaptado ao contexto da tarefa e não há agregação de dados em tempo real ou visualização abrangente."
-            ]
-          }
-        },
-        {
-          "level": 3,
-          "label": "Nível 3",
-          "description": "As interfaces fornecem informação sensível ao contexto, em tempo real, e o conteúdo é ajustado à tarefa em execução, habilitando processos automáticos de otimização.",
-          "evidence_signals": {
-            "observable_behaviors": [
-              "O sistema permite que o operador \"veja\" (seeing) o que está acontecendo (e.g., status de produção, desvios) e tome decisões baseadas em dados reais (sombra digital)",
-              "Ocorre o monitoramento de indicadores de desempenho humano e de sistema."
-            ]
-          }
-        },
-        {
-          "level": 4,
-          "label": "Nível 4",
-          "description": "As interfaces integram sistemas de assistência que, além de mostrar o estado atual, diagnosticam as causas prováveis dos desvios, ajudando o operador a \"entender\" (understanding) por que algo está acontecendo.",
-          "evidence_signals": {
-            "observable_behaviors": [
-              "A informação é entregue ativamente (princípio push), otimizada e com acesso controlado (e.g., apps para tarefas específicas).",
-              "O impacto é mensurado (por exemplo, aumento de OEE, redução de erros)."
-            ]
-          }
-        },
-        {
-          "level": 5,
-          "label": "Nível 5",
-          "description": "As interfaces exibem informação preditiva, permitindo que o operador \"esteja preparado\" (being prepared) para cenários futuros (e.g., manutenção preditiva) e tome decisões baseadas em simulações.",
-          "evidence_signals": {
-            "observable_behaviors": [
-              "O sistema começa a fornecer instruções para prevenir desvios, não apenas reagir a eles.",
-              "Feedback contínuo de desempenho."
-            ]
-          }
-        },
-        {
-          "level": 6,
-          "label": "Nível 6",
-          "description": "As interfaces suportam a operação reconfigurável e autônoma (plug-and-play), reduzindo latências de reação e minimizando erros induzidos por informação.",
-          "evidence_signals": {
-            "observable_behaviors": [
-              "O sistema de assistência adapta-se continuamente e executa decisões de forma autônoma, minimizando a necessidade de intervenção humana e garantindo a otimização contínua do desempenho e eficiência dos recursos.",
-              "Otimização baseada em IA e personalização dinâmica das interfaces, conforme perfil de operador."
-            ]
-          }
-        }
-      ],
-      "artifacts": [
-        "HMI e SCADA (visualização contexto-sensível).",
-        "Registros de erros operacionais ou de qualidade.", 
-        "Sistemas de assistência digital (AR/VR e wearables).", 
-        "Relatórios de execução de tarefas (MES/PLM/SCM).", 
-        "Logs de dados de sensores e IoT em tempo real.", 
-        "Documentação de usabilidade (ergonomia e task-flow)."
-      ],
-      "metrics": [
-        "Redução de erros operacionais (induzidos por informação).", 
-        "Tempo Médio de Resposta a Alertas Críticos.", 
-        "Aumento da Produtividade por Tarefa Assistida.", 
-        "Score de Usabilidade e Adaptação da Interface.", 
-        "Latência de reação."
-      ],
-      "sampling_guidance": "Selecionar 5–10 decisões relevantes (investimentos, padrões, fornecedores) dos últimos 90 dias. Selecionar 5-10 operações recentes com uso intensivo de interfaces de produção (ex.: manutenção, setup, inspeção), observando logs de desempenho e reações do operador."
     }
   ],
   "references": [
