@@ -184,8 +184,8 @@
         },
         {
           "level": 6,
-          "label": "A cultura é autorregulada",
-          "description": "existe feedback contínuo, confiança mútua e transparência apoiada por sistemas digitais de comunicação e análise de sentimento em tempo real.",
+          "label": "Nível 6",
+          "description": "A cultura é autorregulada; existe feedback contínuo, confiança mútua e transparência apoiada por sistemas digitais de comunicação e análise de sentimento em tempo real.",
           "evidence_signals": {
             "observable_behaviors": [
               "Transparência e confiança mantidas de forma autônoma e contínua"
