@@ -709,8 +709,8 @@
         },
         {
           "level": 2,
-          "label": "Os funcionários são incentivados a sugerir melhorias (ex",
-          "description": "caixas de sugestão), mas não têm autoridade para iniciar ou implementar mudanças. A gestão centraliza todas as decisões de mudança.",
+          "label": "Nível 2",
+          "description": "Os funcionários são incentivados a sugerir melhorias (ex: caixas de sugestão), mas não têm autoridade para iniciar ou implementar mudanças. A gestão centraliza todas as decisões de mudança.",
           "evidence_signals": {
             "observable_behaviors": [
               "Existem caixas de sugestão, mas os funcionários relatam que raramente veem suas ideias implementadas ou recebem feedback"
@@ -801,8 +801,8 @@
         },
         {
           "level": 2,
-          "label": "A gestão ouve as propostas, mas a iniciativa é bloqueada por burocracia excessiva (ex",
-          "description": "múltiplos formulários, longos tempos de espera por aprovação) que desencoraja a ação.",
+          "label": "Nível 2",
+          "description": "A gestão ouve as propostas, mas a iniciativa é bloqueada por burocracia excessiva (ex: múltiplos formulários, longos tempos de espera por aprovação) que desencoraja a ação.",
           "evidence_signals": {
             "observable_behaviors": [
               "\"Eu sugeri uma melhoria há 6 meses",
@@ -1009,8 +1009,8 @@
         },
         {
           "level": 4,
-          "label": "A implementação segue ciclos formais de melhoria (ex",
-          "description": "PDCA). A equipe coleta dados após a implementação e planeja ajustes em ciclos subsequentes (ex: mensalmente).",
+          "label": "Nível 4",
+          "description": "A implementação segue ciclos formais de melhoria (ex: PDCA). A equipe coleta dados após a implementação e planeja ajustes em ciclos subsequentes (ex: mensalmente).",
           "evidence_signals": {
             "observable_behaviors": [
               "\"Implementamos a mudança",
@@ -1033,8 +1033,8 @@
         },
         {
           "level": 6,
-          "label": "A implementação é ativamente ágil, usando ciclos curtos (ex",
-          "description": "diários/semanais). A equipe tem autonomia para adaptar a solução em tempo real com base em dados, focando em \"falhar rápido\" e aprender iterativamente.",
+          "label": "Nível 6",
+          "description": "A implementação é ativamente ágil, usando ciclos curtos (ex: diários/semanais). A equipe tem autonomia para adaptar a solução em tempo real com base em dados, focando em \"falhar rápido\" e aprender iterativamente.",
           "evidence_signals": {
             "observable_behaviors": [
               "\"Temos um 'quadro de sprint' de melhoria",
