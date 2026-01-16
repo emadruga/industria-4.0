@@ -26,7 +26,7 @@
       "id": "Q-TEC-CONECT-CHÃOFÁ-024-001",
       "question_number": 1,
       "title": "Habilitação Tecnológica e Criação de CPS",
-      "text": "Os equipamentos e máquinas do chão de fábrica foram aprimorados com sistemas embarcados, sensores e atuadores para criar Sistemas Ciberfísicos (CPS) e estabelecer uma interface entre o mundo físico e digital?",
+      "text": "Os equipamentos e máquinas do chão de fábrica foram aprimorados com sistemas embarcados, sensores e atuadores para criar Sistemas Ciberfísicos (CPS) e estabelecem uma interface entre o mundo físico e digital?",
       "maturity_levels": [
         {
           "level": 0,
@@ -34,8 +34,8 @@
           "description": "Processos não são definidos e são executados com métodos informais ou ad-hoc.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Ativos e sistemas da fábrica não estão conectados",
-              "A produção é executada por humanos sem automação"
+              "Ativos e sistemas da fábrica não estão conectados.",
+              "A produção é executada por humanos sem automação."
             ]
           }
         },
@@ -45,8 +45,8 @@
           "description": "Equipamentos, máquinas e sistemas baseados em computador podem interagir e trocar informações de forma básica.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Existem links formais de rede que permitem a comunicação entre ativos",
-              "Ativos operam com a assistência de sistemas baseados em computador"
+              "Existem links formais de rede que permitem a comunicação entre ativos.",
+              "Ativos operam com a assistência de sistemas baseados em computador."
             ]
           }
         },
@@ -56,8 +56,8 @@
           "description": "Componentes mecatrônicos foram aprimorados para criar Sistemas Ciberfísicos (CPS).",
           "evidence_signals": {
             "observable_behaviors": [
-              "Os ativos são interoperáveis",
-              "Sistemas embarcados com sensores, atuadores e unidades de processamento são incorporados nos processos de interação e troca de dados"
+              "Os ativos são interoperáveis.",
+              "Sistemas embarcados com sensores, atuadores e unidades de processamento são incorporados nos processos de interação e troca de dados."
             ]
           }
         },
@@ -67,8 +67,8 @@
           "description": "Sensores inteligentes são usados para capturar dados de máquinas e equipamentos.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Foi estabelecida uma infraestrutura de rede segura (por exemplo, baseada em Industrial Ethernet) para conectar os sistemas de controle e sensores",
-              "Dados são coletados e processados rapidamente, de forma contínua"
+              "Foi estabelecida uma infraestrutura de rede segura (por exemplo, baseada em Ethernet Industrial) para conectar os sistemas de controle e sensores.",
+              "Dados são coletados e processados rapidamente, de forma contínua."
             ]
           }
         },
@@ -78,8 +78,8 @@
           "description": "Os dados reais do chão de fábrica são capturados por diferentes redes de sensores e utilizados para tomar decisões.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Ativos são capazes de comunicação em tempo real, trocando informação no momento em que é gerada",
-              "Essa informação está amplamente disponível para processos de otimização"
+              "Ativos são capazes de comunicação em tempo real, trocando informação no momento em que é gerada.",
+              "Essa informação está amplamente disponível para processos de otimização."
             ]
           }
         },
@@ -89,10 +89,9 @@
           "description": "Os dados são integrados em sistemas inteligentes para a criação de uma Sombra Digital (Digital Shadow) dos processos.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Existem processos para definição dos requisitos de dados relevantes e a seleção dos sensores recomendados",
-              "As redes existentes são escaláveis para acomodar modificações na composição dos equipamentos (e",
-              ", adição de novos sensores)",
-              "Os sistemas executam tarefas preditivas para diagnóstico e prevenção de falhas"
+              "Existem processos para definição dos requisitos de dados relevantes e a seleção dos sensores recomendados.",
+              "As redes existentes são escaláveis para acomodar modificações na composição dos equipamentos (e.g., adição de novos sensores).",
+              "Os sistemas executam tarefas preditivas para diagnóstico e prevenção de falhas."
             ]
           }
         },
@@ -102,18 +101,27 @@
           "description": "Os sistemas de informação são dotados de mecanismos de auto-aprendizado baseados em dados do CPS e operam de forma autônoma.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Os sistemas utilizam os dados dos CPS para implementar automaticamente as ações correspondentes sem necessidade de intervenção humana"
+              "Os sistemas utilizam os dados dos CPS para implementar automaticamente as ações correspondentes sem necessidade de intervenção humana."
             ]
           }
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Inventário de Sistemas Ciberfísicos (CPS) no chão de fábrica. Especificações técnicas de sensores inteligentes. Diagramas de arquitetura de rede IoT no chão de fábrica. Listas de Ativos com sistemas embarcados atualizados. Documentação de retrofit de ativos legados com sensores. Planos de investimento em tecnologias de sensores/robótica."
+        "Inventário de Sistemas Ciberfísicos (CPS) no chão de fábrica.", 
+        "Especificações técnicas de sensores inteligentes.", 
+        "Diagramas de arquitetura de rede IoT no chão de fábrica.", 
+        "Listas de Ativos com sistemas embarcados atualizados.", 
+        "Documentação de retrofit de ativos legados com sensores.", 
+        "Planos de investimento em tecnologias de sensores/robótica."
       ],
       "metrics": [
-        "Métricas/KPIs Porcentagem de máquinas equipadas com sensores inteligentes. Número de Sistemas Ciberfísicos (CPS) implementados. Frequência de coleta de dados brutos dos ativos. Conformidade da infraestrutura com padrões industriais (e.g., RAMI 4.0). % de dados válidos versus corrompidos"
+        "Porcentagem de máquinas equipadas com sensores inteligentes.", 
+        "Número de Sistemas Ciberfísicos (CPS) implementados.", 
+        "Frequência de coleta de dados brutos dos ativos.", 
+        "Conformidade da infraestrutura com padrões industriais (e.g., RAMI 4.0).",
+        "Taxa de dados válidos versus corrompidos"
       ],
-      "sampling_guidance": "Amostragem Selecionar 5–10 artefatos referentes a processos relevantes (registros de calibração de sensores), atualizados nos últimos 90 dias."
+      "sampling_guidance": "Selecionar 5–10 artefatos referentes a processos relevantes (registros de calibração de sensores), atualizados nos últimos 90 dias."
     },
     {
       "id": "Q-TEC-CONECT-CHÃOFÁ-024-002",
@@ -127,7 +135,7 @@
           "description": "Não há pré-processamento de dados digitais ou o fluxo de dados é inexistente.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Não existem processos definidos referentes ao pré-processamento dos dados"
+              "Não existem processos definidos referentes ao pré-processamento dos dados."
             ]
           }
         },
@@ -137,8 +145,8 @@
           "description": "O processamento de dados é centralizado e os ativos de produção funcionam com lógica pré-programada.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Processos envolvendo pré-processamento dos dados são ad-hoc e restritor",
-              "O foco está nas funcionalidades básicas do sistema"
+              "Processos envolvendo pré-processamento dos dados são ad-hoc e restritos.",
+              "O foco está nas funcionalidades básicas do sistema."
             ]
           }
         },
@@ -148,8 +156,8 @@
           "description": "Os dados dos sensores são coletados, mas o pré-processamento é limitado e ainda dependente de processos centralizados.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Embora exista uma infraestrutura de conectividade disponível para a coleta de dados, o processamento ocorre em unidades centralizadas",
-              "É comum a identificação de pontos simples de falha (do inglês, single point of failures ou SPOFs)"
+              "Embora exista uma infraestrutura de conectividade disponível para a coleta de dados, o processamento ocorre em unidades centralizadas.",
+              "É comum a identificação de pontos únicos de falha (do inglês, single point of failures ou SPOFs)."
             ]
           }
         },
@@ -159,8 +167,8 @@
           "description": "O pré-processamento dos dados dos sensores é descentralizado, no ponto de geração de dados, com baixa latência.",
           "evidence_signals": {
             "observable_behaviors": [
-              "O processamento é realizado diretamente nos sistemas embarcados ligados aos recursos técnicos de chão de fábrica",
-              "SPOFs são eliminados"
+              "O processamento é realizado diretamente nos sistemas embarcados ligados aos recursos técnicos de chão de fábrica.",
+              "SPOFs são eliminados."
             ]
           }
         },
@@ -170,8 +178,8 @@
           "description": "O pré-processamento descentralizado é otimizado (com uso de balanceamento de carga e confiabilidade).",
           "evidence_signals": {
             "observable_behaviors": [
-              "As soluções de processamento distribuído são implementadas para reduzir atrasos na propagação do sinal e entrega de pacotes de rede",
-              "Os sistemas embarcados conseguem efetuar cálculos críticos em termos de tempo, otimizando a comunicação"
+              "As soluções de processamento distribuído são implementadas para reduzir atrasos na propagação do sinal e entrega de pacotes de rede.",
+              "Os sistemas embarcados conseguem efetuar cálculos críticos em termos de tempo, otimizando a comunicação."
             ]
           }
         },
@@ -181,7 +189,7 @@
           "description": "Os sistemas de informação utilizam análise de dados avançada e desempenho para prever falhas e vulnerabilidades que possam gerar interrupções no processamento de dados.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Os sistemas de informação implementam mecanismos de detecção e predição de falhas no processamento descentralizado de dados, provendo informações para tomada de decisão"
+              "Os sistemas de informação implementam mecanismos de detecção e predição de falhas no processamento descentralizado de dados, provendo informações para tomada de decisão."
             ]
           }
         },
@@ -191,18 +199,26 @@
           "description": "O processamento e a análise de dados envolvem mecanismos de auto-aprendizado e operam de forma autônoma.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Os sistemas de informação executam decisões automaticamente para otimizar o desempenho do processamento sem intervenção humana"
+              "Os sistemas de informação executam decisões automaticamente para otimizar o desempenho do processamento sem intervenção humana."
             ]
           }
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Documentação de pré-processamento de dados descentralizado. Especificações de Edge Server para coleta e análise local. Diagramas de arquitetura de Edge/Cloud Computing. Logs de latência e tempo de propagação do sinal. Relatórios de validação de cálculos críticos on-site. Documentação sobre protocolos de comunicação utilizados (e.g., OPC-UA)."
+        "Documentação de pré-processamento de dados descentralizado.", 
+        "Especificações de Edge Server para coleta e análise local.", 
+        "Diagramas de arquitetura de Edge/Cloud Computing.", 
+        "Logs de latência e tempo de propagação do sinal.", 
+        "Relatórios de validação de cálculos críticos on-site.", 
+        "Documentação sobre protocolos de comunicação utilizados (e.g., OPC-UA)."
       ],
       "metrics": [
-        "Métricas/KPIs Porcentagem de dados pré-processados de forma descentralizada. Latência média da comunicação em chão de fábrica. Tempo de Recuperação de Falhas na infraestrutura de edge. Taxa de agregação dos dados brutos."
+        "Porcentagem de dados pré-processados de forma descentralizada.", 
+        "Latência média da comunicação em chão de fábrica.", 
+        "Tempo de Recuperação de Falhas na infraestrutura de edge.", 
+        "Taxa de agregação dos dados brutos."
       ],
-      "sampling_guidance": "Amostragem Selecionar 5–10 artefatos referentes a processos relevantes (logs de falha e registros de latência), atualizados nos últimos 90 dias."
+      "sampling_guidance": "Selecionar 5–10 artefatos referentes a processos relevantes (logs de falha e registros de latência), atualizados nos últimos 90 dias."
     },
     {
       "id": "Q-TEC-CONECT-CHÃOFÁ-024-003",
@@ -216,8 +232,8 @@
           "description": "Os ativos e sistemas são gerenciados de forma independente, sem comunicação formal.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Não existem processos definidos para integração e interoperabilidade entre os ativos",
-              "Não há intenção estratégica para integrar máquinas existentes"
+              "Não existem processos definidos para integração e interoperabilidade entre os ativos.",
+              "Não há intenção estratégica para integrar máquinas existentes."
             ]
           }
         },
@@ -227,8 +243,8 @@
           "description": "Existem sistemas isolados ou proprietários em chão de fábrica, com capacidades limitadas de integração de dados.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Embora existam links formais de rede para ativos de produção, poucos ativos implementam funcionalidades de integração de dados",
-              "A maioria dos equipamentos não é interoperável"
+              "Embora existam links formais de rede para ativos de produção, poucos ativos implementam funcionalidades de integração de dados.",
+              "A maioria dos equipamentos não é interoperável."
             ]
           }
         },
@@ -238,8 +254,8 @@
           "description": "Os ativos são interoperáveis com múltiplas tecnologias e protocolos de comunicação.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Os ativos podem trocar informações sem restrições significativas",
-              "Protocolos padronizados (como o Internet Protocol IP, por exemplo) são utilizados no chão de fábrica"
+              "Os ativos podem trocar informações sem restrições significativas.",
+              "Protocolos padronizados (como o Internet Protocol IP, por exemplo) são utilizados no chão de fábrica."
             ]
           }
         },
@@ -249,8 +265,8 @@
           "description": "Ativos legados (e.g., máquinas antigas) são conectados através de novas tecnologias de sensores para fornecer dados de produção.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Existem iniciativas implementadas de integração com equipamentos e sistemas legados",
-              "A conectividade suporta a Integração Vertical (troca de dados em toda a cadeia de valor)"
+              "Existem iniciativas implementadas de integração com equipamentos e sistemas legados.",
+              "A conectividade suporta a Integração Vertical (troca de dados em toda a cadeia de valor)."
             ]
           }
         },
@@ -260,9 +276,9 @@
           "description": "Os sistemas de controle e sensoriamento são integrados, e a infraestrutura utiliza interfaces abertas e comunicação em tempo real.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Existem interfaces abertas e funcionais para troca de dados",
-              "A integração de dados entre ativos ocorre em tempo real",
-              "O controle de fluxo de dados está implementado para garantir a integridade da informação trocada"
+              "Existem interfaces abertas e funcionais para troca de dados.",
+              "A integração de dados entre ativos ocorre em tempo real.",
+              "O controle de fluxo de dados está implementado para garantir a integridade da informação trocada."
             ]
           }
         },
@@ -272,29 +288,39 @@
           "description": "Os sistemas de controle e sensoriamento utilizam os dados integrados em modelos preditivos para otimização das interfaces.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Existem análises preditivas implementadas, que permitem avaliar cenários de integração de dados e determinar otimizações",
-              "As redes existentes são escaláveis, sendo facilmente configuradas para acomodar modificações na composição de equipamentos e sistemas"
+              "Existem análises preditivas implementadas, que permitem avaliar cenários de integração de dados e determinar otimizações.",
+              "As redes existentes são escaláveis, sendo facilmente configuradas para acomodar modificações na composição de equipamentos e sistemas."
             ]
           }
         },
         {
           "level": 6,
           "label": "Nível 6",
-          "description": "A infraestrutura é capaz de reorganização dinâmica e adaptação automática à integração de novos ativos. Uso de modelos preditivos para otimizar rotas de dados e cargas de comunicação.",
+          "description": "A infraestrutura é capaz de reorganização dinâmica e adaptação automática à integração de novos ativos, e utiliza modelos preditivos para otimizar rotas de dados e cargas de comunicação.",
           "evidence_signals": {
             "observable_behaviors": [
-              "As interfaces são abertas e altamente flexíveis, se adaptando a novos requisitos do sistema de forma contínua"
+              "As interfaces são abertas e altamente flexíveis, se adaptando a novos requisitos do sistema de forma contínua."
             ]
           }
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Plano de integração vertical e horizontal. Inventário de ativos legados adaptados com sensores. Documentação de uso de protocolos padrões (e.g., IP). Registros de localização e rastreamento de materiais.. Padrões de comunicação entre máquinas. Documentação de interfaces abertas."
+        "Plano de integração vertical e horizontal.", 
+        "Inventário de ativos legados adaptados com sensores.", 
+        "Documentação de uso de protocolos padrões (e.g., IP).", 
+        "Registros de localização e rastreamento de materiais.", 
+        "Padrões de comunicação entre máquinas.", 
+        "Documentação de interfaces abertas."
       ],
       "metrics": [
-        "Métricas/KPIs Porcentagem de ativos legados fornecendo dados digitais. Taxa de uso de interfaces abertas para comunicação. Percentual de protocolos de comunicação interoperáveis utilizados. Porcentagem de produtos com identificação rastreável. Percentual de dados legados integrados sem perdas. Número de interfaces interoperáveis ativas."
+        "Porcentagem de ativos legados fornecendo dados digitais.", 
+        "Taxa de uso de interfaces abertas para comunicação.", 
+        "Percentual de protocolos de comunicação interoperáveis utilizados.", 
+        "Porcentagem de produtos com identificação rastreável.", 
+        "Porcentagem de dados legados integrados sem perdas.", 
+        "Número de interfaces interoperáveis ativas."
       ],
-      "sampling_guidance": "Amostragem Selecionar 5–10 artefatos referentes a processos relevantes (registros de integração de ativos legados e logs de comunicação via protocolo padrão), atualizados nos últimos 90 dias."
+      "sampling_guidance": "Selecionar 5–10 artefatos referentes a processos relevantes (registros de integração de ativos legados e logs de comunicação via protocolo padrão), atualizados nos últimos 90 dias."
     },
     {
       "id": "Q-TEC-CONECT-CHÃOFÁ-024-004",
@@ -308,9 +334,9 @@
           "description": "Não há dados digitais capturados ou utilizados.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Não há processos definidos para utilização de dados de chão de fábrica com objetivos estratégicos",
-              "A tomada de decisão é baseada em métodos informais ou ad-hoc",
-              "A transformação digital não é foco estratégico"
+              "Não há processos definidos para utilização de dados de chão de fábrica com objetivos estratégicos.",
+              "A tomada de decisão é baseada em métodos informais ou ad-hoc.",
+              "A transformação digital não é foco estratégico."
             ]
           }
         },
@@ -320,8 +346,8 @@
           "description": "Dados básicos de produção são usados para relatórios elementares, sem integração da cadeia de valor.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Relatórios existentes baseiam-se em dados dos ativos digitais obtidos por funcionalidades pré-programadas",
-              "Não há análises baseadas em cruzamento de dados de diferentes ativos"
+              "Relatórios existentes baseiam-se em dados dos ativos digitais obtidos por funcionalidades pré-programadas.",
+              "Não há análises baseadas em cruzamento de dados de diferentes ativos."
             ]
           }
         },
@@ -331,9 +357,9 @@
           "description": "Os dados dos sensores são processados e convertidos em informação útil para tomada de decisão.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Relatórios apresentam informações obtidas a partir de dados de múltiplas fontes",
-              "Existem requisitos de negócio determinando quais dados devem ser coletados e analisados",
-              "Sistemas de informação podem ser usados para identificar desvios dos parâmetros predefinidos"
+              "Relatórios apresentam informações obtidas a partir de dados de múltiplas fontes.",
+              "Existem requisitos de negócio determinando quais dados devem ser coletados e analisados.",
+              "Sistemas de informação podem ser usados para identificar desvios dos parâmetros predefinidos."
             ]
           }
         },
@@ -343,8 +369,8 @@
           "description": "Existe uma Sombra Digital criada a partir dos dados de sensores e demais ativos de chão de fábrica. O modelo digital é atualizado dinamicamente.",
           "evidence_signals": {
             "observable_behaviors": [
-              "A indústria empreende iniciativas para coletar dados e implementar um modelo digital atualizado dos ativos de chão de fábrica",
-              "As decisões gerenciais são baseadas em dados reais"
+              "A indústria empreende iniciativas para coletar dados e implementar um modelo digital atualizado dos ativos de chão de fábrica.",
+              "As decisões gerenciais são baseadas em dados reais."
             ]
           }
         },
@@ -354,7 +380,7 @@
           "description": "O sistema utiliza os dados da Sombra Digital para executar análises de dados, entender os efeitos e otimizar processos.",
           "evidence_signals": {
             "observable_behaviors": [
-              "A informação obtida a partir de sensores e ativos de chão de fábrica é usada para detectar ineficiências e sugerir áreas de melhoria, como por exemplo na redução de resíduos"
+              "A informação obtida a partir de sensores e ativos de chão de fábrica é usada para detectar ineficiências e sugerir áreas de melhoria, como por exemplo na redução de resíduos."
             ]
           }
         },
@@ -364,8 +390,8 @@
           "description": "Os dados da Sombra Digital são usados para simular possíveis cenários futuros e permitir o suporte à decisão.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Os sistemas empregam cada vez mais mecanismos de detecção e predição",
-              "São capazes de prever desvios e executar decisões de forma independente para otimizar o desempenho"
+              "Os sistemas empregam cada vez mais mecanismos de detecção e predição.",
+              "São capazes de prever desvios e executar decisões de forma independente para otimizar o desempenho."
             ]
           }
         },
@@ -375,19 +401,29 @@
           "description": "O sistema utiliza os dados da Sombra Digital para tomar decisões de forma autônoma.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Decisões referentes à correção de desvios e otimização da produção são implementadas de forma autônoma pelo sistema",
-              "O sistema é dotado de mecanismos de auto-aprendizado e auto-otimização"
+              "Decisões referentes à correção de desvios e otimização da produção são implementadas de forma autônoma pelo sistema.",
+              "O sistema é dotado de mecanismos de auto-aprendizado e auto-otimização."
             ]
           }
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Modelo de Sombra Digital (Digital Shadow) de chão de fábrica. Relatórios de diagnóstico de causas potenciais de desvios. Algoritmos de análise preditiva de falhas. Dashboards de monitoramento de processos em tempo real. Documentação de integração de dados com ERP/MES. Registros de localização e rastreamento de materiais."
+        "Modelo de Sombra Digital (Digital Shadow) de chão de fábrica.", 
+        "Relatórios de diagnóstico de causas potenciais de desvios.", 
+        "Algoritmos de análise preditiva de falhas.", 
+        "Dashboards de monitoramento de processos em tempo real.", 
+        "Documentação de integração de dados com ERP/MES.", 
+        "Registros de localização e rastreamento de materiais."
       ],
       "metrics": [
-        "Métricas/KPIs Acurácia (%) da previsão de falhas de máquina. Tempo para diagnóstico de desvios críticos. Porcentagem de decisões operacionais baseadas em dados reais. Produtividade do chão de fábrica (OEE). Tempo de atualização da sombra digital. Grau de acurácia (%) entre modelo e estádo físico."
+        "Acurácia (%) da previsão de falhas de máquina.", 
+        "Tempo para diagnóstico de desvios críticos.", 
+        "Porcentagem de decisões operacionais baseadas em dados reais.", 
+        "Produtividade do chão de fábrica (OEE).", 
+        "Tempo de atualização da sombra digital.", 
+        "Grau de acurácia (%) entre modelo e estádo físico."
       ],
-      "sampling_guidance": "Amostragem Selecionar 5–10 artefatos referentes a processos relevantes (sincronização entre Digital Shadow e processos físicos), atualizados nos últimos 90 dias."
+      "sampling_guidance": "Selecionar 5–10 artefatos referentes a processos relevantes (sincronização entre Digital Shadow e processos físicos), atualizados nos últimos 90 dias."
     }
   ],
   "references": [

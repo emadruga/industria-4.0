@@ -34,7 +34,8 @@
           "description": "Não há processos ou sistemas definidos para gerenciar informações do produto.",
           "evidence_signals": {
             "observable_behaviors": [
-              "As informações são dispersas, dependem de pessoas específicas, inexistem registros formais e não há consciência sobre controle, rastreabilidade ou versionamento"
+              "As informações são dispersas e dependem de pessoas específicas.", 
+              "Inexistem registros formais e não há consciência sobre controle, rastreabilidade ou versionamento."
             ]
           }
         },
@@ -44,7 +45,9 @@
           "description": "As informações são gerenciadas informalmente por departamentos isolados.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Cada área mantém registros próprios em planilhas ou papel, a troca é manual, ocorrem erros frequentes e não há padronização nem controle de versões"
+              "Cada área mantém registros próprios em planilhas ou papel.",
+              "A troca de informação é manual.",
+              "Ocorrem erros frequentes e não há padronização nem controle de versões."
             ]
           }
         },
@@ -54,8 +57,10 @@
           "description": "Existem procedimentos formais para troca de informações, mas ainda manuais.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Processos documentados em papel, repositórios físicos separados, atualizações manuais e controle de versões limitado, com pouca rastreabilidade interdepartamental",
-              "Procedimentos documentados, mas sem repositório centralizados"
+              "Processos documentados em papel.", 
+              "Repositórios físicos separados.", 
+              "Atualizações manuais e controle de versões limitado, com pouca rastreabilidade interdepartamental.",
+              "Procedimentos documentados, mas sem repositório centralizados."
             ]
           }
         },
@@ -65,7 +70,9 @@
           "description": "As informações são digitalizadas, porém a integração entre sistemas é manual.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Uso de e-mails e pastas compartilhadas, integração feita por exportação/importação, ausência de PLM centralizado e falhas na visibilidade em tempo real"
+              "Uso de e-mails e pastas compartilhadas.", 
+              "Integração feita por exportação/importação,",
+              "Ausência de PLM centralizado e falhas na visibilidade em tempo real"
             ]
           }
         },
@@ -75,8 +82,9 @@
           "description": "Sistemas digitais estão integrados, mas o fluxo ainda depende de controle humano.",
           "evidence_signals": {
             "observable_behaviors": [
-              "PLM implantado, integração entre áreas garantida digitalmente, dados rastreáveis e seguros, mas exigindo validação e supervisão constante por pessoas",
-              "Rastreabilidade de versões e controle de acesso"
+              "PLM implantado, integração entre áreas garantida digitalmente.", 
+              "Dados rastreáveis e seguros, mas exigindo validação e supervisão constante por pessoas.",
+              "Rastreabilidade de versões e controle de acesso."
             ]
           }
         },
@@ -86,7 +94,8 @@
           "description": "fluxo de informações é automatizado com mínima intervenção humana.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Dados fluem entre CAD, ERP e MES automaticamente, há continuidade digital, sincronização de engenharia e produção e redução de inconsistências e retrabalhos"
+              "Dados fluem entre CAD, ERP e MES automaticamente.",
+              "Há continuidade digital, sincronização entre engenharia e produção, e redução de inconsistências e retrabalhos."
             ]
           }
         },
@@ -96,18 +105,28 @@
           "description": "O sistema aprende e adapta-se com base em dados reais do produto.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Gêmeos digitais e MBSE otimizam processos, IA gera insights automáticos, feedback de uso atualiza projetos e o ciclo de vida é totalmente interconectado"
+              "Gêmeos digitais e MBSE otimizam processos.",
+              "IA gera insights automáticos.",
+              "Feedback de uso atualiza projetos e o ciclo de vida é totalmente interconectado."
             ]
           }
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Mapas ou diagramas de fluxo de informação entre fases do ciclo de vida. Relatórios ou políticas de gestão de dados de produto (PLM/PDM). Capturas de tela ou documentação de integração entre sistemas (CAD–ERP–MES). Logs de atualização e versionamento de documentos técnicos. Evidências de uso de digital twins ou engenharia baseada em modelos (MBSE). Registros de feedback de uso e manutenção incorporados em novas versões de design."
+        "Mapas ou diagramas de fluxo de informação entre fases do ciclo de vida.", 
+        "Relatórios ou políticas de gestão de dados de produto (PLM/PDM).", 
+        "Capturas de tela ou documentação de integração entre sistemas (CAD–ERP–MES).", 
+        "Logs de atualização e versionamento de documentos técnicos.", 
+        "Evidências de uso de gêmeos digitais ou engenharia baseada em modelos (MBSE).", 
+        "Registros de feedback de uso e manutenção incorporados em novas versões de design."
       ],
       "metrics": [
-        "Métricas/KPIs Índice de integração digital (%): proporção de sistemas conectados ao longo do ciclo de vida. Tempo médio de atualização de dados de produto: entre criação e sincronização em todos os sistemas. Taxa de retrabalho por inconsistência de informação (%). Percentual de produtos com feedback de uso incorporado no redesenho."
+        "Índice de integração digital (%): proporção de sistemas conectados ao longo do ciclo de vida.", 
+        "Tempo médio de atualização de dados de produto: entre criação e sincronização em todos os sistemas.", 
+        "Taxa de retrabalho por inconsistência de informação (%).", 
+        "Percentual de produtos com feedback de uso incorporado no redesenho."
       ],
-      "sampling_guidance": "Amostragem Selecionar 3–5 artefatos referentes a processos relevantes (evidências de logs de sincronização ou dashboards PLM), atualizados dos últimos 90 dias."
+      "sampling_guidance": "Selecionar 3–5 artefatos referentes a processos relevantes (evidências de logs de sincronização ou dashboards PLM), atualizados dos últimos 90 dias."
     },
     {
       "id": "Q-TEC-AUTOMA-CICLOV-025-002",
@@ -121,9 +140,9 @@
           "description": "Não há uso de ferramentas digitais para modelagem ou simulação.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Desenvolvimento físico e experimental",
-              "ausência de CAD ou PLM",
-              "decisões baseadas apenas em testes empíricos e experiência prática"
+              "Desenvolvimento físico e experimental.",
+              "Ausência de CAD ou PLM.",
+              "Decisões baseadas apenas em testes empíricos e experiência prática."
             ]
           }
         },
@@ -133,9 +152,9 @@
           "description": "Representações digitais são inexistentes ou ocasionais.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Modelos e desenhos feitos manualmente",
-              "protótipos físicos predominam",
-              "nenhuma padronização no design digital"
+              "Modelos e desenhos feitos manualmente.",
+              "Protótipos físicos predominam.",
+              "Nenhuma padronização no design digital."
             ]
           }
         },
@@ -145,8 +164,8 @@
           "description": "CAD é utilizado apenas para desenhos ou modelos estáticos.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Criação de modelos 2D/3D simples sem integração com outras fases",
-              "ausência de simulações ou análises baseadas em modelos digitais"
+              "Criação de modelos 2D/3D simples sem integração com outras fases.",
+              "Ausência de simulações ou análises baseadas em modelos digitais."
             ]
           }
         },
@@ -156,10 +175,10 @@
           "description": "Modelos digitais são usados em etapas específicas, de forma isolada.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Uso de CAD/CAE com simulações pontuais",
-              "dados não conectados entre departamentos",
-              "ausência de uma espinha dorsal de informação",
-              "Benefícios diretos observados em tempo e custo de desenvolvimento"
+              "Uso de CAD/CAE com simulações pontuais.",
+              "Dados não conectados entre departamentos.",
+              "Ausência de uma espinha dorsal de informação.",
+              "Benefícios diretos observados em tempo e custo de desenvolvimento."
             ]
           }
         },
@@ -169,9 +188,9 @@
           "description": "Modelos digitais abrangentes são integrados via PLM.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Representações digitais conectam requisitos, componentes e testes",
-              "integração parcial com outras áreas",
-              "otimização ainda guiada manualmente"
+              "Representações digitais conectam requisitos, componentes e testes.",
+              "Integração parcial com outras áreas.",
+              "Otimização ainda guiada manualmente."
             ]
           }
         },
@@ -181,10 +200,10 @@
           "description": "A empresa usa gêmeos digitais para simulação e otimização.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Dados reais atualizam modelos digitais",
-              "sistemas automatizam melhorias",
-              "integração entre produto e processo com mínima intervenção humana",
-              "Retroalimentação de dados de uso em simulações"
+              "Dados reais atualizam modelos digitais.",
+              "Sistemas automatizam melhorias.",
+              "Integração entre produto e processo com mínima intervenção humana.",
+              "Retroalimentação de dados de uso em simulações."
             ]
           }
         },
@@ -194,20 +213,28 @@
           "description": "Gêmeos digitais totalmente integrados reagem e otimizam-se em tempo real.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Simulações contínuas, IA para análise preditiva e autoadaptação",
-              "modelos MBSE conectam todas as fases do ciclo de vida",
-              "Adaptação dinâmica de parâmetros de produto para customização do cliente"
+              "Simulações contínuas, IA para análise preditiva e autoadaptação.",
+              "Modelos MBSE conectam todas as fases do ciclo de vida.",
+              "Adaptação dinâmica de parâmetros de produto para customização do cliente."
             ]
           }
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Exemplos de modelos CAD/CAE e registros de versões digitais de produtos. Relatórios de simulações e resultados de análises virtuais (deformação, fluxo, resistência). Documentação do sistema PLM integrando design, engenharia e produção. Evidências de uso de gêmeos digitais em operação (dashboards, logs, relatórios). Modelos MBSE (Model-Based Systems Engineering) ou especificações digitais do produto. Integrações demonstradas entre ferramentas de simulação, ERP e MES."
+        "Exemplos de modelos CAD/CAE e registros de versões digitais de produtos.", 
+        "Relatórios de simulações e resultados de análises virtuais (deformação, fluxo, resistência).", 
+        "Documentação do sistema PLM integrando design, engenharia e produção.", 
+        "Evidências de uso de gêmeos digitais em operação (dashboards, logs, relatórios).", 
+        "Modelos MBSE (Model-Based Systems Engineering) ou especificações digitais do produto.", 
+        "Integrações demonstradas entre ferramentas de simulação, ERP e MES."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de produtos desenvolvidos com modelos digitais completos (%). Tempo médio de ciclo de design (comparando desenvolvimento físico vs. digital). Taxa de reutilização de modelos e simulações em novos projetos (%). Grau de integração entre gêmeos digitais e dados operacionais (%)."
+        "Percentual de produtos desenvolvidos com modelos digitais completos (%).", 
+        "Tempo médio de ciclo de design (comparando desenvolvimento físico vs. digital).", 
+        "Taxa de reutilização de modelos e simulações em novos projetos (%).", 
+        "Grau de integração entre gêmeos digitais e dados operacionais (%)."
       ],
-      "sampling_guidance": "Amostragem Selecionar 3–5 artefatos referentes a processos relevantes, atualizados dos últimos 90 dias."
+      "sampling_guidance": "Selecionar 3–5 artefatos referentes a processos relevantes, atualizados dos últimos 90 dias."
     },
     {
       "id": "Q-TEC-AUTOMA-CICLOV-025-003",
@@ -221,8 +248,8 @@
           "description": "Dados não são coletados nem usados de forma sistemática.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Não há estrutura para registro de dados",
-              "decisões são totalmente intuitivas, sem base factual ou indicadores consistentes"
+              "Não há estrutura para registro de dados.",
+              "Decisões são totalmente intuitivas, sem base factual ou indicadores consistentes."
             ]
           }
         },
@@ -232,9 +259,9 @@
           "description": "Dados são coletados pontualmente, sem integração entre áreas.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Informações dispersas em relatórios manuais",
-              "cada setor mantém registros próprios",
-              "decisões guiadas por experiência empírica"
+              "Informações dispersas em relatórios manuais.",
+              "Cada setor mantém registros próprios.",
+              "Decisões guiadas por experiência empírica."
             ]
           }
         },
@@ -244,9 +271,9 @@
           "description": "Dados são coletados em algumas fases, mas sem consolidação.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Processos básicos de coleta",
-              "uso de relatórios de produção ou vendas",
-              "integração limitada e dependente de pessoas"
+              "Processos básicos de coleta.",
+              "Uso de relatórios de produção ou vendas.",
+              "Integração limitada e dependente de pessoas."
             ]
           }
         },
@@ -256,9 +283,9 @@
           "description": "Dados digitais são coletados, porém analisados de forma isolada.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Uso de planilhas e bancos simples",
-              "análise manual",
-              "integração inconsistente entre dados de design, produção e cliente"
+              "Uso de planilhas e bancos de dados simples.",
+              "Análise manual.",
+              "Integração inconsistente entre dados de design, produção e cliente."
             ]
           }
         },
@@ -268,10 +295,10 @@
           "description": "Dados de múltiplas fontes são conectados em sistemas integrados.",
           "evidence_signals": {
             "observable_behaviors": [
-              "PLM ou ERP integrando informações",
-              "coleta estruturada",
-              "dados de uso real alimentam melhorias",
-              "análise ainda predominantemente humana"
+              "PLM ou ERP integrando informações.",
+              "Coleta estruturada.",
+              "Dados de uso real alimentam melhorias.",
+              "Análise ainda predominantemente humana."
             ]
           }
         },
@@ -281,9 +308,9 @@
           "description": "Integração e análise de dados são amplamente automatizadas.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Processos automatizados de coleta e correlação",
-              "dados em tempo real e históricos usados para decisão",
-              "mínima intervenção humana, mas ainda sem aprendizado adaptativo"
+              "Processos automatizados de coleta e correlação.",
+              "Dados em tempo real e históricos usados para decisão.",
+              "Mínima intervenção humana, mas ainda sem aprendizado adaptativo."
             ]
           }
         },
@@ -293,21 +320,29 @@
           "description": "A empresa usa IA e análise avançada para otimização contínua.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Big Data e Machine Learning integram todas as fases",
-              "insights preditivos e prescritivos",
-              "inovação contínua orientada por dados",
-              "Integração preditiva e prescritiva de todas as fontes"
+              "Big Data e Machine Learning integram todas as fases.",
+              "Insights preditivos e prescritivos.",
+              "Inovação contínua orientada por dados.",
+              "Integração preditiva e prescritiva de todas as fontes."
             ]
           }
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Documentação de arquitetura de dados e fluxos de integração entre sistemas. Dashboards de BI, relatórios de analytics e logs de coleta de dados. Modelos de dados ou dicionários de integração entre PLM, ERP e CRM. Evidências de uso de algoritmos ou IA para análise preditiva. Relatórios de correlação entre dados de campo e decisões de engenharia. Políticas internas de governança e qualidade de dados."
+        "Documentação de arquitetura de dados e fluxos de integração entre sistemas.", 
+        "Dashboards de BI, relatórios de analytics e logs de coleta de dados.", 
+        "Modelos de dados ou dicionários de integração entre PLM, ERP e CRM.", 
+        "Evidências de uso de algoritmos ou IA para análise preditiva.", 
+        "Relatórios de correlação entre dados de campo e decisões de engenharia.", 
+        "Políticas internas de governança e qualidade de dados."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de fontes de dados integradas ao longo do ciclo de vida (%). Tempo médio entre coleta e uso efetivo de dados para decisão. Taxa de decisões baseadas em dados vs. decisões empíricas (%). Número de insights preditivos aplicados em produtos/processos por ano."
+        "Percentual de fontes de dados integradas ao longo do ciclo de vida.", 
+        "Tempo médio entre coleta e uso efetivo de dados para decisão.", 
+        "Taxa de decisões baseadas em dados vs. decisões empíricas (%).", 
+        "Número de insights preditivos aplicados em produtos/processos por ano."
       ],
-      "sampling_guidance": "Amostragem Selecionar 3–5 artefatos referentes a processos relevantes, atualizados dos últimos 90 dias."
+      "sampling_guidance": "Selecionar 3–5 artefatos referentes a processos relevantes, atualizados dos últimos 90 dias."
     },
     {
       "id": "Q-TEC-AUTOMA-CICLOV-025-004",
@@ -321,7 +356,7 @@
           "description": "A empresa opera isoladamente, sem envolvimento de parceiros externos.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Não há trocas de informação, contratos ou interação formal com fornecedores, clientes ou centros de pesquisa"
+              "Não há trocas de informação, contratos ou interação formal com fornecedores, clientes ou centros de pesquisa."
             ]
           }
         },
@@ -331,8 +366,8 @@
           "description": "A interação com parceiros é pontual e sem estrutura formal.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Contato eventual por e-mails ou reuniões",
-              "ausência de processos definidos de cooperação ou compartilhamento de dados"
+              "Contato eventual por e-mails ou reuniões.",
+              "Ausência de processos definidos de cooperação ou compartilhamento de dados."
             ]
           }
         },
@@ -342,9 +377,9 @@
           "description": "A colaboração ocorre de forma reativa, sem integração digital.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Feedback pontual de clientes e fornecedores",
-              "troca manual de informações",
-              "decisões centralizadas e comunicação não sistemática"
+              "Feedback pontual de clientes e fornecedores.",
+              "Troca manual de informações.",
+              "Decisões centralizadas e comunicação não sistemática."
             ]
           }
         },
@@ -354,10 +389,10 @@
           "description": "Ferramentas digitais são usadas apenas para troca de informações.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Envio de arquivos por e-mail ou plataformas simples",
-              "ausência de workflows integrados",
-              "cooperação restrita a compartilhamento documental",
-              "Uso de ferramentas básicas, sem controle de versão nem rastreabilidade"
+              "Envio de arquivos por e-mail ou plataformas simples.",
+              "Ausência de workflows integrados.",
+              "Cooperação restrita a compartilhamento documental.",
+              "Uso de ferramentas básicas, sem controle de versão nem rastreabilidade."
             ]
           }
         },
@@ -367,10 +402,10 @@
           "description": "Plataformas digitais suportam colaboração em fases específicas do ciclo de vida.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Integração com clientes e fornecedores em projetos",
-              "uso de portais colaborativos",
-              "decisões conjuntas ainda exigem supervisão humana",
-              "Mecanismos de controle de acesso e versionamento compartilhado"
+              "Integração com clientes e fornecedores em projetos.",
+              "Uso de portais colaborativos.",
+              "Decisões conjuntas ainda exigem supervisão humana.",
+              "Mecanismos de controle de acesso e versionamento compartilhado."
             ]
           }
         },
@@ -380,10 +415,10 @@
           "description": "Os sistemas da empresa e dos parceiros estão conectados digitalmente.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Integração horizontal entre sistemas",
-              "troca automática de dados",
-              "personalização conjunta de produtos",
-              "colaboração contínua e estruturada"
+              "Integração horizontal entre sistemas.",
+              "Troca automática de dados.",
+              "Personalização conjunta de produtos.",
+              "Colaboração contínua e estruturada."
             ]
           }
         },
@@ -393,21 +428,29 @@
           "description": "A empresa integra um ecossistema digital de inovação com parceiros.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Plataformas de IA otimizam cocriação",
-              "dados de uso atualizam projetos",
-              "redes colaborativas geram novos modelos de negócio (Product as a Service)",
-              "Gestão de propriedade intelectual e compliance digital colaborativo"
+              "Plataformas de IA otimizam cocriação.",
+              "Dados de uso atualizam projetos.",
+              "Redes colaborativas geram novos modelos de negócio (Product as a Service).",
+              "Gestão de propriedade intelectual e compliance digital colaborativo."
             ]
           }
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Contratos de cooperação, NDAs e acordos de codesenvolvimento com parceiros externos. Documentação de plataformas digitais de colaboração (portais, PLM compartilhado). Registros de projetos colaborativos com clientes, fornecedores e centros de pesquisa. Logs ou relatórios de integração de sistemas com parceiros (API, EDI, etc.). Evidências de participação em ecossistemas de inovação ou clusters tecnológicos. Casos de codesign ou coengenharia documentados entre parceiros e a empresa."
+        "Contratos de cooperação, NDAs e acordos de codesenvolvimento com parceiros externos.", 
+        "Documentação de plataformas digitais de colaboração (portais, PLM compartilhado).",
+        "Registros de projetos colaborativos com clientes, fornecedores e centros de pesquisa.",
+        "Logs ou relatórios de integração de sistemas com parceiros (API, EDI, etc.).",
+        "Evidências de participação em ecossistemas de inovação ou clusters tecnológicos.",
+        "Casos de codesign ou coengenharia documentados entre parceiros e a empresa." 
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de projetos de produto desenvolvidos com participação externa (%). Tempo médio de resposta na troca de informações com parceiros. Número de parceiros integrados digitalmente na cadeia de valor. Índice de inovação colaborativa (projetos cocriados / total de projetos)."
+        "Percentual de projetos de produto desenvolvidos com participação externa.", 
+        "Tempo médio de resposta na troca de informações com parceiros.", 
+        "Número de parceiros integrados digitalmente na cadeia de valor.", 
+        "Índice de inovação colaborativa (projetos cocriados / total de projetos)."
       ],
-      "sampling_guidance": "Amostragem Selecionar 3–5 artefatos referentes a processos relevantes, atualizados dos últimos 90 dias."
+      "sampling_guidance": "Selecionar 3–5 artefatos referentes a processos relevantes, atualizados dos últimos 90 dias."
     },
     {
       "id": "Q-TEC-AUTOMA-CICLOV-025-005",
@@ -421,8 +464,8 @@
           "description": "A empresa não coleta nem utiliza feedback ou dados de uso.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Melhoria de produtos baseada em intuição",
-              "inexistência de mecanismos formais de coleta ou canais de comunicação estruturados"
+              "Melhoria de produtos baseada em intuição.",
+              "Inexistência de mecanismos formais de coleta ou canais de comunicação estruturados."
             ]
           }
         },
@@ -432,8 +475,8 @@
           "description": "Feedback é coletado esporadicamente e usado de forma não sistemática.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Reclamações e sugestões recebidas informalmente",
-              "melhorias ad-hoc sem registro ou análise sistemática"
+              "Reclamações e sugestões recebidas informalmente.",
+              "Melhorias ad-hoc sem registro ou análise sistemática."
             ]
           }
         },
@@ -443,9 +486,9 @@
           "description": "Feedback é obtido por meios simples e usado ocasionalmente.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Pesquisas manuais (sem integração com engenharia) ou canais básicos",
-              "dados analisados pontualmente",
-              "inexistência de monitoramento do uso do produto"
+              "Pesquisas manuais (sem integração com engenharia) ou canais básicos.",
+              "Dados analisados pontualmente.",
+              "Inexistência de monitoramento do uso do produto."
             ]
           }
         },
@@ -455,9 +498,9 @@
           "description": "Ferramentas digitais coletam dados e feedback, mas sem integração.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Uso de CRM básico ou formulários online",
-              "análise em planilhas",
-              "integração restrita entre pós-venda e engenharia"
+              "Uso de CRM básico ou formulários online.",
+              "Análise em planilhas.",
+              "Integração restrita entre pós-venda e engenharia."
             ]
           }
         },
@@ -467,11 +510,11 @@
           "description": "Sistemas conectados integram dados de uso e feedback de clientes.",
           "evidence_signals": {
             "observable_behaviors": [
-              "PLM/CRM integrados",
-              "dados de uso capturados por sensores",
-              "atualizações via software",
-              "análises e decisões ainda humanas",
-              "Fechamento de ciclo entre cliente e desenvolvimento"
+              "PLM/CRM integrados.",
+              "Dados de uso capturados por sensores.",
+              "Atualizações via software.",
+              "Análises e decisões ainda humanas.",
+              "Fechamento de ciclo entre cliente e desenvolvimento."
             ]
           }
         },
@@ -481,10 +524,10 @@
           "description": "Feedback e dados de uso são analisados automaticamente.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Sistemas identificam tendências",
-              "sugestões automáticas de otimização",
-              "integração direta com processos de design e engenharia",
-              "Automatização parcial do processo de melhoria do design"
+              "Sistemas identificam tendências.",
+              "Sugestões automáticas de otimização.",
+              "Integração direta com processos de design e engenharia.",
+              "Automatização parcial do processo de melhoria do design."
             ]
           }
         },
@@ -494,20 +537,28 @@
           "description": "Feedback e uso do produto são analisados por IA em tempo real.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Machine Learning gera insights preditivos",
-              "design ajustado dinamicamente (product-as-a-service)",
-              "novos modelos de negócio e serviços personalizados emergem"
+              "Machine Learning gera insights preditivos.",
+              "Design ajustado dinamicamente (product-as-a-service).",
+              "Novos modelos de negócio e serviços personalizados emergem."
             ]
           }
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Relatórios de feedback de clientes e históricos de tickets de suporte. Registros de integração entre CRM, PLM e sistemas de pós-venda. Logs de coleta automática de dados de uso (IoT, sensores, telemetria). Evidências de atualizações de produto baseadas em feedback de campo. Planos de melhoria contínua derivados de análises de feedback. Casos documentados de personalização ou atualização via software."
+        "Relatórios de feedback de clientes e históricos de tickets de suporte.", 
+        "Registros de integração entre CRM, PLM e sistemas de pós-venda.", 
+        "Logs de coleta automática de dados de uso (IoT, sensores, telemetria).", 
+        "Evidências de atualizações de produto baseadas em feedback de campo.", 
+        "Planos de melhoria contínua derivados de análises de feedback.", 
+        "Casos documentados de personalização ou atualização via software."
       ],
       "metrics": [
-        "Métricas/KPIs Percentual de feedbacks processados e incorporados em novos produtos (%). Tempo médio entre coleta de feedback e ação corretiva ou melhoria. Taxa de automação da análise de feedback (%). Número de produtos com telemetria e coleta ativa de dados de uso."
+        "Percentual de feedbacks processados e incorporados em novos produtos.", 
+        "Tempo médio entre coleta de feedback e ação corretiva ou melhoria.", 
+        "Taxa de automação da análise de feedback (%).", 
+        "Número de produtos com telemetria e coleta ativa de dados de uso."
       ],
-      "sampling_guidance": "Amostragem Selecionar 3–5 artefatos referentes a processos relevantes, atualizados dos últimos 90 dias."
+      "sampling_guidance": "Selecionar 3–5 artefatos referentes a processos relevantes, atualizados dos últimos 90 dias."
     }
   ],
   "references": [

@@ -107,10 +107,17 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Decision logs com autores, opções consideradas, dados analisados, trade‑offs e resultado. Business cases/POCs com critérios de sucesso e resultados. Atas de comitês técnicos/steering com lista de participantes e votos. Roadmap/Portfolio com ligações a análises e pilotos. Threads em Slack/Teams com enquetes e síntese da decisão."
+        "Decision logs com autores, opções consideradas, dados analisados, trade‑offs e resultado.",
+        "Business cases/POCs com critérios de sucesso e resultados.",
+        "Atas de comitês técnicos/steering com lista de participantes e votos.",
+        "Roadmap/Portfolio com ligações a análises e pilotos.",
+        "Threads em Slack/Teams com enquetes e síntese da decisão."
       ],
       "metrics": [
-        "Métricas/KPIs % de decisões com documento de decisão e evidência de contribuição de ICs (individual contributors). Lead time de decisão (proposta → aprovação). % de decisões com dados quantitativos (benchmarks, experimentos, TCO, risco). Taxa de participação (nº de contribuintes únicos) e diversidade funcional (áreas representadas)."
+        "% de decisões com documento de decisão e evidência de contribuição de ICs (individual contributors).",
+        "Lead time de decisão (proposta → aprovação).",
+        "% de decisões com dados quantitativos (benchmarks, experimentos, TCO, risco).",
+        "Taxa de participação (nº de contribuintes únicos) e diversidade funcional (áreas representadas)."
       ],
       "sampling_guidance": "Amostragem Selecionar 5–10 decisões relevantes (investimentos, padrões, fornecedores) dos últimos 90 dias."
     },
@@ -196,10 +203,16 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Dashboards (KPI owners, dicionário de métricas, data lineage). Notebooks/queries anexos às atas/ decision logs. Catálogo de dados (glossário, qualidade, SLAs de atualização). Playbooks de leitura de KPI e rotinas de revisão (rituais com pauta e prints)."
+        "Dashboards (KPI owners, dicionário de métricas, data lineage).",
+        "Notebooks/queries anexos às atas/ decision logs.",
+        "Catálogo de dados (glossário, qualidade, SLAs de atualização).",
+        "Playbooks de leitura de KPI e rotinas de revisão (rituais com pauta e prints)."
       ],
       "metrics": [
-        "Métricas/KPIs % de reuniões/decisões com link para dashboard/consulta. Freshness (atualização) e completude dos dados usados. Taxa de acesso aos dashboards por função/time. Nº de Ações registradas que referenciam métricas."
+        "% de reuniões/decisões com link para dashboard/consulta.",
+        "Freshness (atualização) e completude dos dados usados.",
+        "Taxa de acesso aos dashboards por função/time.",
+        "Nº de Ações registradas que referenciam métricas."
       ],
       "sampling_guidance": "Amostragem Explorar 3 intercorrências (ex.: weekly ops, Planejamento de Vendas e Operações, daily meetings) e mapear como métricas sustentam ações nos últimos 90 dias."
     },
@@ -284,10 +297,15 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Calendário de rituais interfuncionais (cadência, pauta e presença). RACIs/matrizes de responsabilidade e OKRs compartilhados. Arquiteturas de integração (mapas de fluxo de informação). Post‑mortems/A3s com participantes de múltiplas áreas."
+        "Calendário de rituais interfuncionais (cadência, pauta e presença).",
+        "RACIs/matrizes de responsabilidade e OKRs compartilhados.",
+        "Arquiteturas de integração (mapas de fluxo de informação).",
+        "Post‑mortems/A3s com participantes de múltiplas áreas."
       ],
       "metrics": [
-        "Métricas/KPIs Taxa de presença por função; nº de itens interáreas concluídos por sprint/mês. Tempo de handoff e retrabalho por fronteira (ex.: engenharia→produção). Fluxo (lead time, throughput, WIP) em itens que cruzam times."
+        "Taxa de presença por função; nº de itens interáreas concluídos por sprint/mês.",
+        "Tempo de handoff e retrabalho por fronteira (ex.: engenharia→produção).",
+        "Fluxo (lead time, throughput, WIP) em itens que cruzam times."
       ],
       "sampling_guidance": "Amostragem Selecionar 2–3 iniciativas que exigiram colaboração e seguir o “fio” dos registros ponta‑a‑ponta nos últimos 90 dias."
     },
@@ -373,10 +391,15 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Backlog de ideias (portal/hackathon/kanban) com critérios de priorização. Relatos de experimento (Canvas de hipótese, MVT/A‑B, resultados e decisão). Stage‑gate/comitês e atas de kill/scale. Orçamento/tempo reservado a experimentos."
+        "Backlog de ideias (portal/hackathon/kanban) com critérios de priorização.",
+        "Relatos de experimento (Canvas de hipótese, MVT/A‑B, resultados e decisão).",
+        "Stage‑gate/comitês e atas de kill/scale. Orçamento/tempo reservado a experimentos."
       ],
       "metrics": [
-        "Métricas/KPIs Funil de inovação: taxa ideia→POC→piloto→escala. Tempo até 1º experimento e até decisão. % de experimentos com métrica de sucesso definida antes. Kill rate saudável (capacidade de dizer “não” com dados)."
+        "Funil de inovação: taxa ideia→POC→piloto→escala.",
+        "Tempo até 1º experimento e até decisão.",
+        "% de experimentos com métrica de sucesso definida antes.",
+        "Kill rate saudável (capacidade de dizer “não” com dados)."
       ],
       "sampling_guidance": "Amostragem Revisar 10 ideias recentes com seu caminho no funil e a base de evidências que justificou cada decisão."
     },
@@ -460,10 +483,16 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Matriz de competências e PDI (planos individuais). Trilhas/catálogo de cursos; taxa de conclusão e certificações. Levantamento de lacunas ligado a dados de desempenho e metas. Guildas/chapters e registros de comunidades de prática."
+        "Matriz de competências e PDI (planos individuais).",
+        "Trilhas/catálogo de cursos; taxa de conclusão e certificações.",
+        "Levantamento de lacunas ligado a dados de desempenho e metas.",
+        "Guildas/chapters e registros de comunidades de prática."
       ],
       "metrics": [
-        "Métricas/KPIs Horas/colaborador em capacitação e cobertura de skills‑chave. % de PDIs co-criados e revisados no período. Aplicação em campo (ex.: % de projetos que utilizaram técnica recém‑treinada). Mobilidade interna/mentorias pareadas."
+        "Horas/colaborador em capacitação e cobertura de skills‑chave.",
+        "% de PDIs co-criados e revisados no período.",
+        "Aplicação em campo (ex.: % de projetos que utilizaram técnica recém‑treinada).",
+        "Mobilidade interna/mentorias pareadas."
       ],
       "sampling_guidance": "Amostragem Analisar amostras de PDIs e confrontar com projetos que exigiram tais habilidades."
     },
@@ -549,10 +578,14 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar RCA (5 Porquês, Ishikawa, A3), post‑mortems e runbooks atualizados. Playbooks de incidente e evidências de uso durante o evento. Logs/tickets com linha do tempo, responsáveis e decisões."
+        "RCA (5 Porquês, Ishikawa, A3), post‑mortems e runbooks atualizados.",
+        "Playbooks de incidente e evidências de uso durante o evento.",
+        "Logs/tickets com linha do tempo, responsáveis e decisões."
       ],
       "metrics": [
-        "Métricas/KPIs MTTD/MTTR (detectar e resolver), taxa de recorrência de incidentes. % de incidentes com RCA formal e ações preventivas rastreadas. Tempo de atualização de runbooks após aprendizado."
+        "MTTD/MTTR (detectar e resolver), taxa de recorrência de incidentes.",
+        "% de incidentes com RCA formal e ações preventivas rastreadas.",
+        "Tempo de atualização de runbooks após aprendizado."
       ],
       "sampling_guidance": "Amostragem Selecionar 5 incidentes dos último trimestre; verificar do evento à prevenção (fechamento do ciclo)."
     },
@@ -636,76 +669,16 @@
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Planejamento (de Vendas e Operação) com cenários, impactos e decisões. Tech/Market radar, risk register, matriz regulatória. Roadmaps com pivôs/realocações e justificativas."
+        "Planejamento (de Vendas e Operação) com cenários, impactos e decisões.",
+        "Tech/Market radar, risk register, matriz regulatória.",
+        "Roadmaps com pivôs/realocações e justificativas."
       ],
       "metrics": [
-        "Métricas/KPIs Lead time de adaptação (mudança → execução). % do orçamento/pipe alocado a mudanças emergentes. Acurácia de predição (demanda/suprimento) e tempo para compliance."
+        "Lead time de adaptação (mudança → execução).",
+        "% do orçamento/pipe alocado a mudanças emergentes.",
+        "Acurácia de predição (demanda/suprimento) e tempo para compliance."
       ],
       "sampling_guidance": "Amostragem Escolher 3 mudanças externas recentes (cliente, tecnologia, regulação) e rastrear do sinal à ação."
-    },
-    {
-      "id": "Q-ORG-ESTRUT-COMPET-017-008",
-      "question_number": 8,
-      "title": "TEMA",
-      "text": "",
-      "maturity_levels": [
-        {
-          "level": 0,
-          "label": "Nível 0",
-          "description": "",
-          "evidence_signals": {
-            "observable_behaviors": []
-          }
-        },
-        {
-          "level": 1,
-          "label": "Nível 1",
-          "description": "",
-          "evidence_signals": {
-            "observable_behaviors": []
-          }
-        },
-        {
-          "level": 2,
-          "label": "Nível 2",
-          "description": "",
-          "evidence_signals": {
-            "observable_behaviors": []
-          }
-        },
-        {
-          "level": 3,
-          "label": "Nível 3",
-          "description": "",
-          "evidence_signals": {
-            "observable_behaviors": []
-          }
-        },
-        {
-          "level": 4,
-          "label": "Nível 4",
-          "description": "",
-          "evidence_signals": {
-            "observable_behaviors": []
-          }
-        },
-        {
-          "level": 5,
-          "label": "Nível 5",
-          "description": "",
-          "evidence_signals": {
-            "observable_behaviors": []
-          }
-        },
-        {
-          "level": 6,
-          "label": "Nível 6",
-          "description": "",
-          "evidence_signals": {
-            "observable_behaviors": []
-          }
-        }
-      ]
     }
   ],
   "references": [

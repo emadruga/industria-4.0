@@ -128,7 +128,11 @@
           "label": "Nível 0",
           "description": "Nenhuma análise de dados automatizada é realizada na empresa.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "Não há sistemas de análise de dados integrados",
+              "Gerentes não conseguem visualizar dados consolidados de diferentes áreas",
+              "Decisões são tomadas sem visibilidade integrada do negócio"
+            ]
           }
         },
         {
@@ -163,8 +167,8 @@
         },
         {
           "level": 4,
-          "label": "A análise integra dados de forma vertical, conectando o shop floor (TI/TO) com sistemas de gestão corporativa (Enterprise), como ERP ou SCM (ex",
-          "description": "analisar como o OEE da produção impacta o custo financeiro do produto no ERP).",
+          "label": "Nível 4",
+          "description": "A análise integra dados de forma vertical, conectando o shop floor (TI/TO) com sistemas de gestão corporativa (Enterprise), como ERP ou SCM (ex: analisar como o OEE da produção impacta o custo financeiro do produto no ERP).",
           "evidence_signals": {
             "observable_behaviors": [
               "O gerente financeiro (Controller) recebe um relatório que mostra como a queda de eficiência de 5% na Linha 3 aumentou o custo real do \"Pedido X\" em 2%"
@@ -173,8 +177,8 @@
         },
         {
           "level": 5,
-          "label": "A análise integra dados verticalmente (fábrica + gestão) e horizontalmente, incluindo dados de parceiros externos (ex",
-          "description": "fornecedores ou clientes) para otimizar processos (ex: prever como um atraso de matéria-prima impactará o OEE).",
+          "label": "Nível 5",
+          "description": "A análise integra dados verticalmente (fábrica + gestão) e horizontalmente, incluindo dados de parceiros externos (ex: fornecedores ou clientes) para otimizar processos (ex: prever como um atraso de matéria-prima impactará o OEE).",
           "evidence_signals": {
             "observable_behaviors": [
               "O sistema de compras dispara um alerta de risco, informando que a produção está 10% acima do planejado e que, se o fornecedor \"Y\" não adiantar a entrega, a linha irá parar em 48 horas"
@@ -217,13 +221,17 @@
           "label": "Nível 0",
           "description": "Nenhuma análise é realizada; os processos são executados com base na intuição e experiência.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "\"Se a máquina quebra, eu chamo o operador mais antigo, ele sabe o que fazer\"",
+              "Não existem ferramentas de análise ou BI",
+              "Todas as decisões baseadas em experiência pessoal sem suporte de dados"
+            ]
           }
         },
         {
           "level": 1,
-          "label": "A análise é 100% manual. Os dados são exportados (ex",
-          "description": "CSV) e analisados manualmente em ferramentas de planilha (ex: Excel).",
+          "label": "Nível 1",
+          "description": "A análise é 100% manual. Os dados são exportados (ex: CSV) e analisados manualmente em ferramentas de planilha (ex: Excel).",
           "evidence_signals": {
             "observable_behaviors": [
               "\"Se a máquina quebra, eu chamo o operador mais antigo, ele sabe o que fazer"
@@ -232,8 +240,8 @@
         },
         {
           "level": 2,
-          "label": "A análise é automatizada, mas limitada a regras fixas e pré-programadas (ex",
-          "description": "scripts SQL, relatórios de BI) para exibir dados históricos ou em tempo real (ex: \"mostrar todas as paradas > 5 min\").",
+          "label": "Nível 2",
+          "description": "A análise é automatizada, mas limitada a regras fixas e pré-programadas (ex: scripts SQL, relatórios de BI) para exibir dados históricos ou em tempo real (ex: \"mostrar todas as paradas > 5 min\").",
           "evidence_signals": {
             "observable_behaviors": [
               "\"Eu tenho um dashboard que me mostra as paradas de ontem, aí eu investigo"
@@ -242,8 +250,8 @@
         },
         {
           "level": 3,
-          "label": "Os sistemas aplicam regras de diagnóstico complexas (árvores de decisão, expert systems) que foram definidas manualmente por especialistas para identificar causas conhecidas (ex",
-          "description": "\"Se Temp > 80 E Vibração > 5, ENTÃO Causa Provável = Falha no Rolamento\").",
+          "label": "Nível 3",
+          "description": "Os sistemas aplicam regras de diagnóstico complexas (árvores de decisão, expert systems) que foram definidas manualmente por especialistas para identificar causas conhecidas (ex: \"Se Temp > 80 E Vibração > 5, ENTÃO Causa Provável = Falha no Rolamento\").",
           "evidence_signals": {
             "observable_behaviors": [
               "\"Nós programamos o sistema para alertar sempre que a pressão X e a temperatura Y saem da faixa que o engenheiro definiu"
@@ -252,8 +260,8 @@
         },
         {
           "level": 4,
-          "label": "A empresa utiliza modelos preditivos (ex",
-          "description": "regressão, forecasting) que são treinados por especialistas (ex: Cientistas de Dados) e depois implantados no sistema. O modelo é estático até ser manualmente retreinado.",
+          "label": "Nível 4",
+          "description": "A empresa utiliza modelos preditivos (ex: regressão, forecasting) que são treinados por especialistas (ex: Cientistas de Dados) e depois implantados no sistema. O modelo é estático até ser manualmente retreinado.",
           "evidence_signals": {
             "observable_behaviors": [
               "\"Nossa equipe de dados criou um modelo que prevê o risco de parada",
@@ -263,8 +271,8 @@
         },
         {
           "level": 5,
-          "label": "A empresa utiliza ativamente técnicas de Machine Learning (ex",
-          "description": "clustering, redes neurais) para descobrir novas correlações, anomalias e padrões nos dados que não eram previamente conhecidos pelos especialistas.",
+          "label": "Nível 5",
+          "description": "A empresa utiliza ativamente técnicas de Machine Learning (ex: clustering, redes neurais) para descobrir novas correlações, anomalias e padrões nos dados que não eram previamente conhecidos pelos especialistas.",
           "evidence_signals": {
             "observable_behaviors": [
               "\"O sistema de IA analisou 6 meses de dados e descobriu que a maioria das nossas falhas de qualidade acontece 3 horas após a troca de turno, mas apenas quando usamos o material do Fornecedor B",
@@ -274,8 +282,8 @@
         },
         {
           "level": 6,
-          "label": "Os sistemas são adaptativos e utilizam autoaprendizado (ex",
-          "description": "online learning, reinforcement learning), ajustando seus próprios modelos e algoritmos continuamente à medida que novos dados chegam, sem a necessidade de intervenção humana.",
+          "label": "Nível 6",
+          "description": "Os sistemas são adaptativos e utilizam autoaprendizado (ex: online learning, reinforcement learning), ajustando seus próprios modelos e algoritmos continuamente à medida que novos dados chegam, sem a necessidade de intervenção humana.",
           "evidence_signals": {
             "observable_behaviors": [
               "\"O algoritmo que otimiza o consumo de energia do forno se ajusta sozinho",
@@ -309,7 +317,11 @@
           "label": "Nível 0",
           "description": "A análise de dados não é realizada; as decisões são tomadas com base na percepção imediata do evento.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "\"Quando a máquina para, eu vejo o problema e decido na hora o que fazer\"",
+              "Não há relatórios ou dashboards disponíveis",
+              "Pode levar semanas para saber o que aconteceu em um evento passado"
+            ]
           }
         },
         {
@@ -324,8 +336,8 @@
         },
         {
           "level": 2,
-          "label": "A análise é automatizada, mas executada em lotes (batch) com baixa frequência (ex",
-          "description": "diária, semanal ou mensal). As decisões são sempre baseadas em dados históricos (ex: D-1 ou S-1).",
+          "label": "Nível 2",
+          "description": "A análise é automatizada, mas executada em lotes (batch) com baixa frequência (ex: diária, semanal ou mensal). As decisões são sempre baseadas em dados históricos (ex: D-1 ou S-1).",
           "evidence_signals": {
             "observable_behaviors": [
               "\"Toda manhã, na reunião das 8h, olhamos o relatório da produção do dia anterior para definir as ações de hoje"
@@ -334,8 +346,8 @@
         },
         {
           "level": 3,
-          "label": "A análise é executada em intervalos frequentes (ex",
-          "description": "a cada hora), permitindo uma visão \"quase em tempo real\" (near real-time) e a tomada de decisões táticas dentro de um mesmo turno ou dia de trabalho.",
+          "label": "Nível 3",
+          "description": "A análise é executada em intervalos frequentes (ex: a cada hora), permitindo uma visão \"quase em tempo real\" (near real-time) e a tomada de decisões táticas dentro de um mesmo turno ou dia de trabalho.",
           "evidence_signals": {
             "observable_behaviors": [
               "\"Eu atualizo o painel a cada hora para ver se estamos dentro da meta do turno"

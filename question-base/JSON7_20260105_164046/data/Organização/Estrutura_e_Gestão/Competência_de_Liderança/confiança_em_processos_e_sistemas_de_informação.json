@@ -121,10 +121,27 @@
         }
       ],
       "artifacts": [
-        "Documentação de processos operacionais e de suporte. Sistemas de informação implementados (ERP, MES, SCADA, CRM, etc.). Registros de decisões baseadas em dados. Relatórios de performance e dashboards. Políticas de governança de processos e dados. Histórico de uso de sistemas (logs de acesso, frequência de uso). Pesquisas de satisfação com sistemas. Treinamentos sobre processos e sistemas. Indicadores de qualidade de dados. Políticas de confiabilidade e SLA de sistemas."
+        "Documentação de processos operacionais e de suporte.",
+        "Sistemas de informação implementados (ERP, MES, SCADA, CRM, etc.).",
+        "Registros de decisões baseadas em dados.",
+        "Relatórios de performance e dashboards.",
+        "Políticas de governança de processos e dados.",
+        "Histórico de uso de sistemas (logs de acesso, frequência de uso).",
+        "Pesquisas de satisfação com sistemas.",
+        "Treinamentos sobre processos e sistemas.",
+        "Indicadores de qualidade de dados.",
+        "Políticas de confiabilidade e SLA de sistemas."
       ],
       "metrics": [
-        "Taxa de adesão a processos formalizados. % de decisões baseadas em dados vs intuição. Frequência de uso de sistemas de informação. Índice de confiança nos dados (survey). Taxa de erros em dados. % de processos digitalizados. Tempo médio para acesso a informações. Taxa de utilização de dashboards e relatórios. NPS de sistemas de informação. % de colaboradores treinados em sistemas e processos."
+        "Taxa de adesão a processos formalizados.",
+        "% de decisões baseadas em dados vs intuição.",
+        "Frequência de uso de sistemas de informação. Índice de confiança nos dados (survey).",
+        "Taxa de erros em dados.",
+        "% de processos digitalizados.",
+        "Tempo médio para acesso a informações.",
+        "Taxa de utilização de dashboards e relatórios.",
+        "NPS de sistemas de informação.",
+        "% de colaboradores treinados em sistemas e processos."
       ],
       "sampling_guidance": "Entrevistar 10-15 colaboradores de diferentes níveis sobre confiança em processos e sistemas. Analisar decisões recentes e identificar base (dados vs intuição). Revisar logs de acesso a sistemas. Analisar pesquisas de satisfação com sistemas. Avaliar qualidade e completude de dados em sistemas críticos."
     },
@@ -227,10 +244,27 @@
         }
       ],
       "artifacts": [
-        "Programa de conscientização de segurança (conteúdo, frequência, modalidades). Políticas e procedimentos de segurança da informação. Registros de treinamentos (participação, conclusão, avaliações). Métricas de comportamento seguro (phishing simulations, auditorias). Incidentes de segurança reportados. Canais de comunicação sobre segurança (newsletters, alertas). Ferramentas de gestão de segurança (SIEM, EDR, DLP). Certificações de segurança (ISO 27001, SOC 2). Pesquisas de cultura de segurança. Plano de resposta a incidentes."
+        "Programa de conscientização de segurança (conteúdo, frequência, modalidades).",
+        "Políticas e procedimentos de segurança da informação.",
+        "Registros de treinamentos (participação, conclusão, avaliações).",
+        "Métricas de comportamento seguro (phishing simulations, auditorias).",
+        "Incidentes de segurança reportados.",
+        "Canais de comunicação sobre segurança (newsletters, alertas).",
+        "Ferramentas de gestão de segurança (SIEM, EDR, DLP).",
+        "Certificações de segurança (ISO 27001, SOC 2).",
+        "Pesquisas de cultura de segurança.",
+        "Plano de resposta a incidentes."
       ],
       "metrics": [
-        "% de colaboradores treinados anualmente. Taxa de conclusão de treinamentos obrigatórios. Taxa de cliques em phishing simulado (phishing test rate). Tempo médio para conclusão de treinamentos. Número de incidentes de segurança por colaborador. Taxa de reporte de incidentes suspeitos. % de colaboradores que passam em testes de conhecimento. Frequência de comunicações sobre segurança. Índice de cultura de segurança (survey). Tempo médio de resposta a incidentes."
+        "% de colaboradores treinados anualmente.",
+        "Taxa de conclusão de treinamentos obrigatórios.",
+        "Taxa de cliques em phishing simulado (phishing test rate).",
+        "Tempo médio para conclusão de treinamentos.",
+        "Número de incidentes de segurança por colaborador.",
+        "Taxa de reporte de incidentes suspeitos.",
+        "% de colaboradores que passam em testes de conhecimento.",
+        "Frequência de comunicações sobre segurança. Índice de cultura de segurança (survey).",
+        "Tempo médio de resposta a incidentes."
       ],
       "sampling_guidance": "Analisar programa de conscientização dos últimos 12 meses: conteúdo, frequência, formato, participação. Revisar métricas de phishing simulado e incidentes. Entrevistar 10-15 colaboradores sobre conhecimento e práticas de segurança. Analisar políticas e procedimentos de segurança. Avaliar ferramentas e capacidades técnicas de segurança."
     },
@@ -334,10 +368,28 @@
         }
       ],
       "artifacts": [
-        "Arquitetura de integração de sistemas (diagramas, documentação técnica). Plataformas de integração (ESB, iPaaS, API Gateway). Catálogo de APIs e interfaces. Registros de integrações implementadas. Padrões de dados e protocolos utilizados. Logs de transações entre sistemas. Documentação de fluxos de dados. Contratos de integração com parceiros externos. Ferramentas de monitoramento de integrações. Roadmap de integrações planejadas."
+        "Arquitetura de integração de sistemas (diagramas, documentação técnica).",
+        "Plataformas de integração (ESB, iPaaS, API Gateway).",
+        "Catálogo de APIs e interfaces.",
+        "Registros de integrações implementadas.",
+        "Padrões de dados e protocolos utilizados.",
+        "Logs de transações entre sistemas.",
+        "Documentação de fluxos de dados.",
+        "Contratos de integração com parceiros externos.",
+        "Ferramentas de monitoramento de integrações.",
+        "Roadmap de integrações planejadas."
       ],
       "metrics": [
-        "% de sistemas integrados vs isolados. Número de integrações automatizadas vs manuais. Tempo médio para implementar nova integração. Taxa de falhas em integrações. % de dados replicados vs compartilhados. Latência de sincronização de dados. % de integrações via APIs vs métodos legados. Número de sistemas em silos. % de dados disponíveis em tempo real. Custo de manutenção de integrações."
+        "% de sistemas integrados vs isolados.",
+        "Número de integrações automatizadas vs manuais.",
+        "Tempo médio para implementar nova integração.",
+        "Taxa de falhas em integrações.",
+        "% de dados replicados vs compartilhados.",
+        "Latência de sincronização de dados.",
+        "% de integrações via APIs vs métodos legados.",
+        "Número de sistemas em silos.",
+        "% de dados disponíveis em tempo real.",
+        "Custo de manutenção de integrações."
       ],
       "sampling_guidance": "Mapear todos os sistemas de informação e suas integrações (matriz de integração). Analisar arquitetura de integração e padrões utilizados. Entrevistar 5-8 profissionais de TI sobre desafios de integração. Revisar logs de falhas e incidentes de integração. Avaliar plataformas e ferramentas de integração disponíveis."
     },
@@ -444,10 +496,28 @@
         }
       ],
       "artifacts": [
-        "Políticas de SLA (Service Level Agreement) para sistemas críticos. Registros de disponibilidade e uptime. Logs de incidentes e interrupções. Planos de continuidade de negócios (BCP) e recuperação de desastres (DRP). Arquitetura de infraestrutura (redundância, failover). Ferramentas de monitoramento (APM, SIEM). Documentação de testes de DR. Cronogramas de manutenção. Análises de causa raiz (RCA) de incidentes. Métricas de MTBF (Mean Time Between Failures) e MTTR (Mean Time To Repair)."
+        "Políticas de SLA (Service Level Agreement) para sistemas críticos.",
+        "Registros de disponibilidade e uptime.",
+        "Logs de incidentes e interrupções.",
+        "Planos de continuidade de negócios (BCP) e recuperação de desastres (DRP).",
+        "Arquitetura de infraestrutura (redundância, failover).",
+        "Ferramentas de monitoramento (APM, SIEM).",
+        "Documentação de testes de DR.",
+        "Cronogramas de manutenção.",
+        "Análises de causa raiz (RCA) de incidentes.",
+        "Métricas de MTBF (Mean Time Between Failures) e MTTR (Mean Time To Repair)."
       ],
       "metrics": [
-        "Disponibilidade percentual (uptime %). Número de incidentes por mês. Tempo médio de inatividade (MTTR). Tempo médio entre falhas (MTBF). % de SLAs cumpridos. Duração média de incidentes. Taxa de sucesso em testes de DR. RTO (Recovery Time Objective) e RPO (Recovery Point Objective) alcançados. % de sistemas com redundância. Impacto de indisponibilidade (horas de produção perdidas, custo)."
+        "Disponibilidade percentual (uptime %).",
+        "Número de incidentes por mês.",
+        "Tempo médio de inatividade (MTTR).",
+        "Tempo médio entre falhas (MTBF).",
+        "% de SLAs cumpridos.",
+        "Duração média de incidentes.",
+        "Taxa de sucesso em testes de DR.",
+        "RTO (Recovery Time Objective) e RPO (Recovery Point Objective) alcançados.",
+        "% de sistemas com redundância.",
+        "Impacto de indisponibilidade (horas de produção perdidas, custo)."
       ],
       "sampling_guidance": "Analisar registros de disponibilidade dos últimos 12 meses para sistemas críticos. Revisar todos os incidentes significativos: duração, impacto, causa raiz, ações corretivas. Entrevistar equipes de TI sobre resiliência e preparação. Avaliar arquitetura de infraestrutura e redundâncias. Revisar planos de DR e frequência de testes."
     }

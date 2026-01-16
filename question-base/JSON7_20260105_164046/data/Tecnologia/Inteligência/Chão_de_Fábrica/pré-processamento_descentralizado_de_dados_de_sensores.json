@@ -312,8 +312,8 @@
         },
         {
           "level": 6,
-          "label": "Os sistemas embarcados executam processamento complexo em tempo real (ex",
-          "description": "modelos de IA, fusão de sensores) para tomar decisões de controle e segurança de forma autônoma (ex: parada de emergência preditiva, otimização de trajetória), garantindo a operação mesmo com falha na rede central.",
+          "label": "Nível 6",
+          "description": "Os sistemas embarcados executam processamento complexo em tempo real (ex: modelos de IA, fusão de sensores) para tomar decisões de controle e segurança de forma autônoma (ex: parada de emergência preditiva, otimização de trajetória), garantindo a operação mesmo com falha na rede central.",
           "evidence_signals": {
             "observable_behaviors": [
               "Os sistemas embarcados executam processamento complexo (ex: IA, modelos de segurança) em tempo real para tomar decisões autônomas críticas, garantindo a operação segura e otimizada mesmo durante uma falha completa da rede central"

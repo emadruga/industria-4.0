@@ -34,8 +34,8 @@
           "description": "Os sistemas de TI administrativos não estão conectados.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Sistemas baseados em computador não conseguem interagir ou trocar informações",
-              "Os processos são executados em silos, baseados em métodos informais"
+              "Sistemas baseados em computador não conseguem interagir ou trocar informações.",
+              "Os processos são executados em silos, baseados em métodos informais."
             ]
           }
         },
@@ -45,7 +45,7 @@
           "description": "Existem links formais de rede que permitem que os sistemas interajam e troquem informações.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Os sistemas operam com o suporte de ferramentas analógicas"
+              "Os sistemas operam com o suporte de ferramentas analógicas."
             ]
           }
         },
@@ -55,7 +55,7 @@
           "description": "Os sistemas de TI da empresa são interoperáveis em múltiplos protocolos e tecnologias de comunicação.",
           "evidence_signals": {
             "observable_behaviors": [
-              "A troca parcial de informações ocorre sem restrições significativas"
+              "A troca parcial de informações ocorre sem restrições significativas."
             ]
           }
         },
@@ -65,7 +65,7 @@
           "description": "A Integração Vertical (ligação produção-gestão) e Horizontal (ligação processos/stakeholders) é formalizada.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Sistemas críticos como ERP, PLM e MES estão integrados"
+              "Sistemas críticos como ERP, PLM e MES estão integrados."
             ]
           }
         },
@@ -75,7 +75,7 @@
           "description": "Os sistemas de TI interoperáveis são capazes de comunicação em tempo real.",
           "evidence_signals": {
             "observable_behaviors": [
-              "A informação é trocada no momento em que é gerada, sem atraso"
+              "A informação é trocada no momento em que é gerada, sem atraso."
             ]
           }
         },
@@ -85,8 +85,8 @@
           "description": "A arquitetura de sistemas suporta uma plataforma central que conecta e fornece informações.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Os sistemas de TI podem simular possíveis cenários futuros para suporte à decisão",
-              "A arquitetura digital corporativa integra dados operacionais e administrativos de uma camada única de informação, permitindo análise preditiva"
+              "Os sistemas de TI podem simular possíveis cenários futuros para suporte à decisão.",
+              "A arquitetura digital corporativa integra dados operacionais e administrativos de uma camada única de informação, permitindo análise preditiva."
             ]
           }
         },
@@ -96,18 +96,27 @@
           "description": "A infraestrutura digital e as interfaces suportam mecanismos de auto-aprendizado.",
           "evidence_signals": {
             "observable_behaviors": [
-              "As informações são utilizadas para implementar automaticamente as medidas correspondentes sem necessidade de intervenção humana, através do uso de IA ou orquestradores para decisão automática"
+              "As informações são utilizadas para implementar automaticamente as medidas correspondentes sem necessidade de intervenção humana, através do uso de IA ou orquestradores para decisão automática."
             ]
           }
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Diagramas de arquitetura de sistemas corporativos (ERP, MES, PLM). Mapa integrado de software. Documentação de protocolos de comunicação bidirecional. Plano de integração horizontal com parceiros/clientes. Registro de rastreabilidade de materiais/produtos. Relatório de avaliação da Qualidade dos Dados."
+        "Diagramas de arquitetura de sistemas corporativos (ERP, MES, PLM).", 
+        "Mapa integrado de software.", 
+        "Documentação de protocolos de comunicação bidirecional.", 
+        "Plano de integração horizontal com parceiros/clientes.", 
+        "Registro de rastreabilidade de materiais/produtos.", 
+        "Relatório de avaliação da Qualidade dos Dados."
       ],
       "metrics": [
-        "Métricas/KPIs Porcentagem de sistemas de TI empresariais interconectados. Taxa de uso de metadados estruturados no sistema. Porcentagem de processos com Integração Horizontal na cadeia de valor. Porcentagem de decisões operacionais baseadas em dados em tempo real. Percentual de integrações realizadas por APIs padronizadas."
+        "Porcentagem de sistemas de TI empresariais interconectados.", 
+        "Taxa de uso de metadados estruturados no sistema.", 
+        "Porcentagem de processos com Integração Horizontal na cadeia de valor.", 
+        "Porcentagem de decisões operacionais baseadas em dados em tempo real.", 
+        "Percentual de integrações realizadas por APIs padronizadas."
       ],
-      "sampling_guidance": "Amostragem Selecionar 3-5 artefatos relevantes para evidência dos sinais (logs de integração e relatórios de interoperabilidade ERP-MES), atualizados nos últimos 90 dias."
+      "sampling_guidance": "Selecionar 3-5 artefatos relevantes para evidência dos sinais (logs de integração e relatórios de interoperabilidade ERP-MES), atualizados nos últimos 90 dias."
     },
     {
       "id": "Q-TEC-CONECT-CORPOR-022-002",
@@ -121,8 +130,8 @@
           "description": "A infraestrutura de rede não é definida.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Não existem processos definidos envolvendo padronização de interfaces",
-              "Não há planos estratégicos para a transformação digital da indústria"
+              "Não existem processos definidos envolvendo padronização de interfaces.",
+              "Não há planos estratégicos para a transformação digital da indústria."
             ]
           }
         },
@@ -132,8 +141,8 @@
           "description": "Existe uma infraestrutura de rede, mas as interfaces disponíveis são proprietárias, com baixo grau de customização e interoperabilidade.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Há links formais de rede instalados",
-              "O uso generalizado de protocolos de rede padronizados (como o IP, por exemplo) no chão de fábrica é um requisito chave"
+              "Há links formais de rede instalados.",
+              "O uso generalizado de protocolos de rede padronizados (como o IP, por exemplo) no chão de fábrica é um requisito chave."
             ]
           }
         },
@@ -143,8 +152,8 @@
           "description": "Há um esforço para padronizar ou usar tecnologias e protocolos de comunicação complementares.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Existem evidências e artefatos documentando a padronização de interfaces e definição de templates de dados",
-              "Os sistemas de informação começam a ser usados para identificar desvios"
+              "Existem evidências e artefatos documentando a padronização de interfaces e definição de templates de dados.",
+              "Os sistemas de informação começam a ser usados para identificar desvios."
             ]
           }
         },
@@ -154,8 +163,8 @@
           "description": "As interfaces de dados são padronizadas e os formatos de troca de dados são implementados para conectar os sistemas de TI.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Todos os sistemas implementados são especificados para atenderem padrões específicos de interface e troca de dados",
-              "A aquisição de novos ativos inclui requisitos de interoperabilidade que garantem a manutenção desses padrões"
+              "Todos os sistemas implementados são especificados para atenderem padrões específicos de interface e troca de dados.",
+              "A aquisição de novos ativos inclui requisitos de interoperabilidade que garantem a manutenção desses padrões."
             ]
           }
         },
@@ -165,41 +174,51 @@
           "description": "A arquitetura de TI é planejada para evitar que diferentes departamentos utilizem sistemas de TI que não sejam interoperáveis.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Existem padrões estabelecidos de interface e troca de dados documentados e auditáveis que estão vigentes para todos os departamentos que necessitam de integração com os ativos industriais"
+              "Existem padrões estabelecidos de interface e troca de dados documentados e auditáveis que estão vigentes para todos os departamentos que necessitam de integração com os ativos industriais."
             ]
           }
         },
         {
           "level": 5,
           "label": "Nível 5",
-          "description": "As interfaces existentes podem ser configuradas de forma rápida e fácil para acomodar quaisquer modificações na composição dos sistemas",
+          "description": "As interfaces existentes podem ser configuradas de forma rápida e fácil para acomodar quaisquer modificações na composição dos sistemas.",
           "evidence_signals": {
             "observable_behaviors": [
-              "A infraestrutura de rede e interfaces é escalável",
-              "A Capacidade Técnica Digital (DTC) inclui planejamento de necessidades e capacidade da infraestrutura de TI em planos de médio a longo prazo",
-              "Os sistemas utilizam dados padronizados para simular possíveis cenários futuros"
+              "A infraestrutura de rede e interfaces é escalável.",
+              "A Capacidade Técnica Digital (DTC) inclui planejamento de necessidades e capacidade da infraestrutura de TI em planos de médio a longo prazo.",
+              "Os sistemas utilizam dados padronizados para simular possíveis cenários futuros."
             ]
           }
         },
         {
           "level": 6,
           "label": "Nível 6",
-          "description": "O sistema executa reorganização dinâmica e se adapta automaticamente à integração de novos ativos e sistemas",
+          "description": "O sistema executa reorganização dinâmica e se adapta automaticamente à integração de novos ativos e sistemas.",
           "evidence_signals": {
             "observable_behaviors": [
-              "A infraestrutura é capaz de reorganização dinâmica e adaptação automática contínua à integração de novos ativos e sistemas",
-              "O sistema executa decisões de auto-otimização (por exemplo, em desempenho)"
+              "A infraestrutura é capaz de reorganização dinâmica e adaptação automática contínua à integração de novos ativos e sistemas.",
+              "O sistema executa decisões de auto-otimização (por exemplo, em desempenho)."
             ]
           }
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Plano de Capacidade de TI (DTC). Documentação de uso de interfaces abertas (e.g., APIs). Inventário de sistemas de TI não supervisionados (shadow IT). Diretrizes de uso de protocolos padronizados na rede corporativa. Plano de implementação de Cloud Computing. Relatórios de auditoria de aderência a formatos de troca de dados."
+        "Plano de Capacidade de TI (DTC).", 
+        "Documentação de uso de interfaces abertas (e.g., APIs).", 
+        "Inventário de sistemas de TI não supervisionados (shadow IT).", 
+        "Diretrizes de uso de protocolos padronizados na rede corporativa.", 
+        "Plano de implementação de Cloud Computing.", 
+        "Relatórios de auditoria de aderência a formatos de troca de dados."
       ],
       "metrics": [
-        "Métricas/KPIs Tempo médio de reconfiguração de interfaces. Número de sistemas de TI paralelos (shadow IT) detectados. Disponibilidade (%) da infraestrutura digital da empresa. Porcentagem de sistemas operando em tempo real. Percentual de interfaces documentadas e auditadas. Tempo médio de integração de um novo sistema (indicador de agilidade)."
+        "Tempo médio de reconfiguração de interfaces.", 
+        "Número de sistemas de TI paralelos (shadow IT) detectados.", 
+        "Disponibilidade (%) da infraestrutura digital da empresa.", 
+        "Porcentagem de sistemas operando em tempo real.", 
+        "Percentual de interfaces documentadas e auditadas.", 
+        "Tempo médio de integração de um novo sistema (indicador de agilidade)."
       ],
-      "sampling_guidance": "Amostragem Selecionar 3-5 artefatos relevantes (inventário de APIs e integrações com sistemas legados) para evidência dos sinais, atualizados nos últimos 90 dias."
+      "sampling_guidance": "Selecionar 3-5 artefatos relevantes (inventário de APIs e integrações com sistemas legados) para evidência dos sinais, atualizados nos últimos 90 dias."
     },
     {
       "id": "Q-TEC-CONECT-CORPOR-022-003",
@@ -213,8 +232,8 @@
           "description": "Não há metadados estruturados ou unificados. Não existem políticas de governança de dados nem foco em segurança.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Os sistemas de TI administrativos não estão conectados",
-              "A governança de dados é tratada de forma inexistente ou totalmente ad-hoc"
+              "Os sistemas de TI administrativos não estão conectados.",
+              "A governança de dados é tratada de forma inexistente ou totalmente ad-hoc."
             ]
           }
         },
@@ -224,19 +243,19 @@
           "description": "A empresa reconhece a necessidade de formalizar sua política de governança de dados, mas possui ainda poucas iniciativas.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Existem links formais de rede para interconexão dos sistemas, entretanto não existem especificações estruturadas para a troca de dados"
+              "Existem links formais de rede para interconexão dos sistemas, entretanto não existem especificações estruturadas para a troca de dados."
             ]
           }
         },
         {
           "level": 2,
           "label": "Nível 2",
-          "description": "A empresa começa a coletar e aproveitar os fluxos de dados estruturados e não estruturados.",
+          "description": "A empresa tem iniciativas para coletar e aproveitar os fluxos de dados estruturados e não estruturados.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Os sistemas são interoperáveis, podendo interagir e trocar informações sem restrições significativas",
-              "Há esforços básicos para gerenciar o risco de ameaças cibernéticas",
-              "Catálogo de dados estruturados e não estruturados em consolidação"
+              "Os sistemas são interoperáveis, podendo interagir e trocar informações sem restrições significativas.",
+              "Há esforços básicos para gerenciar o risco de ameaças cibernéticas.",
+              "Catálogo de dados estruturados e não estruturados em consolidação."
             ]
           }
         },
@@ -246,8 +265,8 @@
           "description": "Políticas de governança de dados são sistematicamente desenvolvidas e mantidas.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Um framework com políticas de segurança está em vigor para proteger a rede interoperável contra acesso indesejado e/ou disrupção",
-              "Políticas de governança de dados são sistematicamente desenvolvidas e mantidas para orientar o processamento, armazenamento e gerenciamento de dados"
+              "Um framework com políticas de segurança está em vigor para proteger a rede interoperável contra acesso indesejado e/ou disrupção.",
+              "Políticas de governança de dados são sistematicamente desenvolvidas e mantidas para orientar o processamento, armazenamento e gerenciamento de dados."
             ]
           }
         },
@@ -257,8 +276,8 @@
           "description": "A empresa utiliza metadados estruturados e unificados.",
           "evidence_signals": {
             "observable_behaviors": [
-              "Há iniciativas para melhorar a qualidade dos dados e oferecer suporte à comunicação em tempo real",
-              "Os dados são analisados para produzir conhecimento por meio de análise de causa raiz"
+              "Há iniciativas para melhorar a qualidade dos dados e oferecer suporte à comunicação em tempo real.",
+              "Os dados são analisados para produzir conhecimento por meio de análise de causa raiz."
             ]
           }
         },
@@ -268,8 +287,8 @@
           "description": "Dados de alta qualidade são armazenados centralmente e analisados automaticamente.",
           "evidence_signals": {
             "observable_behaviors": [
-              "A governança de dados é priorizada em todos os níveis e a empresa busca conformidade com padrões internacionais para proteção de dados",
-              "Monitoramento contínuo de integridade e conformidade com normas (ISO 27001, LGP"
+              "A governança de dados é priorizada em todos os níveis e a empresa busca conformidade com padrões internacionais para proteção de dados.",
+              "Monitoramento contínuo de integridade e conformidade com base em normas (e.g., ISO 27001, LGPD)"
             ]
           }
         },
@@ -278,17 +297,29 @@
           "label": "Nível 6",
           "description": "A governança de dados inclui mecanismos de auto-aprendizado que ajustam os formatos de dados de forma autônoma para otimizar os sistemas.",
           "evidence_signals": {
-            "observable_behaviors": []
+            "observable_behaviors": [
+              "O processamento e análise de dados incluem mecanismos de auto-aprendizado, adaptando-se continuamente às circunstâncias.", 
+              "Os sistemas de TI são capazes de executar decisões de forma autônoma para otimizar o desempenho e adaptar-se a mudanças."
+            ]
           }
         }
       ],
       "artifacts": [
-        "Artefatos e onde buscar Políticas de Governança de Dados formalizadas. Framework de Segurança Cibernética. Inventário de metadados estruturados e unificados. Plano de proteção de dados de stakeholders. Relatórios de auditoria de conformidade (e.g., ISO27001). Relatório de avaliação de riscos de segurança."
+        "Políticas de Governança de Dados formalizadas.", 
+        "Framework de Segurança Cibernética.", 
+        "Inventário de metadados estruturados e unificados.", 
+        "Plano de proteção de dados de stakeholders.", 
+        "Relatórios de auditoria de conformidade (e.g., ISO27001).", 
+        "Relatório de avaliação de riscos de segurança."
       ],
       "metrics": [
-        "Métricas/KPIs Taxa de incidentes de segurança cibernética. Índice de Qualidade dos Dados (acurácia, coerência). Tempo de Recuperação de Desastres (TDR). Porcentagem de sistemas operando sob governança de dados. Taxa de atualização de metadados."
+        "Taxa de incidentes de segurança cibernética.", 
+        "Índice de Qualidade dos Dados (acurácia, coerência).", 
+        "Tempo de Recuperação de Desastres (TDR).", 
+        "Porcentagem de sistemas operando sob governança de dados.", 
+        "Taxa de atualização de metadados."
       ],
-      "sampling_guidance": ". N6: O processamento e análise de dados incluem mecanismos de auto-aprendizado, adaptando-se continuamente às circunstâncias. Os sistemas de TI são capazes de executar decisões de forma autônoma para otimizar o desempenho e adaptar-se a mudanças. D) Amostragem Selecionar 3-5 artefatos relevantes para evidência dos sinais (relatórios de qualidade de dados, logs de auditoria de conformidade, políticas de metadados e fluxos ETL), atualizados nos últimos 90 dias."
+      "sampling_guidance": "Selecionar 3-5 artefatos relevantes para evidência dos sinais (relatórios de qualidade de dados, logs de auditoria de conformidade, políticas de metadados e fluxos ETL), atualizados nos últimos 90 dias."
     }
   ],
   "references": [
