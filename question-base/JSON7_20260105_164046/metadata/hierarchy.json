@@ -40,7 +40,14 @@
                   "id": "CAP-ORG-ESTRUT-COLABO-003",
                   "name": "Comunicação eficiente",
                   "file_path": "data/Organização/Estrutura_e_Gestão/Colaboração_Inter_e_Intra-Empresarial/comunicação_eficiente.json",
-                  "question_count": 7,
+                  "question_count": 3,
+                  "status": "draft"
+                },
+                {
+                  "id": "CAP-ORG-ESTRUT-COLABO-003",
+                  "name": "Comunidades flexíveis",
+                  "file_path": "data/Organização/Estrutura_e_Gestão/Colaboração_Inter_e_Intra-Empresarial/comunidades_flexíveis.json",
+                  "question_count": 4,
                   "status": "draft"
                 },
                 {
@@ -99,9 +106,23 @@
               "capacities": [
                 {
                   "id": "CAP-ORG-ESTRUT-ESTRAT-004",
+                  "name": "Gestão de direitos de decisão",
+                  "file_path": "data/Organização/Estrutura_e_Gestão/Estratégia_e_Governança/Gestão_de_direitos_de_decisão.json",
+                  "question_count": 3,
+                  "status": "draft"
+                },
+                {
+                  "id": "CAP-ORG-ESTRUT-ESTRAT-004",
+                  "name": "Dar forma à mudança",
+                  "file_path": "data/Organização/Estrutura_e_Gestão/Estratégia_e_Governança/dar_forma_à_mudança.json",
+                  "question_count": 4,
+                  "status": "draft"
+                },
+                {
+                  "id": "CAP-ORG-ESTRUT-ESTRAT-004",
                   "name": "Governança de dados",
                   "file_path": "data/Organização/Estrutura_e_Gestão/Estratégia_e_Governança/governança_de_dados.json",
-                  "question_count": 11,
+                  "question_count": 4,
                   "status": "draft"
                 }
               ]
@@ -222,7 +243,14 @@
                   "id": "CAP-TEC-AUTOMA-CHÃOFÁ-020",
                   "name": "Design de interfaces orientado à tarefa",
                   "file_path": "data/Tecnologia/Automação/Chão_de_Fábrica/design_de_interfaces_orientado_à_tarefa.json",
-                  "question_count": 3,
+                  "question_count": 2,
+                  "status": "draft"
+                },
+                {
+                  "id": "CAP-TEC-AUTOMA-CHÃOFÁ-221",
+                  "name": "Interface de usuário específica",
+                  "file_path": "data/Tecnologia/Automação/Chão_de_Fábrica/interface_de_usuário_específica.json",
+                  "question_count": 1,
                   "status": "draft"
                 }
               ]
@@ -267,7 +295,14 @@
                   "id": "CAP-TEC-CONECT-INSTAL-023",
                   "name": "Infraestrutura de TI resiliente",
                   "file_path": "data/Tecnologia/Conectividade/Instalações/infraestrutura_de_ti_resiliente.json",
-                  "question_count": 7,
+                  "question_count": 4,
+                  "status": "draft"
+                },
+                {
+                  "id": "CAP-TEC-CONECT-INSTAL-222",
+                  "name": "Segurança de TI",
+                  "file_path": "data/Tecnologia/Conectividade/Instalações/segurança_de_ti.json",
+                  "question_count": 3,
                   "status": "draft"
                 }
               ]
@@ -330,7 +365,7 @@
     }
   ],
   "statistics": {
-    "total_capacities": 23,
+    "total_capacities": 28,
     "total_questions": 136,
     "total_dimensions": 15,
     "total_pilares": 7

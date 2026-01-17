@@ -3,7 +3,7 @@
 Complete hierarchical view from blocks to individual questions.
 
 **Total Questions:** 136
-**Total Capacities:** 23
+**Total Capacities:** 28
 
 ---
 
@@ -17,10 +17,10 @@ Complete hierarchical view from blocks to individual questions.
 | Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Comunicação eficiente | `Q-ORG-ESTRUT-COLABO-003-001` | Como a comunicação e a troca de informações são estruturadas |
 | Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Comunicação eficiente | `Q-ORG-ESTRUT-COLABO-003-002` | Como se dá a comunicação com Parceiros? |
 | Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Comunicação eficiente | `Q-ORG-ESTRUT-COLABO-003-003` | Como se dá normalmente a comunicação entre os funcionários? |
-| Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Comunicação eficiente | `Q-ORG-ESTRUT-COLABO-003-004` | Como a estrutura organizacional da empresa apoia a colaboraç |
-| Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Comunicação eficiente | `Q-ORG-ESTRUT-COLABO-003-005` | De que forma as ferramentas de TI e plataformas de colaboraç |
-| Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Comunicação eficiente | `Q-ORG-ESTRUT-COLABO-003-006` | Como a gestão de desempenho e os sistemas de metas estão ada |
-| Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Comunicação eficiente | `Q-ORG-ESTRUT-COLABO-003-007` | Como a gestão ágil e a distribuição de autoridade são aplica |
+| Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Comunidades flexíveis | `Q-ORG-ESTRUT-COLABO-003-004` | Como a estrutura organizacional da empresa apoia a colaboraç |
+| Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Comunidades flexíveis | `Q-ORG-ESTRUT-COLABO-003-005` | De que forma as ferramentas de TI e plataformas de colaboraç |
+| Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Comunidades flexíveis | `Q-ORG-ESTRUT-COLABO-003-006` | Como a gestão de desempenho e os sistemas de metas estão ada |
+| Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Comunidades flexíveis | `Q-ORG-ESTRUT-COLABO-003-007` | Como a gestão ágil e a distribuição de autoridade são aplica |
 | Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Cooperação dentro da rede | `Q-ORG-ESTRUT-COOPER-009-001` | Comunicação e compartilhamento de informações |
 | Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Cooperação dentro da rede | `Q-ORG-ESTRUT-COOPER-009-002` | Colaboração na cadeia de valor |
 | Organização | Estrutura e Gestão | Colaboração Inter e Intra-Empresarial | Cooperação dentro da rede | `Q-ORG-ESTRUT-COOPER-009-003` | Participação em redes de inovação |
@@ -54,17 +54,17 @@ Complete hierarchical view from blocks to individual questions.
 | Organização | Estrutura e Gestão | Competência de Liderança | Sistemas de metas motivacionais | `Q-ORG-ESTRUT-COMPET-005-004` | Frequência e Ciclos de Revisão de Metas |
 | Organização | Estrutura e Gestão | Competência de Liderança | Sistemas de metas motivacionais | `Q-ORG-ESTRUT-COMPET-005-005` | Conexão entre Metas e Propósito Organizacional |
 | Organização | Estrutura e Gestão | Competência de Liderança | Sistemas de metas motivacionais | `Q-ORG-ESTRUT-COMPET-005-006` | Uso de Dados e Analytics na Definição de Metas |
+| Organização | Estrutura e Gestão | Estratégia e Governança | Gestão de direitos de decisão | `Q-ORG-ESTRUT-ESTRAT-004-005` | Como a sua empresa gerencia os direitos de decisão, equilibr |
+| Organização | Estrutura e Gestão | Estratégia e Governança | Gestão de direitos de decisão | `Q-ORG-ESTRUT-ESTRAT-004-006` | Em que medida a empresa delega a autoridade de decisão de pr |
+| Organização | Estrutura e Gestão | Estratégia e Governança | Gestão de direitos de decisão | `Q-ORG-ESTRUT-ESTRAT-004-007` | Em que medida os tomadores de decisão (em todos os níveis) t |
+| Organização | Estrutura e Gestão | Estratégia e Governança | Dar forma à mudança | `Q-ORG-ESTRUT-ESTRAT-004-008` | Qual é a atitude e o nível de autonomia dos funcionários par |
+| Organização | Estrutura e Gestão | Estratégia e Governança | Dar forma à mudança | `Q-ORG-ESTRUT-ESTRAT-004-009` | Como a estrutura de gestão reage (apoia, bloqueia, ignora) q |
+| Organização | Estrutura e Gestão | Estratégia e Governança | Dar forma à mudança | `Q-ORG-ESTRUT-ESTRAT-004-010` | Qual é a postura do funcionário em relação à sua responsabil |
+| Organização | Estrutura e Gestão | Estratégia e Governança | Dar forma à mudança | `Q-ORG-ESTRUT-ESTRAT-004-011` | Qual é a abordagem predominante da organização para implemen |
 | Organização | Estrutura e Gestão | Estratégia e Governança | Governança de dados | `Q-ORG-ESTRUT-ESTRAT-004-001` | Qual o nível atual da 'Governança de Dados' na sua organizaç |
 | Organização | Estrutura e Gestão | Estratégia e Governança | Governança de dados | `Q-ORG-ESTRUT-ESTRAT-004-002` | Como se dá a Gestão de Dados Mestres (MDM)? |
 | Organização | Estrutura e Gestão | Estratégia e Governança | Governança de dados | `Q-ORG-ESTRUT-ESTRAT-004-003` | Como se dá a Gestão da Qualidade de Dados (DQM)? |
 | Organização | Estrutura e Gestão | Estratégia e Governança | Governança de dados | `Q-ORG-ESTRUT-ESTRAT-004-004` | Há Padronização de Interfaces de Dados? |
-| Organização | Estrutura e Gestão | Estratégia e Governança | Governança de dados | `Q-ORG-ESTRUT-ESTRAT-004-005` | Como a sua empresa gerencia os direitos de decisão, equilibr |
-| Organização | Estrutura e Gestão | Estratégia e Governança | Governança de dados | `Q-ORG-ESTRUT-ESTRAT-004-006` | Em que medida a empresa delega a autoridade de decisão de pr |
-| Organização | Estrutura e Gestão | Estratégia e Governança | Governança de dados | `Q-ORG-ESTRUT-ESTRAT-004-007` | Em que medida os tomadores de decisão (em todos os níveis) t |
-| Organização | Estrutura e Gestão | Estratégia e Governança | Governança de dados | `Q-ORG-ESTRUT-ESTRAT-004-008` | Qual é a atitude e o nível de autonomia dos funcionários par |
-| Organização | Estrutura e Gestão | Estratégia e Governança | Governança de dados | `Q-ORG-ESTRUT-ESTRAT-004-009` | Como a estrutura de gestão reage (apoia, bloqueia, ignora) q |
-| Organização | Estrutura e Gestão | Estratégia e Governança | Governança de dados | `Q-ORG-ESTRUT-ESTRAT-004-010` | Qual é a postura do funcionário em relação à sua responsabil |
-| Organização | Estrutura e Gestão | Estratégia e Governança | Governança de dados | `Q-ORG-ESTRUT-ESTRAT-004-011` | Qual é a abordagem predominante da organização para implemen |
 | Organização | Prontidão de Talentos | Aprendizado e Desenvolvimento da Força de Trabalho | Desenvolvimento profissional contínuo | `Q-ORG-PRONTI-APREND-012-001` | Estratégia e planejamento do aprendizado |
 | Organização | Prontidão de Talentos | Aprendizado e Desenvolvimento da Força de Trabalho | Desenvolvimento profissional contínuo | `Q-ORG-PRONTI-APREND-012-002` | Personalização e acessibilidade do aprendizado |
 | Organização | Prontidão de Talentos | Aprendizado e Desenvolvimento da Força de Trabalho | Desenvolvimento profissional contínuo | `Q-ORG-PRONTI-APREND-012-003` | Cultura e engajamento para o autodesenvolvimento |
@@ -113,7 +113,7 @@ Complete hierarchical view from blocks to individual questions.
 | Processo | Operações/Cadeia de Suprimentos | Vertical (D1) | Vertical (D1) - primário | `Q-PROC-OPERAÇ-VERTIC-016-005` | Inteligência analítica e integração preditiva |
 | Tecnologia | Automação | Chão de Fábrica | Design de interfaces orientado à tarefa | `Q-TEC-AUTOMA-CHÃOFÁ-020-001` | Adequabilidade das interfaces ao operador |
 | Tecnologia | Automação | Chão de Fábrica | Design de interfaces orientado à tarefa | `Q-TEC-AUTOMA-CHÃOFÁ-020-002` | Design de Interfaces Homem/Máquina (HMI) sensível a contexto |
-| Tecnologia | Automação | Chão de Fábrica | Design de interfaces orientado à tarefa | `Q-TEC-AUTOMA-CHÃOFÁ-020-003` | Impacto das interfaces de Chão de Fábrica |
+| Tecnologia | Automação | Chão de Fábrica | Interface de usuário específica | `Q-TEC-AUTOMA-CHÃOFÁ-221-001` | Impacto das interfaces de Chão de Fábrica |
 | Tecnologia | Conectividade | Chão de Fábrica | Aquisição de dados por sensores e atuadores | `Q-TEC-CONECT-CHÃOFÁ-024-001` | Habilitação Tecnológica e Criação de CPS |
 | Tecnologia | Conectividade | Chão de Fábrica | Aquisição de dados por sensores e atuadores | `Q-TEC-CONECT-CHÃOFÁ-024-002` | Pré-processamento e Descentralização dos Dados |
 | Tecnologia | Conectividade | Chão de Fábrica | Aquisição de dados por sensores e atuadores | `Q-TEC-CONECT-CHÃOFÁ-024-003` | Interoperabilidade e Integração de Ativos Legados |
@@ -125,9 +125,9 @@ Complete hierarchical view from blocks to individual questions.
 | Tecnologia | Conectividade | Instalações | Infraestrutura de TI resiliente | `Q-TEC-CONECT-INSTAL-023-002` | Integração entre Infraestrutura e Sistemas Críticos da Instalação |
 | Tecnologia | Conectividade | Instalações | Infraestrutura de TI resiliente | `Q-TEC-CONECT-INSTAL-023-003` | Escalabilidade da Infraestrutura da Instalação |
 | Tecnologia | Conectividade | Instalações | Infraestrutura de TI resiliente | `Q-TEC-CONECT-INSTAL-023-004` | Administração Segura dos Ativos da Instalação |
-| Tecnologia | Conectividade | Instalações | Infraestrutura de TI resiliente | `Q-TEC-CONECT-INSTAL-023-005` | Controle de Acesso aos Ativos da Instalação |
-| Tecnologia | Conectividade | Instalações | Infraestrutura de TI resiliente | `Q-TEC-CONECT-INSTAL-023-006` | Validação de Saúde do Sistema |
-| Tecnologia | Conectividade | Instalações | Infraestrutura de TI resiliente | `Q-TEC-CONECT-INSTAL-023-007` | Controle de Fluxo de Dados |
+| Tecnologia | Conectividade | Instalações | Segurança de TI | `Q-TEC-CONECT-INSTAL-222-001` | Controle de Acesso aos Ativos da Instalação |
+| Tecnologia | Conectividade | Instalações | Segurança de TI | `Q-TEC-CONECT-INSTAL-222-002` | Validação de Saúde do Sistema |
+| Tecnologia | Conectividade | Instalações | Segurança de TI | `Q-TEC-CONECT-INSTAL-222-003` | Controle de Fluxo de Dados |
 | Tecnologia | Inteligência | Chão de Fábrica | Pré-processamento descentralizado de dados de sensores | `Q-TEC-INTELI-CHÃOFÁ-001-001` | Em que medida a sua organização utiliza sistemas embarcados |
 | Tecnologia | Inteligência | Chão de Fábrica | Pré-processamento descentralizado de dados de sensores | `Q-TEC-INTELI-CHÃOFÁ-001-002` | Em que medida a sua organização utiliza o pré-processamento |
 | Tecnologia | Inteligência | Chão de Fábrica | Pré-processamento descentralizado de dados de sensores | `Q-TEC-INTELI-CHÃOFÁ-001-003` | Em que medida a sua organização utiliza o processamento desc |
